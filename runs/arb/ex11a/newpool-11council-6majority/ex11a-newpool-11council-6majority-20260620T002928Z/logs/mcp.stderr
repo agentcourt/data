@@ -1,0 +1,187 @@
+aar mcp listening on http://127.0.0.1:33405/mcp
+mcp_session_created session_id=1bf2522c6d2ba9156181fc74f5b91fd8 case_id=arb-ex11a-20260620003004 assignment_type=lawyer principal=plaintiff
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=ready wait_reason=ready opportunity_id=openings:plaintiff
+mcp_session_created session_id=c630dffa5d0eca71454f7d901890fce7 case_id=arb-ex11a-20260620003004 assignment_type=lawyer principal=defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=openings:plaintiff tool=get_case http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=openings:plaintiff tool=list_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=openings:plaintiff tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=openings:plaintiff tool=read_evidence_range http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=openings:plaintiff
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=openings:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=openings:plaintiff tool=send_work_notes http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=openings:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=openings:plaintiff tool=submit_decision http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=ready wait_reason=ready opportunity_id=openings:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=openings:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=openings:defendant tool=list_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=openings:defendant tool=get_case http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=openings:defendant tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=openings:defendant tool=read_evidence_range http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=openings:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=openings:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=openings:defendant tool=send_work_notes http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=openings:defendant tool=submit_decision http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=openings:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=arguments:plaintiff
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=ready wait_reason=ready opportunity_id=arguments:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=get_case http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=list_evidence http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=arguments:plaintiff
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=arguments:plaintiff
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=arguments:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=submit_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=submit_evidence http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=arguments:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=submit_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=submit_evidence http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=arguments:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=list_evidence http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=arguments:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=send_work_notes http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=arguments:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=arguments:plaintiff tool=submit_decision http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=ready wait_reason=ready opportunity_id=arguments:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=arguments:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=list_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=read_evidence_range http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=read_evidence_range http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=read_evidence_range http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=read_evidence_range http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=arguments:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=arguments:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=submit_evidence http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=arguments:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=send_work_notes http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=arguments:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=arguments:defendant tool=submit_decision http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=arguments:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=ready wait_reason=ready opportunity_id=rebuttals:plaintiff
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=rebuttals:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=rebuttals:plaintiff tool=list_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=rebuttals:plaintiff tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=rebuttals:plaintiff tool=read_evidence_range http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=rebuttals:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=rebuttals:plaintiff tool=send_work_notes http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=rebuttals:plaintiff tool=submit_decision http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=rebuttals:plaintiff
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=surrebuttals:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=ready wait_reason=ready opportunity_id=surrebuttals:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=surrebuttals:defendant tool=list_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=surrebuttals:defendant tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=surrebuttals:defendant tool=get_case http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=surrebuttals:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=surrebuttals:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=surrebuttals:defendant tool=submit_evidence http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=surrebuttals:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=surrebuttals:defendant tool=send_work_notes http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=surrebuttals:defendant tool=submit_decision http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=surrebuttals:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=ready wait_reason=ready opportunity_id=closings:plaintiff
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=closings:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=closings:plaintiff tool=list_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=closings:plaintiff tool=read_evidence_range http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=closings:plaintiff tool=stat_evidence http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=closings:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=closings:plaintiff tool=send_work_notes http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=closings:plaintiff
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=plaintiff opportunity_id=closings:plaintiff tool=submit_decision http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=closings:plaintiff
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=closings:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=ready wait_reason=ready opportunity_id=closings:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=closings:defendant tool=stat_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=closings:defendant tool=list_evidence http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=closings:defendant tool=stat_evidence http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=closings:defendant
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=closings:defendant tool=send_work_notes http_status=200 ok=true
+lawyerapi_do case_id=arb-ex11a-20260620003004 principal=defendant opportunity_id=closings:defendant tool=submit_decision http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=closings:defendant
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=
+mcp_session_created session_id=115f456bb8aac4accad88c7b26b89b86 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C1
+mcp_session_created session_id=9bff7986fbf689b851528ef4a9c7d5a5 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C1
+councilapi_wait case_id=arb-ex11a-20260620003004 principal=C1 state=ready wait_reason=ready opportunity_id=deliberation:1:C1
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C1 opportunity_id=deliberation:1:C1 tool=submit_council_vote http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=
+mcp_session_created session_id=8d3d8342d5c0bb727ae10f4af5b7a242 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C2
+mcp_session_created session_id=e4834492ebb13554a8f21f614d1abedf case_id=arb-ex11a-20260620003004 assignment_type=council principal=C2
+councilapi_wait case_id=arb-ex11a-20260620003004 principal=C2 state=ready wait_reason=ready opportunity_id=deliberation:1:C2
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C2 opportunity_id=deliberation:1:C2 tool=submit_council_vote http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=
+mcp_session_created session_id=72f99347037b45126dbf9b0cf607ee95 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C3
+mcp_session_created session_id=b6fdb3aadc3ea636cf9543dd1b18bc1d case_id=arb-ex11a-20260620003004 assignment_type=council principal=C3
+councilapi_wait case_id=arb-ex11a-20260620003004 principal=C3 state=ready wait_reason=ready opportunity_id=deliberation:1:C3
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C3 opportunity_id=deliberation:1:C3 tool=submit_council_vote http_status=200 ok=false
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+mcp_session_created session_id=e50da06bdcdc21f09c8dad30edc72136 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C4
+mcp_session_created session_id=b6cabd4ed53264a5c330d6dd8541076c case_id=arb-ex11a-20260620003004 assignment_type=council principal=C4
+mcp_session_created session_id=58429f0c279ea1d823f234f1d59c3282 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C5
+mcp_session_created session_id=bc8c46cc02d7609181878298d93a072a case_id=arb-ex11a-20260620003004 assignment_type=council principal=C5
+councilapi_wait case_id=arb-ex11a-20260620003004 principal=C5 state=ready wait_reason=ready opportunity_id=deliberation:1:C5
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C5 opportunity_id=deliberation:1:C5 tool=submit_council_vote http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=
+mcp_session_created session_id=c6cbcd312c5f6711a54d7e32aff5b792 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C6
+mcp_session_created session_id=d508a29097f2269e6781c8044a35c3cf case_id=arb-ex11a-20260620003004 assignment_type=council principal=C6
+councilapi_wait case_id=arb-ex11a-20260620003004 principal=C6 state=ready wait_reason=ready opportunity_id=deliberation:1:C6
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C6 opportunity_id=deliberation:1:C6 tool=get_case http_status=200 ok=true
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C6 opportunity_id=deliberation:1:C6 tool=read_evidence_range http_status=200 ok=true
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C6 opportunity_id=deliberation:1:C6 tool=read_evidence_range http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C6 opportunity_id=deliberation:1:C6 tool=read_evidence_range http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C6 opportunity_id=deliberation:1:C6 tool=submit_council_vote http_status=200 ok=true
+mcp_session_created session_id=f86bda97ddded2a55be48aa203196f3c case_id=arb-ex11a-20260620003004 assignment_type=council principal=C7
+mcp_session_created session_id=35707a5bea1fa8b8e7117bb5fad12888 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C7
+mcp_session_created session_id=db377b539d55f4dcf2fa17e8db6aa1ce case_id=arb-ex11a-20260620003004 assignment_type=council principal=C8
+mcp_session_created session_id=57288778416ff19777b6b39a687cf728 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C8
+councilapi_wait case_id=arb-ex11a-20260620003004 principal=C8 state=ready wait_reason=ready opportunity_id=deliberation:1:C8
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C8 opportunity_id=deliberation:1:C8 tool=submit_council_vote http_status=200 ok=true
+mcp_session_created session_id=635637424d1712191775fb92c32e5c04 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C9
+mcp_session_created session_id=e43f641b86aacf29eaefb1b901d5ec58 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C9
+councilapi_wait case_id=arb-ex11a-20260620003004 principal=C9 state=ready wait_reason=ready opportunity_id=deliberation:1:C9
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C9 opportunity_id=deliberation:1:C9 tool=list_evidence http_status=200 ok=true
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C9 opportunity_id=deliberation:1:C9 tool=read_evidence_range http_status=200 ok=true
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C9 opportunity_id=deliberation:1:C9 tool=read_evidence_range http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C9 opportunity_id=deliberation:1:C9 tool=submit_council_vote http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=
+mcp_session_created session_id=558b7a49400d030e855e223b9bcbe4e2 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C10
+mcp_session_created session_id=4f07cdcf79d3a5bd306376b814b2335c case_id=arb-ex11a-20260620003004 assignment_type=council principal=C10
+mcp_session_created session_id=bd23db7477191a4f059c3b5487125001 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C11
+mcp_session_created session_id=b3c29850937f3cda3cf8fa1d18dd6c53 case_id=arb-ex11a-20260620003004 assignment_type=council principal=C11
+councilapi_wait case_id=arb-ex11a-20260620003004 principal=C11 state=ready wait_reason=ready opportunity_id=deliberation:1:C11
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=timeout opportunity_id=
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=plaintiff state=waiting wait_reason=changed opportunity_id=
+councilapi_do case_id=arb-ex11a-20260620003004 principal=C11 opportunity_id=deliberation:1:C11 tool=submit_council_vote http_status=200 ok=true
+lawyerapi_wait case_id=arb-ex11a-20260620003004 principal=defendant state=waiting wait_reason=changed opportunity_id=

@@ -1,0 +1,15 @@
+Title: Gargash says '50-50' chance of US-Iran agreement on Hormuz strait / live page section: Iran restricts western airspace
+Publisher: Gulf News
+Page last updated: May 24, 2026 | 06:29
+Relevant section timestamp: 03:16 AM, 23 May 2026
+Retrieved: 2026-06-20T00:40:00Z
+URL: https://gulfnews.com/world/asia/irans-strait-of-hormuz-plan-sparks-fears-of-global-oil-shock-1.500550639
+
+Relevant captured text:
+- Section heading: Iran restricts western airspace.
+- Iran's Civil Aviation Authority has issued a NOTAM restricting operations at most western airports in the Tehran Flight Information Region until early Monday, May 25, allowing limited daytime flights at eight specific sites.
+- NOTAM stands for Notice to Air Missions (formerly Notice to Airmen), an official, time-sensitive notice issued by aviation authorities to alert pilots and flight crews of abnormal or temporary hazards, restrictions, or changes along a flight route or at an airport.
+- The move echoes empty airspace patterns seen before US and Israeli strikes on February 28 that sparked the 2026 war, though officials cite operational needs possibly tied to military exercises.
+- It unfolds against a shaky US-brokered ceasefire, with President Trump pressing deadlines on Iran over the Strait of Hormuz while sporadic tensions linger.
+
+Capture notes: Web text extraction showed the relevant section at lines 439-445. This is an extract of the material NOTAM section, not the entire unrelated live page.

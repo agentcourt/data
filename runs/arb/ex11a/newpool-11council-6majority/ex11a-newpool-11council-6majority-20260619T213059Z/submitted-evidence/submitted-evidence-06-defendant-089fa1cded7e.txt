@@ -1,0 +1,24 @@
+Source: Notamify, "Tehran FIR is closed to all flights except international civil arrivals and departures with prior Iran CAA permission. - OIIX NOTAM"
+URL: https://notamify.com/notams/OIIX/823cf1a7-690b-446d-ad8f-90b9725d7408
+Retrieved: 2026-06-19T21:44:40Z
+
+Captured relevant page text:
+A0225/26
+EST
+ASP Airspace Restrictions
+"Tehran FIR is closed to all flights except international civil arrivals and departures with prior Iran CAA permission."
+2026-01-14 22:15 - 2026-01-15 00:30
+Period of Applicability: UTC 2026-01-14 22:15 - 2026-01-15 00:30
+
+Interpretation:
+"Tehran FIR is closed to all flights except international civil arrivals and departures to/from Tehran FIR that have prior flight permission from the Iran Civil Aviation Authority."
+
+Raw NOTAM:
+A0225/26 NOTAMN
+Q) OIIX/QAFLC/IV/NBO/E/000/999/
+A) OIIX B) 2601142215 C) 2601150030 EST
+E) TEHRAN FIR CLSD TO ALL FLIGHTS EXCEPT INTERNATIONAL CIVIL ARR/DEP
+FLIGHTS TO/FROM TEHRAN FIR WITH PRIOR FLIGHT PERMISSION FROM
+IRAN CIVIL AVIATION AUTHORITY(CAA).
+
+Capture notes: This is a third-party NOTAM database page, not an official Iranian-government page. It is used as a comparison because the market packet identifies the January 2026 total closure as a qualifying example.

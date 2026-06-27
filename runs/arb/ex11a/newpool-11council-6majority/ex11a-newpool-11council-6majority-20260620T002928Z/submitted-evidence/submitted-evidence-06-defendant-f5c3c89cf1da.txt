@@ -1,0 +1,22 @@
+Title: Appendix B. International NOTAM (Q) Codes
+Publisher/source: Federal Aviation Administration, FAA Order 7930.2
+Retrieved: 2026-06-20T00:51:00Z
+URL: https://www.faa.gov/air_traffic/publications/atpubs/notam_html/appendix_b.html
+
+Relevant captured text:
+- This appendix is used to interpret coded international NOTAMs. A NOTAM code group contains five letters.
+- The first letter is always Q to indicate a NOTAM code abbreviation.
+- The second and third letters identify the subject being reported.
+- The fourth and fifth letters identify the status of operation of the subject being reported.
+
+Relevant subject-code entries:
+- Under ATM Airspace Organization: AF = Flight information region (uniform phraseology: fir).
+- Under ATM Airspace Organization: AR = ATS route (uniform phraseology: ats route).
+- Under AGA Facilities and Services: FA = Aerodrome (uniform phraseology: ad).
+
+Relevant status-code entries:
+- Under Limitations: LC = Closed (uniform phraseology: clsd).
+- Under Limitations: LI = Closed to IFR operations.
+- Under Limitations: LV = Closed to VFR operations.
+
+Capture notes: This extract is from the FAA's public international NOTAM Q-code appendix. It is used only to decode the admitted raw NOTAM QFALC, not as evidence of the Iranian event itself.

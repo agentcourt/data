@@ -1,0 +1,117 @@
+{
+  "dataset": "agentcourt-data",
+  "generated_at": "2026-06-27",
+  "runs": [
+    {
+      "case": "arb/examples/ex11a",
+      "case_id": "arb-ex11a-20260619213136",
+      "file_count": 89,
+      "final_reason": "no_majority",
+      "finished_at": "2026-06-19T22:10:20Z",
+      "path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T213059Z",
+      "phase": "closed",
+      "policy": {
+        "council_size": 11,
+        "evidence_standard": "Preponderance of the evidence.",
+        "max_deliberation_rounds": 3,
+        "required_votes_for_decision": 6
+      },
+      "resolution": "no_majority",
+      "run_id": "run-arb-ex11a-20260619213136",
+      "sha256sums_path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T213059Z/SHA256SUMS",
+      "sha256sums_sha256": "2a7f066633b901ad4e2331c5f9e5ec8746e69df46532889e44bdc9e0747a34ea",
+      "started_at": "2026-06-19T21:31:36Z",
+      "status": "ok",
+      "total_bytes": 25678290
+    },
+    {
+      "case": "arb/examples/ex11a",
+      "case_id": "arb-ex11a-20260619223222",
+      "file_count": 73,
+      "final_reason": "demonstrated",
+      "finished_at": "2026-06-19T23:02:43Z",
+      "path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T223155Z",
+      "phase": "closed",
+      "policy": {
+        "council_size": 11,
+        "evidence_standard": "Preponderance of the evidence.",
+        "max_deliberation_rounds": 3,
+        "required_votes_for_decision": 6
+      },
+      "resolution": "demonstrated",
+      "run_id": "run-arb-ex11a-20260619223222",
+      "sha256sums_path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T223155Z/SHA256SUMS",
+      "sha256sums_sha256": "a287af5399d74746f245902248883e1a6af209564322464cf514833d1936fdf3",
+      "started_at": "2026-06-19T22:32:22Z",
+      "status": "ok",
+      "total_bytes": 41788632
+    },
+    {
+      "case": "arb/examples/ex11a",
+      "case_id": "arb-ex11a-20260619230546",
+      "file_count": 73,
+      "final_reason": "demonstrated",
+      "finished_at": "2026-06-19T23:33:42Z",
+      "path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T230528Z",
+      "phase": "closed",
+      "policy": {
+        "council_size": 11,
+        "evidence_standard": "Preponderance of the evidence.",
+        "max_deliberation_rounds": 3,
+        "required_votes_for_decision": 6
+      },
+      "resolution": "demonstrated",
+      "run_id": "run-arb-ex11a-20260619230546",
+      "sha256sums_path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T230528Z/SHA256SUMS",
+      "sha256sums_sha256": "6d7e85f1d6ee0cdeaea9ce376e4e4808a5fa6feb3ef311000212183497c873a7",
+      "started_at": "2026-06-19T23:05:46Z",
+      "status": "ok",
+      "total_bytes": 59273351
+    },
+    {
+      "case": "arb/examples/ex11a",
+      "case_id": "arb-ex11a-20260619235218",
+      "file_count": 73,
+      "final_reason": "demonstrated",
+      "finished_at": "2026-06-20T00:18:58Z",
+      "path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T235158Z",
+      "phase": "closed",
+      "policy": {
+        "council_size": 11,
+        "evidence_standard": "Preponderance of the evidence.",
+        "max_deliberation_rounds": 3,
+        "required_votes_for_decision": 6
+      },
+      "resolution": "demonstrated",
+      "run_id": "run-arb-ex11a-20260619235218",
+      "sha256sums_path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T235158Z/SHA256SUMS",
+      "sha256sums_sha256": "109cd671721afd535836f97ed0ba9b1ce2526a788a1a823b5e9b20c5b9998776",
+      "started_at": "2026-06-19T23:52:18Z",
+      "status": "ok",
+      "total_bytes": 59948613
+    },
+    {
+      "case": "arb/examples/ex11a",
+      "case_id": "arb-ex11a-20260620003004",
+      "file_count": 77,
+      "final_reason": "demonstrated",
+      "finished_at": "2026-06-20T00:59:06Z",
+      "path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260620T002928Z",
+      "phase": "closed",
+      "policy": {
+        "council_size": 11,
+        "evidence_standard": "Preponderance of the evidence.",
+        "max_deliberation_rounds": 3,
+        "required_votes_for_decision": 6
+      },
+      "resolution": "demonstrated",
+      "run_id": "run-arb-ex11a-20260620003004",
+      "sha256sums_path": "runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260620T002928Z/SHA256SUMS",
+      "sha256sums_sha256": "f4ae5ca3e9fbea5fff9f7a8d6ea5d241d1ddc4783ee4ee343c06dff362d8fe62",
+      "started_at": "2026-06-20T00:30:04Z",
+      "status": "ok",
+      "total_bytes": 26125156
+    }
+  ],
+  "schema_version": 1
+}

@@ -1,0 +1,16 @@
+Source: SafeAirspace, "Iran - Safe Airspace"
+URL: https://safeairspace.net/iran/
+Retrieved: 2026-06-19T21:39:30Z
+
+Captured relevant page text:
+"Risk Level: One - Do Not Fly"
+
+"The primary risk in Iranian airspace remains misidentification of civil aircraft by air defence systems during periods of heightened tension. Iran has previously operated advanced air defence and conducted missile activity close to busy international routes with little warning to civil aviation, and the shoot-down of Ukraine International Airlines flight 752 over Tehran in Jan 2020 shows how quickly the situation can deteriorate."
+
+"Several states continue to warn against operations in Iranian airspace, and there have been no significant downgrades to recent airspace warnings."
+
+Major events:
+"June 2026: Iran partially reopened the eastern part of the OIIX/Tehran FIR for overflights, while the western part remains closed."
+"March 2026: OIIX/Tehran FIR closed following large-scale US and Israeli strikes on Iranian military targets and subsequent Iranian missile and drone retaliation across the Middle East."
+
+Capture notes: This source is context and corroboration on the importance and continued status of western Tehran FIR restrictions; it is not the May 22 raw NOTAM and does not alone prove market resolution.

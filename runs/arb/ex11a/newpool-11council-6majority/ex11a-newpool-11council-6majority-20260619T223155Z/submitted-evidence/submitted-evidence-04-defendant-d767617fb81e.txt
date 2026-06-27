@@ -1,0 +1,22 @@
+Source: OurAirports Iran airports CSV, https://ourairports.com/countries/IR/airports.csv
+Retrieved: 2026-06-19T22:52:45Z
+Method: curl -sL https://ourairports.com/countries/IR/airports.csv | grep -E 'OIIE|OIII|OIMM|OISS|OIFM|OITR|OIKK|OIAA|OIYY|OICC|OIGG|OIAW'
+
+Captured CSV lines for the five market-listed airports:
+5166,OIIE,large_airport,"Imam Khomeini International Airport",35.416099548339844,51.152198791503906,3305,AS,Iran,IR,"Tehran Province",IR-23,23,Tehran,1,OIIE,OIIE,IKA,,http://www.ikia.ir/,https://en.wikipedia.org/wiki/Imam_Khomeini_International_Airport,Ahmadabad,1200,2008-06-13T14:30:04+00:00
+5168,OIII,large_airport,"Mehrabad International Airport",35.689175,51.314392,3962,AS,Iran,IR,"Tehran Province",IR-23,23,Tehran,1,OIII,OIII,THR,,,https://en.wikipedia.org/wiki/Mehrabad_International_Airport,,1200,2026-02-12T14:59:19+00:00
+5183,OIMM,large_airport,"Mashhad International Airport",36.234821,59.642949,3263,AS,Iran,IR,"Razavi Khorasan Province",IR-09,09,Mashhad,1,OIMM,OIMM,MHD,,https://mashhad.airport.ir/,https://en.wikipedia.org/wiki/Mashhad_International_Airport,"Shahid Hashemi Nejad Airport, Mashhad Shahid Hasheminejad International Airport",1200,2026-01-20T04:11:27+00:00
+5197,OISS,large_airport,"Shiraz Shahid Dastghaib International Airport",29.5392,52.589802,4927,AS,Iran,IR,"Fars Province",IR-07,07,Shiraz,1,OISS,OISS,SYZ,,http://shirazairport.ir/,https://en.wikipedia.org/wiki/Shiraz_International_Airport,,1200,2022-11-20T21:49:09+00:00
+5156,OIFM,large_airport,"Isfahan Shahid Beheshti International Airport",32.755142,51.883877,5059,AS,Iran,IR,"Isfahan Province",IR-10,10,Isfahan,1,OIFM,OIFM,IFN,,,https://en.wikipedia.org/wiki/Isfahan_International_Airport,Esfahan,1000,2026-01-09T23:44:47+00:00
+
+Captured CSV lines for the eight airport identifiers excepted in PX-2 raw NOTAM text:
+5203,OITR,medium_airport,"Urmia Airport",37.6680984497,45.0686988831,4343,AS,Iran,IR,"West Azerbaijan Province",IR-04,04,Urmia,1,OITR,OITR,OMH,,,https://en.wikipedia.org/wiki/Urmia_Airport,,750,2010-08-30T13:04:12+00:00
+5174,OIKK,large_airport,"Ayatollah Hashemi Rafsanjani International Airport",30.271276,56.949692,5741,AS,Iran,IR,"Kerman Province",IR-08,08,Kerman,1,OIKK,OIKK,KER,,,https://en.wikipedia.org/wiki/Ayatollah_Hashemi_Rafsanjani_Airport,,1000,2026-01-09T23:40:26+00:00
+5130,OIAA,large_airport,"Abadan Ayatollah Jami International Airport",30.367887,48.230075,10,AS,Iran,IR,"Khuzestan Province",IR-06,06,Abadan,1,OIAA,OIAA,ABD,,,https://en.wikipedia.org/wiki/Abadan_Airport,"Abadan Airport, فرودگاه بین‌المللی آبادان",1000,2026-01-21T17:04:05+00:00
+5197,OISS,large_airport,"Shiraz Shahid Dastghaib International Airport",29.5392,52.589802,4927,AS,Iran,IR,"Fars Province",IR-07,07,Shiraz,1,OISS,OISS,SYZ,,http://shirazairport.ir/,https://en.wikipedia.org/wiki/Shiraz_International_Airport,,1200,2022-11-20T21:49:09+00:00
+5206,OIYY,medium_airport,"Shahid Sadooghi Airport",31.9048995972,54.2765007019,4054,AS,Iran,IR,"Yazd Province",IR-21,21,Yazd,1,OIYY,OIYY,AZD,,,https://en.wikipedia.org/wiki/Shahid_Sadooghi_Airport,,750,2010-08-30T18:51:30+00:00
+5149,OICC,medium_airport,"Shahid Ashrafi Esfahani Airport",34.3459014893,47.1581001282,4307,AS,Iran,IR,"Kermanshah Province",IR-05,05,Kermanshah,1,OICC,OICC,KSH,,,https://en.wikipedia.org/wiki/Shahid_Ashrafi_Esfahani_Airport,,750,2010-08-30T18:50:18+00:00
+5159,OIGG,medium_airport,"Sardar-e-Jangal Airport",37.323333,49.617778,-40,AS,Iran,IR,"Gilan Province",IR-01,01,Rasht,1,OIGG,OIGG,RAS,,http://rasht.airport.ir/HomePage.aspx?site=rasht.airport&lang=fa-IR&tabid=0,https://en.wikipedia.org/wiki/Rasht_Airport,,750,2012-12-12T10:16:02+00:00
+5137,OIAW,large_airport,"Qasem Soleimani International Airport",31.3364,48.763789,66,AS,Iran,IR,"Khuzestan Province",IR-06,06,Ahvaz,1,OIAW,OIAW,AWZ,,http://ahwaz.airport.ir/,https://en.wikipedia.org/wiki/Ahvaz_International_Airport,"Ahvaz, Ahvaz International Airport, Ahwaz",1000,2026-01-20T04:09:04+00:00
+
+Observation: of the five market-listed airports, the PX-2 exception list explicitly includes OISS/SYZ (Shiraz) but does not list OIIE/IKA, OIII/THR, OIMM/MHD, or OIFM/IFN.

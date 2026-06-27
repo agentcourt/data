@@ -1,0 +1,15 @@
+Source: Arab Times, "Iran Suspends Flight Permissions, Restricts Western Airspace Access"
+URL: https://www.arabtimesonline.com/news/iran-suspends-flight-permissions-restricts-western-airspace-access/
+Published: 23/05/2026
+Retrieved: 2026-06-19T21:39:20Z
+
+Captured relevant page text:
+"TEHRAN, May 23: Iran's Civil Aviation Authority (CAA) has issued a Notice to Airmen (NOTAM) announcing the temporary closure of all airports in the western part of the Tehran Flight Information Region (OIIX), except for a limited number of airports that will operate only during daylight hours from sunrise to sunset."
+
+"According to the NOTAM, the restrictions came into effect on May 22 and will remain valid until May 25, 2026. Airports permitted to continue limited operations include OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG and OIAW."
+
+"The authority also suspended all previously granted flight permissions, stating that all airlines and operators must obtain fresh approval from the Civil Aviation Authority before conducting civil IFR passenger flights to or over the affected airports."
+
+"The move comes amid heightened regional tensions and ongoing security concerns affecting air traffic operations across Iranian airspace."
+
+Capture notes: This is a concise news report and does not reproduce the raw NOTAM number in the captured relevant lines; it corroborates the CAA issuance, timing, exceptions, permission suspension, and non-weather/security context.

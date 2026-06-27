@@ -1,0 +1,30 @@
+Source: Notamify, "All west Tehran FIR airports are closed except listed airports operating sunrise to sunset, with new CAA permission required for civil IFR passenger flights. - OIIX NOTAM"
+URL: https://notamify.com/notams/OIIX/693f2d0f-54d3-433b-8128-49f5475ba269
+Retrieved: 2026-06-19T21:39:00Z
+
+Captured relevant page text:
+A1010/26
+EST
+AD Airport Operations
+All west Tehran FIR airports are closed except listed airports operating sunrise to sunset, with new CAA permission required for civil IFR passenger flights.
+2026-05-22 20:46 - 2026-05-25 08:30
+Age: AGING Issued 28 days ago
+Duration: SHORT 3 days EST
+Period of Applicability: UTC 2026-05-22 20:46 - 2026-05-25 08:30
+
+Interpretation:
+All airports in the west part of Tehran FIR are closed except OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, and OIAW, which are operational from sunrise to sunset. All previous permissions are suspended for all operators, and new permission must be requested from the CAA for operation of civil IFR passenger flights on these airports.
+
+Raw NOTAM:
+A1010/26 NOTAMR A0799/26
+Q)OIIX/QFALC/IV/NBO/A/000/999/
+A)OIIX B)2605222046 C)2605250830EST
+E)REF NOTAM  A0796/26, ALL AIRPORTS IN WEST PART
+OF TEHRAN FIR ARE CLSD
+EXCEPT OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, AND OIAW THAT ARE
+OPERATIONAL FM SUNRISE TO SUNSET (HJ).
+ALL PREVIOUS PERMISSIONS ARE SUSPENDED FOR ALL OPERATORS,
+NEW PERMISSION SHALL BE REQUESTED FM CAA FOR OPRATION OF
+CIVIL IFR PASSENGER FLIGHTS ON THESE AIRPORTS.
+
+Capture notes: Page footer also displayed NOTAM Inactive at retrieval, consistent with a past May 22-25 applicability period. This capture is a third-party NOTAM database page, not an official Iranian-government page.

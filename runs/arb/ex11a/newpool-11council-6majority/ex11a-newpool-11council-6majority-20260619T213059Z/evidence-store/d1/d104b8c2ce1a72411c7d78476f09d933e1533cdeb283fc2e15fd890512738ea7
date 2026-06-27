@@ -1,0 +1,27 @@
+Source: FAA, Order 7930.2, Appendix B. International NOTAM (Q) Codes
+URL: https://www.faa.gov/air_traffic/publications/atpubs/notam_html/appendix_b.html
+Retrieved: 2026-06-19T21:44:20Z
+
+Captured relevant page text:
+"This appendix is to be used to interpret the contents of coded international NOTAMs. A NOTAM code group contains five letters."
+
+"The first letter is always the letter 'Q' to indicate a code abbreviation for use in the composition of NOTAMs."
+
+"The second and third letters identify the subject being reported. (See Second and Third Letter Decode Tables)."
+
+"The fourth and fifth letters identify the status of operation of the subject being reported. (See Fourth and Fifth Letter Decode Tables)."
+
+Second and Third Letter Decode Tables:
+ATM Airspace Organization (A):
+AF - Flight information region - fir
+
+AGA Facilities and Services (F):
+FA - Aerodrome - ad
+
+Fourth and Fifth Letter Decode Tables:
+Limitations (L):
+LC - Closed - clsd
+LI - Closed to IFR operations - clsd ifr ops
+LV - Closed to VFR operations - clsd vfr ops
+
+Capture notes: FAA Appendix B is not an Iran-specific source; it is a general international NOTAM code reference used to interpret the Q-code in admitted NOTAM text.

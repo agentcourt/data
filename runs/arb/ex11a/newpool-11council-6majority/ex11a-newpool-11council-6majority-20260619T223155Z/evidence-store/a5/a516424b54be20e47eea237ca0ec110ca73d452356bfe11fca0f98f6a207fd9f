@@ -1,0 +1,18 @@
+Source: FAA, Order 7930.2 Appendix B, International NOTAM (Q) Codes, https://www.faa.gov/air_traffic/publications/atpubs/notam_html/appendix_b.html
+Retrieved: 2026-06-19T22:52:30Z
+
+Relevant captured text:
+
+This appendix is to be used to interpret the contents of coded international NOTAMs. A NOTAM code group contains five letters.
+
+The first letter is always the letter "Q" to indicate a code abbreviation for use in the composition of NOTAMs.
+
+The second and third letters identify the subject being reported. The fourth and fifth letters identify the status of operation of the subject being reported.
+
+Second and Third Letter Decode Tables, AGA Facilities and Services (F):
+FA - Aerodrome - ad
+
+Fourth and Fifth Letter Decode Tables, Limitations (L):
+LC - Closed - clsd
+
+Application to PX-2: the NOTAM code shown in PX-2 is QFALC. Under the FAA/ICAO-style decode table, FA identifies the subject as an aerodrome and LC identifies the status as closed. This decoding does not by itself state an airspace-route or FIR overflight closure; the operative plain text must still be read for scope.

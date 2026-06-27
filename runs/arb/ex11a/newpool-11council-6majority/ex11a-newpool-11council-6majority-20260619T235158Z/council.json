@@ -1,0 +1,322 @@
+[
+  {
+    "member_id": "C1",
+    "model": "openrouter://qwen/qwen3-coder-plus",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "qwen/qwen3-coder-plus",
+      "provider": {
+        "only": [
+          "alibaba"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "alibaba",
+        "endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+        "openrouter_model_id": "qwen/qwen3-coder-plus",
+        "provider_name": "Alibaba",
+        "quantization": "unknown"
+      }
+    }
+  },
+  {
+    "member_id": "C2",
+    "model": "openrouter://mistralai/mistral-medium-3-5",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "mistralai/mistral-medium-3-5",
+      "provider": {
+        "only": [
+          "mistral"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "mistral",
+        "endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+        "openrouter_model_id": "mistralai/mistral-medium-3-5",
+        "provider_name": "Mistral",
+        "quantization": "unknown"
+      }
+    }
+  },
+  {
+    "member_id": "C3",
+    "model": "openrouter://openai/gpt-oss-120b",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "openai/gpt-oss-120b",
+      "provider": {
+        "only": [
+          "wandb/fp4"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "fp4"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "wandb/fp4",
+        "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+        "openrouter_model_id": "openai/gpt-oss-120b",
+        "provider_name": "WandB",
+        "quantization": "fp4"
+      }
+    }
+  },
+  {
+    "member_id": "C4",
+    "model": "openrouter://anthropic/claude-opus-4.6-fast",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "anthropic/claude-opus-4.6-fast",
+      "provider": {
+        "only": [
+          "anthropic"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "anthropic",
+        "endpoint_variant_id": "6610396895d600d8723907ab",
+        "openrouter_model_id": "anthropic/claude-opus-4.6-fast",
+        "provider_name": "Anthropic",
+        "quantization": "unknown"
+      }
+    }
+  },
+  {
+    "member_id": "C5",
+    "model": "openrouter://deepseek/deepseek-r1",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "deepseek/deepseek-r1",
+      "provider": {
+        "only": [
+          "novita/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "fp8"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "novita/fp8",
+        "endpoint_variant_id": "a06be07cbd945465447dd01a",
+        "openrouter_model_id": "deepseek/deepseek-r1",
+        "provider_name": "Novita",
+        "quantization": "fp8"
+      }
+    }
+  },
+  {
+    "member_id": "C6",
+    "model": "openrouter://qwen/qwen3-next-80b-a3b-thinking",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "qwen/qwen3-next-80b-a3b-thinking",
+      "provider": {
+        "only": [
+          "alibaba"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "alibaba",
+        "endpoint_variant_id": "2c6455bbbc8b1b029c19fa0f",
+        "openrouter_model_id": "qwen/qwen3-next-80b-a3b-thinking",
+        "provider_name": "Alibaba",
+        "quantization": "unknown"
+      }
+    }
+  },
+  {
+    "member_id": "C7",
+    "model": "openrouter://nvidia/nemotron-3-super-120b-a12b",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "provider": {
+        "only": [
+          "digitalocean"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "digitalocean",
+        "endpoint_variant_id": "77172d5f0d6c398057da7cb3",
+        "openrouter_model_id": "nvidia/nemotron-3-super-120b-a12b",
+        "provider_name": "DigitalOcean",
+        "quantization": "unknown"
+      }
+    }
+  },
+  {
+    "member_id": "C8",
+    "model": "openrouter://openai/gpt-4o-mini",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "openai/gpt-4o-mini",
+      "provider": {
+        "only": [
+          "openai"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "openai",
+        "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+        "openrouter_model_id": "openai/gpt-4o-mini",
+        "provider_name": "OpenAI",
+        "quantization": "unknown"
+      }
+    }
+  },
+  {
+    "member_id": "C9",
+    "model": "openrouter://deepseek/deepseek-v3.1-terminus",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "deepseek/deepseek-v3.1-terminus",
+      "provider": {
+        "only": [
+          "siliconflow/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "fp8"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "siliconflow/fp8",
+        "endpoint_variant_id": "f1506dd8c5ee879805352046",
+        "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+        "provider_name": "SiliconFlow",
+        "quantization": "fp8"
+      }
+    }
+  },
+  {
+    "member_id": "C10",
+    "model": "openrouter://qwen/qwen3-30b-a3b-instruct-2507",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": {
+        "only": [
+          "alibaba"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "alibaba",
+        "endpoint_variant_id": "be9974bb86c00c665f936444",
+        "openrouter_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+        "provider_name": "Alibaba",
+        "quantization": "unknown"
+      }
+    }
+  },
+  {
+    "member_id": "C11",
+    "model": "openrouter://poolside/laguna-xs.2",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "poolside/laguna-xs.2",
+      "provider": {
+        "only": [
+          "poolside/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "fp8"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "poolside/fp8",
+        "endpoint_variant_id": "2e268985e53d444e5aee71c4",
+        "openrouter_model_id": "poolside/laguna-xs.2",
+        "provider_name": "Poolside",
+        "quantization": "fp8"
+      }
+    }
+  }
+]
