@@ -3,6 +3,11 @@ set -euo pipefail
 
 cd "$(dirname "$0")/.."
 
+if grep -q '  ./README.md$' SHA256SUMS; then
+  printf '%s\n' 'SHA256SUMS must not include ./README.md' >&2
+  exit 1
+fi
+
 sha256sum --quiet -c SHA256SUMS
 
 for sums in runs/arb/ex11a/newpool-11council-6majority/*/SHA256SUMS; do

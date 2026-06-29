@@ -1,6 +1,5 @@
 4a720ea81f1b4439291e2bca63f52d4413556d8a6ded6edcfdbf2e9cde741763  ./.gitignore
 c6aa2539a231957cadfe67a1e0fb30754b7c8937e795a20916ec50c59d126280  ./NOTICE.md
-6f180bc757ca623ad0ba775344177f231a222f3779ac0048620cba7455239661  ./README.md
 649a37eac8ace4325b603e0617769720eeb1205dbd4e904afcbf2ae2375b2915  ./manifest.json
 0e22f85ece63f42ac3b1b37a083de93ecd610fa32ba0f5b05b5eda6afd61ef80  ./manual.md
 8500859d290b3d3500a709884a04184718aa3436c4d17c0dae298864d796b62b  ./runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T213059Z/complaint.md
@@ -384,4 +383,4 @@ f5c3c89cf1dab2c5a8b9b048febe0cbadf27fe4dfe35afe667d4852f4aedf48c  ./runs/arb/ex1
 7f763b6ce2c56ad653da0dd5391d076f42f3cbb2292f84c1431754c02a304742  ./runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260620T002928Z/transcript.md
 29520c931143869f07accc31ee0d355bea65141c0027025089c21c25eaac473a  ./runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260620T002928Z/work-notes.ndjson
 617b5634a610cbff42295e9cda69dab1f05674560ec5baf509ff8e41753d8691  ./schema.md
-49d6be91e86b528f6863155c523647725fbb2a4f5ab95ce9647644911456de43  ./tools/verify.sh
+db1aae231c9c0a8ac6161cf4e47c1ef10e337ba2a92c43bc1b67897752662ec0  ./tools/verify.sh

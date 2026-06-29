@@ -1,6 +1,6 @@
 # [AgentCourt](https://agentcourt.ai/index) Data
 
-This repository publishes retained AgentCourt [arbitration](https://agentcourt.ai/arb/index) run outputs.  The initial dataset covers five direct local `arb` runs for `examples/ex11a`, using the sampled council pool, an 11-member council, and a six-vote decision threshold.  The data preserves run state, events, transcripts, work notes, admitted evidence, council inputs, council outputs, and process logs.
+This repository publishes retained AgentCourt [arbitration](https://agentcourt.ai/arb/index) run outputs.  The initial dataset covers five direct local `arb` runs for [`examples/ex11a`](https://github.com/agentcourt/adjudication/tree/main/arb/examples/ex11a), using the sampled council pool, an 11-member council, and a six-vote decision threshold.  The data preserves run state, events, transcripts, work notes, admitted evidence, council inputs, council outputs, and process logs.
 
 The run directories are under [the ex11a run set](runs/arb/ex11a/newpool-11council-6majority/).  The top-level [manual](manual.md) explains how to inspect a run and verify file integrity.  The [schema reference](schema.md) documents the retained artifact types.
 
