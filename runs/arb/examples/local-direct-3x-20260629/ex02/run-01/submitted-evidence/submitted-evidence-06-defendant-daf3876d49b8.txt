@@ -1,0 +1,26 @@
+# Press-gaggle / red-carpet transcript capture
+Retrieved: 2026-06-29T18:31:00Z
+
+Source 1: Roll Call / Factbase
+URL: https://rollcall.com/factbase/trump/transcript/donald-trump-press-gaggle-fifa-drawing-december-5-2025/
+Page title: "Press Gaggle: Donald Trump Speaks to Reporters at the FIFA World Cup Drawing - December 5, 2025"
+
+Relevant source note captured from Full Transcript section:
+"Donald Trump walked the red carpet for 18 minutes before the FIFA event. The press pool was only engaged for about three minutes. The video and audio here have been pieced together from TV Azteca, Telemundo, SBT Media and El Destape, among other sources. Portions remain inaudible, as noted."
+
+Relevant transcript passages captured:
+- Donald Trump, 00:01:10-00:01:13: "Got to meet Ronaldo the other day into the White House. He was fantastic. He was a handsome guy and a great guy and his son Barron met him and they had a big conversation. My son loves soccer and football, as you know. But Ronaldo is great. He's a great guy. He's got the whole package. He's a great player."
+- Donald Trump, 00:01:47-00:01:54: "Messi? Oh, he's great. And Ronaldo's great. I, I met Ronaldo the other day at the White House and he was fantastic. My son, Barron, and they talked about soccer and, or football, depending on your definition. But, uh, Ronaldo was here, and he's a fantastic guy. Thank you."
+
+Visible metadata captured:
+- Entities include Cristiano Ronaldo, Gianni, John F. Kennedy Center for the Performing Arts, President, tickets, United States.
+- Speaker metadata: Donald Trump said 179 sentences / 1571 words; Question said 80 sentences / 501 words; Gianni Infantino said 20 sentences / 46 words.
+
+Source 2: Senate Democratic Caucus Trump Transcripts
+URL: https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-to-reporters-at-the-fifa-world-cup-drawing-12525
+Page title: "TRANSCRIPT: President Trump Speaks to Reporters at the FIFA World Cup Drawing, 12.5.25"
+Published: 12.05.2025
+Relevant source note: same red-carpet/pre-FIFA-event note appears: Trump walked the red carpet for 18 minutes before the FIFA event; press pool engaged for about three minutes; video/audio pieced together from TV Azteca, Telemundo, SBT Media, El Destape, among other sources; portions inaudible.
+The Senate page likewise includes the Ronaldo passages in the press-gaggle transcript.
+
+Capture limitations: This evidence confirms the adverse word-use source, but the source itself distinguishes this press/red-carpet material from the FIFA event and says the transcript was pieced together from several media sources. It is not the official formal draw transcript and not shown here to be the Kalshi primary resolution video.

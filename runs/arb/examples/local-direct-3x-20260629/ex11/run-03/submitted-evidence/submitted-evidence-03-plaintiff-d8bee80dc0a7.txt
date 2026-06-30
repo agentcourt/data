@@ -1,0 +1,10 @@
+Source: Abdi Media, "Urgent | A new NOTAM was issued a few hours ago / extension of flight restrictions in western Iranian airspace until May 25, 2026."
+
+Relevant extracted text:
+- "Based on the newly issued NOTAM for the Tehran Flight Information Region (Tehran FIR), restrictions and the closure of airports in western Iran have been extended until the morning of May 25, 2026."
+- "According to this NOTAM with code A1010/26, all airports in the western part of the Tehran FIR are closed, and only a few specified airports are allowed limited operations, and even then only from sunrise to sunset."
+- The listed limited-operation airports are: "Tabriz, Kermanshah, Ahvaz, Shiraz, Yazd, Kerman, Kish, and Abadan."
+- "all previous flight permissions have been canceled, and airlines must obtain new authorization from the Civil Aviation Organization to conduct IFR passenger flights."
+- The page states the NOTAM is valid from Friday, May 22, 2026 at 00:16 Iran time to Monday, May 25, 2026 at 12:00 noon Iran time.
+
+Limits/caveat: This is secondary reporting and does not provide an original NOTAM image or official Iranian-hosted page.

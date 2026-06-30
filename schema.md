@@ -2,7 +2,7 @@
 
 ## Overview
 
-The dataset retains runner output rather than a normalized database export.  Several files repeat the same facts because the runner saves chronological events, final state, human-readable summaries, and raw process logs.  Analysis code should prefer the smallest artifact that contains the needed information.
+The dataset retains runner output rather than a normalized database export.  Several files repeat the same facts because the runner saves chronological events, final state, human-readable summaries, and raw process logs.  Analysis code should prefer the smallest file that contains the needed information.
 
 The JSON files use the field names emitted by the local AAR runner.  The event stream uses newline-delimited JSON, with one event object per line.  The Markdown files are derived human-readable views and should be treated as convenience artifacts rather than authoritative state.
 
@@ -18,6 +18,9 @@ The JSON files use the field names emitted by the local AAR runner.  The event s
 | `digest.md` | Markdown | Human-readable summary. |
 | `manifest.json` | JSON | Dataset-level run index. |
 | `SHA256SUMS` | Text | File integrity verification. |
+| `ledger.csv` | CSV | Run-set execution ledger when retained. |
+| `batch.log` | Text | Run-set execution log when retained. |
+| `provenance.md` | Markdown | Source, policy, cleanup, and import notes for a run set. |
 
 ## `run.json`
 
@@ -65,3 +68,9 @@ These files support analysis of what a council member saw during deliberation.  
 `logs/` stores stderr and stdout from OpenClaw lawyer processes, council member processes, and the MCP/API layer.  `mcp.stderr` is useful for reconstructing tool calls and wait states.  `pi-C*.stdout` can be large because it includes raw council container output.
 
 The logs are diagnostic artifacts.  They may include repeated prompts, raw model output, and process-level details.  They are useful for failure analysis and less convenient for primary outcome analysis than `events.ndjson`, `run.json`, and `council-turns/`.
+
+## Run-Set Files
+
+Some run sets retain execution files at the run-set root.  `ledger.csv` records one row per attempted run, including example, attempt, output path, status, resolution, file count, byte count, start time, finish time, cleanup status, and runner notes.  `batch.log` records the batch script’s progress messages and disk checks.
+
+`run-batch.sh` is retained when it helps explain how the run set was produced.  It may contain local path references and command options, but it should not contain credential values.  `provenance.md` records source paths, generation times, council pool hashes, cleanup rules, and publication filters.

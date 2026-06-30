@@ -1,0 +1,13 @@
+Source: https://polygonscan.com/address/0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB
+Title: Polymarket: pUSD Token | Address: 0xC011a7E1...342E82DFB | PolygonScan
+Retrieved: 2026-06-30T07:49:00Z
+
+Material page text extract:
+Contract address: 0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB
+Visible label/title: Polymarket: pUSD Token
+Source Code Source Code (Proxy)
+Implementation: Polymarket: pUSD Token (Implementation)
+Tags visible: Polymarket; Token Contract
+Token Tracker: Polymarket USD (pUSD)
+Token holdings section includes Polymarket USD (pUSD).
+Recent transactions shown in the retrieved page include Transfer and Approve methods involving Polymarket: pUSD Token. The page reports latest transactions and a total transaction count, corroborating that the contract exists on Polygon and has current ERC-20-style activity. This explorer evidence is corroborative; official Polymarket docs are stronger for official attribution.

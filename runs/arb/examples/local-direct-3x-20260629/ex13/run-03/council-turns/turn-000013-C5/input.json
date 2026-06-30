@@ -1,0 +1,1037 @@
+{
+  "schema_version": "aar.council-turn-snapshot.v0",
+  "created_at": "2026-06-30T17:07:00Z",
+  "source_output_dir": "out/local-direct-three-per-ex-only-20260629/ex13/run-03",
+  "case_id": "arb-ex13-20260630164857",
+  "run_id": "run-arb-ex13-20260630164857",
+  "member_id": "C5",
+  "turn_number": 13,
+  "opportunity": {
+    "ID": "deliberation:1:C5",
+    "Role": "council",
+    "Phase": "deliberation",
+    "MayPass": false,
+    "Objective": "council vote by C5",
+    "AllowedTools": [
+      "submit_council_vote"
+    ]
+  },
+  "seat": {
+    "member_id": "C5",
+    "model": "openrouter://openai/gpt-4o-mini",
+    "persona_file": "personas/generic.md",
+    "persona_text": "You are a careful juror and council member.\n\nEvaluate the record faithfully. Decide only from the evidence, the stated rules, and the applicable burden of proof. Do not favor either side, fill gaps with speculation, or ignore uncertainty.\n\nGive weight to reliable sources, direct evidence, consistent reasoning, and clear admissions. Discount unsupported claims, rhetorical force, irrelevant facts, and conclusions that exceed the record.\n\nWhen the evidence supports one answer, state it plainly. When the evidence is incomplete or balanced, say so. Be concise, honest, and exact.",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "openai/gpt-4o-mini",
+      "provider": {
+        "only": [
+          "openai"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "openai",
+        "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+        "equivalence_class_size": 1,
+        "equivalence_key": {
+          "canonical_slug": "openai/gpt-4o-mini",
+          "endpoint_model_id": "openai/gpt-4o-mini",
+          "hugging_face_id": null,
+          "input_modalities": [
+            "file",
+            "image",
+            "text"
+          ],
+          "openrouter_model_id": "openai/gpt-4o-mini",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "unknown"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "openai/gpt-4o-mini",
+            "clusters": [
+              3,
+              1,
+              6,
+              9
+            ],
+            "context_length": 128000,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "OpenAI | openai/gpt-4o-mini",
+            "endpoint_tag": "openai",
+            "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+            "filter_deliberation_score": 0.9444444444444443,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": null,
+            "latency_last_30m": {
+              "p50": 509,
+              "p75": 772,
+              "p90": 1258,
+              "p99": 4127.800000000003
+            },
+            "max_completion_tokens": 16384,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-4o-mini",
+            "pricing_completion": "0.0000006",
+            "pricing_prompt": "0.00000015",
+            "provider_error_count": null,
+            "provider_name": "OpenAI",
+            "quantization": "unknown",
+            "schema_violation_count": null,
+            "source_row": 17,
+            "supported_parameters": [
+              "frequency_penalty",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "presence_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_logprobs",
+              "top_p",
+              "web_search_options"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 99.91886470048567,
+            "uptime_last_30m": 99.91261300624772
+          }
+        ],
+        "openrouter_model_id": "openai/gpt-4o-mini",
+        "provider_name": "OpenAI",
+        "quantization": "unknown",
+        "representative_endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+        "representative_source_row": 17
+      }
+    }
+  },
+  "policy": {
+    "council_size": 5,
+    "evidence_standard": "Preponderance of the evidence.",
+    "required_votes_for_decision": 3,
+    "max_deliberation_rounds": 3,
+    "max_opening_chars": 5000,
+    "max_argument_chars": 6000,
+    "max_rebuttal_chars": 4000,
+    "max_surrebuttal_chars": 4000,
+    "max_closing_chars": 5000,
+    "max_exhibits_per_filing": 9,
+    "max_exhibits_per_side": 12,
+    "max_exhibit_bytes": 131072,
+    "max_reports_per_filing": 3,
+    "max_reports_per_side": 4,
+    "max_report_title_bytes": 256,
+    "max_report_summary_bytes": 8192,
+    "max_submitted_evidence_per_side": 8,
+    "max_submitted_evidence_bytes": 67108864,
+    "max_direct_submitted_evidence_bytes": 131072,
+    "max_evidence_upload_bytes": 67108864,
+    "max_evidence_chunk_bytes": 65536,
+    "max_evidence_read_bytes": 65536,
+    "max_evidence_reads_per_opportunity": 32,
+    "max_evidence_read_bytes_per_opportunity": 524288
+  },
+  "runtime": {
+    "council_llm_timeout_seconds": 900,
+    "lawyer_turn_timeout_seconds": 900,
+    "max_response_bytes": 131072,
+    "invalid_attempt_limit": 3,
+    "council_max_output_tokens": 4096
+  },
+  "complaint": {
+    "Proposition": "By June 15, 2025 11:59 PM ET, Iran and the United States agreed to a permanent peace deal."
+  },
+  "state": {
+    "case": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, after investigation and evidence submission, the plaintiff’s best legal theory remains clear, but the submitted record does not presently carry the plaintiff’s burden.\n\nThe governing rule is PX-1. A qualifying peace deal had to exist by June 15, 2025 at 11:59 PM ET, and it had to explicitly indicate that U.S.-Iran military hostilities had ended or would permanently cease, or use equivalent language showing a lasting end. PX-1 allows proof by a signed/formally adopted written agreement or by clear public confirmation from both governments. It excludes negotiations, progress statements, temporary arrangements, and non-definitive announcements.\n\nThat rule leaves a possible plaintiff path: if the United States and Iran had each publicly confirmed by the cutoff that a definitive permanent peace agreement existed, the proposition could be demonstrated even without treaty formalities. But the evidence I was able to preserve and submit does not show that.\n\nPX-2 is an official Iranian presidential statement dated June 14, 2025. It is close in time and from a strong official Iranian source. It shows the opposite of Iranian confirmation of a permanent peace deal: President Pezeshkian described U.S. coordination with Israel during indirect Tehran-Washington negotiations as evidence of U.S. dishonesty and untrustworthiness. That proves there were indirect negotiations and regional peace rhetoric, but it does not prove Iran had agreed to a permanent peace deal with the United States.\n\nPX-3 is an official White House release dated June 17, 2025 collecting President Trump’s statements on Iran. Its June 14 entry says, in substance, that there cannot be peace if Iran has a nuclear weapon. Other entries demand that Iran stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those statements may show a U.S. desired end state and negotiating conditions. They do not show that the United States confirmed a definitive permanent peace deal by June 15, and they do not supply matching Iranian confirmation.\n\nPX-4 is later, but it is an official U.S. characterization of the June 2025 sequence. The White House stated that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. Because it is later and self-characterizing, it should not be treated as the only account of June 2025. Still, as an official U.S. source, it is materially adverse to the proposition: it describes refusal to reach a deal, not agreement to permanent peace.\n\nPX-5 is contemporaneous reporting from June 14, 2025. It reports that Iran regarded further nuclear talks with the United States as meaningless amid Israeli attacks, quotes an Iranian foreign-ministry spokesperson through semi-official Tasnim, and notes that a sixth round of U.S.-Iran nuclear talks had been set for June 15 in Oman. This is secondary reporting rather than a primary government page, so it carries less weight than PX-2 or PX-3. But it is consistent with them: the relationship was in conflict and negotiation, not in a confirmed permanent peace.\n\nThe provenance and custody picture is straightforward. PX-2, PX-3, and PX-4 are captured extracts from official government websites and therefore have strong source provenance for what those governments publicly said. PX-5 is a credible contemporaneous secondary report with an identified source chain, useful to corroborate the status of talks but not a substitute for a signed agreement or official bilateral confirmation. AAR accepted each capture and assigned an evidence_id and hash.\n\nWhat remains missing is decisive. There is no written U.S.-Iran peace instrument in the record. There is no official Iranian statement by the cutoff clearly confirming that a qualifying permanent peace agreement had been definitively established. There is no official U.S. statement by the cutoff clearly confirming the same. The admitted evidence shows talks, demands, distrust, and conflict. Under PX-1, that is not enough.\n\nThe plaintiff’s opening correctly identified what would have been sufficient: bilateral, timely, definitive confirmation of a lasting end to U.S.-Iran military hostilities. The merits record now shows that those links are absent. On this evidentiary record, the council should not find the proposition demonstrated merely because negotiations existed or peace was discussed. The plaintiff’s candid position is that the submitted evidence does not prove by a preponderance that Iran and the United States agreed to a permanent peace deal by the June 15, 2025 deadline."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, the merits record now resolves the case for the defense. Plaintiff’s own argument states the key fact plainly: after investigation and evidence submission, “the submitted record does not presently carry the plaintiff’s burden.” The defense agrees, and the record shows why.\n\nDX-1, the rules file, supplies the governing test. A qualifying agreement must explicitly indicate that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent lasting-end language. Negotiations, progress statements, temporary arrangements, and non-definitive announcements do not count. The agreement is established only by a signed or formally adopted written agreement meeting that test, or by clear public confirmation from both governments that such an agreement has definitively been established.\n\nNo evidence in the record satisfies either path.\n\nDX-2 is strong official Iranian-source evidence because it comes from the official website of Iran’s President and is dated June 14, 2025, one day before the cutoff. But its substance defeats the proposition. President Pezeshkian described continuing aggression, said the United States and Western countries supported Israel, warned of a more severe Iranian response if aggression continued, and said U.S. coordination with Israel during indirect Tehran-Washington negotiations showed U.S. dishonesty and untrustworthiness. That proves there were indirect talks and an official Iranian accusation of bad faith. It does not prove Iran publicly confirmed a permanent peace deal with the United States. It proves the opposite atmosphere: conflict, distrust, and unresolved negotiations.\n\nDX-3 is official U.S. evidence from the White House. It likewise does not contain a U.S. confirmation of a bilateral permanent peace deal. Its June 14 entry says that peace is impossible if Iran has a nuclear weapon. Other entries repeat conditions and demands: Iran cannot have a nuclear weapon, and any deal would require Iran to stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those are negotiating positions and desired end states. Under DX-1, they are not a definitive announcement that a qualifying permanent peace agreement had been reached, and they do not supply matching Iranian confirmation.\n\nDX-4 is later in time, so the council should use it carefully. But it is still an official U.S. government characterization of the relevant June sequence, and it is materially adverse to plaintiff’s proposition. It says that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. “Refused to reach a deal” is not “agreed to a permanent peace deal.” Even if the council gives this later statement reduced weight, it points away from the proposition and is consistent with the contemporaneous record.\n\nDX-5 is credible contemporaneous secondary reporting, not a primary government record. Its weight is therefore corroborative rather than decisive. But it confirms the same picture. On June 14, 2025, the article reported that Iran regarded dialogue with the United States as meaningless amid Israeli attacks, quoted Iran’s foreign-ministry spokesperson through semi-official Tasnim to that effect, and noted that a sixth round of U.S.-Iran nuclear talks was still scheduled for Sunday in Oman. Pending or collapsing nuclear talks are not a permanent peace deal. A scheduled future round is especially hard to reconcile with a claim that both governments had already definitively established a lasting end to U.S.-Iran military hostilities.\n\nThe provenance picture strengthens the defense. DX-2, DX-3, and DX-4 are official government-source captures accepted by AAR with evidence IDs and hashes, so they are strong evidence of what those governments publicly said. DX-5 is less authoritative but contemporaneous and consistent with the official materials. There is no chain-of-custody problem that helps plaintiff: the problem is not unreliable adverse evidence, but the absence of affirmative qualifying evidence.\n\nThe missing links are decisive. The record contains no signed U.S.-Iran peace instrument. It contains no formally adopted bilateral text. It contains no official Iranian confirmation by the cutoff that a qualifying permanent peace agreement had been definitively established. It contains no official U.S. confirmation by the cutoff of the same proposition. Plaintiff’s own source-search ledger says those materials were not located.\n\nPreponderance does not mean speculation from diplomatic motion. The rules required a specific bilateral, timely, permanent commitment. The admitted evidence shows negotiations, conditions, hostility, distrust, and later refusal. It does not show a permanent peace deal by June 15, 2025 at 11:59 PM ET. The council should resolve the proposition as not demonstrated."
+        }
+      ],
+      "caption": "Claimant v. Respondent",
+      "case_id": "arb-ex13-20260630164857",
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the record is now complete enough to decide the proposition, and the decisive point is the absence of qualifying proof.\n\nPX-1 sets the rule. By June 15, 2025 at 11:59 PM ET, there had to be either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, showing a definitive permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nThe record does not contain the required agreement or confirmations.\n\nPX-2 is official Iranian evidence from June 14, 2025. It is important because of its timing and provenance, but it does not confirm peace. It shows Iran accusing the United States of dishonesty and untrustworthiness during indirect negotiations and describing continuing aggression and potential response. That is not a permanent peace deal.\n\nPX-3 is official U.S. evidence. It shows President Trump’s public position that Iran could not have a nuclear weapon and that peace depended on that condition. That may show negotiating objectives; it does not show the United States announcing that a qualifying bilateral permanent peace agreement had been reached by the cutoff, and it certainly does not supply matching Iranian confirmation.\n\nPX-4 is later official U.S. characterization, so it should be weighed with that timing in mind. But it is still adverse: the White House described June as a period in which Iran refused to reach a deal before U.S. military action. That is inconsistent with the proposition.\n\nPX-5 is secondary reporting, but contemporaneous and corroborative. It reports that Iran regarded talks as meaningless and that a further round of talks was still scheduled. That is evidence of unresolved or collapsing negotiation, not a completed permanent peace agreement.\n\nThe source provenance is not the problem. The official sources are strong evidence of what each government was saying. The problem is substance: those sources do not say what PX-1 requires. The missing links are decisive. There is no adopted text. There is no official Iranian confirmation of a permanent U.S.-Iran peace deal by the deadline. There is no official U.S. confirmation of the same. The record instead shows conflict, conditions, distrust, and failed or unresolved talks.\n\nThe plaintiff’s theory was legally possible: bilateral public confirmation could have sufficed. But the evidence submitted does not establish that theory by a preponderance. On this record, the proposition should be resolved as not demonstrated."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, this case ends where the rules and both parties’ merits presentations now point: the proposition is not demonstrated.\n\nThe governing rule is exacting but not complicated. By June 15, 2025 at 11:59 PM ET, the record needed to show either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, establishing a permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nPlaintiff’s closing correctly identifies the decisive point: “the absence of qualifying proof.” That is not a small evidentiary gap. It is the central element of the proposition. Without a qualifying agreement or matching government confirmations, there is no basis to find that Iran and the United States agreed to a permanent peace deal by the deadline.\n\nThe admitted evidence is consistent and one-sided on that question. The rules file tells the council what must be proven. The Iranian President’s June 14 statement is official and close in time, but it shows accusation, distrust, continuing aggression, and threatened response; it does not show Iranian confirmation of a permanent peace deal with the United States. The White House June 17 release shows U.S. conditions and demands about Iran’s nuclear program; it does not announce that a bilateral permanent peace agreement already existed by June 15, and it does not supply Iranian confirmation. The later White House fact sheet says Iran refused to reach a deal in June, which points away from the proposition. The Al Jazeera report is secondary but contemporaneous, and it confirms unresolved or collapsing nuclear talks, not completed permanent peace.\n\nThe strongest theoretical point for plaintiff is that a treaty was not required. Clear public confirmation from both governments could have been enough. But that only matters if the confirmations exist. They do not. The record contains no adopted text, no official Iranian confirmation, and no official U.S. confirmation of a qualifying permanent peace deal by the cutoff. Plaintiff’s own search ledger and closing acknowledge those missing links.\n\nSo the council need not choose between competing speculative narratives. The official and contemporaneous record shows negotiations, conditions, distrust, and conflict. It does not show a definitive bilateral commitment to permanently end U.S.-Iran military hostilities by June 15, 2025. Under the preponderance standard, the absence of the required proof is decisive.\n\nThe proper resolution is not demonstrated."
+        }
+      ],
+      "council_members": [
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C1",
+          "model": "openrouter://poolside/laguna-xs.2",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C2",
+          "model": "openrouter://openai/gpt-oss-120b",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "Council member C3 agent process exited before completing opportunity deliberation:1:C3.",
+          "failure_opportunity_id": "deliberation:1:C3",
+          "failure_reason": "agent_exited",
+          "member_id": "C3",
+          "model": "openrouter://relace/relace-search",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C4",
+          "model": "openrouter://qwen/qwen3-coder-plus",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C5",
+          "model": "openrouter://openai/gpt-4o-mini",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        }
+      ],
+      "council_votes": [
+        {
+          "member_id": "C1",
+          "rationale": "The admitted record contains no written peace agreement, no Iranian confirmation of a permanent peace deal by June 15, and no US confirmation of such a deal. The evidence shows negotiations, distrust, ongoing hostilities, and a later Iranian refusal to reach a deal - inconsistent with the required bilateral, timely, permanent commitment.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C2",
+          "rationale": "The evidence shows no signed agreement or bilateral public confirmation of a permanent peace deal by the June 15, 2025 deadline; official Iranian and U.S. statements indicate ongoing conflict and no such commitment. Consequently, the proposition is not demonstrated.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C4",
+          "rationale": "The admitted record lacks any evidence of a bilateral permanent peace agreement between Iran and the US by June 15, 2025. Instead, the evidence shows Iran accused the US of dishonesty on June 14, both sides were focused on nuclear conditions rather than peace agreements, and later official sources confirmed Iran had refused to reach a deal.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        }
+      ],
+      "deliberation_round": 1,
+      "failure": null,
+      "offered_evidence": [
+        {
+          "evidence_id": "ev_f1a176053ed8_rules",
+          "label": "PX-1: Case-packet rules defining qualifying permanent peace deal",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "label": "PX-2: Official Iranian President June 14 statement",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "label": "PX-3: White House June 17 Iran statements release",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "label": "PX-4: White House later June-deal characterization",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "label": "PX-5: June 14 contemporaneous reporting on cancelled talks",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_f1a176053ed8_rules",
+          "label": "DX-1: Case-packet rules defining qualifying permanent peace deal",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "label": "DX-2: Official Iranian President June 14 statement showing distrust and ongoing hostilities",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "label": "DX-3: White House June 17 release listing U.S. Iran conditions, not a confirmed peace deal",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "label": "DX-4: White House later characterization that Iran refused to reach a deal in June",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "label": "DX-5: June 14 reporting that U.S.-Iran nuclear talks were unresolved and effectively cancelled",
+          "phase": "arguments",
+          "role": "defendant"
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, the plaintiff’s burden is defined by the case-packet rules, and those rules make this a narrow factual inquiry rather than a general debate about diplomacy.\n\nThe proposition is demonstrated if, by June 15, 2025 at 11:59 PM Eastern Time, the United States and Iran had agreed to a permanent peace deal. The admitted rules file tells us what that means. A qualifying deal must explicitly state that military hostilities between the United States and Iran have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. The rules also tell us what does not count: a temporary extension, a ceasefire without a definitive lasting end, mere negotiations, progress statements, or non-final announcements.\n\nThe plaintiff’s theory is therefore straightforward. This case turns on whether the record can show a definitive bilateral commitment by the cutoff, not whether later events were calm, messy, or politically contested. Under the rules, the strongest proof would be either a written agreement signed or formally adopted by both sides, or clear public confirmation from both governments that a qualifying agreement had been definitively established. A treaty label is not required if the proof otherwise satisfies that standard. The words, timing, and source of the confirmation matter most.\n\nAt the opening stage, the current admitted record contains only the rules file. That file is important because it supplies the legal test, but it does not itself prove the historical fact of an agreement. For that reason, the plaintiff will not ask the council to infer the proposition from hope, market chatter, or general diplomatic movement. The plaintiff expects the decisive evidence to be official U.S. and Iranian government statements, any adopted text or instrument, and reliable reporting only insofar as it helps confirm what the governments themselves said and when they said it.\n\nThe plaintiff also recognizes the adverse questions. If the evidence shows only suspended nuclear talks, temporary ceasefire language, unilateral statements, post-cutoff developments, or a promise to keep negotiating, that would not satisfy the rules. If one government clearly denied that a qualifying agreement had been reached by the deadline, that would carry real weight. If a later agreement was necessary because no permanent peace deal existed earlier, the timing problem would have to be confronted directly.\n\nBut the rules set a preponderance standard, not a formalistic trap. If the admitted evidence establishes that both governments clearly confirmed, by the deadline, a definitive agreement to permanently end U.S.-Iran military hostilities, then the proposition is demonstrated even if implementation details, nuclear issues, or political objections remained unsettled. The plaintiff’s case will focus on that precise question: whether the source record proves mutual, timely, permanent commitment rather than temporary de-escalation or ongoing negotiation."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defense agrees with one point in plaintiff’s opening: this case is narrow. The proposition is not whether diplomacy with Iran was desirable, whether talks occurred, whether tensions later eased, or whether someone announced progress. The admitted case-packet rules require something much more specific by June 15, 2025 at 11:59 PM Eastern: a permanent peace deal between Iran and the United States.\n\nThe only evidence now in the record is the rules file, `ev_f1a176053ed8_rules`. That file proves the governing test and nothing more. It says a qualifying deal must explicitly state that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. It also excludes the very categories most likely to be confused with proof here: temporary extensions, ceasefires without a definitive lasting end, negotiations, progress statements, and non-final announcements.\n\nThat distinction will decide the case. Plaintiff must do more than show contact between diplomats, nuclear discussions, optimism from one side, mediation by a third country, or later attempts to stabilize the relationship. Plaintiff must establish either a signed or formally adopted written agreement meeting the rules, or clear public confirmation by both governments that such a qualifying agreement had definitively been established before the cutoff.\n\nThe defense theory is straightforward: unless plaintiff can produce that bilateral, timely, permanent commitment, the proposition is not demonstrated. A unilateral U.S. statement would not be enough. A unilateral Iranian statement would not be enough. A planned meeting, a draft, an exchange through mediators, or a promise to continue talking would not be enough. A ceasefire or pause would not be enough unless it definitively ended U.S.-Iran military hostilities on a lasting basis. And any post-cutoff development would not cure the timing problem; if a later agreement was still needed, that tends to show the required agreement did not already exist by June 15, 2025.\n\nThe current record contains no written peace instrument, no adopted bilateral text, and no public confirmation from both governments. That absence matters at the opening stage because the rules make official U.S. and Iranian government information the primary resolution source. In later evidence phases, the defense expects the key proof to be official statements, dated government releases, and reliable reporting only insofar as it confirms what each government actually said and when. The most important adverse checks will be the full source chain for any claimed agreement: who spoke, whether they had authority, whether the other government matched the statement, whether the language was permanent rather than temporary, and whether it was made before the deadline.\n\nSo the defense asks the council to keep the burden centered. The rules do not allow a finding for plaintiff based on diplomatic smoke, market language, or after-the-fact framing. They require a definitive, bilateral, timely permanent peace deal. On this record, that historical fact has not been shown, and unless plaintiff supplies admissible evidence closing each of those gaps, the proper resolution is not demonstrated."
+        }
+      ],
+      "phase": "deliberation",
+      "proposition": "By June 15, 2025 11:59 PM ET, Iran and the United States agreed to a permanent peace deal.",
+      "rebuttals": [],
+      "resolution": "",
+      "status": "active",
+      "submitted_evidence": [
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+          "size_bytes": 2889,
+          "source_description": "Official website of the President of the Islamic Republic of Iran; extracted page text from web retrieval.",
+          "source_url": "https://president.ir/en/159792",
+          "title": "Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity"
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+          "size_bytes": 2751,
+          "source_description": "White House release; extracted page text from web retrieval.",
+          "source_url": "https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/",
+          "title": "White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon"
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+          "size_bytes": 2022,
+          "source_description": "White House fact sheet; extracted page text from web retrieval.",
+          "source_url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/",
+          "title": "White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June"
+        },
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+          "size_bytes": 2314,
+          "source_description": "Al Jazeera English article; extracted relevant page text from web retrieval.",
+          "source_url": "https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal",
+          "title": "Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks"
+        }
+      ],
+      "surrebuttals": [],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "Searched official U.S. and Iranian government sources and credible contemporaneous reporting around June 13-17, 2025. Source targets were a written peace instrument, matching government confirmations by the June 15 cutoff, or adverse cancellation/refusal material. Submitted accepted captures from president.ir, WhiteHouse.gov, and Al Jazeera. No signed/formally adopted permanent peace agreement, official Iranian confirmation, or official U.S. confirmation of a qualifying permanent peace deal by the cutoff was located.",
+          "title": "Plaintiff Source Search Ledger"
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "summary": "Defense inspected the current record, metadata, and full text of plaintiff's four submitted sources plus the rules. No additional defense evidence was submitted because the visible evidence is sufficient: official Iranian and U.S. sources show distrust, demands, and refusal rather than a signed/adopted agreement or matching public confirmations, and plaintiff's own search ledger reports no qualifying agreement or confirmation was located.",
+          "title": "Defense evidence sufficiency audit"
+        }
+      ]
+    },
+    "forum_name": "Agent Arbitration",
+    "policy": {
+      "council_size": 5,
+      "evidence_standard": "Preponderance of the evidence.",
+      "max_argument_chars": 6000,
+      "max_closing_chars": 5000,
+      "max_deliberation_rounds": 3,
+      "max_exhibit_bytes": 131072,
+      "max_exhibits_per_filing": 9,
+      "max_exhibits_per_side": 12,
+      "max_opening_chars": 5000,
+      "max_rebuttal_chars": 4000,
+      "max_report_summary_bytes": 8192,
+      "max_report_title_bytes": 256,
+      "max_reports_per_filing": 3,
+      "max_reports_per_side": 4,
+      "max_submitted_evidence_bytes": 67108864,
+      "max_submitted_evidence_per_side": 8,
+      "max_surrebuttal_chars": 4000,
+      "required_votes_for_decision": 3
+    },
+    "schema_version": "v1",
+    "state_version": 17
+  },
+  "prompt": "Role: council member\nMember ID: C5\nDeliberation round: 1\nProposition: By June 15, 2025 11:59 PM ET, Iran and the United States agreed to a permanent peace deal.\nStandard of evidence: Preponderance of the evidence.\nPersona:\nYou are a careful juror and council member.\n\nEvaluate the record faithfully. Decide only from the evidence, the stated rules, and the applicable burden of proof. Do not favor either side, fill gaps with speculation, or ignore uncertainty.\n\nGive weight to reliable sources, direct evidence, consistent reasoning, and clear admissions. Discount unsupported claims, rhetorical force, irrelevant facts, and conclusions that exceed the record.\n\nWhen the evidence supports one answer, state it plainly. When the evidence is incomplete or balanced, say so. Be concise, honest, and exact.\n\nRecord:\nOpenings:\n[plaintiff] Council members, the plaintiff’s burden is defined by the case-packet rules, and those rules make this a narrow factual inquiry rather than a general debate about diplomacy.\n\nThe proposition is demonstrated if, by June 15, 2025 at 11:59 PM Eastern Time, the United States and Iran had agreed to a permanent peace deal. The admitted rules file tells us what that means. A qualifying deal must explicitly state that military hostilities between the United States and Iran have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. The rules also tell us what does not count: a temporary extension, a ceasefire without a definitive lasting end, mere negotiations, progress statements, or non-final announcements.\n\nThe plaintiff’s theory is therefore straightforward. This case turns on whether the record can show a definitive bilateral commitment by the cutoff, not whether later events were calm, messy, or politically contested. Under the rules, the strongest proof would be either a written agreement signed or formally adopted by both sides, or clear public confirmation from both governments that a qualifying agreement had been definitively established. A treaty label is not required if the proof otherwise satisfies that standard. The words, timing, and source of the confirmation matter most.\n\nAt the opening stage, the current admitted record contains only the rules file. That file is important because it supplies the legal test, but it does not itself prove the historical fact of an agreement. For that reason, the plaintiff will not ask the council to infer the proposition from hope, market chatter, or general diplomatic movement. The plaintiff expects the decisive evidence to be official U.S. and Iranian government statements, any adopted text or instrument, and reliable reporting only insofar as it helps confirm what the governments themselves said and when they said it.\n\nThe plaintiff also recognizes the adverse questions. If the evidence shows only suspended nuclear talks, temporary ceasefire language, unilateral statements, post-cutoff developments, or a promise to keep negotiating, that would not satisfy the rules. If one government clearly denied that a qualifying agreement had been reached by the deadline, that would carry real weight. If a later agreement was necessary because no permanent peace deal existed earlier, the timing problem would have to be confronted directly.\n\nBut the rules set a preponderance standard, not a formalistic trap. If the admitted evidence establishes that both governments clearly confirmed, by the deadline, a definitive agreement to permanently end U.S.-Iran military hostilities, then the proposition is demonstrated even if implementation details, nuclear issues, or political objections remained unsettled. The plaintiff’s case will focus on that precise question: whether the source record proves mutual, timely, permanent commitment rather than temporary de-escalation or ongoing negotiation.\n\n[defendant] Council members, the defense agrees with one point in plaintiff’s opening: this case is narrow. The proposition is not whether diplomacy with Iran was desirable, whether talks occurred, whether tensions later eased, or whether someone announced progress. The admitted case-packet rules require something much more specific by June 15, 2025 at 11:59 PM Eastern: a permanent peace deal between Iran and the United States.\n\nThe only evidence now in the record is the rules file, `ev_f1a176053ed8_rules`. That file proves the governing test and nothing more. It says a qualifying deal must explicitly state that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. It also excludes the very categories most likely to be confused with proof here: temporary extensions, ceasefires without a definitive lasting end, negotiations, progress statements, and non-final announcements.\n\nThat distinction will decide the case. Plaintiff must do more than show contact between diplomats, nuclear discussions, optimism from one side, mediation by a third country, or later attempts to stabilize the relationship. Plaintiff must establish either a signed or formally adopted written agreement meeting the rules, or clear public confirmation by both governments that such a qualifying agreement had definitively been established before the cutoff.\n\nThe defense theory is straightforward: unless plaintiff can produce that bilateral, timely, permanent commitment, the proposition is not demonstrated. A unilateral U.S. statement would not be enough. A unilateral Iranian statement would not be enough. A planned meeting, a draft, an exchange through mediators, or a promise to continue talking would not be enough. A ceasefire or pause would not be enough unless it definitively ended U.S.-Iran military hostilities on a lasting basis. And any post-cutoff development would not cure the timing problem; if a later agreement was still needed, that tends to show the required agreement did not already exist by June 15, 2025.\n\nThe current record contains no written peace instrument, no adopted bilateral text, and no public confirmation from both governments. That absence matters at the opening stage because the rules make official U.S. and Iranian government information the primary resolution source. In later evidence phases, the defense expects the key proof to be official statements, dated government releases, and reliable reporting only insofar as it confirms what each government actually said and when. The most important adverse checks will be the full source chain for any claimed agreement: who spoke, whether they had authority, whether the other government matched the statement, whether the language was permanent rather than temporary, and whether it was made before the deadline.\n\nSo the defense asks the council to keep the burden centered. The rules do not allow a finding for plaintiff based on diplomatic smoke, market language, or after-the-fact framing. They require a definitive, bilateral, timely permanent peace deal. On this record, that historical fact has not been shown, and unless plaintiff supplies admissible evidence closing each of those gaps, the proper resolution is not demonstrated.\n\nArguments:\n[plaintiff] Council members, after investigation and evidence submission, the plaintiff’s best legal theory remains clear, but the submitted record does not presently carry the plaintiff’s burden.\n\nThe governing rule is PX-1. A qualifying peace deal had to exist by June 15, 2025 at 11:59 PM ET, and it had to explicitly indicate that U.S.-Iran military hostilities had ended or would permanently cease, or use equivalent language showing a lasting end. PX-1 allows proof by a signed/formally adopted written agreement or by clear public confirmation from both governments. It excludes negotiations, progress statements, temporary arrangements, and non-definitive announcements.\n\nThat rule leaves a possible plaintiff path: if the United States and Iran had each publicly confirmed by the cutoff that a definitive permanent peace agreement existed, the proposition could be demonstrated even without treaty formalities. But the evidence I was able to preserve and submit does not show that.\n\nPX-2 is an official Iranian presidential statement dated June 14, 2025. It is close in time and from a strong official Iranian source. It shows the opposite of Iranian confirmation of a permanent peace deal: President Pezeshkian described U.S. coordination with Israel during indirect Tehran-Washington negotiations as evidence of U.S. dishonesty and untrustworthiness. That proves there were indirect negotiations and regional peace rhetoric, but it does not prove Iran had agreed to a permanent peace deal with the United States.\n\nPX-3 is an official White House release dated June 17, 2025 collecting President Trump’s statements on Iran. Its June 14 entry says, in substance, that there cannot be peace if Iran has a nuclear weapon. Other entries demand that Iran stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those statements may show a U.S. desired end state and negotiating conditions. They do not show that the United States confirmed a definitive permanent peace deal by June 15, and they do not supply matching Iranian confirmation.\n\nPX-4 is later, but it is an official U.S. characterization of the June 2025 sequence. The White House stated that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. Because it is later and self-characterizing, it should not be treated as the only account of June 2025. Still, as an official U.S. source, it is materially adverse to the proposition: it describes refusal to reach a deal, not agreement to permanent peace.\n\nPX-5 is contemporaneous reporting from June 14, 2025. It reports that Iran regarded further nuclear talks with the United States as meaningless amid Israeli attacks, quotes an Iranian foreign-ministry spokesperson through semi-official Tasnim, and notes that a sixth round of U.S.-Iran nuclear talks had been set for June 15 in Oman. This is secondary reporting rather than a primary government page, so it carries less weight than PX-2 or PX-3. But it is consistent with them: the relationship was in conflict and negotiation, not in a confirmed permanent peace.\n\nThe provenance and custody picture is straightforward. PX-2, PX-3, and PX-4 are captured extracts from official government websites and therefore have strong source provenance for what those governments publicly said. PX-5 is a credible contemporaneous secondary report with an identified source chain, useful to corroborate the status of talks but not a substitute for a signed agreement or official bilateral confirmation. AAR accepted each capture and assigned an evidence_id and hash.\n\nWhat remains missing is decisive. There is no written U.S.-Iran peace instrument in the record. There is no official Iranian statement by the cutoff clearly confirming that a qualifying permanent peace agreement had been definitively established. There is no official U.S. statement by the cutoff clearly confirming the same. The admitted evidence shows talks, demands, distrust, and conflict. Under PX-1, that is not enough.\n\nThe plaintiff’s opening correctly identified what would have been sufficient: bilateral, timely, definitive confirmation of a lasting end to U.S.-Iran military hostilities. The merits record now shows that those links are absent. On this evidentiary record, the council should not find the proposition demonstrated merely because negotiations existed or peace was discussed. The plaintiff’s candid position is that the submitted evidence does not prove by a preponderance that Iran and the United States agreed to a permanent peace deal by the June 15, 2025 deadline.\n\n[defendant] Council members, the merits record now resolves the case for the defense. Plaintiff’s own argument states the key fact plainly: after investigation and evidence submission, “the submitted record does not presently carry the plaintiff’s burden.” The defense agrees, and the record shows why.\n\nDX-1, the rules file, supplies the governing test. A qualifying agreement must explicitly indicate that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent lasting-end language. Negotiations, progress statements, temporary arrangements, and non-definitive announcements do not count. The agreement is established only by a signed or formally adopted written agreement meeting that test, or by clear public confirmation from both governments that such an agreement has definitively been established.\n\nNo evidence in the record satisfies either path.\n\nDX-2 is strong official Iranian-source evidence because it comes from the official website of Iran’s President and is dated June 14, 2025, one day before the cutoff. But its substance defeats the proposition. President Pezeshkian described continuing aggression, said the United States and Western countries supported Israel, warned of a more severe Iranian response if aggression continued, and said U.S. coordination with Israel during indirect Tehran-Washington negotiations showed U.S. dishonesty and untrustworthiness. That proves there were indirect talks and an official Iranian accusation of bad faith. It does not prove Iran publicly confirmed a permanent peace deal with the United States. It proves the opposite atmosphere: conflict, distrust, and unresolved negotiations.\n\nDX-3 is official U.S. evidence from the White House. It likewise does not contain a U.S. confirmation of a bilateral permanent peace deal. Its June 14 entry says that peace is impossible if Iran has a nuclear weapon. Other entries repeat conditions and demands: Iran cannot have a nuclear weapon, and any deal would require Iran to stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those are negotiating positions and desired end states. Under DX-1, they are not a definitive announcement that a qualifying permanent peace agreement had been reached, and they do not supply matching Iranian confirmation.\n\nDX-4 is later in time, so the council should use it carefully. But it is still an official U.S. government characterization of the relevant June sequence, and it is materially adverse to plaintiff’s proposition. It says that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. “Refused to reach a deal” is not “agreed to a permanent peace deal.” Even if the council gives this later statement reduced weight, it points away from the proposition and is consistent with the contemporaneous record.\n\nDX-5 is credible contemporaneous secondary reporting, not a primary government record. Its weight is therefore corroborative rather than decisive. But it confirms the same picture. On June 14, 2025, the article reported that Iran regarded dialogue with the United States as meaningless amid Israeli attacks, quoted Iran’s foreign-ministry spokesperson through semi-official Tasnim to that effect, and noted that a sixth round of U.S.-Iran nuclear talks was still scheduled for Sunday in Oman. Pending or collapsing nuclear talks are not a permanent peace deal. A scheduled future round is especially hard to reconcile with a claim that both governments had already definitively established a lasting end to U.S.-Iran military hostilities.\n\nThe provenance picture strengthens the defense. DX-2, DX-3, and DX-4 are official government-source captures accepted by AAR with evidence IDs and hashes, so they are strong evidence of what those governments publicly said. DX-5 is less authoritative but contemporaneous and consistent with the official materials. There is no chain-of-custody problem that helps plaintiff: the problem is not unreliable adverse evidence, but the absence of affirmative qualifying evidence.\n\nThe missing links are decisive. The record contains no signed U.S.-Iran peace instrument. It contains no formally adopted bilateral text. It contains no official Iranian confirmation by the cutoff that a qualifying permanent peace agreement had been definitively established. It contains no official U.S. confirmation by the cutoff of the same proposition. Plaintiff’s own source-search ledger says those materials were not located.\n\nPreponderance does not mean speculation from diplomatic motion. The rules required a specific bilateral, timely, permanent commitment. The admitted evidence shows negotiations, conditions, hostility, distrust, and later refusal. It does not show a permanent peace deal by June 15, 2025 at 11:59 PM ET. The council should resolve the proposition as not demonstrated.\n\nRebuttals:\n(none)\n\nSurrebuttals:\n(none)\n\nClosings:\n[plaintiff] Council members, the record is now complete enough to decide the proposition, and the decisive point is the absence of qualifying proof.\n\nPX-1 sets the rule. By June 15, 2025 at 11:59 PM ET, there had to be either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, showing a definitive permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nThe record does not contain the required agreement or confirmations.\n\nPX-2 is official Iranian evidence from June 14, 2025. It is important because of its timing and provenance, but it does not confirm peace. It shows Iran accusing the United States of dishonesty and untrustworthiness during indirect negotiations and describing continuing aggression and potential response. That is not a permanent peace deal.\n\nPX-3 is official U.S. evidence. It shows President Trump’s public position that Iran could not have a nuclear weapon and that peace depended on that condition. That may show negotiating objectives; it does not show the United States announcing that a qualifying bilateral permanent peace agreement had been reached by the cutoff, and it certainly does not supply matching Iranian confirmation.\n\nPX-4 is later official U.S. characterization, so it should be weighed with that timing in mind. But it is still adverse: the White House described June as a period in which Iran refused to reach a deal before U.S. military action. That is inconsistent with the proposition.\n\nPX-5 is secondary reporting, but contemporaneous and corroborative. It reports that Iran regarded talks as meaningless and that a further round of talks was still scheduled. That is evidence of unresolved or collapsing negotiation, not a completed permanent peace agreement.\n\nThe source provenance is not the problem. The official sources are strong evidence of what each government was saying. The problem is substance: those sources do not say what PX-1 requires. The missing links are decisive. There is no adopted text. There is no official Iranian confirmation of a permanent U.S.-Iran peace deal by the deadline. There is no official U.S. confirmation of the same. The record instead shows conflict, conditions, distrust, and failed or unresolved talks.\n\nThe plaintiff’s theory was legally possible: bilateral public confirmation could have sufficed. But the evidence submitted does not establish that theory by a preponderance. On this record, the proposition should be resolved as not demonstrated.\n\n[defendant] Council members, this case ends where the rules and both parties’ merits presentations now point: the proposition is not demonstrated.\n\nThe governing rule is exacting but not complicated. By June 15, 2025 at 11:59 PM ET, the record needed to show either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, establishing a permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nPlaintiff’s closing correctly identifies the decisive point: “the absence of qualifying proof.” That is not a small evidentiary gap. It is the central element of the proposition. Without a qualifying agreement or matching government confirmations, there is no basis to find that Iran and the United States agreed to a permanent peace deal by the deadline.\n\nThe admitted evidence is consistent and one-sided on that question. The rules file tells the council what must be proven. The Iranian President’s June 14 statement is official and close in time, but it shows accusation, distrust, continuing aggression, and threatened response; it does not show Iranian confirmation of a permanent peace deal with the United States. The White House June 17 release shows U.S. conditions and demands about Iran’s nuclear program; it does not announce that a bilateral permanent peace agreement already existed by June 15, and it does not supply Iranian confirmation. The later White House fact sheet says Iran refused to reach a deal in June, which points away from the proposition. The Al Jazeera report is secondary but contemporaneous, and it confirms unresolved or collapsing nuclear talks, not completed permanent peace.\n\nThe strongest theoretical point for plaintiff is that a treaty was not required. Clear public confirmation from both governments could have been enough. But that only matters if the confirmations exist. They do not. The record contains no adopted text, no official Iranian confirmation, and no official U.S. confirmation of a qualifying permanent peace deal by the cutoff. Plaintiff’s own search ledger and closing acknowledge those missing links.\n\nSo the council need not choose between competing speculative narratives. The official and contemporaneous record shows negotiations, conditions, distrust, and conflict. It does not show a definitive bilateral commitment to permanently end U.S.-Iran military hostilities by June 15, 2025. Under the preponderance standard, the absence of the required proof is decisive.\n\nThe proper resolution is not demonstrated.\n\nExhibits:\n[plaintiff] PX-1: Case-packet rules defining qualifying permanent peace deal\nThis proposition will resolve to “demonstrated” if Iran and the United\nstates agree to a permanent peace deal by the specified date, 11:59 PM\nET. Otherwise, this proposition will resolve to “not_demonstrated”.\n\nA permanent peace deal refers to any agreement which explicitly\nindicates that military hostilities between the United States and Iran\nhave ended or will permanently cease, or uses equivalent language\nclearly signaling a lasting end to military hostilities between the\nUnited States and Iran. Agreements that are explicitly temporary or\nwhich do not include a definitive agreement to end military\nhostilities between the US and Iran on a lasting basis (e.g. a\ntemporary extension of the two-week ceasefire agreement announced on\nApril 7, 2026), will not qualify.\n\nA qualifying agreement will be considered to have been established if\neither of the following conditions are met:\n\n- The United States and Iran each sign or formally adopt a written\n  agreement (e.g. a treaty or multi-point agreement) which meets the\n  above criteria.\n\n- Both the governments of the United States and Iran provide clear\n  public confirmation that a qualifying agreement has been\n  definitively established. Negotiations, statements of progress, or\n  other statements which do not constitute a definitive announcement\n  that a qualifying agreement has been reached will not count.\n\nThe primary resolution source for this market will be official\ninformation from the governments of the United States and Iran;\nhowever, a consensus of credible reporting may also be used.\n\n\n[plaintiff] PX-2: Official Iranian President June 14 statement\nTitle: Zionists' coordination with Americans amid Iran-US talks proves Washington's insincerity: President Pezeshkian\nSource URL: https://president.ir/en/159792\nPublisher: Official Website of the President of the Islamic Republic of Iran\nVisible page metadata: News ID: 159792; 2025/06/14 | 19:11\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nPresident Masoud Pezeshkian said that the continued aggression by the Zionist regime against Iran will be met with a more powerful and severe response from the Iranian Armed Forces.\n\nIn a phone conversation with Pakistan's Prime Minister Shehbaz Sharif on Saturday, President Pezeshkian expressed gratitude to the Pakistani government's stance at a Friday night UN Security Council meeting on the Zionist regime's aggression against Iran.\n\nThe Zionist regime violates all international regulations with the support of the United States and Western countries, the president said, adding that war has its own rules, but the regime violates them due to such backings.\n\nRegarding Iran's response to attacks by the Zionist regime, he said that if the Islamic Republic was not able to defend its territory in the face of the criminal and child-killing regime, Iranians would witness everyday acts of aggression and massacre by the regime, said President Pezeshkian.\n\nHowever, he added, Iran powerfully destroyed stealth military equipment of the regime, emphasizing that Israel will receive a more powerful and severe response by the Iranian Armed Forces if it continues its aggression.\n\nThe ongoing aggression shows that why Iran must enhance its defense power, Pezeshkian said, noting that the Islamic Republic has always sought to strengthen peace and security in the region and worldwide, but the recent developments indicate that if Iran does not have powerful defense capabilities, it may face such acts of aggression by the criminal regime.\n\nThe president also stated that the Zionist regime's coordination with the US in violating Iran's territorial integrity in the midst of indirect negotiations between Tehran and Washington is a sign of the United States' dishonesty and untrustworthiness.\n\nIn response, Sharif emphasized Pakistan's support for Iran, saying that the Zionist regime's aggression against the Islamic Republic is the violation of all international laws, which he condemned. He also expressed condolences on the martyrdom of a number of Iranian civilians, officials and scientists.\n\nThe Pakistani prime minister also expressed hope for peace and tranquility, noting that the Zionist regime commits all these crimes with impunity, which violate the UN Charter and international regulations.\n\nHe further said that his country is ready to help return Iranian Hajj pilgrims to Iran, asking President Pezeshkian to convey his greetings to the Supreme Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei.\n\n[plaintiff] PX-3: White House June 17 Iran statements release\nTitle: President Trump Has Always Been Clear: Iran Cannot Have a Nuclear Weapon\nSource URL: https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/\nPublisher: The White House\nPage date: June 17, 2025\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nPresident Donald J. Trump has never wavered in his stance that Iran cannot be allowed to have a nuclear weapon - a pledge he has made repeatedly, both in office and on the campaign trail.\n\nSince taking office, President Trump has clearly stated no fewer than a dozen times that Iran cannot be allowed to have a nuclear weapon:\n- \"Iran cannot have a nuclear weapon. It's very simple - you don't have to go to too deep into it. They just can't have a nuclear weapon.\" (6/17/25)\n- \"I want to see no nuclear weapon in Iran and we're well on our way to making sure that happens.\" (6/16/25)\n- \"You can't have peace if Iran has a nuclear weapon.\" (6/14/25)\n- \"They can't have a nuclear weapon. Very simple. They can't have a nuclear weapon. We're not going to allow that.\" (6/11/25)\n- \"You have to view them as people and I don't want it to be a violent thing, but they're not going to have a nuclear weapon.\" (5/16/25)\n- \"I want them to succeed. I want them to end up being a great country, frankly, but they can't have a nuclear weapon.\" (5/15/25)\n- \"I want to make a deal with Iran, I want to do something if it's possible, but for that to happen, it must stop sponsoring terror, halt its bloody proxy wars, and permanently and verifiably cease its pursuit of nuclear weapons.\" (5/14/25)\n- \"Iran can have a much brighter future - but we'll never allow America and its allies to be threatened with terrorism or a nuclear attack. The choice is theirs to make. We really want them to be a successful country ... but they cannot have a nuclear weapon.\" (5/13/25)\n- \"We want it to be a great country. Let it be a tremendously successful, rich country ... but they can't have a nuclear weapon.\" (5/6/25)\n- \"I want Iran to be really successful, really great, really fantastic - the only thing they can't have is a nuclear weapon. If they want to be successful, that's OK. I want them to be so successful and, you know, the Iranian people are incredible - I just don't want them to have a nuclear weapon because the world will be destroyed.\" (5/4/25)\n- \"Iran can't have a nuclear weapon.\" (4/17/25)\n- \"Iran has to get rid of the concept of a nuclear weapon. They cannot have a nuclear weapon.\" (4/14/25)\n- \"I want Iran to be a wonderful, great, happy country - but they can't have a nuclear weapon.\" (4/11/25)\n- \"You cannot allow [Iran] to have a nuclear weapon.\" (2/10/25)\n- \"It's very simple: Iran cannot have a nuclear weapon.\" (2/4/25)\n\n[plaintiff] PX-4: White House later June-deal characterization\nTitle: Fact Sheet: President Donald J. Trump Addresses Threats to the United States by the Government of Iran\nSource URL: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/\nPublisher: The White House\nPage date: February 6, 2026\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nCONFRONTING THE IRANIAN REGIME: Today, President Donald J. Trump signed an Executive Order reaffirming the ongoing national emergency with respect to Iran and establishing a process to impose tariffs on countries that acquire any goods or services from Iran to protect the national security, foreign policy, and economy of the United States.\n\nCOUNTERING IRAN'S MALIGN INFLUENCE: The President is holding Iran accountable for its pursuit of nuclear capabilities, support for terrorism, ballistic missile development, and regional destabilization that endanger American security, allies, and interests.\n\nPUTTING AMERICA FIRST: President Trump has never wavered in his stance that Iran cannot be allowed to have a nuclear weapon - a pledge he has made repeatedly, both in office and on the campaign trail.\n- President Trump is building on his strong record from his first term, when he withdrew from the flawed Iran nuclear deal, imposed maximum pressure, and designated Iran's Islamic Revolutionary Guard Corps (IRGC) as a Foreign Terrorist Organization.\n- Upon returning to office, President Trump restored maximum pressure on Iran to deny it all paths to a nuclear weapon and counter its malign influence abroad.\n- In June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer which obliterated Iran's nuclear facilities and significantly set back Tehran's nuclear ambitions.\n- President Trump recently deployed a massive armada to the region, urging Iran to come to the table and negotiate a fair, equitable deal with no nuclear weapons, or face even stronger consequences.\n\n[plaintiff] PX-5: June 14 contemporaneous reporting on cancelled talks\nTitle: Iran cancels US nuclear talks next round amid 'barbarous' Israeli attacks\nSource URL: https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal\nPublisher: Al Jazeera English\nArticle date: June 14, 2025\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nEarlier, Iran had clearly intimated that the continuation of nuclear talks with the US was unjustifiable while 'barbarous' Israeli attacks target the nation, Iranian state media reported, quoting Araghchi.\n\nIt seemed inevitable that the talks would fall victim to the sudden, massive escalation by Israel and Iran's retaliation.\n\nTehran branded dialogue over its nuclear programme with the US as 'meaningless' after Israel launched its biggest-ever military strike against Iran, which Tehran accuses Washington, DC, of supporting.\n\n'The other side [the US] acted in a way that makes dialogue meaningless. You cannot claim to negotiate and at the same time divide work by allowing the Zionist regime [Israel] to target Iran's territory,' Iran's semiofficial Tasnim news agency quoted Ministry of Foreign Affairs spokesperson Esmaeil Baghaei as saying on Saturday.\n\nThe US has denied the Iranian allegation of being complicit in Israel's attacks and told Tehran at the United Nations Security Council that it would be 'wise' to negotiate over its nuclear programme.\n\nUS President Donald Trump has called the Israeli attacks on Iran 'excellent' after initially warning Israeli Prime Minister Benjamin Netanyahu against action that could jeopardise nuclear talks.\n\nTrump on Friday framed the volatile conflict with Israel as a possible 'second chance' for Iran's leadership to avoid further destruction, 'before there is nothing left and save what was once known as the Iranian Empire'.\n\nThe sixth round of US-Iran nuclear talks was set to be held on Sunday in Oman.\n\nIran denies that its uranium enrichment programme is for anything other than civilian purposes, rejecting Israeli allegations that it is secretly developing nuclear weapons. Netanyahu has pledged to continue the attacks for 'as many days as it takes' to stop Iran from developing a 'nuclear threat'.\n\nTrump has blamed Iran for rejecting US proposals on uranium enrichment and has warned of more brutal Israeli strikes ahead.\n\n[defendant] DX-1: Case-packet rules defining qualifying permanent peace deal\nThis proposition will resolve to “demonstrated” if Iran and the United\nstates agree to a permanent peace deal by the specified date, 11:59 PM\nET. Otherwise, this proposition will resolve to “not_demonstrated”.\n\nA permanent peace deal refers to any agreement which explicitly\nindicates that military hostilities between the United States and Iran\nhave ended or will permanently cease, or uses equivalent language\nclearly signaling a lasting end to military hostilities between the\nUnited States and Iran. Agreements that are explicitly temporary or\nwhich do not include a definitive agreement to end military\nhostilities between the US and Iran on a lasting basis (e.g. a\ntemporary extension of the two-week ceasefire agreement announced on\nApril 7, 2026), will not qualify.\n\nA qualifying agreement will be considered to have been established if\neither of the following conditions are met:\n\n- The United States and Iran each sign or formally adopt a written\n  agreement (e.g. a treaty or multi-point agreement) which meets the\n  above criteria.\n\n- Both the governments of the United States and Iran provide clear\n  public confirmation that a qualifying agreement has been\n  definitively established. Negotiations, statements of progress, or\n  other statements which do not constitute a definitive announcement\n  that a qualifying agreement has been reached will not count.\n\nThe primary resolution source for this market will be official\ninformation from the governments of the United States and Iran;\nhowever, a consensus of credible reporting may also be used.\n\n\n[defendant] DX-2: Official Iranian President June 14 statement showing distrust and ongoing hostilities\nTitle: Zionists' coordination with Americans amid Iran-US talks proves Washington's insincerity: President Pezeshkian\nSource URL: https://president.ir/en/159792\nPublisher: Official Website of the President of the Islamic Republic of Iran\nVisible page metadata: News ID: 159792; 2025/06/14 | 19:11\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nPresident Masoud Pezeshkian said that the continued aggression by the Zionist regime against Iran will be met with a more powerful and severe response from the Iranian Armed Forces.\n\nIn a phone conversation with Pakistan's Prime Minister Shehbaz Sharif on Saturday, President Pezeshkian expressed gratitude to the Pakistani government's stance at a Friday night UN Security Council meeting on the Zionist regime's aggression against Iran.\n\nThe Zionist regime violates all international regulations with the support of the United States and Western countries, the president said, adding that war has its own rules, but the regime violates them due to such backings.\n\nRegarding Iran's response to attacks by the Zionist regime, he said that if the Islamic Republic was not able to defend its territory in the face of the criminal and child-killing regime, Iranians would witness everyday acts of aggression and massacre by the regime, said President Pezeshkian.\n\nHowever, he added, Iran powerfully destroyed stealth military equipment of the regime, emphasizing that Israel will receive a more powerful and severe response by the Iranian Armed Forces if it continues its aggression.\n\nThe ongoing aggression shows that why Iran must enhance its defense power, Pezeshkian said, noting that the Islamic Republic has always sought to strengthen peace and security in the region and worldwide, but the recent developments indicate that if Iran does not have powerful defense capabilities, it may face such acts of aggression by the criminal regime.\n\nThe president also stated that the Zionist regime's coordination with the US in violating Iran's territorial integrity in the midst of indirect negotiations between Tehran and Washington is a sign of the United States' dishonesty and untrustworthiness.\n\nIn response, Sharif emphasized Pakistan's support for Iran, saying that the Zionist regime's aggression against the Islamic Republic is the violation of all international laws, which he condemned. He also expressed condolences on the martyrdom of a number of Iranian civilians, officials and scientists.\n\nThe Pakistani prime minister also expressed hope for peace and tranquility, noting that the Zionist regime commits all these crimes with impunity, which violate the UN Charter and international regulations.\n\nHe further said that his country is ready to help return Iranian Hajj pilgrims to Iran, asking President Pezeshkian to convey his greetings to the Supreme Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei.\n\n[defendant] DX-3: White House June 17 release listing U.S. Iran conditions, not a confirmed peace deal\nTitle: President Trump Has Always Been Clear: Iran Cannot Have a Nuclear Weapon\nSource URL: https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/\nPublisher: The White House\nPage date: June 17, 2025\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nPresident Donald J. Trump has never wavered in his stance that Iran cannot be allowed to have a nuclear weapon - a pledge he has made repeatedly, both in office and on the campaign trail.\n\nSince taking office, President Trump has clearly stated no fewer than a dozen times that Iran cannot be allowed to have a nuclear weapon:\n- \"Iran cannot have a nuclear weapon. It's very simple - you don't have to go to too deep into it. They just can't have a nuclear weapon.\" (6/17/25)\n- \"I want to see no nuclear weapon in Iran and we're well on our way to making sure that happens.\" (6/16/25)\n- \"You can't have peace if Iran has a nuclear weapon.\" (6/14/25)\n- \"They can't have a nuclear weapon. Very simple. They can't have a nuclear weapon. We're not going to allow that.\" (6/11/25)\n- \"You have to view them as people and I don't want it to be a violent thing, but they're not going to have a nuclear weapon.\" (5/16/25)\n- \"I want them to succeed. I want them to end up being a great country, frankly, but they can't have a nuclear weapon.\" (5/15/25)\n- \"I want to make a deal with Iran, I want to do something if it's possible, but for that to happen, it must stop sponsoring terror, halt its bloody proxy wars, and permanently and verifiably cease its pursuit of nuclear weapons.\" (5/14/25)\n- \"Iran can have a much brighter future - but we'll never allow America and its allies to be threatened with terrorism or a nuclear attack. The choice is theirs to make. We really want them to be a successful country ... but they cannot have a nuclear weapon.\" (5/13/25)\n- \"We want it to be a great country. Let it be a tremendously successful, rich country ... but they can't have a nuclear weapon.\" (5/6/25)\n- \"I want Iran to be really successful, really great, really fantastic - the only thing they can't have is a nuclear weapon. If they want to be successful, that's OK. I want them to be so successful and, you know, the Iranian people are incredible - I just don't want them to have a nuclear weapon because the world will be destroyed.\" (5/4/25)\n- \"Iran can't have a nuclear weapon.\" (4/17/25)\n- \"Iran has to get rid of the concept of a nuclear weapon. They cannot have a nuclear weapon.\" (4/14/25)\n- \"I want Iran to be a wonderful, great, happy country - but they can't have a nuclear weapon.\" (4/11/25)\n- \"You cannot allow [Iran] to have a nuclear weapon.\" (2/10/25)\n- \"It's very simple: Iran cannot have a nuclear weapon.\" (2/4/25)\n\n[defendant] DX-4: White House later characterization that Iran refused to reach a deal in June\nTitle: Fact Sheet: President Donald J. Trump Addresses Threats to the United States by the Government of Iran\nSource URL: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/\nPublisher: The White House\nPage date: February 6, 2026\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nCONFRONTING THE IRANIAN REGIME: Today, President Donald J. Trump signed an Executive Order reaffirming the ongoing national emergency with respect to Iran and establishing a process to impose tariffs on countries that acquire any goods or services from Iran to protect the national security, foreign policy, and economy of the United States.\n\nCOUNTERING IRAN'S MALIGN INFLUENCE: The President is holding Iran accountable for its pursuit of nuclear capabilities, support for terrorism, ballistic missile development, and regional destabilization that endanger American security, allies, and interests.\n\nPUTTING AMERICA FIRST: President Trump has never wavered in his stance that Iran cannot be allowed to have a nuclear weapon - a pledge he has made repeatedly, both in office and on the campaign trail.\n- President Trump is building on his strong record from his first term, when he withdrew from the flawed Iran nuclear deal, imposed maximum pressure, and designated Iran's Islamic Revolutionary Guard Corps (IRGC) as a Foreign Terrorist Organization.\n- Upon returning to office, President Trump restored maximum pressure on Iran to deny it all paths to a nuclear weapon and counter its malign influence abroad.\n- In June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer which obliterated Iran's nuclear facilities and significantly set back Tehran's nuclear ambitions.\n- President Trump recently deployed a massive armada to the region, urging Iran to come to the table and negotiate a fair, equitable deal with no nuclear weapons, or face even stronger consequences.\n\n[defendant] DX-5: June 14 reporting that U.S.-Iran nuclear talks were unresolved and effectively cancelled\nTitle: Iran cancels US nuclear talks next round amid 'barbarous' Israeli attacks\nSource URL: https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal\nPublisher: Al Jazeera English\nArticle date: June 14, 2025\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nEarlier, Iran had clearly intimated that the continuation of nuclear talks with the US was unjustifiable while 'barbarous' Israeli attacks target the nation, Iranian state media reported, quoting Araghchi.\n\nIt seemed inevitable that the talks would fall victim to the sudden, massive escalation by Israel and Iran's retaliation.\n\nTehran branded dialogue over its nuclear programme with the US as 'meaningless' after Israel launched its biggest-ever military strike against Iran, which Tehran accuses Washington, DC, of supporting.\n\n'The other side [the US] acted in a way that makes dialogue meaningless. You cannot claim to negotiate and at the same time divide work by allowing the Zionist regime [Israel] to target Iran's territory,' Iran's semiofficial Tasnim news agency quoted Ministry of Foreign Affairs spokesperson Esmaeil Baghaei as saying on Saturday.\n\nThe US has denied the Iranian allegation of being complicit in Israel's attacks and told Tehran at the United Nations Security Council that it would be 'wise' to negotiate over its nuclear programme.\n\nUS President Donald Trump has called the Israeli attacks on Iran 'excellent' after initially warning Israeli Prime Minister Benjamin Netanyahu against action that could jeopardise nuclear talks.\n\nTrump on Friday framed the volatile conflict with Israel as a possible 'second chance' for Iran's leadership to avoid further destruction, 'before there is nothing left and save what was once known as the Iranian Empire'.\n\nThe sixth round of US-Iran nuclear talks was set to be held on Sunday in Oman.\n\nIran denies that its uranium enrichment programme is for anything other than civilian purposes, rejecting Israeli allegations that it is secretly developing nuclear weapons. Netanyahu has pledged to continue the attacks for 'as many days as it takes' to stop Iran from developing a 'nuclear threat'.\n\nTrump has blamed Iran for rejecting US proposals on uranium enrichment and has warned of more brutal Israeli strikes ahead.\n\nSubmitted evidence:\n[plaintiff arguments] Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity (ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3)\nSource: https://president.ir/en/159792\nSHA-256: `7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f`\nBytes: 2889\nRelevance: Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.\n\n[plaintiff arguments] White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon (ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc)\nSource: https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/\nSHA-256: `d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724`\nBytes: 2751\nRelevance: Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.\n\n[plaintiff arguments] White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June (ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e)\nSource: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/\nSHA-256: `75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520`\nBytes: 2022\nRelevance: Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.\n\n[plaintiff arguments] Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks (ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7)\nSource: https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal\nSHA-256: `0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a`\nBytes: 2314\nRelevance: Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.\n\nTechnical reports:\n[plaintiff] Plaintiff Source Search Ledger\nSearched official U.S. and Iranian government sources and credible contemporaneous reporting around June 13-17, 2025. Source targets were a written peace instrument, matching government confirmations by the June 15 cutoff, or adverse cancellation/refusal material. Submitted accepted captures from president.ir, WhiteHouse.gov, and Al Jazeera. No signed/formally adopted permanent peace agreement, official Iranian confirmation, or official U.S. confirmation of a qualifying permanent peace deal by the cutoff was located.\n\n[defendant] Defense evidence sufficiency audit\nDefense inspected the current record, metadata, and full text of plaintiff's four submitted sources plus the rules. No additional defense evidence was submitted because the visible evidence is sufficient: official Iranian and U.S. sources show distrust, demands, and refusal rather than a signed/adopted agreement or matching public confirmations, and plaintiff's own search ledger reports no qualifying agreement or confirmation was located.\n\nCall submit_council_vote with vote=demonstrated or vote=not_demonstrated.\nKeep the rationale brief: no more than three sentences.\n\nCouncil API instructions:\nYou are a council member. Decide the proposition from the admitted record.\nYou may examine admitted evidence through read-only tools when exact bytes, metadata, or exhibit contents matter.\nDo not search the web, introduce new facts, create new evidence, or upload evidence.\nWhen ready, call submit_council_vote exactly once with vote=demonstrated or vote=not_demonstrated and a concise rationale.\n",
+  "tools": [
+    {
+      "description": "Return the current visible arbitration record for this council member.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "name": "get_case",
+      "read_only": true
+    },
+    {
+      "description": "List visible immutable record evidence.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "name": "list_evidence",
+      "read_only": true
+    },
+    {
+      "description": "Return metadata and read limits for one visible evidence item.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "evidence_id"
+        ],
+        "type": "object"
+      },
+      "name": "stat_evidence",
+      "read_only": true
+    },
+    {
+      "description": "Read a bounded byte range from one visible evidence item as base64.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          },
+          "length": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "offset": {
+            "minimum": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "evidence_id",
+          "offset",
+          "length"
+        ],
+        "type": "object"
+      },
+      "name": "read_evidence_range",
+      "read_only": true
+    },
+    {
+      "description": "Submit one council vote for the current deliberation opportunity.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "rationale": {
+            "type": "string"
+          },
+          "vote": {
+            "enum": [
+              "demonstrated",
+              "not_demonstrated"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "vote",
+          "rationale"
+        ],
+        "type": "object"
+      },
+      "name": "submit_council_vote",
+      "read_only": false
+    }
+  ],
+  "limits": {
+    "attempts_max": 3,
+    "attempts_remaining": 3,
+    "max_evidence_read_bytes": 65536,
+    "max_evidence_read_bytes_per_opportunity": 524288,
+    "max_evidence_reads_per_opportunity": 32,
+    "max_response_bytes": 131072,
+    "remaining_evidence_read_bytes_for_opportunity": 524288,
+    "remaining_evidence_reads_for_opportunity": 32
+  },
+  "case_view": {
+    "evidence_standard": "Preponderance of the evidence.",
+    "member": {
+      "member_id": "C5",
+      "model": "openrouter://openai/gpt-4o-mini",
+      "persona_filename": "personas/generic.md"
+    },
+    "opportunity": {
+      "allowed_tools": [
+        "submit_council_vote"
+      ],
+      "id": "deliberation:1:C5",
+      "may_pass": false,
+      "objective": "council vote by C5",
+      "phase": "deliberation",
+      "role": "council"
+    },
+    "phase": "deliberation",
+    "proposition": "By June 15, 2025 11:59 PM ET, Iran and the United States agreed to a permanent peace deal.",
+    "record": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, after investigation and evidence submission, the plaintiff’s best legal theory remains clear, but the submitted record does not presently carry the plaintiff’s burden.\n\nThe governing rule is PX-1. A qualifying peace deal had to exist by June 15, 2025 at 11:59 PM ET, and it had to explicitly indicate that U.S.-Iran military hostilities had ended or would permanently cease, or use equivalent language showing a lasting end. PX-1 allows proof by a signed/formally adopted written agreement or by clear public confirmation from both governments. It excludes negotiations, progress statements, temporary arrangements, and non-definitive announcements.\n\nThat rule leaves a possible plaintiff path: if the United States and Iran had each publicly confirmed by the cutoff that a definitive permanent peace agreement existed, the proposition could be demonstrated even without treaty formalities. But the evidence I was able to preserve and submit does not show that.\n\nPX-2 is an official Iranian presidential statement dated June 14, 2025. It is close in time and from a strong official Iranian source. It shows the opposite of Iranian confirmation of a permanent peace deal: President Pezeshkian described U.S. coordination with Israel during indirect Tehran-Washington negotiations as evidence of U.S. dishonesty and untrustworthiness. That proves there were indirect negotiations and regional peace rhetoric, but it does not prove Iran had agreed to a permanent peace deal with the United States.\n\nPX-3 is an official White House release dated June 17, 2025 collecting President Trump’s statements on Iran. Its June 14 entry says, in substance, that there cannot be peace if Iran has a nuclear weapon. Other entries demand that Iran stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those statements may show a U.S. desired end state and negotiating conditions. They do not show that the United States confirmed a definitive permanent peace deal by June 15, and they do not supply matching Iranian confirmation.\n\nPX-4 is later, but it is an official U.S. characterization of the June 2025 sequence. The White House stated that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. Because it is later and self-characterizing, it should not be treated as the only account of June 2025. Still, as an official U.S. source, it is materially adverse to the proposition: it describes refusal to reach a deal, not agreement to permanent peace.\n\nPX-5 is contemporaneous reporting from June 14, 2025. It reports that Iran regarded further nuclear talks with the United States as meaningless amid Israeli attacks, quotes an Iranian foreign-ministry spokesperson through semi-official Tasnim, and notes that a sixth round of U.S.-Iran nuclear talks had been set for June 15 in Oman. This is secondary reporting rather than a primary government page, so it carries less weight than PX-2 or PX-3. But it is consistent with them: the relationship was in conflict and negotiation, not in a confirmed permanent peace.\n\nThe provenance and custody picture is straightforward. PX-2, PX-3, and PX-4 are captured extracts from official government websites and therefore have strong source provenance for what those governments publicly said. PX-5 is a credible contemporaneous secondary report with an identified source chain, useful to corroborate the status of talks but not a substitute for a signed agreement or official bilateral confirmation. AAR accepted each capture and assigned an evidence_id and hash.\n\nWhat remains missing is decisive. There is no written U.S.-Iran peace instrument in the record. There is no official Iranian statement by the cutoff clearly confirming that a qualifying permanent peace agreement had been definitively established. There is no official U.S. statement by the cutoff clearly confirming the same. The admitted evidence shows talks, demands, distrust, and conflict. Under PX-1, that is not enough.\n\nThe plaintiff’s opening correctly identified what would have been sufficient: bilateral, timely, definitive confirmation of a lasting end to U.S.-Iran military hostilities. The merits record now shows that those links are absent. On this evidentiary record, the council should not find the proposition demonstrated merely because negotiations existed or peace was discussed. The plaintiff’s candid position is that the submitted evidence does not prove by a preponderance that Iran and the United States agreed to a permanent peace deal by the June 15, 2025 deadline."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, the merits record now resolves the case for the defense. Plaintiff’s own argument states the key fact plainly: after investigation and evidence submission, “the submitted record does not presently carry the plaintiff’s burden.” The defense agrees, and the record shows why.\n\nDX-1, the rules file, supplies the governing test. A qualifying agreement must explicitly indicate that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent lasting-end language. Negotiations, progress statements, temporary arrangements, and non-definitive announcements do not count. The agreement is established only by a signed or formally adopted written agreement meeting that test, or by clear public confirmation from both governments that such an agreement has definitively been established.\n\nNo evidence in the record satisfies either path.\n\nDX-2 is strong official Iranian-source evidence because it comes from the official website of Iran’s President and is dated June 14, 2025, one day before the cutoff. But its substance defeats the proposition. President Pezeshkian described continuing aggression, said the United States and Western countries supported Israel, warned of a more severe Iranian response if aggression continued, and said U.S. coordination with Israel during indirect Tehran-Washington negotiations showed U.S. dishonesty and untrustworthiness. That proves there were indirect talks and an official Iranian accusation of bad faith. It does not prove Iran publicly confirmed a permanent peace deal with the United States. It proves the opposite atmosphere: conflict, distrust, and unresolved negotiations.\n\nDX-3 is official U.S. evidence from the White House. It likewise does not contain a U.S. confirmation of a bilateral permanent peace deal. Its June 14 entry says that peace is impossible if Iran has a nuclear weapon. Other entries repeat conditions and demands: Iran cannot have a nuclear weapon, and any deal would require Iran to stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those are negotiating positions and desired end states. Under DX-1, they are not a definitive announcement that a qualifying permanent peace agreement had been reached, and they do not supply matching Iranian confirmation.\n\nDX-4 is later in time, so the council should use it carefully. But it is still an official U.S. government characterization of the relevant June sequence, and it is materially adverse to plaintiff’s proposition. It says that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. “Refused to reach a deal” is not “agreed to a permanent peace deal.” Even if the council gives this later statement reduced weight, it points away from the proposition and is consistent with the contemporaneous record.\n\nDX-5 is credible contemporaneous secondary reporting, not a primary government record. Its weight is therefore corroborative rather than decisive. But it confirms the same picture. On June 14, 2025, the article reported that Iran regarded dialogue with the United States as meaningless amid Israeli attacks, quoted Iran’s foreign-ministry spokesperson through semi-official Tasnim to that effect, and noted that a sixth round of U.S.-Iran nuclear talks was still scheduled for Sunday in Oman. Pending or collapsing nuclear talks are not a permanent peace deal. A scheduled future round is especially hard to reconcile with a claim that both governments had already definitively established a lasting end to U.S.-Iran military hostilities.\n\nThe provenance picture strengthens the defense. DX-2, DX-3, and DX-4 are official government-source captures accepted by AAR with evidence IDs and hashes, so they are strong evidence of what those governments publicly said. DX-5 is less authoritative but contemporaneous and consistent with the official materials. There is no chain-of-custody problem that helps plaintiff: the problem is not unreliable adverse evidence, but the absence of affirmative qualifying evidence.\n\nThe missing links are decisive. The record contains no signed U.S.-Iran peace instrument. It contains no formally adopted bilateral text. It contains no official Iranian confirmation by the cutoff that a qualifying permanent peace agreement had been definitively established. It contains no official U.S. confirmation by the cutoff of the same proposition. Plaintiff’s own source-search ledger says those materials were not located.\n\nPreponderance does not mean speculation from diplomatic motion. The rules required a specific bilateral, timely, permanent commitment. The admitted evidence shows negotiations, conditions, hostility, distrust, and later refusal. It does not show a permanent peace deal by June 15, 2025 at 11:59 PM ET. The council should resolve the proposition as not demonstrated."
+        }
+      ],
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the record is now complete enough to decide the proposition, and the decisive point is the absence of qualifying proof.\n\nPX-1 sets the rule. By June 15, 2025 at 11:59 PM ET, there had to be either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, showing a definitive permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nThe record does not contain the required agreement or confirmations.\n\nPX-2 is official Iranian evidence from June 14, 2025. It is important because of its timing and provenance, but it does not confirm peace. It shows Iran accusing the United States of dishonesty and untrustworthiness during indirect negotiations and describing continuing aggression and potential response. That is not a permanent peace deal.\n\nPX-3 is official U.S. evidence. It shows President Trump’s public position that Iran could not have a nuclear weapon and that peace depended on that condition. That may show negotiating objectives; it does not show the United States announcing that a qualifying bilateral permanent peace agreement had been reached by the cutoff, and it certainly does not supply matching Iranian confirmation.\n\nPX-4 is later official U.S. characterization, so it should be weighed with that timing in mind. But it is still adverse: the White House described June as a period in which Iran refused to reach a deal before U.S. military action. That is inconsistent with the proposition.\n\nPX-5 is secondary reporting, but contemporaneous and corroborative. It reports that Iran regarded talks as meaningless and that a further round of talks was still scheduled. That is evidence of unresolved or collapsing negotiation, not a completed permanent peace agreement.\n\nThe source provenance is not the problem. The official sources are strong evidence of what each government was saying. The problem is substance: those sources do not say what PX-1 requires. The missing links are decisive. There is no adopted text. There is no official Iranian confirmation of a permanent U.S.-Iran peace deal by the deadline. There is no official U.S. confirmation of the same. The record instead shows conflict, conditions, distrust, and failed or unresolved talks.\n\nThe plaintiff’s theory was legally possible: bilateral public confirmation could have sufficed. But the evidence submitted does not establish that theory by a preponderance. On this record, the proposition should be resolved as not demonstrated."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, this case ends where the rules and both parties’ merits presentations now point: the proposition is not demonstrated.\n\nThe governing rule is exacting but not complicated. By June 15, 2025 at 11:59 PM ET, the record needed to show either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, establishing a permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nPlaintiff’s closing correctly identifies the decisive point: “the absence of qualifying proof.” That is not a small evidentiary gap. It is the central element of the proposition. Without a qualifying agreement or matching government confirmations, there is no basis to find that Iran and the United States agreed to a permanent peace deal by the deadline.\n\nThe admitted evidence is consistent and one-sided on that question. The rules file tells the council what must be proven. The Iranian President’s June 14 statement is official and close in time, but it shows accusation, distrust, continuing aggression, and threatened response; it does not show Iranian confirmation of a permanent peace deal with the United States. The White House June 17 release shows U.S. conditions and demands about Iran’s nuclear program; it does not announce that a bilateral permanent peace agreement already existed by June 15, and it does not supply Iranian confirmation. The later White House fact sheet says Iran refused to reach a deal in June, which points away from the proposition. The Al Jazeera report is secondary but contemporaneous, and it confirms unresolved or collapsing nuclear talks, not completed permanent peace.\n\nThe strongest theoretical point for plaintiff is that a treaty was not required. Clear public confirmation from both governments could have been enough. But that only matters if the confirmations exist. They do not. The record contains no adopted text, no official Iranian confirmation, and no official U.S. confirmation of a qualifying permanent peace deal by the cutoff. Plaintiff’s own search ledger and closing acknowledge those missing links.\n\nSo the council need not choose between competing speculative narratives. The official and contemporaneous record shows negotiations, conditions, distrust, and conflict. It does not show a definitive bilateral commitment to permanently end U.S.-Iran military hostilities by June 15, 2025. Under the preponderance standard, the absence of the required proof is decisive.\n\nThe proper resolution is not demonstrated."
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "sha256": "0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+          "size_bytes": 2314,
+          "mime_type": "text/plain",
+          "storage_name": "06/0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+          "created_at": "2026-06-30T16:58:08Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks",
+          "original_name": "submitted-evidence-04-plaintiff-0606fd0d81a7.txt",
+          "source_url": "https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal",
+          "source_description": "Al Jazeera English article; extracted relevant page text from web retrieval.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "submitted_by_role": "plaintiff",
+          "submitted_phase": "arguments",
+          "relevance": "Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "sha256": "75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+          "size_bytes": 2022,
+          "mime_type": "text/plain",
+          "storage_name": "75/75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+          "created_at": "2026-06-30T16:58:03Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June",
+          "original_name": "submitted-evidence-03-plaintiff-75f22524b70e.txt",
+          "source_url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/",
+          "source_description": "White House fact sheet; extracted page text from web retrieval.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "submitted_by_role": "plaintiff",
+          "submitted_phase": "arguments",
+          "relevance": "Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "sha256": "7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+          "size_bytes": 2889,
+          "mime_type": "text/plain",
+          "storage_name": "7f/7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+          "created_at": "2026-06-30T16:57:52Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity",
+          "original_name": "submitted-evidence-01-plaintiff-7f6e26b31ff3.txt",
+          "source_url": "https://president.ir/en/159792",
+          "source_description": "Official website of the President of the Islamic Republic of Iran; extracted page text from web retrieval.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "submitted_by_role": "plaintiff",
+          "submitted_phase": "arguments",
+          "relevance": "Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "sha256": "d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+          "size_bytes": 2751,
+          "mime_type": "text/plain",
+          "storage_name": "d6/d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+          "created_at": "2026-06-30T16:57:57Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon",
+          "original_name": "submitted-evidence-02-plaintiff-d6ef8a8fd4dc.txt",
+          "source_url": "https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/",
+          "source_description": "White House release; extracted page text from web retrieval.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "submitted_by_role": "plaintiff",
+          "submitted_phase": "arguments",
+          "relevance": "Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_f1a176053ed8_rules",
+          "sha256": "f1a176053ed8d60a76c8a80970398f1fcf53836b2fe66347f80e7c33afbb95ca",
+          "size_bytes": 1569,
+          "mime_type": "text/plain",
+          "storage_name": "f1/f1a176053ed8d60a76c8a80970398f1fcf53836b2fe66347f80e7c33afbb95ca",
+          "created_at": "2026-06-30T16:49:43Z",
+          "admissibility_status": "case_packet",
+          "record_visibility": "juror_visible",
+          "title": "rules.txt",
+          "original_name": "rules.txt",
+          "source_description": "Initial case packet file",
+          "submitted_by_role": "system",
+          "submitted_phase": "case_packet",
+          "text_readable": true
+        }
+      ],
+      "exhibits": [
+        {
+          "evidence_id": "ev_f1a176053ed8_rules",
+          "label": "PX-1: Case-packet rules defining qualifying permanent peace deal",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "This proposition will resolve to “demonstrated” if Iran and the United\nstates agree to a permanent peace deal by the specified date, 11:59 PM\nET. Otherwise, this proposition will resolve to “not_demonstrated”.\n\nA permanent peace deal refers to any agreement which explicitly\nindicates that military hostilities between the United States and Iran\nhave ended or will permanently cease, or uses equivalent language\nclearly signaling a lasting end to military hostilities between the\nUnited States and Iran. Agreements that are explicitly temporary or\nwhich do not include a definitive agreement to end military\nhostilities between the US and Iran on a lasting basis (e.g. a\ntemporary extension of the two-week ceasefire agreement announced on\nApril 7, 2026), will not qualify.\n\nA qualifying agreement will be considered to have been established if\neither of the following conditions are met:\n\n- The United States and Iran each sign or formally adopt a written\n  agreement (e.g. a treaty or multi-point agreement) which meets the\n  above criteria.\n\n- Both the governments of the United States and Iran provide clear\n  public confirmation that a qualifying agreement has been\n  definitively established. Negotiations, statements of progress, or\n  other statements which do not constitute a definitive announcement\n  that a qualifying agreement has been reached will not count.\n\nThe primary resolution source for this market will be official\ninformation from the governments of the United States and Iran;\nhowever, a consensus of credible reporting may also be used.\n"
+        },
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "label": "PX-2: Official Iranian President June 14 statement",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Title: Zionists' coordination with Americans amid Iran-US talks proves Washington's insincerity: President Pezeshkian\nSource URL: https://president.ir/en/159792\nPublisher: Official Website of the President of the Islamic Republic of Iran\nVisible page metadata: News ID: 159792; 2025/06/14 | 19:11\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nPresident Masoud Pezeshkian said that the continued aggression by the Zionist regime against Iran will be met with a more powerful and severe response from the Iranian Armed Forces.\n\nIn a phone conversation with Pakistan's Prime Minister Shehbaz Sharif on Saturday, President Pezeshkian expressed gratitude to the Pakistani government's stance at a Friday night UN Security Council meeting on the Zionist regime's aggression against Iran.\n\nThe Zionist regime violates all international regulations with the support of the United States and Western countries, the president said, adding that war has its own rules, but the regime violates them due to such backings.\n\nRegarding Iran's response to attacks by the Zionist regime, he said that if the Islamic Republic was not able to defend its territory in the face of the criminal and child-killing regime, Iranians would witness everyday acts of aggression and massacre by the regime, said President Pezeshkian.\n\nHowever, he added, Iran powerfully destroyed stealth military equipment of the regime, emphasizing that Israel will receive a more powerful and severe response by the Iranian Armed Forces if it continues its aggression.\n\nThe ongoing aggression shows that why Iran must enhance its defense power, Pezeshkian said, noting that the Islamic Republic has always sought to strengthen peace and security in the region and worldwide, but the recent developments indicate that if Iran does not have powerful defense capabilities, it may face such acts of aggression by the criminal regime.\n\nThe president also stated that the Zionist regime's coordination with the US in violating Iran's territorial integrity in the midst of indirect negotiations between Tehran and Washington is a sign of the United States' dishonesty and untrustworthiness.\n\nIn response, Sharif emphasized Pakistan's support for Iran, saying that the Zionist regime's aggression against the Islamic Republic is the violation of all international laws, which he condemned. He also expressed condolences on the martyrdom of a number of Iranian civilians, officials and scientists.\n\nThe Pakistani prime minister also expressed hope for peace and tranquility, noting that the Zionist regime commits all these crimes with impunity, which violate the UN Charter and international regulations.\n\nHe further said that his country is ready to help return Iranian Hajj pilgrims to Iran, asking President Pezeshkian to convey his greetings to the Supreme Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei."
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "label": "PX-3: White House June 17 Iran statements release",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Title: President Trump Has Always Been Clear: Iran Cannot Have a Nuclear Weapon\nSource URL: https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/\nPublisher: The White House\nPage date: June 17, 2025\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nPresident Donald J. Trump has never wavered in his stance that Iran cannot be allowed to have a nuclear weapon - a pledge he has made repeatedly, both in office and on the campaign trail.\n\nSince taking office, President Trump has clearly stated no fewer than a dozen times that Iran cannot be allowed to have a nuclear weapon:\n- \"Iran cannot have a nuclear weapon. It's very simple - you don't have to go to too deep into it. They just can't have a nuclear weapon.\" (6/17/25)\n- \"I want to see no nuclear weapon in Iran and we're well on our way to making sure that happens.\" (6/16/25)\n- \"You can't have peace if Iran has a nuclear weapon.\" (6/14/25)\n- \"They can't have a nuclear weapon. Very simple. They can't have a nuclear weapon. We're not going to allow that.\" (6/11/25)\n- \"You have to view them as people and I don't want it to be a violent thing, but they're not going to have a nuclear weapon.\" (5/16/25)\n- \"I want them to succeed. I want them to end up being a great country, frankly, but they can't have a nuclear weapon.\" (5/15/25)\n- \"I want to make a deal with Iran, I want to do something if it's possible, but for that to happen, it must stop sponsoring terror, halt its bloody proxy wars, and permanently and verifiably cease its pursuit of nuclear weapons.\" (5/14/25)\n- \"Iran can have a much brighter future - but we'll never allow America and its allies to be threatened with terrorism or a nuclear attack. The choice is theirs to make. We really want them to be a successful country ... but they cannot have a nuclear weapon.\" (5/13/25)\n- \"We want it to be a great country. Let it be a tremendously successful, rich country ... but they can't have a nuclear weapon.\" (5/6/25)\n- \"I want Iran to be really successful, really great, really fantastic - the only thing they can't have is a nuclear weapon. If they want to be successful, that's OK. I want them to be so successful and, you know, the Iranian people are incredible - I just don't want them to have a nuclear weapon because the world will be destroyed.\" (5/4/25)\n- \"Iran can't have a nuclear weapon.\" (4/17/25)\n- \"Iran has to get rid of the concept of a nuclear weapon. They cannot have a nuclear weapon.\" (4/14/25)\n- \"I want Iran to be a wonderful, great, happy country - but they can't have a nuclear weapon.\" (4/11/25)\n- \"You cannot allow [Iran] to have a nuclear weapon.\" (2/10/25)\n- \"It's very simple: Iran cannot have a nuclear weapon.\" (2/4/25)"
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "label": "PX-4: White House later June-deal characterization",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Title: Fact Sheet: President Donald J. Trump Addresses Threats to the United States by the Government of Iran\nSource URL: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/\nPublisher: The White House\nPage date: February 6, 2026\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nCONFRONTING THE IRANIAN REGIME: Today, President Donald J. Trump signed an Executive Order reaffirming the ongoing national emergency with respect to Iran and establishing a process to impose tariffs on countries that acquire any goods or services from Iran to protect the national security, foreign policy, and economy of the United States.\n\nCOUNTERING IRAN'S MALIGN INFLUENCE: The President is holding Iran accountable for its pursuit of nuclear capabilities, support for terrorism, ballistic missile development, and regional destabilization that endanger American security, allies, and interests.\n\nPUTTING AMERICA FIRST: President Trump has never wavered in his stance that Iran cannot be allowed to have a nuclear weapon - a pledge he has made repeatedly, both in office and on the campaign trail.\n- President Trump is building on his strong record from his first term, when he withdrew from the flawed Iran nuclear deal, imposed maximum pressure, and designated Iran's Islamic Revolutionary Guard Corps (IRGC) as a Foreign Terrorist Organization.\n- Upon returning to office, President Trump restored maximum pressure on Iran to deny it all paths to a nuclear weapon and counter its malign influence abroad.\n- In June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer which obliterated Iran's nuclear facilities and significantly set back Tehran's nuclear ambitions.\n- President Trump recently deployed a massive armada to the region, urging Iran to come to the table and negotiate a fair, equitable deal with no nuclear weapons, or face even stronger consequences."
+        },
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "label": "PX-5: June 14 contemporaneous reporting on cancelled talks",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Title: Iran cancels US nuclear talks next round amid 'barbarous' Israeli attacks\nSource URL: https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal\nPublisher: Al Jazeera English\nArticle date: June 14, 2025\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nEarlier, Iran had clearly intimated that the continuation of nuclear talks with the US was unjustifiable while 'barbarous' Israeli attacks target the nation, Iranian state media reported, quoting Araghchi.\n\nIt seemed inevitable that the talks would fall victim to the sudden, massive escalation by Israel and Iran's retaliation.\n\nTehran branded dialogue over its nuclear programme with the US as 'meaningless' after Israel launched its biggest-ever military strike against Iran, which Tehran accuses Washington, DC, of supporting.\n\n'The other side [the US] acted in a way that makes dialogue meaningless. You cannot claim to negotiate and at the same time divide work by allowing the Zionist regime [Israel] to target Iran's territory,' Iran's semiofficial Tasnim news agency quoted Ministry of Foreign Affairs spokesperson Esmaeil Baghaei as saying on Saturday.\n\nThe US has denied the Iranian allegation of being complicit in Israel's attacks and told Tehran at the United Nations Security Council that it would be 'wise' to negotiate over its nuclear programme.\n\nUS President Donald Trump has called the Israeli attacks on Iran 'excellent' after initially warning Israeli Prime Minister Benjamin Netanyahu against action that could jeopardise nuclear talks.\n\nTrump on Friday framed the volatile conflict with Israel as a possible 'second chance' for Iran's leadership to avoid further destruction, 'before there is nothing left and save what was once known as the Iranian Empire'.\n\nThe sixth round of US-Iran nuclear talks was set to be held on Sunday in Oman.\n\nIran denies that its uranium enrichment programme is for anything other than civilian purposes, rejecting Israeli allegations that it is secretly developing nuclear weapons. Netanyahu has pledged to continue the attacks for 'as many days as it takes' to stop Iran from developing a 'nuclear threat'.\n\nTrump has blamed Iran for rejecting US proposals on uranium enrichment and has warned of more brutal Israeli strikes ahead."
+        },
+        {
+          "evidence_id": "ev_f1a176053ed8_rules",
+          "label": "DX-1: Case-packet rules defining qualifying permanent peace deal",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "This proposition will resolve to “demonstrated” if Iran and the United\nstates agree to a permanent peace deal by the specified date, 11:59 PM\nET. Otherwise, this proposition will resolve to “not_demonstrated”.\n\nA permanent peace deal refers to any agreement which explicitly\nindicates that military hostilities between the United States and Iran\nhave ended or will permanently cease, or uses equivalent language\nclearly signaling a lasting end to military hostilities between the\nUnited States and Iran. Agreements that are explicitly temporary or\nwhich do not include a definitive agreement to end military\nhostilities between the US and Iran on a lasting basis (e.g. a\ntemporary extension of the two-week ceasefire agreement announced on\nApril 7, 2026), will not qualify.\n\nA qualifying agreement will be considered to have been established if\neither of the following conditions are met:\n\n- The United States and Iran each sign or formally adopt a written\n  agreement (e.g. a treaty or multi-point agreement) which meets the\n  above criteria.\n\n- Both the governments of the United States and Iran provide clear\n  public confirmation that a qualifying agreement has been\n  definitively established. Negotiations, statements of progress, or\n  other statements which do not constitute a definitive announcement\n  that a qualifying agreement has been reached will not count.\n\nThe primary resolution source for this market will be official\ninformation from the governments of the United States and Iran;\nhowever, a consensus of credible reporting may also be used.\n"
+        },
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "label": "DX-2: Official Iranian President June 14 statement showing distrust and ongoing hostilities",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Title: Zionists' coordination with Americans amid Iran-US talks proves Washington's insincerity: President Pezeshkian\nSource URL: https://president.ir/en/159792\nPublisher: Official Website of the President of the Islamic Republic of Iran\nVisible page metadata: News ID: 159792; 2025/06/14 | 19:11\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nPresident Masoud Pezeshkian said that the continued aggression by the Zionist regime against Iran will be met with a more powerful and severe response from the Iranian Armed Forces.\n\nIn a phone conversation with Pakistan's Prime Minister Shehbaz Sharif on Saturday, President Pezeshkian expressed gratitude to the Pakistani government's stance at a Friday night UN Security Council meeting on the Zionist regime's aggression against Iran.\n\nThe Zionist regime violates all international regulations with the support of the United States and Western countries, the president said, adding that war has its own rules, but the regime violates them due to such backings.\n\nRegarding Iran's response to attacks by the Zionist regime, he said that if the Islamic Republic was not able to defend its territory in the face of the criminal and child-killing regime, Iranians would witness everyday acts of aggression and massacre by the regime, said President Pezeshkian.\n\nHowever, he added, Iran powerfully destroyed stealth military equipment of the regime, emphasizing that Israel will receive a more powerful and severe response by the Iranian Armed Forces if it continues its aggression.\n\nThe ongoing aggression shows that why Iran must enhance its defense power, Pezeshkian said, noting that the Islamic Republic has always sought to strengthen peace and security in the region and worldwide, but the recent developments indicate that if Iran does not have powerful defense capabilities, it may face such acts of aggression by the criminal regime.\n\nThe president also stated that the Zionist regime's coordination with the US in violating Iran's territorial integrity in the midst of indirect negotiations between Tehran and Washington is a sign of the United States' dishonesty and untrustworthiness.\n\nIn response, Sharif emphasized Pakistan's support for Iran, saying that the Zionist regime's aggression against the Islamic Republic is the violation of all international laws, which he condemned. He also expressed condolences on the martyrdom of a number of Iranian civilians, officials and scientists.\n\nThe Pakistani prime minister also expressed hope for peace and tranquility, noting that the Zionist regime commits all these crimes with impunity, which violate the UN Charter and international regulations.\n\nHe further said that his country is ready to help return Iranian Hajj pilgrims to Iran, asking President Pezeshkian to convey his greetings to the Supreme Leader of the Islamic Revolution, Ayatollah Seyyed Ali Khamenei."
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "label": "DX-3: White House June 17 release listing U.S. Iran conditions, not a confirmed peace deal",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Title: President Trump Has Always Been Clear: Iran Cannot Have a Nuclear Weapon\nSource URL: https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/\nPublisher: The White House\nPage date: June 17, 2025\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nPresident Donald J. Trump has never wavered in his stance that Iran cannot be allowed to have a nuclear weapon - a pledge he has made repeatedly, both in office and on the campaign trail.\n\nSince taking office, President Trump has clearly stated no fewer than a dozen times that Iran cannot be allowed to have a nuclear weapon:\n- \"Iran cannot have a nuclear weapon. It's very simple - you don't have to go to too deep into it. They just can't have a nuclear weapon.\" (6/17/25)\n- \"I want to see no nuclear weapon in Iran and we're well on our way to making sure that happens.\" (6/16/25)\n- \"You can't have peace if Iran has a nuclear weapon.\" (6/14/25)\n- \"They can't have a nuclear weapon. Very simple. They can't have a nuclear weapon. We're not going to allow that.\" (6/11/25)\n- \"You have to view them as people and I don't want it to be a violent thing, but they're not going to have a nuclear weapon.\" (5/16/25)\n- \"I want them to succeed. I want them to end up being a great country, frankly, but they can't have a nuclear weapon.\" (5/15/25)\n- \"I want to make a deal with Iran, I want to do something if it's possible, but for that to happen, it must stop sponsoring terror, halt its bloody proxy wars, and permanently and verifiably cease its pursuit of nuclear weapons.\" (5/14/25)\n- \"Iran can have a much brighter future - but we'll never allow America and its allies to be threatened with terrorism or a nuclear attack. The choice is theirs to make. We really want them to be a successful country ... but they cannot have a nuclear weapon.\" (5/13/25)\n- \"We want it to be a great country. Let it be a tremendously successful, rich country ... but they can't have a nuclear weapon.\" (5/6/25)\n- \"I want Iran to be really successful, really great, really fantastic - the only thing they can't have is a nuclear weapon. If they want to be successful, that's OK. I want them to be so successful and, you know, the Iranian people are incredible - I just don't want them to have a nuclear weapon because the world will be destroyed.\" (5/4/25)\n- \"Iran can't have a nuclear weapon.\" (4/17/25)\n- \"Iran has to get rid of the concept of a nuclear weapon. They cannot have a nuclear weapon.\" (4/14/25)\n- \"I want Iran to be a wonderful, great, happy country - but they can't have a nuclear weapon.\" (4/11/25)\n- \"You cannot allow [Iran] to have a nuclear weapon.\" (2/10/25)\n- \"It's very simple: Iran cannot have a nuclear weapon.\" (2/4/25)"
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "label": "DX-4: White House later characterization that Iran refused to reach a deal in June",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Title: Fact Sheet: President Donald J. Trump Addresses Threats to the United States by the Government of Iran\nSource URL: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/\nPublisher: The White House\nPage date: February 6, 2026\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nCONFRONTING THE IRANIAN REGIME: Today, President Donald J. Trump signed an Executive Order reaffirming the ongoing national emergency with respect to Iran and establishing a process to impose tariffs on countries that acquire any goods or services from Iran to protect the national security, foreign policy, and economy of the United States.\n\nCOUNTERING IRAN'S MALIGN INFLUENCE: The President is holding Iran accountable for its pursuit of nuclear capabilities, support for terrorism, ballistic missile development, and regional destabilization that endanger American security, allies, and interests.\n\nPUTTING AMERICA FIRST: President Trump has never wavered in his stance that Iran cannot be allowed to have a nuclear weapon - a pledge he has made repeatedly, both in office and on the campaign trail.\n- President Trump is building on his strong record from his first term, when he withdrew from the flawed Iran nuclear deal, imposed maximum pressure, and designated Iran's Islamic Revolutionary Guard Corps (IRGC) as a Foreign Terrorist Organization.\n- Upon returning to office, President Trump restored maximum pressure on Iran to deny it all paths to a nuclear weapon and counter its malign influence abroad.\n- In June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer which obliterated Iran's nuclear facilities and significantly set back Tehran's nuclear ambitions.\n- President Trump recently deployed a massive armada to the region, urging Iran to come to the table and negotiate a fair, equitable deal with no nuclear weapons, or face even stronger consequences."
+        },
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "label": "DX-5: June 14 reporting that U.S.-Iran nuclear talks were unresolved and effectively cancelled",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Title: Iran cancels US nuclear talks next round amid 'barbarous' Israeli attacks\nSource URL: https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal\nPublisher: Al Jazeera English\nArticle date: June 14, 2025\nRetrieved: 2026-06-30T17:00:00Z\n\nExtracted relevant page text:\nEarlier, Iran had clearly intimated that the continuation of nuclear talks with the US was unjustifiable while 'barbarous' Israeli attacks target the nation, Iranian state media reported, quoting Araghchi.\n\nIt seemed inevitable that the talks would fall victim to the sudden, massive escalation by Israel and Iran's retaliation.\n\nTehran branded dialogue over its nuclear programme with the US as 'meaningless' after Israel launched its biggest-ever military strike against Iran, which Tehran accuses Washington, DC, of supporting.\n\n'The other side [the US] acted in a way that makes dialogue meaningless. You cannot claim to negotiate and at the same time divide work by allowing the Zionist regime [Israel] to target Iran's territory,' Iran's semiofficial Tasnim news agency quoted Ministry of Foreign Affairs spokesperson Esmaeil Baghaei as saying on Saturday.\n\nThe US has denied the Iranian allegation of being complicit in Israel's attacks and told Tehran at the United Nations Security Council that it would be 'wise' to negotiate over its nuclear programme.\n\nUS President Donald Trump has called the Israeli attacks on Iran 'excellent' after initially warning Israeli Prime Minister Benjamin Netanyahu against action that could jeopardise nuclear talks.\n\nTrump on Friday framed the volatile conflict with Israel as a possible 'second chance' for Iran's leadership to avoid further destruction, 'before there is nothing left and save what was once known as the Iranian Empire'.\n\nThe sixth round of US-Iran nuclear talks was set to be held on Sunday in Oman.\n\nIran denies that its uranium enrichment programme is for anything other than civilian purposes, rejecting Israeli allegations that it is secretly developing nuclear weapons. Netanyahu has pledged to continue the attacks for 'as many days as it takes' to stop Iran from developing a 'nuclear threat'.\n\nTrump has blamed Iran for rejecting US proposals on uranium enrichment and has warned of more brutal Israeli strikes ahead."
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, the plaintiff’s burden is defined by the case-packet rules, and those rules make this a narrow factual inquiry rather than a general debate about diplomacy.\n\nThe proposition is demonstrated if, by June 15, 2025 at 11:59 PM Eastern Time, the United States and Iran had agreed to a permanent peace deal. The admitted rules file tells us what that means. A qualifying deal must explicitly state that military hostilities between the United States and Iran have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. The rules also tell us what does not count: a temporary extension, a ceasefire without a definitive lasting end, mere negotiations, progress statements, or non-final announcements.\n\nThe plaintiff’s theory is therefore straightforward. This case turns on whether the record can show a definitive bilateral commitment by the cutoff, not whether later events were calm, messy, or politically contested. Under the rules, the strongest proof would be either a written agreement signed or formally adopted by both sides, or clear public confirmation from both governments that a qualifying agreement had been definitively established. A treaty label is not required if the proof otherwise satisfies that standard. The words, timing, and source of the confirmation matter most.\n\nAt the opening stage, the current admitted record contains only the rules file. That file is important because it supplies the legal test, but it does not itself prove the historical fact of an agreement. For that reason, the plaintiff will not ask the council to infer the proposition from hope, market chatter, or general diplomatic movement. The plaintiff expects the decisive evidence to be official U.S. and Iranian government statements, any adopted text or instrument, and reliable reporting only insofar as it helps confirm what the governments themselves said and when they said it.\n\nThe plaintiff also recognizes the adverse questions. If the evidence shows only suspended nuclear talks, temporary ceasefire language, unilateral statements, post-cutoff developments, or a promise to keep negotiating, that would not satisfy the rules. If one government clearly denied that a qualifying agreement had been reached by the deadline, that would carry real weight. If a later agreement was necessary because no permanent peace deal existed earlier, the timing problem would have to be confronted directly.\n\nBut the rules set a preponderance standard, not a formalistic trap. If the admitted evidence establishes that both governments clearly confirmed, by the deadline, a definitive agreement to permanently end U.S.-Iran military hostilities, then the proposition is demonstrated even if implementation details, nuclear issues, or political objections remained unsettled. The plaintiff’s case will focus on that precise question: whether the source record proves mutual, timely, permanent commitment rather than temporary de-escalation or ongoing negotiation."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defense agrees with one point in plaintiff’s opening: this case is narrow. The proposition is not whether diplomacy with Iran was desirable, whether talks occurred, whether tensions later eased, or whether someone announced progress. The admitted case-packet rules require something much more specific by June 15, 2025 at 11:59 PM Eastern: a permanent peace deal between Iran and the United States.\n\nThe only evidence now in the record is the rules file, `ev_f1a176053ed8_rules`. That file proves the governing test and nothing more. It says a qualifying deal must explicitly state that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. It also excludes the very categories most likely to be confused with proof here: temporary extensions, ceasefires without a definitive lasting end, negotiations, progress statements, and non-final announcements.\n\nThat distinction will decide the case. Plaintiff must do more than show contact between diplomats, nuclear discussions, optimism from one side, mediation by a third country, or later attempts to stabilize the relationship. Plaintiff must establish either a signed or formally adopted written agreement meeting the rules, or clear public confirmation by both governments that such a qualifying agreement had definitively been established before the cutoff.\n\nThe defense theory is straightforward: unless plaintiff can produce that bilateral, timely, permanent commitment, the proposition is not demonstrated. A unilateral U.S. statement would not be enough. A unilateral Iranian statement would not be enough. A planned meeting, a draft, an exchange through mediators, or a promise to continue talking would not be enough. A ceasefire or pause would not be enough unless it definitively ended U.S.-Iran military hostilities on a lasting basis. And any post-cutoff development would not cure the timing problem; if a later agreement was still needed, that tends to show the required agreement did not already exist by June 15, 2025.\n\nThe current record contains no written peace instrument, no adopted bilateral text, and no public confirmation from both governments. That absence matters at the opening stage because the rules make official U.S. and Iranian government information the primary resolution source. In later evidence phases, the defense expects the key proof to be official statements, dated government releases, and reliable reporting only insofar as it confirms what each government actually said and when. The most important adverse checks will be the full source chain for any claimed agreement: who spoke, whether they had authority, whether the other government matched the statement, whether the language was permanent rather than temporary, and whether it was made before the deadline.\n\nSo the defense asks the council to keep the burden centered. The rules do not allow a finding for plaintiff based on diplomatic smoke, market language, or after-the-fact framing. They require a definitive, bilateral, timely permanent peace deal. On this record, that historical fact has not been shown, and unless plaintiff supplies admissible evidence closing each of those gaps, the proper resolution is not demonstrated."
+        }
+      ],
+      "prior_council_votes": [
+        {
+          "member_id": "C1",
+          "rationale": "The admitted record contains no written peace agreement, no Iranian confirmation of a permanent peace deal by June 15, and no US confirmation of such a deal. The evidence shows negotiations, distrust, ongoing hostilities, and a later Iranian refusal to reach a deal - inconsistent with the required bilateral, timely, permanent commitment.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C2",
+          "rationale": "The evidence shows no signed agreement or bilateral public confirmation of a permanent peace deal by the June 15, 2025 deadline; official Iranian and U.S. statements indicate ongoing conflict and no such commitment. Consequently, the proposition is not demonstrated.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C4",
+          "rationale": "The admitted record lacks any evidence of a bilateral permanent peace agreement between Iran and the US by June 15, 2025. Instead, the evidence shows Iran accused the US of dishonesty on June 14, both sides were focused on nuclear conditions rather than peace agreements, and later official sources confirmed Iran had refused to reach a deal.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        }
+      ],
+      "rebuttals": [],
+      "submitted_evidence": [
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+          "size_bytes": 2889,
+          "source_description": "Official website of the President of the Islamic Republic of Iran; extracted page text from web retrieval.",
+          "source_url": "https://president.ir/en/159792",
+          "title": "Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity"
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+          "size_bytes": 2751,
+          "source_description": "White House release; extracted page text from web retrieval.",
+          "source_url": "https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/",
+          "title": "White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon"
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+          "size_bytes": 2022,
+          "source_description": "White House fact sheet; extracted page text from web retrieval.",
+          "source_url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/",
+          "title": "White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June"
+        },
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+          "size_bytes": 2314,
+          "source_description": "Al Jazeera English article; extracted relevant page text from web retrieval.",
+          "source_url": "https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal",
+          "title": "Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks"
+        }
+      ],
+      "surrebuttals": [],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "Searched official U.S. and Iranian government sources and credible contemporaneous reporting around June 13-17, 2025. Source targets were a written peace instrument, matching government confirmations by the June 15 cutoff, or adverse cancellation/refusal material. Submitted accepted captures from president.ir, WhiteHouse.gov, and Al Jazeera. No signed/formally adopted permanent peace agreement, official Iranian confirmation, or official U.S. confirmation of a qualifying permanent peace deal by the cutoff was located.",
+          "title": "Plaintiff Source Search Ledger"
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "summary": "Defense inspected the current record, metadata, and full text of plaintiff's four submitted sources plus the rules. No additional defense evidence was submitted because the visible evidence is sufficient: official Iranian and U.S. sources show distrust, demands, and refusal rather than a signed/adopted agreement or matching public confirmations, and plaintiff's own search ledger reports no qualifying agreement or confirmation was located.",
+          "title": "Defense evidence sufficiency audit"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+      "sha256": "0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+      "size_bytes": 2314,
+      "mime_type": "text/plain",
+      "storage_name": "06/0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+      "created_at": "2026-06-30T16:58:08Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks",
+      "original_name": "submitted-evidence-04-plaintiff-0606fd0d81a7.txt",
+      "source_url": "https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal",
+      "source_description": "Al Jazeera English article; extracted relevant page text from web retrieval.",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+      "sha256": "75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+      "size_bytes": 2022,
+      "mime_type": "text/plain",
+      "storage_name": "75/75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+      "created_at": "2026-06-30T16:58:03Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June",
+      "original_name": "submitted-evidence-03-plaintiff-75f22524b70e.txt",
+      "source_url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/",
+      "source_description": "White House fact sheet; extracted page text from web retrieval.",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+      "sha256": "7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+      "size_bytes": 2889,
+      "mime_type": "text/plain",
+      "storage_name": "7f/7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+      "created_at": "2026-06-30T16:57:52Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity",
+      "original_name": "submitted-evidence-01-plaintiff-7f6e26b31ff3.txt",
+      "source_url": "https://president.ir/en/159792",
+      "source_description": "Official website of the President of the Islamic Republic of Iran; extracted page text from web retrieval.",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+      "sha256": "d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+      "size_bytes": 2751,
+      "mime_type": "text/plain",
+      "storage_name": "d6/d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+      "created_at": "2026-06-30T16:57:57Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon",
+      "original_name": "submitted-evidence-02-plaintiff-d6ef8a8fd4dc.txt",
+      "source_url": "https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/",
+      "source_description": "White House release; extracted page text from web retrieval.",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_f1a176053ed8_rules",
+      "sha256": "f1a176053ed8d60a76c8a80970398f1fcf53836b2fe66347f80e7c33afbb95ca",
+      "size_bytes": 1569,
+      "mime_type": "text/plain",
+      "storage_name": "f1/f1a176053ed8d60a76c8a80970398f1fcf53836b2fe66347f80e7c33afbb95ca",
+      "created_at": "2026-06-30T16:49:43Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "rules.txt",
+      "original_name": "rules.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    }
+  ],
+  "evidence_manifest": {
+    "created_at": "2026-06-30T17:07:00Z",
+    "evidence": [
+      {
+        "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+        "sha256": "0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+        "size_bytes": 2314,
+        "mime_type": "text/plain",
+        "storage_name": "06/0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+        "created_at": "2026-06-30T16:58:08Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks",
+        "original_name": "submitted-evidence-04-plaintiff-0606fd0d81a7.txt",
+        "source_url": "https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal",
+        "source_description": "Al Jazeera English article; extracted relevant page text from web retrieval.",
+        "retrieval_timestamp": "2026-06-30T17:00:00Z",
+        "submitted_by_role": "plaintiff",
+        "submitted_phase": "arguments",
+        "relevance": "Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+        "sha256": "75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+        "size_bytes": 2022,
+        "mime_type": "text/plain",
+        "storage_name": "75/75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+        "created_at": "2026-06-30T16:58:03Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June",
+        "original_name": "submitted-evidence-03-plaintiff-75f22524b70e.txt",
+        "source_url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/",
+        "source_description": "White House fact sheet; extracted page text from web retrieval.",
+        "retrieval_timestamp": "2026-06-30T17:00:00Z",
+        "submitted_by_role": "plaintiff",
+        "submitted_phase": "arguments",
+        "relevance": "Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+        "sha256": "7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+        "size_bytes": 2889,
+        "mime_type": "text/plain",
+        "storage_name": "7f/7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+        "created_at": "2026-06-30T16:57:52Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity",
+        "original_name": "submitted-evidence-01-plaintiff-7f6e26b31ff3.txt",
+        "source_url": "https://president.ir/en/159792",
+        "source_description": "Official website of the President of the Islamic Republic of Iran; extracted page text from web retrieval.",
+        "retrieval_timestamp": "2026-06-30T17:00:00Z",
+        "submitted_by_role": "plaintiff",
+        "submitted_phase": "arguments",
+        "relevance": "Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+        "sha256": "d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+        "size_bytes": 2751,
+        "mime_type": "text/plain",
+        "storage_name": "d6/d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+        "created_at": "2026-06-30T16:57:57Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon",
+        "original_name": "submitted-evidence-02-plaintiff-d6ef8a8fd4dc.txt",
+        "source_url": "https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/",
+        "source_description": "White House release; extracted page text from web retrieval.",
+        "retrieval_timestamp": "2026-06-30T17:00:00Z",
+        "submitted_by_role": "plaintiff",
+        "submitted_phase": "arguments",
+        "relevance": "Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_f1a176053ed8_rules",
+        "sha256": "f1a176053ed8d60a76c8a80970398f1fcf53836b2fe66347f80e7c33afbb95ca",
+        "size_bytes": 1569,
+        "mime_type": "text/plain",
+        "storage_name": "f1/f1a176053ed8d60a76c8a80970398f1fcf53836b2fe66347f80e7c33afbb95ca",
+        "created_at": "2026-06-30T16:49:43Z",
+        "admissibility_status": "case_packet",
+        "record_visibility": "juror_visible",
+        "title": "rules.txt",
+        "original_name": "rules.txt",
+        "source_description": "Initial case packet file",
+        "submitted_by_role": "system",
+        "submitted_phase": "case_packet",
+        "text_readable": true
+      }
+    ],
+    "evidence_count": 5,
+    "schema_version": "aar.evidence-manifest.v0"
+  }
+}

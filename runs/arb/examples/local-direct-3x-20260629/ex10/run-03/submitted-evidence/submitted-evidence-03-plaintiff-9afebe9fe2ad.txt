@@ -1,0 +1,15 @@
+Retrieval: curl -L https://docs.polymarket.com/changelog.md
+Response headers observed: HTTP/2 200; content-type: text/markdown; date: Tue, 30 Jun 2026 11:12:20 GMT; server: Vercel; x-matched-path: /_mintlify/_markdown/_sites/[subdomain]/[[...slug]]; x-robots-tag: noindex, nofollow.
+
+Source text extract:
+# Polymarket Changelog
+
+> Welcome to the Polymarket Changelog. Here you will find any important changes to Polymarket, including but not limited to CLOB, API, UI and Mobile Applications.
+
+Update label Apr 28, 2026, description: CLOB V2 is live on production.
+Text extract: Polymarket's CLOB V2 upgrade is live on https://clob.polymarket.com. V2 now runs on the standard CLOB host. Legacy V1 SDKs and V1-signed orders are no longer supported on production. Resting orders from before the cutover did not migrate and must be re-created with V2 signing. The migration guide is linked for the SDK, raw order signing, pUSD, and builder attribution changes.
+
+Update label Apr 17, 2026, description: CLOB V2: upgrades go live April 28 at ~11:00 UTC, with ~1 hour of downtime.
+Text extract: Polymarket is shipping a coordinated upgrade: new Exchange contracts, a rewritten CLOB backend, and a new collateral token (pUSD). Exchange upgrades go live April 28, 2026 at ~11:00 UTC with ~1 hour of downtime. All integrations must migrate to the V2 SDK before the cutover; there will be no backward compatibility after go-live.
+
+The relevant dates, April 17 and April 28, 2026, are before the proposition deadline of January 1, 2027 at 00:00 PST.

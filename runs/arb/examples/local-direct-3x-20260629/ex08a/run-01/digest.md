@@ -1,0 +1,229 @@
+# Arbitration Digest
+
+## Result
+
+Resolution: `demonstrated`
+
+Final phase: `closed`
+
+## Complaint
+
+### Proposition
+
+By May 8, 2026, 11:59 PM ET, a message or note credibly reported to have been written by Jeffrey Epstein and intended as a suicide note, final message, or equivalent communication had been made publicly available.
+
+### Standard of Evidence
+
+Preponderance of the evidence.
+
+## Council
+
+- C1: openrouter://qwen/qwen3-30b-a3b-instruct-2507 (personas/generic.md)
+- C2: openrouter://openai/gpt-oss-120b (personas/generic.md)
+- C3: openrouter://qwen/qwen3-next-80b-a3b-thinking (personas/generic.md)
+- C4: openrouter://x-ai/grok-4.20-multi-agent (personas/generic.md)
+- C5: openrouter://moonshotai/kimi-k2-thinking (personas/generic.md)
+
+## Filings
+
+### Openings
+
+[plaintiff] Council members, this case is not a referendum on Polymarket, UMA, or market pricing. The proposition asks a narrower factual question: by May 8, 2026, 11:59 PM ET, had a message or note credibly reported to have been written by Jeffrey Epstein, and intended as a suicide note, final message, or equivalent communication, been made publicly available?
+
+The starting record matters because it fixes the rule and the dispute. The case packet, evidence ev_90fa205907f7_market-page, is a Polymarket market record. It gives the official rule text: a qualifying note may become publicly available by official release, leak, or other disclosure; it must be credibly reported to have been written by Epstein and intended as a suicide note, final message, or equivalent communication; and the resolution source is a consensus of credible reporting. That standard is important. It does not require this council to find beyond all doubt that the handwriting is authentic. It asks whether the public record, by the deadline, contained credible reporting of a qualifying communication.
+
+The packet also identifies why the May 8 market exists and what the decisive source path is. It records that Polymarket's own captured context said a U.S. District Judge in New York unsealed a purported suicide note attributed to Jeffrey Epstein on May 7, 2026. At the same time, the packet fairly warns that authenticity and intent doubts existed. That is the real dispute: not whether a perfect, uncontested confession exists, but whether the public release and credible reporting before the May 8 deadline satisfied the market's own standard despite those qualifications.
+
+Plaintiff's theory is straightforward. If the evidence phase establishes that a court made the note publicly available before the deadline, and that credible news reporting described it as a purported Jeffrey Epstein suicide note or final-message-equivalent, the proposition is more likely true than false. The rule's phrase “credibly reported” is built to handle this kind of uncertainty. Public reports may call a document “purported,” “alleged,” or “claimed” while still credibly reporting that it is attributed to the relevant author and that its content or provenance makes it a suicide note or equivalent communication. Those cautionary words affect weight; they do not automatically make the market resolve No.
+
+Plaintiff also acknowledges what the present record does not yet prove. The case packet is not itself the court order, the note image, a docket entry, or a news article. It does not authenticate the handwriting. It does not by itself resolve chain of custody from Epstein to the former cellmate to counsel to the court. It does not eliminate the adverse point that the note was reportedly unsigned or that official agencies may not have adopted it as authentic. Those are proper weight questions, and plaintiff expects them to be tested with the underlying court materials, reports, and any contrary reporting when evidence admission opens.
+
+The proof that should decide this case is concrete: the public court order or docket material showing release; the released note or faithful reproduction if available; credible reports published before the May 8 deadline describing the note, its attribution, and its significance; and adverse materials bearing on authenticity, custody, or intent. If those sources show only rumor after the deadline, plaintiff loses. If they show only a note unrelated to suicide or final communication, plaintiff loses. But if they show a publicly available, court-unsealed note before the deadline, credibly reported as Epstein's purported suicide note or final message, then the preponderance standard is met.
+
+So the opening position is measured: the current record points strongly to the right factual event and preserves the governing rule, while leaving primary proof to be admitted later. On that rule, the likely decisive question is not whether every doubt was erased. It is whether credible public reporting by May 8 made available a note attributed to Epstein and understood as suicide-note or final-message evidence. Plaintiff will show that it did.
+
+[defendant] Council members, the defense opening begins with the rule, not with market noise. The proposition is not whether a headline used the words “Epstein” and “suicide note.” It is whether, by May 8, 2026 at 11:59 PM ET, a message or note had been made publicly available that was credibly reported to satisfy all three required elements: written by Jeffrey Epstein, intended as a suicide note, final message, or equivalent communication, and publicly available by the deadline.
+
+The current record is thin on those elements. The only admitted evidence is the market-page packet, ev_90fa205907f7_market-page. It preserves Polymarket metadata, the official rule text, and a captured platform-context summary. It does not contain the note, a court order, a docket entry, a reporter’s article, a handwriting analysis, a custody declaration, or any official authentication. The packet itself says the platform context is market metadata, not independent proof of the proposition. That limitation matters.
+
+The defense expects plaintiff to focus on the packet’s statement that Polymarket’s captured context described a New York federal judge unsealing a purported suicide note attributed to Epstein on May 7, 2026. But “purported,” “attributed,” and “context” are warning lights, not proof. A court can unseal a document without finding it authentic. A news outlet can report that someone claimed a note was Epstein’s without credibly establishing that Epstein wrote it. And a document can contain distressing language without satisfying this market’s narrower requirement that it was intended as a suicide note, final message, or equivalent communication.
+
+The packet also preserves facts that cut against treating the proposition as already proven. The May 8 market was disputed. The captured prices were overwhelmingly against Yes. The platform context expressly noted authenticity and intent doubts. None of those market facts decides the arbitration, but they show why the council should not let a label substitute for evidence.
+
+The decisive proof should be concrete. If plaintiff wants a Yes finding, it should produce the underlying court material showing what was actually released and when; the released note or a faithful reproduction; the filing history explaining how the document reached the court; and credible reporting that, before the May 8 deadline, did more than repeat an allegation. The council should also examine adverse evidence: whether any official agency authenticated the handwriting, whether the note was signed, whether the chain of custody depends on a third party with his own litigation interests, whether the note was tied to a prior incident rather than a final message, and whether reliable contrary sources challenged authenticity or intent.
+
+That is not an impossible burden. It is simply the burden the market rule chose. The phrase “credibly reported” does not erase the words “written by Jeffrey Epstein” or “intended as a suicide note, final message, or equivalent communication.” Credible reporting must attach to those elements, not merely to the fact that an alleged document became public.
+
+So the defense theory is straightforward: the present record identifies a controversy and a possible source path, but it does not yet prove the qualifying event. Unless the later admitted evidence closes the authorship, intent, timing, and public-availability gaps with reliable source material, the proposition is not more likely true than false. The council should require proof of the actual note and its provenance, not just proof that people argued about a market after a purported document surfaced.
+
+### Arguments
+
+[plaintiff] Council members, plaintiff has now supplied the missing source chain. The proposition is true on a preponderance of the evidence.
+
+Start with PX-1, the market packet. It fixes the actual rule: the question is satisfied if a message or note written by Epstein and intended as a suicide note, final message, or equivalent communication was made publicly available by May 8, 2026, 11:59 PM ET. It also says the note need only be “credibly reported” to have those qualities, and that public availability may occur by official release, leak, or other disclosure. PX-1 therefore defeats the defense’s implicit demand for official final authentication. Authentication doubts matter, but the rule chose a credible-reporting standard.
+
+PX-2, the SDNY order, supplies the primary public-record source. On May 6, 2026, Judge Kenneth M. Karas granted the New York Times request as to an alleged “suicide note purportedly authored by Jeffrey Epstein,” recovered by Tartaglione and reportedly submitted by Tartaglione’s lawyers. The court concluded the Note was subject to public access, found no sufficient reason to keep it sealed, and directed the Clerk to docket a copy of the material placed in the vault and unseal the original material. That proves official court action before the May 8 deadline and ties the publicly released material to a note described in the court record as an Epstein suicide note.
+
+PX-3, The Guardian report, proves the reporting element and the deadline. It was first published on May 6, 2026, before the May 8 deadline. Its title is “Alleged suicide note written by Jeffrey Epstein unsealed by federal judge,” and it reports that a federal judge unsealed an alleged suicide note written by Epstein “the first time the document has been made public.” It also reports that Tartaglione said he found the note after Epstein’s unsuccessful July 2019 suicide attempt. The article includes the image caption “The alleged Epstein suicide note” credited to the United States District Judge, Southern District of New York.
+
+PX-3 also shows why the “intended as a suicide note, final message, or equivalent communication” element is more likely than not met under the rule. The reported note text includes: “It is a treat to be able to choose one’s time to say goodbye” and “NO FUN - NOT WORTH IT!!” In context, reported as a note found after a suspected suicide attempt, that is at least a final-message-equivalent communication. The rule does not require polished form, a signature, or a conventional farewell; it requires credible reporting of intent and function.
+
+PX-4, AP, corroborates while fairly preserving the main adverse caveat. AP’s metadata dates the report May 7, 2026, still before the May 8 deadline. It reports that a note attributed to Epstein in his first suspected jail suicide attempt “has been made public,” and that the note was released Wednesday as part of the unrelated Tartaglione case. AP’s image caption says the document was released Thursday, May 7, 2026, by the U.S. District Court for the Southern District of New York, and shows a note Epstein’s former cellmate said he found after Epstein’s reported suicide attempt.
+
+The defense is right that the evidence is not perfect. PX-3 says the note was unsigned and that The Guardian had not verified authorship. PX-4 says DOJ stated: “The note has not yet been authenticated, and this is the first time DOJ is seeing it as well.” The chain begins with Tartaglione, a convicted murderer with his own litigation interests, and that affects weight.
+
+But those caveats do not defeat the proposition. The question is not “Was the note conclusively authenticated by DOJ?” It is whether a note was credibly reported to have been written by Epstein and intended as a suicide note/final message/equivalent, and made publicly available by the deadline. PX-2 gives the court release; PX-3 and PX-4 give independent credible reporting before the deadline; PX-3 gives the text and suicide-note characterization; PX-4 gives the strongest adverse authentication caveat. Taken together, that is more than market chatter and more than a bare rumor.
+
+What the evidence proves: by May 6-7, 2026, a federal court unsealed and publicly docketed a note described as a purported Epstein suicide note, and major credible outlets publicly reported it as an alleged suicide note written or attributed to Epstein. What it does not prove: official DOJ authentication or certainty of handwriting. Under this market’s rule and the preponderance standard, the former is enough and the latter is not required. The council should find the proposition true.
+
+[defendant] Council members, the defense does not need to deny that something became public before the deadline. The plaintiff has probably shown that a document was unsealed and reported by May 6-7, 2026. The question is whether the record makes it more likely than not that the publicly available document was credibly reported to be both written by Jeffrey Epstein and intended as a suicide note, final message, or equivalent communication. On this record, those two substantive elements remain too weak.
+
+Start with DX-5, the market rule. It does not say “any document labeled an Epstein suicide note.” It requires a qualifying note credibly reported to have been written by Epstein and intended as a suicide note, final message, or equivalent communication. The same packet records authenticity and intent doubts and states that its platform context is market metadata, not independent proof. The captured May 8 market was disputed and priced overwhelmingly No. That market data is not dispositive, but it confirms this was not an uncontested factual event.
+
+DX-2, the SDNY order, proves public access, not authorship. Judge Karas granted the New York Times request as to an alleged “suicide note purportedly authored by Jeffrey Epstein,” recovered by Tartaglione and reportedly submitted by Tartaglione’s attorneys. The court’s reasoning was a public-access ruling: the note had been submitted in connection with a Curcio hearing, was relevant to judicial decision-making, and no sufficient sealing interest remained. Nothing in DX-2 says the court found Epstein wrote the note, that the chain of custody was reliable, or that the document actually expressed Epstein’s intended suicide message. “Alleged” and “purportedly” are not surplusage; they are the court’s own caution.
+
+DX-3 and DX-4 likewise help plaintiff on public availability but hurt plaintiff on reliability. The Guardian reported the note before the deadline, but the same extract says the note was unsigned and that The Guardian had not verified whether Epstein wrote it. It also says the note came through Nicholas Tartaglione, who was serving life for quadruple murder; Epstein had told prison officials Tartaglione attacked him; and Tartaglione passed the note to his legal team as a possible defense against future allegations. That is a serious custody and conflict problem.
+
+AP’s report is even more direct. DX-4 says the government never had the note; DOJ said the note had not yet been authenticated and that DOJ was seeing it for the first time. It describes Tartaglione giving the note to his lawyers to protect himself against a claim he might have harmed Epstein while they were housed together. Those are not minor caveats. They go to the core “written by Jeffrey Epstein” element.
+
+DX-1 adds a pre-deadline adverse source. Business Insider reported on May 8 that Mark Epstein, Jeffrey Epstein’s brother, said the newly surfaced note was a forgery. The article also reports that the note itself was not included in the Justice Department’s Epstein files or in a 128-page DOJ inspector general report after four years of investigation into Epstein’s death. DX-1 is not conclusive either; it fairly includes facts that could cut the other way, including that the note was sealed in 2021 and that people tried to authenticate it in 2019 and 2020. But at minimum it shows that by the deadline the public record contained a substantial, specific authenticity dispute from a close family source, plus absence from official investigative records.
+
+Intent is also not as clean as plaintiff suggests. The admitted text is ambiguous and fragmentary. It reportedly includes frustration, a reference to choosing one’s time to say goodbye, and “NO FUN - NOT WORTH IT.” That can be read darkly, especially against a reported July incident. But the market did not ask whether a distressed or sarcastic jail note existed. It asked for a note intended as a suicide note, final message, or equivalent communication. The record says this alleged note was not written immediately before Epstein’s death; it was tied to an earlier disputed incident and preserved in Tartaglione’s unrelated criminal case. It is unsigned, not officially authenticated, and not found by DOJ or in the OIG death investigation. Calling that a final-message-equivalent requires inference stacked on allegation.
+
+Plaintiff’s best response is that the rule uses “credibly reported,” not “conclusively authenticated.” True. But credible reporting still must be credible as to the qualifying facts. A report can credibly say “a court unsealed an alleged note” while not credibly establishing that Epstein wrote it or intended it as a suicide communication. Here, the strongest admitted sources repeatedly hedge: alleged, purported, attributed, not verified, not authenticated, never held by DOJ.
+
+What the record proves: before May 8, a federal court ordered public release of a document described as an alleged or purported Epstein suicide note, and major outlets reported that release. What it does not prove by a preponderance: that the document was actually, or credibly enough, written by Epstein and intended by him as a suicide note, final message, or equivalent communication. Because the rule requires those elements, the council should find the proposition not proven.
+
+### Rebuttals
+
+[plaintiff] Council members, the defense has narrowed the dispute in a way that helps resolve it. Defense now concedes plaintiff has “probably shown that a document was unsealed and reported by May 6-7, 2026.” That concession, combined with PX-1’s public-availability rule, leaves only whether the reporting was credible as to authorship and suicide-note/final-message character.
+
+The defense’s main move is to convert “credibly reported” into “officially authenticated.” PX-1 does not do that. It asks whether a qualifying note was credibly reported to have been written by Epstein and intended as a suicide note or equivalent. PX-2 shows the federal court itself was addressing a document described as an alleged suicide note purportedly authored by Epstein, and ordered the material docketed and unsealed. PX-3 and PX-4 show major outlets reported before the deadline that this was an alleged or attributed Epstein suicide note, while disclosing the very caveats the defense emphasizes. That is credible reporting with qualifications, not rumor hidden from scrutiny.
+
+DX-1, the Business Insider extract, does not defeat that. Mark Epstein’s forgery view is relevant, but it is an interested relative’s opinion, not an admitted handwriting report or official finding. The same extract also weakens its own copycat theory: it says the similar “Watcha want me to do / Bust out cryin” language in Epstein emails became public in 2026, while the note was originally sealed in May 2021. If the concern is that someone copied language from public emails, DX-1 itself supplies a chronology that makes that inference harder, not easier.
+
+DX-1 also says a timeline showed the note passed through multiple people who tried to authenticate it in 2019 and 2020. Again, that is not conclusive authentication. But the market did not require conclusive authentication. It required credible reporting. A court-unsealed document, reported by The Guardian and AP before the deadline, with adverse caveats disclosed, clears that preponderance threshold.
+
+On intent, defense tries to isolate the wording as merely ambiguous. But the rule includes “final message, or equivalent communication,” and context matters. PX-3 reports the note was found after Epstein’s unsuccessful suicide attempt and quotes language about choosing one’s time to say goodbye and “NO FUN - NOT WORTH IT!!” That is not ordinary jail grumbling in the abstract; it is reported as the alleged suicide note connected to the July attempt. It is more likely than not an equivalent suicide communication under the rule.
+
+So the defense proves uncertainty, not failure. Plaintiff already carried uncertainty in PX-3 and PX-4: unsigned, not Guardian-verified, not DOJ-authenticated. But credible reporting can be qualified and still credible. The best reading of the full record is that by May 8 a court-unsealed note was publicly available and credibly reported as Epstein’s alleged suicide note or final-message equivalent. That satisfies the proposition.
+
+### Surrebuttals
+
+[defendant] Council members, plaintiff’s rebuttal proves the central defense point: the case turns on how much work the phrase “credibly reported” can do.
+
+The defense accepts that the record supports public release and reporting before May 8. But public release of an alleged document is not the same thing as credible reporting that the document satisfies the rule’s authorship and intent elements. The rule still says “written by Jeffrey Epstein” and “intended to be a suicide note, final message, or equivalent communication.” Those words cannot be reduced to “reported as alleged.”
+
+Plaintiff says qualified reporting is still credible reporting. Sometimes, yes. But here the qualifications are not peripheral. The SDNY order calls the document alleged and purported. The Guardian says the note was unsigned and that it had not verified authorship. AP says DOJ never had the note, had not authenticated it, and was seeing it for the first time. DX-1 adds that the note was absent from DOJ files and a 128-page inspector general report after years of investigation. These caveats all point to the same missing link: no admitted source verifies that Epstein wrote it.
+
+Plaintiff’s response to DX-1 also overstates the 2021 seal chronology. The defense did not need to prove the note was forged by someone copying public emails. DX-1 was offered to show a pre-deadline, specific authenticity dispute and official-record absence. Its mixed chronology may weaken one forgery theory, but it does not become affirmative proof of authorship. A failed or uncertain forgery objection is not the same as a preponderance showing that Epstein wrote the note.
+
+On intent, plaintiff leans on the “choose one’s time to say goodbye” language and the July incident. That is the strongest plaintiff point, but it still requires an inference. The record also says the note was not immediately before Epstein’s death, was tied to a disputed first incident, and entered the public record through Tartaglione’s unrelated criminal case after he allegedly gave it to lawyers to protect himself. In that setting, dark or sarcastic jail writing is not automatically an intended suicide note or final-message equivalent.
+
+The defense is not asking for certainty. It is asking the council to enforce the full preponderance standard. The record credibly proves a publicly released alleged note. It does not credibly prove, more likely than not, that Epstein wrote it and intended it as the qualifying suicide or final communication. The proposition should remain not proven.
+
+### Closings
+
+[plaintiff] Council members, the record now leaves a narrow question. The defense no longer seriously disputes that a document was publicly released and reported before May 8. Its surrebuttal accepts that public release and reporting are shown. The remaining issue is whether the reporting was credible enough, under the market rule, as to authorship and suicide-note or final-message character.
+
+The answer is yes.
+
+PX-1 sets the rule. It does not require an official DOJ authentication, a handwriting trial, or certainty. It requires that a qualifying note be credibly reported to have been written by Epstein and intended as a suicide note, final message, or equivalent communication, and that it be publicly available by the deadline. Public availability may be official, leaked, or otherwise disclosed.
+
+PX-2 supplies the official source chain. On May 6, 2026, a federal judge granted the request to unseal a document described in the order as an alleged suicide note purportedly authored by Jeffrey Epstein, recovered by Tartaglione, and reportedly submitted by Tartaglione’s attorneys. The court directed the clerk to docket a copy and unseal the original material. That is not market rumor. It is a court record creating public access before the deadline.
+
+PX-3 and PX-4 supply the credible reporting. The Guardian, before the deadline, reported that a federal judge unsealed an alleged suicide note written by Epstein, the first time it had been made public. AP, also before the deadline, reported that a note attributed to Epstein had been made public and captioned the released document as a note from the U.S. District Court for the Southern District of New York that Epstein’s former cellmate said he found after Epstein’s reported suicide attempt. Those are credible news sources, not anonymous speculation.
+
+The intent element is also met by the evidence, not by label alone. PX-3 reports the note was found after Epstein’s unsuccessful July 2019 suicide attempt and quotes language about choosing one’s time to say goodbye and “NO FUN - NOT WORTH IT!!” The rule expressly includes a “final message, or equivalent communication.” In context, that reported text is more likely than not a suicide-note or final-message-equivalent communication.
+
+The defense’s best point is real but not decisive. The note was unsigned. The Guardian did not independently verify authorship. DOJ said it had not authenticated or previously seen the note. Mark Epstein called it a forgery. Tartaglione’s role creates custody and motive concerns. Those facts keep this from being certain. They do not make the proposition less likely than not.
+
+The reason is the rule’s own wording: “credibly reported.” The record contains qualified, careful reporting that disclosed the caveats. It also contains an official unsealing order and two credible pre-deadline reports. The defense offers doubts about ultimate authenticity, but it does not supply an expert finding, official disproof, or stronger source that outweighs the court-linked release and reporting. Even DX-1’s forgery theory is mixed: the extract notes that the supposedly copied public-email language became public in 2026, while the note had been sealed since 2021 and had passed through people attempting authentication in 2019 and 2020.
+
+Preponderance asks which side is more likely. It is more likely that, by May 8, 2026, the public had access to a court-unsealed note that credible sources reported as an alleged or attributed Epstein suicide note/final-message equivalent. That satisfies the proposition. Plaintiff asks the council to find Yes.
+
+[defendant] Council members, the defense closing is narrow because the record is narrow.
+
+The plaintiff has shown public availability and public reporting before May 8. The SDNY order directed docketing and unsealing. The Guardian and AP reported the release before the deadline. That is not the issue left for decision.
+
+The issue is whether the full proposition is more likely true than false: a note credibly reported to have been written by Jeffrey Epstein and intended as a suicide note, final message, or equivalent communication. The record does not carry those elements by a preponderance.
+
+The court order is important, but its weight is limited. It describes an alleged suicide note purportedly authored by Epstein, recovered by Tartaglione, and reportedly submitted by Tartaglione’s lawyers. It is a public-access ruling. It says the document was relevant to a Curcio hearing and that no sufficient reason remained to keep it sealed. It does not authenticate handwriting, resolve custody, credit Tartaglione, or find Epstein’s intent.
+
+The reporting evidence has the same shape. The Guardian and AP are credible outlets, but credible outlets can credibly report uncertainty. The Guardian extract says the note was unsigned and that it had not verified whether Epstein wrote it. AP says DOJ never had the note, had not authenticated it, and was seeing it for the first time. Those are not side issues; they go directly to the rule’s requirement that the note be credibly reported to have been written by Epstein.
+
+The source chain is also unusually weak for the precise fact plaintiff must prove. The note comes through Nicholas Tartaglione, whose own legal interests were implicated. The record says he gave it to lawyers to protect himself against possible allegations that he harmed Epstein. The document was preserved in Tartaglione’s unrelated criminal case, not in the official Epstein death investigation. DX-1 adds that it was absent from DOJ’s Epstein files and from a 128-page inspector general report after years of investigation. Mark Epstein’s forgery view is not conclusive, but it is a pre-deadline, specific authenticity dispute, not empty speculation.
+
+Intent remains an inference, not a proven qualifying fact. The quoted text is grim and could support plaintiff’s reading, but it is fragmentary, unsigned, and tied to an earlier disputed incident rather than Epstein’s death weeks later. The rule covers suicide notes and final-message equivalents; it does not automatically cover every distressed, sarcastic, or ambiguous jail note later described with cautionary labels.
+
+Plaintiff’s strongest point is the phrase “credibly reported.” But that phrase lowers the need for certainty; it does not erase authorship and intent. A court-unsealed alleged note, reported as alleged, is not the same as a qualifying note credibly established under the rule. The admitted record repeatedly uses the language of uncertainty: alleged, purportedly, attributed, not verified, not authenticated.
+
+So the record proves this much: before May 8, a document described as an alleged or purported Epstein suicide note was publicly released and reported. It does not prove, more likely than not, that Jeffrey Epstein wrote it and intended it as a suicide note, final message, or equivalent communication. Because those are required elements, the proposition should be found not proven.
+
+## Exhibits
+
+[plaintiff arguments] PX-1 Market rule and May 8 condition packet: market-page.txt
+[plaintiff arguments] PX-2 SDNY unsealing order extract: submitted-evidence-01-plaintiff-1de721f5d505.txt
+[plaintiff arguments] PX-3 Guardian pre-deadline report and note text: submitted-evidence-02-plaintiff-78537bb92f69.txt
+[plaintiff arguments] PX-4 AP corroboration and DOJ caveat: submitted-evidence-03-plaintiff-ebfed5a9aeb0.txt
+[defendant arguments] DX-1 Business Insider pre-deadline forgery and DOJ/OIG absence report: submitted-evidence-04-defendant-b3d357bbd988.txt
+[defendant arguments] DX-2 SDNY order extract, limited to public-access/unsealing purpose: submitted-evidence-01-plaintiff-1de721f5d505.txt
+[defendant arguments] DX-3 Guardian report with non-verification and custody caveats: submitted-evidence-02-plaintiff-78537bb92f69.txt
+[defendant arguments] DX-4 AP report with DOJ non-authentication caveat: submitted-evidence-03-plaintiff-ebfed5a9aeb0.txt
+[defendant arguments] DX-5 Market rule and disputed May 8 metadata: market-page.txt
+[plaintiff rebuttals] PX-R1 SDNY public-access order: submitted-evidence-01-plaintiff-1de721f5d505.txt
+[plaintiff rebuttals] PX-R2 Guardian report and note text: submitted-evidence-02-plaintiff-78537bb92f69.txt
+[plaintiff rebuttals] PX-R3 AP report with caveats: submitted-evidence-03-plaintiff-ebfed5a9aeb0.txt
+[plaintiff rebuttals] PX-R4 Defense BI extract with chronology caveat: submitted-evidence-04-defendant-b3d357bbd988.txt
+
+## Submitted Evidence
+
+[plaintiff arguments] Relevant text extract from SDNY May 6, 2026 unsealing order (ev_1de721f5d505_submitted-evidence-01-plaintiff-1de721f5d505)
+Source: https://www.nysd.uscourts.gov/sites/default/files/2026-05/16cr832%20-%20Tartaglione%20Order%20-%2026.5.6.pdf
+SHA-256: `1de721f5d50547e7970dabfe4928c5372cc8a54a78001dd28073e6dd227310b9`
+Bytes: 2001
+Relevance: Primary court source proving the court granted unsealing of a note described in the order as an alleged suicide note purportedly authored by Jeffrey Epstein and directed the clerk to docket and unseal the material.
+
+[plaintiff arguments] Guardian May 6, 2026 report on alleged Epstein suicide note (ev_78537bb92f69_submitted-evidence-02-plaintiff-78537bb92f69)
+Source: https://www.theguardian.com/us-news/2026/may/06/jeffrey-epstein-alleged-suicide-note
+SHA-256: `78537bb92f698b059a3d2b9ff9acc8e5147c24ba356c1c7f12fdc3095e8d57da`
+Bytes: 2007
+Relevance: Credible public reporting before the May 8 deadline that a federal judge unsealed an alleged suicide note written by Jeffrey Epstein, with note text, public availability timing, and adverse caveats on signature and verification.
+
+[plaintiff arguments] AP May 7, 2026 report on Epstein note and DOJ non-authentication caveat (ev_ebfed5a9aeb0_submitted-evidence-03-plaintiff-ebfed5a9aeb0)
+Source: https://apnews.com/article/jeffrey-epstein-suicide-note-5297f49736e625a06d0db3c7b737b997
+SHA-256: `ebfed5a9aeb0f862cd974aa7425fab79cdc633f1b7c7d3ab46b39ba607a26a35`
+Bytes: 2551
+Relevance: Credible wire-service reporting that the note attributed to Epstein was public by May 7, 2026, and important adverse evidence that DOJ said it had not authenticated or previously seen the note.
+
+[defendant arguments] Business Insider May 8, 2026 report on Mark Epstein forgery claim and DOJ/OIG absence (ev_b3d357bbd988_submitted-evidence-04-defendant-b3d357bbd988)
+Source: https://www.businessinsider.com/jeffrey-epstein-brother-says-suicide-note-forgery-little-rascals-2026-5
+SHA-256: `b3d357bbd9887ad07ebe6854fd852d01174754db5aa50eb4a9250a1af8360e19`
+Bytes: 2401
+Relevance: Adverse source for authenticity and intent: before the May 8 deadline, Epstein's brother called the purported note a forgery; article also reports the note was not in DOJ Epstein files or the DOJ Inspector General report, and that it surfaced through Tartaglione's unrelated criminal case.
+
+## Technical Reports
+
+[plaintiff] Plaintiff source-search and capture ledger
+Checked current AAR record before argument; only the market packet and openings were present. Targeted source map prioritized official court material, credible pre-deadline reporting, and adverse authentication/custody sources. Retrieved official SDNY May 6, 2026 order, Guardian May 6 report, and AP May 7 report; submitted faithful text extracts as evidence. Axios capture returned HTTP 403 and was not used. Local PDF extraction tools and pip were unavailable, so readable SDNY text came from web PDF extraction; the original PDF was downloaded and hashed privately but not committed as binary evidence after one invalid base64 attempt and an uncommitted chunk-upload path. Adverse checks preserved in PX-3/PX-4 include no signature, Guardian non-verification, DOJ non-authentication/non-possession, and Tartaglione custody-chain concerns.
+
+[defendant] Defendant source review and adverse-check ledger
+Inspected get_case/list_evidence at the start of the opportunity and read exact evidence bytes for the packet and all three plaintiff submissions. Source map focused on timing, public availability, authorship, intent, custody, and official authentication. Plaintiff evidence shows court unsealing and pre-deadline reporting, but also preserves non-authentication, no signature, DOJ non-possession, Tartaglione custody/conflict, and Guardian non-verification. Defendant searched adverse sources for Mark Epstein/forgery/DOJ/OIG gaps, opened the Business Insider article, and submitted a concise relevant extract as DX-1. A later AP handwriting-analysis lead surfaced in search results but was not submitted because it postdates the May 8 market deadline and was not necessary to the defense merits theory.
+
+## Council Votes
+
+### Round 1
+
+Tally: 3 demonstrated, 1 not_demonstrated
+
+[C1] demonstrated
+The SDNY order unsealed a note described as an alleged suicide note purportedly authored by Epstein by May 6, 2026. Credible reporting from The Guardian and AP before May 8 confirmed its public availability and attributed it to Epstein, satisfying the preponderance standard despite authenticity doubts.
+
+[C2] demonstrated
+Court order unsealed a note described as a purported Epstein suicide note and credible pre‑deadline reports (Guardian, AP) identified it as such, satisfying the preponderance standard despite unresolved authentication.
+
+[C3] not_demonstrated
+The record lacks credible reporting that Epstein wrote the note or intended it as a suicide note. DOJ confirms no authentication, Guardian didn't verify authorship, and Epstein's brother called it a forgery.
+
+[C5] demonstrated
+By May 8, 2026, a federal court had unsealed and made public a document described as an alleged Epstein suicide note, and credible news outlets (Guardian, AP) reported this before the deadline. The market rule requires 'credibly reported' attribution, not conclusive authentication. The preponderance of evidence shows the note was publicly available and credibly reported as alleged/attributed to Epstein, satisfying the proposition.

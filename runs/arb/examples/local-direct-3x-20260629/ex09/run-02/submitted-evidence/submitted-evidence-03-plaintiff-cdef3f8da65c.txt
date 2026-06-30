@@ -1,0 +1,15 @@
+Source: fxtwitter API capture for https://x.com/Domahhhh/status/2049886900513657218
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/domahhhh-2049886900513657218-fxtwitter.json; size 12802 bytes; sha256 ecfd96e939dc04dca0fd52dfde9d958a5036e7c1a2058e770e39ade4827d9d30.
+
+Relevant extracted fields:
+- Original URL: https://x.com/Domahhhh/status/2049886900513657218
+- Tweet id: 2049886900513657218
+- Author screen name: Domahhhh; captured profile says "Full-time political bettor since 2007"; verified individual; follower count in capture 40862.
+- Created at: Thu Apr 30 16:21:36 +0000 2026.
+- Engagement fields in capture: replies 128, retweets 52, likes 797, bookmarks 146, quotes 17, views 478463.
+- Attached media: four images with pbs.twimg.com media URLs and dimensions, apparently screenshots relevant to the thread.
+
+Relevant text extraction from the thread:
+The author criticizes UMA/Polymarket oracle governance, saying it has been taken over by traders with positions. On the Clavicular market, the thread states that Clavicular "claimed/joked that he got a girl pregnant" and said she was pregnant within 10 days of meeting him. It says he offered no proof and talked about it vaguely, sometimes implying truth and sometimes joke. It acknowledges Polymarket had a pregnancy-announcement market and says Clavicular was aware of it. The author argues a streamer whose brand is viral clips is not inherently credible, especially with vague comments, and that the rules require a credible claim. It says many long-time Polymarket users thought it should not count, notes that a positive pregnancy test within 10 days is next-to-impossible, and claims the market was going to resolve Yes because UMA Rocks influenced voting. It further says Clavicular's "announcement" was a few days earlier, but that it was very unlikely anyone was pregnant and likely a viral joke.
+
+Weight note: This is adverse to plaintiff on credibility and source-chain reliability, but it also tends to confirm that there was at least an underlying Clavicular statement characterized as "claimed/joked that he got a girl pregnant" and that the market dispute turned on whether that statement was credible enough. The author appears to be a politically/economically interested Polymarket commentator rather than a neutral primary source; use for dispute context, not as conclusive truth.

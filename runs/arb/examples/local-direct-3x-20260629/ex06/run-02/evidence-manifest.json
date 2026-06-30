@@ -1,0 +1,45 @@
+{
+  "created_at": "2026-06-30T01:52:56Z",
+  "evidence": [
+    {
+      "evidence_id": "ev_37f9459e255e_submitted-evidence-02-plaintiff-37f9459e255e",
+      "sha256": "37f9459e255e743b42ea8aed527b8edeb8eebb15594da6fc1abf928f4431ae89",
+      "size_bytes": 2786,
+      "mime_type": "text/plain",
+      "storage_name": "37/37f9459e255e743b42ea8aed527b8edeb8eebb15594da6fc1abf928f4431ae89",
+      "created_at": "2026-06-30T01:41:11Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "White House Rubio release on Operation Absolute Resolve and Venezuela policy",
+      "original_name": "submitted-evidence-02-plaintiff-37f9459e255e.txt",
+      "source_url": "https://www.whitehouse.gov/releases/2026/01/rubio-this-is-our-hemisphere-and-president-trump-will-not-allow-our-security-to-be-threatened/",
+      "source_description": "Official White House release collecting Secretary Rubio statements after Operation Absolute Resolve, opened during plaintiff merits investigation.",
+      "retrieval_timestamp": "2026-06-30T01:41:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Official White House source bearing on operation characterization, objectives, continued U.S. pressure/control policy, and adverse statements calling the action a raid rather than an invasion or extended operation.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_d7a52fba7358_submitted-evidence-01-plaintiff-d7a52fba7358",
+      "sha256": "d7a52fba7358ed83288449971ed45e53e9fb0e327d3566b1ff781bed681bb241",
+      "size_bytes": 3899,
+      "mime_type": "text/plain",
+      "storage_name": "d7/d7a52fba7358ed83288449971ed45e53e9fb0e327d3566b1ff781bed681bb241",
+      "created_at": "2026-06-30T01:40:49Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "War.gov: Trump Announces U.S. Military's Capture of Maduro",
+      "original_name": "submitted-evidence-01-plaintiff-d7a52fba7358.txt",
+      "source_url": "https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/",
+      "source_description": "Official U.S. Department of War news story, opened from War.gov during plaintiff merits investigation.",
+      "retrieval_timestamp": "2026-06-30T01:40:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Primary official U.S. source confirming Operation Absolute Resolve in Caracas, Venezuela, U.S. armed forces/military operation, ground-based extraction force, capture/removal of Maduro, and U.S. transition-control statements.",
+      "text_readable": true
+    }
+  ],
+  "evidence_count": 2,
+  "schema_version": "aar.evidence-manifest.v0"
+}

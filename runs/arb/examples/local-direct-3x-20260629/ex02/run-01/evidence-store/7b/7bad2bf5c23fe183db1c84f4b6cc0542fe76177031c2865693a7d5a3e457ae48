@@ -1,0 +1,10 @@
+# AgentCourt adjudication arb/examples/ex02 README capture
+Source URL: https://raw.githubusercontent.com/agentcourt/adjudication/main/arb/examples/ex02/README.md
+Retrieved: 2026-06-29T18:22:00Z
+
+Relevant captured text:
+- Example 2 adapts scratch/ronaldo.md into a file layout for agentarbitration. The scratch file is described as a filing-style complaint with citations and argumentative prose, while examples/ex02 is a normalization of that draft rather than a fresh archival collection.
+- The revised proposition states the actual dispute in the draft: whether pre-event remarks at the venue count as occurring during the draw.
+- The file roles are described: market-question.txt states the market, strike, challenged resolution, and core issue; pre-event-remarks.txt carries the quoted "Ronaldo" lines attributed in the draft to the pre-event press exchange; formal-draw-program.txt records the draft's contrary point that the formal draw transcript does not appear to contain the strike.
+- The README states: "This folder does not contain downloaded source archives." It further says the builder did not fetch the American Presidency Project transcript, Roll Call / Factba.se transcript, Kalshi page, or Bernard Bulletin post while building the example. The local files are described as derived from the existing draft complaint, a starting point, and not a substitute for a primary-source record.
+- The README says the next step, if the example became important, should be to replace the distilled files with captured source text and stable source metadata.

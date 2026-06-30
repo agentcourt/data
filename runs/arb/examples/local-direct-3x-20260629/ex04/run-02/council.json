@@ -1,0 +1,826 @@
+[
+  {
+    "member_id": "C1",
+    "model": "openrouter://moonshotai/kimi-k2-thinking",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "moonshotai/kimi-k2-thinking",
+      "provider": {
+        "only": [
+          "atlas-cloud/int4"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "int4"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "atlas-cloud/int4",
+        "endpoint_variant_id": "321d30c399f1e30cd4ba4f07",
+        "equivalence_class_size": 1,
+        "equivalence_key": {
+          "canonical_slug": "moonshotai/kimi-k2-thinking-20251106",
+          "endpoint_model_id": "moonshotai/kimi-k2-thinking",
+          "hugging_face_id": "moonshotai/Kimi-K2-Thinking",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "moonshotai/kimi-k2-thinking",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "int4"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "moonshotai/kimi-k2-thinking-20251106",
+            "clusters": [
+              6,
+              0,
+              5,
+              0
+            ],
+            "context_length": 262144,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "AtlasCloud | moonshotai/kimi-k2-thinking-20251106",
+            "endpoint_tag": "atlas-cloud/int4",
+            "endpoint_variant_id": "321d30c399f1e30cd4ba4f07",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "moonshotai/Kimi-K2-Thinking",
+            "latency_last_30m": {
+              "p50": 718,
+              "p75": 1030.75,
+              "p90": 3530.7000000000007,
+              "p99": 32337.490000000325
+            },
+            "max_completion_tokens": 262144,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "moonshotai/kimi-k2-thinking",
+            "pricing_completion": "0.0000025",
+            "pricing_prompt": "0.0000006",
+            "provider_error_count": null,
+            "provider_name": "AtlasCloud",
+            "quantization": "int4",
+            "schema_violation_count": null,
+            "source_row": 6,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 98.23232323232324,
+            "uptime_last_30m": null
+          }
+        ],
+        "openrouter_model_id": "moonshotai/kimi-k2-thinking",
+        "provider_name": "AtlasCloud",
+        "quantization": "int4",
+        "representative_endpoint_variant_id": "321d30c399f1e30cd4ba4f07",
+        "representative_source_row": 6
+      }
+    }
+  },
+  {
+    "member_id": "C2",
+    "model": "openrouter://deepseek/deepseek-v3.1-terminus",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "deepseek/deepseek-v3.1-terminus",
+      "provider": {
+        "only": [
+          "siliconflow/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "fp8"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "siliconflow/fp8",
+        "endpoint_variant_id": "f1506dd8c5ee879805352046",
+        "equivalence_class_size": 3,
+        "equivalence_key": {
+          "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+          "endpoint_model_id": "deepseek/deepseek-v3.1-terminus",
+          "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "fp8"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+            "clusters": [
+              3,
+              0,
+              1,
+              9
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Novita | deepseek/deepseek-v3.1-terminus",
+            "endpoint_tag": "novita/fp8",
+            "endpoint_variant_id": "a4546e4ed79e36a4ac1b9785",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+            "latency_last_30m": {
+              "p50": 1732.5,
+              "p75": 1968,
+              "p90": 2245,
+              "p99": 2978.1800000000003
+            },
+            "max_completion_tokens": 32768,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+            "pricing_completion": "0.000001",
+            "pricing_prompt": "0.00000027",
+            "provider_error_count": null,
+            "provider_name": "Novita",
+            "quantization": "fp8",
+            "schema_violation_count": null,
+            "source_row": 24,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "max_tokens",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 99.99931708553352,
+            "uptime_last_30m": 100
+          },
+          {
+            "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+            "clusters": [
+              0,
+              0,
+              2,
+              1
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "AtlasCloud | deepseek/deepseek-v3.1-terminus",
+            "endpoint_tag": "atlas-cloud/fp8",
+            "endpoint_variant_id": "e102149ace50e29327f1a875",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+            "latency_last_30m": {
+              "p50": 1406,
+              "p75": 1679.5,
+              "p90": 1945.7999999999997,
+              "p99": 2643.5199999999995
+            },
+            "max_completion_tokens": 65536,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+            "pricing_completion": "0.00000095",
+            "pricing_prompt": "0.0000003",
+            "provider_error_count": null,
+            "provider_name": "AtlasCloud",
+            "quantization": "fp8",
+            "schema_violation_count": null,
+            "source_row": 30,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 99.98857459970294,
+            "uptime_last_30m": 100
+          },
+          {
+            "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+            "clusters": [
+              3,
+              3,
+              2,
+              2
+            ],
+            "context_length": 163840,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "SiliconFlow | deepseek/deepseek-v3.1-terminus",
+            "endpoint_tag": "siliconflow/fp8",
+            "endpoint_variant_id": "f1506dd8c5ee879805352046",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+            "latency_last_30m": {
+              "p50": 2176.5,
+              "p75": 3940.5,
+              "p90": 8578.5,
+              "p99": 13494.049999999994
+            },
+            "max_completion_tokens": 163840,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+            "pricing_completion": "0.000001",
+            "pricing_prompt": "0.00000027",
+            "provider_error_count": null,
+            "provider_name": "SiliconFlow",
+            "quantization": "fp8",
+            "schema_violation_count": null,
+            "source_row": 33,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "max_tokens",
+              "reasoning",
+              "response_format",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 91.10213724520631,
+            "uptime_last_30m": 89.94471319972357
+          }
+        ],
+        "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+        "provider_name": "SiliconFlow",
+        "quantization": "fp8",
+        "representative_endpoint_variant_id": "f1506dd8c5ee879805352046",
+        "representative_source_row": 33
+      }
+    }
+  },
+  {
+    "member_id": "C3",
+    "model": "openrouter://openai/gpt-oss-120b",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "openai/gpt-oss-120b",
+      "provider": {
+        "only": [
+          "wandb/fp4"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "fp4"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "wandb/fp4",
+        "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+        "equivalence_class_size": 4,
+        "equivalence_key": {
+          "canonical_slug": "openai/gpt-oss-120b",
+          "endpoint_model_id": "openai/gpt-oss-120b",
+          "hugging_face_id": "openai/gpt-oss-120b",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "openai/gpt-oss-120b",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "fp4"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              5,
+              2,
+              7,
+              6
+            ],
+            "context_length": 128072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "BaseTen | openai/gpt-oss-120b",
+            "endpoint_tag": "baseten/fp4",
+            "endpoint_variant_id": "5b8fd962e720704511d858ef",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 337,
+              "p75": 507.75,
+              "p90": 870,
+              "p99": 2469.339999999993
+            },
+            "max_completion_tokens": 128072,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.0000005",
+            "pricing_prompt": "0.0000001",
+            "provider_error_count": null,
+            "provider_name": "BaseTen",
+            "quantization": "fp4",
+            "schema_violation_count": null,
+            "source_row": 11,
+            "supported_parameters": [
+              "include_reasoning",
+              "max_tokens",
+              "reasoning",
+              "response_format",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 99.99066484942402,
+            "uptime_last_30m": 100
+          },
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              1,
+              2,
+              0,
+              0
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Novita | openai/gpt-oss-120b",
+            "endpoint_tag": "novita/fp4",
+            "endpoint_variant_id": "91f0716b29daa0efa735024a",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 680,
+              "p75": 843,
+              "p90": 1115,
+              "p99": 25671.150000000307
+            },
+            "max_completion_tokens": 32768,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.00000025",
+            "pricing_prompt": "0.00000005",
+            "provider_error_count": null,
+            "provider_name": "Novita",
+            "quantization": "fp4",
+            "schema_violation_count": null,
+            "source_row": 19,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logprobs",
+              "max_tokens",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 98.46333610739835,
+            "uptime_last_30m": 99.80074010816966
+          },
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              1,
+              2,
+              0,
+              6
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Nebius | openai/gpt-oss-120b",
+            "endpoint_tag": "nebius/fp4",
+            "endpoint_variant_id": "9a61c3f69299805820171815",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 337,
+              "p75": 536,
+              "p90": 1034,
+              "p99": 4111.260000000002
+            },
+            "max_completion_tokens": null,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.0000006",
+            "pricing_prompt": "0.00000015",
+            "provider_error_count": null,
+            "provider_name": "Nebius",
+            "quantization": "fp4",
+            "schema_violation_count": null,
+            "source_row": 21,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "max_tokens",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 96.44624358589685,
+            "uptime_last_30m": 100
+          },
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              5,
+              2,
+              0,
+              6
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "WandB | openai/gpt-oss-120b",
+            "endpoint_tag": "wandb/fp4",
+            "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 356,
+              "p75": 518,
+              "p90": 1059.800000000001,
+              "p99": 6987.450000000001
+            },
+            "max_completion_tokens": 131072,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.00000014",
+            "pricing_prompt": "0.00000004",
+            "provider_error_count": null,
+            "provider_name": "WandB",
+            "quantization": "fp4",
+            "schema_violation_count": null,
+            "source_row": 29,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logprobs",
+              "max_tokens",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 94.75717062587358,
+            "uptime_last_30m": 99.58315769753173
+          }
+        ],
+        "openrouter_model_id": "openai/gpt-oss-120b",
+        "provider_name": "WandB",
+        "quantization": "fp4",
+        "representative_endpoint_variant_id": "d5742e9c2e50f2724df63028",
+        "representative_source_row": 29
+      }
+    }
+  },
+  {
+    "member_id": "C4",
+    "model": "openrouter://deepseek/deepseek-r1",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "deepseek/deepseek-r1",
+      "provider": {
+        "only": [
+          "novita/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "fp8"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "novita/fp8",
+        "endpoint_variant_id": "a06be07cbd945465447dd01a",
+        "equivalence_class_size": 1,
+        "equivalence_key": {
+          "canonical_slug": "deepseek/deepseek-r1",
+          "endpoint_model_id": "deepseek/deepseek-r1",
+          "hugging_face_id": "deepseek-ai/DeepSeek-R1",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "deepseek/deepseek-r1",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "fp8"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "deepseek/deepseek-r1",
+            "clusters": [
+              4,
+              0,
+              2,
+              7
+            ],
+            "context_length": 64000,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Novita | deepseek/deepseek-r1",
+            "endpoint_tag": "novita/fp8",
+            "endpoint_variant_id": "a06be07cbd945465447dd01a",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "deepseek-ai/DeepSeek-R1",
+            "latency_last_30m": {
+              "p50": 2102,
+              "p75": 2600.75,
+              "p90": 3615,
+              "p99": 5577.209999999996
+            },
+            "max_completion_tokens": 16000,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "deepseek/deepseek-r1",
+            "pricing_completion": "0.0000025",
+            "pricing_prompt": "0.0000007",
+            "provider_error_count": null,
+            "provider_name": "Novita",
+            "quantization": "fp8",
+            "schema_violation_count": null,
+            "source_row": 23,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "max_tokens",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 99.89925983965524,
+            "uptime_last_30m": 100
+          }
+        ],
+        "openrouter_model_id": "deepseek/deepseek-r1",
+        "provider_name": "Novita",
+        "quantization": "fp8",
+        "representative_endpoint_variant_id": "a06be07cbd945465447dd01a",
+        "representative_source_row": 23
+      }
+    }
+  },
+  {
+    "member_id": "C5",
+    "model": "openrouter://qwen/qwen3-30b-a3b-instruct-2507",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": {
+        "only": [
+          "alibaba"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "alibaba",
+        "endpoint_variant_id": "be9974bb86c00c665f936444",
+        "equivalence_class_size": 2,
+        "equivalence_key": {
+          "canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
+          "endpoint_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+          "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "unknown"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
+            "clusters": [
+              5,
+              1,
+              2,
+              9
+            ],
+            "context_length": 128000,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "StreamLake | qwen/qwen3-30b-a3b-instruct-2507",
+            "endpoint_tag": "streamlake",
+            "endpoint_variant_id": "aedd343beab575a8243c8a61",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+            "latency_last_30m": {
+              "p50": 2100,
+              "p75": 2546,
+              "p90": 3035,
+              "p99": 9203.379999999994
+            },
+            "max_completion_tokens": 32000,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+            "pricing_completion": "0.00000019305",
+            "pricing_prompt": "0.00000004815",
+            "provider_error_count": null,
+            "provider_name": "StreamLake",
+            "quantization": "unknown",
+            "schema_violation_count": null,
+            "source_row": 25,
+            "supported_parameters": [
+              "frequency_penalty",
+              "logprobs",
+              "max_tokens",
+              "presence_penalty",
+              "response_format",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_logprobs",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 99.67167285946292,
+            "uptime_last_30m": 99.4807121661721
+          },
+          {
+            "canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
+            "clusters": [
+              4,
+              1,
+              2,
+              3
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Alibaba | qwen/qwen3-30b-a3b-instruct-2507",
+            "endpoint_tag": "alibaba",
+            "endpoint_variant_id": "be9974bb86c00c665f936444",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+            "latency_last_30m": {
+              "p50": 487,
+              "p75": 847.5,
+              "p90": 1664.6000000000008,
+              "p99": 7145.359999999984
+            },
+            "max_completion_tokens": 32768,
+            "max_prompt_tokens": 129024,
+            "openrouter_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+            "pricing_completion": "0.00000052",
+            "pricing_prompt": "0.00000013",
+            "provider_error_count": null,
+            "provider_name": "Alibaba",
+            "quantization": "unknown",
+            "schema_violation_count": null,
+            "source_row": 26,
+            "supported_parameters": [
+              "logprobs",
+              "max_tokens",
+              "presence_penalty",
+              "response_format",
+              "seed",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_logprobs",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 99.50178269844248,
+            "uptime_last_30m": 99.644128113879
+          }
+        ],
+        "openrouter_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+        "provider_name": "Alibaba",
+        "quantization": "unknown",
+        "representative_endpoint_variant_id": "be9974bb86c00c665f936444",
+        "representative_source_row": 26
+      }
+    }
+  }
+]

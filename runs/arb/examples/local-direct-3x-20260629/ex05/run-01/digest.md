@@ -1,0 +1,267 @@
+# Arbitration Digest
+
+## Result
+
+Resolution: `no_majority`
+
+Final phase: `closed`
+
+## Complaint
+
+### Proposition
+
+The United States invaded Venezuela between November 3, 2025, and
+January 31, 2026, 11:59 PM ET.  In particular,the United States
+commenced a military offensive intended to establish control over any
+portion of Venezuela between November 3, 2025, and January 31, 2026,
+11:59 PM ET. Land de facto controlled by Venezuela or the United
+States as of September 6, 2025, 12:00 PM ET, is considered to the
+sovereign territory of that country. The resolution source is a
+consensus of credible sources.
+
+### Standard of Evidence
+
+Preponderance of the evidence.
+
+## Council
+
+- C1: openrouter://qwen/qwen3-30b-a3b-instruct-2507 (personas/generic.md)
+- C2: openrouter://deepseek/deepseek-v3.1-terminus (personas/generic.md)
+- C3: openrouter://deepseek/deepseek-r1 (personas/generic.md)
+- C4: openrouter://openai/gpt-4o-mini (personas/generic.md)
+- C5: openrouter://mistralai/mistral-medium-3-5 (personas/generic.md)
+
+## Filings
+
+### Openings
+
+[plaintiff] Council members, this case is about the line between a limited strike and an invasion under the proposition's own definition. The plaintiff does not have to prove a conventional occupation of all Venezuela. The proposition asks whether, between November 3, 2025 and January 31, 2026, the United States commenced a military offensive intended to establish control over any portion of Venezuela. On a preponderance standard, even a narrower military campaign can satisfy that definition if the credible-source consensus shows U.S. armed forces used offensive force on Venezuelan sovereign territory with the purpose of controlling a place, person, facility, route, or operating area there.
+
+The present record is empty. There are no admitted exhibits, no submitted source material, and no case-packet files visible to plaintiff at opening. So this opening does not ask you to treat any fact as already proven. It frames the factual questions that the later evidence must answer and identifies the proof that should carry weight when admitted.
+
+The decisive questions are four. First, what exactly did U.S. forces do inside or against Venezuelan territory during the window? Second, was that action a military offensive rather than mere sanctions, diplomacy, surveillance, or ordinary law-enforcement cooperation? Third, did the operation include an intent to establish control over any portion of Venezuela, even temporarily or for a limited objective? Fourth, do credible sources converge on that characterization, or do they instead converge on a narrower extraction or interdiction story that falls short of the proposition?
+
+Plaintiff's theory is that the strongest evidence will show more than background pressure. The source targets are official U.S. military and oversight materials, contemporaneous executive statements, and independent reporting that fix the date, location, command structure, objectives, and consequences of the operation. If those materials show U.S. armed forces entered Venezuelan territory, seized or secured a fortified location, removed the sitting head of state, operated from deployed naval and air assets, and asserted authority over the resulting political or resource arrangement, that is powerful evidence of an offensive intended to establish control over at least a portion of Venezuela. The proposition's phrase "any portion" matters: the burden is not to show permanent annexation or nationwide occupation.
+
+The defense will likely argue that this was not an invasion because it was brief, targeted, and framed as arrest or counter-narcotics enforcement; because U.S. officials denied any occupation; because Venezuelan institutions or local officials remained in place; and because there may have been no large ground force capable of governing the country. Those points matter. They may defeat the claim if the proof shows only a discrete extraction without territorial control intent. But labels chosen after the fact are not dispositive. The council should look through labels such as "raid," "extraction," "interdiction," or "law enforcement" and ask what military force was actually used and what control it was meant to create.
+
+Provenance will also matter. Official U.S. statements and inspector-general or congressional reports should receive substantial weight for what the United States admitted doing, while also being read carefully for self-serving characterization. Independent outlets and expert analyses can help establish whether there was a credible-source consensus, but they should not substitute for primary materials where primary materials are available. Conversely, adverse official denials, later corrections, evidence of no sustained presence, or proof that Venezuela consented to a limited operation would reduce the plaintiff's showing.
+
+At the argument stage, plaintiff expects to build the record with primary source material and corroborating credible reporting. The case should ultimately be decided on whether those sources collectively prove a military offensive with control intent, not on whether the word "invasion" appears in a headline. If the admitted record confirms U.S. offensive military action on Venezuelan territory tied to control of a location, leadership outcome, or resource/security arrangement, the proposition should resolve yes. If the record instead shows only a short non-territorial arrest operation with no intent to control any portion of Venezuela, plaintiff will not have met the burden. That is the real dispute.
+
+[defendant] Council members, the defense opening starts with the record as it exists, not with assumptions. There is no admitted evidence. There are no case-packet exhibits, no submitted source materials, and no technical reports. The plaintiff’s opening is advocacy only. So the question for this phase is not whether a dramatic story can be imagined; it is what the plaintiff must later prove with admissible, credible-source evidence.
+
+The proposition is narrower than “Did the United States use force involving Venezuela?” It asks whether the United States commenced a military offensive intended to establish control over any portion of Venezuela during the specified window. That wording matters. A strike, raid, extraction, arrest operation, interdiction campaign, sanctions effort, diplomatic pressure campaign, or even an unlawful use of force is not automatically an invasion under this resolution. The plaintiff must prove both an offensive and an intent to establish control over Venezuelan territory, even if the alleged area is small or the alleged control temporary.
+
+The defense expects the later record to turn on missing links, not labels. The council should ask: What territory was supposedly controlled? For how long? By which U.S. unit or authority? Was the objective to hold, administer, exclude others from, or govern a place, or was the objective a discrete law-enforcement or security act directed at persons, vessels, facilities, or threats? Did Venezuelan institutions and local forces remain in control outside the immediate operation? Was there consent, cooperation, or a local succession that breaks the inference of U.S. territorial control? Do credible sources converge on territorial-control intent, or do they merely agree that military force occurred?
+
+The plaintiff’s theory will likely try to collapse several distinct ideas: military force, regime change pressure, criminal custody, political influence, and territorial control. Those are not the same thing. Control over a person is not control over a portion of a country. Influence over a successor government is not occupation. A temporary perimeter used to complete an operation is not necessarily an intent to establish control over sovereign territory. And a public official’s rhetoric, if later offered, must be tested against operational facts: orders, duration, force posture, command arrangements, and what actually happened on the ground.
+
+The most probative proof, if it exists, should be primary or near-primary material: official operation descriptions, congressional or inspector-general materials, full transcripts or recordings of relevant government statements, public War Powers submissions, after-action summaries, contemporaneous reporting from the scene, and credible analyses that identify their source chain. Those sources must be read for what they prove and what they do not prove. Official U.S. sources may be strong admissions of conduct but self-serving on purpose and legal characterization. Secondary reporting may help test consensus but cannot replace the underlying documents, videos, transcripts, or named witnesses. Legal commentary may address legality, but illegality alone does not satisfy this proposition.
+
+Provenance and custody will therefore matter. The council should give little weight to isolated headlines, paraphrases, social-media summaries, or after-the-fact political labels unless the source content is preserved and tied to a reliable author, date, and source chain. If the plaintiff relies on claims about strikes, occupation, command, governance, or oil and security arrangements, the defense will test whether those claims come from admitted primary materials or from inference stacked on inference.
+
+The defense position is straightforward: on this record, the proposition is unproven. In later phases, if the admitted evidence shows only a brief targeted operation, interdiction activity, capture or transfer of individuals, or pressure on Venezuela without a proven intent to establish territorial control over any portion of Venezuela, the plaintiff has not met even a preponderance standard. The council should require the plaintiff to prove the territorial-control element directly and by credible-source consensus, not by asking the word “invasion” to do all the work.
+
+### Arguments
+
+[plaintiff] Council members, the admitted record now answers the core question by a preponderance. The proposition does not require a permanent nationwide occupation. It asks whether the United States commenced a military offensive intended to establish control over any portion of Venezuela during the window. The evidence shows yes.
+
+PX-1 is the official War Department account. It says President Trump announced the capture of Nicolas Maduro after a joint U.S. military extraction in Caracas. It quotes Trump describing U.S. armed forces conducting an operation in Venezuela's capital against a heavily fortified military fortress. It identifies Operation Absolute Resolve as a joint military and law-enforcement mission planned for months with U.S. joint forces and special operations forces. It says the mission used more than 150 military aircraft to cover the ground extraction force in Caracas. It says Maduro was in custody aboard the USS Iwo Jima, that Maduro was out of power, and that Trump said the U.S. would oversee Venezuela until a safe transition could be identified.
+
+PX-2, the official Lead Inspector General extract, corroborates and broadens that account. Operation Southern Spear began in November 2025, inside the proposition window, with significant Navy and Marine assets deployed into the SOUTHCOM area. It describes lethal strikes, tanker interdictions, and then Operation Absolute Resolve: on January 2, U.S. military forces captured Maduro and his wife from a fortified compound in Caracas, transported them to USS Iwo Jima, and then to the United States.
+
+PX-3, the ABC transcript, supplies independent contemporaneous detail and the defense's best answer. ABC reported large-scale strikes rocking Venezuela's capital, months of military buildup, more than 150 military aircraft from bases and ships, warplanes targeting Venezuelan air-defense and military targets, helicopters carrying the extraction team to Maduro's compound, and Trump saying U.S. forces captured Maduro after opposition and gunfight. ABC also records Trump's statements that the United States would run the country until a proper transition, that oil infrastructure would be a priority, and that U.S. companies would go in to fix it. Rubio then admits the Department of War went in and hit threats to the agents going in, on the way out, and while on the ground.
+
+Those facts satisfy the definition. A military offensive is not limited to an army occupying a capital for months. Here, U.S. forces used coordinated air, ground, maritime, and special operations power against a fortified location in Caracas, suppressed or hit Venezuelan threats, controlled the target area long enough to seize the sitting ruler and his wife, removed them to a U.S. warship, and followed with declared U.S. direction over transition, sanctions/quarantine leverage, and oil-governance demands. That is control over at least a portion of Venezuela: the compound, airspace/approach corridor, and operational ground area in Caracas, plus intended coercive control over the immediate post-Maduro transition.
+
+The defense will emphasize Rubio's label. PX-3 includes it: Rubio said this was not an invasion, not an occupation, but an arrest operation. That is relevant, but not controlling. His explanation concedes the material conduct: not friendly territory; the Department of War went in; it hit threats while U.S. agents entered, exited, and operated on the ground. A state cannot avoid the proposition by calling an armed incursion an arrest while admitting the military created a protected battlespace inside another country.
+
+The other adverse facts also do not defeat plaintiff's burden. PX-3 notes an AP observation of no visible U.S. presence immediately afterward, and PX-4 notes no large ground force assembled to run the country. Those facts weaken any claim of long-term occupation. But the proposition says "any portion," not permanent occupation or visible nationwide garrison. Temporary seizure and control of a fortified compound and its surrounding operating area, as part of a broader coercive campaign to direct transition and oil policy, is enough.
+
+PX-4 is useful precisely because it is not one-sided. Brookings records Rubio's denial and the no-large-ground-force point, but it also characterizes the event as a U.S. military operation/intervention, overthrow of a foreign leader, threatened coercion of the remaining regime, and a challenge to the prohibition on force against another state. Together with official U.S. admissions and ABC's transcript, it shows credible sources converge on the operative facts even if officials dispute the legal label.
+
+Provenance and weight favor plaintiff on conduct. PX-1 and PX-2 are official U.S. sources; they are strong admissions of what U.S. forces did, though self-serving on characterization. PX-3 is a direct media transcript preserving both supportive and adverse statements. PX-4 is secondary expert analysis, weighted lower than primary sources but valuable for consensus and counterarguments.
+
+On this record, the United States commenced an offensive military operation in Venezuela within the window and intended to establish control over at least the Caracas target area and the resulting transition leverage. The proposition should resolve yes.
+
+[defendant] Council members, the defense does not need to deny the hard facts the record actually proves. PX-1 through PX-3 show that U.S. forces conducted a serious armed operation in Caracas, used military aircraft and special capabilities, and removed Nicolas Maduro and his wife. That is force. It may be unlawful force. It may be intervention. But the proposition is not “did the United States use force” or “did the United States interfere in Venezuelan politics.” It is whether the United States commenced a military offensive intended to establish control over any portion of Venezuela.
+
+Plaintiff’s proof fails at that control-intent element. The evidence shows a targeted apprehension/extraction operation, not an intent to hold, administer, occupy, or govern land.
+
+DX-4, the official War Department article, repeatedly identifies the objective as capture and extraction: a joint military and law-enforcement mission “to capture the Maduros,” a ground-based extraction force in Caracas, and criminal proceedings in the United States. It says the operation targeted a fortified location and used large military cover, but it does not say U.S. forces occupied that location afterward, held a district, controlled Venezuelan territory, installed an American command authority on the ground, or excluded Venezuelan authorities from any area beyond the operation itself. The same article notes Delcy Rodriguez was sworn in and describes U.S. engagement with her, which points to political leverage over Venezuelan authorities, not U.S. territorial control.
+
+DX-3, the Lead Inspector General extract, is similar. It places Operation Southern Spear in a counter-narcotics and interdiction frame, with much of the activity at sea: boat strikes, tanker interdictions, deployments into the SOUTHCOM area, and a classified mission statement. For Operation Absolute Resolve, it says U.S. forces captured Maduro and his wife from a fortified compound in Caracas, transported them to USS Iwo Jima, and then to the United States. That proves incursion and seizure of persons. It does not prove a territorial objective or a continuing U.S.-controlled area in Venezuela. The extract itself includes the limiting note that it does not by itself prove sustained occupation or nationwide control.
+
+DX-1, the ABC transcript, supplies the clearest defense answer. Secretary Rubio’s statement is not merely a label. It is an operational description: “This was an arrest operation. This was a law enforcement operation.” He says Maduro was arrested on the ground by FBI agents, read his rights, and removed. He explains why the Department of War participated: the territory was not friendly, so forces hit threats to agents going in, on the way out, and while on the ground. That is tactical force protection. It is not an admission of intent to establish control over land. ABC also preserves the Associated Press observation that journalists saw no visible sign of U.S. presence and no sign the United States was running Venezuela immediately afterward. That directly undercuts plaintiff’s move from a temporary protected operation to territorial control.
+
+DX-2, Brookings, is secondary and should receive less weight than official admissions and the ABC transcript. But even plaintiff’s secondary source keeps the same distinction. It records Rubio’s denial of invasion or occupation; says Rubio later described no direct U.S. governing role; notes much of the Maduro regime remained in power, including Rodriguez and Padrino; and emphasizes that no large-scale ground force was assembled to actually run the country. Brookings discusses intervention, legality, coercion, and the threat of further strikes. Those are not the same as intent to establish control over a portion of Venezuelan sovereign territory.
+
+Plaintiff’s argument depends on redefining “control” until it covers almost any military operation. A ground team that secures itself long enough to make an arrest has not necessarily established control over territory. An aircraft package suppressing threats on the way in and out has not necessarily established control over airspace as sovereign territory. A fortified compound entered for an extraction is not shown to have become a U.S.-held place. If “temporary operational security” equals “control over any portion,” then every raid, rescue, hostage operation, or arrest in hostile territory becomes an invasion. The proposition’s separate control-intent requirement would do no work.
+
+The same problem defeats plaintiff’s broader “transition leverage” theory. Trump’s “run Venezuela” language is powerful rhetoric, and the oil/quarantine evidence is coercive. But the admitted record also shows uncertainty, lack of visible U.S. presence, no direct governing role, no assembled occupation force, and continuing Venezuelan officials. Economic pressure, tanker seizures, threats of future strikes, and demands that local officials cooperate may show influence or coercion. They do not prove that the military offensive was intended to establish control over land in Venezuela.
+
+Provenance reinforces caution. The official sources are strong admissions of conduct but also specify an extraction/capture mission. ABC is a credible transcript because it preserves both the plaintiff-friendly military details and the adverse Rubio/AP limits. Brookings is useful but partly analytical and speculative. None supplies an order, plan, duration, map, command arrangement, or factual account showing U.S. forces intended to hold a Venezuelan place as territory.
+
+On this record, plaintiff has proved an armed intervention and removal operation. It has not proved, by a credible-source consensus or by a preponderance, the proposition’s decisive element: a military offensive intended to establish control over any portion of Venezuela. The council should resolve the proposition no.
+
+### Rebuttals
+
+[plaintiff] Council members, the defense concedes the facts that matter most: U.S. forces conducted a serious armed operation in Caracas, used military aircraft and special capabilities, and removed Maduro and his wife. Its answer is not that there was no offensive force; it is that plaintiff must also show continuing occupation, administration, or a large ground force. That is not the proposition.
+
+The proposition asks for a military offensive intended to establish control over any portion of Venezuela. “Any portion” is the limiting phrase the defense keeps editing out. It does not say permanent control, visible post-operation garrison, direct civil administration, or nationwide occupation. A temporary but deliberate military seizure of a compound, air-defense environment, and approach/exit corridor is still control over a portion of Venezuela if it is established by offensive force to accomplish the mission.
+
+Rubio’s explanation, which the defense treats as dispositive, actually helps plaintiff on the operational facts. He says the territory was not friendly; the Department of War went in; it hit threats to the agents going in, threats on the way out, and threats while they were on the ground. That is not merely “influence” or after-the-fact rhetoric. It is a description of U.S. forces creating and maintaining a protected battlespace inside Venezuela. They controlled the tactical environment long enough to enter a fortified compound in Caracas, seize the persons at the center of the Venezuelan state, and remove them to U.S. custody.
+
+The defense tries to separate “control over persons” from “control over territory,” but the record does not allow that clean split. Maduro and his wife were not handed over at an airport or arrested on a U.S. base. The official sources place the operation at a fortified compound or military fortress in Caracas. ABC records warplanes targeting air-defense and military targets while helicopters carried the extraction team in. The capture could not happen without U.S. control, at least temporarily, of the place and operating area where it happened.
+
+Nor does the lack of visible U.S. presence afterward defeat the claim. It would defeat a claim of long-term occupation. Plaintiff has not needed that claim. The question is whether the United States commenced an offensive intended to establish control over any portion during the window. A raid can fail the definition if it is only a fleeting strike with no controlled objective. This one is different: months of planning, more than 150 aircraft, a ground extraction force, air-defense and military targets, a fortified site in the capital, removal of the ruler, and immediate U.S. statements about running or overseeing the transition and using oil/quarantine leverage until governance changes occur.
+
+The defense also asks for an order, map, duration, or command arrangement. Those would be useful, but preponderance does not require the plaintiff to produce classified operational orders. The admitted official and transcript evidence already gives the council the operative facts: U.S. armed forces went into Venezuelan territory, used offensive military power against threats there, controlled the mission area long enough to remove Maduro, and tied the operation to a broader asserted authority over Venezuela’s political and oil future.
+
+Finally, labels cannot carry the defense. “Arrest,” “law enforcement,” and “not an invasion” are advocacy labels from the same officials defending their conduct. The council should credit official sources for what they admit was done, and discount their self-serving legal characterization. On the facts the defense concedes and the evidence proves, the United States commenced a military offensive intended to establish control over at least a portion of Venezuela. That satisfies the proposition.
+
+### Surrebuttals
+
+[defendant] Council members, plaintiff’s rebuttal is right about one thing: “any portion” matters. But that phrase does not delete the rest of the proposition. Plaintiff still must show a military offensive intended to establish control over a portion of Venezuelan territory. Small or temporary control can count only if territorial control is what the operation was meant to establish, not merely an incidental condition of moving agents safely through a hostile environment.
+
+That distinction decides the case. Plaintiff says the operation required control of a compound, an air-defense environment, and an approach or exit corridor. Even if that is true as a matter of tactical dominance, it describes means, not the object of control. Every armed arrest, hostage rescue, embassy evacuation, or commando raid requires some momentary security over a room, road, landing zone, or air corridor. If that alone is “control over any portion” for invasion purposes, the proposition’s intent requirement collapses into “used force on foreign soil.” The resolution was drafted more narrowly than that.
+
+The admitted evidence does not show the United States intended to hold the compound as a U.S.-controlled place, administer it, exclude Venezuelan authorities from it after extraction, convert the approach route into a U.S. zone, or govern any district of Caracas. It shows the opposite kind of objective: go in, protect the agents, arrest Maduro, remove him, and leave. Rubio’s explanation is not dispositive as a legal label, but its factual content is directly relevant: he described a limited, targeted, trigger-based arrest operation in which the Department of War hit threats to agents entering, exiting, and operating on the ground. That is force protection for a seizure of persons, not proof of a territorial-control mission.
+
+Plaintiff also says preponderance does not require classified orders or maps. True. But where the disputed element is intent to establish territorial control, the absence of any admitted order, map, duration, post-operation garrison, transfer of local authority, command arrangement, visible U.S. presence, or direct governing role matters. The record’s affirmative limiting facts matter too: ABC preserves the AP observation of no visible U.S. presence and no sign the United States was running Venezuela immediately afterward; Brookings notes no large-scale ground force and no direct governing role, with much of the Venezuelan regime left in place.
+
+Nor can post-operation pressure over transition or oil policy do the missing work. Coercive leverage may be intervention. Threats of future strikes may be unlawful. Demands that Venezuelan officials cooperate may be political control in a loose sense. But the proposition asks for military offensive intent to establish control over a portion of Venezuela as territory. Plaintiff’s evidence still has not identified that portion as something the United States meant to hold or govern.
+
+So the strongest plaintiff point remains only this: the United States used substantial military force inside Venezuela to accomplish a targeted capture. The defense accepts that. But the proposition requires more, and plaintiff’s “protected battlespace” theory would make the control element automatic in nearly every raid. On the admitted record, the better reading is a serious armed intervention and extraction, not an invasion as specifically defined here.
+
+### Closings
+
+[plaintiff] Council members, this record resolves the proposition yes.
+
+The defense’s best argument is that the United States did not leave behind a visible occupation force and that Rubio called the operation an arrest, not an invasion. That argument would matter if the proposition required permanent occupation, civil administration, or nationwide control. It does not. It asks whether the United States commenced a military offensive intended to establish control over any portion of Venezuela. The words “any portion” decide the case.
+
+The official and transcript evidence proves the operation was an offensive military action in Venezuela during the covered period. PX-1, the official War Department article, says U.S. armed forces conducted an operation in Venezuela’s capital against a heavily fortified military fortress, after months of planning, with U.S. joint forces and special operations forces, and with more than 150 military aircraft covering the ground extraction force in Caracas. PX-2, the Lead Inspector General extract, independently places Operation Southern Spear in the relevant window and confirms that U.S. military forces captured Maduro and his wife from a fortified compound in Caracas and transported them to USS Iwo Jima and then to the United States.
+
+PX-3, the ABC transcript, adds the decisive operational details: large-scale strikes rocked Venezuela’s capital; warplanes targeted Venezuelan air-defense and military targets; helicopters carried the extraction team to Maduro’s compound; Trump said there was opposition and gunfight; and Rubio admitted the Department of War went in and hit threats to the agents going in, on the way out, and while they were on the ground. That is not merely political pressure. It is not merely a warrant. It is offensive military force used to create and hold a protected operating area inside Venezuelan sovereign territory.
+
+That protected operating area is a “portion of Venezuela.” The compound, the approach and exit corridor, and the surrounding air-defense and threat environment were controlled by U.S. force long enough to seize the sitting ruler and remove him to U.S. custody. The proposition does not require that U.S. forces sleep there for a month afterward. Temporary control established by military offensive force is still control.
+
+Intent is also shown. This was not an accidental crossing or a brief strike with no controlled objective. The evidence shows months of preparation, a large air package, a ground extraction force, strikes on threats, a fortified target in the capital, and removal of the country’s ruler. The post-operation statements confirm the broader purpose: Trump said the United States would run or oversee Venezuela until transition; ABC records oil and U.S. company plans; Rubio described ongoing quarantine leverage until those controlling Venezuela’s levers of power made changes. Those facts show control intent, even if the control was designed to be limited, coercive, and transitional rather than a classic occupation.
+
+The defense’s adverse facts are real but not decisive. Rubio’s denial of “invasion” is a legal label from an official defending the operation. The council should credit his factual admissions and discount the self-serving label. The AP observation of no visible U.S. presence afterward and Brookings’ point about no large ground force show there was no sustained occupation. They do not erase the proven temporary control of a Venezuelan location and battlespace during the operation, nor the stated intent to direct the transition and oil-policy leverage afterward.
+
+Provenance supports that conclusion. PX-1 and PX-2 are official U.S. sources, strong admissions of conduct. PX-3 is a direct transcript preserving both sides of the story. PX-4 is lower-weight secondary analysis, but it confirms that credible sources viewed the same facts as military intervention, overthrow, threatened coercion, and a serious use of force against Venezuela, while also preserving the defense’s contrary framing.
+
+On a preponderance standard, plaintiff need not prove every classified order or a permanent map of occupation. The admitted record makes it more likely than not that the United States commenced a military offensive intended to establish control over at least a portion of Venezuela between November 3, 2025 and January 31, 2026. The proposition should be resolved yes.
+
+[defendant] Council members, the defense closing is not that nothing happened. The record proves a grave U.S. armed operation in Caracas. It proves aircraft, special capabilities, a ground extraction force, strikes or threat suppression, and the removal of Maduro and his wife to U.S. custody. That is enough to call the event an intervention and perhaps an unlawful use of force. It is not enough to satisfy this proposition.
+
+The proposition asks for a military offensive intended to establish control over any portion of Venezuela. The decisive words are not only “any portion”; they are also “intended to establish control.” Plaintiff has proved temporary tactical dominance necessary to complete an extraction. Plaintiff has not proved that the United States intended to establish control over Venezuelan territory as such.
+
+The official sources are strongest for what U.S. forces did, and they should be credited on that. But those same official sources describe the mission objective as capture and extraction. PX-1 calls it a joint military and law-enforcement mission to capture the Maduros, with aircraft providing cover for a ground extraction force. PX-2 says U.S. forces captured Maduro and his wife from a fortified compound, transported them to USS Iwo Jima, and then to the United States to face criminal charges. Neither source identifies a U.S.-held district, occupation authority, territorial boundary, duration of control, post-operation garrison, exclusion of Venezuelan authorities after the arrest, or civil administration.
+
+PX-3, the ABC transcript, contains the most important limiting evidence. Rubio’s legal label is not binding, but his operational description matters: an arrest operation, FBI agents on the ground, the Department of War hitting threats to agents going in, on the way out, and while on the ground. That is tactical force protection. ABC also preserves the Associated Press observation that there was no visible sign of U.S. presence and no sign the United States was running Venezuela immediately afterward. Those facts are hard to square with a finding that the United States established control over a portion of Venezuela as territory.
+
+PX-4, Brookings, is lower-weight secondary analysis, but even it carries the defense’s limiting facts: Rubio’s denial of occupation, no direct governing role, much of the Venezuelan regime left in place, and no large-scale ground force assembled to run the country. Its language about intervention, overthrow, legality, coercion, oil, and transition pressure may be politically and legally important. But political leverage and coercion are not the same thing as military intent to control land.
+
+Plaintiff’s strongest point is that the compound, approach corridor, and air-defense environment were controlled long enough for the mission. But that proves the means of a raid, not the object of an invasion. Every nonconsensual raid requires some temporary tactical security over a room, route, landing zone, or threat envelope. If that automatically becomes “control over any portion,” then the control-intent element vanishes and every armed arrest or hostage rescue abroad becomes an invasion. The proposition was written more carefully than that.
+
+Nor does the post-operation rhetoric close the gap. Statements about “running” Venezuela, oil leverage, sanctions, quarantine, or desired transition show coercive influence at most. The record also shows uncertainty, local officials remaining in place, no visible U.S. presence, and no direct governing role. The plaintiff never identifies what portion of Venezuela the United States meant to hold, for how long, by what authority, or under what command arrangement.
+
+On a preponderance standard, the council can find the facts the record actually supports: a major armed intervention and extraction operation. But the plaintiff bears the burden on the proposition as written. Because the admitted evidence does not show that the offensive was intended to establish control over Venezuelan territory, the proposition should be resolved no.
+
+## Exhibits
+
+[plaintiff arguments] PX-1: submitted-evidence-01-plaintiff-beef2fca851d.txt
+[plaintiff arguments] PX-2: submitted-evidence-02-plaintiff-90b0943b9140.txt
+[plaintiff arguments] PX-3: submitted-evidence-04-plaintiff-9a260d070386.txt
+[plaintiff arguments] PX-4: submitted-evidence-03-plaintiff-51105c5e227a.txt
+[defendant arguments] DX-1: submitted-evidence-04-plaintiff-9a260d070386.txt
+[defendant arguments] DX-2: submitted-evidence-03-plaintiff-51105c5e227a.txt
+[defendant arguments] DX-3: submitted-evidence-02-plaintiff-90b0943b9140.txt
+[defendant arguments] DX-4: submitted-evidence-01-plaintiff-beef2fca851d.txt
+
+## Submitted Evidence
+
+[plaintiff arguments] Official War Department article: Trump announces U.S. military capture of Maduro (ev_beef2fca851d_submitted-evidence-01-plaintiff-beef2fca851d)
+Source: https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/
+SHA-256: `beef2fca851d7d5ec0d5fde51bd1ba61271346a6d3ba6aae9fe9e42e41a356b4`
+Bytes: 4133
+Relevance: Primary official U.S. account of the January 2026 operation in Caracas, including U.S. armed forces, fortified location, aircraft, ground extraction force, removal of Maduro, and U.S. oversight statements relevant to military offensive and control intent.
+
+[plaintiff arguments] Lead Inspector General report extract: Operation Southern Spear, Jan-Mar 2026 (ev_90b0943b9140_submitted-evidence-02-plaintiff-90b0943b9140)
+Source: https://media.defense.gov/2026/May/21/2003935694/-1/-1/1/OSS_Q2_MAR2026_FINAL_508.PDF
+SHA-256: `90b0943b91402969c2d3c2f44e609085c8601f3ca38ce634a70588cf910fc36a`
+Bytes: 4373
+Relevance: Official oversight source describing Operation Southern Spear, U.S. deployments, strike/interdiction activity, tanker seizures, and Operation Absolute Resolve capture of Maduro from a fortified compound in Caracas.
+
+[plaintiff arguments] Brookings expert analysis: Making sense of the U.S. military operation in Venezuela (ev_51105c5e227a_submitted-evidence-03-plaintiff-51105c5e227a)
+Source: https://www.brookings.edu/articles/making-sense-of-the-us-military-operation-in-venezuela/
+SHA-256: `51105c5e227a4b40fd0e5419f9ae524bfd0be5514277be08c57321c21b8e7d1f`
+Bytes: 4797
+Relevance: Credible secondary analysis addressing the operation's characterization, Rubio's adverse denial that it was an invasion/occupation, claims about U.S. running Venezuela, oil/presence statements, legal criticism, and lack of large-scale ground force.
+
+[plaintiff arguments] ABC This Week transcript: Rubio interview and operation reporting, Jan. 4, 2026 (ev_9a260d070386_submitted-evidence-04-plaintiff-9a260d070386)
+Source: https://abcnews.com/Politics/week-transcript-1-4-26-secretary-state-marco/story?id=128879021
+SHA-256: `9a260d07038642e36241d2f5f68b36a23a7ae276dacef85698a4f00bbdeddd06`
+Bytes: 5379
+Relevance: Direct media transcript corroborating military action, control/oil statements, Rubio's defense that it was not an invasion/occupation, and adverse reporting that AP saw no visible sign of U.S. presence immediately after.
+
+## Technical Reports
+
+[plaintiff] Source capture and adverse-check ledger
+Before filing, plaintiff refreshed the record and evidence list; no preexisting evidence or case-packet files were visible. Source targets were official U.S. operational admissions, oversight reporting, direct transcripts, and adverse accounts. Plain curl retrieval of the War/Defense page and official PDF returned HTTP 403, so plaintiff used web_fetch/web-PDF extraction and preserved relevant text extracts with source URLs and retrieval timestamps. Adverse checks included Rubio's denial that the operation was an invasion or occupation, the law-enforcement framing, Brookings' no-large-ground-force point, and ABC/AP reporting of no visible U.S. presence immediately after the operation. Remaining gaps for later phases include full RollCall/White House transcript and separate AP/Reuters captures if source-chain challenges arise.
+
+[defendant] Defense evidence assessment and search ledger
+Defense refreshed the record and evidence list, then stat/read all four plaintiff evidence items in full. The decisive defense issue is not whether U.S. force occurred, but whether the admitted evidence proves intent to establish territorial control. No additional defense evidence was submitted because plaintiff's exhibits already contain the material limiting facts: Rubio's arrest/no-occupation explanation, AP's no-visible-presence observation, Brookings' no-large-ground-force/no-direct-governing-role points, and official descriptions centered on capture/extraction rather than holding territory. Unresolved source-chain items reserved for rebuttal if needed include separate AP/Reuters captures and full official press-transcript/video verification.
+
+## Council Votes
+
+### Round 1
+
+Tally: 2 demonstrated, 2 not_demonstrated
+
+[C1] demonstrated
+The admitted record shows U.S. forces conducted a military offensive in Caracas, using air and ground assets to seize Maduro from a fortified compound, temporarily controlling the area to accomplish the mission, and asserting authority over Venezuela's transition and oil policy—satisfying the proposition's requirement of control over any portion.
+
+[C2] not_demonstrated
+The admitted evidence proves a military operation but fails to demonstrate intent to establish control over Venezuelan territory. Official sources describe an extraction mission, Rubio's explanation emphasizes tactical force protection, and the absence of post-operation presence contradicts territorial control intent.
+
+[C4] demonstrated
+The admitted record proves the United States commenced a military offensive in Venezuela, using military force to seize control of a fortified compound, which satisfies the control intent required by the proposition.
+
+[C5] not_demonstrated
+The admitted record proves a major armed extraction in Caracas but does not show intent to establish control over Venezuelan territory as such; the mission objective and credible-source framing remain capture/extraction, with limiting facts (Rubio denial, AP observation, no ground force/governing role) undercutting territorial-control intent.
+
+### Round 2
+
+Tally: 2 demonstrated, 2 not_demonstrated
+
+[C1] demonstrated
+The admitted record shows U.S. forces conducted a military offensive to seize Maduro from a fortified compound in Caracas, temporarily controlling the area and asserting authority over Venezuela's transition and oil policy, satisfying the proposition's definition of control over any portion.
+
+[C2] not_demonstrated
+The admitted record proves a military extraction operation but fails to demonstrate intent to establish control over Venezuelan territory. Official sources describe a capture/extraction mission, Rubio's explanation emphasizes tactical force protection, and the absence of post-operation presence contradicts territorial control intent.
+
+[C4] demonstrated
+The admitted record demonstrates that U.S. forces conducted a military offensive in Caracas, capturing Maduro from a fortified location, thereby asserting control over a portion of Venezuela during the operation's timeframe.
+
+[C5] not_demonstrated
+Official sources consistently describe the operation as a capture/extraction mission (DX-4, DX-3), Rubio's operational account frames it as arrest with tactical force protection rather than territorial control, and AP reported no visible U.S. presence afterward—together these undercut any showing of intent to establish control over Venezuelan territory.
+
+### Round 3
+
+Tally: 2 demonstrated, 2 not_demonstrated
+
+[C1] demonstrated
+The admitted record shows U.S. forces conducted a military offensive to seize Maduro from a fortified compound in Caracas, temporarily controlling the area and asserting authority over Venezuela's transition and oil policy, satisfying the proposition's definition of control over any portion.
+
+[C2] not_demonstrated
+The admitted record proves a major military extraction operation but fails to demonstrate intent to establish control over Venezuelan territory. Official sources describe a capture/extraction mission, Rubio's explanation emphasizes tactical force protection for an arrest operation, and the absence of post-operation presence contradicts territorial control intent.
+
+[C4] demonstrated
+The admitted record shows that U.S. forces conducted a military offensive to seize Maduro from a fortified compound in Caracas, establishing temporary control which satisfies the proposition's requirement of control over any portion of Venezuela.
+
+[C5] not_demonstrated
+Official sources consistently describe the objective as capture/extraction, Rubio's operational account frames it as arrest with tactical force protection rather than territorial control, and AP reported no visible U.S. presence afterward—together these undercut any showing of intent to establish control over Venezuelan territory.

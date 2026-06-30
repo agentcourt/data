@@ -1,0 +1,32 @@
+Source 1: Notamify page, OIIX A1010/26. URL: https://notamify.com/notams/OIIX/693f2d0f-54d3-433b-8128-49f5475ba269
+Visible title/summary: "All west Tehran FIR airports are closed except listed airports operating sunrise to sunset, with new CAA permission required for civil IFR passenger flights."
+Period of applicability shown: UTC 2026-05-22 20:46 - 2026-05-25 08:30. Category shown: AD Airport Operations.
+Interpretation shown: All airports in the west part of Tehran FIR are closed except OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, and OIAW, which are operational from sunrise to sunset. All previous permissions are suspended for all operators, and new permission must be requested from the CAA for operation of civil IFR passenger flights on these airports.
+Raw NOTAM shown:
+A1010/26 NOTAMR A0799/26
+Q)OIIX/QFALC/IV/NBO/A/000/999/
+A)OIIX B)2605222046 C)2605250830EST
+E)REF NOTAM  A0796/26, ALL AIRPORTS IN WEST PART
+OF TEHRAN FIR ARE CLSD
+EXCEPT OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, AND OIAW THAT ARE
+OPERATIONAL FM SUNRISE TO SUNSET (HJ).
+ALL PREVIOUS PERMISSIONS ARE SUSPENDED FOR ALL OPERATORS,
+NEW PERMISSION SHALL BE REQUESTED FM CAA FOR OPRATION OF
+CIVIL IFR PASSENGER FLIGHTS ON THESE AIRPORTS.
+
+Source 2: Notamify page, OIIX A1015/26. URL: https://notamify.com/notams/OIIX/67435351-52f9-4d17-8f4c-497a21dd94bf
+Visible title/summary: "All airports in the west part of Tehran FIR are closed except listed airports, which are operational HJ."
+Period of applicability shown: UTC 2026-05-23 18:21 - 2026-05-25 08:30. Category shown: AD Airport Operations.
+Interpretation shown: All airports in the west part of Tehran FIR are closed except OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, OIAW, OIFM, OITL, OISR and OIAM, which are operational from sunrise to sunset (HJ). All previous permissions are suspended for all operators. New permission must be requested from Iran CAA for civil IFR passenger flights.
+Raw NOTAM shown:
+A1015/26 NOTAMR A1010/26
+Q)OIIX/QFALC/IV/NBO/A/000/999/
+A)OIIX B)2605231821 C)2605250830EST
+E)REF NOTAM  A0796/26, ALL AIRPORTS IN WEST PART OF TEHRAN FIR
+ARE CLSD EXCEPT:
+OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, OIAW,OIFM, OITL,
+OISR AND OIAM
+THAT ARE OPERATIONAL FM SUNRISE TO SUNSET (HJ).
+ALL PREVIOUS PERMISSIONS ARE SUSPENDED FOR ALL OPERATORS.
+NEW PERMISSION SHALL BE REQUESTED FOR OPERATION OF
+CIVIL IFR PASSENGER FLIGHTS FM IRAN CAA.

@@ -2,13 +2,13 @@
 
 ## Purpose
 
-This dataset preserves complete retained outputs from repeated AgentCourt arbitration runs.  The current data covers one case, `arb/examples/ex11a`, run five times with the same council policy: 11 council members, six required votes for a decision, and a preponderance evidence standard.  The dataset supports inspection of lawyer behavior, admitted evidence, council voting, council failures, and variation across repeated runs.
+This dataset preserves retained outputs from repeated AgentCourt arbitration runs.  It covers one broad examples batch, with three direct local runs for each `arb/examples/ex*` case, and one focused `ex11a` batch with an 11-member council.  The dataset supports inspection of lawyer behavior, admitted evidence, council voting, council failures, and variation across repeated runs.
 
-The data comes from direct local `arb` runs.  Each run used the same case input and the sampled council pool available at the time of execution.  Council member filesystems were removed after execution to control disk use, but the run record, events, council-turn inputs and outputs, admitted evidence, work notes, and logs remain.
+The data comes from direct local `arb` runs.  Each run records its own policy, selected council, evidence, events, final state, transcript, digest, work notes, council-turn files, and logs.  Council member filesystems were removed after execution to control disk use, while the retained files preserve the reviewable run record.
 
 ## Directory Layout
 
-The run set lives at `runs/arb/ex11a/newpool-11council-6majority/`.  Each child directory is named by the timestamp used when the run output directory was created.  Each run directory preserves the layout emitted by the local AAR runner, minus copied process-id files.
+Published runs live under `runs/arb/`.  The examples batch lives at [Examples, local direct, three runs each](runs/arb/examples/local-direct-3x-20260629/), with one directory per example and one child directory per attempt.  The focused `ex11a` batch lives at [ex11a, sampled pool, 11-member council](runs/arb/ex11a/newpool-11council-6majority/), with one directory per timestamped run.
 
 | Path | Description |
 |---|---|
@@ -28,6 +28,11 @@ The run set lives at `runs/arb/ex11a/newpool-11council-6majority/`.  Each child 
 | `evidence-store/` | Hash-addressed evidence blobs. |
 | `council-turns/` | Inputs and outputs for council deliberation turns. |
 | `logs/` | Process logs for OpenClaw lawyers, council members, and MCP/API activity. |
+| `SHA256SUMS` | Run-level checksum file. |
+| `ledger.csv` | Run-set execution ledger for the examples batch. |
+| `batch.log` | Run-set execution log for the examples batch. |
+| `run-batch.sh` | Batch script retained as provenance for the examples batch. |
+| `provenance.md` | Source, policy, cleanup, and import notes for a run set. |
 
 ## Inspecting a Run
 
@@ -40,14 +45,14 @@ Use `run.json` when a single complete record is useful.  It contains the final r
 Example commands:
 
 ```sh
-jq -r '.status, .phase, .resolution, .started_at, .finished_at' runs/arb/ex11a/newpool-11council-6majority/20260620T002928Z/run.json
-jq -r 'select(.type=="council_vote") | [.timestamp, .payload.member_id, .payload.model, .payload.payload.vote] | @tsv' runs/arb/ex11a/newpool-11council-6majority/20260620T002928Z/events.ndjson
-jq -r '.submitted_evidence[] | [.role, .phase, .title, .source_url] | @tsv' runs/arb/ex11a/newpool-11council-6majority/20260620T002928Z/run.json
+jq -r '.status, .phase, .resolution, .started_at, .finished_at' runs/arb/examples/local-direct-3x-20260629/ex13/run-03/run.json
+jq -r 'select(.type=="council_vote") | [.timestamp, .payload.member_id, .payload.model, .payload.payload.vote] | @tsv' runs/arb/examples/local-direct-3x-20260629/ex13/run-03/events.ndjson
+jq -r '.submitted_evidence[]? | [.role, .phase, .title, .source_url] | @tsv' runs/arb/examples/local-direct-3x-20260629/ex13/run-03/run.json
 ```
 
 ## Evidence
 
-The case asks whether Iran initiated a major non-weather airspace closure by the market deadline.  Plaintiff evidence generally supports the broad-region theory through reporting about NOTAM A1010/26, western Tehran FIR restrictions, suspended civil flight permissions, and limited exception airports.  Defendant evidence generally supports the narrower-scope theory through the raw NOTAM text and FAA Q-code interpretation of `QFALC` as an aerodrome-closure code.
+The examples batch includes different case inputs, evidence packets, and case theories.  Some cases begin with a single rules file and rely on lawyer investigation, while others provide richer initial evidence.  Use `complaint.md`, `evidence-manifest.json`, and `submitted-evidence/` to determine what material the lawyers received, found, and admitted in a specific run.
 
 `submitted-evidence/` contains the lawyer-submitted text captures.  `evidence-store/` contains the same retained evidence by content hash.  `evidence-manifest.json` and `run.json` connect each evidence file to its role, phase, title, source URL, retrieval timestamp, hash, and size.
 
@@ -65,6 +70,6 @@ The logs help diagnose council failures and model behavior.  They may also conta
 
 ## Verification
 
-The top-level `SHA256SUMS` file covers all retained files except `SHA256SUMS` itself.  Run `tools/verify.sh` from the repository root to check file integrity and basic run invariants.  The verifier requires `sha256sum` and `jq`.
+The top-level `SHA256SUMS` file covers retained files except `README.md` files and checksum files.  Run `tools/verify.sh` from the repository root to check file integrity and basic run invariants.  The verifier requires `sha256sum` and `jq`.
 
-`manifest.json` summarizes each run.  It includes the run path, status, phase, resolution, start and finish timestamps, council policy, file count, total byte count, and the per-run checksum file hash.  The manifest is for indexing; `SHA256SUMS` is the integrity source.
+`manifest.json` summarizes each run.  It includes the run path, status, phase, resolution, start and finish timestamps, council policy, file count, total byte count, and the per-run checksum file hash.  The manifest is for indexing; `SHA256SUMS` and the per-run checksum files are the integrity sources.

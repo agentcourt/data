@@ -1,0 +1,19 @@
+Source: Iran International, "Iran denies new NOTAM limiting flights across country"
+URL: https://www.iranintl.com/en/202605239595
+Captured/retrieved: 2026-06-30T15:39:20Z
+Visible article metadata: May 23, 2026, 10:32 GMT+1.
+
+Relevant captured text:
+"Iran's Civil Aviation Organization said it had issued no new official aviation notice imposing restrictions on the country's airspace and that flight conditions remained normal."
+
+"The organization's spokesperson said flights were continuing according to schedule."
+
+"Conditions in the country's airspace remain as before, and flights are operating according to plan," the spokesperson said.
+
+"Without giving details of the notice to airmen, or NOTAM, the spokesperson denied a notice recently circulated on social media."
+
+"The denial came after Iran's Civil Aviation Organization said Friday that activity at airports in the western part of Iran's flight information region, known as the Tehran FIR, had been suspended until Monday, with only a limited number of airports allowed to operate."
+
+"That earlier notice said several airports, including Urmia, Kerman, Abadan, Shiraz, Yazd, Kermanshah, Rasht and Ahvaz, were exempt from the restrictions but could operate only from sunrise to sunset."
+
+Source limitations: This is a secondary report, not the official CAO denial or the underlying NOTAM. It is useful because it reports both the denial/no-new-notice position and the narrower earlier western-FIR suspension/airport-exception framing, but official CAO/NOTAM records would carry greater weight.

@@ -1,0 +1,20 @@
+# Times of India fact-check capture on Clavicular pregnancy rumor
+
+Retrieval timestamp: 2026-06-30T07:25:00Z
+URL: https://timesofindia.indiatimes.com/world/us-streamers/fact-check-is-clavicular-really-expecting-his-first-child-after-10-days-relationship-amid-viral-pregnancy-contest-rumor/articleshow/130539375.cms
+Method: web open of article; relevant text extracted from page lines 92-124.
+
+Title: Fact check: Is Clavicular really expecting his first child after 10 days relationship amid viral pregnancy contest rumor?
+Byline/date: Sehjal Gupta / TIMESOFINDIA.COM / Updated: Apr 29, 2026, 17:14 IST.
+
+Relevant captured text summary and excerpts:
+- The article states Clavicular, real name Braden Peters, became the subject of fast-spreading claims that he was expecting his first child and that people said he got a girl pregnant just 10 days after meeting her.
+- It says some believed the claim because Clavicular had recently said he wanted to become a father soon, but that "there was no proof, no confirmed girlfriend, and no medical update."
+- It identifies the rumor as starting from a viral Kick Champ post that crossed 13 million views and claimed Clavicular was expecting his first child with a girlfriend he met 10 days earlier.
+- It says: "No video confirms a pregnancy. No statement from Clavicular confirms it either."
+- It says the shared clip was taken out of context and did not show him reacting to baby news; instead he looked tired and unwell.
+- It identifies a separate livestream statement about a "pregnancy contest" and quotes: "I must have children. I must get children today. I will be a dad in the next few months, guys. I am telling you."
+- It reports that internet users mixed that statement with unrelated clips and that the rumor grew on its own.
+- It concludes that there is no confirmed pregnancy, and that the viral claim is false and likely came from a mix of jokes, clips taken out of context, and Clavicular's controversial content style.
+
+Limits and caveats: This is adverse secondary reporting, not primary video or a statement from Clavicular. It is useful for credibility analysis and missing-link assessment, not direct proof of the proposition.

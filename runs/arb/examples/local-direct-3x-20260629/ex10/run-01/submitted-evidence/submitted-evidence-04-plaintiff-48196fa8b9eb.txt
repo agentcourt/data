@@ -1,0 +1,19 @@
+Source: https://docs.polymarket.com/v2-migration
+Title: Migrating to CLOB V2
+Retrieved: 2026-06-30T07:49:00Z
+
+Material page text extract:
+# Migrating to CLOB V2
+A complete guide to upgrading your integration to Polymarket's CLOB V2 — new contracts, new backend, new collateral token, and a simpler builder program.
+
+Polymarket has shipped a coordinated upgrade of its entire trading infrastructure: new Exchange contracts, a rewritten CLOB backend, and a new collateral token (Polymarket USD, or pUSD). This guide walks you through everything you need to migrate from CLOB V1 to CLOB V2.
+
+CLOB V2 is live as of April 28, 2026. Legacy V1 SDKs and V1-signed orders are no longer supported on production. Upgrade to the V2 SDK or update your raw order signing before submitting orders to https://clob.polymarket.com.
+
+TL;DR table extract:
+Collateral: Before (V1) USDC.e; After (V2) pUSD (standard ERC-20, backed by USDC).
+
+What's changing - 3. New collateral token
+Polymarket is migrating from USDC.e to pUSD (Polymarket USD), a standard ERC-20 on Polygon backed by USDC. Backing is enforced onchain by the smart contract.
+- For users trading on polymarket.com, the frontend handles wrapping automatically with a one-time approval.
+- Power users and API-only traders wrap their USDC.e into pUSD via the Collateral Onramp contract's wrap() function.

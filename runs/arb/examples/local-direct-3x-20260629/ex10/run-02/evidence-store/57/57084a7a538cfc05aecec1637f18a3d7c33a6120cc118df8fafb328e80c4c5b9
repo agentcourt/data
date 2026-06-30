@@ -1,0 +1,59 @@
+Source URL: https://help.polymarket.com/en/articles/14762452-polymarket-exchange-upgrade-april-28-2026
+Retrieved: 2026-06-30T08:13:20Z
+Source: Official Polymarket Help Center
+
+Relevant captured page text:
+
+# Polymarket Exchange Upgrade: April 28, 2026
+
+Learn more about the upcoming exchange upgrades.
+
+April 30, 2026
+
+On April 28, 2026 at ~11:00 UTC, Polymarket is rolling out a coordinated upgrade of the exchange stack: new smart contracts, a rewritten order book, and a new collateral token. Trading will be paused for approximately 1 hour (until ~ 12:00 UTC) during the cutover.
+
+## Key Details
+
+- When: April 28, 2026, starting around 11:00 UTC
+- Downtime: ~1 hour of paused trading
+- What you need to do: For most users, nothing. You just need to approve the conversion of your balance to pUSD, and approve trading on the upgraded contracts.
+- Your open orders: All existing order books will be cleared during the maintenance window. You'll need to re-place orders after the upgrade.
+- Your funds: Your balance carries over. pUSD is backed 1:1 by USDC, with backing enforced onchain by the smart contract.
+
+Are you a builder or dev? See the dev migration guide here.
+
+## What's changing
+
+### New Exchange contracts (CTF Exchange V2)
+
+The core smart contracts have been rebuilt. Improvements include simplified order structure, optimized order matching, improved fee collection and distribution, and lower gas costs.
+
+### Updated order book
+
+The new architecture reduces balance-check race conditions and nonce invalidation issues; fees are calculated at match time instead of order placement time; and order lifecycle tracking is improved.
+
+### A new collateral token: Polymarket USD (pUSD)
+
+Polymarket is migrating from USDC.e to Polymarket USD (pUSD) as the collateral token.
+
+- pUSD is a standard ERC-20 token on Polygon, backed 1:1 by USDC.
+- The backing is enforced onchain by the smart contract — no algorithmic peg, no fractional reserve.
+- The protocol settles all trading activity in native USDC, providing a more capital efficient and scalable settlement standard.
+- Day to day, nothing changes. You load funds, you see a balance, you trade, you withdraw. pUSD is the technical layer underneath.
+
+## What to expect on April 28
+
+During the window, trading will be paused for approximately 1 hour on April 28, starting around 11:00 UTC. All existing order books will be cleared. Follow Discord, Telegram, and status.polymarket.com for the exact start time and live updates.
+
+After the upgrade:
+- Open orders from before the upgrade will have been cleared. You'll need to re-place them.
+- You'll see a one-time approval prompt the first time you trade to convert your balance to pUSD and approve the new exchange contracts.
+- The migration itself is a one-time action.
+
+## FAQ - Frequently Asked Questions
+
+What is pUSD?
+
+pUSD is the new collateral token for Polymarket. It's a regular ERC-20 on Polygon, backed 1:1 by USDC. The smart contract enforces the 1:1 backing, so one pUSD always converts back to one USDC, no fees.
+
+Capture note: This is a focused text capture of relevant rendered article content, not an immutable archive or server-header publication-history capture.

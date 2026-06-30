@@ -1,0 +1,21 @@
+Source: Roll Call Factba.se transcript page, https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-fifa-world-cup-drawing-december-5-2025
+Retrieved: 2026-06-29T22:17:30Z
+
+Observed source title/header: "Remarks: Donald Trump Attends the FIFA World Cup Drawing in Washington - December 5, 2025"
+
+Observed transcript metadata:
+- Topics include Sport; Sport > Competition Discipline > Soccer; Lifestyle and Leisure > Leisure > Game.
+- Entities listed include Donald J. Trump, FIFA World Cup, Mark Carney, United States, trophy, bowl, and others.
+- Speakers listed: Gianni Infantino, Donald Trump, Mark Carney, Claudia Sheinbaum.
+- Speaker statistics shown on page: Gianni Infantino said 101 sentences, 605 words, and talked 325 seconds of 484 seconds; Donald Trump said 25 sentences, 274 words, and talked 92 seconds of 484 seconds.
+
+Search/extraction check:
+- Browser/page text find for the exact term "Ronaldo" returned: No matching text found for "Ronaldo".
+- Browser/page text find for "Pele" found Donald Trump formal-program remarks beginning at 00:03:14-00:03:32.
+
+Relevant formal-program transcript excerpt observed:
+Donald Trump, 00:03:14-00:03:32: "Well, for years, Gianni, they've thought soccer or football would be so big, so fast. And I remember, I shouldn't say this because it was a long time ago, but I remember watching Pele play on a team called the Cosmos, Pele, who was fantastic, as you know. I assume one of the greats."
+
+Gianni Infantino, 00:03:32-00:03:37: "Oh, yes. Pele. Let's applaud Pele, please. One of the greatest."
+
+The page's full-transcript section begins with Mark Carney at 00:00:00-00:00:02, followed by Gianni Infantino and other formal event speakers. The source is used to distinguish the formal FIFA World Cup Drawing program transcript from the separate GovInfo item titled remarks in an exchange with reporters prior to the draw.

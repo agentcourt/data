@@ -1,0 +1,4 @@
+WARNING: The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8) and no specific platform was requested
+[agent/embedded] [trace:embedded-run] startup stages: runId=3f41bcaa-99bd-4ddf-92c3-14589f510286 sessionId=026aabbc-473d-4731-be4d-77aba43f113c phase=attempt-dispatch totalMs=6568 stages=workspace:3ms@3ms,runtime-plugins:5867ms@5870ms,hooks:2ms@5872ms,model-resolution:536ms@6408ms,auth:146ms@6554ms,context-engine:7ms@6561ms,attempt-workspace:1ms@6562ms,attempt-prompt:1ms@6563ms,attempt-runtime-plan:4ms@6567ms,attempt-dispatch:1ms@6568ms
+[agent/embedded] skipping codex app-server compaction for non-manual trigger
+[bundle-mcp] server key "aar-arb-ex10-20260630080125-plaintiff" registered as "aar-arb-ex10-20260630080125-pl" for provider-safe tool names.

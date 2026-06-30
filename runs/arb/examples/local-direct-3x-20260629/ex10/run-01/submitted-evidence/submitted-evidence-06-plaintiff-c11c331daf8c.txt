@@ -1,0 +1,16 @@
+Source: https://help.polymarket.com/en/articles/13364250-does-polymarket-have-a-token
+Title: Does Polymarket Have a Token?
+Retrieved: 2026-06-30T07:49:00Z
+
+Material page text extract:
+# Does Polymarket Have a Token?
+Updated this week
+
+All trading and liquidity rewards are in pUSD, Polymarket's official collateral token. pUSD is a standard ERC-20 token on Polygon, backed by USDC.
+
+Polymarket has not announced plans for any airdrop or token generation event. Be wary of scams claiming airdrops, giveaways, etc. Announcements will only come from official channels.
+
+If in doubt, refer to official Polymarket communication channels:
+- Web: https://polymarket.com
+- Twitter / X: https://x.com/polymarket
+- Discord: https://discord.gg/polymarket

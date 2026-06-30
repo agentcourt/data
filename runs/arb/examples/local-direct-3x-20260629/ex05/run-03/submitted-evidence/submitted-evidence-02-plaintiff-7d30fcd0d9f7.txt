@@ -1,0 +1,22 @@
+Source: PBS NewsHour / Associated Press
+Title: A timeline of U.S. military escalation against Venezuela leading to Maduro's capture
+URL: https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-escalation-against-venezuela-leading-to-maduros-capture
+Retrieval timestamp: 2026-06-30T00:45:00Z
+
+Relevant extracted text:
+
+Dec. 10: The U.S. seized an oil tanker off the coast of Venezuela after the ship left that country with about 2 million barrels of heavy crude. Attorney General Pam Bondi said the tanker was involved in "an illicit oil shipping network supporting foreign terrorist organizations." Venezuela's government said the seizure was "a blatant theft and an act of international piracy."
+
+Dec. 16: Trump said he was ordering a blockade of all "sanctioned oil tankers" going into and out of Venezuela, a move that seemed designed to put a tighter chokehold on the South American country's oil-dependent economy. Trump alleged that Venezuela was using oil to fund drug trafficking, terrorism and other crimes. He pledged to continue the military buildup until Venezuela returned to the U.S. oil, land and assets, though it was unclear why Trump felt the U.S. had a claim.
+
+Dec. 29: Trump told reporters that the U.S. struck a facility where boats accused of carrying drugs "load up." He declined to say whether the U.S. military or the CIA carried out the strike on the dock or where it occurred. He did not confirm it happened in Venezuela.
+
+Dec. 30: The CIA was behind the drone strike at a docking area believed to have been used by Venezuelan drug cartels, according to two people familiar with details of the classified operation who requested anonymity to discuss it. It was the first known direct operation on Venezuelan soil since the U.S. began strikes in September. Venezuelan officials have not acknowledged the strike.
+
+Jan. 1, 2026: Maduro, in an interview on state television that aired on New Year's Day, said Venezuela was open to negotiating an agreement with the United States to combat drug trafficking. He declined to comment on the CIA-led strike and reiterated that the U.S. wanted to force a government change in Venezuela and gain access to its vast oil reserves.
+
+Jan. 3: The U.S. conducted a "large-scale strike" across Caracas, the capital of Venezuela, captured Maduro and Flores and flew them out of the country. Attorney General Pam Bondi said Maduro and Flores had been indicted in the Southern District of New York. Maduro was accused of leading a "a corrupt, illegitimate government that, for decades, has leveraged government power to protect and promote illegal activity, including drug trafficking."
+
+Article footer/byline note visible in capture: Garcia Cano reported from Caracas, Venezuela. Related PBS links included live updates, an article titled "What we know about a U.S. strike that captured Venezuela's Maduro," and "U.S. strikes Venezuela and says leader Maduro has been captured and flown out of the country."
+
+Capture notes: This is a relevant text extraction, not full-page HTML. The source is useful for independent chronology and corroboration. It also contains limitations: the Dec. 29 item was not confirmed as Venezuela by Trump, the Dec. 30 item relies on anonymous sources and was not acknowledged by Venezuelan officials, and the Jan. 3 item reports law-enforcement charges as part of the operation's stated rationale.

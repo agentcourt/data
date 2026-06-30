@@ -1,0 +1,17 @@
+Retrieval: curl -L https://docs.polymarket.com/resources/contracts.md
+Response headers observed: HTTP/2 200; content-type: text/markdown; date: Tue, 30 Jun 2026 11:12:19 GMT; server: Vercel; x-matched-path: /_mintlify/_markdown/_sites/[subdomain]/[[...slug]]; x-robots-tag: noindex, nofollow.
+
+Source text extract:
+# Contracts
+
+> All Polymarket smart contract addresses, audits, and security resources
+
+All Polymarket contracts are deployed on **Polygon mainnet** (Chain ID: 137). This is the single source of truth for all contract addresses used across the platform.
+
+Collateral Contracts table extract:
+pUSD — CollateralToken (proxy): 0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB, linked to https://polygonscan.com/address/0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB
+pUSD — CollateralToken (impl): 0x6bBCef9f7ef3B6C592c99e0f206a0DE94Ad0925f, linked to https://polygonscan.com/address/0x6bBCef9f7ef3B6C592c99e0f206a0DE94Ad0925f
+CollateralOnramp: 0x93070a847efEf7F70739046A929D47a521F5B8ee
+CollateralOfframp: 0x2957922Eb93258b93368531d39fAcCA3B4dC5854
+
+The same page lists V2/core trading contracts and states the page is the single source of truth for contract addresses used across the platform.

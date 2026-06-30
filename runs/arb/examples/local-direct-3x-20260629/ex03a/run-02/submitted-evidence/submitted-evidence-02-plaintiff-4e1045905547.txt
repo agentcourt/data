@@ -1,0 +1,37 @@
+Source capture: YouTube watch page https://www.youtube.com/watch?v=Cb2yO0lLEnM
+Video ID: Cb2yO0lLEnM
+Retrieval: 2026-06-29T21:53:00Z via web search and curl of the YouTube watch page.
+
+Captured title / page metadata:
+- Title shown in search and page metadata: Trump Talks Cristiano Ronaldo at FIFA Draw — ‘He’s a Great Person’
+- Channel shown in page metadata: interestingText You / @InterestingTextYou
+- Subscriber count shown in page metadata at capture: about 10.3K subscribers
+
+Captured description text from YouTube page metadata:
+"Trump Talks Cristiano Ronaldo at FIFA Draw — ‘He’s a Great Person’
+
+At the FIFA World Cup Draw Ceremony, Donald Trump shared a story about meeting Cristiano Ronaldo at the White House. Trump said Ronaldo was “a great person” and even mentioned that Ronaldo spoke with his son about soccer during the visit.
+
+This unexpected crossover between world politics and one of the biggest global sports stars quickly caught viewers' attention.
+
+Trump FIFA Draw
+Donald Trump FIFA World Cup
+Trump Cristiano Ronaldo
+Cristiano Ronaldo Trump meeting
+FIFA World Cup draw 2026
+Ronaldo White House visit
+Trump soccer comments
+World Cup trending 2025
+sports politics crossover
+Cristiano Ronaldo story
+Donald Trump viral moment
+FIFA draw ceremony Trump
+World Cup 2026 news
+Ronaldo fan reaction
+political celebrity moments
+viral sports clips 2025
+FIFA draw highlights
+Trump speech FIFA
+global sports news"
+
+Capture limits and provenance caveat: direct video/caption extraction was attempted but YouTube transcript/open paths were throttled or unavailable in this environment. This item preserves the public watch-page metadata and description, not an independently extracted audio transcript. It is not an official White House or FIFA source.

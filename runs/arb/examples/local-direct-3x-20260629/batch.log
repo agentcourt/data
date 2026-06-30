@@ -1,0 +1,327 @@
+2026-06-29T16:54:58Z batch start root=out/local-direct-three-per-ex-only-20260629 examples=16
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T16:54:58Z start example=ex01 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex01/run-01
+2026-06-29T17:26:56Z finish example=ex01 attempt=01 rc=0 cleanup_ok=true
+19M	out/local-direct-three-per-ex-only-20260629/ex01/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T17:26:56Z start example=ex01 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex01/run-02
+2026-06-29T17:53:41Z finish example=ex01 attempt=02 rc=0 cleanup_ok=true
+31M	out/local-direct-three-per-ex-only-20260629/ex01/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T17:53:41Z start example=ex01 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex01/run-03
+2026-06-29T18:14:35Z finish example=ex01 attempt=03 rc=0 cleanup_ok=true
+14M	out/local-direct-three-per-ex-only-20260629/ex01/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T18:14:35Z start example=ex02 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex02/run-01
+2026-06-29T18:38:16Z finish example=ex02 attempt=01 rc=0 cleanup_ok=true
+17M	out/local-direct-three-per-ex-only-20260629/ex02/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T18:38:16Z start example=ex02 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex02/run-02
+2026-06-29T19:04:03Z finish example=ex02 attempt=02 rc=0 cleanup_ok=true
+17M	out/local-direct-three-per-ex-only-20260629/ex02/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T19:04:03Z start example=ex02 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex02/run-03
+2026-06-29T19:25:57Z finish example=ex02 attempt=03 rc=0 cleanup_ok=true
+8.7M	out/local-direct-three-per-ex-only-20260629/ex02/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T19:25:57Z start example=ex03 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex03/run-01
+2026-06-29T19:46:07Z finish example=ex03 attempt=01 rc=0 cleanup_ok=true
+29M	out/local-direct-three-per-ex-only-20260629/ex03/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T19:46:07Z start example=ex03 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex03/run-02
+2026-06-29T20:51:03Z finish example=ex03 attempt=02 rc=0 cleanup_ok=true
+27M	out/local-direct-three-per-ex-only-20260629/ex03/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T20:51:03Z start example=ex03 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex03/run-03
+2026-06-29T21:09:37Z finish example=ex03 attempt=03 rc=0 cleanup_ok=true
+28M	out/local-direct-three-per-ex-only-20260629/ex03/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T21:09:37Z start example=ex03a attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex03a/run-01
+2026-06-29T21:42:45Z finish example=ex03a attempt=01 rc=0 cleanup_ok=true
+13M	out/local-direct-three-per-ex-only-20260629/ex03a/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T21:42:45Z start example=ex03a attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex03a/run-02
+2026-06-29T22:06:12Z finish example=ex03a attempt=02 rc=0 cleanup_ok=true
+25M	out/local-direct-three-per-ex-only-20260629/ex03a/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T22:06:12Z start example=ex03a attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex03a/run-03
+2026-06-29T22:37:47Z finish example=ex03a attempt=03 rc=0 cleanup_ok=true
+24M	out/local-direct-three-per-ex-only-20260629/ex03a/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T22:37:47Z start example=ex04 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex04/run-01
+2026-06-29T22:58:38Z finish example=ex04 attempt=01 rc=0 cleanup_ok=true
+9.1M	out/local-direct-three-per-ex-only-20260629/ex04/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T22:58:38Z start example=ex04 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex04/run-02
+2026-06-29T23:23:50Z finish example=ex04 attempt=02 rc=0 cleanup_ok=true
+20M	out/local-direct-three-per-ex-only-20260629/ex04/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T23:23:50Z start example=ex04 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex04/run-03
+2026-06-29T23:47:20Z finish example=ex04 attempt=03 rc=0 cleanup_ok=true
+17M	out/local-direct-three-per-ex-only-20260629/ex04/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-29T23:47:20Z start example=ex05 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex05/run-01
+2026-06-30T00:13:30Z finish example=ex05 attempt=01 rc=0 cleanup_ok=true
+18M	out/local-direct-three-per-ex-only-20260629/ex05/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-30T00:13:30Z start example=ex05 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex05/run-02
+2026-06-30T00:35:05Z finish example=ex05 attempt=02 rc=0 cleanup_ok=true
+12M	out/local-direct-three-per-ex-only-20260629/ex05/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-30T00:35:05Z start example=ex05 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex05/run-03
+2026-06-30T00:54:31Z finish example=ex05 attempt=03 rc=0 cleanup_ok=true
+8.3M	out/local-direct-three-per-ex-only-20260629/ex05/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-30T00:54:31Z start example=ex06 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex06/run-01
+2026-06-30T01:32:24Z finish example=ex06 attempt=01 rc=0 cleanup_ok=true
+24M	out/local-direct-three-per-ex-only-20260629/ex06/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-30T01:32:24Z start example=ex06 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex06/run-02
+2026-06-30T01:52:57Z finish example=ex06 attempt=02 rc=0 cleanup_ok=true
+11M	out/local-direct-three-per-ex-only-20260629/ex06/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-30T01:52:57Z start example=ex06 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex06/run-03
+2026-06-30T02:28:41Z finish example=ex06 attempt=03 rc=0 cleanup_ok=true
+11M	out/local-direct-three-per-ex-only-20260629/ex06/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   48G   12G  81% /media/hd2
+2026-06-30T02:28:41Z start example=ex07 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex07/run-01
+2026-06-30T02:51:57Z finish example=ex07 attempt=01 rc=0 cleanup_ok=true
+30M	out/local-direct-three-per-ex-only-20260629/ex07/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  81% /media/hd2
+2026-06-30T02:51:57Z start example=ex07 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex07/run-02
+2026-06-30T03:30:06Z finish example=ex07 attempt=02 rc=0 cleanup_ok=true
+26M	out/local-direct-three-per-ex-only-20260629/ex07/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  81% /media/hd2
+2026-06-30T03:30:06Z start example=ex07 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex07/run-03
+2026-06-30T03:51:58Z finish example=ex07 attempt=03 rc=0 cleanup_ok=true
+12M	out/local-direct-three-per-ex-only-20260629/ex07/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  81% /media/hd2
+2026-06-30T03:51:58Z start example=ex08 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex08/run-01
+2026-06-30T04:24:02Z finish example=ex08 attempt=01 rc=0 cleanup_ok=true
+23M	out/local-direct-three-per-ex-only-20260629/ex08/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  81% /media/hd2
+2026-06-30T04:24:02Z start example=ex08 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex08/run-02
+2026-06-30T04:48:03Z finish example=ex08 attempt=02 rc=0 cleanup_ok=true
+25M	out/local-direct-three-per-ex-only-20260629/ex08/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  81% /media/hd2
+2026-06-30T04:48:03Z start example=ex08 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex08/run-03
+2026-06-30T05:10:12Z finish example=ex08 attempt=03 rc=0 cleanup_ok=true
+17M	out/local-direct-three-per-ex-only-20260629/ex08/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  81% /media/hd2
+2026-06-30T05:10:12Z start example=ex08a attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex08a/run-01
+2026-06-30T05:34:12Z finish example=ex08a attempt=01 rc=0 cleanup_ok=true
+15M	out/local-direct-three-per-ex-only-20260629/ex08a/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  81% /media/hd2
+2026-06-30T05:34:12Z start example=ex08a attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex08a/run-02
+2026-06-30T05:55:15Z finish example=ex08a attempt=02 rc=1 cleanup_ok=true
+18M	out/local-direct-three-per-ex-only-20260629/ex08a/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  81% /media/hd2
+2026-06-30T05:55:15Z stopping after run failure
+2026-06-30T06:00:31Z batch start root=out/local-direct-three-per-ex-only-20260629 examples=16
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T06:00:31Z skip existing example=ex01 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex01/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex01 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex01/run-02 status=ok
+2026-06-30T06:00:31Z skip existing example=ex01 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex01/run-03 status=ok
+2026-06-30T06:00:31Z skip existing example=ex02 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex02/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex02 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex02/run-02 status=ok
+2026-06-30T06:00:31Z skip existing example=ex02 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex02/run-03 status=ok
+2026-06-30T06:00:31Z skip existing example=ex03 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex03/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex03 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex03/run-02 status=ok
+2026-06-30T06:00:31Z skip existing example=ex03 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex03/run-03 status=ok
+2026-06-30T06:00:31Z skip existing example=ex03a attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex03a/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex03a attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex03a/run-02 status=ok
+2026-06-30T06:00:31Z skip existing example=ex03a attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex03a/run-03 status=ok
+2026-06-30T06:00:31Z skip existing example=ex04 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex04/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex04 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex04/run-02 status=ok
+2026-06-30T06:00:31Z skip existing example=ex04 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex04/run-03 status=ok
+2026-06-30T06:00:31Z skip existing example=ex05 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex05/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex05 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex05/run-02 status=ok
+2026-06-30T06:00:31Z skip existing example=ex05 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex05/run-03 status=ok
+2026-06-30T06:00:31Z skip existing example=ex06 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex06/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex06 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex06/run-02 status=ok
+2026-06-30T06:00:31Z skip existing example=ex06 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex06/run-03 status=ok
+2026-06-30T06:00:31Z skip existing example=ex07 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex07/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex07 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex07/run-02 status=ok
+2026-06-30T06:00:31Z skip existing example=ex07 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex07/run-03 status=ok
+2026-06-30T06:00:31Z skip existing example=ex08 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex08/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex08 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex08/run-02 status=ok
+2026-06-30T06:00:31Z skip existing example=ex08 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex08/run-03 status=ok
+2026-06-30T06:00:31Z skip existing example=ex08a attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex08a/run-01 status=ok
+2026-06-30T06:00:31Z skip existing example=ex08a attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex08a/run-02 status=ok
+2026-06-30T06:00:31Z start example=ex08a attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex08a/run-03
+2026-06-30T06:27:17Z finish example=ex08a attempt=03 rc=0 cleanup_ok=true
+22M	out/local-direct-three-per-ex-only-20260629/ex08a/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T06:27:17Z start example=ex09 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex09/run-01
+2026-06-30T06:51:25Z finish example=ex09 attempt=01 rc=0 cleanup_ok=true
+19M	out/local-direct-three-per-ex-only-20260629/ex09/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T06:51:25Z start example=ex09 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex09/run-02
+2026-06-30T07:17:03Z finish example=ex09 attempt=02 rc=0 cleanup_ok=true
+19M	out/local-direct-three-per-ex-only-20260629/ex09/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T07:17:03Z start example=ex09 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex09/run-03
+2026-06-30T07:39:04Z finish example=ex09 attempt=03 rc=0 cleanup_ok=true
+19M	out/local-direct-three-per-ex-only-20260629/ex09/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T07:39:04Z start example=ex10 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex10/run-01
+2026-06-30T08:01:25Z finish example=ex10 attempt=01 rc=0 cleanup_ok=true
+9.5M	out/local-direct-three-per-ex-only-20260629/ex10/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T08:01:25Z start example=ex10 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex10/run-02
+2026-06-30T10:33:50Z finish example=ex10 attempt=02 rc=0 cleanup_ok=true
+26M	out/local-direct-three-per-ex-only-20260629/ex10/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T10:33:50Z start example=ex10 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex10/run-03
+2026-06-30T12:37:38Z finish example=ex10 attempt=03 rc=0 cleanup_ok=true
+13M	out/local-direct-three-per-ex-only-20260629/ex10/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T12:37:38Z start example=ex11 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex11/run-01
+2026-06-30T12:57:52Z finish example=ex11 attempt=01 rc=0 cleanup_ok=true
+15M	out/local-direct-three-per-ex-only-20260629/ex11/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T12:57:52Z start example=ex11 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex11/run-02
+2026-06-30T13:19:16Z finish example=ex11 attempt=02 rc=0 cleanup_ok=true
+23M	out/local-direct-three-per-ex-only-20260629/ex11/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T13:19:16Z start example=ex11 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex11/run-03
+2026-06-30T13:54:27Z finish example=ex11 attempt=03 rc=0 cleanup_ok=true
+47M	out/local-direct-three-per-ex-only-20260629/ex11/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T13:54:27Z start example=ex11a attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex11a/run-01
+2026-06-30T14:16:38Z finish example=ex11a attempt=01 rc=0 cleanup_ok=true
+16M	out/local-direct-three-per-ex-only-20260629/ex11a/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T14:16:38Z start example=ex11a attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex11a/run-02
+2026-06-30T14:36:13Z finish example=ex11a attempt=02 rc=0 cleanup_ok=true
+12M	out/local-direct-three-per-ex-only-20260629/ex11a/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T14:36:13Z start example=ex11a attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex11a/run-03
+2026-06-30T14:59:20Z finish example=ex11a attempt=03 rc=0 cleanup_ok=true
+15M	out/local-direct-three-per-ex-only-20260629/ex11a/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   12G  82% /media/hd2
+2026-06-30T14:59:20Z start example=ex12 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex12/run-01
+2026-06-30T15:21:38Z finish example=ex12 attempt=01 rc=0 cleanup_ok=true
+9.1M	out/local-direct-three-per-ex-only-20260629/ex12/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   11G  82% /media/hd2
+2026-06-30T15:21:38Z start example=ex12 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex12/run-02
+2026-06-30T15:48:10Z finish example=ex12 attempt=02 rc=0 cleanup_ok=true
+46M	out/local-direct-three-per-ex-only-20260629/ex12/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   11G  82% /media/hd2
+2026-06-30T15:48:10Z start example=ex12 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex12/run-03
+2026-06-30T16:11:49Z finish example=ex12 attempt=03 rc=0 cleanup_ok=true
+11M	out/local-direct-three-per-ex-only-20260629/ex12/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   11G  82% /media/hd2
+2026-06-30T16:11:49Z start example=ex13 attempt=01 outdir=out/local-direct-three-per-ex-only-20260629/ex13/run-01
+2026-06-30T16:30:02Z finish example=ex13 attempt=01 rc=0 cleanup_ok=true
+7.9M	out/local-direct-three-per-ex-only-20260629/ex13/run-01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   11G  82% /media/hd2
+2026-06-30T16:30:02Z start example=ex13 attempt=02 outdir=out/local-direct-three-per-ex-only-20260629/ex13/run-02
+2026-06-30T16:48:57Z finish example=ex13 attempt=02 rc=0 cleanup_ok=true
+9.4M	out/local-direct-three-per-ex-only-20260629/ex13/run-02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   11G  82% /media/hd2
+2026-06-30T16:48:57Z start example=ex13 attempt=03 outdir=out/local-direct-three-per-ex-only-20260629/ex13/run-03
+2026-06-30T17:07:21Z finish example=ex13 attempt=03 rc=0 cleanup_ok=true
+11M	out/local-direct-three-per-ex-only-20260629/ex13/run-03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda3        59G   45G   11G  81% /
+/dev/sdb1        63G   49G   11G  82% /media/hd2
+2026-06-30T17:07:21Z batch complete

@@ -1,0 +1,22 @@
+Source capture from official White House page https://www.whitehouse.gov/videos/president-trump-attends-the-fifa-world-cup-drawing/
+Retrieval: 2026-06-29T21:52:12Z via OpenClaw web_fetch and web.open.
+
+Visible page facts captured:
+- Page title: President Trump Attends the FIFA World Cup Drawing
+- Date shown on page: December 5, 2025
+- Page section: Videos
+- The page contains a link labeled View Full Video to Instagram.
+- Related video listed: FIFA World Cup 2026 Draw at The Kennedy Center, duration 00:45, dated December 6, 2025.
+- Related video listed: FIFA World Cup Drawing Announced to Take Place at The Kennedy Center, duration 00:56, dated August 23, 2025.
+- Related video listed: President Trump on the 2026 FIFA World Cup, duration 01:22, dated May 6, 2025.
+
+Relevant extracted lines from web.open capture:
+L142: Videos
+L143: # President Trump Attends the FIFA World Cup Drawing
+L145: December 5, 2025
+L133: ... View Full Video [instagram.com] ...
+L151: FIFA World Cup 2026 Draw at The Kennedy Center
+L153: December 6, 2025
+L167-L170: President Trump on the 2026 FIFA World Cup, May 6, 2025
+
+Notes on capture limits: readability extraction returned minimal content, so the above preserves visible lines from the page capture. The embedded/full video itself was not captured in this item.

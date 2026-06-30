@@ -1,0 +1,1202 @@
+{
+  "schema_version": "aar.council-turn-snapshot.v0",
+  "created_at": "2026-06-29T19:01:03Z",
+  "source_output_dir": "out/local-direct-three-per-ex-only-20260629/ex02/run-02",
+  "case_id": "arb-ex02-20260629183816",
+  "run_id": "run-arb-ex02-20260629183816",
+  "member_id": "C2",
+  "turn_number": 18,
+  "opportunity": {
+    "ID": "deliberation:3:C2",
+    "Role": "council",
+    "Phase": "deliberation",
+    "MayPass": false,
+    "Objective": "council vote by C2",
+    "AllowedTools": [
+      "submit_council_vote"
+    ]
+  },
+  "seat": {
+    "member_id": "C2",
+    "model": "openrouter://moonshotai/kimi-k2-thinking",
+    "persona_file": "personas/generic.md",
+    "persona_text": "You are a careful juror and council member.\n\nEvaluate the record faithfully. Decide only from the evidence, the stated rules, and the applicable burden of proof. Do not favor either side, fill gaps with speculation, or ignore uncertainty.\n\nGive weight to reliable sources, direct evidence, consistent reasoning, and clear admissions. Discount unsupported claims, rhetorical force, irrelevant facts, and conclusions that exceed the record.\n\nWhen the evidence supports one answer, state it plainly. When the evidence is incomplete or balanced, say so. Be concise, honest, and exact.",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "moonshotai/kimi-k2-thinking",
+      "provider": {
+        "only": [
+          "atlas-cloud/int4"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "int4"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "atlas-cloud/int4",
+        "endpoint_variant_id": "321d30c399f1e30cd4ba4f07",
+        "equivalence_class_size": 1,
+        "equivalence_key": {
+          "canonical_slug": "moonshotai/kimi-k2-thinking-20251106",
+          "endpoint_model_id": "moonshotai/kimi-k2-thinking",
+          "hugging_face_id": "moonshotai/Kimi-K2-Thinking",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "moonshotai/kimi-k2-thinking",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "int4"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "moonshotai/kimi-k2-thinking-20251106",
+            "clusters": [
+              6,
+              0,
+              5,
+              0
+            ],
+            "context_length": 262144,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "AtlasCloud | moonshotai/kimi-k2-thinking-20251106",
+            "endpoint_tag": "atlas-cloud/int4",
+            "endpoint_variant_id": "321d30c399f1e30cd4ba4f07",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "moonshotai/Kimi-K2-Thinking",
+            "latency_last_30m": {
+              "p50": 718,
+              "p75": 1030.75,
+              "p90": 3530.7000000000007,
+              "p99": 32337.490000000325
+            },
+            "max_completion_tokens": 262144,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "moonshotai/kimi-k2-thinking",
+            "pricing_completion": "0.0000025",
+            "pricing_prompt": "0.0000006",
+            "provider_error_count": null,
+            "provider_name": "AtlasCloud",
+            "quantization": "int4",
+            "schema_violation_count": null,
+            "source_row": 6,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 98.23232323232324,
+            "uptime_last_30m": null
+          }
+        ],
+        "openrouter_model_id": "moonshotai/kimi-k2-thinking",
+        "provider_name": "AtlasCloud",
+        "quantization": "int4",
+        "representative_endpoint_variant_id": "321d30c399f1e30cd4ba4f07",
+        "representative_source_row": 6
+      }
+    }
+  },
+  "policy": {
+    "council_size": 5,
+    "evidence_standard": "Preponderance of the evidence.",
+    "required_votes_for_decision": 3,
+    "max_deliberation_rounds": 3,
+    "max_opening_chars": 5000,
+    "max_argument_chars": 6000,
+    "max_rebuttal_chars": 4000,
+    "max_surrebuttal_chars": 4000,
+    "max_closing_chars": 5000,
+    "max_exhibits_per_filing": 9,
+    "max_exhibits_per_side": 12,
+    "max_exhibit_bytes": 131072,
+    "max_reports_per_filing": 3,
+    "max_reports_per_side": 4,
+    "max_report_title_bytes": 256,
+    "max_report_summary_bytes": 8192,
+    "max_submitted_evidence_per_side": 8,
+    "max_submitted_evidence_bytes": 67108864,
+    "max_direct_submitted_evidence_bytes": 131072,
+    "max_evidence_upload_bytes": 67108864,
+    "max_evidence_chunk_bytes": 65536,
+    "max_evidence_read_bytes": 65536,
+    "max_evidence_reads_per_opportunity": 32,
+    "max_evidence_read_bytes_per_opportunity": 524288
+  },
+  "runtime": {
+    "council_llm_timeout_seconds": 900,
+    "lawyer_turn_timeout_seconds": 900,
+    "max_response_bytes": 131072,
+    "invalid_attempt_limit": 3,
+    "council_max_output_tokens": 4096
+  },
+  "complaint": {
+    "Proposition": "For the market \"What will Trump say during the FIFA World Cup Draw?\", the strike \"Ronaldo\" should resolve Yes because Trump's pre-event remarks at the venue immediately before the formal program count as occurring during the draw."
+  },
+  "state": {
+    "case": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, the preponderance now favors Yes.\n\nStart with the case packet. PX-1 frames the exact dispute: the market was \"What will Trump say during the FIFA World Cup Draw?\"; the strike was \"Ronaldo\"; and the issue is whether the phrase includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program. That is not a fact invented by plaintiff; it is the packet's own statement of the dispute.\n\nPX-2 helps the defense only after a narrowing assumption. It says the draft complaint states the formal draw-program transcript does not appear to contain \"Ronaldo,\" but it also says it is not the full formal-program transcript. Even taken at full value, it proves only that one formal-program transcript apparently lacks the word. It does not prove that Kalshi's market was limited to that transcript, nor that the market excluded live video or press-facing event coverage.\n\nPX-3 is the affirmative packet evidence on the utterance. It attributes two lines to Trump's public remarks at the venue immediately before the formal program: \"I got to meet Ronaldo the other day\" and \"Ronaldo is great.\" PX-3 is not a full upstream transcript, so its provenance is imperfect. But under a preponderance standard it is direct case-packet evidence that the strike was said in the relevant venue/time setting.\n\nThe newly submitted market-rule capture, PX-4, undermines the defendant's transcript-only boundary. The visible Kalshi rule language says: \"Video of the FIFA World Cup Draw will be primarily used to resolve the market\"; transcripts are used only if Kalshi employees cannot reach consensus using video. It also says the event must be opened to the press for a live televised or streamed event. That rule language points away from a narrow paper-transcript inquiry and toward the actual video/streamed event. The page capture defaulted to a different strike on the same Trump World Cup Draw event page, so it is not perfect Ronaldo-specific proof; but it is still strong evidence of the governing event-level rule structure.\n\nPX-5, the public dispute-index entry, is secondary and partly adverse, and the council should weigh it accordingly. It reports that this exact market and strike involved Trump saying the strike to the press on the red carpet before the programme, that it was livestreamed, and that the dispute turned on \"Version\" and \"Timeframe.\" It also reports the result as N. Plaintiff is not asking the council to treat PX-5 as binding precedent; the source itself warns against that. Its value is different: it corroborates that the factual dispute is not whether the word was said at all. The dispute is whether the red-carpet/livestream segment was within the market's covered event.\n\nOn that question, defendant's line is too cramped. The market did not say \"during the formal on-stage draw program\" or \"in the official transcript only.\" It asked what Trump would say \"during the FIFA World Cup Draw.\" PX-4 confirms that video was primary and that a press-open live televised or streamed event was contemplated. PX-1 and PX-3 place the remarks at the venue immediately before the formal program, in public remarks connected to that event. PX-5 corroborates that the remarks were to the press on the red carpet and livestreamed. A live, press-facing venue segment immediately preceding the formal program is naturally part of the draw event's public coverage unless the rules clearly carve it out.\n\nThe defense has a fair adverse point: PX-5 reports that Kalshi resolved the market N, and no primary video/full transcript has yet been admitted. But this arbitration is deciding the proposition under preponderance, not deferring to an unexplained reported outcome. The record explains the No result as a timeframe/version controversy; it does not supply rule text excluding red-carpet livestream coverage. Against that, we have direct packet attribution of two Ronaldo statements, a market rule preferring video over transcripts, and corroboration that the remarks were livestreamed press remarks immediately before the programme.\n\nThat is enough. The most likely account is that Trump did say \"Ronaldo\" in public World Cup Draw venue coverage, and the market's ordinary wording plus video-primary rule covers that segment. The strike should resolve Yes."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, the merits record still does not prove the proposition. Plaintiff has evidence that something Ronaldo-related was allegedly said before the formal program. Plaintiff does not have evidence that those remarks occurred during the market-covered draw.\n\nStart with DX-1. The case packet states the exact boundary dispute: whether \"during the FIFA World Cup Draw\" includes public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program. That phrasing is not neutral for plaintiff. It identifies the remarks as before the formal program began. The proposition requires crossing that boundary.\n\nDX-2 remains the only record item tied to the formal-program side. It says the draft complaint states that the formal draw-program transcript does not appear to contain \"Ronaldo.\" It is admittedly incomplete, but it supports the challenged No resolution if the covered event is the formal on-stage draw program. Plaintiff has not supplied a full formal-program transcript or video showing the strike inside that program.\n\nPlaintiff's new DX-3 does not solve the problem. It is not the Ronaldo market. The extraction says the displayed strike was Canada, the rule text says \"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw,\" and the market ticker shown is KXTRUMPMENTIONB-25DEC06-CANA. Plaintiff asks the council to use that Canada page as event-level rule proof for Ronaldo. Even if the general event language is similar, the exhibit cannot establish the Ronaldo-specific contract, its selected market page, its displayed strike, or any Ronaldo-specific resolution history.\n\nMore importantly, DX-3's wording helps the defense on scope. It does not say every press-adjacent livestream before the program counts. It says the word must be said \"as part of FIFA World Cup Draw,\" and that video of \"the FIFA World Cup Draw\" is primary. That is consistent with a formal-event boundary. The separate sentence about the event being opened to the press for a live televised or streamed event is a condition preventing No if there is no press/live event at all; it is not an expansion clause making every red-carpet or pre-show segment part of the draw.\n\nDX-4, plaintiff's secondary dispute index, is the closest Ronaldo-specific source in the record. It is not a primary video, transcript, market rule, or Kalshi determination notice. It expressly carries accuracy limitations. But if the council gives it weight, it favors the defense on the decisive point: it reports that the strike was said \"to the press on the red carpet prior to the start of the programme,\" labels the dispute \"Version, Timeframe,\" and reports \"Result: N.\" Plaintiff cannot use the red-carpet-before-programme fact while discarding the same source's reported No result and timeframe characterization.\n\nDX-5 is primary Kalshi API evidence for the parent event. It confirms the event title, ticker, date subtitle, and listed settlement sources, but it does not provide a Ronaldo-specific market or rule. My search ledger explains the gap: guessed Ronaldo market API endpoints returned not_found, the parent event endpoint returned only parent metadata with markets empty, and a Coinbase mirror URL was blocked by Cloudflare. So the record still lacks the sources that would matter most: a Ronaldo-specific Kalshi page or determination, the full draw video, the full pre-program/red-carpet video, captions, and an official schedule or timestamp fixing when the covered draw began.\n\nThat missing source chain is not a technicality. The standard is preponderance, and plaintiff bears the burden of changing No to Yes. The best admitted account says the utterance occurred to press on the red carpet before the programme; the only Ronaldo-specific secondary source reports that the actual result was No because of version/timeframe. The Canada page's video-primary rule does not erase that boundary; if anything, it asks whether the word was said as part of the draw video, not merely near the draw venue.\n\nThe disciplined resolution is therefore No. Plaintiff may have shown a plausible adjacent utterance. It has not shown, more likely than not, that the utterance occurred during the market-covered FIFA World Cup Draw."
+        }
+      ],
+      "caption": "Claimant v. Respondent",
+      "case_id": "arb-ex02-20260629183816",
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the question is not whether this record is perfect. It is not. The question is whether the proposition is more likely true than not: that the Ronaldo strike should resolve Yes because Trump's pre-event remarks at the venue immediately before the formal program count as occurring during the draw.\n\nThe strongest defense point is timing. The record repeatedly describes the remarks as immediately before the formal program, and the secondary dispute index reports a No result under \"Version\" and \"Timeframe.\" Plaintiff has never asked you to ignore that. The case turns on whether \"during the FIFA World Cup Draw\" means only the formal on-stage program, or whether it includes live public venue coverage immediately before that program.\n\nOn that decisive boundary, the admitted record favors Yes.\n\nFirst, the case-packet market file identifies the Ronaldo strike and frames the dispute exactly this way. It does not say the only permissible source is a formal transcript. It asks whether the market phrase includes Trump's public remarks at the venue immediately before the formal draw program began.\n\nSecond, the pre-event remarks packet attributes two direct Ronaldo statements to Trump in that setting: \"I got to meet Ronaldo the other day\" and \"Ronaldo is great.\" That file is not a full upstream transcript, so it is imperfect, but it is affirmative record evidence of the utterance.\n\nThird, the formal-program packet does less than the defense needs. It says the formal draw-program transcript does not appear to contain \"Ronaldo,\" and it expressly does not claim to be the full formal-program transcript. That supports No only if you first adopt the defense's formal-program-only boundary. It does not prove that boundary.\n\nFourth, the Kalshi page extraction shows event-level rule language that points away from a transcript-only rule: video of the FIFA World Cup Draw is primary, and transcripts are secondary. The page displayed a Canada strike, and that limitation matters. But the case packet supplies the Ronaldo strike, and the defendant's own API exhibit confirms the same parent event title and date. No admitted evidence shows a different Ronaldo-specific rule excluding red-carpet or livestreamed venue coverage.\n\nFifth, the secondary dispute index cuts both ways, but its useful fact is important. It reports this exact Ronaldo strike, says Trump said the strike to the press on the red carpet before the programme, and says this was livestreamed. Its reported Result N is not binding on this council and comes without the missing primary determination. It proves the dispute existed; it does not prove the reported outcome was correct.\n\nThe defense asks you to treat missing primary video and missing Ronaldo-specific API data as a presumption against plaintiff. But the defendant's API exhibit has markets: [] and no exclusion rule. It is silence, not a formal-program boundary. The defense has not produced a rule saying only the on-stage transcript counts, nor a source saying the live red-carpet venue segment was outside the covered draw video.\n\nPreponderance is a comparative standard. On one side, there is direct packet evidence of the Ronaldo utterance, secondary corroboration that it was red-carpet and livestreamed, and rule language making video primary rather than transcript primary. On the other side, there is an incomplete formal transcript note and a reported No result from a secondary index. The better reading of the market is that public, livestreamed venue remarks immediately before the formal program were part of the World Cup Draw event coverage.\n\nFor that reason, the strike \"Ronaldo\" should resolve Yes."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, plaintiff's closing rightly identifies timing as the strongest defense point. It is more than a point; it is the proposition. Plaintiff asks you to hold that remarks immediately before the formal program count as remarks made during the FIFA World Cup Draw. The admitted record does not prove that.\n\nThe record can be separated into two questions: did Trump say the word, and did he say it during the covered event? Plaintiff's evidence is better on the first question than the second. The pre-event packet attributes Ronaldo lines to Trump, and the secondary dispute index says the strike was said to press on the red carpet. But even those sources describe an adjacent pre-program setting, not a settled covered-event setting.\n\nOn the decisive second question, the record favors No. The case-packet market file frames the dispute as whether remarks \"immediately before the formal draw program began\" count. The secondary Ronaldo-specific index says the remarks were on the red carpet \"prior to the start of the programme,\" labels the dispute \"Version, Timeframe,\" and reports \"Result: N.\" That is the only Ronaldo-specific external source in evidence. It is secondary, so it should not be overread; but if it is used at all, its timing and result cut against plaintiff's burden.\n\nPlaintiff's strongest response is the Kalshi page extraction saying video of the FIFA World Cup Draw is primary. But that exhibit displayed the Canada strike, not Ronaldo. Its rule text says \"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw,\" and shows the Canada market ticker. It does not prove the Ronaldo-specific market, a Ronaldo-specific determination, or a rule that red-carpet press coverage before the programme is \"as part of\" the draw. The phrase \"as part of\" is the missing link.\n\nNor does the press-open/live-stream condition decide the case. A requirement that the event be opened to press for live televised or streamed coverage prevents resolution when there is no qualifying event coverage. It does not expand the market to every venue-adjacent press interaction before the covered program begins.\n\nThe defendant's API exhibit is modest, but important for what it confirms and what it does not. It confirms the parent event and settlement sources. It does not reveal a Ronaldo-specific market, rule, video, transcript, or determination. The search ledgers from both sides say the same basic thing: the primary source chain that would decide this cleanly is missing. There is no full draw video, no full red-carpet video, no captions, no official start boundary, and no Ronaldo-specific Kalshi resolution notice in the record.\n\nThat gap matters because plaintiff bears the burden. The question is not whether defendant proved a formal-only exclusion. The question is whether plaintiff proved inclusion of pre-program red-carpet remarks within the covered draw. The admitted record repeatedly uses words of exclusion from the formal program boundary: \"immediately before\" and \"prior to the start.\" Plaintiff asks the council to bridge that gap by ordinary event context, but the only Ronaldo-specific source that discusses the dispute reports a No result on version/timeframe grounds.\n\nPreponderance is not satisfied by a plausible utterance near an event. It requires showing that the utterance falls within the market's covered event. On this record, the more disciplined conclusion is that plaintiff has not carried that burden. The challenged No resolution should stand."
+        }
+      ],
+      "council_members": [
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C1",
+          "model": "openrouter://qwen/qwen3-30b-a3b-instruct-2507",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C2",
+          "model": "openrouter://moonshotai/kimi-k2-thinking",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "Council member C3 agent process exited before completing opportunity deliberation:1:C3.",
+          "failure_opportunity_id": "deliberation:1:C3",
+          "failure_reason": "agent_exited",
+          "member_id": "C3",
+          "model": "openrouter://openai/gpt-oss-120b",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        },
+        {
+          "failure_message": "Council member C4 agent process exited before completing opportunity deliberation:1:C4.",
+          "failure_opportunity_id": "deliberation:1:C4",
+          "failure_reason": "agent_exited",
+          "member_id": "C4",
+          "model": "openrouter://google/gemma-3-12b-it",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C5",
+          "model": "openrouter://deepseek/deepseek-v3.1-terminus",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        }
+      ],
+      "council_votes": [
+        {
+          "member_id": "C1",
+          "rationale": "The market's use of video as primary resolution source, combined with evidence that Trump's remarks were made live at the venue immediately before the formal program, supports resolving Yes under a preponderance standard.",
+          "round": 1,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C2",
+          "rationale": "Plaintiff's evidence shows Trump said \"Ronaldo\" before the formal program began at the venue, but the record lacks a Ronaldo-specific market rule proving such pre-program remarks count as \"during\" the draw. On preponderance, the boundary uncertainty and missing source chain favor the challenged No resolution.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C5",
+          "rationale": "The evidence shows Trump said 'Ronaldo' in livestreamed pre-program remarks at the venue, and the market's video-primary rules with press coverage requirement support including such remarks within the event's scope under preponderance.",
+          "round": 1,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C1",
+          "rationale": "The record shows Trump made the remarks in livestreamed public venue coverage immediately before the formal program, and market rules prioritize video evidence, which supports including such pre-program remarks under the event's scope.",
+          "round": 2,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C2",
+          "rationale": "The admitted record lacks Ronaldo-specific market rules proving pre-program remarks fall within scope. The sole Ronaldo-specific secondary source reports remarks were 'prior to the start' and resulted in No. Under preponderance, this boundary uncertainty and missing source chain favor maintaining the challenged No resolution.",
+          "round": 2,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C5",
+          "rationale": "The record shows Trump likely said 'Ronaldo' in pre-program remarks, but the market phrase 'during the FIFA World Cup Draw' likely refers to the formal draw program itself. The plaintiff has not established by preponderance that pre-event remarks fall within the market's covered event, especially given the secondary source reporting a No result due to version/timeframe issues.",
+          "round": 2,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C1",
+          "rationale": "The market's video-primary rule and the admitted evidence of livestreamed remarks at the venue immediately before the formal program support resolving Yes under preponderance. The dispute's framing and corroboration from secondary sources confirm the remarks occurred during the draw event's public coverage. The defendant's silence on pre-program inclusion does not overcome this balance.",
+          "round": 3,
+          "vote": "demonstrated"
+        }
+      ],
+      "deliberation_round": 3,
+      "failure": null,
+      "offered_evidence": [
+        {
+          "evidence_id": "ev_74d969c640f7_market-question",
+          "label": "PX-1 Market question and core dispute",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_7de1d3f2c404_formal-draw-program",
+          "label": "PX-2 Formal program packet note",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_af2671376951_pre-event-remarks",
+          "label": "PX-3 Pre-event remarks packet note",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+          "label": "PX-4 Kalshi event page rule extraction",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+          "label": "PX-5 Public dispute index entry",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_74d969c640f7_market-question",
+          "label": "DX-1 Case-packet market question and disputed boundary",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_7de1d3f2c404_formal-draw-program",
+          "label": "DX-2 Formal-program packet note",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+          "label": "DX-3 Plaintiff Kalshi extraction showing Canada-specific market limitation",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+          "label": "DX-4 Secondary dispute index reporting Result N and Version/Timeframe issue",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+          "label": "DX-5 Kalshi public API parent-event response",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+          "label": "PX-R1 Defendant API exhibit confirms parent event but no formal-only rule",
+          "phase": "rebuttals",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_74d969c640f7_market-question",
+          "label": "DX-S1 Packet boundary statement",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+          "label": "DX-S2 Canada-specific Kalshi extraction",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+          "label": "DX-S3 Secondary Ronaldo entry reporting Result N",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+          "label": "DX-S4 Parent-event API response",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, this case turns on the scope of the market phrase, not on whether the formal draw-program transcript alone contains the strike.\n\nThe market asked: \"What will Trump say during the FIFA World Cup Draw?\" The strike is \"Ronaldo.\" The challenged resolution is No, and the requested resolution is Yes. The case-packet file defining the dispute says the core question is whether \"during the FIFA World Cup Draw\" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.\n\nOur opening theory is straightforward: an event market written in ordinary language should be resolved by the public event context it invoked, unless its rules narrow the resolution source. A public remark at the draw venue, immediately before the formal program, made as part of the event's public-facing proceedings, is naturally \"during the FIFA World Cup Draw\" in the market sense. Traders were not asked to predict a word in a single transcript labeled \"formal program\"; they were asked what Trump would say during the draw. The relevant proof should therefore include the event setting, timing, and the market's resolution criteria, not just one partial formal-program document.\n\nThe current packet already shows why a transcript-only theory is too narrow. The formal-program file says the draft complaint states that the formal draw-program transcript does not appear to contain \"Ronaldo,\" but that file also expressly says it is only a starting point and does not claim to be the full formal-program transcript. That evidence is helpful to the No side only if the council first accepts the premise that the market was limited to that formal on-stage program or that transcript. The plaintiff disputes that premise.\n\nThe pre-event remarks file supplies the other side of the factual frame. It attributes two quoted lines to Trump's public remarks at the venue immediately before the formal program: \"I got to meet Ronaldo the other day\" and \"Ronaldo is great.\" That file also candidly says it is a starting point and not the full upstream transcript. So the opening record is not yet complete primary-source proof of the entire source chain. But it is enough to identify the decisive issue: if those public venue remarks are within the market's temporal and event scope, the strike resolves Yes; if the rules confine the market to the formal on-stage program alone, the No position becomes stronger.\n\nThe evidence that should decide the case in the later phases is therefore specific. The council should look for the market question and any governing resolution rules; the full video, transcript, or captions of Trump's pre-program remarks; reliable timing showing those remarks occurred at the draw venue immediately before the formal program; and the formal-program transcript for comparison. The plaintiff expects that evidence to show the word \"Ronaldo\" was said in a public draw-event setting, and that the market wording did not carve those remarks out.\n\nThe burden is preponderance. We do not need to prove that the formal transcript alone contains the strike if the better reading of the market includes the pre-event venue remarks. We need to show that it is more likely than not that the market's ordinary scope covered those remarks. On the packet as framed, the real dispute is exactly that scope question, and the plaintiff's position is that an immediately preceding public venue segment of the World Cup Draw counts as occurring during the draw for this market."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defendant's opening is simple: this case is not decided by spotting the word \"Ronaldo\" somewhere near a World Cup Draw venue. The proposition asks you to change a No resolution to Yes because pre-event remarks immediately before the formal program supposedly count as remarks made \"during the FIFA World Cup Draw.\" That is the disputed premise, and the present record does not yet carry it.\n\nThe packet itself draws the relevant boundary. The market-question file states the core dispute as whether the phrase includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself. That framing matters. It does not say the formal draw program had begun; it identifies the remarks as immediately before it. On ordinary temporal usage, \"during\" an event is different from \"before\" the event, even if the speaker is in the same building and even if press or red-carpet coverage is public.\n\nThe formal-program packet is not complete proof, but it points in the defense direction: the draft complaint says the formal draw-program transcript does not appear to contain \"Ronaldo.\" The file candidly says it is only a starting point and not the full formal-program transcript, so the defense will not overstate it. Still, if the covered event is the formal on-stage draw program, the starting record supports No, not Yes.\n\nThe pre-event remarks packet likewise should be treated cautiously. It attributes two Ronaldo lines to Trump's public remarks at the venue immediately before the formal program, but it too says it is only a starting point and not the full upstream transcript. That file may become relevant if plaintiff can later prove provenance, timing, and source-chain facts. But even accepting it for opening purposes, it proves at most that the strike was allegedly said before the formal program. It does not prove that those remarks were inside the market's covered time, source version, or resolution scope.\n\nThat is why plaintiff's opening tries to turn the market into a broad public-event-context question. But traders were entitled to read \"during the FIFA World Cup Draw\" as the draw program itself: the named show, ceremony, or on-stage proceeding in which teams are drawn. A pre-program press availability or venue-side remark is adjacent to the event, not necessarily part of it. Without rules expanding the window to red-carpet, pre-show, press, or livestream lead-in content, the safer and more administrable market boundary is the formal program.\n\nThe decisive proof in later phases should be specific: the market's actual resolution rules and any source/version language; the official draw program start and scope; the full formal-program video, captions, or transcript; and the best upstream source for the alleged pre-event remarks, including timestamps and whether that feed was part of the covered draw or a separate pre-program segment. Those materials could change the weight. If they show that the market expressly included pre-show or red-carpet livestream content, plaintiff's theory improves. If they show the remarks occurred before the covered program or in a separate press context, the challenged No resolution should stand.\n\nUnder a preponderance standard, uncertainty about that boundary matters. The party seeking Yes must prove more than venue proximity and an alleged utterance; it must prove that the utterance occurred during the market-covered event. On the current packet, with both sides' key files expressly incomplete and with no governing rules or primary transcript yet in the record, the defendant's theory is that No is the disciplined resolution unless later admitted evidence closes those gaps in plaintiff's favor."
+        }
+      ],
+      "phase": "deliberation",
+      "proposition": "For the market \"What will Trump say during the FIFA World Cup Draw?\", the strike \"Ronaldo\" should resolve Yes because Trump's pre-event remarks at the venue immediately before the formal program count as occurring during the draw.",
+      "rebuttals": [
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "text": "Council members, the defense argument depends on treating absence of perfect proof as affirmative proof of exclusion. The record does not support that move.\n\nFirst, the defendant's new API exhibit does not prove a formal-program-only boundary. It confirms the parent Kalshi event: event ticker KXTRUMPMENTIONB-25DEC06, category \"Mentions,\" subtitle \"On Dec 5, 2025,\" title \"What will Trump say during the FIFA World Cup Draw?,\" and the listed settlement sources. Its markets array is empty, and its own retrieval notes say guessed Ronaldo market endpoints returned not_found and are not asserted market facts. That means the exhibit is silent on the decisive question: whether the Ronaldo strike had a special rule excluding red-carpet or livestreamed pre-program coverage. Silence is not a defense exhibit.\n\nSecond, the defense is right that PX-4 displayed a Canada strike. Plaintiff already disclosed that limitation. But the case packet supplies the Ronaldo strike, while PX-4 and the defense API exhibit both tie the rule/source discussion to the same parent event, \"What will Trump say during the FIFA World Cup Draw?\" The relevant rule language in PX-4 is event-level language: video of the FIFA World Cup Draw is primary, transcripts are secondary, and the event must be press-open for live televised or streamed coverage. Nothing in the defense API exhibit contradicts that event-level rule structure.\n\nThird, defendant cannot use PX-5 only one way. PX-5 is secondary and not binding; plaintiff agrees it should not be treated as dispositive precedent. But if the council gives it any factual weight, it confirms the core point plaintiff needs: this exact Ronaldo strike involved Trump saying the strike to press on the red carpet before the programme, and that was livestreamed. The reported Result N and the labels \"Version\" and \"Timeframe\" identify the dispute; they do not prove the reported resolution was correct under this arbitration's preponderance standard.\n\nThe defense repeatedly says \"before the formal program\" as if that phrase ends the case. But the proposition is whether those immediately pre-program public venue remarks count as occurring during the draw. PX-1 says that is the dispute. PX-3 attributes the Ronaldo statements to that setting. PX-4 says video, not a transcript, is primary. PX-5 corroborates red-carpet livestreamed coverage. The defense has no admitted rule saying only the formal on-stage transcript counts.\n\nSo the missing source-chain items matter to weight, but they do not flip the burden into a formal-program presumption. On this record, the more likely account remains that Trump said \"Ronaldo\" in live public coverage of the World Cup Draw event, and no admitted rule excludes that segment. The strike should resolve Yes."
+        }
+      ],
+      "resolution": "",
+      "status": "active",
+      "submitted_evidence": [
+        {
+          "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Shows the market title and Kalshi rule language that video of the FIFA World Cup Draw is primarily used, with transcripts secondary, and that press/live televised or streamed event status matters. This bears on whether the market is limited to a formal transcript.",
+          "retrieval_timestamp": "2026-06-29T18:47:00Z",
+          "role": "plaintiff",
+          "sha256": "026c90725176be3c4fbcc1b42d90f54e1a579d77c78a5f669093d4d75db7cdb0",
+          "size_bytes": 1987,
+          "source_description": "Rendered web extraction of public Kalshi market page. Direct curl returned a Vercel Security Checkpoint, but rendered fetch exposed page text. The page defaulted to the Canada strike while showing the shared market title and rules for the Trump FIFA World Cup Draw mention market series/event.",
+          "source_url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06",
+          "title": "Kalshi market page extracted rules for Trump FIFA World Cup Draw mention market"
+        },
+        {
+          "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Corroborates that the exact Ronaldo strike dispute involved Trump saying the strike to press on the red carpet before the programme and identifies the reported basis for the No result, which frames the timeframe/version dispute.",
+          "retrieval_timestamp": "2026-06-29T18:47:00Z",
+          "role": "plaintiff",
+          "sha256": "4bed0ef76dcfcd311578022651eaac18ea1fec8ba911f13dc11a6f4b43cc97fc",
+          "size_bytes": 1260,
+          "source_description": "Rendered web extraction of Bernard Bulletin/Substack public index of Kalshi mention-market disputes. Secondary source, not Kalshi primary rules; includes an adverse reported result of N and note that evidence was red-carpet/livestream before programme.",
+          "source_url": "https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible",
+          "title": "Public dispute index entry for Trump FIFA World Cup Draw Ronaldo strike"
+        },
+        {
+          "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+          "mime_type": "application/json",
+          "phase": "arguments",
+          "relevance": "Primary Kalshi API metadata for the parent event. It confirms the event ticker, title, date subtitle, category, and listed settlement sources, while showing no Ronaldo-specific market data in the event response. This bears on the limits of plaintiff's Canada-strike page extraction and the missing Ronaldo-specific primary rules/source chain.",
+          "retrieval_timestamp": "2026-06-29T19:00:00Z",
+          "role": "defendant",
+          "sha256": "bc775d9fe77b84076cb2f29ad325a0c2779809d5b2622d2cb61b53c88972a560",
+          "size_bytes": 1837,
+          "source_description": "Direct curl retrieval from Kalshi public trade API event endpoint during defendant merits investigation. Guessed Ronaldo-specific market endpoints returned not_found; this event endpoint returned the parent event metadata and settlement sources.",
+          "source_url": "https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06",
+          "title": "Kalshi public API event response for Trump FIFA World Cup Draw mention event"
+        }
+      ],
+      "surrebuttals": [
+        {
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Council members, plaintiff's rebuttal makes the burden issue clearer. The defense does not need the API exhibit to prove a formal-program-only exclusion. Plaintiff is the party asking to change No to Yes, and plaintiff must prove that pre-program red-carpet or press remarks were inside the market-covered draw. Silence on an exclusion is not proof of inclusion.\n\nThe admitted record repeatedly describes the alleged Ronaldo remarks as outside the formal program boundary. DX-S1 says the dispute is whether remarks \"immediately before the formal draw program began\" count. DX-S3 says the Ronaldo entry involved remarks to the press on the red carpet \"prior to the start of the programme,\" and identifies the dispute as \"Version, Timeframe\" with \"Result: N.\" Those are not defense inventions; they are the record's own descriptions of the timing problem.\n\nPlaintiff says DX-S2 is event-level rule evidence because it mentions video and a press-open live televised or streamed event. But DX-S2 is still a Canada-strike page: it says \"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw\" and shows market ticker KXTRUMPMENTIONB-25DEC06-CANA. The phrase \"as part of\" is exactly the missing predicate. A press-open event condition does not transform all red-carpet or pre-program coverage into the draw itself.\n\nPlaintiff also asks the council to use DX-S3 for the helpful factual part and disregard the adverse result. That is backwards. DX-S3 is secondary and limited either way. If it is too weak to establish that the reported No resolution was right, it is also too weak to establish the full source chain, video context, and covered timeframe. If it is given weight, then the same entry says red carpet before the programme, Version/Timeframe, Result N.\n\nDX-S4 likewise does not carry plaintiff's burden. It confirms the parent event and settlement sources, but no Ronaldo-specific market, no inclusion of pre-program content, and no video or transcript. That absence matters because the proposition turns on a boundary. The record may support that the word was allegedly said near the event. It does not show, more likely than not, that it was said during the market-covered FIFA World Cup Draw. The challenged No resolution should stand."
+        }
+      ],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "Before filing, plaintiff rechecked the record and searched exact market and quotation terms. A rendered Kalshi page for the Trump FIFA World Cup Draw mention market exposed event-rule text making video primary and transcripts secondary; a direct curl capture hit a Vercel Security Checkpoint, and a guessed Kalshi API ticker for Ronaldo returned not_found, so neither was used as proof beyond the admitted rendered extraction. A rendered Bernard Bulletin/Substack public dispute index contained the exact Ronaldo entry but was treated as secondary and partly adverse because it reports result N and disclaims legal/contractual precedent. Primary red-carpet video/full transcript remains the main missing source-chain item.",
+          "title": "Plaintiff source-search and capture ledger"
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "summary": "Defendant searched exact event/market identifiers and ticker variants for a Ronaldo-specific primary source. Queries and checks included KXTRUMPMENTIONB-25DEC06 with Ronaldo terms, guessed Kalshi API market endpoints KXTRUMPMENTIONB-25DEC06-RONALDO and KXTRUMPMENTIONB-25DEC06-RONA, the Kalshi public API event endpoint, and a Coinbase event mirror URL. The guessed Ronaldo market endpoints returned not_found; the Kalshi event endpoint returned only parent event metadata and settlement sources with markets empty; Coinbase direct retrieval returned a Cloudflare challenge. No primary Ronaldo-specific market page, official determination notice, full video, full transcript, captions, or official program boundary was captured before filing.",
+          "title": "Defendant source-search ledger"
+        },
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "summary": "Plaintiff reviewed defendant's API exhibit by stat and byte-range read. The JSON confirms the parent event title, ticker, category, date subtitle, and settlement sources, while showing markets: [] and noting guessed Ronaldo endpoints returned not_found. It does not contain a Ronaldo-specific exclusion, formal-program-only rule, or contrary transcript/video evidence. Plaintiff therefore submitted no new source evidence in rebuttal and relies on the existing admitted record.",
+          "title": "Rebuttal evidence assessment"
+        }
+      ]
+    },
+    "forum_name": "Agent Arbitration",
+    "policy": {
+      "council_size": 5,
+      "evidence_standard": "Preponderance of the evidence.",
+      "max_argument_chars": 6000,
+      "max_closing_chars": 5000,
+      "max_deliberation_rounds": 3,
+      "max_exhibit_bytes": 131072,
+      "max_exhibits_per_filing": 9,
+      "max_exhibits_per_side": 12,
+      "max_opening_chars": 5000,
+      "max_rebuttal_chars": 4000,
+      "max_report_summary_bytes": 8192,
+      "max_report_title_bytes": 256,
+      "max_reports_per_filing": 3,
+      "max_reports_per_side": 4,
+      "max_submitted_evidence_bytes": 67108864,
+      "max_submitted_evidence_per_side": 8,
+      "max_surrebuttal_chars": 4000,
+      "required_votes_for_decision": 3
+    },
+    "schema_version": "v1",
+    "state_version": 21
+  },
+  "prompt": "Role: council member\nMember ID: C2\nDeliberation round: 3\nProposition: For the market \"What will Trump say during the FIFA World Cup Draw?\", the strike \"Ronaldo\" should resolve Yes because Trump's pre-event remarks at the venue immediately before the formal program count as occurring during the draw.\nStandard of evidence: Preponderance of the evidence.\nPersona:\nYou are a careful juror and council member.\n\nEvaluate the record faithfully. Decide only from the evidence, the stated rules, and the applicable burden of proof. Do not favor either side, fill gaps with speculation, or ignore uncertainty.\n\nGive weight to reliable sources, direct evidence, consistent reasoning, and clear admissions. Discount unsupported claims, rhetorical force, irrelevant facts, and conclusions that exceed the record.\n\nWhen the evidence supports one answer, state it plainly. When the evidence is incomplete or balanced, say so. Be concise, honest, and exact.\n\nRecord:\nOpenings:\n[plaintiff] Council members, this case turns on the scope of the market phrase, not on whether the formal draw-program transcript alone contains the strike.\n\nThe market asked: \"What will Trump say during the FIFA World Cup Draw?\" The strike is \"Ronaldo.\" The challenged resolution is No, and the requested resolution is Yes. The case-packet file defining the dispute says the core question is whether \"during the FIFA World Cup Draw\" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.\n\nOur opening theory is straightforward: an event market written in ordinary language should be resolved by the public event context it invoked, unless its rules narrow the resolution source. A public remark at the draw venue, immediately before the formal program, made as part of the event's public-facing proceedings, is naturally \"during the FIFA World Cup Draw\" in the market sense. Traders were not asked to predict a word in a single transcript labeled \"formal program\"; they were asked what Trump would say during the draw. The relevant proof should therefore include the event setting, timing, and the market's resolution criteria, not just one partial formal-program document.\n\nThe current packet already shows why a transcript-only theory is too narrow. The formal-program file says the draft complaint states that the formal draw-program transcript does not appear to contain \"Ronaldo,\" but that file also expressly says it is only a starting point and does not claim to be the full formal-program transcript. That evidence is helpful to the No side only if the council first accepts the premise that the market was limited to that formal on-stage program or that transcript. The plaintiff disputes that premise.\n\nThe pre-event remarks file supplies the other side of the factual frame. It attributes two quoted lines to Trump's public remarks at the venue immediately before the formal program: \"I got to meet Ronaldo the other day\" and \"Ronaldo is great.\" That file also candidly says it is a starting point and not the full upstream transcript. So the opening record is not yet complete primary-source proof of the entire source chain. But it is enough to identify the decisive issue: if those public venue remarks are within the market's temporal and event scope, the strike resolves Yes; if the rules confine the market to the formal on-stage program alone, the No position becomes stronger.\n\nThe evidence that should decide the case in the later phases is therefore specific. The council should look for the market question and any governing resolution rules; the full video, transcript, or captions of Trump's pre-program remarks; reliable timing showing those remarks occurred at the draw venue immediately before the formal program; and the formal-program transcript for comparison. The plaintiff expects that evidence to show the word \"Ronaldo\" was said in a public draw-event setting, and that the market wording did not carve those remarks out.\n\nThe burden is preponderance. We do not need to prove that the formal transcript alone contains the strike if the better reading of the market includes the pre-event venue remarks. We need to show that it is more likely than not that the market's ordinary scope covered those remarks. On the packet as framed, the real dispute is exactly that scope question, and the plaintiff's position is that an immediately preceding public venue segment of the World Cup Draw counts as occurring during the draw for this market.\n\n[defendant] Council members, the defendant's opening is simple: this case is not decided by spotting the word \"Ronaldo\" somewhere near a World Cup Draw venue. The proposition asks you to change a No resolution to Yes because pre-event remarks immediately before the formal program supposedly count as remarks made \"during the FIFA World Cup Draw.\" That is the disputed premise, and the present record does not yet carry it.\n\nThe packet itself draws the relevant boundary. The market-question file states the core dispute as whether the phrase includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself. That framing matters. It does not say the formal draw program had begun; it identifies the remarks as immediately before it. On ordinary temporal usage, \"during\" an event is different from \"before\" the event, even if the speaker is in the same building and even if press or red-carpet coverage is public.\n\nThe formal-program packet is not complete proof, but it points in the defense direction: the draft complaint says the formal draw-program transcript does not appear to contain \"Ronaldo.\" The file candidly says it is only a starting point and not the full formal-program transcript, so the defense will not overstate it. Still, if the covered event is the formal on-stage draw program, the starting record supports No, not Yes.\n\nThe pre-event remarks packet likewise should be treated cautiously. It attributes two Ronaldo lines to Trump's public remarks at the venue immediately before the formal program, but it too says it is only a starting point and not the full upstream transcript. That file may become relevant if plaintiff can later prove provenance, timing, and source-chain facts. But even accepting it for opening purposes, it proves at most that the strike was allegedly said before the formal program. It does not prove that those remarks were inside the market's covered time, source version, or resolution scope.\n\nThat is why plaintiff's opening tries to turn the market into a broad public-event-context question. But traders were entitled to read \"during the FIFA World Cup Draw\" as the draw program itself: the named show, ceremony, or on-stage proceeding in which teams are drawn. A pre-program press availability or venue-side remark is adjacent to the event, not necessarily part of it. Without rules expanding the window to red-carpet, pre-show, press, or livestream lead-in content, the safer and more administrable market boundary is the formal program.\n\nThe decisive proof in later phases should be specific: the market's actual resolution rules and any source/version language; the official draw program start and scope; the full formal-program video, captions, or transcript; and the best upstream source for the alleged pre-event remarks, including timestamps and whether that feed was part of the covered draw or a separate pre-program segment. Those materials could change the weight. If they show that the market expressly included pre-show or red-carpet livestream content, plaintiff's theory improves. If they show the remarks occurred before the covered program or in a separate press context, the challenged No resolution should stand.\n\nUnder a preponderance standard, uncertainty about that boundary matters. The party seeking Yes must prove more than venue proximity and an alleged utterance; it must prove that the utterance occurred during the market-covered event. On the current packet, with both sides' key files expressly incomplete and with no governing rules or primary transcript yet in the record, the defendant's theory is that No is the disciplined resolution unless later admitted evidence closes those gaps in plaintiff's favor.\n\nArguments:\n[plaintiff] Council members, the preponderance now favors Yes.\n\nStart with the case packet. PX-1 frames the exact dispute: the market was \"What will Trump say during the FIFA World Cup Draw?\"; the strike was \"Ronaldo\"; and the issue is whether the phrase includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program. That is not a fact invented by plaintiff; it is the packet's own statement of the dispute.\n\nPX-2 helps the defense only after a narrowing assumption. It says the draft complaint states the formal draw-program transcript does not appear to contain \"Ronaldo,\" but it also says it is not the full formal-program transcript. Even taken at full value, it proves only that one formal-program transcript apparently lacks the word. It does not prove that Kalshi's market was limited to that transcript, nor that the market excluded live video or press-facing event coverage.\n\nPX-3 is the affirmative packet evidence on the utterance. It attributes two lines to Trump's public remarks at the venue immediately before the formal program: \"I got to meet Ronaldo the other day\" and \"Ronaldo is great.\" PX-3 is not a full upstream transcript, so its provenance is imperfect. But under a preponderance standard it is direct case-packet evidence that the strike was said in the relevant venue/time setting.\n\nThe newly submitted market-rule capture, PX-4, undermines the defendant's transcript-only boundary. The visible Kalshi rule language says: \"Video of the FIFA World Cup Draw will be primarily used to resolve the market\"; transcripts are used only if Kalshi employees cannot reach consensus using video. It also says the event must be opened to the press for a live televised or streamed event. That rule language points away from a narrow paper-transcript inquiry and toward the actual video/streamed event. The page capture defaulted to a different strike on the same Trump World Cup Draw event page, so it is not perfect Ronaldo-specific proof; but it is still strong evidence of the governing event-level rule structure.\n\nPX-5, the public dispute-index entry, is secondary and partly adverse, and the council should weigh it accordingly. It reports that this exact market and strike involved Trump saying the strike to the press on the red carpet before the programme, that it was livestreamed, and that the dispute turned on \"Version\" and \"Timeframe.\" It also reports the result as N. Plaintiff is not asking the council to treat PX-5 as binding precedent; the source itself warns against that. Its value is different: it corroborates that the factual dispute is not whether the word was said at all. The dispute is whether the red-carpet/livestream segment was within the market's covered event.\n\nOn that question, defendant's line is too cramped. The market did not say \"during the formal on-stage draw program\" or \"in the official transcript only.\" It asked what Trump would say \"during the FIFA World Cup Draw.\" PX-4 confirms that video was primary and that a press-open live televised or streamed event was contemplated. PX-1 and PX-3 place the remarks at the venue immediately before the formal program, in public remarks connected to that event. PX-5 corroborates that the remarks were to the press on the red carpet and livestreamed. A live, press-facing venue segment immediately preceding the formal program is naturally part of the draw event's public coverage unless the rules clearly carve it out.\n\nThe defense has a fair adverse point: PX-5 reports that Kalshi resolved the market N, and no primary video/full transcript has yet been admitted. But this arbitration is deciding the proposition under preponderance, not deferring to an unexplained reported outcome. The record explains the No result as a timeframe/version controversy; it does not supply rule text excluding red-carpet livestream coverage. Against that, we have direct packet attribution of two Ronaldo statements, a market rule preferring video over transcripts, and corroboration that the remarks were livestreamed press remarks immediately before the programme.\n\nThat is enough. The most likely account is that Trump did say \"Ronaldo\" in public World Cup Draw venue coverage, and the market's ordinary wording plus video-primary rule covers that segment. The strike should resolve Yes.\n\n[defendant] Council members, the merits record still does not prove the proposition. Plaintiff has evidence that something Ronaldo-related was allegedly said before the formal program. Plaintiff does not have evidence that those remarks occurred during the market-covered draw.\n\nStart with DX-1. The case packet states the exact boundary dispute: whether \"during the FIFA World Cup Draw\" includes public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program. That phrasing is not neutral for plaintiff. It identifies the remarks as before the formal program began. The proposition requires crossing that boundary.\n\nDX-2 remains the only record item tied to the formal-program side. It says the draft complaint states that the formal draw-program transcript does not appear to contain \"Ronaldo.\" It is admittedly incomplete, but it supports the challenged No resolution if the covered event is the formal on-stage draw program. Plaintiff has not supplied a full formal-program transcript or video showing the strike inside that program.\n\nPlaintiff's new DX-3 does not solve the problem. It is not the Ronaldo market. The extraction says the displayed strike was Canada, the rule text says \"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw,\" and the market ticker shown is KXTRUMPMENTIONB-25DEC06-CANA. Plaintiff asks the council to use that Canada page as event-level rule proof for Ronaldo. Even if the general event language is similar, the exhibit cannot establish the Ronaldo-specific contract, its selected market page, its displayed strike, or any Ronaldo-specific resolution history.\n\nMore importantly, DX-3's wording helps the defense on scope. It does not say every press-adjacent livestream before the program counts. It says the word must be said \"as part of FIFA World Cup Draw,\" and that video of \"the FIFA World Cup Draw\" is primary. That is consistent with a formal-event boundary. The separate sentence about the event being opened to the press for a live televised or streamed event is a condition preventing No if there is no press/live event at all; it is not an expansion clause making every red-carpet or pre-show segment part of the draw.\n\nDX-4, plaintiff's secondary dispute index, is the closest Ronaldo-specific source in the record. It is not a primary video, transcript, market rule, or Kalshi determination notice. It expressly carries accuracy limitations. But if the council gives it weight, it favors the defense on the decisive point: it reports that the strike was said \"to the press on the red carpet prior to the start of the programme,\" labels the dispute \"Version, Timeframe,\" and reports \"Result: N.\" Plaintiff cannot use the red-carpet-before-programme fact while discarding the same source's reported No result and timeframe characterization.\n\nDX-5 is primary Kalshi API evidence for the parent event. It confirms the event title, ticker, date subtitle, and listed settlement sources, but it does not provide a Ronaldo-specific market or rule. My search ledger explains the gap: guessed Ronaldo market API endpoints returned not_found, the parent event endpoint returned only parent metadata with markets empty, and a Coinbase mirror URL was blocked by Cloudflare. So the record still lacks the sources that would matter most: a Ronaldo-specific Kalshi page or determination, the full draw video, the full pre-program/red-carpet video, captions, and an official schedule or timestamp fixing when the covered draw began.\n\nThat missing source chain is not a technicality. The standard is preponderance, and plaintiff bears the burden of changing No to Yes. The best admitted account says the utterance occurred to press on the red carpet before the programme; the only Ronaldo-specific secondary source reports that the actual result was No because of version/timeframe. The Canada page's video-primary rule does not erase that boundary; if anything, it asks whether the word was said as part of the draw video, not merely near the draw venue.\n\nThe disciplined resolution is therefore No. Plaintiff may have shown a plausible adjacent utterance. It has not shown, more likely than not, that the utterance occurred during the market-covered FIFA World Cup Draw.\n\nRebuttals:\n[plaintiff] Council members, the defense argument depends on treating absence of perfect proof as affirmative proof of exclusion. The record does not support that move.\n\nFirst, the defendant's new API exhibit does not prove a formal-program-only boundary. It confirms the parent Kalshi event: event ticker KXTRUMPMENTIONB-25DEC06, category \"Mentions,\" subtitle \"On Dec 5, 2025,\" title \"What will Trump say during the FIFA World Cup Draw?,\" and the listed settlement sources. Its markets array is empty, and its own retrieval notes say guessed Ronaldo market endpoints returned not_found and are not asserted market facts. That means the exhibit is silent on the decisive question: whether the Ronaldo strike had a special rule excluding red-carpet or livestreamed pre-program coverage. Silence is not a defense exhibit.\n\nSecond, the defense is right that PX-4 displayed a Canada strike. Plaintiff already disclosed that limitation. But the case packet supplies the Ronaldo strike, while PX-4 and the defense API exhibit both tie the rule/source discussion to the same parent event, \"What will Trump say during the FIFA World Cup Draw?\" The relevant rule language in PX-4 is event-level language: video of the FIFA World Cup Draw is primary, transcripts are secondary, and the event must be press-open for live televised or streamed coverage. Nothing in the defense API exhibit contradicts that event-level rule structure.\n\nThird, defendant cannot use PX-5 only one way. PX-5 is secondary and not binding; plaintiff agrees it should not be treated as dispositive precedent. But if the council gives it any factual weight, it confirms the core point plaintiff needs: this exact Ronaldo strike involved Trump saying the strike to press on the red carpet before the programme, and that was livestreamed. The reported Result N and the labels \"Version\" and \"Timeframe\" identify the dispute; they do not prove the reported resolution was correct under this arbitration's preponderance standard.\n\nThe defense repeatedly says \"before the formal program\" as if that phrase ends the case. But the proposition is whether those immediately pre-program public venue remarks count as occurring during the draw. PX-1 says that is the dispute. PX-3 attributes the Ronaldo statements to that setting. PX-4 says video, not a transcript, is primary. PX-5 corroborates red-carpet livestreamed coverage. The defense has no admitted rule saying only the formal on-stage transcript counts.\n\nSo the missing source-chain items matter to weight, but they do not flip the burden into a formal-program presumption. On this record, the more likely account remains that Trump said \"Ronaldo\" in live public coverage of the World Cup Draw event, and no admitted rule excludes that segment. The strike should resolve Yes.\n\nSurrebuttals:\n[defendant] Council members, plaintiff's rebuttal makes the burden issue clearer. The defense does not need the API exhibit to prove a formal-program-only exclusion. Plaintiff is the party asking to change No to Yes, and plaintiff must prove that pre-program red-carpet or press remarks were inside the market-covered draw. Silence on an exclusion is not proof of inclusion.\n\nThe admitted record repeatedly describes the alleged Ronaldo remarks as outside the formal program boundary. DX-S1 says the dispute is whether remarks \"immediately before the formal draw program began\" count. DX-S3 says the Ronaldo entry involved remarks to the press on the red carpet \"prior to the start of the programme,\" and identifies the dispute as \"Version, Timeframe\" with \"Result: N.\" Those are not defense inventions; they are the record's own descriptions of the timing problem.\n\nPlaintiff says DX-S2 is event-level rule evidence because it mentions video and a press-open live televised or streamed event. But DX-S2 is still a Canada-strike page: it says \"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw\" and shows market ticker KXTRUMPMENTIONB-25DEC06-CANA. The phrase \"as part of\" is exactly the missing predicate. A press-open event condition does not transform all red-carpet or pre-program coverage into the draw itself.\n\nPlaintiff also asks the council to use DX-S3 for the helpful factual part and disregard the adverse result. That is backwards. DX-S3 is secondary and limited either way. If it is too weak to establish that the reported No resolution was right, it is also too weak to establish the full source chain, video context, and covered timeframe. If it is given weight, then the same entry says red carpet before the programme, Version/Timeframe, Result N.\n\nDX-S4 likewise does not carry plaintiff's burden. It confirms the parent event and settlement sources, but no Ronaldo-specific market, no inclusion of pre-program content, and no video or transcript. That absence matters because the proposition turns on a boundary. The record may support that the word was allegedly said near the event. It does not show, more likely than not, that it was said during the market-covered FIFA World Cup Draw. The challenged No resolution should stand.\n\nClosings:\n[plaintiff] Council members, the question is not whether this record is perfect. It is not. The question is whether the proposition is more likely true than not: that the Ronaldo strike should resolve Yes because Trump's pre-event remarks at the venue immediately before the formal program count as occurring during the draw.\n\nThe strongest defense point is timing. The record repeatedly describes the remarks as immediately before the formal program, and the secondary dispute index reports a No result under \"Version\" and \"Timeframe.\" Plaintiff has never asked you to ignore that. The case turns on whether \"during the FIFA World Cup Draw\" means only the formal on-stage program, or whether it includes live public venue coverage immediately before that program.\n\nOn that decisive boundary, the admitted record favors Yes.\n\nFirst, the case-packet market file identifies the Ronaldo strike and frames the dispute exactly this way. It does not say the only permissible source is a formal transcript. It asks whether the market phrase includes Trump's public remarks at the venue immediately before the formal draw program began.\n\nSecond, the pre-event remarks packet attributes two direct Ronaldo statements to Trump in that setting: \"I got to meet Ronaldo the other day\" and \"Ronaldo is great.\" That file is not a full upstream transcript, so it is imperfect, but it is affirmative record evidence of the utterance.\n\nThird, the formal-program packet does less than the defense needs. It says the formal draw-program transcript does not appear to contain \"Ronaldo,\" and it expressly does not claim to be the full formal-program transcript. That supports No only if you first adopt the defense's formal-program-only boundary. It does not prove that boundary.\n\nFourth, the Kalshi page extraction shows event-level rule language that points away from a transcript-only rule: video of the FIFA World Cup Draw is primary, and transcripts are secondary. The page displayed a Canada strike, and that limitation matters. But the case packet supplies the Ronaldo strike, and the defendant's own API exhibit confirms the same parent event title and date. No admitted evidence shows a different Ronaldo-specific rule excluding red-carpet or livestreamed venue coverage.\n\nFifth, the secondary dispute index cuts both ways, but its useful fact is important. It reports this exact Ronaldo strike, says Trump said the strike to the press on the red carpet before the programme, and says this was livestreamed. Its reported Result N is not binding on this council and comes without the missing primary determination. It proves the dispute existed; it does not prove the reported outcome was correct.\n\nThe defense asks you to treat missing primary video and missing Ronaldo-specific API data as a presumption against plaintiff. But the defendant's API exhibit has markets: [] and no exclusion rule. It is silence, not a formal-program boundary. The defense has not produced a rule saying only the on-stage transcript counts, nor a source saying the live red-carpet venue segment was outside the covered draw video.\n\nPreponderance is a comparative standard. On one side, there is direct packet evidence of the Ronaldo utterance, secondary corroboration that it was red-carpet and livestreamed, and rule language making video primary rather than transcript primary. On the other side, there is an incomplete formal transcript note and a reported No result from a secondary index. The better reading of the market is that public, livestreamed venue remarks immediately before the formal program were part of the World Cup Draw event coverage.\n\nFor that reason, the strike \"Ronaldo\" should resolve Yes.\n\n[defendant] Council members, plaintiff's closing rightly identifies timing as the strongest defense point. It is more than a point; it is the proposition. Plaintiff asks you to hold that remarks immediately before the formal program count as remarks made during the FIFA World Cup Draw. The admitted record does not prove that.\n\nThe record can be separated into two questions: did Trump say the word, and did he say it during the covered event? Plaintiff's evidence is better on the first question than the second. The pre-event packet attributes Ronaldo lines to Trump, and the secondary dispute index says the strike was said to press on the red carpet. But even those sources describe an adjacent pre-program setting, not a settled covered-event setting.\n\nOn the decisive second question, the record favors No. The case-packet market file frames the dispute as whether remarks \"immediately before the formal draw program began\" count. The secondary Ronaldo-specific index says the remarks were on the red carpet \"prior to the start of the programme,\" labels the dispute \"Version, Timeframe,\" and reports \"Result: N.\" That is the only Ronaldo-specific external source in evidence. It is secondary, so it should not be overread; but if it is used at all, its timing and result cut against plaintiff's burden.\n\nPlaintiff's strongest response is the Kalshi page extraction saying video of the FIFA World Cup Draw is primary. But that exhibit displayed the Canada strike, not Ronaldo. Its rule text says \"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw,\" and shows the Canada market ticker. It does not prove the Ronaldo-specific market, a Ronaldo-specific determination, or a rule that red-carpet press coverage before the programme is \"as part of\" the draw. The phrase \"as part of\" is the missing link.\n\nNor does the press-open/live-stream condition decide the case. A requirement that the event be opened to press for live televised or streamed coverage prevents resolution when there is no qualifying event coverage. It does not expand the market to every venue-adjacent press interaction before the covered program begins.\n\nThe defendant's API exhibit is modest, but important for what it confirms and what it does not. It confirms the parent event and settlement sources. It does not reveal a Ronaldo-specific market, rule, video, transcript, or determination. The search ledgers from both sides say the same basic thing: the primary source chain that would decide this cleanly is missing. There is no full draw video, no full red-carpet video, no captions, no official start boundary, and no Ronaldo-specific Kalshi resolution notice in the record.\n\nThat gap matters because plaintiff bears the burden. The question is not whether defendant proved a formal-only exclusion. The question is whether plaintiff proved inclusion of pre-program red-carpet remarks within the covered draw. The admitted record repeatedly uses words of exclusion from the formal program boundary: \"immediately before\" and \"prior to the start.\" Plaintiff asks the council to bridge that gap by ordinary event context, but the only Ronaldo-specific source that discusses the dispute reports a No result on version/timeframe grounds.\n\nPreponderance is not satisfied by a plausible utterance near an event. It requires showing that the utterance falls within the market's covered event. On this record, the more disciplined conclusion is that plaintiff has not carried that burden. The challenged No resolution should stand.\n\nExhibits:\n[plaintiff] PX-1 Market question and core dispute\nMarket title: What will Trump say during the FIFA World Cup Draw?\n\nStrike: Ronaldo\n\nChallenged resolution: No\n\nRequested resolution: Yes\n\nCore dispute: whether the market phrase \"during the FIFA World Cup Draw\" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.\n\n\n[plaintiff] PX-2 Formal program packet note\nThe draft complaint states that the formal draw-program transcript does not appear to contain the word \"Ronaldo.\"\n\nThis file provides the starting point in the example record on the formal-program side of the dispute.  It does not claim to be the full formal-program transcript.\n\n\n[plaintiff] PX-3 Pre-event remarks packet note\nThe draft complaint attributes these two quoted lines to Trump's public remarks at the venue immediately before the formal program:\n\n- \"I got to meet Ronaldo the other day.\"\n- \"Ronaldo is great.\"\n\nThis file provides the starting point in the example record on the pre-event remarks issue.  It does not claim to be the full upstream transcript.\n\n\n[plaintiff] PX-4 Kalshi event page rule extraction\nSource: https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z. Direct curl attempt returned Vercel Security Checkpoint HTML, so this is an extracted text capture from the rendered page.\n\nRelevant extracted page text:\nTitle: What will Trump say during the FIFA World Cup Draw? Odds \u0026 Predictions 2025\nHeading: What will Trump say during the FIFA World Cup Draw?\nMarket Rules section visible in extraction:\n\"The outcome is Yes\"\n\"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw. Outcome verified from The New York Times, the Associated Press, Reuters, Axios, Politico, Semafor, The Information, The Washington Post, The Wall Street Journal, ABC, CBS, CNN, Fox News, and The White House.\"\n\"Video of the FIFA World Cup Draw will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the FIFA World Cup Draw will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.\"\n\"If this event is not opened to the press for a live televised or streamed event this market will resolve to no.\"\nTimeline and payout section visible in extraction:\n\"Market open Dec 4, 2025 · 11:00pm EST\"\n\"Market closed After the outcome occurs\"\n\"Paid out 30 minutes after closing\"\n\"This market will close and expire early if the event occurs. Otherwise, it closes by Dec 5, 2025 at 3:26pm EST.\"\n\"Series KXTRUMPMENTIONB\"\n\"Event KXTRUMPMENTIONB-25DEC06\"\n\"Market KXTRUMPMENTIONB-25DEC06-CANA\"\n\nLimitations: The rendered page view selected/displayed the Canada strike, not the Ronaldo strike, but it exposed the shared title and rule language for the Trump FIFA World Cup Draw event page. The case-packet separately identifies the Ronaldo strike.\n\n[plaintiff] PX-5 Public dispute index entry\nSource: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z.\n\nPage title: Kalshi Mention Market Dispute Bible\nAuthor/publisher shown: Bernard B. / Bernard Bulletin\nPublication date shown: Dec 17, 2025\nLast updated shown: 1-27-26\nCaution on page: The page states it collates publicly available information regarding mention-market disputes on Kalshi and that the concept of precedent has no apparent legal or contractual bearing on Kalshi event-contract resolution; it also says the information is offered with no warranties as to accuracy.\n\nRelevant extracted entry:\n\"12-5-25: What will Trump say during the FIFA World Cup Draw?\"\n\"Strike: \\\"Ronaldo\\\"\"\n\"Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.\"\n\"Rules: Version, Timeframe\"\n\"Result: N\"\n\"Last trade: Y $.10\"\n\nLimitations: This is a secondary public index, not a primary video, transcript, Kalshi determination notice, or full market rules page for the Ronaldo strike. It is useful for source-chain targeting and for identifying the exact dispute and adverse reported resolution, but its assertions should be weighed below primary source material.\n\n[defendant] DX-1 Case-packet market question and disputed boundary\nMarket title: What will Trump say during the FIFA World Cup Draw?\n\nStrike: Ronaldo\n\nChallenged resolution: No\n\nRequested resolution: Yes\n\nCore dispute: whether the market phrase \"during the FIFA World Cup Draw\" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.\n\n\n[defendant] DX-2 Formal-program packet note\nThe draft complaint states that the formal draw-program transcript does not appear to contain the word \"Ronaldo.\"\n\nThis file provides the starting point in the example record on the formal-program side of the dispute.  It does not claim to be the full formal-program transcript.\n\n\n[defendant] DX-3 Plaintiff Kalshi extraction showing Canada-specific market limitation\nSource: https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z. Direct curl attempt returned Vercel Security Checkpoint HTML, so this is an extracted text capture from the rendered page.\n\nRelevant extracted page text:\nTitle: What will Trump say during the FIFA World Cup Draw? Odds \u0026 Predictions 2025\nHeading: What will Trump say during the FIFA World Cup Draw?\nMarket Rules section visible in extraction:\n\"The outcome is Yes\"\n\"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw. Outcome verified from The New York Times, the Associated Press, Reuters, Axios, Politico, Semafor, The Information, The Washington Post, The Wall Street Journal, ABC, CBS, CNN, Fox News, and The White House.\"\n\"Video of the FIFA World Cup Draw will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the FIFA World Cup Draw will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.\"\n\"If this event is not opened to the press for a live televised or streamed event this market will resolve to no.\"\nTimeline and payout section visible in extraction:\n\"Market open Dec 4, 2025 · 11:00pm EST\"\n\"Market closed After the outcome occurs\"\n\"Paid out 30 minutes after closing\"\n\"This market will close and expire early if the event occurs. Otherwise, it closes by Dec 5, 2025 at 3:26pm EST.\"\n\"Series KXTRUMPMENTIONB\"\n\"Event KXTRUMPMENTIONB-25DEC06\"\n\"Market KXTRUMPMENTIONB-25DEC06-CANA\"\n\nLimitations: The rendered page view selected/displayed the Canada strike, not the Ronaldo strike, but it exposed the shared title and rule language for the Trump FIFA World Cup Draw event page. The case-packet separately identifies the Ronaldo strike.\n\n[defendant] DX-4 Secondary dispute index reporting Result N and Version/Timeframe issue\nSource: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z.\n\nPage title: Kalshi Mention Market Dispute Bible\nAuthor/publisher shown: Bernard B. / Bernard Bulletin\nPublication date shown: Dec 17, 2025\nLast updated shown: 1-27-26\nCaution on page: The page states it collates publicly available information regarding mention-market disputes on Kalshi and that the concept of precedent has no apparent legal or contractual bearing on Kalshi event-contract resolution; it also says the information is offered with no warranties as to accuracy.\n\nRelevant extracted entry:\n\"12-5-25: What will Trump say during the FIFA World Cup Draw?\"\n\"Strike: \\\"Ronaldo\\\"\"\n\"Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.\"\n\"Rules: Version, Timeframe\"\n\"Result: N\"\n\"Last trade: Y $.10\"\n\nLimitations: This is a secondary public index, not a primary video, transcript, Kalshi determination notice, or full market rules page for the Ronaldo strike. It is useful for source-chain targeting and for identifying the exact dispute and adverse reported resolution, but its assertions should be weighed below primary source material.\n\n[defendant] DX-5 Kalshi public API parent-event response\n{\n  \"retrieval_notes\": \"Retrieved with curl -L -sS https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06 during defendant merits investigation. Guessed market endpoints KXTRUMPMENTIONB-25DEC06-RONALDO and KXTRUMPMENTIONB-25DEC06-RONA returned {\\\"error\\\":{\\\"code\\\":\\\"not_found\\\",\\\"message\\\":\\\"not found\\\",\\\"service\\\":\\\"query-exchange\\\"}} and are not included as asserted market facts.\",\n  \"event_response\": {\n    \"event\": {\n      \"available_on_brokers\": true,\n      \"category\": \"Mentions\",\n      \"collateral_return_type\": \"\",\n      \"event_ticker\": \"KXTRUMPMENTIONB-25DEC06\",\n      \"last_updated_ts\": \"0001-01-01T00:00:00Z\",\n      \"mutually_exclusive\": false,\n      \"series_ticker\": \"KXTRUMPMENTIONB\",\n      \"settlement_sources\": [\n        {\"name\":\"The New York Times\",\"url\":\"https://www.nytimes.com/\"},\n        {\"name\":\"the Associated Press\",\"url\":\"https://apnews.com/\"},\n        {\"name\":\"Reuters\",\"url\":\"https://www.reuters.com/\"},\n        {\"name\":\"Axios\",\"url\":\"https://www.axios.com/\"},\n        {\"name\":\"Politico\",\"url\":\"https://www.politico.com/\"},\n        {\"name\":\"Semafor\",\"url\":\"https://www.semafor.com/\"},\n        {\"name\":\"The Information\",\"url\":\"https://www.theinformation.com/\"},\n        {\"name\":\"The Washington Post\",\"url\":\"https://www.washingtonpost.com/\"},\n        {\"name\":\"The Wall Street Journal\",\"url\":\"https://www.wsj.com/\"},\n        {\"name\":\"ABC\",\"url\":\"https://abcnews.go.com/\"},\n        {\"name\":\"CBS\",\"url\":\"https://www.cbsnews.com/\"},\n        {\"name\":\"CNN\",\"url\":\"https://www.cnn.com/\"},\n        {\"name\":\"Fox News\",\"url\":\"https://www.foxnews.com/\"},\n        {\"name\":\"The White House\",\"url\":\"https://www.whitehouse.gov/\"}\n      ],\n      \"strike_period\": \"\",\n      \"sub_title\": \"On Dec 5, 2025\",\n      \"title\": \"What will Trump say during the FIFA World Cup Draw?\"\n    },\n    \"markets\": []\n  }\n}\n\n\n[plaintiff] PX-R1 Defendant API exhibit confirms parent event but no formal-only rule\n{\n  \"retrieval_notes\": \"Retrieved with curl -L -sS https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06 during defendant merits investigation. Guessed market endpoints KXTRUMPMENTIONB-25DEC06-RONALDO and KXTRUMPMENTIONB-25DEC06-RONA returned {\\\"error\\\":{\\\"code\\\":\\\"not_found\\\",\\\"message\\\":\\\"not found\\\",\\\"service\\\":\\\"query-exchange\\\"}} and are not included as asserted market facts.\",\n  \"event_response\": {\n    \"event\": {\n      \"available_on_brokers\": true,\n      \"category\": \"Mentions\",\n      \"collateral_return_type\": \"\",\n      \"event_ticker\": \"KXTRUMPMENTIONB-25DEC06\",\n      \"last_updated_ts\": \"0001-01-01T00:00:00Z\",\n      \"mutually_exclusive\": false,\n      \"series_ticker\": \"KXTRUMPMENTIONB\",\n      \"settlement_sources\": [\n        {\"name\":\"The New York Times\",\"url\":\"https://www.nytimes.com/\"},\n        {\"name\":\"the Associated Press\",\"url\":\"https://apnews.com/\"},\n        {\"name\":\"Reuters\",\"url\":\"https://www.reuters.com/\"},\n        {\"name\":\"Axios\",\"url\":\"https://www.axios.com/\"},\n        {\"name\":\"Politico\",\"url\":\"https://www.politico.com/\"},\n        {\"name\":\"Semafor\",\"url\":\"https://www.semafor.com/\"},\n        {\"name\":\"The Information\",\"url\":\"https://www.theinformation.com/\"},\n        {\"name\":\"The Washington Post\",\"url\":\"https://www.washingtonpost.com/\"},\n        {\"name\":\"The Wall Street Journal\",\"url\":\"https://www.wsj.com/\"},\n        {\"name\":\"ABC\",\"url\":\"https://abcnews.go.com/\"},\n        {\"name\":\"CBS\",\"url\":\"https://www.cbsnews.com/\"},\n        {\"name\":\"CNN\",\"url\":\"https://www.cnn.com/\"},\n        {\"name\":\"Fox News\",\"url\":\"https://www.foxnews.com/\"},\n        {\"name\":\"The White House\",\"url\":\"https://www.whitehouse.gov/\"}\n      ],\n      \"strike_period\": \"\",\n      \"sub_title\": \"On Dec 5, 2025\",\n      \"title\": \"What will Trump say during the FIFA World Cup Draw?\"\n    },\n    \"markets\": []\n  }\n}\n\n\n[defendant] DX-S1 Packet boundary statement\nMarket title: What will Trump say during the FIFA World Cup Draw?\n\nStrike: Ronaldo\n\nChallenged resolution: No\n\nRequested resolution: Yes\n\nCore dispute: whether the market phrase \"during the FIFA World Cup Draw\" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.\n\n\n[defendant] DX-S2 Canada-specific Kalshi extraction\nSource: https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z. Direct curl attempt returned Vercel Security Checkpoint HTML, so this is an extracted text capture from the rendered page.\n\nRelevant extracted page text:\nTitle: What will Trump say during the FIFA World Cup Draw? Odds \u0026 Predictions 2025\nHeading: What will Trump say during the FIFA World Cup Draw?\nMarket Rules section visible in extraction:\n\"The outcome is Yes\"\n\"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw. Outcome verified from The New York Times, the Associated Press, Reuters, Axios, Politico, Semafor, The Information, The Washington Post, The Wall Street Journal, ABC, CBS, CNN, Fox News, and The White House.\"\n\"Video of the FIFA World Cup Draw will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the FIFA World Cup Draw will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.\"\n\"If this event is not opened to the press for a live televised or streamed event this market will resolve to no.\"\nTimeline and payout section visible in extraction:\n\"Market open Dec 4, 2025 · 11:00pm EST\"\n\"Market closed After the outcome occurs\"\n\"Paid out 30 minutes after closing\"\n\"This market will close and expire early if the event occurs. Otherwise, it closes by Dec 5, 2025 at 3:26pm EST.\"\n\"Series KXTRUMPMENTIONB\"\n\"Event KXTRUMPMENTIONB-25DEC06\"\n\"Market KXTRUMPMENTIONB-25DEC06-CANA\"\n\nLimitations: The rendered page view selected/displayed the Canada strike, not the Ronaldo strike, but it exposed the shared title and rule language for the Trump FIFA World Cup Draw event page. The case-packet separately identifies the Ronaldo strike.\n\n[defendant] DX-S3 Secondary Ronaldo entry reporting Result N\nSource: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z.\n\nPage title: Kalshi Mention Market Dispute Bible\nAuthor/publisher shown: Bernard B. / Bernard Bulletin\nPublication date shown: Dec 17, 2025\nLast updated shown: 1-27-26\nCaution on page: The page states it collates publicly available information regarding mention-market disputes on Kalshi and that the concept of precedent has no apparent legal or contractual bearing on Kalshi event-contract resolution; it also says the information is offered with no warranties as to accuracy.\n\nRelevant extracted entry:\n\"12-5-25: What will Trump say during the FIFA World Cup Draw?\"\n\"Strike: \\\"Ronaldo\\\"\"\n\"Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.\"\n\"Rules: Version, Timeframe\"\n\"Result: N\"\n\"Last trade: Y $.10\"\n\nLimitations: This is a secondary public index, not a primary video, transcript, Kalshi determination notice, or full market rules page for the Ronaldo strike. It is useful for source-chain targeting and for identifying the exact dispute and adverse reported resolution, but its assertions should be weighed below primary source material.\n\n[defendant] DX-S4 Parent-event API response\n{\n  \"retrieval_notes\": \"Retrieved with curl -L -sS https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06 during defendant merits investigation. Guessed market endpoints KXTRUMPMENTIONB-25DEC06-RONALDO and KXTRUMPMENTIONB-25DEC06-RONA returned {\\\"error\\\":{\\\"code\\\":\\\"not_found\\\",\\\"message\\\":\\\"not found\\\",\\\"service\\\":\\\"query-exchange\\\"}} and are not included as asserted market facts.\",\n  \"event_response\": {\n    \"event\": {\n      \"available_on_brokers\": true,\n      \"category\": \"Mentions\",\n      \"collateral_return_type\": \"\",\n      \"event_ticker\": \"KXTRUMPMENTIONB-25DEC06\",\n      \"last_updated_ts\": \"0001-01-01T00:00:00Z\",\n      \"mutually_exclusive\": false,\n      \"series_ticker\": \"KXTRUMPMENTIONB\",\n      \"settlement_sources\": [\n        {\"name\":\"The New York Times\",\"url\":\"https://www.nytimes.com/\"},\n        {\"name\":\"the Associated Press\",\"url\":\"https://apnews.com/\"},\n        {\"name\":\"Reuters\",\"url\":\"https://www.reuters.com/\"},\n        {\"name\":\"Axios\",\"url\":\"https://www.axios.com/\"},\n        {\"name\":\"Politico\",\"url\":\"https://www.politico.com/\"},\n        {\"name\":\"Semafor\",\"url\":\"https://www.semafor.com/\"},\n        {\"name\":\"The Information\",\"url\":\"https://www.theinformation.com/\"},\n        {\"name\":\"The Washington Post\",\"url\":\"https://www.washingtonpost.com/\"},\n        {\"name\":\"The Wall Street Journal\",\"url\":\"https://www.wsj.com/\"},\n        {\"name\":\"ABC\",\"url\":\"https://abcnews.go.com/\"},\n        {\"name\":\"CBS\",\"url\":\"https://www.cbsnews.com/\"},\n        {\"name\":\"CNN\",\"url\":\"https://www.cnn.com/\"},\n        {\"name\":\"Fox News\",\"url\":\"https://www.foxnews.com/\"},\n        {\"name\":\"The White House\",\"url\":\"https://www.whitehouse.gov/\"}\n      ],\n      \"strike_period\": \"\",\n      \"sub_title\": \"On Dec 5, 2025\",\n      \"title\": \"What will Trump say during the FIFA World Cup Draw?\"\n    },\n    \"markets\": []\n  }\n}\n\n\nSubmitted evidence:\n[plaintiff arguments] Kalshi market page extracted rules for Trump FIFA World Cup Draw mention market (ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176)\nSource: https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06\nSHA-256: `026c90725176be3c4fbcc1b42d90f54e1a579d77c78a5f669093d4d75db7cdb0`\nBytes: 1987\nRelevance: Shows the market title and Kalshi rule language that video of the FIFA World Cup Draw is primarily used, with transcripts secondary, and that press/live televised or streamed event status matters. This bears on whether the market is limited to a formal transcript.\n\n[plaintiff arguments] Public dispute index entry for Trump FIFA World Cup Draw Ronaldo strike (ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf)\nSource: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible\nSHA-256: `4bed0ef76dcfcd311578022651eaac18ea1fec8ba911f13dc11a6f4b43cc97fc`\nBytes: 1260\nRelevance: Corroborates that the exact Ronaldo strike dispute involved Trump saying the strike to press on the red carpet before the programme and identifies the reported basis for the No result, which frames the timeframe/version dispute.\n\n[defendant arguments] Kalshi public API event response for Trump FIFA World Cup Draw mention event (ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b)\nSource: https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06\nSHA-256: `bc775d9fe77b84076cb2f29ad325a0c2779809d5b2622d2cb61b53c88972a560`\nBytes: 1837\nRelevance: Primary Kalshi API metadata for the parent event. It confirms the event ticker, title, date subtitle, category, and listed settlement sources, while showing no Ronaldo-specific market data in the event response. This bears on the limits of plaintiff's Canada-strike page extraction and the missing Ronaldo-specific primary rules/source chain.\n\nTechnical reports:\n[plaintiff] Plaintiff source-search and capture ledger\nBefore filing, plaintiff rechecked the record and searched exact market and quotation terms. A rendered Kalshi page for the Trump FIFA World Cup Draw mention market exposed event-rule text making video primary and transcripts secondary; a direct curl capture hit a Vercel Security Checkpoint, and a guessed Kalshi API ticker for Ronaldo returned not_found, so neither was used as proof beyond the admitted rendered extraction. A rendered Bernard Bulletin/Substack public dispute index contained the exact Ronaldo entry but was treated as secondary and partly adverse because it reports result N and disclaims legal/contractual precedent. Primary red-carpet video/full transcript remains the main missing source-chain item.\n\n[defendant] Defendant source-search ledger\nDefendant searched exact event/market identifiers and ticker variants for a Ronaldo-specific primary source. Queries and checks included KXTRUMPMENTIONB-25DEC06 with Ronaldo terms, guessed Kalshi API market endpoints KXTRUMPMENTIONB-25DEC06-RONALDO and KXTRUMPMENTIONB-25DEC06-RONA, the Kalshi public API event endpoint, and a Coinbase event mirror URL. The guessed Ronaldo market endpoints returned not_found; the Kalshi event endpoint returned only parent event metadata and settlement sources with markets empty; Coinbase direct retrieval returned a Cloudflare challenge. No primary Ronaldo-specific market page, official determination notice, full video, full transcript, captions, or official program boundary was captured before filing.\n\n[plaintiff] Rebuttal evidence assessment\nPlaintiff reviewed defendant's API exhibit by stat and byte-range read. The JSON confirms the parent event title, ticker, category, date subtitle, and settlement sources, while showing markets: [] and noting guessed Ronaldo endpoints returned not_found. It does not contain a Ronaldo-specific exclusion, formal-program-only rule, or contrary transcript/video evidence. Plaintiff therefore submitted no new source evidence in rebuttal and relies on the existing admitted record.\n\nPrior rounds:\nRound 1 [C1] demonstrated\nThe market's use of video as primary resolution source, combined with evidence that Trump's remarks were made live at the venue immediately before the formal program, supports resolving Yes under a preponderance standard.\n\nRound 1 [C2] not_demonstrated\nPlaintiff's evidence shows Trump said \"Ronaldo\" before the formal program began at the venue, but the record lacks a Ronaldo-specific market rule proving such pre-program remarks count as \"during\" the draw. On preponderance, the boundary uncertainty and missing source chain favor the challenged No resolution.\n\nRound 1 [C5] demonstrated\nThe evidence shows Trump said 'Ronaldo' in livestreamed pre-program remarks at the venue, and the market's video-primary rules with press coverage requirement support including such remarks within the event's scope under preponderance.\n\nRound 2 [C1] demonstrated\nThe record shows Trump made the remarks in livestreamed public venue coverage immediately before the formal program, and market rules prioritize video evidence, which supports including such pre-program remarks under the event's scope.\n\nRound 2 [C2] not_demonstrated\nThe admitted record lacks Ronaldo-specific market rules proving pre-program remarks fall within scope. The sole Ronaldo-specific secondary source reports remarks were 'prior to the start' and resulted in No. Under preponderance, this boundary uncertainty and missing source chain favor maintaining the challenged No resolution.\n\nRound 2 [C5] not_demonstrated\nThe record shows Trump likely said 'Ronaldo' in pre-program remarks, but the market phrase 'during the FIFA World Cup Draw' likely refers to the formal draw program itself. The plaintiff has not established by preponderance that pre-event remarks fall within the market's covered event, especially given the secondary source reporting a No result due to version/timeframe issues.\n\nCall submit_council_vote with vote=demonstrated or vote=not_demonstrated.\nKeep the rationale brief: no more than three sentences.\n\nCouncil API instructions:\nYou are a council member. Decide the proposition from the admitted record.\nYou may examine admitted evidence through read-only tools when exact bytes, metadata, or exhibit contents matter.\nDo not search the web, introduce new facts, create new evidence, or upload evidence.\nWhen ready, call submit_council_vote exactly once with vote=demonstrated or vote=not_demonstrated and a concise rationale.\n",
+  "tools": [
+    {
+      "description": "Return the current visible arbitration record for this council member.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "name": "get_case",
+      "read_only": true
+    },
+    {
+      "description": "List visible immutable record evidence.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "name": "list_evidence",
+      "read_only": true
+    },
+    {
+      "description": "Return metadata and read limits for one visible evidence item.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "evidence_id"
+        ],
+        "type": "object"
+      },
+      "name": "stat_evidence",
+      "read_only": true
+    },
+    {
+      "description": "Read a bounded byte range from one visible evidence item as base64.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          },
+          "length": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "offset": {
+            "minimum": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "evidence_id",
+          "offset",
+          "length"
+        ],
+        "type": "object"
+      },
+      "name": "read_evidence_range",
+      "read_only": true
+    },
+    {
+      "description": "Submit one council vote for the current deliberation opportunity.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "rationale": {
+            "type": "string"
+          },
+          "vote": {
+            "enum": [
+              "demonstrated",
+              "not_demonstrated"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "vote",
+          "rationale"
+        ],
+        "type": "object"
+      },
+      "name": "submit_council_vote",
+      "read_only": false
+    }
+  ],
+  "limits": {
+    "attempts_max": 3,
+    "attempts_remaining": 3,
+    "max_evidence_read_bytes": 65536,
+    "max_evidence_read_bytes_per_opportunity": 524288,
+    "max_evidence_reads_per_opportunity": 32,
+    "max_response_bytes": 131072,
+    "remaining_evidence_read_bytes_for_opportunity": 524288,
+    "remaining_evidence_reads_for_opportunity": 32
+  },
+  "case_view": {
+    "evidence_standard": "Preponderance of the evidence.",
+    "member": {
+      "member_id": "C2",
+      "model": "openrouter://moonshotai/kimi-k2-thinking",
+      "persona_filename": "personas/generic.md"
+    },
+    "opportunity": {
+      "allowed_tools": [
+        "submit_council_vote"
+      ],
+      "id": "deliberation:3:C2",
+      "may_pass": false,
+      "objective": "council vote by C2",
+      "phase": "deliberation",
+      "role": "council"
+    },
+    "phase": "deliberation",
+    "proposition": "For the market \"What will Trump say during the FIFA World Cup Draw?\", the strike \"Ronaldo\" should resolve Yes because Trump's pre-event remarks at the venue immediately before the formal program count as occurring during the draw.",
+    "record": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, the preponderance now favors Yes.\n\nStart with the case packet. PX-1 frames the exact dispute: the market was \"What will Trump say during the FIFA World Cup Draw?\"; the strike was \"Ronaldo\"; and the issue is whether the phrase includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program. That is not a fact invented by plaintiff; it is the packet's own statement of the dispute.\n\nPX-2 helps the defense only after a narrowing assumption. It says the draft complaint states the formal draw-program transcript does not appear to contain \"Ronaldo,\" but it also says it is not the full formal-program transcript. Even taken at full value, it proves only that one formal-program transcript apparently lacks the word. It does not prove that Kalshi's market was limited to that transcript, nor that the market excluded live video or press-facing event coverage.\n\nPX-3 is the affirmative packet evidence on the utterance. It attributes two lines to Trump's public remarks at the venue immediately before the formal program: \"I got to meet Ronaldo the other day\" and \"Ronaldo is great.\" PX-3 is not a full upstream transcript, so its provenance is imperfect. But under a preponderance standard it is direct case-packet evidence that the strike was said in the relevant venue/time setting.\n\nThe newly submitted market-rule capture, PX-4, undermines the defendant's transcript-only boundary. The visible Kalshi rule language says: \"Video of the FIFA World Cup Draw will be primarily used to resolve the market\"; transcripts are used only if Kalshi employees cannot reach consensus using video. It also says the event must be opened to the press for a live televised or streamed event. That rule language points away from a narrow paper-transcript inquiry and toward the actual video/streamed event. The page capture defaulted to a different strike on the same Trump World Cup Draw event page, so it is not perfect Ronaldo-specific proof; but it is still strong evidence of the governing event-level rule structure.\n\nPX-5, the public dispute-index entry, is secondary and partly adverse, and the council should weigh it accordingly. It reports that this exact market and strike involved Trump saying the strike to the press on the red carpet before the programme, that it was livestreamed, and that the dispute turned on \"Version\" and \"Timeframe.\" It also reports the result as N. Plaintiff is not asking the council to treat PX-5 as binding precedent; the source itself warns against that. Its value is different: it corroborates that the factual dispute is not whether the word was said at all. The dispute is whether the red-carpet/livestream segment was within the market's covered event.\n\nOn that question, defendant's line is too cramped. The market did not say \"during the formal on-stage draw program\" or \"in the official transcript only.\" It asked what Trump would say \"during the FIFA World Cup Draw.\" PX-4 confirms that video was primary and that a press-open live televised or streamed event was contemplated. PX-1 and PX-3 place the remarks at the venue immediately before the formal program, in public remarks connected to that event. PX-5 corroborates that the remarks were to the press on the red carpet and livestreamed. A live, press-facing venue segment immediately preceding the formal program is naturally part of the draw event's public coverage unless the rules clearly carve it out.\n\nThe defense has a fair adverse point: PX-5 reports that Kalshi resolved the market N, and no primary video/full transcript has yet been admitted. But this arbitration is deciding the proposition under preponderance, not deferring to an unexplained reported outcome. The record explains the No result as a timeframe/version controversy; it does not supply rule text excluding red-carpet livestream coverage. Against that, we have direct packet attribution of two Ronaldo statements, a market rule preferring video over transcripts, and corroboration that the remarks were livestreamed press remarks immediately before the programme.\n\nThat is enough. The most likely account is that Trump did say \"Ronaldo\" in public World Cup Draw venue coverage, and the market's ordinary wording plus video-primary rule covers that segment. The strike should resolve Yes."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, the merits record still does not prove the proposition. Plaintiff has evidence that something Ronaldo-related was allegedly said before the formal program. Plaintiff does not have evidence that those remarks occurred during the market-covered draw.\n\nStart with DX-1. The case packet states the exact boundary dispute: whether \"during the FIFA World Cup Draw\" includes public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program. That phrasing is not neutral for plaintiff. It identifies the remarks as before the formal program began. The proposition requires crossing that boundary.\n\nDX-2 remains the only record item tied to the formal-program side. It says the draft complaint states that the formal draw-program transcript does not appear to contain \"Ronaldo.\" It is admittedly incomplete, but it supports the challenged No resolution if the covered event is the formal on-stage draw program. Plaintiff has not supplied a full formal-program transcript or video showing the strike inside that program.\n\nPlaintiff's new DX-3 does not solve the problem. It is not the Ronaldo market. The extraction says the displayed strike was Canada, the rule text says \"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw,\" and the market ticker shown is KXTRUMPMENTIONB-25DEC06-CANA. Plaintiff asks the council to use that Canada page as event-level rule proof for Ronaldo. Even if the general event language is similar, the exhibit cannot establish the Ronaldo-specific contract, its selected market page, its displayed strike, or any Ronaldo-specific resolution history.\n\nMore importantly, DX-3's wording helps the defense on scope. It does not say every press-adjacent livestream before the program counts. It says the word must be said \"as part of FIFA World Cup Draw,\" and that video of \"the FIFA World Cup Draw\" is primary. That is consistent with a formal-event boundary. The separate sentence about the event being opened to the press for a live televised or streamed event is a condition preventing No if there is no press/live event at all; it is not an expansion clause making every red-carpet or pre-show segment part of the draw.\n\nDX-4, plaintiff's secondary dispute index, is the closest Ronaldo-specific source in the record. It is not a primary video, transcript, market rule, or Kalshi determination notice. It expressly carries accuracy limitations. But if the council gives it weight, it favors the defense on the decisive point: it reports that the strike was said \"to the press on the red carpet prior to the start of the programme,\" labels the dispute \"Version, Timeframe,\" and reports \"Result: N.\" Plaintiff cannot use the red-carpet-before-programme fact while discarding the same source's reported No result and timeframe characterization.\n\nDX-5 is primary Kalshi API evidence for the parent event. It confirms the event title, ticker, date subtitle, and listed settlement sources, but it does not provide a Ronaldo-specific market or rule. My search ledger explains the gap: guessed Ronaldo market API endpoints returned not_found, the parent event endpoint returned only parent metadata with markets empty, and a Coinbase mirror URL was blocked by Cloudflare. So the record still lacks the sources that would matter most: a Ronaldo-specific Kalshi page or determination, the full draw video, the full pre-program/red-carpet video, captions, and an official schedule or timestamp fixing when the covered draw began.\n\nThat missing source chain is not a technicality. The standard is preponderance, and plaintiff bears the burden of changing No to Yes. The best admitted account says the utterance occurred to press on the red carpet before the programme; the only Ronaldo-specific secondary source reports that the actual result was No because of version/timeframe. The Canada page's video-primary rule does not erase that boundary; if anything, it asks whether the word was said as part of the draw video, not merely near the draw venue.\n\nThe disciplined resolution is therefore No. Plaintiff may have shown a plausible adjacent utterance. It has not shown, more likely than not, that the utterance occurred during the market-covered FIFA World Cup Draw."
+        }
+      ],
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the question is not whether this record is perfect. It is not. The question is whether the proposition is more likely true than not: that the Ronaldo strike should resolve Yes because Trump's pre-event remarks at the venue immediately before the formal program count as occurring during the draw.\n\nThe strongest defense point is timing. The record repeatedly describes the remarks as immediately before the formal program, and the secondary dispute index reports a No result under \"Version\" and \"Timeframe.\" Plaintiff has never asked you to ignore that. The case turns on whether \"during the FIFA World Cup Draw\" means only the formal on-stage program, or whether it includes live public venue coverage immediately before that program.\n\nOn that decisive boundary, the admitted record favors Yes.\n\nFirst, the case-packet market file identifies the Ronaldo strike and frames the dispute exactly this way. It does not say the only permissible source is a formal transcript. It asks whether the market phrase includes Trump's public remarks at the venue immediately before the formal draw program began.\n\nSecond, the pre-event remarks packet attributes two direct Ronaldo statements to Trump in that setting: \"I got to meet Ronaldo the other day\" and \"Ronaldo is great.\" That file is not a full upstream transcript, so it is imperfect, but it is affirmative record evidence of the utterance.\n\nThird, the formal-program packet does less than the defense needs. It says the formal draw-program transcript does not appear to contain \"Ronaldo,\" and it expressly does not claim to be the full formal-program transcript. That supports No only if you first adopt the defense's formal-program-only boundary. It does not prove that boundary.\n\nFourth, the Kalshi page extraction shows event-level rule language that points away from a transcript-only rule: video of the FIFA World Cup Draw is primary, and transcripts are secondary. The page displayed a Canada strike, and that limitation matters. But the case packet supplies the Ronaldo strike, and the defendant's own API exhibit confirms the same parent event title and date. No admitted evidence shows a different Ronaldo-specific rule excluding red-carpet or livestreamed venue coverage.\n\nFifth, the secondary dispute index cuts both ways, but its useful fact is important. It reports this exact Ronaldo strike, says Trump said the strike to the press on the red carpet before the programme, and says this was livestreamed. Its reported Result N is not binding on this council and comes without the missing primary determination. It proves the dispute existed; it does not prove the reported outcome was correct.\n\nThe defense asks you to treat missing primary video and missing Ronaldo-specific API data as a presumption against plaintiff. But the defendant's API exhibit has markets: [] and no exclusion rule. It is silence, not a formal-program boundary. The defense has not produced a rule saying only the on-stage transcript counts, nor a source saying the live red-carpet venue segment was outside the covered draw video.\n\nPreponderance is a comparative standard. On one side, there is direct packet evidence of the Ronaldo utterance, secondary corroboration that it was red-carpet and livestreamed, and rule language making video primary rather than transcript primary. On the other side, there is an incomplete formal transcript note and a reported No result from a secondary index. The better reading of the market is that public, livestreamed venue remarks immediately before the formal program were part of the World Cup Draw event coverage.\n\nFor that reason, the strike \"Ronaldo\" should resolve Yes."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, plaintiff's closing rightly identifies timing as the strongest defense point. It is more than a point; it is the proposition. Plaintiff asks you to hold that remarks immediately before the formal program count as remarks made during the FIFA World Cup Draw. The admitted record does not prove that.\n\nThe record can be separated into two questions: did Trump say the word, and did he say it during the covered event? Plaintiff's evidence is better on the first question than the second. The pre-event packet attributes Ronaldo lines to Trump, and the secondary dispute index says the strike was said to press on the red carpet. But even those sources describe an adjacent pre-program setting, not a settled covered-event setting.\n\nOn the decisive second question, the record favors No. The case-packet market file frames the dispute as whether remarks \"immediately before the formal draw program began\" count. The secondary Ronaldo-specific index says the remarks were on the red carpet \"prior to the start of the programme,\" labels the dispute \"Version, Timeframe,\" and reports \"Result: N.\" That is the only Ronaldo-specific external source in evidence. It is secondary, so it should not be overread; but if it is used at all, its timing and result cut against plaintiff's burden.\n\nPlaintiff's strongest response is the Kalshi page extraction saying video of the FIFA World Cup Draw is primary. But that exhibit displayed the Canada strike, not Ronaldo. Its rule text says \"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw,\" and shows the Canada market ticker. It does not prove the Ronaldo-specific market, a Ronaldo-specific determination, or a rule that red-carpet press coverage before the programme is \"as part of\" the draw. The phrase \"as part of\" is the missing link.\n\nNor does the press-open/live-stream condition decide the case. A requirement that the event be opened to press for live televised or streamed coverage prevents resolution when there is no qualifying event coverage. It does not expand the market to every venue-adjacent press interaction before the covered program begins.\n\nThe defendant's API exhibit is modest, but important for what it confirms and what it does not. It confirms the parent event and settlement sources. It does not reveal a Ronaldo-specific market, rule, video, transcript, or determination. The search ledgers from both sides say the same basic thing: the primary source chain that would decide this cleanly is missing. There is no full draw video, no full red-carpet video, no captions, no official start boundary, and no Ronaldo-specific Kalshi resolution notice in the record.\n\nThat gap matters because plaintiff bears the burden. The question is not whether defendant proved a formal-only exclusion. The question is whether plaintiff proved inclusion of pre-program red-carpet remarks within the covered draw. The admitted record repeatedly uses words of exclusion from the formal program boundary: \"immediately before\" and \"prior to the start.\" Plaintiff asks the council to bridge that gap by ordinary event context, but the only Ronaldo-specific source that discusses the dispute reports a No result on version/timeframe grounds.\n\nPreponderance is not satisfied by a plausible utterance near an event. It requires showing that the utterance falls within the market's covered event. On this record, the more disciplined conclusion is that plaintiff has not carried that burden. The challenged No resolution should stand."
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+          "sha256": "026c90725176be3c4fbcc1b42d90f54e1a579d77c78a5f669093d4d75db7cdb0",
+          "size_bytes": 1987,
+          "mime_type": "text/plain",
+          "storage_name": "02/026c90725176be3c4fbcc1b42d90f54e1a579d77c78a5f669093d4d75db7cdb0",
+          "created_at": "2026-06-29T18:45:57Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "Kalshi market page extracted rules for Trump FIFA World Cup Draw mention market",
+          "original_name": "submitted-evidence-01-plaintiff-026c90725176.txt",
+          "source_url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06",
+          "source_description": "Rendered web extraction of public Kalshi market page. Direct curl returned a Vercel Security Checkpoint, but rendered fetch exposed page text. The page defaulted to the Canada strike while showing the shared market title and rules for the Trump FIFA World Cup Draw mention market series/event.",
+          "retrieval_timestamp": "2026-06-29T18:47:00Z",
+          "submitted_by_role": "plaintiff",
+          "submitted_phase": "arguments",
+          "relevance": "Shows the market title and Kalshi rule language that video of the FIFA World Cup Draw is primarily used, with transcripts secondary, and that press/live televised or streamed event status matters. This bears on whether the market is limited to a formal transcript.",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+          "sha256": "4bed0ef76dcfcd311578022651eaac18ea1fec8ba911f13dc11a6f4b43cc97fc",
+          "size_bytes": 1260,
+          "mime_type": "text/plain",
+          "storage_name": "4b/4bed0ef76dcfcd311578022651eaac18ea1fec8ba911f13dc11a6f4b43cc97fc",
+          "created_at": "2026-06-29T18:46:02Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "Public dispute index entry for Trump FIFA World Cup Draw Ronaldo strike",
+          "original_name": "submitted-evidence-02-plaintiff-4bed0ef76dcf.txt",
+          "source_url": "https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible",
+          "source_description": "Rendered web extraction of Bernard Bulletin/Substack public index of Kalshi mention-market disputes. Secondary source, not Kalshi primary rules; includes an adverse reported result of N and note that evidence was red-carpet/livestream before programme.",
+          "retrieval_timestamp": "2026-06-29T18:47:00Z",
+          "submitted_by_role": "plaintiff",
+          "submitted_phase": "arguments",
+          "relevance": "Corroborates that the exact Ronaldo strike dispute involved Trump saying the strike to press on the red carpet before the programme and identifies the reported basis for the No result, which frames the timeframe/version dispute.",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_74d969c640f7_market-question",
+          "sha256": "74d969c640f7b64e403a992ce7247806f20410a537953a56f8d3082642619190",
+          "size_bytes": 350,
+          "mime_type": "text/plain",
+          "storage_name": "74/74d969c640f7b64e403a992ce7247806f20410a537953a56f8d3082642619190",
+          "created_at": "2026-06-29T18:38:24Z",
+          "admissibility_status": "case_packet",
+          "record_visibility": "juror_visible",
+          "title": "market-question.txt",
+          "original_name": "market-question.txt",
+          "source_description": "Initial case packet file",
+          "submitted_by_role": "system",
+          "submitted_phase": "case_packet",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_7de1d3f2c404_formal-draw-program",
+          "sha256": "7de1d3f2c4043f0ff9954b10f9e0b3b927cbf654f9bb46a401b40fee3dc46b03",
+          "size_bytes": 279,
+          "mime_type": "text/plain",
+          "storage_name": "7d/7de1d3f2c4043f0ff9954b10f9e0b3b927cbf654f9bb46a401b40fee3dc46b03",
+          "created_at": "2026-06-29T18:38:24Z",
+          "admissibility_status": "case_packet",
+          "record_visibility": "juror_visible",
+          "title": "formal-draw-program.txt",
+          "original_name": "formal-draw-program.txt",
+          "source_description": "Initial case packet file",
+          "submitted_by_role": "system",
+          "submitted_phase": "case_packet",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_af2671376951_pre-event-remarks",
+          "sha256": "af267137695148692b861c06fb66ff8168816e28a68b9576eb48eb8388a1bfdc",
+          "size_bytes": 344,
+          "mime_type": "text/plain",
+          "storage_name": "af/af267137695148692b861c06fb66ff8168816e28a68b9576eb48eb8388a1bfdc",
+          "created_at": "2026-06-29T18:38:24Z",
+          "admissibility_status": "case_packet",
+          "record_visibility": "juror_visible",
+          "title": "pre-event-remarks.txt",
+          "original_name": "pre-event-remarks.txt",
+          "source_description": "Initial case packet file",
+          "submitted_by_role": "system",
+          "submitted_phase": "case_packet",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+          "sha256": "bc775d9fe77b84076cb2f29ad325a0c2779809d5b2622d2cb61b53c88972a560",
+          "size_bytes": 1837,
+          "mime_type": "application/json",
+          "storage_name": "bc/bc775d9fe77b84076cb2f29ad325a0c2779809d5b2622d2cb61b53c88972a560",
+          "created_at": "2026-06-29T18:49:21Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "Kalshi public API event response for Trump FIFA World Cup Draw mention event",
+          "original_name": "submitted-evidence-03-defendant-bc775d9fe77b.json",
+          "source_url": "https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06",
+          "source_description": "Direct curl retrieval from Kalshi public trade API event endpoint during defendant merits investigation. Guessed Ronaldo-specific market endpoints returned not_found; this event endpoint returned the parent event metadata and settlement sources.",
+          "retrieval_timestamp": "2026-06-29T19:00:00Z",
+          "submitted_by_role": "defendant",
+          "submitted_phase": "arguments",
+          "relevance": "Primary Kalshi API metadata for the parent event. It confirms the event ticker, title, date subtitle, category, and listed settlement sources, while showing no Ronaldo-specific market data in the event response. This bears on the limits of plaintiff's Canada-strike page extraction and the missing Ronaldo-specific primary rules/source chain.",
+          "text_readable": true
+        }
+      ],
+      "exhibits": [
+        {
+          "evidence_id": "ev_74d969c640f7_market-question",
+          "label": "PX-1 Market question and core dispute",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Market title: What will Trump say during the FIFA World Cup Draw?\n\nStrike: Ronaldo\n\nChallenged resolution: No\n\nRequested resolution: Yes\n\nCore dispute: whether the market phrase \"during the FIFA World Cup Draw\" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.\n"
+        },
+        {
+          "evidence_id": "ev_7de1d3f2c404_formal-draw-program",
+          "label": "PX-2 Formal program packet note",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "The draft complaint states that the formal draw-program transcript does not appear to contain the word \"Ronaldo.\"\n\nThis file provides the starting point in the example record on the formal-program side of the dispute.  It does not claim to be the full formal-program transcript.\n"
+        },
+        {
+          "evidence_id": "ev_af2671376951_pre-event-remarks",
+          "label": "PX-3 Pre-event remarks packet note",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "The draft complaint attributes these two quoted lines to Trump's public remarks at the venue immediately before the formal program:\n\n- \"I got to meet Ronaldo the other day.\"\n- \"Ronaldo is great.\"\n\nThis file provides the starting point in the example record on the pre-event remarks issue.  It does not claim to be the full upstream transcript.\n"
+        },
+        {
+          "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+          "label": "PX-4 Kalshi event page rule extraction",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Source: https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z. Direct curl attempt returned Vercel Security Checkpoint HTML, so this is an extracted text capture from the rendered page.\n\nRelevant extracted page text:\nTitle: What will Trump say during the FIFA World Cup Draw? Odds \u0026 Predictions 2025\nHeading: What will Trump say during the FIFA World Cup Draw?\nMarket Rules section visible in extraction:\n\"The outcome is Yes\"\n\"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw. Outcome verified from The New York Times, the Associated Press, Reuters, Axios, Politico, Semafor, The Information, The Washington Post, The Wall Street Journal, ABC, CBS, CNN, Fox News, and The White House.\"\n\"Video of the FIFA World Cup Draw will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the FIFA World Cup Draw will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.\"\n\"If this event is not opened to the press for a live televised or streamed event this market will resolve to no.\"\nTimeline and payout section visible in extraction:\n\"Market open Dec 4, 2025 · 11:00pm EST\"\n\"Market closed After the outcome occurs\"\n\"Paid out 30 minutes after closing\"\n\"This market will close and expire early if the event occurs. Otherwise, it closes by Dec 5, 2025 at 3:26pm EST.\"\n\"Series KXTRUMPMENTIONB\"\n\"Event KXTRUMPMENTIONB-25DEC06\"\n\"Market KXTRUMPMENTIONB-25DEC06-CANA\"\n\nLimitations: The rendered page view selected/displayed the Canada strike, not the Ronaldo strike, but it exposed the shared title and rule language for the Trump FIFA World Cup Draw event page. The case-packet separately identifies the Ronaldo strike."
+        },
+        {
+          "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+          "label": "PX-5 Public dispute index entry",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Source: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z.\n\nPage title: Kalshi Mention Market Dispute Bible\nAuthor/publisher shown: Bernard B. / Bernard Bulletin\nPublication date shown: Dec 17, 2025\nLast updated shown: 1-27-26\nCaution on page: The page states it collates publicly available information regarding mention-market disputes on Kalshi and that the concept of precedent has no apparent legal or contractual bearing on Kalshi event-contract resolution; it also says the information is offered with no warranties as to accuracy.\n\nRelevant extracted entry:\n\"12-5-25: What will Trump say during the FIFA World Cup Draw?\"\n\"Strike: \\\"Ronaldo\\\"\"\n\"Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.\"\n\"Rules: Version, Timeframe\"\n\"Result: N\"\n\"Last trade: Y $.10\"\n\nLimitations: This is a secondary public index, not a primary video, transcript, Kalshi determination notice, or full market rules page for the Ronaldo strike. It is useful for source-chain targeting and for identifying the exact dispute and adverse reported resolution, but its assertions should be weighed below primary source material."
+        },
+        {
+          "evidence_id": "ev_74d969c640f7_market-question",
+          "label": "DX-1 Case-packet market question and disputed boundary",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Market title: What will Trump say during the FIFA World Cup Draw?\n\nStrike: Ronaldo\n\nChallenged resolution: No\n\nRequested resolution: Yes\n\nCore dispute: whether the market phrase \"during the FIFA World Cup Draw\" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.\n"
+        },
+        {
+          "evidence_id": "ev_7de1d3f2c404_formal-draw-program",
+          "label": "DX-2 Formal-program packet note",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "The draft complaint states that the formal draw-program transcript does not appear to contain the word \"Ronaldo.\"\n\nThis file provides the starting point in the example record on the formal-program side of the dispute.  It does not claim to be the full formal-program transcript.\n"
+        },
+        {
+          "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+          "label": "DX-3 Plaintiff Kalshi extraction showing Canada-specific market limitation",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Source: https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z. Direct curl attempt returned Vercel Security Checkpoint HTML, so this is an extracted text capture from the rendered page.\n\nRelevant extracted page text:\nTitle: What will Trump say during the FIFA World Cup Draw? Odds \u0026 Predictions 2025\nHeading: What will Trump say during the FIFA World Cup Draw?\nMarket Rules section visible in extraction:\n\"The outcome is Yes\"\n\"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw. Outcome verified from The New York Times, the Associated Press, Reuters, Axios, Politico, Semafor, The Information, The Washington Post, The Wall Street Journal, ABC, CBS, CNN, Fox News, and The White House.\"\n\"Video of the FIFA World Cup Draw will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the FIFA World Cup Draw will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.\"\n\"If this event is not opened to the press for a live televised or streamed event this market will resolve to no.\"\nTimeline and payout section visible in extraction:\n\"Market open Dec 4, 2025 · 11:00pm EST\"\n\"Market closed After the outcome occurs\"\n\"Paid out 30 minutes after closing\"\n\"This market will close and expire early if the event occurs. Otherwise, it closes by Dec 5, 2025 at 3:26pm EST.\"\n\"Series KXTRUMPMENTIONB\"\n\"Event KXTRUMPMENTIONB-25DEC06\"\n\"Market KXTRUMPMENTIONB-25DEC06-CANA\"\n\nLimitations: The rendered page view selected/displayed the Canada strike, not the Ronaldo strike, but it exposed the shared title and rule language for the Trump FIFA World Cup Draw event page. The case-packet separately identifies the Ronaldo strike."
+        },
+        {
+          "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+          "label": "DX-4 Secondary dispute index reporting Result N and Version/Timeframe issue",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Source: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z.\n\nPage title: Kalshi Mention Market Dispute Bible\nAuthor/publisher shown: Bernard B. / Bernard Bulletin\nPublication date shown: Dec 17, 2025\nLast updated shown: 1-27-26\nCaution on page: The page states it collates publicly available information regarding mention-market disputes on Kalshi and that the concept of precedent has no apparent legal or contractual bearing on Kalshi event-contract resolution; it also says the information is offered with no warranties as to accuracy.\n\nRelevant extracted entry:\n\"12-5-25: What will Trump say during the FIFA World Cup Draw?\"\n\"Strike: \\\"Ronaldo\\\"\"\n\"Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.\"\n\"Rules: Version, Timeframe\"\n\"Result: N\"\n\"Last trade: Y $.10\"\n\nLimitations: This is a secondary public index, not a primary video, transcript, Kalshi determination notice, or full market rules page for the Ronaldo strike. It is useful for source-chain targeting and for identifying the exact dispute and adverse reported resolution, but its assertions should be weighed below primary source material."
+        },
+        {
+          "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+          "label": "DX-5 Kalshi public API parent-event response",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "{\n  \"retrieval_notes\": \"Retrieved with curl -L -sS https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06 during defendant merits investigation. Guessed market endpoints KXTRUMPMENTIONB-25DEC06-RONALDO and KXTRUMPMENTIONB-25DEC06-RONA returned {\\\"error\\\":{\\\"code\\\":\\\"not_found\\\",\\\"message\\\":\\\"not found\\\",\\\"service\\\":\\\"query-exchange\\\"}} and are not included as asserted market facts.\",\n  \"event_response\": {\n    \"event\": {\n      \"available_on_brokers\": true,\n      \"category\": \"Mentions\",\n      \"collateral_return_type\": \"\",\n      \"event_ticker\": \"KXTRUMPMENTIONB-25DEC06\",\n      \"last_updated_ts\": \"0001-01-01T00:00:00Z\",\n      \"mutually_exclusive\": false,\n      \"series_ticker\": \"KXTRUMPMENTIONB\",\n      \"settlement_sources\": [\n        {\"name\":\"The New York Times\",\"url\":\"https://www.nytimes.com/\"},\n        {\"name\":\"the Associated Press\",\"url\":\"https://apnews.com/\"},\n        {\"name\":\"Reuters\",\"url\":\"https://www.reuters.com/\"},\n        {\"name\":\"Axios\",\"url\":\"https://www.axios.com/\"},\n        {\"name\":\"Politico\",\"url\":\"https://www.politico.com/\"},\n        {\"name\":\"Semafor\",\"url\":\"https://www.semafor.com/\"},\n        {\"name\":\"The Information\",\"url\":\"https://www.theinformation.com/\"},\n        {\"name\":\"The Washington Post\",\"url\":\"https://www.washingtonpost.com/\"},\n        {\"name\":\"The Wall Street Journal\",\"url\":\"https://www.wsj.com/\"},\n        {\"name\":\"ABC\",\"url\":\"https://abcnews.go.com/\"},\n        {\"name\":\"CBS\",\"url\":\"https://www.cbsnews.com/\"},\n        {\"name\":\"CNN\",\"url\":\"https://www.cnn.com/\"},\n        {\"name\":\"Fox News\",\"url\":\"https://www.foxnews.com/\"},\n        {\"name\":\"The White House\",\"url\":\"https://www.whitehouse.gov/\"}\n      ],\n      \"strike_period\": \"\",\n      \"sub_title\": \"On Dec 5, 2025\",\n      \"title\": \"What will Trump say during the FIFA World Cup Draw?\"\n    },\n    \"markets\": []\n  }\n}\n"
+        },
+        {
+          "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+          "label": "PX-R1 Defendant API exhibit confirms parent event but no formal-only rule",
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "text": "{\n  \"retrieval_notes\": \"Retrieved with curl -L -sS https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06 during defendant merits investigation. Guessed market endpoints KXTRUMPMENTIONB-25DEC06-RONALDO and KXTRUMPMENTIONB-25DEC06-RONA returned {\\\"error\\\":{\\\"code\\\":\\\"not_found\\\",\\\"message\\\":\\\"not found\\\",\\\"service\\\":\\\"query-exchange\\\"}} and are not included as asserted market facts.\",\n  \"event_response\": {\n    \"event\": {\n      \"available_on_brokers\": true,\n      \"category\": \"Mentions\",\n      \"collateral_return_type\": \"\",\n      \"event_ticker\": \"KXTRUMPMENTIONB-25DEC06\",\n      \"last_updated_ts\": \"0001-01-01T00:00:00Z\",\n      \"mutually_exclusive\": false,\n      \"series_ticker\": \"KXTRUMPMENTIONB\",\n      \"settlement_sources\": [\n        {\"name\":\"The New York Times\",\"url\":\"https://www.nytimes.com/\"},\n        {\"name\":\"the Associated Press\",\"url\":\"https://apnews.com/\"},\n        {\"name\":\"Reuters\",\"url\":\"https://www.reuters.com/\"},\n        {\"name\":\"Axios\",\"url\":\"https://www.axios.com/\"},\n        {\"name\":\"Politico\",\"url\":\"https://www.politico.com/\"},\n        {\"name\":\"Semafor\",\"url\":\"https://www.semafor.com/\"},\n        {\"name\":\"The Information\",\"url\":\"https://www.theinformation.com/\"},\n        {\"name\":\"The Washington Post\",\"url\":\"https://www.washingtonpost.com/\"},\n        {\"name\":\"The Wall Street Journal\",\"url\":\"https://www.wsj.com/\"},\n        {\"name\":\"ABC\",\"url\":\"https://abcnews.go.com/\"},\n        {\"name\":\"CBS\",\"url\":\"https://www.cbsnews.com/\"},\n        {\"name\":\"CNN\",\"url\":\"https://www.cnn.com/\"},\n        {\"name\":\"Fox News\",\"url\":\"https://www.foxnews.com/\"},\n        {\"name\":\"The White House\",\"url\":\"https://www.whitehouse.gov/\"}\n      ],\n      \"strike_period\": \"\",\n      \"sub_title\": \"On Dec 5, 2025\",\n      \"title\": \"What will Trump say during the FIFA World Cup Draw?\"\n    },\n    \"markets\": []\n  }\n}\n"
+        },
+        {
+          "evidence_id": "ev_74d969c640f7_market-question",
+          "label": "DX-S1 Packet boundary statement",
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Market title: What will Trump say during the FIFA World Cup Draw?\n\nStrike: Ronaldo\n\nChallenged resolution: No\n\nRequested resolution: Yes\n\nCore dispute: whether the market phrase \"during the FIFA World Cup Draw\" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.\n"
+        },
+        {
+          "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+          "label": "DX-S2 Canada-specific Kalshi extraction",
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Source: https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z. Direct curl attempt returned Vercel Security Checkpoint HTML, so this is an extracted text capture from the rendered page.\n\nRelevant extracted page text:\nTitle: What will Trump say during the FIFA World Cup Draw? Odds \u0026 Predictions 2025\nHeading: What will Trump say during the FIFA World Cup Draw?\nMarket Rules section visible in extraction:\n\"The outcome is Yes\"\n\"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw. Outcome verified from The New York Times, the Associated Press, Reuters, Axios, Politico, Semafor, The Information, The Washington Post, The Wall Street Journal, ABC, CBS, CNN, Fox News, and The White House.\"\n\"Video of the FIFA World Cup Draw will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the FIFA World Cup Draw will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details.\"\n\"If this event is not opened to the press for a live televised or streamed event this market will resolve to no.\"\nTimeline and payout section visible in extraction:\n\"Market open Dec 4, 2025 · 11:00pm EST\"\n\"Market closed After the outcome occurs\"\n\"Paid out 30 minutes after closing\"\n\"This market will close and expire early if the event occurs. Otherwise, it closes by Dec 5, 2025 at 3:26pm EST.\"\n\"Series KXTRUMPMENTIONB\"\n\"Event KXTRUMPMENTIONB-25DEC06\"\n\"Market KXTRUMPMENTIONB-25DEC06-CANA\"\n\nLimitations: The rendered page view selected/displayed the Canada strike, not the Ronaldo strike, but it exposed the shared title and rule language for the Trump FIFA World Cup Draw event page. The case-packet separately identifies the Ronaldo strike."
+        },
+        {
+          "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+          "label": "DX-S3 Secondary Ronaldo entry reporting Result N",
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Source: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible\nRetrieved by rendered web extraction on 2026-06-29T18:47:00Z.\n\nPage title: Kalshi Mention Market Dispute Bible\nAuthor/publisher shown: Bernard B. / Bernard Bulletin\nPublication date shown: Dec 17, 2025\nLast updated shown: 1-27-26\nCaution on page: The page states it collates publicly available information regarding mention-market disputes on Kalshi and that the concept of precedent has no apparent legal or contractual bearing on Kalshi event-contract resolution; it also says the information is offered with no warranties as to accuracy.\n\nRelevant extracted entry:\n\"12-5-25: What will Trump say during the FIFA World Cup Draw?\"\n\"Strike: \\\"Ronaldo\\\"\"\n\"Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.\"\n\"Rules: Version, Timeframe\"\n\"Result: N\"\n\"Last trade: Y $.10\"\n\nLimitations: This is a secondary public index, not a primary video, transcript, Kalshi determination notice, or full market rules page for the Ronaldo strike. It is useful for source-chain targeting and for identifying the exact dispute and adverse reported resolution, but its assertions should be weighed below primary source material."
+        },
+        {
+          "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+          "label": "DX-S4 Parent-event API response",
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "{\n  \"retrieval_notes\": \"Retrieved with curl -L -sS https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06 during defendant merits investigation. Guessed market endpoints KXTRUMPMENTIONB-25DEC06-RONALDO and KXTRUMPMENTIONB-25DEC06-RONA returned {\\\"error\\\":{\\\"code\\\":\\\"not_found\\\",\\\"message\\\":\\\"not found\\\",\\\"service\\\":\\\"query-exchange\\\"}} and are not included as asserted market facts.\",\n  \"event_response\": {\n    \"event\": {\n      \"available_on_brokers\": true,\n      \"category\": \"Mentions\",\n      \"collateral_return_type\": \"\",\n      \"event_ticker\": \"KXTRUMPMENTIONB-25DEC06\",\n      \"last_updated_ts\": \"0001-01-01T00:00:00Z\",\n      \"mutually_exclusive\": false,\n      \"series_ticker\": \"KXTRUMPMENTIONB\",\n      \"settlement_sources\": [\n        {\"name\":\"The New York Times\",\"url\":\"https://www.nytimes.com/\"},\n        {\"name\":\"the Associated Press\",\"url\":\"https://apnews.com/\"},\n        {\"name\":\"Reuters\",\"url\":\"https://www.reuters.com/\"},\n        {\"name\":\"Axios\",\"url\":\"https://www.axios.com/\"},\n        {\"name\":\"Politico\",\"url\":\"https://www.politico.com/\"},\n        {\"name\":\"Semafor\",\"url\":\"https://www.semafor.com/\"},\n        {\"name\":\"The Information\",\"url\":\"https://www.theinformation.com/\"},\n        {\"name\":\"The Washington Post\",\"url\":\"https://www.washingtonpost.com/\"},\n        {\"name\":\"The Wall Street Journal\",\"url\":\"https://www.wsj.com/\"},\n        {\"name\":\"ABC\",\"url\":\"https://abcnews.go.com/\"},\n        {\"name\":\"CBS\",\"url\":\"https://www.cbsnews.com/\"},\n        {\"name\":\"CNN\",\"url\":\"https://www.cnn.com/\"},\n        {\"name\":\"Fox News\",\"url\":\"https://www.foxnews.com/\"},\n        {\"name\":\"The White House\",\"url\":\"https://www.whitehouse.gov/\"}\n      ],\n      \"strike_period\": \"\",\n      \"sub_title\": \"On Dec 5, 2025\",\n      \"title\": \"What will Trump say during the FIFA World Cup Draw?\"\n    },\n    \"markets\": []\n  }\n}\n"
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, this case turns on the scope of the market phrase, not on whether the formal draw-program transcript alone contains the strike.\n\nThe market asked: \"What will Trump say during the FIFA World Cup Draw?\" The strike is \"Ronaldo.\" The challenged resolution is No, and the requested resolution is Yes. The case-packet file defining the dispute says the core question is whether \"during the FIFA World Cup Draw\" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.\n\nOur opening theory is straightforward: an event market written in ordinary language should be resolved by the public event context it invoked, unless its rules narrow the resolution source. A public remark at the draw venue, immediately before the formal program, made as part of the event's public-facing proceedings, is naturally \"during the FIFA World Cup Draw\" in the market sense. Traders were not asked to predict a word in a single transcript labeled \"formal program\"; they were asked what Trump would say during the draw. The relevant proof should therefore include the event setting, timing, and the market's resolution criteria, not just one partial formal-program document.\n\nThe current packet already shows why a transcript-only theory is too narrow. The formal-program file says the draft complaint states that the formal draw-program transcript does not appear to contain \"Ronaldo,\" but that file also expressly says it is only a starting point and does not claim to be the full formal-program transcript. That evidence is helpful to the No side only if the council first accepts the premise that the market was limited to that formal on-stage program or that transcript. The plaintiff disputes that premise.\n\nThe pre-event remarks file supplies the other side of the factual frame. It attributes two quoted lines to Trump's public remarks at the venue immediately before the formal program: \"I got to meet Ronaldo the other day\" and \"Ronaldo is great.\" That file also candidly says it is a starting point and not the full upstream transcript. So the opening record is not yet complete primary-source proof of the entire source chain. But it is enough to identify the decisive issue: if those public venue remarks are within the market's temporal and event scope, the strike resolves Yes; if the rules confine the market to the formal on-stage program alone, the No position becomes stronger.\n\nThe evidence that should decide the case in the later phases is therefore specific. The council should look for the market question and any governing resolution rules; the full video, transcript, or captions of Trump's pre-program remarks; reliable timing showing those remarks occurred at the draw venue immediately before the formal program; and the formal-program transcript for comparison. The plaintiff expects that evidence to show the word \"Ronaldo\" was said in a public draw-event setting, and that the market wording did not carve those remarks out.\n\nThe burden is preponderance. We do not need to prove that the formal transcript alone contains the strike if the better reading of the market includes the pre-event venue remarks. We need to show that it is more likely than not that the market's ordinary scope covered those remarks. On the packet as framed, the real dispute is exactly that scope question, and the plaintiff's position is that an immediately preceding public venue segment of the World Cup Draw counts as occurring during the draw for this market."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defendant's opening is simple: this case is not decided by spotting the word \"Ronaldo\" somewhere near a World Cup Draw venue. The proposition asks you to change a No resolution to Yes because pre-event remarks immediately before the formal program supposedly count as remarks made \"during the FIFA World Cup Draw.\" That is the disputed premise, and the present record does not yet carry it.\n\nThe packet itself draws the relevant boundary. The market-question file states the core dispute as whether the phrase includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself. That framing matters. It does not say the formal draw program had begun; it identifies the remarks as immediately before it. On ordinary temporal usage, \"during\" an event is different from \"before\" the event, even if the speaker is in the same building and even if press or red-carpet coverage is public.\n\nThe formal-program packet is not complete proof, but it points in the defense direction: the draft complaint says the formal draw-program transcript does not appear to contain \"Ronaldo.\" The file candidly says it is only a starting point and not the full formal-program transcript, so the defense will not overstate it. Still, if the covered event is the formal on-stage draw program, the starting record supports No, not Yes.\n\nThe pre-event remarks packet likewise should be treated cautiously. It attributes two Ronaldo lines to Trump's public remarks at the venue immediately before the formal program, but it too says it is only a starting point and not the full upstream transcript. That file may become relevant if plaintiff can later prove provenance, timing, and source-chain facts. But even accepting it for opening purposes, it proves at most that the strike was allegedly said before the formal program. It does not prove that those remarks were inside the market's covered time, source version, or resolution scope.\n\nThat is why plaintiff's opening tries to turn the market into a broad public-event-context question. But traders were entitled to read \"during the FIFA World Cup Draw\" as the draw program itself: the named show, ceremony, or on-stage proceeding in which teams are drawn. A pre-program press availability or venue-side remark is adjacent to the event, not necessarily part of it. Without rules expanding the window to red-carpet, pre-show, press, or livestream lead-in content, the safer and more administrable market boundary is the formal program.\n\nThe decisive proof in later phases should be specific: the market's actual resolution rules and any source/version language; the official draw program start and scope; the full formal-program video, captions, or transcript; and the best upstream source for the alleged pre-event remarks, including timestamps and whether that feed was part of the covered draw or a separate pre-program segment. Those materials could change the weight. If they show that the market expressly included pre-show or red-carpet livestream content, plaintiff's theory improves. If they show the remarks occurred before the covered program or in a separate press context, the challenged No resolution should stand.\n\nUnder a preponderance standard, uncertainty about that boundary matters. The party seeking Yes must prove more than venue proximity and an alleged utterance; it must prove that the utterance occurred during the market-covered event. On the current packet, with both sides' key files expressly incomplete and with no governing rules or primary transcript yet in the record, the defendant's theory is that No is the disciplined resolution unless later admitted evidence closes those gaps in plaintiff's favor."
+        }
+      ],
+      "prior_council_votes": [
+        {
+          "member_id": "C1",
+          "rationale": "The market's use of video as primary resolution source, combined with evidence that Trump's remarks were made live at the venue immediately before the formal program, supports resolving Yes under a preponderance standard.",
+          "round": 1,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C2",
+          "rationale": "Plaintiff's evidence shows Trump said \"Ronaldo\" before the formal program began at the venue, but the record lacks a Ronaldo-specific market rule proving such pre-program remarks count as \"during\" the draw. On preponderance, the boundary uncertainty and missing source chain favor the challenged No resolution.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C5",
+          "rationale": "The evidence shows Trump said 'Ronaldo' in livestreamed pre-program remarks at the venue, and the market's video-primary rules with press coverage requirement support including such remarks within the event's scope under preponderance.",
+          "round": 1,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C1",
+          "rationale": "The record shows Trump made the remarks in livestreamed public venue coverage immediately before the formal program, and market rules prioritize video evidence, which supports including such pre-program remarks under the event's scope.",
+          "round": 2,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C2",
+          "rationale": "The admitted record lacks Ronaldo-specific market rules proving pre-program remarks fall within scope. The sole Ronaldo-specific secondary source reports remarks were 'prior to the start' and resulted in No. Under preponderance, this boundary uncertainty and missing source chain favor maintaining the challenged No resolution.",
+          "round": 2,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C5",
+          "rationale": "The record shows Trump likely said 'Ronaldo' in pre-program remarks, but the market phrase 'during the FIFA World Cup Draw' likely refers to the formal draw program itself. The plaintiff has not established by preponderance that pre-event remarks fall within the market's covered event, especially given the secondary source reporting a No result due to version/timeframe issues.",
+          "round": 2,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C1",
+          "rationale": "The market's video-primary rule and the admitted evidence of livestreamed remarks at the venue immediately before the formal program support resolving Yes under preponderance. The dispute's framing and corroboration from secondary sources confirm the remarks occurred during the draw event's public coverage. The defendant's silence on pre-program inclusion does not overcome this balance.",
+          "round": 3,
+          "vote": "demonstrated"
+        }
+      ],
+      "rebuttals": [
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "text": "Council members, the defense argument depends on treating absence of perfect proof as affirmative proof of exclusion. The record does not support that move.\n\nFirst, the defendant's new API exhibit does not prove a formal-program-only boundary. It confirms the parent Kalshi event: event ticker KXTRUMPMENTIONB-25DEC06, category \"Mentions,\" subtitle \"On Dec 5, 2025,\" title \"What will Trump say during the FIFA World Cup Draw?,\" and the listed settlement sources. Its markets array is empty, and its own retrieval notes say guessed Ronaldo market endpoints returned not_found and are not asserted market facts. That means the exhibit is silent on the decisive question: whether the Ronaldo strike had a special rule excluding red-carpet or livestreamed pre-program coverage. Silence is not a defense exhibit.\n\nSecond, the defense is right that PX-4 displayed a Canada strike. Plaintiff already disclosed that limitation. But the case packet supplies the Ronaldo strike, while PX-4 and the defense API exhibit both tie the rule/source discussion to the same parent event, \"What will Trump say during the FIFA World Cup Draw?\" The relevant rule language in PX-4 is event-level language: video of the FIFA World Cup Draw is primary, transcripts are secondary, and the event must be press-open for live televised or streamed coverage. Nothing in the defense API exhibit contradicts that event-level rule structure.\n\nThird, defendant cannot use PX-5 only one way. PX-5 is secondary and not binding; plaintiff agrees it should not be treated as dispositive precedent. But if the council gives it any factual weight, it confirms the core point plaintiff needs: this exact Ronaldo strike involved Trump saying the strike to press on the red carpet before the programme, and that was livestreamed. The reported Result N and the labels \"Version\" and \"Timeframe\" identify the dispute; they do not prove the reported resolution was correct under this arbitration's preponderance standard.\n\nThe defense repeatedly says \"before the formal program\" as if that phrase ends the case. But the proposition is whether those immediately pre-program public venue remarks count as occurring during the draw. PX-1 says that is the dispute. PX-3 attributes the Ronaldo statements to that setting. PX-4 says video, not a transcript, is primary. PX-5 corroborates red-carpet livestreamed coverage. The defense has no admitted rule saying only the formal on-stage transcript counts.\n\nSo the missing source-chain items matter to weight, but they do not flip the burden into a formal-program presumption. On this record, the more likely account remains that Trump said \"Ronaldo\" in live public coverage of the World Cup Draw event, and no admitted rule excludes that segment. The strike should resolve Yes."
+        }
+      ],
+      "submitted_evidence": [
+        {
+          "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Shows the market title and Kalshi rule language that video of the FIFA World Cup Draw is primarily used, with transcripts secondary, and that press/live televised or streamed event status matters. This bears on whether the market is limited to a formal transcript.",
+          "retrieval_timestamp": "2026-06-29T18:47:00Z",
+          "role": "plaintiff",
+          "sha256": "026c90725176be3c4fbcc1b42d90f54e1a579d77c78a5f669093d4d75db7cdb0",
+          "size_bytes": 1987,
+          "source_description": "Rendered web extraction of public Kalshi market page. Direct curl returned a Vercel Security Checkpoint, but rendered fetch exposed page text. The page defaulted to the Canada strike while showing the shared market title and rules for the Trump FIFA World Cup Draw mention market series/event.",
+          "source_url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06",
+          "title": "Kalshi market page extracted rules for Trump FIFA World Cup Draw mention market"
+        },
+        {
+          "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Corroborates that the exact Ronaldo strike dispute involved Trump saying the strike to press on the red carpet before the programme and identifies the reported basis for the No result, which frames the timeframe/version dispute.",
+          "retrieval_timestamp": "2026-06-29T18:47:00Z",
+          "role": "plaintiff",
+          "sha256": "4bed0ef76dcfcd311578022651eaac18ea1fec8ba911f13dc11a6f4b43cc97fc",
+          "size_bytes": 1260,
+          "source_description": "Rendered web extraction of Bernard Bulletin/Substack public index of Kalshi mention-market disputes. Secondary source, not Kalshi primary rules; includes an adverse reported result of N and note that evidence was red-carpet/livestream before programme.",
+          "source_url": "https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible",
+          "title": "Public dispute index entry for Trump FIFA World Cup Draw Ronaldo strike"
+        },
+        {
+          "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+          "mime_type": "application/json",
+          "phase": "arguments",
+          "relevance": "Primary Kalshi API metadata for the parent event. It confirms the event ticker, title, date subtitle, category, and listed settlement sources, while showing no Ronaldo-specific market data in the event response. This bears on the limits of plaintiff's Canada-strike page extraction and the missing Ronaldo-specific primary rules/source chain.",
+          "retrieval_timestamp": "2026-06-29T19:00:00Z",
+          "role": "defendant",
+          "sha256": "bc775d9fe77b84076cb2f29ad325a0c2779809d5b2622d2cb61b53c88972a560",
+          "size_bytes": 1837,
+          "source_description": "Direct curl retrieval from Kalshi public trade API event endpoint during defendant merits investigation. Guessed Ronaldo-specific market endpoints returned not_found; this event endpoint returned the parent event metadata and settlement sources.",
+          "source_url": "https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06",
+          "title": "Kalshi public API event response for Trump FIFA World Cup Draw mention event"
+        }
+      ],
+      "surrebuttals": [
+        {
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Council members, plaintiff's rebuttal makes the burden issue clearer. The defense does not need the API exhibit to prove a formal-program-only exclusion. Plaintiff is the party asking to change No to Yes, and plaintiff must prove that pre-program red-carpet or press remarks were inside the market-covered draw. Silence on an exclusion is not proof of inclusion.\n\nThe admitted record repeatedly describes the alleged Ronaldo remarks as outside the formal program boundary. DX-S1 says the dispute is whether remarks \"immediately before the formal draw program began\" count. DX-S3 says the Ronaldo entry involved remarks to the press on the red carpet \"prior to the start of the programme,\" and identifies the dispute as \"Version, Timeframe\" with \"Result: N.\" Those are not defense inventions; they are the record's own descriptions of the timing problem.\n\nPlaintiff says DX-S2 is event-level rule evidence because it mentions video and a press-open live televised or streamed event. But DX-S2 is still a Canada-strike page: it says \"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw\" and shows market ticker KXTRUMPMENTIONB-25DEC06-CANA. The phrase \"as part of\" is exactly the missing predicate. A press-open event condition does not transform all red-carpet or pre-program coverage into the draw itself.\n\nPlaintiff also asks the council to use DX-S3 for the helpful factual part and disregard the adverse result. That is backwards. DX-S3 is secondary and limited either way. If it is too weak to establish that the reported No resolution was right, it is also too weak to establish the full source chain, video context, and covered timeframe. If it is given weight, then the same entry says red carpet before the programme, Version/Timeframe, Result N.\n\nDX-S4 likewise does not carry plaintiff's burden. It confirms the parent event and settlement sources, but no Ronaldo-specific market, no inclusion of pre-program content, and no video or transcript. That absence matters because the proposition turns on a boundary. The record may support that the word was allegedly said near the event. It does not show, more likely than not, that it was said during the market-covered FIFA World Cup Draw. The challenged No resolution should stand."
+        }
+      ],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "Before filing, plaintiff rechecked the record and searched exact market and quotation terms. A rendered Kalshi page for the Trump FIFA World Cup Draw mention market exposed event-rule text making video primary and transcripts secondary; a direct curl capture hit a Vercel Security Checkpoint, and a guessed Kalshi API ticker for Ronaldo returned not_found, so neither was used as proof beyond the admitted rendered extraction. A rendered Bernard Bulletin/Substack public dispute index contained the exact Ronaldo entry but was treated as secondary and partly adverse because it reports result N and disclaims legal/contractual precedent. Primary red-carpet video/full transcript remains the main missing source-chain item.",
+          "title": "Plaintiff source-search and capture ledger"
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "summary": "Defendant searched exact event/market identifiers and ticker variants for a Ronaldo-specific primary source. Queries and checks included KXTRUMPMENTIONB-25DEC06 with Ronaldo terms, guessed Kalshi API market endpoints KXTRUMPMENTIONB-25DEC06-RONALDO and KXTRUMPMENTIONB-25DEC06-RONA, the Kalshi public API event endpoint, and a Coinbase event mirror URL. The guessed Ronaldo market endpoints returned not_found; the Kalshi event endpoint returned only parent event metadata and settlement sources with markets empty; Coinbase direct retrieval returned a Cloudflare challenge. No primary Ronaldo-specific market page, official determination notice, full video, full transcript, captions, or official program boundary was captured before filing.",
+          "title": "Defendant source-search ledger"
+        },
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "summary": "Plaintiff reviewed defendant's API exhibit by stat and byte-range read. The JSON confirms the parent event title, ticker, category, date subtitle, and settlement sources, while showing markets: [] and noting guessed Ronaldo endpoints returned not_found. It does not contain a Ronaldo-specific exclusion, formal-program-only rule, or contrary transcript/video evidence. Plaintiff therefore submitted no new source evidence in rebuttal and relies on the existing admitted record.",
+          "title": "Rebuttal evidence assessment"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+      "sha256": "026c90725176be3c4fbcc1b42d90f54e1a579d77c78a5f669093d4d75db7cdb0",
+      "size_bytes": 1987,
+      "mime_type": "text/plain",
+      "storage_name": "02/026c90725176be3c4fbcc1b42d90f54e1a579d77c78a5f669093d4d75db7cdb0",
+      "created_at": "2026-06-29T18:45:57Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Kalshi market page extracted rules for Trump FIFA World Cup Draw mention market",
+      "original_name": "submitted-evidence-01-plaintiff-026c90725176.txt",
+      "source_url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06",
+      "source_description": "Rendered web extraction of public Kalshi market page. Direct curl returned a Vercel Security Checkpoint, but rendered fetch exposed page text. The page defaulted to the Canada strike while showing the shared market title and rules for the Trump FIFA World Cup Draw mention market series/event.",
+      "retrieval_timestamp": "2026-06-29T18:47:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Shows the market title and Kalshi rule language that video of the FIFA World Cup Draw is primarily used, with transcripts secondary, and that press/live televised or streamed event status matters. This bears on whether the market is limited to a formal transcript.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+      "sha256": "4bed0ef76dcfcd311578022651eaac18ea1fec8ba911f13dc11a6f4b43cc97fc",
+      "size_bytes": 1260,
+      "mime_type": "text/plain",
+      "storage_name": "4b/4bed0ef76dcfcd311578022651eaac18ea1fec8ba911f13dc11a6f4b43cc97fc",
+      "created_at": "2026-06-29T18:46:02Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Public dispute index entry for Trump FIFA World Cup Draw Ronaldo strike",
+      "original_name": "submitted-evidence-02-plaintiff-4bed0ef76dcf.txt",
+      "source_url": "https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible",
+      "source_description": "Rendered web extraction of Bernard Bulletin/Substack public index of Kalshi mention-market disputes. Secondary source, not Kalshi primary rules; includes an adverse reported result of N and note that evidence was red-carpet/livestream before programme.",
+      "retrieval_timestamp": "2026-06-29T18:47:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Corroborates that the exact Ronaldo strike dispute involved Trump saying the strike to press on the red carpet before the programme and identifies the reported basis for the No result, which frames the timeframe/version dispute.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_74d969c640f7_market-question",
+      "sha256": "74d969c640f7b64e403a992ce7247806f20410a537953a56f8d3082642619190",
+      "size_bytes": 350,
+      "mime_type": "text/plain",
+      "storage_name": "74/74d969c640f7b64e403a992ce7247806f20410a537953a56f8d3082642619190",
+      "created_at": "2026-06-29T18:38:24Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "market-question.txt",
+      "original_name": "market-question.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_7de1d3f2c404_formal-draw-program",
+      "sha256": "7de1d3f2c4043f0ff9954b10f9e0b3b927cbf654f9bb46a401b40fee3dc46b03",
+      "size_bytes": 279,
+      "mime_type": "text/plain",
+      "storage_name": "7d/7de1d3f2c4043f0ff9954b10f9e0b3b927cbf654f9bb46a401b40fee3dc46b03",
+      "created_at": "2026-06-29T18:38:24Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "formal-draw-program.txt",
+      "original_name": "formal-draw-program.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_af2671376951_pre-event-remarks",
+      "sha256": "af267137695148692b861c06fb66ff8168816e28a68b9576eb48eb8388a1bfdc",
+      "size_bytes": 344,
+      "mime_type": "text/plain",
+      "storage_name": "af/af267137695148692b861c06fb66ff8168816e28a68b9576eb48eb8388a1bfdc",
+      "created_at": "2026-06-29T18:38:24Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "pre-event-remarks.txt",
+      "original_name": "pre-event-remarks.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+      "sha256": "bc775d9fe77b84076cb2f29ad325a0c2779809d5b2622d2cb61b53c88972a560",
+      "size_bytes": 1837,
+      "mime_type": "application/json",
+      "storage_name": "bc/bc775d9fe77b84076cb2f29ad325a0c2779809d5b2622d2cb61b53c88972a560",
+      "created_at": "2026-06-29T18:49:21Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Kalshi public API event response for Trump FIFA World Cup Draw mention event",
+      "original_name": "submitted-evidence-03-defendant-bc775d9fe77b.json",
+      "source_url": "https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06",
+      "source_description": "Direct curl retrieval from Kalshi public trade API event endpoint during defendant merits investigation. Guessed Ronaldo-specific market endpoints returned not_found; this event endpoint returned the parent event metadata and settlement sources.",
+      "retrieval_timestamp": "2026-06-29T19:00:00Z",
+      "submitted_by_role": "defendant",
+      "submitted_phase": "arguments",
+      "relevance": "Primary Kalshi API metadata for the parent event. It confirms the event ticker, title, date subtitle, category, and listed settlement sources, while showing no Ronaldo-specific market data in the event response. This bears on the limits of plaintiff's Canada-strike page extraction and the missing Ronaldo-specific primary rules/source chain.",
+      "text_readable": true
+    }
+  ],
+  "evidence_manifest": {
+    "created_at": "2026-06-29T19:01:03Z",
+    "evidence": [
+      {
+        "evidence_id": "ev_026c90725176_submitted-evidence-01-plaintiff-026c90725176",
+        "sha256": "026c90725176be3c4fbcc1b42d90f54e1a579d77c78a5f669093d4d75db7cdb0",
+        "size_bytes": 1987,
+        "mime_type": "text/plain",
+        "storage_name": "02/026c90725176be3c4fbcc1b42d90f54e1a579d77c78a5f669093d4d75db7cdb0",
+        "created_at": "2026-06-29T18:45:57Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "Kalshi market page extracted rules for Trump FIFA World Cup Draw mention market",
+        "original_name": "submitted-evidence-01-plaintiff-026c90725176.txt",
+        "source_url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06",
+        "source_description": "Rendered web extraction of public Kalshi market page. Direct curl returned a Vercel Security Checkpoint, but rendered fetch exposed page text. The page defaulted to the Canada strike while showing the shared market title and rules for the Trump FIFA World Cup Draw mention market series/event.",
+        "retrieval_timestamp": "2026-06-29T18:47:00Z",
+        "submitted_by_role": "plaintiff",
+        "submitted_phase": "arguments",
+        "relevance": "Shows the market title and Kalshi rule language that video of the FIFA World Cup Draw is primarily used, with transcripts secondary, and that press/live televised or streamed event status matters. This bears on whether the market is limited to a formal transcript.",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_4bed0ef76dcf_submitted-evidence-02-plaintiff-4bed0ef76dcf",
+        "sha256": "4bed0ef76dcfcd311578022651eaac18ea1fec8ba911f13dc11a6f4b43cc97fc",
+        "size_bytes": 1260,
+        "mime_type": "text/plain",
+        "storage_name": "4b/4bed0ef76dcfcd311578022651eaac18ea1fec8ba911f13dc11a6f4b43cc97fc",
+        "created_at": "2026-06-29T18:46:02Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "Public dispute index entry for Trump FIFA World Cup Draw Ronaldo strike",
+        "original_name": "submitted-evidence-02-plaintiff-4bed0ef76dcf.txt",
+        "source_url": "https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible",
+        "source_description": "Rendered web extraction of Bernard Bulletin/Substack public index of Kalshi mention-market disputes. Secondary source, not Kalshi primary rules; includes an adverse reported result of N and note that evidence was red-carpet/livestream before programme.",
+        "retrieval_timestamp": "2026-06-29T18:47:00Z",
+        "submitted_by_role": "plaintiff",
+        "submitted_phase": "arguments",
+        "relevance": "Corroborates that the exact Ronaldo strike dispute involved Trump saying the strike to press on the red carpet before the programme and identifies the reported basis for the No result, which frames the timeframe/version dispute.",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_74d969c640f7_market-question",
+        "sha256": "74d969c640f7b64e403a992ce7247806f20410a537953a56f8d3082642619190",
+        "size_bytes": 350,
+        "mime_type": "text/plain",
+        "storage_name": "74/74d969c640f7b64e403a992ce7247806f20410a537953a56f8d3082642619190",
+        "created_at": "2026-06-29T18:38:24Z",
+        "admissibility_status": "case_packet",
+        "record_visibility": "juror_visible",
+        "title": "market-question.txt",
+        "original_name": "market-question.txt",
+        "source_description": "Initial case packet file",
+        "submitted_by_role": "system",
+        "submitted_phase": "case_packet",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_7de1d3f2c404_formal-draw-program",
+        "sha256": "7de1d3f2c4043f0ff9954b10f9e0b3b927cbf654f9bb46a401b40fee3dc46b03",
+        "size_bytes": 279,
+        "mime_type": "text/plain",
+        "storage_name": "7d/7de1d3f2c4043f0ff9954b10f9e0b3b927cbf654f9bb46a401b40fee3dc46b03",
+        "created_at": "2026-06-29T18:38:24Z",
+        "admissibility_status": "case_packet",
+        "record_visibility": "juror_visible",
+        "title": "formal-draw-program.txt",
+        "original_name": "formal-draw-program.txt",
+        "source_description": "Initial case packet file",
+        "submitted_by_role": "system",
+        "submitted_phase": "case_packet",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_af2671376951_pre-event-remarks",
+        "sha256": "af267137695148692b861c06fb66ff8168816e28a68b9576eb48eb8388a1bfdc",
+        "size_bytes": 344,
+        "mime_type": "text/plain",
+        "storage_name": "af/af267137695148692b861c06fb66ff8168816e28a68b9576eb48eb8388a1bfdc",
+        "created_at": "2026-06-29T18:38:24Z",
+        "admissibility_status": "case_packet",
+        "record_visibility": "juror_visible",
+        "title": "pre-event-remarks.txt",
+        "original_name": "pre-event-remarks.txt",
+        "source_description": "Initial case packet file",
+        "submitted_by_role": "system",
+        "submitted_phase": "case_packet",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_bc775d9fe77b_submitted-evidence-03-defendant-bc775d9fe77b",
+        "sha256": "bc775d9fe77b84076cb2f29ad325a0c2779809d5b2622d2cb61b53c88972a560",
+        "size_bytes": 1837,
+        "mime_type": "application/json",
+        "storage_name": "bc/bc775d9fe77b84076cb2f29ad325a0c2779809d5b2622d2cb61b53c88972a560",
+        "created_at": "2026-06-29T18:49:21Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "Kalshi public API event response for Trump FIFA World Cup Draw mention event",
+        "original_name": "submitted-evidence-03-defendant-bc775d9fe77b.json",
+        "source_url": "https://api.elections.kalshi.com/trade-api/v2/events/KXTRUMPMENTIONB-25DEC06",
+        "source_description": "Direct curl retrieval from Kalshi public trade API event endpoint during defendant merits investigation. Guessed Ronaldo-specific market endpoints returned not_found; this event endpoint returned the parent event metadata and settlement sources.",
+        "retrieval_timestamp": "2026-06-29T19:00:00Z",
+        "submitted_by_role": "defendant",
+        "submitted_phase": "arguments",
+        "relevance": "Primary Kalshi API metadata for the parent event. It confirms the event ticker, title, date subtitle, category, and listed settlement sources, while showing no Ronaldo-specific market data in the event response. This bears on the limits of plaintiff's Canada-strike page extraction and the missing Ronaldo-specific primary rules/source chain.",
+        "text_readable": true
+      }
+    ],
+    "evidence_count": 6,
+    "schema_version": "aar.evidence-manifest.v0"
+  }
+}

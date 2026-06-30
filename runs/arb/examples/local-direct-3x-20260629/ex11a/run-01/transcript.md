@@ -1,0 +1,569 @@
+# Arbitration Transcript
+
+## Complaint
+
+### Proposition
+
+By May 24, 2026, 11:59 PM ET, Iran initiated a major non-weather closure of its airspace within the meaning of the market rule.
+
+This is an open-record/search-enabled arbitration of the factual condition behind the Polymarket market, not an adjudication of Polymarket, UMA, or resolution-governance correctness.
+
+### Standard of Evidence
+
+Preponderance of the evidence.
+
+## Council
+
+- C1: openrouter://nvidia/nemotron-3-super-120b-a12b (personas/generic.md)
+- C2: openrouter://openai/gpt-oss-120b (personas/generic.md)
+- C3: openrouter://moonshotai/kimi-k2-thinking (personas/generic.md)
+- C4: openrouter://deepseek/deepseek-v3.1-terminus (personas/generic.md)
+- C5: openrouter://qwen/qwen3-coder-plus (personas/generic.md)
+## Proceeding
+
+### Openings
+
+#### Plaintiff Opening
+
+Council members, this case turns on the market rule’s own definition, not on a later platform governance outcome. The current case packet establishes the operative standard: the proposition is true if, by May 24, 2026 at 11:59 PM ET, Iran initiated a non-weather closure that was “major.” The rule does not require a permanent nationwide blackout. It expressly includes a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian airspace region, and it warns that limited exceptions to a broad closure do not defeat qualification. It also gives an airport-based alternative for complete non-weather suspensions affecting at least two listed airports.
+
+The first point for the plaintiff is therefore construction. The defense will likely say “partial” and “some flights continued.” But the rule already anticipates exceptions and regional scope. The decisive question is whether Iran itself imposed restrictions broad enough to shut a major Iranian airspace region or broadly suspend commercial operations, not whether every possible aircraft movement ended everywhere in Iran.
+
+The current admitted evidence proves the rule and the source hierarchy. It does not, standing alone, prove that the May 24 factual event occurred. That gap matters, and the plaintiff should not pretend otherwise in opening. The proof that should decide this case is concrete: the Iranian aviation authority notice or NOTAM; official Iranian airport or navigation-company statements; flight-operation evidence showing the practical effect on commercial arrivals, departures, and overflights; and a consensus of credible reporting where it identifies the official notice, effective dates, geographic scope, airports affected, and any exceptions.
+
+Plaintiff’s investigation before this opening identified the right evidence path. The central source target is the official Iranian civil-aviation notice reportedly governing the western Tehran FIR/OIIX around May 22 through May 25, together with any accompanying rules limiting operations at Iranian airports. In later phases, when evidence admission is allowed, plaintiff expects to submit the strongest available source material rather than ask the council to rely on search snippets or attorney notes. The key extraction tasks will be to preserve the notice text, identify its issuer and effective period, map its geographic scope to a major Iranian airspace region, and determine whether any listed airports were under suspension or merely limited approvals.
+
+What would satisfy the plaintiff’s burden is straightforward. If the record shows that Iran’s Civil Aviation Organization or equivalent authority closed the western sector of the Tehran FIR, suspended civil flight permits there through May 24, and allowed only narrow exceptions or per-flight approvals elsewhere, that is a major non-weather closure under the rule. If the evidence instead shows only foreign-airline avoidance, foreign government warnings, weather-related disruption, VFR-only limits, or isolated airport cancellations without a broad Iranian-imposed closure, then the proposition would fail.
+
+Provenance and custody will matter. Official Iranian aviation records carry the most weight. Credible aviation-risk databases, flight-tracking captures, and contemporaneous reporting can corroborate scope and effect, but should be tested against the actual notice and against any later corrections or reopening announcements. The plaintiff’s position is not that every advisory about Iranian airspace counts. It is that an Iran-issued, security-driven closure of a major Iranian airspace region by the deadline is exactly what this rule was written to capture.
+
+The council should expect the dispute to narrow to three factual findings: who imposed the restriction, what airspace and commercial operations it covered, and whether it remained in force by May 24 at 11:59 PM ET. On the rule language already in the record, those findings are enough to decide the case by a preponderance of the evidence.
+
+#### Defendant Opening
+
+Council members, the defense opening begins with the record as it exists, not with search leads. The sole admitted evidence is the market-page case packet. That file proves the rule text, the deadline, the examples, and the source hierarchy. It does not prove that Iran actually initiated a qualifying closure by May 24 at 11:59 PM ET. Plaintiff’s own opening accepts that the factual event remains unproved on the current record.
+
+The market rule is narrower than “something disrupted aviation over Iran.” It requires an Iran-initiated, non-weather closure that is “major.” The rule defines that as a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian airspace region. It separately allows a complete non-weather suspension of commercial arrivals and departures affecting at least two listed airports. It also says limited partial closures do not qualify. Those words matter.
+
+Defense investigation has identified the same general source path plaintiff previews: an alleged Iranian NOTAM or civil-aviation notice concerning the western part of the Tehran FIR/OIIX around May 22 through May 25. That is an important adverse lead, but at this stage it is not admitted evidence. More importantly, the exact text, custody, and scope will decide the case. A notice about airport operations in part of a FIR is not automatically the same thing as a broad closure of commercial flights transiting, arriving in, and departing from Iranian airspace or a major airspace region. Nor does a foreign safety warning, airline rerouting, or media shorthand about “airspace closed” establish that Iran imposed a qualifying closure under this market.
+
+The plaintiff will need to prove several links, not just one headline. First, the source must be authenticated or reliably captured as Iranian aviation authority action, not a secondary paraphrase or foreign advisory. Second, the effective period must extend through the market deadline when converted correctly against May 24, 2026 at 11:59 PM ET. Third, the scope must satisfy the rule: either a broad suspension of commercial flights in Iranian airspace or a major Iranian airspace region, including transit as well as arrivals and departures, or a complete suspension of commercial arrivals and departures at at least two listed airports. Fourth, any exceptions must be measured. The rule tolerates limited exceptions to a broad closure, but it does not transform limited restrictions, daylight-only operations, per-flight approvals, airport-specific closures, or VFR/general-aviation limits into a major closure.
+
+Provenance will carry real weight here. The strongest evidence would be the official NOTAM text or an official Iranian aviation statement, preserved with issuer, timestamps, replacement history, and full scope. Corroborating flight-tracking data and credible reporting may help explain practical effect, but they cannot substitute for the missing source chain if the question is who imposed what. The defense will also test whether later reopening notices, no-new-NOTAM statements, or operational exceptions narrow the claim.
+
+If plaintiff later admits a reliable Iran-issued notice showing that, through the deadline, Iran broadly suspended civil commercial operations in the western Tehran FIR, or completely suspended commercial arrivals and departures at two listed airports, that would be strong evidence for “Yes.” But if the proof remains an unofficial mirror, a media summary, foreign risk guidance, or a partial airport-operation restriction with material exceptions, then plaintiff has not carried the preponderance burden.
+
+So the defense theory is simple: this case is not decided by the phrase “Iran closed airspace.” It is decided by authenticated text, source custody, timing, and the market’s exact major-closure definition. On the present admitted record, the rule is proven and the event is not.
+
+### Arguments
+
+#### Plaintiff Argument
+
+Council members, the plaintiff has now filled the opening-stage proof gap. The admitted record supports “Yes” by a preponderance.
+
+PX-1 is the market rule. It requires an Iran-initiated, non-weather “major closure” by May 24, 2026 at 11:59 PM ET. Its definition is broader than a total nationwide shutdown: a qualifying closure includes a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian airspace region. It also states that limited exceptions to a broad closure do not disqualify it.
+
+PX-2 is the most specific factual source now in the record. It reports that Iran temporarily closed the airspace over its western half from May 22 to May 25, suspending all civil flight permits in the western sector of the Tehran Flight Information Region, OIIX. It identifies the issuer and instrument: the Iranian Civil Aviation Authority issued NOTAM OIIX A1010/26 on May 22, ordering shutdown of all airports in the western part of the Tehran FIR, effective immediately and valid until May 25. It also reports that only eight airports across the country remained operational, including Mehrabad and Imam Khomeini International, and even those required daylight-only operations and fresh per-flight Civil Aviation Authority approval.
+
+PX-3 independently corroborates the operational core. RFE/RL reports, in a May 23 live item, that Iran’s Civil Aviation Organization announced temporary restrictions on the western part of the country’s airspace; that under the latest NOTAM all passenger flights over western Iran faced severe restrictions; that only eight airports were permitted to operate; and that those airports were limited to daylight hours and individual Civil Aviation Organization permits.
+
+PX-4 and PX-5 address context and the non-weather element. SafeAirspace’s Iran page treats OIIX/Tehran FIR as the relevant airspace and describes later partial reopening with the western part remaining closed. EASA’s official CZIB describes the airspace risk as conflict/security driven: military strikes, retaliation, Iranian air-defense alert, and state airspace closures or restrictions to mitigate risk to civil aviation. There is no record evidence of a weather cause.
+
+The defense’s best point is provenance: the raw NOTAM itself is not in this record. That affects weight, and plaintiff does not overstate it. But preponderance does not require perfect custody where independent contemporaneous sources converge on the same issuer, identifier, dates, geography, and operating restrictions, and official aviation-risk sources corroborate the non-weather setting. The record has more than a headline. It has the reported NOTAM identifier, OIIX A1010/26; the issuing authority; the dates May 22 through May 25; the affected airspace, western Tehran FIR/OIIX; the shutdown of airports in that sector; and the narrow residual airport permissions elsewhere.
+
+Those facts satisfy every rule element. First, the closure was Iran-initiated: PX-2 names the Iranian Civil Aviation Authority, and PX-3 names Iran’s Civil Aviation Organization. Second, it was non-weather: the record points to conflict, security, and air-defense risk. Third, it occurred before the deadline: a May 22 measure valid until May 25 necessarily remained in force on May 24 before 11:59 PM ET absent contrary evidence. Fourth, it was major: western Tehran FIR/OIIX is a major Iranian airspace region, and the record describes suspension of civil flight permits/passenger flights over western Iran plus shutdown of airports in the western FIR. The continued operation of eight airports under daylight and fresh-permit restrictions is a limited exception, not a disqualifier; the rule expressly allows limited exceptions to a broad closure.
+
+Nor is this a case about foreign warnings alone. PX-2 and PX-3 attribute the restrictions to Iranian aviation authorities and a NOTAM. PX-4 and PX-5 are corroboration of context and airspace status, not the sole basis for the closure finding. The defense may say “partial,” but the rule says a major Iranian airspace region is enough. The defense may say “some flights continued,” but the rule says limited exceptions do not defeat a broad closure.
+
+On this record, the more likely than not conclusion is that Iran initiated a major, non-weather closure of a major Iranian airspace region before the deadline. The proposition should be found true.
+
+Exhibits offered:
+- PX-1 Market rule and case packet: market-page.txt
+- PX-2 Indian Express captured NOTAM report: submitted-evidence-01-plaintiff-ac2309bdc9f7.txt
+- PX-3 RFE/RL captured live report: submitted-evidence-02-plaintiff-57917ec86ba3.txt
+- PX-4 SafeAirspace Iran operational context: submitted-evidence-03-plaintiff-b762826a22f0.txt
+- PX-5 EASA CZIB non-weather security context: submitted-evidence-04-plaintiff-51569ad0cb54.txt
+
+Technical reports:
+- Plaintiff source-search ledger
+  Search path: refreshed AAR record; read/stat market packet; searched exact phrases and identifiers including Iran airspace May 24 2026, Civil Aviation Organization, NOTAM, western Tehran FIR/OIIX, May 22-May 25, eight airports, and daylight-only operations. Submitted the strongest captured material found before filing: two contemporaneous reports identifying the Iranian NOTAM and restrictions, plus SafeAirspace and official EASA aviation-risk context. Raw official NOTAM text was not captured in this phase, so the filing treats that as a provenance limitation rather than concealing it.
+
+#### Defendant Argument
+
+Council members, plaintiff has improved the record, but the record still does not prove the precise market condition by a preponderance.
+
+The rule in PX-1 does not ask whether aviation over Iran was risky, whether airlines avoided Iran, or whether Iran imposed some restrictions. It asks whether Iran initiated a “major closure” of its airspace: a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian airspace region; or a complete non-weather suspension of commercial arrivals and departures affecting at least two listed airports. Limited partial closures do not qualify.
+
+Plaintiff’s best evidence is PX-2 and PX-3. They are secondary text captures, not the official Iranian NOTAM or Iranian aviation authority page. PX-2 says Indian Express, citing Gulf News, reported NOTAM OIIX A1010/26. PX-3 reports a live-blog item and does not give the NOTAM identifier. Both support that Iran announced serious restrictions in western Iran. But the exact instrument matters, and plaintiff did not submit it.
+
+DX-1 supplies a mirrored version of the raw NOTAM text. I do not overstate its custody: Notamify is an unofficial mirror, not the Iranian AIS original. But because plaintiff relies on the same NOTAM identifier, the mirrored raw wording is probative of what that instrument actually said. It cuts against plaintiff’s broad framing. The page categorizes A1010/26 and replacement A1015/26 as “AD Airport Operations.” The Q line is QFALC, an aerodrome-closure code. The operative text does not say “Tehran FIR closed,” “western airspace closed,” or “overflights suspended.” It says: all airports in the west part of Tehran FIR are closed except specified airports, with those exceptions operating sunrise to sunset and with new permission required for civil IFR passenger flights.
+
+That distinction matters under this market. A closure of airports located in the western part of a FIR is not necessarily a broad closure of commercial flights transiting, arriving in, and departing from Iranian airspace or a major airspace region. The rule’s airspace-region path requires more than airport operating limits; it requires a broad closure or suspension of commercial flights in the airspace/region, including transit. PX-2 mentions “all civil flight permits in the western sector,” but that sentence is a secondary paraphrase, not the raw rulemaking text. PX-3 says “severe restrictions,” which is not the same as a qualifying broad closure.
+
+The alternative listed-airport path is also not proven cleanly. It requires complete suspension of commercial arrivals and departures at at least two listed airports: IKA, THR, MHD, SYZ, or IFN. Plaintiff’s summaries are internally hard to reconcile with the mirrored raw NOTAM. PX-2 says the operational airports included Mehrabad, Imam Khomeini, Isfahan, Shiraz, Yazd, Tabriz, Mashhad, and Bandar Abbas. DX-1’s A1010 exception list is different: OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, and OIAW. Replacement A1015 adds OIFM and other airports. Those conflicts are not trivial. If listed airports such as Shiraz or Isfahan were operational under daylight and per-flight approval conditions, plaintiff cannot simply infer a complete suspension at two listed airports. If Tehran airports were closed, the record should prove that from the official NOTAM, airport NOTAMs, or official airport authority statements, not from inconsistent secondary summaries.
+
+PX-4 and PX-5 add context, but not the missing link. SafeAirspace’s June discussion and EASA’s conflict-zone bulletin show a security environment and foreign advice against operating in Iranian airspace. They support non-weather context. They do not prove the exact Iran-issued May 22-25 closure met the market definition. Foreign safety recommendations and later operational context cannot substitute for the official Iranian closure instrument.
+
+The defense is not asking the council to ignore adverse facts. The record likely shows Iran imposed significant non-weather aviation restrictions before the deadline. The question is whether those restrictions crossed the market’s defined line. On this record, the strongest source available to test the exact wording points to airport closures with exceptions and per-flight permission, not a proven broad airspace closure or a proven complete suspension at two listed airports. Plaintiff’s proof chain remains secondary, inconsistent on material airport details, and missing the primary Iranian source.
+
+Because the burden is preponderance, the council should not resolve “Yes” from shorthand phrases like “airspace closed” when the raw wording and source chain are narrower. The better finding on this record is that plaintiff proved restrictions, but not a qualifying major closure within the rule.
+
+Exhibits offered:
+- DX-1 Notamify mirrored raw OIIX A1010/26 and A1015/26 text: submitted-evidence-05-defendant-241b442bed15.txt
+
+Technical reports:
+- Defense source-chain and scope audit
+  Reviewed plaintiff exhibits and searched exact NOTAM identifiers and raw wording. Plaintiff evidence is secondary reporting/context and does not include an official Iranian AIS/CAA source. Defendant submitted an unofficial Notamify mirror because it preserves the raw A1010/26 and replacement A1015/26 wording, which categorizes the measure as AD Airport Operations/QFALC and describes airport closures with listed exceptions, creating a material scope issue under the market rule.
+
+### Rebuttals
+
+#### Plaintiff Rebuttal
+
+Council members, the defendant’s new evidence does not defeat plaintiff’s case. It supplies the missing raw-wording context and largely confirms the plaintiff’s core elements.
+
+Start with timing and issuer. DX-1 says A1010/26 ran from 2026-05-22 20:46 UTC to 2026-05-25 08:30, and A1015/26 replaced it from 2026-05-23 18:21 to the same May 25 endpoint. That covers May 24 at 11:59 PM ET. The text also says new permission had to be requested from CAA or Iran CAA for civil IFR passenger flights. So the restriction was Iran-authority action, not merely foreign-airline avoidance.
+
+Next, scope. Defendant emphasizes that the NOTAM category is “AD Airport Operations,” but the rule has an airport-based path and also treats limited CAA-approved exceptions as compatible with a qualifying broad closure. DX-1’s actual words are not narrow: “all airports in the west part of Tehran FIR are closed except” listed airports; the listed exceptions were only operational from sunrise to sunset; “all previous permissions are suspended for all operators”; and new permission was required for civil IFR passenger flights. That is not ordinary delay or voluntary rerouting. It is a region-wide Iranian aviation authority closure of airport operations, with only controlled daylight exceptions.
+
+The defendant’s “some airports remained open” point is exactly the exception scenario the rule anticipated. PX-1 says limited exceptions to a broad closure do not disqualify it, including exceptions for flights pre-approved by the Iranian Civil Aviation Authority. DX-1 describes precisely that structure: a broad closure in the western Tehran FIR, plus named exception airports and new CAA permission for civil IFR passenger flights.
+
+Nor does DX-1 undermine the secondary reports. PX-2 reported NOTAM OIIX A1010/26, May 22-May 25, western Tehran FIR, shutdown of airports in the western part of the FIR, daylight-only exception operations, and fresh CAA approvals. DX-1’s mirrored text matches that in substance. PX-3 likewise reported the Civil Aviation Organization announcement, western airspace restrictions, severe passenger-flight limits, eight permitted airports, daylight hours, and individual permits. DX-1 may clarify the exact exception list, but it does not create a contradiction that matters to the rule question.
+
+The airport alternative also remains live. DX-1 lists exception airports; notably, the raw text read into this record does not list the Tehran listed airports IKA/Imam Khomeini or THR/Mehrabad as exceptions. At minimum, that defeats the defense suggestion that plaintiff has no airport-specific path. More importantly, plaintiff does not need that alternative if the council credits the major-region theory: the west part of the Tehran FIR is a major Iranian airspace region, and the record shows all airports in that region closed except controlled exceptions, all previous permissions suspended, and civil IFR passenger flights subject to fresh CAA approval.
+
+Finally, the non-weather element is unrebutted. PX-4 and PX-5 place the restrictions in a conflict/security airspace environment; DX-1 does not suggest weather. The defense has shown only that the official instrument may be framed as airport operations. That is still a qualifying major non-weather closure under the market rule’s text.
+
+The defendant’s own evidence therefore narrows the source-chain concern but strengthens the merits: Iranian authority, before the deadline, broad western Tehran FIR airport closure, suspended permissions for all operators, limited daylight exceptions, and fresh CAA approval. The proposition remains more likely true than false.
+
+Exhibits offered:
+- PX-R1 Defendant Notamify mirror confirming NOTAM terms: submitted-evidence-05-defendant-241b442bed15.txt
+- PX-R2 Market rule on limited exceptions: market-page.txt
+- PX-R3 Indian Express report aligned with mirror: submitted-evidence-01-plaintiff-ac2309bdc9f7.txt
+- PX-R4 RFE/RL corroborating report: submitted-evidence-02-plaintiff-57917ec86ba3.txt
+
+Technical reports:
+- Plaintiff rebuttal evidence check
+  Read defendant evidence ev_241b442bed15 in full. It is an unofficial Notamify mirror, but its captured text confirms A1010/26 and A1015/26 covered May 22/23 through May 25, closed all airports in the west part of Tehran FIR except listed daylight-operation airports, suspended all previous permissions for all operators, and required new CAA/Iran CAA permission for civil IFR passenger flights. No new external evidence was needed for rebuttal.
+
+### Surrebuttals
+
+#### Defendant Surrebuttal
+
+Council members, plaintiff’s rebuttal is right about one thing: DX-1 confirms that Iran imposed significant airport restrictions before the deadline. But that is not the same as confirming the rule-defined proposition.
+
+The key move in plaintiff’s rebuttal is to treat “all airports in the west part of Tehran FIR are closed except...” as equivalent to a broad closure of the western Tehran FIR airspace. The text does not say that. DX-1 is categorized as “AD Airport Operations.” Its Q line is QFALC. Its operative words are airport words: “all airports in west part of Tehran FIR are closed except” named airports. The phrase “west part of Tehran FIR” identifies where the airports are. It is not itself a statement that the FIR, airspace, overflights, or all commercial transit through the region were closed.
+
+That distinction is exactly why the market rule is written as it is. For the airspace-region path, plaintiff must prove a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian airspace region. DX-1 may support restrictions on arrivals and departures at airports. It does not, in its raw wording, prove that commercial flights transiting the western Tehran FIR were suspended. Plaintiff’s secondary reports use broader language, but the raw text they say they are describing is narrower.
+
+Plaintiff also invokes the rule’s limited-exception clause. But that clause does not answer the threshold question. Limited exceptions do not defeat a broad closure once a broad closure is proven. They do not convert any airport-operations NOTAM with exceptions into a broad airspace closure. The council still has to decide what was closed: airspace/commercial transit in a major region, or airport operations at specified aerodromes.
+
+The airport alternative remains unproven as well. It requires a complete suspension of commercial arrivals and departures affecting at least two listed airports. Plaintiff’s reports say certain listed airports remained operational under daylight and permit limits, while DX-1’s exception lists differ from those summaries. That conflict is not a harmless detail when the alternative route turns on exactly which listed airports were completely suspended.
+
+So the fair reading of DX-1 is not “defense evidence proves Yes.” It is: serious Iran-issued airport restrictions, significant security context, but no primary official source and no raw wording establishing the market’s required airspace/transit closure or complete suspension at two listed airports. On preponderance, that leaves plaintiff short of the precise proposition.
+
+### Closings
+
+#### Plaintiff Closing
+
+Council members, the final question is not whether the record is perfect. It is whether the proposition is more likely true than false. It is.
+
+The market rule in the case packet does three important things. It requires Iran-initiated, non-weather action by the deadline. It defines a major closure to include a broad closure, cancellation, or suspension in Iranian airspace or a major Iranian airspace region. And it expressly says limited exceptions, including Iranian CAA pre-approval exceptions, do not disqualify a broad closure.
+
+The record now establishes the operative facts. Plaintiff’s contemporaneous reporting evidence identifies the Iranian aviation authority action, the NOTAM identifier A1010/26, the May 22-May 25 effective period, the western Tehran FIR/OIIX, severe passenger-flight restrictions, daylight-only exception operations, and per-flight Civil Aviation Organization approval. The non-weather character is corroborated by EASA and SafeAirspace context: this was a conflict/security airspace-management environment, not weather.
+
+Most importantly, the defense’s own Notamify mirror confirms the core rather than refuting it. The mirror is unofficial, and the council can weigh that. But it is the closest raw text in the record. It says A1010/26 and replacement A1015/26 ran through May 25, covering the deadline. It says all airports in the west part of Tehran FIR were closed except listed airports. It says the exceptions operated only sunrise to sunset. It says all previous permissions were suspended for all operators. It says new permission was required from CAA or Iran CAA for civil IFR passenger flights. That is Iranian authority action, before the deadline, in a major Iranian region, for non-weather security reasons, with only controlled exceptions.
+
+The defense asks the council to treat “airport operations” as categorically outside the rule. But the rule itself rejects that narrow reading. It includes closures, cancellations, or suspensions of commercial flights in a major Iranian airspace region, and separately recognizes airport suspensions. Commercial passenger flights do not operate in the abstract; closing all airports across the west part of the Tehran FIR except named daylight/permission exceptions is a broad regional closure of commercial aviation operations. The exact exception structure is the one the rule says should not disqualify a closure.
+
+The defense also says the record does not expressly prove overflight/transit closure. But preponderance is not a demand for every possible formulation. The market asks whether Iran initiated a major non-weather closure of its airspace within the rule’s meaning. The admitted record shows a state NOTAM regime shutting airport operations across a major region, suspending prior permissions for all operators, requiring fresh CAA permission for civil IFR passenger flights, and lasting through the deadline. That is far beyond limited cancellations, delays, a foreign warning, VFR-only limits, or weather disruption.
+
+The best contrary point is source custody: the raw text is mirrored, not original Iranian AIS. Yet both sides rely on the same identifier, and the mirror aligns with plaintiff’s independent contemporaneous reports on the decisive features. No admitted evidence points to weather, foreign-only action, expiration before the deadline, or merely voluntary airline avoidance.
+
+On the record as a whole, the more likely fact is that Iran initiated a major non-weather closure by May 24, 2026, 11:59 PM ET. The proposition should be found true.
+
+#### Defendant Closing
+
+Council members, the defense closing is not that nothing happened. The record supports that Iran imposed serious, non-weather aviation restrictions before the deadline. The question is whether plaintiff proved the market’s exact proposition: a major closure of Iranian airspace within the rule.
+
+The rule is precise. A qualifying major closure is a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian airspace region. The alternative is a complete suspension of commercial arrivals and departures affecting at least two listed airports. Limited partial closures do not qualify.
+
+Plaintiff’s case depends on moving from “airport restrictions in the west part of Tehran FIR” to “major airspace closure.” The admitted record does not justify that jump. PX-2 and PX-3 are secondary reports. PX-4 and PX-5 are context and foreign safety guidance. The closest raw text in the record is DX-1, and even that is an unofficial mirror rather than the original Iranian AIS/CAA publication. If the council credits DX-1, it should credit what it actually says.
+
+DX-1 is categorized as AD Airport Operations. Its Q line is QFALC. The operative text says all airports in the west part of Tehran FIR are closed except specified airports, with exceptions operating sunrise to sunset and with fresh CAA permission required for civil IFR passenger flights. That proves airport-operation restrictions. It does not say the western Tehran FIR was closed. It does not say airspace was closed. It does not say overflights or commercial transit through the region were suspended.
+
+That missing transit/airspace link is decisive because the market did not ask whether airports in a region were restricted. It asked whether there was a broad closure or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major airspace region. Plaintiff’s closing says commercial flights depend on airports. Often they do, but that inference is not the rule. The rule separately names an airport-based alternative, which shows the drafters understood the difference between airport suspensions and airspace-region closures.
+
+The limited-exception clause does not cure the gap. It means limited exceptions do not defeat a broad closure once a broad closure is proven. It does not transform every airport-operations NOTAM with named exceptions and permit requirements into a broad airspace closure. The threshold question remains what was closed. On the raw wording, it was airports in part of a FIR, with exceptions.
+
+The airport alternative is not cleanly proven either. Plaintiff’s own reports and DX-1 do not line up on which airports were operational. Some listed airports are described as operational under daylight and permission controls. If plaintiff wants the council to find a complete suspension at two listed airports, the record needed reliable airport-specific proof. It does not have it.
+
+So the record establishes risk, conflict context, Iranian authority restrictions, and controlled airport operations. It does not establish by a preponderance the specific market condition: a qualifying major closure of airspace, or a complete suspension at two listed airports. The proposition should be found false.
+
+## Council Deliberation
+
+### Round 1
+
+Tally: 4 demonstrated
+
+[C1] demonstrated
+The admitted record shows Iran's Civil Aviation Authority issued NOTAM OIIX A1010/26 suspending civil flight permits in western Tehran FIR (May 22-25), affecting commercial flights arriving/departing/transiting that major airspace region, with only limited exceptions, and the restrictions were security-related, not weather.
+
+[C3] demonstrated
+The admitted record demonstrates Iran initiated a major non-weather closure by the deadline. NOTAM A1010/26 (May 22-25) suspended all civil flight permits in western Tehran FIR, closed all airports in that major region except limited daylight operations with fresh CAA approval, suspended previous permissions, and was security-related (PX-2, PX-3, DX-1, PX-5). This satisfies the rule's 'broad closure...suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian airspace region' with permitted limited exceptions.
+
+[C4] demonstrated
+The admitted record proves by preponderance that Iran initiated a major non-weather closure. NOTAM A1010/26 (May 22-25) suspended all civil flight permits in western Tehran FIR, closed all airports in that major region except limited daylight operations with fresh CAA approval, suspended previous permissions, and was security-related. This satisfies the rule's 'broad closure...suspension of commercial flights transiting, arriving in, and departing from... a major Iranian airspace region' with permitted limited exceptions.
+
+[C5] demonstrated
+The admitted record shows Iran's Civil Aviation Authority issued NOTAM OIIX A1010/26 on May 22, 2026, closing all airports in the western part of Tehran FIR (a major Iranian airspace region) with only limited daylight exceptions requiring fresh CAA approval. This Iranian-initiated, non-weather restriction covered commercial flights arriving, departing, and transiting the region by the May 24, 2026 deadline, satisfying the market rule's definition of a major closure with permitted limited exceptions.
+
+## Exhibits
+
+[plaintiff] PX-1 Market rule and case packet
+# Market page record
+
+Official event URL: https://polymarket.com/event/iran-closes-its-airspace-by
+Official May 24 market URL: https://polymarket.com/event/iran-closes-its-airspace-by/iran-closes-its-airspace-by-may-24
+Captured API file: source-captures/polymarket-gamma-event.json
+Captured May 24 API file: source-captures/polymarket-gamma-market-may-24.json
+Captured event page file: source-captures/polymarket-page-and-api-extract.txt
+Captured May 24 page file or error: source-captures/polymarket-gamma-market-may-24.json
+Capture time: 2026-05-24T01:44:04Z
+
+## Event
+
+- event id: 438327
+- ticker/slug: iran-closes-its-airspace-by / iran-closes-its-airspace-by
+- title: Iran closes its airspace by...?
+- event createdAt: 2026-05-01T16:11:36.585944Z
+- event creationDate: 2026-05-01T18:22:49.431549Z
+- event startDate: 2026-05-01T18:22:49.431559Z
+- event endDate: 2026-05-31T00:00:00Z
+- event active: True
+- event closed: False
+- event volume at capture: 34658537.51144401
+
+## May 24 market
+
+- market id: 2241873
+- slug: iran-closes-its-airspace-by-may-24
+- question: Iran closes its airspace by May 24?
+- groupItemTitle: May 24
+- conditionId: 0x4ba348328e4d4ddee9e6734c9a369b2e8138611651f9f6dc8f59dea51df6c734
+- questionID: 0x30ebd10971cc044380ce6495e791828e9e0291fbb48550ca8be42149e1982791
+- createdAt: 2026-05-12T15:03:45.641355Z
+- startDate: 2026-05-12T15:08:30.267422Z
+- endDate: 2026-05-24T00:00:00Z
+- endDateIso: 2026-05-24
+- active: True
+- closed: False
+- acceptingOrders: True
+- umaResolutionStatus: disputed
+- umaResolutionStatuses: ["proposed", "disputed", "proposed", "disputed"]
+- outcomes: ["Yes", "No"]
+- outcomePrices: ["0.157", "0.843"]
+- lastTradePrice: 0.16
+- bestBid/bestAsk: 0.15 / 0.164
+- updatedAt: 2026-05-24T01:35:13.748834Z
+- volume at capture: 8289170.735521075
+
+## Rule text
+
+This market will resolve to “Yes” if Iran initiates a major closure of its airspace, that is not solely due to weather conditions, by the listed date, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+A “major closure” is defined as a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian Airspace region. A qualifying closure must apply generally to flights across Iran or a major Iranian airspace region. Limited cancellations, delays, or other partial closures will not qualify. Limited exceptions to a broad closure, however, will not disqualify such a closure from counting (e.g. exceptions for certain flights pre-approved by the Iranian Civil Aviation Authority may be permitted).
+
+Any non-weather complete suspension of commercial arrivals and departures affecting at least two of the following airports will qualify: Imam Khomeini International Airport (IKA), Mehrabad Airport (THR), Mashhad International Airport (MHD), Shiraz International Airport (SYZ), or Isfahan International Airport (IFN).
+
+Qualifying previous examples include the January 2026 total closure of Iranian airspace except to international flights with express governmental permission (https://www.reuters.com/world/middle-east/iran-shuts-airspace-most-flights-flightradar24-says-2026-01-14/) and the April 2024 closure of Iran’s western airspace (https://www.reuters.com/world/middle-east/iranian-airports-cancel-flights-until-monday-morning-2024-04-14/). Non-qualifying examples include the January 27, 2026 partial closure of Iranian airspace around the Strait of Hormuz (https://www.aa.com.tr/en/middle-east/iran-issues-airspace-notice-for-military-drills-near-strait-of-hormuz/3812508) and the January 25 - April 25, 2026 VFR (Visual Flight Rules) flights suspension which did not broadly close commercial aviation in a qualifying region (https://www.intellinews.com/iran-suspends-general-aviation-and-vfr-flights-in-new-airspace-directive-421997/).
+
+Warnings, No-Fly-Zones, or other flight restrictions imposed by airlines or countries other than Iran will not be sufficient for a “Yes” resolution.
+
+Airspace closures which occur solely due to weather conditions will not qualify.
+
+The primary resolution sources for this market will be official information from Iranian aviation authorities and a consensus of credible reporting.
+
+## Notes for arbitration
+
+The proposition tracks the rule text, not the platform-resolution question. The operative elements are: (1) Iran initiated the closure; (2) the closure was not solely weather-related; (3) the closure occurred by May 24, 2026, 11:59 PM ET; (4) the closure was a major closure, defined by the rule as a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian airspace region; or a non-weather complete suspension of commercial arrivals and departures affecting at least two listed airports; and (5) the primary sources are official information from Iranian aviation authorities and a consensus of credible reporting.
+
+
+[plaintiff] PX-2 Indian Express captured NOTAM report
+Source: Indian Express, 'Iran closes western airspace, only 8 airports operational; Rubio in Delhi hints at imminent breakthrough or breakdown'. URL: https://indianexpress.com/article/world/us-news/iran-closes-airspace-trump-cancels-plans-us-military-strikes-rubio-india-10704692/. Retrieved during AAR investigation 2026-06-30.
+
+Relevant captured text:
+- By Express Global Desk. 6 min read May 23, 2026 09:23 PM IST; first published May 23, 2026 at 09:05 PM IST.
+- 'Iran has temporarily closed the airspace over its western half from May 22 to May 25, suspending all civil flight permits in the western sector of the Tehran Flight Information Region (OIIX), as Washington weighs a fresh round of military strikes and Pakistani and Qatari mediators race to revive stalled US-Iran talks.'
+- 'The Iranian Civil Aviation Authority issued a Notice to Airmen (NOTAM) — OIIX A1010/26 — on Friday, May 22, ordering the shutdown of all airports in the western part of the Tehran FIR, effective immediately and valid until May 25, the Gulf News reported.'
+- 'Only eight airports across the country remain operational, including Tehran’s Mehrabad and Imam Khomeini International, alongside Isfahan, Shiraz, Yazd, Tabriz, Mashhad and Bandar Abbas. Even at these, flights are restricted to daylight hours from sunrise to sunset, and airlines must obtain fresh per-flight approval from the Civil Aviation Authority, according to the NOTAM.'
+- 'Flight-tracking data shows commercial aircraft already rerouting away from western Iranian airspace, with multiple airlines avoiding the corridor entirely.'
+- The article's quiz/fact section repeats: 'Iran's Civil Aviation Authority issued NOTAM OIIX A1010/26 on May 22, shutting all airports in the western part of the Tehran Flight Information Region. The restrictions came into effect on May 22 and remain valid until May 25, 2026.'
+
+[plaintiff] PX-3 RFE/RL captured live report
+Source: Radio Free Europe/Radio Liberty live blog, 'Maritime Traffic In Hormuz Strait Slows Sharply', item 'Airspace Closed Over Western Iran'. URL: https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284/lbl0lbi456071.html. Retrieved during AAR investigation 2026-06-30.
+
+Relevant captured text:
+- Timestamp shown on page: 10:03 23.5.2026.
+- Heading: 'Airspace Closed Over Western Iran'.
+- 'Iran’s Civil Aviation Organization has announced temporary restrictions on the western part of the country’s airspace.'
+- 'The move comes amid heightened tensions, with reports that the US is considering renewed military action against Iran while diplomatic efforts continue.'
+- 'According to the latest Notice to Air Missions (NOTAM), all passenger flights over western Iran face severe restrictions.'
+- 'Currently, only eight airports are permitted to operate, including Tehran’s Mehrabad and Imam Khomeini airports, as well as Isfahan and Yazd airports in central Iran.'
+- 'At these operational airports, flights are restricted to daylight hours (sunrise to sunset), and airlines must obtain a new permit from the Civil Aviation Organization for each individual flight.'
+
+[plaintiff] PX-4 SafeAirspace Iran operational context
+Source: SafeAirspace Iran page. URL: https://safeairspace.net/iran/. Retrieved during AAR investigation 2026-06-30.
+
+Relevant captured text:
+- Page heading: 'Iran' and 'Risk Level: One - Do Not Fly'.
+- 'June 2026: Iranian airspace (OIIX/Tehran FIR) has partially reopened, but very few international operators are using it, and most Europe-Asia traffic continues to route south via Egypt/Saudi or north via the Caucasus/Afghanistan.'
+- 'Major events: June 2026: Iran partially reopened the eastern part of the OIIX/Tehran FIR for overflights, while the western part remains closed.'
+- 'Major events: March 2026: OIIX/Tehran FIR closed following large-scale US and Israeli strikes on Iranian military targets and subsequent Iranian missile and drone retaliation across the Middle East.'
+- The page lists current warnings including EASA CZIB 2026-03-R13 and national NOTAMs/advisories warning against operations in Tehran FIR/OIIX.
+
+[plaintiff] PX-5 EASA CZIB non-weather security context
+Source: EASA, 'Airspace of the Middle East and Persian Gulf', CZIB 2026-03-R13. URL: https://www.easa.europa.eu/en/domains/air-operations/czibs/2026-03-r13. Retrieved during AAR investigation 2026-06-30.
+
+Relevant captured text:
+- 'This CZIB is issued based on information currently available to EASA, the European Commission and Member States in order to share information which is considered necessary to ensure the safety of flights over zones of interest and indicate areas of high risk.'
+- 'On 28 February 2026, the United States and Israel conducted military strikes targeting sites within Iranian territory. In response, Iran carried out retaliatory attacks. The resulting military conflict created high risks not only to the airspace of Iran but also to that of neighbouring States hosting U.S. military bases or otherwise affected by the hostilities and associated military activities, including interceptions.'
+- 'Given the ongoing high level of tensions and the potential for further military action, Iran maintains a high level of alert for its air force and air defence units nationwide, which creates an increased likelihood of misidentification within the FIR Tehran (OIIX).'
+- 'In terms of airspace management during the conflict, most of the States concerned have taken measures to address airspace risks by implementing temporary airspace closures and restrictions, thereby contributing to the mitigation of risks to civil aviation.'
+- Recommendation: Air operators should 'Not operate within the affected airspace of Iran, Iraq, Lebanon at all flight levels and altitudes.'
+
+[defendant] DX-1 Notamify mirrored raw OIIX A1010/26 and A1015/26 text
+Source 1: Notamify OIIX NOTAM page for A1010/26. URL: https://notamify.com/notams/OIIX/693f2d0f-54d3-433b-8128-49f5475ba269. Retrieved during AAR defendant investigation 2026-06-30.
+
+Captured page text:
+- A1010/26
+- EST
+- AD Airport Operations
+- Summary: All west Tehran FIR airports are closed except listed airports operating sunrise to sunset, with new CAA permission required for civil IFR passenger flights.
+- Period of applicability shown in UTC: 2026-05-22 20:46 - 2026-05-25 08:30.
+- Interpretation: All airports in the west part of Tehran FIR are closed except OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, and OIAW, which are operational from sunrise to sunset. All previous permissions are suspended for all operators, and new permission must be requested from the CAA for operation of civil IFR passenger flights on these airports.
+
+Raw NOTAM shown:
+    A1010/26 NOTAMR A0799/26
+    Q)OIIX/QFALC/IV/NBO/A/000/999/
+    A)OIIX B)2605222046 C)2605250830EST
+    E)REF NOTAM  A0796/26, ALL AIRPORTS IN WEST PART
+    OF TEHRAN FIR ARE CLSD
+    EXCEPT OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, AND OIAW THAT ARE
+    OPERATIONAL FM SUNRISE TO SUNSET (HJ).
+    ALL PREVIOUS PERMISSIONS ARE SUSPENDED FOR ALL OPERATORS,
+    NEW PERMISSION SHALL BE REQUESTED FM CAA FOR OPRATION OF
+    CIVIL IFR PASSENGER FLIGHTS ON THESE AIRPORTS.
+
+Source 2: Notamify OIIX NOTAM page for A1015/26. URL: https://notamify.com/notams/OIIX/67435351-52f9-4d17-8f4c-497a21dd94bf. Retrieved during AAR defendant investigation 2026-06-30.
+
+Captured page text:
+- A1015/26
+- EST
+- AD Airport Operations
+- Summary: All airports in the west part of Tehran FIR are closed except listed airports, which are operational HJ.
+- Period of applicability shown in UTC: 2026-05-23 18:21 - 2026-05-25 08:30.
+- Interpretation: All airports in the west part of Tehran FIR are closed except OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, OIAW, OIFM, OITL, OISR and OIAM, which are operational from sunrise to sunset (HJ). All previous permissions are suspended for all operators. New permission must be requested from Iran CAA for civil IFR passenger flights.
+
+Raw NOTAM shown:
+    A1015/26 NOTAMR A1010/26
+    Q)OIIX/QFALC/IV/NBO/A/000/999/
+    A)OIIX B)2605231821 C)2605250830EST
+    E)REF NOTAM  A0796/26, ALL AIRPORTS IN WEST PART OF TEHRAN FIR
+    ARE CLSD EXCEPT:
+    OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, OIAW,OIFM, OITL,
+    OISR AND OIAM
+    THAT ARE OPERATIONAL FM SUNRISE TO SUNSET (HJ).
+    ALL PREVIOUS PERMISSIONS ARE SUSPENDED FOR ALL OPERATORS.
+    NEW PERMISSION SHALL BE REQUESTED FOR OPERATION OF
+    CIVIL IFR PASSENGER FLIGHTS FM IRAN CAA.
+
+Limitations: This is an unofficial mirror page and does not itself prove original publication by Iranian AIS/CAA. The wording is nevertheless relevant because plaintiff relies on secondary reports describing the same NOTAM identifier.
+
+[plaintiff] PX-R1 Defendant Notamify mirror confirming NOTAM terms
+Source 1: Notamify OIIX NOTAM page for A1010/26. URL: https://notamify.com/notams/OIIX/693f2d0f-54d3-433b-8128-49f5475ba269. Retrieved during AAR defendant investigation 2026-06-30.
+
+Captured page text:
+- A1010/26
+- EST
+- AD Airport Operations
+- Summary: All west Tehran FIR airports are closed except listed airports operating sunrise to sunset, with new CAA permission required for civil IFR passenger flights.
+- Period of applicability shown in UTC: 2026-05-22 20:46 - 2026-05-25 08:30.
+- Interpretation: All airports in the west part of Tehran FIR are closed except OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, and OIAW, which are operational from sunrise to sunset. All previous permissions are suspended for all operators, and new permission must be requested from the CAA for operation of civil IFR passenger flights on these airports.
+
+Raw NOTAM shown:
+    A1010/26 NOTAMR A0799/26
+    Q)OIIX/QFALC/IV/NBO/A/000/999/
+    A)OIIX B)2605222046 C)2605250830EST
+    E)REF NOTAM  A0796/26, ALL AIRPORTS IN WEST PART
+    OF TEHRAN FIR ARE CLSD
+    EXCEPT OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, AND OIAW THAT ARE
+    OPERATIONAL FM SUNRISE TO SUNSET (HJ).
+    ALL PREVIOUS PERMISSIONS ARE SUSPENDED FOR ALL OPERATORS,
+    NEW PERMISSION SHALL BE REQUESTED FM CAA FOR OPRATION OF
+    CIVIL IFR PASSENGER FLIGHTS ON THESE AIRPORTS.
+
+Source 2: Notamify OIIX NOTAM page for A1015/26. URL: https://notamify.com/notams/OIIX/67435351-52f9-4d17-8f4c-497a21dd94bf. Retrieved during AAR defendant investigation 2026-06-30.
+
+Captured page text:
+- A1015/26
+- EST
+- AD Airport Operations
+- Summary: All airports in the west part of Tehran FIR are closed except listed airports, which are operational HJ.
+- Period of applicability shown in UTC: 2026-05-23 18:21 - 2026-05-25 08:30.
+- Interpretation: All airports in the west part of Tehran FIR are closed except OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, OIAW, OIFM, OITL, OISR and OIAM, which are operational from sunrise to sunset (HJ). All previous permissions are suspended for all operators. New permission must be requested from Iran CAA for civil IFR passenger flights.
+
+Raw NOTAM shown:
+    A1015/26 NOTAMR A1010/26
+    Q)OIIX/QFALC/IV/NBO/A/000/999/
+    A)OIIX B)2605231821 C)2605250830EST
+    E)REF NOTAM  A0796/26, ALL AIRPORTS IN WEST PART OF TEHRAN FIR
+    ARE CLSD EXCEPT:
+    OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, OIAW,OIFM, OITL,
+    OISR AND OIAM
+    THAT ARE OPERATIONAL FM SUNRISE TO SUNSET (HJ).
+    ALL PREVIOUS PERMISSIONS ARE SUSPENDED FOR ALL OPERATORS.
+    NEW PERMISSION SHALL BE REQUESTED FOR OPERATION OF
+    CIVIL IFR PASSENGER FLIGHTS FM IRAN CAA.
+
+Limitations: This is an unofficial mirror page and does not itself prove original publication by Iranian AIS/CAA. The wording is nevertheless relevant because plaintiff relies on secondary reports describing the same NOTAM identifier.
+
+[plaintiff] PX-R2 Market rule on limited exceptions
+# Market page record
+
+Official event URL: https://polymarket.com/event/iran-closes-its-airspace-by
+Official May 24 market URL: https://polymarket.com/event/iran-closes-its-airspace-by/iran-closes-its-airspace-by-may-24
+Captured API file: source-captures/polymarket-gamma-event.json
+Captured May 24 API file: source-captures/polymarket-gamma-market-may-24.json
+Captured event page file: source-captures/polymarket-page-and-api-extract.txt
+Captured May 24 page file or error: source-captures/polymarket-gamma-market-may-24.json
+Capture time: 2026-05-24T01:44:04Z
+
+## Event
+
+- event id: 438327
+- ticker/slug: iran-closes-its-airspace-by / iran-closes-its-airspace-by
+- title: Iran closes its airspace by...?
+- event createdAt: 2026-05-01T16:11:36.585944Z
+- event creationDate: 2026-05-01T18:22:49.431549Z
+- event startDate: 2026-05-01T18:22:49.431559Z
+- event endDate: 2026-05-31T00:00:00Z
+- event active: True
+- event closed: False
+- event volume at capture: 34658537.51144401
+
+## May 24 market
+
+- market id: 2241873
+- slug: iran-closes-its-airspace-by-may-24
+- question: Iran closes its airspace by May 24?
+- groupItemTitle: May 24
+- conditionId: 0x4ba348328e4d4ddee9e6734c9a369b2e8138611651f9f6dc8f59dea51df6c734
+- questionID: 0x30ebd10971cc044380ce6495e791828e9e0291fbb48550ca8be42149e1982791
+- createdAt: 2026-05-12T15:03:45.641355Z
+- startDate: 2026-05-12T15:08:30.267422Z
+- endDate: 2026-05-24T00:00:00Z
+- endDateIso: 2026-05-24
+- active: True
+- closed: False
+- acceptingOrders: True
+- umaResolutionStatus: disputed
+- umaResolutionStatuses: ["proposed", "disputed", "proposed", "disputed"]
+- outcomes: ["Yes", "No"]
+- outcomePrices: ["0.157", "0.843"]
+- lastTradePrice: 0.16
+- bestBid/bestAsk: 0.15 / 0.164
+- updatedAt: 2026-05-24T01:35:13.748834Z
+- volume at capture: 8289170.735521075
+
+## Rule text
+
+This market will resolve to “Yes” if Iran initiates a major closure of its airspace, that is not solely due to weather conditions, by the listed date, 11:59 PM ET. Otherwise, this market will resolve to “No”.
+
+A “major closure” is defined as a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian Airspace region. A qualifying closure must apply generally to flights across Iran or a major Iranian airspace region. Limited cancellations, delays, or other partial closures will not qualify. Limited exceptions to a broad closure, however, will not disqualify such a closure from counting (e.g. exceptions for certain flights pre-approved by the Iranian Civil Aviation Authority may be permitted).
+
+Any non-weather complete suspension of commercial arrivals and departures affecting at least two of the following airports will qualify: Imam Khomeini International Airport (IKA), Mehrabad Airport (THR), Mashhad International Airport (MHD), Shiraz International Airport (SYZ), or Isfahan International Airport (IFN).
+
+Qualifying previous examples include the January 2026 total closure of Iranian airspace except to international flights with express governmental permission (https://www.reuters.com/world/middle-east/iran-shuts-airspace-most-flights-flightradar24-says-2026-01-14/) and the April 2024 closure of Iran’s western airspace (https://www.reuters.com/world/middle-east/iranian-airports-cancel-flights-until-monday-morning-2024-04-14/). Non-qualifying examples include the January 27, 2026 partial closure of Iranian airspace around the Strait of Hormuz (https://www.aa.com.tr/en/middle-east/iran-issues-airspace-notice-for-military-drills-near-strait-of-hormuz/3812508) and the January 25 - April 25, 2026 VFR (Visual Flight Rules) flights suspension which did not broadly close commercial aviation in a qualifying region (https://www.intellinews.com/iran-suspends-general-aviation-and-vfr-flights-in-new-airspace-directive-421997/).
+
+Warnings, No-Fly-Zones, or other flight restrictions imposed by airlines or countries other than Iran will not be sufficient for a “Yes” resolution.
+
+Airspace closures which occur solely due to weather conditions will not qualify.
+
+The primary resolution sources for this market will be official information from Iranian aviation authorities and a consensus of credible reporting.
+
+## Notes for arbitration
+
+The proposition tracks the rule text, not the platform-resolution question. The operative elements are: (1) Iran initiated the closure; (2) the closure was not solely weather-related; (3) the closure occurred by May 24, 2026, 11:59 PM ET; (4) the closure was a major closure, defined by the rule as a broad closure, cancellation, or suspension of commercial flights transiting, arriving in, and departing from Iranian airspace or a major Iranian airspace region; or a non-weather complete suspension of commercial arrivals and departures affecting at least two listed airports; and (5) the primary sources are official information from Iranian aviation authorities and a consensus of credible reporting.
+
+
+[plaintiff] PX-R3 Indian Express report aligned with mirror
+Source: Indian Express, 'Iran closes western airspace, only 8 airports operational; Rubio in Delhi hints at imminent breakthrough or breakdown'. URL: https://indianexpress.com/article/world/us-news/iran-closes-airspace-trump-cancels-plans-us-military-strikes-rubio-india-10704692/. Retrieved during AAR investigation 2026-06-30.
+
+Relevant captured text:
+- By Express Global Desk. 6 min read May 23, 2026 09:23 PM IST; first published May 23, 2026 at 09:05 PM IST.
+- 'Iran has temporarily closed the airspace over its western half from May 22 to May 25, suspending all civil flight permits in the western sector of the Tehran Flight Information Region (OIIX), as Washington weighs a fresh round of military strikes and Pakistani and Qatari mediators race to revive stalled US-Iran talks.'
+- 'The Iranian Civil Aviation Authority issued a Notice to Airmen (NOTAM) — OIIX A1010/26 — on Friday, May 22, ordering the shutdown of all airports in the western part of the Tehran FIR, effective immediately and valid until May 25, the Gulf News reported.'
+- 'Only eight airports across the country remain operational, including Tehran’s Mehrabad and Imam Khomeini International, alongside Isfahan, Shiraz, Yazd, Tabriz, Mashhad and Bandar Abbas. Even at these, flights are restricted to daylight hours from sunrise to sunset, and airlines must obtain fresh per-flight approval from the Civil Aviation Authority, according to the NOTAM.'
+- 'Flight-tracking data shows commercial aircraft already rerouting away from western Iranian airspace, with multiple airlines avoiding the corridor entirely.'
+- The article's quiz/fact section repeats: 'Iran's Civil Aviation Authority issued NOTAM OIIX A1010/26 on May 22, shutting all airports in the western part of the Tehran Flight Information Region. The restrictions came into effect on May 22 and remain valid until May 25, 2026.'
+
+[plaintiff] PX-R4 RFE/RL corroborating report
+Source: Radio Free Europe/Radio Liberty live blog, 'Maritime Traffic In Hormuz Strait Slows Sharply', item 'Airspace Closed Over Western Iran'. URL: https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284/lbl0lbi456071.html. Retrieved during AAR investigation 2026-06-30.
+
+Relevant captured text:
+- Timestamp shown on page: 10:03 23.5.2026.
+- Heading: 'Airspace Closed Over Western Iran'.
+- 'Iran’s Civil Aviation Organization has announced temporary restrictions on the western part of the country’s airspace.'
+- 'The move comes amid heightened tensions, with reports that the US is considering renewed military action against Iran while diplomatic efforts continue.'
+- 'According to the latest Notice to Air Missions (NOTAM), all passenger flights over western Iran face severe restrictions.'
+- 'Currently, only eight airports are permitted to operate, including Tehran’s Mehrabad and Imam Khomeini airports, as well as Isfahan and Yazd airports in central Iran.'
+- 'At these operational airports, flights are restricted to daylight hours (sunrise to sunset), and airlines must obtain a new permit from the Civil Aviation Organization for each individual flight.'
+
+## Submitted Evidence
+
+[plaintiff arguments] Indian Express report on Iran western airspace NOTAM, May 23 2026 (ev_ac2309bdc9f7_submitted-evidence-01-plaintiff-ac2309bdc9f7)
+Source: https://indianexpress.com/article/world/us-news/iran-closes-airspace-trump-cancels-plans-us-military-strikes-rubio-india-10704692/
+SHA-256: `ac2309bdc9f7dfe59cccf3ccb80599097c8c2a4dd2b76e47435cf2be49fd05c1`
+Bytes: 1872
+Relevance: Reports the alleged Iranian Civil Aviation Authority NOTAM OIIX A1010/26, effective May 22-May 25, closing western Tehran FIR and limiting operations to eight airports with daylight-only and per-flight approval restrictions.
+
+[plaintiff arguments] RFE/RL live report: Airspace Closed Over Western Iran, May 23 2026 (ev_57917ec86ba3_submitted-evidence-02-plaintiff-57917ec86ba3)
+Source: https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284/lbl0lbi456071.html
+SHA-256: `57917ec86ba34e8b03251ce267bf344986ced150fb89d4b8042f412502bd6fe0`
+Bytes: 1192
+Relevance: Independent contemporaneous reporting that Iran's Civil Aviation Organization announced temporary restrictions over western airspace, severe passenger-flight restrictions, eight airports permitted, daylight-only operations, and individual CAA permits.
+
+[plaintiff arguments] SafeAirspace Iran country page, June 2026 operational context (ev_b762826a22f0_submitted-evidence-03-plaintiff-b762826a22f0)
+Source: https://safeairspace.net/iran/
+SHA-256: `b762826a22f06e9e298dc3d1a72573e68e7f5fbed102104e4af053c639890376`
+Bytes: 929
+Relevance: Aviation-risk context showing OIIX/Tehran FIR status, partial reopening/western closure in June 2026, and that major airspace restrictions were security-related rather than weather-related; also useful for adverse scope because it distinguishes partial reopening from full normal operations.
+
+[plaintiff arguments] EASA CZIB 2026-03-R13 Middle East airspace bulletin (ev_51569ad0cb54_submitted-evidence-04-plaintiff-51569ad0cb54)
+Source: https://www.easa.europa.eu/en/domains/air-operations/czibs/2026-03-r13
+SHA-256: `51569ad0cb54f847f57c566a8aa45572ff0e4c29f8a8c22912b8a1b992b49ced`
+Bytes: 1592
+Relevance: Official aviation authority context for non-weather security risk, affected Iranian airspace, and temporary airspace closures/restrictions by states during the conflict; corroborates that the relevant aviation disruptions were conflict/security related, not weather.
+
+[defendant arguments] Notamify raw OIIX A1010/26 and A1015/26 NOTAM mirror (ev_241b442bed15_submitted-evidence-05-defendant-241b442bed15)
+Source: https://notamify.com/notams/OIIX/693f2d0f-54d3-433b-8128-49f5475ba269 and https://notamify.com/notams/OIIX/67435351-52f9-4d17-8f4c-497a21dd94bf
+SHA-256: `241b442bed1566db9088fa4e9dd159b18a0afcafef11dc3cc63d5db9b4564b02`
+Bytes: 2852
+Relevance: Provides the exact mirrored NOTAM wording and Q code/category for A1010/26 and replacement A1015/26. Relevant to whether the instrument was an aerodrome/airport-operations closure rather than a broad airspace closure, and to conflicts with secondary reports about which airports remained operational.
+
+## Technical Reports
+
+[plaintiff] Plaintiff source-search ledger
+Search path: refreshed AAR record; read/stat market packet; searched exact phrases and identifiers including Iran airspace May 24 2026, Civil Aviation Organization, NOTAM, western Tehran FIR/OIIX, May 22-May 25, eight airports, and daylight-only operations. Submitted the strongest captured material found before filing: two contemporaneous reports identifying the Iranian NOTAM and restrictions, plus SafeAirspace and official EASA aviation-risk context. Raw official NOTAM text was not captured in this phase, so the filing treats that as a provenance limitation rather than concealing it.
+
+[defendant] Defense source-chain and scope audit
+Reviewed plaintiff exhibits and searched exact NOTAM identifiers and raw wording. Plaintiff evidence is secondary reporting/context and does not include an official Iranian AIS/CAA source. Defendant submitted an unofficial Notamify mirror because it preserves the raw A1010/26 and replacement A1015/26 wording, which categorizes the measure as AD Airport Operations/QFALC and describes airport closures with listed exceptions, creating a material scope issue under the market rule.
+
+[plaintiff] Plaintiff rebuttal evidence check
+Read defendant evidence ev_241b442bed15 in full. It is an unofficial Notamify mirror, but its captured text confirms A1010/26 and A1015/26 covered May 22/23 through May 25, closed all airports in the west part of Tehran FIR except listed daylight-operation airports, suspended all previous permissions for all operators, and required new CAA/Iran CAA permission for civil IFR passenger flights. No new external evidence was needed for rebuttal.
+
+## Result
+
+Resolution: `demonstrated`
+
+Final phase: `closed`

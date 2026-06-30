@@ -1,0 +1,3 @@
+openai request retryable error attempt=1/4 code=503 cause=POST "https://openrouter.ai/api/v1/responses": 503 Service Unavailable {"message":"Provider returned error","code":503,"metadata":{"raw":"{\"code\":50508,\"message\":\"System is too busy now. Please try again later.\",\"data\":null}","provider_name":"SiliconFlow","is_byok":false}} retry_in=0s
+openai request retryable error attempt=2/4 code=503 cause=POST "https://openrouter.ai/api/v1/responses": 503 Service Unavailable {"message":"Provider returned error","code":503,"metadata":{"raw":"{\"code\":50508,\"message\":\"System is too busy now. Please try again later.\",\"data\":null}","provider_name":"SiliconFlow","is_byok":false}} retry_in=5s
+caseapi listening on http://127.0.0.1:38817

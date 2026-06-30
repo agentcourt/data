@@ -1,0 +1,16 @@
+Source: Official website of the President of Ukraine. URL: https://www.president.gov.ua/documents/3742026-59389
+
+Title shown on page: Decree of the President of Ukraine No. 374/2026. Subject: holding a parade in Moscow.
+
+Retrieved/opened: 2026-06-30 UTC via web open.
+
+Extracted facts from visible page text:
+- The decree is dated May 8, 2026 and signed by President of Ukraine V. Zelenskyy.
+- The decree concerns conducting a parade in Moscow on May 9, 2026.
+- It states that, taking into account numerous requests and for a humanitarian purpose outlined in negotiations with the American side on May 8, 2026, the president decrees permission to hold the May 9 parade in Moscow, Russian Federation.
+- For the duration of the parade, from 10:00 Kyiv time on May 9, 2026, the territorial square of Red Square is excluded from Ukrainian weapons targeting plans.
+- The page lists four coordinate points for the Red Square area.
+- The decree takes effect from the date of signing.
+
+Source-chain and weight notes:
+This is a direct official Ukrainian page, not a media paraphrase. Its relevance is what it does and does not say: it records a narrow, time-bound Red Square/parade targeting carveout. The visible decree text does not itself announce a general ceasefire across the Russia-Ukraine theater, a halt in all military engagement, or a broader enforcement/monitoring mechanism.

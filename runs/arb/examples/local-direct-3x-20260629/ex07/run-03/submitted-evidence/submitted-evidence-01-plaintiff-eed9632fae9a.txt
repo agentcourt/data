@@ -1,0 +1,12 @@
+Source: Al Jazeera, Reuters. Title: Trump announces three-day ceasefire in Russia-Ukraine war. Published: 2026-05-08; modified 2026-05-09. URL: https://www.aljazeera.com/news/2026/5/8/trump-announces-three-day-ceasefire-in-russia-ukraine-war
+
+Extracted facts from page text and metadata:
+- Description: truce would include swap of 1,000 prisoners of war from each country.
+- The article reports that U.S. President Donald Trump said there would be a three-day ceasefire in the war between Russia and Ukraine, lasting Saturday to Monday.
+- It reports Trump's post announcing a three-day ceasefire for May 9, 10, and 11 in the war between Russia and Ukraine.
+- It reports that soon after, Ukrainian President Volodymyr Zelenskyy confirmed on X that a three-day truce had been arranged as part of U.S. efforts to negotiate an end to the war.
+- It reports Russian presidential aide Yuri Ushakov said an agreement was reached through telephone contacts with the U.S. administration and that U.S. representatives were in contact with Kyiv.
+- It reports Trump said the ceasefire would include a suspension of all kinetic activity and a prisoner swap of 1,000 prisoners from each country, and that Zelenskyy also confirmed the prisoner swap would take place.
+- It reports Ushakov stressed the ceasefire was for three days, not longer.
+
+Source-chain notes: This is secondary reporting with Reuters attribution on the page. It is not itself an official government record, but it identifies official statements by Trump, Zelenskyy, and Russian aide Ushakov and corroborates the case packet's official-source and secondary-reporting summaries. The article also confirms the temporary nature of the pause, which is relevant to the defense's limited-scope argument.

@@ -1,0 +1,17 @@
+Source: U.S. Soccer page, 'Everything You Need to Know About the FIFA World Cup 2026 Final Draw'.
+URL: https://www.ussoccer.com/stories/2025/12/how-to-stream-new-york-watch-party-world-cup-2026-draw-friday-december-3
+Retrieval: 2026-06-29T21:24:00Z by curl with browser user agent.
+
+Extracted page title: Everything You Need to Know About the FIFA World Cup 2026 Final Draw
+
+Material extracted text:
+"The Final Draw for the 48-team FIFA World Cup 2026 is set for Friday, Dec. 5 at 12 p.m. ET and will be hosted at the John F. Kennedy Center for the Performing Arts in Washington, D.C."
+
+"The draw will assign 48 teams into 12 groups of four to determine each nation's FIFA World Cup path. Following Friday's draw, FIFA will unveil an updated match schedule to assign a date, time and location to each match on Saturday, Dec. 6."
+
+Under heading HOW TO WATCH IN ENGLISH & SPANISH:
+"The final draw will be broadcast live on FOX with English commentary; pre-draw coverage begins at 11:30 a.m. ET, the draw will take place between 12 and 2 p.m. ET, and post-draw analysis will conclude at 3 p.m. ET."
+
+"The final draw will also be available to stream on FIFA.com. Spanish radio coverage of the final draw will be available on Futbol de Primera."
+
+Capture limitations: the page HTML is large and script-heavy, but these paragraphs were present in the retrieved HTML/Next.js data. This extract is submitted only for the scheduled time and broadcast-window facts, not for the Ronaldo utterance.

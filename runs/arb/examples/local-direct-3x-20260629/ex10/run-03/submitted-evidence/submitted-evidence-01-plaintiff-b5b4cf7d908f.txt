@@ -1,0 +1,22 @@
+Retrieval: curl -L https://docs.polymarket.com/concepts/pusd.md
+Response headers observed: HTTP/2 200; content-type: text/markdown; date: Tue, 30 Jun 2026 11:12:19 GMT; server: Vercel; x-matched-path: /_mintlify/_markdown/_sites/[subdomain]/[[...slug]]; x-robots-tag: noindex, nofollow.
+
+Source text extract:
+# Polymarket USD
+
+> pUSD — the collateral token used for all trading on Polymarket
+
+**pUSD** (Polymarket USD) is the collateral token used for all trading on Polymarket. It's a standard ERC-20 token on Polygon, backed by USDC. The smart contract — which enables the withdrawal functionality — enforces the backing. No algorithmic peg, no fractional reserve.
+
+Note text on page: Day to day, nothing changes. You load funds, see a balance, trade, and withdraw. pUSD is the technical settlement layer underneath the same experience you're used to.
+
+Why pUSD section extract: The protocol settles all trading activity in native USDC, providing a more capital efficient, scalable, and institutionally aligned settlement standard as the platform continues to grow. pUSD is a standard ERC-20 wrapper that represents a USDC claim. Wrapping and unwrapping are enforced onchain by the CollateralOnramp and CollateralOfframp contracts.
+
+Key facts table extract:
+Token standard: ERC-20
+Network: Polygon mainnet
+Decimals: 6
+Backing: USDC (enforced onchain)
+Transferable: Yes — standard ERC-20
+
+Additional extract: pUSD is designed to function within Polymarket. There are no current plans to list it on external exchanges. The page links readers to the Contracts page for all collateral-related contract addresses.

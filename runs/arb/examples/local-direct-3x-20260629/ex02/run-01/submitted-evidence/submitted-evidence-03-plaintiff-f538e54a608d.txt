@@ -1,0 +1,16 @@
+# Bernard Bulletin Kalshi Mention Market Dispute Bible capture
+Source URL: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible
+Retrieved: 2026-06-29T18:24:00Z
+
+Relevant captured entry:
+Date heading: "12-5-25: What will Trump say during the FIFA World Cup Draw?"
+Strike: "Ronaldo"
+Evidence stated by source: "Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed."
+Rules listed: "Version, Timeframe"
+Result listed: "N"
+Last trade listed: "Y $.10"
+
+Adjacent comparison captured from same page:
+A 12-5-25 entry for "What will Gianni Infantino say during the World Cup Draw?" lists strike "Globe / Global," evidence that the term was said in a prerecorded clip played during the event, rules "Previous Recordings," result "Y," and last trade "Y $.49."
+
+Capture note: This is a secondary ledger/blog page, not the official market rules or primary video/transcript. It is useful for dispute context and source targeting, but its source-chain weight is lower than a primary transcript/video or market page.

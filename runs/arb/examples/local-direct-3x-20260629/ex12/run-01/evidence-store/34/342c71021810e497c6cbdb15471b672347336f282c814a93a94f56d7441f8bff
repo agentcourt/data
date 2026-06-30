@@ -1,0 +1,18 @@
+Source capture: Notamify public NOTAM page for OIIX A1010/26. URL: https://notamify.com/notams/OIIX/693f2d0f-54d3-433b-8128-49f5475ba269 . Retrieved 2026-06-30T15:12:00Z.
+
+Relevant displayed title/summary:
+- All west Tehran FIR airports are closed except listed airports.
+
+Raw NOTAM as displayed by Notamify:
+A1010/26 NOTAMR A0799/26
+Q)OIIX/QFALC/IV/NBO/A/000/999/
+A)OIIX B)2605222046 C)2605250830EST
+E)REF NOTAM A0796/26, ALL AIRPORTS IN WEST PART
+OF TEHRAN FIR ARE CLSD
+EXCEPT OITR, OIKK, OIAA, OISS, OIYY, OICC, OIGG, AND OIAW THAT ARE
+OPERATIONAL FM SUNRISE TO SUNSET (HJ).
+ALL PREVIOUS PERMISSIONS ARE SUSPENDED FOR ALL OPERATORS,
+NEW PERMISSION SHALL BE REQUESTED FM CAA FOR OPRATION OF
+CIVIL IFR PASSENGER FLIGHTS ON THESE AIRPORTS.
+
+Provenance/limits: This is a NOTAM mirror/display page, not a direct official Iranian aviation authority page. The text is valuable because it preserves raw NOTAM wording, but the official database record itself was not captured. The Q-line includes QFALC and /A/, indicating an aerodrome/airport closure notice rather than a full enroute airspace-closure NOTAM; the E-line speaks of airports in the west part of Tehran FIR, not all airspace routes. The notice contains exceptions and daylight operations for eight named airports.

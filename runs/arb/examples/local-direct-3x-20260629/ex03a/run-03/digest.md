@@ -1,0 +1,241 @@
+# Arbitration Digest
+
+## Result
+
+Resolution: `not_demonstrated`
+
+Final phase: `closed`
+
+## Complaint
+
+### Proposition
+
+For the Kalshi market "What will Trump say during the FIFA World Cup Draw?", the strike "Ronaldo" should resolve Yes because Trump said "Ronaldo" in public remarks at the World Cup Draw venue immediately before the formal program, and the market wording plus the governing mention-market terms did not clearly exclude those event-linked remarks.
+
+### Standard of Evidence
+
+Preponderance of the evidence.
+
+## Council
+
+- C1: openrouter://google/gemma-3-12b-it (personas/generic.md)
+- C2: openrouter://mistralai/mistral-medium-3-5 (personas/generic.md)
+- C3: openrouter://deepseek/deepseek-r1 (personas/generic.md)
+- C4: openrouter://qwen/qwen3.5-plus-02-15 (personas/generic.md)
+- C5: openrouter://deepseek/deepseek-v3.1-terminus (personas/generic.md)
+
+## Filings
+
+### Openings
+
+[plaintiff] Council members, this case is not about whether the name Ronaldo can count under Kalshi's mention-market rules. On the present record, the strike is the standalone proper name "Ronaldo," and the governing NEWMENTION terms treat proper nouns like other words, count distinct standalone words, and ask whether the specified entity used the word during the specified time period. The real dispute is narrower: whether public remarks by President Trump at the World Cup Draw venue, immediately before the formal program, fall within the market's phrase "during the FIFA World Cup Draw," or whether Kalshi's No resolution can stand only by reading that phrase to exclude those event-linked remarks.
+
+The packet establishes the market frame. The market-page exhibit identifies the public title, "What will Trump say during the FIFA World Cup Draw?," the PRESMENTION / NEWMENTION contract family, the strike "Ronaldo," the challenged resolution No, and the requested resolution Yes. The terms exhibit supplies the interpretive rules. Those rules define the underlying as words used by the specified entity during the specified time period, and they expressly contemplate time periods defined by an event or event context. They also include provisions for live-streams, broadcasts, official recordings, venue or medium changes, interruptions, and event-specific technical details. That structure matters: the contract is not written as a narrow transcript quiz limited to a ceremonial script unless the market clearly says so.
+
+Plaintiff's theory is straightforward. If the evidence shows that Trump publicly said "Ronaldo" at the World Cup Draw venue in remarks tied to the draw, before the formal program began, then the ordinary and incorporated terms favor Yes unless Kalshi can point to a clear exclusion. Ambiguity in an event-linked mention market should not be converted after the fact into a hidden formal-program-only limitation. The market asked what Trump would say during the World Cup Draw. Public, official, draw-adjacent remarks at the venue are exactly the kind of event-context evidence the NEWMENTION rules are built to evaluate.
+
+What would satisfy plaintiff's burden is specific source proof: an official transcript, recording, or faithful capture showing the utterance, the speaker, the location, and the sequence relative to the draw program. In investigating the opening theory, plaintiff has identified that as the decisive source class and will seek to place admissible source material in the record when the phase permits evidence submission. The evidence should also address the predictable objection that pre-program reporter remarks are "behind-the-scenes" or unofficial. If the remarks were public, at the venue, documented by an official source, and part of the event's press availability immediately before the draw, that objection loses force under these terms.
+
+The defense's best argument is that "during the FIFA World Cup Draw" means only the televised or formal draw ceremony. But that limitation is not apparent from the admitted market page, and the general NEWMENTION terms do not impose it by default. Those terms exclude rehearsals, sound checks, and unofficial behind-the-scenes material; they do not categorically exclude public remarks at the event site just because they precede the first formal stage segment. If Kalshi intended such a cutoff, the market needed to say so clearly.
+
+At this stage, plaintiff asks the council to view the case through the right lens: first determine what the market and terms actually require; then weigh the forthcoming source evidence on whether Trump said the standalone word "Ronaldo" in public, event-linked remarks. On a preponderance standard, that record should support resolving the strike Yes.
+
+[defendant] Council members, the defense opening begins with the record as it exists, not with the premise plaintiff hopes later evidence will prove. The admitted packet currently establishes a market title, a contract family, the strike "Ronaldo," and Kalshi's challenged No resolution. The NEWMENTION terms establish a general framework for words used by the specified entity during the specified time period. They do not yet establish that President Trump said the strike word, that any such utterance occurred during the market's time period, or that the source material proving it fits the contract's source and event rules.
+
+That distinction matters. The proposition asks the council to move from "remarks at the venue immediately before the formal program" to "during the FIFA World Cup Draw." The defense position is that those are not the same unless the market page, incorporated terms, or admitted source evidence makes them the same. In ordinary usage, a market asking what Trump will say "during the FIFA World Cup Draw" points to the draw program itself: the formal event in which the teams are drawn, the stage presentation occurs, and official remarks are made as part of that program. It does not automatically include every press-pool exchange, red-carpet interaction, or hallway answer at the same venue before the program begins.
+
+The terms plaintiff invokes are more balanced than plaintiff's opening suggests. They allow a time period to be defined by an event or context, but they also recognize that when a time period refers to a specific event, the Exchange may specify what is included. They separately exclude behind-the-scenes content, rehearsals, sound checks, and unofficial recordings unless officially broadcast or published as part of the relevant time period. They require words to be spoken by the entity, not merely displayed in captions or inferred from surrounding commentary. And they make source-agency hierarchy important when the Exchange has specified one. Those provisions are not decorative. They are safeguards against expanding a mention market after expiration based on stray, ambiguous, or non-program material.
+
+So the decisive questions are factual and contractual. First, what exactly did the market page and any incorporated source hierarchy designate as the relevant source and time period? The current packet gives only a short market-page summary and generic NEWMENTION terms. Second, what is the best admissible source for the alleged utterance? A reliable official transcript or recording may prove words, but it must also fix the speaker, timing, audibility, and context. Third, even if the word "Ronaldo" appears in a pre-program exchange, was that exchange officially part of the FIFA World Cup Draw for this market, or merely a prior media availability at the venue?
+
+The defense has investigated enough to expect that plaintiff may seek to rely on material labeled as remarks or reporter exchanges before the draw, while the formal draw program may be a separate source record. That is exactly why the council should not collapse the case into a simple word-search dispute. A source titled, described, or situated as prior-to-event material can help show that someone said something near the event, but it may also prove the defense's timing point: prior is not during. Likewise, incomplete audio, pieced-together media, corrected transcripts, or secondary captures may affect weight even if they contain the desired word.
+
+Plaintiff carries the preponderance burden. To satisfy it, plaintiff must do more than show that Ronaldo was mentioned somewhere in the Kennedy Center orbit that day. Plaintiff must connect an admissible utterance to the market's operative time period and source rules. If the later record shows only that Trump mentioned Ronaldo in a reporter exchange before the FIFA World Cup Draw began, the No resolution should stand. The defense will ask the council to enforce the market the traders actually received: words said during the draw, not every event-adjacent remark that can be found afterward.
+
+### Arguments
+
+[plaintiff] Council members, plaintiff has now supplied the missing source proof. The admitted record shows both the market terms and the event-linked utterance, and the preponderance favors Yes.
+
+Start with the contract. The packet market page identifies the market as "What will Trump say during the FIFA World Cup Draw?", contract family PRESMENTION / NEWMENTION, and the strike at issue as Ronaldo. The NEWMENTION terms ask whether the word was said by the entity during the time period. They count a distinct standalone word, treat proper nouns the same as common nouns, and do not require that the word be part of a scripted speech. They also recognize event-based time periods and discuss live streams, broadcasts, official recordings, venue/format changes, interrupted events, and officially published event material. That is not a formal-stage-only rule.
+
+The more specific Kalshi page extract confirms the market-family source rule: the relevant formulation is whether Trump says the strike "as part of FIFA World Cup Draw"; video is primary, and transcripts from listed sources are used if video consensus cannot be reached. That page extract rendered a related strike, so plaintiff does not use it to prove the disputed word. The case packet proves the disputed strike is Ronaldo. The Kalshi extract matters because it supplies the specific source hierarchy and the phrase "as part of FIFA World Cup Draw," which is broader than defendant's proposed "only after the formal program starts" test.
+
+The GovInfo transcript extract supplies the utterance and context. The official source title is "Remarks in an Exchange With Reporters Prior to the 2026 FIFA World Cup Draw." Its note states that the President spoke at 11:13 a.m. at the John F. Kennedy Center for the Performing Arts, and that his remarks referred to Cristiano Ronaldo and Lionel Messi. The transcript attributes multiple standalone uses of "Ronaldo" to the President: first, in a soccer exchange, he says he met Ronaldo, says Ronaldo was fantastic, and says "Ronaldo is great." Later, when asked whether he ever played soccer, he says he was "not Ronaldo or Messi." Those are clean standalone utterances by the specified entity.
+
+Defendant's timing objection is the only serious dispute. The source title says the exchange was "prior to" the draw, but the record does not end there. The same transcript places the exchange at the Kennedy Center, labels surrounding sections "2026 World Cup Draw Event," includes questions about "the big event of soccer" and "this big day today," and records Trump and Infantino discussing that they were "a little late to get in there" while "They wait." That is public press interaction at the draw venue, about the draw, immediately before entering the formal program. On this market language, that is at least "as part of" the FIFA World Cup Draw unless Kalshi clearly excluded it.
+
+The terms do contain exclusions, but they hurt defendant more than plaintiff. They exclude rehearsals, sound checks, behind-the-scenes content, and unofficial recordings unless officially broadcast or published as part of the time period. This was not a rehearsal or sound check; it was a public exchange with reporters, officially published in the Compilation of Presidential Documents, at the event venue, with FIFA's president present, while the event waited. If Kalshi wanted to exclude pre-program press remarks at the venue, it knew how to write such a cutoff. It did not.
+
+Plaintiff acknowledges the custody limits. The strongest possible proof would be the actual primary video; the Kalshi page says video is primary. The GovInfo note also says portions of the remarks could not be verified because audio was incomplete. But the material passages here are not merely inferred: the transcript expressly attributes the Ronaldo statements to Trump and the source note itself names Cristiano Ronaldo as a person referred to. The official corrected transcript is highly probative, and defendant has not supplied conflicting video or a source rule that clearly excludes the exchange.
+
+Under a preponderance standard, the council need not find plaintiff's reading inevitable. It need only find it more likely than not that Trump said the strike in qualifying event-linked remarks and that the market did not clearly limit "during" to the formal draw stage. The admitted evidence meets that burden. The challenged No resolution should be changed to Yes.
+
+[defendant] Council members, the merits record now proves one thing plaintiff needed, but not the thing this market requires. Plaintiff has shown that Trump said the word "Ronaldo" in an exchange with reporters. The question remains whether that exchange was "during the FIFA World Cup Draw" or, using plaintiff's Kalshi extract, "as part of FIFA World Cup Draw." On the present record, the answer is No.
+
+Start with plaintiff's strongest evidence, DX-2. Its own title is not "Remarks During the FIFA World Cup Draw." It is "Remarks in an Exchange With Reporters Prior to the 2026 FIFA World Cup Draw." That title is not an incidental label; it is the source's own temporal characterization. The document also categorizes the item as an interview or exchange with reporters, not the formal draw program. Its Ronaldo passages are real enough for word-count purposes if the time period were "before the draw" or "at the Kennedy Center that day." But this market did not ask that. It asked what Trump would say during the draw.
+
+Plaintiff tries to turn venue, subject matter, and proximity into inclusion. Those facts show the exchange was related to the event; they do not show it occurred during the event. The transcript says the opposite: Trump and Infantino were "a little late to get in there," and people inside would wait. That is a practical description of being outside or before the thing one is about to enter. A pre-program press scrum can be public, official, and event-adjacent while still not being the draw.
+
+The specific Kalshi extract, DX-3, reinforces the defense rather than plaintiff. It says video of the FIFA World Cup Draw will be primarily used to resolve the market; if video consensus cannot be reached, transcripts of the FIFA World Cup Draw will be used. That is a program-centered source rule. It does not say "any public remarks at the venue," "red carpet remarks," "reporter exchanges before entering," or "remarks prior to the draw." The same extract also carries a caveat plaintiff cannot avoid: the public page rendered a related Canada strike, not the Ronaldo strike. It may help identify general source language, but it should not be used aggressively to expand a disputed Ronaldo market beyond the packet's title.
+
+The defense submitted DX-1 to show the source-chain distinction plaintiff's argument blurs. DX-1 is a formal transcript page titled "Remarks: Donald Trump Attends the FIFA World Cup Drawing in Washington - December 5, 2025." It tracks the formal event speakers, includes timing and speaker statistics, and captures Trump during the staged draw program. A page-text search found no exact "Ronaldo" match. The formal transcript does show Trump talking about Pele and participating in the draw sequence, which is exactly the kind of material one would expect from a transcript of the FIFA World Cup Drawing. That is the best match for the market wording and plaintiff's own video/transcript source rule.
+
+The governing NEWMENTION terms do not rescue plaintiff. They define a time period as a range, event, context, or date set by the Exchange, and they allow event-based periods. But they also say that when a time period refers to a specific event, the Exchange may specify what is included. Here the more specific source language points to video and transcripts of the FIFA World Cup Draw. The terms' exclusions for behind-the-scenes content and unofficial recordings are not the only limits; the first limit is the time period itself. Something can be neither secret nor unofficial and still be outside the event because it occurred prior to it.
+
+Provenance also affects weight. GovInfo is a serious official source, but DX-2 is an extracted transcript of remarks joined in progress, later corrected, with portions unverifiable because audio was incomplete. That does not erase the Ronaldo words; it does make the source a poor vehicle for overriding its own "prior to" label and the market's primary-source preference for draw video. Plaintiff has not submitted the primary draw video showing Ronaldo during the program. It has not submitted a transcript of the FIFA World Cup Draw containing Ronaldo. It has submitted a prior reporter exchange plus an argument that related means included.
+
+Under the preponderance standard, the council should ask what is more likely the market meant traders to resolve: words Trump said in the formal televised/streamed FIFA World Cup Draw, or every public exchange at the venue before he entered while the event waited. The record favors the former. Because the only admitted Ronaldo utterances are in remarks expressly prior to the draw, and the formal draw transcript contains no Ronaldo match, Kalshi's No resolution should stand.
+
+### Rebuttals
+
+[plaintiff] Council members, defendant's merits argument proves too little. It proves that one formal-program transcript extract has no "Ronaldo" match. It does not prove the market excluded the public, official, event-site remarks in which Trump did say Ronaldo.
+
+The defense asks you to treat the Roll Call / Factba.se extract as the boundary of the market. But that exhibit is not the Kalshi contract, not the primary video, and not a listed source-agency determination. It is a curated extract of a formal-program transcript. At most, it shows that Trump did not say Ronaldo during the stage segment captured in that particular transcript. Plaintiff's theory has never depended on the word appearing in that formal segment. The proposition is that Trump said Ronaldo in public remarks at the World Cup Draw venue immediately before the formal program, and that the market wording and terms did not clearly exclude those event-linked remarks.
+
+That is why the Kalshi language matters. The extracted market rule says the strike resolves Yes if Trump says the word "as part of FIFA World Cup Draw." It also says video is primary and transcripts are fallback. It does not say "only in the formal stage transcript," "only after the first stage speaker begins," or "excluding public press remarks at the venue while the event waits." Defendant's attempt to turn a source preference into a silent exclusion is the same after-the-fact narrowing that the packet and NEWMENTION terms do not support.
+
+The GovInfo exhibit remains the better evidence on the disputed utterance and event linkage. It places Trump at 11:13 a.m. at the John F. Kennedy Center for the Performing Arts; labels surrounding portions as World Cup Draw Event material; includes questions about the big soccer event and the big day; records Infantino alongside Trump; and includes the exchange that they were "a little late to get in there" while "They wait." That final sequence does not sever the remarks from the event. It confirms the practical setting: public remarks at the venue, immediately before entry into the formal program, with the event waiting for them. In ordinary event-context language, that is part of the draw unless excluded.
+
+Defendant leans hard on the word "prior" in the GovInfo title. Plaintiff does not ask the council to ignore it. It is evidence that the remarks preceded the stage segment. But "prior to the formal program" is not the same as "outside the market" unless the market drew that line. The NEWMENTION terms expressly contemplate event-based periods and officially published event material; they exclude rehearsals, sound checks, behind-the-scenes content, and unofficial recordings. These remarks were none of those. They were public, official, published, at the venue, and about the draw.
+
+The negative formal transcript also cuts less deeply than defendant suggests. If the market were clearly limited to that transcript, defendant would be right. But if the market covers public draw-linked remarks at the venue, then the absence of Ronaldo from a later formal transcript is unsurprising and not dispositive. The council is deciding the proposition under a preponderance standard, not enforcing a hidden technical cutoff.
+
+The record now shows the word, the speaker, the location, the event context, and the absence of a clear exclusion. Defendant has shown only that a narrower formal transcript lacks the word. The broader and fairer reading of the market is Yes.
+
+### Surrebuttals
+
+[defendant] Council members, plaintiff's rebuttal usefully narrows the dispute. The defense does not argue that DX-1 is itself the contract, or that it alone creates the market boundary. The point is different: DX-1 is evidence of the source category the Kalshi extract itself identifies, namely video or transcripts of the FIFA World Cup Draw. When that event transcript contains no Ronaldo, while the Ronaldo words appear only in a separate source titled remarks prior to the draw, the record favors No.
+
+Plaintiff's rebuttal repeatedly says the market did not "clearly exclude" the pre-program reporter exchange. That reverses the burden. Plaintiff must prove that the remarks qualify. The market did not ask whether Trump said Ronaldo at the venue, about the event, or before entering while others waited. It asked what he would say during the FIFA World Cup Draw. Plaintiff's own evidence proves proximity and relation, but its source title and timing sequence prove priority: the exchange was before the draw program.
+
+The phrase "as part of FIFA World Cup Draw" cannot be lifted out of the Kalshi source sentence and turned into an unlimited event-campus rule. The same extract says video of the FIFA World Cup Draw is primary, and if video consensus cannot be reached, transcripts of the FIFA World Cup Draw are used. That language points to the draw as a recorded televised or streamed event. It does not point to every official public interaction by Trump before he enters the event space.
+
+Nor do the NEWMENTION exclusions help plaintiff as much as it claims. Rehearsals, sound checks, behind-the-scenes content, and unofficial recordings are examples of things that do not count even though they may be temporally or factually connected to an event. They are not a promise that every non-rehearsal, non-secret, official remark automatically counts. The threshold question remains whether the words were during the specified time period.
+
+Even accepting every factual point plaintiff emphasizes, the chain is: Trump publicly said Ronaldo; the remarks were at the Kennedy Center; they were about soccer and the draw; Infantino was present; people inside were waiting; the source calls them prior to the draw. That is not enough to overcome the formal source rule and the ordinary meaning of "during." The proposition should be rejected and the No resolution should stand.
+
+### Closings
+
+[plaintiff] Council members, the record now leaves one narrow question: did Kalshi clearly limit this market to the formal stage transcript, or did the market cover public event-linked remarks at the World Cup Draw venue immediately before the program? On a preponderance standard, plaintiff's reading is the better one.
+
+The word element is not seriously contested anymore. The case packet identifies the strike as Ronaldo. The GovInfo transcript extract attributes multiple standalone uses of "Ronaldo" to President Trump. The source note confirms that the President spoke at 11:13 a.m. at the John F. Kennedy Center for the Performing Arts and that his remarks referred to Cristiano Ronaldo. Under the NEWMENTION terms, a standalone proper noun counts. That proves the strike word was said by the specified entity.
+
+The timing and scope element is where defendant makes its stand. Defendant's best evidence is the Roll Call / Factba.se formal-program extract: it describes a formal FIFA World Cup Drawing transcript and reports no Ronaldo match. That is relevant negative evidence. If the contract said "only the formal stage transcript counts," defendant would win.
+
+But the record does not say that. The market title is "What will Trump say during the FIFA World Cup Draw?" The Kalshi extract uses the formulation "as part of FIFA World Cup Draw." The NEWMENTION terms define event-based time periods by event or context and then explain special exclusions for rehearsals, sound checks, behind-the-scenes content, and unofficial recordings. Those provisions show that event-linked context matters and that exclusions must do work; they do not create an unstated cutoff at the first formal stage speaker.
+
+Plaintiff's source is not a random hallway rumor. It is an official GovInfo transcript extract of public remarks, at the Kennedy Center, about the World Cup Draw, with FIFA's president present. The transcript labels surrounding portions as World Cup Draw Event material, includes questions about the big soccer event and the day, and records Trump and Infantino acknowledging they were late to get in while the event waited. That is the very context the proposition describes: public remarks at the World Cup Draw venue immediately before the formal program.
+
+Defendant is right that the GovInfo title says "Prior to" the draw. Plaintiff has never hidden that. But "prior to the formal program" is not the same as "outside the market." In ordinary event language, the press availability at the venue while principals arrive and the program waits can be part of the event, especially where the market used broad language and incorporated event-context mention rules. Kalshi could have written "during the televised draw program only" or "excluding pre-program press remarks." It did not.
+
+Defendant also emphasizes the source hierarchy and video preference. That does not change the result. The formal transcript's silence shows no Ronaldo in that narrower segment; it does not negate the official transcript that does show Ronaldo in immediately adjacent public event remarks. Nor does it supply a contractual exclusion. At most, the two sources show the factual boundary: Ronaldo was said before the formal onstage remarks, not during them. The legal question remains whether that boundary matters under this market. The admitted market language does not make it dispositive.
+
+The council need not find plaintiff's interpretation perfect. It need only decide what is more likely under the record. The record proves Trump said Ronaldo; proves the remarks were public, official, at the World Cup Draw venue, and event-linked; and fails to show a clear formal-program-only limitation. That satisfies the preponderance standard. The challenged No resolution should be changed to Yes.
+
+[defendant] Council members, the final record is narrower than plaintiff's rhetoric. The defense does not ask you to ignore the Ronaldo words. The GovInfo exhibit proves that President Trump used the word "Ronaldo" in a public exchange with reporters. If the market were "Will Trump say Ronaldo at the Kennedy Center that day?" plaintiff would have a strong case. But that is not the market.
+
+The market was "What will Trump say during the FIFA World Cup Draw?" The submitted Kalshi extract, even taking plaintiff's broader phrase "as part of FIFA World Cup Draw," tells you how the market was to be resolved: video of the FIFA World Cup Draw first, then transcripts of the FIFA World Cup Draw if needed. That is a program-centered rule. It is not a rule for every official, public, soccer-related exchange by Trump at the same venue before he entered the program.
+
+Plaintiff's decisive proof cuts against plaintiff on timing. The GovInfo source is titled "Remarks in an Exchange With Reporters Prior to the 2026 FIFA World Cup Draw." It categorizes the material as an exchange with reporters. Its own sequence says Trump and Infantino were late to get in and that the people inside would wait. Those facts prove relation, proximity, and publicity. They do not prove the remarks were during the draw. To the contrary, they explain why the remarks were prior to it.
+
+The defense's Roll Call / Factba.se extract is not offered as a magic contract boundary. It is offered as the best admitted contrast: a formal transcript page for Trump attending the FIFA World Cup Drawing itself. That transcript has no exact Ronaldo match. It shows the staged draw program, the formal speakers, and Trump's actual program remarks. That is the kind of source the Kalshi extract describes when it says video or transcripts of the FIFA World Cup Draw resolve the market.
+
+Plaintiff's strongest closing point is that the market did not clearly say "formal stage only" or "excluding pre-program press remarks." But that framing reverses the burden. Plaintiff must prove, by a preponderance, that the Ronaldo utterance fell within the qualifying market period. The absence of an extra exclusion does not transform "prior to" into "during." And the NEWMENTION exclusions for rehearsals, sound checks, behind-the-scenes material, and unofficial recordings do not mean every other event-adjacent utterance counts. The first question is still whether the words were said in the time period specified by the Exchange.
+
+The record also contains custody and weight limits. Plaintiff's GovInfo source is official and probative for the words, but it is an extract of remarks joined in progress, later corrected, with portions unverifiable because audio was incomplete. It is therefore a weak basis for expanding the market beyond the event source category. Plaintiff did not submit primary draw video containing Ronaldo, and did not submit a transcript of the FIFA World Cup Draw containing Ronaldo.
+
+On a preponderance standard, the better reading is straightforward: Trump said Ronaldo before the FIFA World Cup Draw, in a reporter exchange connected to the event. He did not say it in the admitted transcript of the draw program, and the market source rule points to the draw's video or transcripts. Because plaintiff has not carried the burden to show that the prior reporter exchange counts as during or part of the FIFA World Cup Draw for this market, the proposition should be rejected and Kalshi's No resolution should stand.
+
+## Exhibits
+
+[plaintiff arguments] PX-1 Market page packet identifying disputed Ronaldo strike: market-page.txt
+[plaintiff arguments] PX-2 NEWMENTION governing terms: presmention-terms.txt
+[plaintiff arguments] PX-3 GovInfo transcript extract of Trump remarks prior to FIFA World Cup Draw: submitted-evidence-01-plaintiff-13b3de049039.txt
+[plaintiff arguments] PX-4 Kalshi market-family source and timing rules extract: submitted-evidence-02-plaintiff-e99c8c3be4d0.txt
+[defendant arguments] DX-1 Formal FIFA World Cup Drawing transcript extract with no Ronaldo match: submitted-evidence-03-defendant-62032bb71fb1.txt
+[defendant arguments] DX-2 Plaintiff GovInfo extract: remarks prior to the draw: submitted-evidence-01-plaintiff-13b3de049039.txt
+[defendant arguments] DX-3 Plaintiff Kalshi extract: video/transcript source rule and related-strike caveat: submitted-evidence-02-plaintiff-e99c8c3be4d0.txt
+[plaintiff rebuttals] PX-R1 Defendant formal-program transcript extract showing limited negative evidence: submitted-evidence-03-defendant-62032bb71fb1.txt
+[plaintiff rebuttals] PX-R2 GovInfo event-site reporter exchange with Ronaldo utterances: submitted-evidence-01-plaintiff-13b3de049039.txt
+[plaintiff rebuttals] PX-R3 Kalshi market-family rule using as-part-of wording: submitted-evidence-02-plaintiff-e99c8c3be4d0.txt
+[defendant surrebuttals] DX-S1 Formal draw transcript distinction: submitted-evidence-03-defendant-62032bb71fb1.txt
+[defendant surrebuttals] DX-S2 Kalshi video/transcript source wording: submitted-evidence-02-plaintiff-e99c8c3be4d0.txt
+[defendant surrebuttals] DX-S3 GovInfo prior-to-draw exchange: submitted-evidence-01-plaintiff-13b3de049039.txt
+
+## Submitted Evidence
+
+[plaintiff arguments] GovInfo DCPD202501162 extracted transcript - remarks prior to FIFA World Cup Draw (ev_13b3de049039_submitted-evidence-01-plaintiff-13b3de049039)
+Source: https://www.govinfo.gov/content/pkg/DCPD-202501162/html/DCPD-202501162.htm
+SHA-256: `13b3de049039e1d1a422ff0747028df0388ff7443b4cf6e0e8b2f92a29baa000`
+Bytes: 3674
+Relevance: Primary source transcript showing President Trump's public exchange with reporters prior to the 2026 FIFA World Cup Draw at the John F. Kennedy Center, including standalone utterances of Ronaldo and contextual timing/location notes.
+
+[plaintiff arguments] Kalshi market page extracted rules - Trump FIFA World Cup Draw mentions (ev_e99c8c3be4d0_submitted-evidence-02-plaintiff-e99c8c3be4d0)
+Source: https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06
+SHA-256: `e99c8c3be4d0a81e844a6db2c29370ebdc52b77b9a638de43224d7c41d429cdc`
+Bytes: 1692
+Relevance: Specific market-page source language supplements the packet summary by identifying source agencies and the rule that video of the FIFA World Cup Draw is primarily used, with transcripts from listed news publications if video consensus cannot be reached.
+
+[defendant arguments] Roll Call Factba.se transcript extract - formal FIFA World Cup Drawing program (ev_62032bb71fb1_submitted-evidence-03-defendant-62032bb71fb1)
+Source: https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-fifa-world-cup-drawing-december-5-2025
+SHA-256: `62032bb71fb1431d26b94387e029729d1afb1489c43c59252fa3a49f6c183a8f`
+Bytes: 1883
+Relevance: Shows the separate formal FIFA World Cup Drawing transcript, with speaker statistics and formal-program Trump remarks; a page text search for 'Ronaldo' returned no match, supporting the defense distinction between the formal draw and prior reporter exchange.
+
+## Technical Reports
+
+[plaintiff] Source search and custody note
+Plaintiff searched exact official-transcript phrases and source pages. The most probative available source located and submitted is GovInfo DCPD202501162, an official Compilation of Presidential Documents transcript extract with timing/location notes and Ronaldo passages. A White House transcript page was not located in the time available; Kalshi's page identifies The White House and major news sources and says video is primary with transcript fallback. The submitted GovInfo extract includes the source's own caveat that portions of the remarks could not be verified because audio was incomplete; no conflicting source was found.
+
+[defendant] Defense source-search ledger
+Reviewed the case packet, plaintiff's two submitted extracts, GovInfo metadata, Kalshi page extract, Senate/CQ formal-program transcript lead, and Roll Call Factba.se formal transcript. The decisive contrast is between a GovInfo item expressly titled a reporter exchange prior to the draw and a separate formal-program transcript titled Trump attends the FIFA World Cup Drawing. A page-text search of the formal transcript found no exact 'Ronaldo' match; a 'Pele' match appeared in Trump's formal-program soccer remarks. Defense submitted the Roll Call extraction as source evidence.
+
+## Council Votes
+
+### Round 1
+
+Tally: 2 not_demonstrated, 2 demonstrated
+
+[C2] not_demonstrated
+The only admitted Ronaldo utterances appear in a GovInfo transcript explicitly titled 'Prior to the FIFA World Cup Draw.' The formal draw transcript contains no Ronaldo match, and the Kalshi source rule specifies video/transcripts 'of the FIFA World Cup Draw.' On a preponderance standard, plaintiff has not shown the pre-program remarks fall within the market's 'during' period.
+
+[C3] demonstrated
+The admitted evidence shows Trump said 'Ronaldo' in public, official remarks at the event venue immediately before the formal program. The market terms did not clearly exclude such event-linked remarks, and the preponderance of evidence supports qualification under 'as part of FIFA World Cup Draw'.
+
+[C4] not_demonstrated
+The only admitted 'Ronaldo' utterances appear in a GovInfo transcript explicitly titled 'Prior to the FIFA World Cup Draw.' The formal draw transcript contains no Ronaldo match, and the Kalshi source rule specifies video/transcripts 'of the FIFA World Cup Draw.' Plaintiff has not shown the pre-program reporter exchange falls within the market's 'during' period.
+
+[C5] demonstrated
+The admitted evidence shows Trump said Ronaldo in public remarks at the World Cup Draw venue immediately before the formal program. The Kalshi rules use the broader phrase "as part of FIFA World Cup Draw," and these official, event-linked remarks at the venue qualify under that standard. The formal draw transcript's silence on Ronaldo does not negate the qualifying pre-program utterances.
+
+### Round 2
+
+Tally: 2 not_demonstrated, 2 demonstrated
+
+[C2] not_demonstrated
+The only admitted Ronaldo utterances appear in a GovInfo transcript explicitly titled 'Prior to the FIFA World Cup Draw.' The formal draw transcript contains no Ronaldo match, and the Kalshi source rule specifies video/transcripts 'of the FIFA World Cup Draw.' On a preponderance standard, plaintiff has not shown the pre-program reporter exchange falls within the market's 'during' period.
+
+[C3] demonstrated
+Trump said Ronaldo in public event-linked remarks at the venue immediately before the formal program. The market rules (as part of) and NEWMENTION terms didn't clearly exclude these remarks, and the preponderance of evidence supports qualification.
+
+[C4] demonstrated
+Trump said 'Ronaldo' in public, official remarks at the World Cup Draw venue immediately before the formal program, with FIFA's president present and while the event waited. The market wording ('as part of FIFA World Cup Draw') and NEWMENTION terms do not clearly exclude such event-linked press remarks, and ambiguity should not be resolved by imposing an unstated formal-program-only limitation after expiration.
+
+[C5] not_demonstrated
+The admitted evidence shows Trump said Ronaldo in remarks explicitly titled 'Prior to the FIFA World Cup Draw.' The Kalshi rules specify using video/transcripts 'of the FIFA World Cup Draw,' and the formal draw transcript contains no Ronaldo match. The preponderance favors that pre-program remarks fall outside the market's intended scope.
+
+### Round 3
+
+Tally: 4 not_demonstrated
+
+[C2] not_demonstrated
+The only admitted Ronaldo utterances appear in a GovInfo transcript explicitly titled 'Prior to the FIFA World Cup Draw.' The formal draw transcript contains no Ronaldo match, and the Kalshi source rule specifies video/transcripts 'of the FIFA World Cup Draw.' On a preponderance standard, plaintiff has not shown the pre-program reporter exchange falls within the market's 'during' period.
+
+[C3] not_demonstrated
+The admitted evidence places the Ronaldo utterances in a transcript explicitly labeled 'prior to' the draw. The Kalshi rules specify resolution based on video/transcripts 'of the FIFA World Cup Draw', with no evidence showing the word in the formal program. The preponderance favors the original resolution.
+
+[C4] not_demonstrated
+The only admitted 'Ronaldo' utterances appear in a GovInfo transcript explicitly titled 'Prior to the 2026 FIFA World Cup Draw.' The Kalshi market rules specify video/transcripts 'of the FIFA World Cup Draw' as the resolution sources, and the formal draw transcript contains no Ronaldo match. On a preponderance standard, plaintiff has not shown the pre-program reporter exchange falls within the market's 'during' period.
+
+[C5] not_demonstrated
+The admitted evidence shows Trump said Ronaldo in remarks explicitly titled 'Prior to the FIFA World Cup Draw.' The Kalshi rules specify using video/transcripts 'of the FIFA World Cup Draw' for resolution, and the formal draw transcript contains no Ronaldo match. The preponderance favors that pre-program remarks fall outside the market's intended scope.

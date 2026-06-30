@@ -1,0 +1,14 @@
+Title: PM Netanyahu Meets with US National Security Adviser Jake Sullivan
+Source URL: https://www.gov.il/en/pages/event-us121224
+Publisher: Government of Israel / Prime Minister's Office
+Publish Date shown in source index: 12.12.2024
+
+Relevant captured text from source index/web page rendering:
+
+Prime Minister Benjamin Netanyahu, today, in Jerusalem, met with US National Security Adviser Jake Sullivan; the two discussed regional developments, especially the reality-changing events in Syria.
+
+Prime Minister Netanyahu made it clear that Israel would do its utmost to defend its security against any and all threats; to this end, he ordered the IDF to temporarily take control of the buffer zone in Syria, until there is an effective force that will enforce the 1974 Separation of Forces Agreement.
+
+The Prime Minister raised the issue of the vital need to assist the minorities in Syria and prevent terrorist activity against Israel from Syrian territory.
+
+Capture note: Python urllib direct fetch of this gov.il page on 2026-06-29 returned HTTP Error 403: Forbidden. The web search/open tool rendered/indexed the page text above.

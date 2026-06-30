@@ -1,0 +1,2077 @@
+{
+  "case_id": "arb-ex13-20260630164857",
+  "run_id": "run-arb-ex13-20260630164857",
+  "started_at": "2026-06-30T16:48:57Z",
+  "finished_at": "2026-06-30T17:07:20Z",
+  "status": "ok",
+  "phase": "closed",
+  "resolution": "not_demonstrated",
+  "complaint": {
+    "Proposition": "By June 15, 2025 11:59 PM ET, Iran and the United States agreed to a permanent peace deal."
+  },
+  "evidence_standard": "Preponderance of the evidence.",
+  "council_backend": "councilapi",
+  "attorneys": [
+    {
+      "role": "plaintiff",
+      "interface": "lawyerapi"
+    },
+    {
+      "role": "defendant",
+      "interface": "lawyerapi"
+    }
+  ],
+  "case_files": [
+    {
+      "evidence_id": "ev_f1a176053ed8_rules",
+      "name": "rules.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+      "name": "submitted-evidence-01-plaintiff-7f6e26b31ff3.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+      "name": "submitted-evidence-02-plaintiff-d6ef8a8fd4dc.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+      "name": "submitted-evidence-03-plaintiff-75f22524b70e.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+      "name": "submitted-evidence-04-plaintiff-0606fd0d81a7.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    }
+  ],
+  "submitted_evidence": [
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+      "name": "submitted-evidence-01-plaintiff-7f6e26b31ff3.txt",
+      "title": "Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity",
+      "source_url": "https://president.ir/en/159792",
+      "source_description": "Official website of the President of the Islamic Republic of Iran; extracted page text from web retrieval.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "relevance": "Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.",
+      "sha256": "7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+      "size_bytes": 2889
+    },
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+      "name": "submitted-evidence-02-plaintiff-d6ef8a8fd4dc.txt",
+      "title": "White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon",
+      "source_url": "https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/",
+      "source_description": "White House release; extracted page text from web retrieval.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "relevance": "Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.",
+      "sha256": "d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+      "size_bytes": 2751
+    },
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+      "name": "submitted-evidence-03-plaintiff-75f22524b70e.txt",
+      "title": "White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June",
+      "source_url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/",
+      "source_description": "White House fact sheet; extracted page text from web retrieval.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "relevance": "Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.",
+      "sha256": "75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+      "size_bytes": 2022
+    },
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+      "name": "submitted-evidence-04-plaintiff-0606fd0d81a7.txt",
+      "title": "Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks",
+      "source_url": "https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal",
+      "source_description": "Al Jazeera English article; extracted relevant page text from web retrieval.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "relevance": "Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.",
+      "sha256": "0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+      "size_bytes": 2314
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+      "sha256": "0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+      "size_bytes": 2314,
+      "mime_type": "text/plain",
+      "storage_name": "06/0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+      "created_at": "2026-06-30T16:58:08Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks",
+      "original_name": "submitted-evidence-04-plaintiff-0606fd0d81a7.txt",
+      "source_url": "https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal",
+      "source_description": "Al Jazeera English article; extracted relevant page text from web retrieval.",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+      "sha256": "75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+      "size_bytes": 2022,
+      "mime_type": "text/plain",
+      "storage_name": "75/75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+      "created_at": "2026-06-30T16:58:03Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June",
+      "original_name": "submitted-evidence-03-plaintiff-75f22524b70e.txt",
+      "source_url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/",
+      "source_description": "White House fact sheet; extracted page text from web retrieval.",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+      "sha256": "7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+      "size_bytes": 2889,
+      "mime_type": "text/plain",
+      "storage_name": "7f/7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+      "created_at": "2026-06-30T16:57:52Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity",
+      "original_name": "submitted-evidence-01-plaintiff-7f6e26b31ff3.txt",
+      "source_url": "https://president.ir/en/159792",
+      "source_description": "Official website of the President of the Islamic Republic of Iran; extracted page text from web retrieval.",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+      "sha256": "d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+      "size_bytes": 2751,
+      "mime_type": "text/plain",
+      "storage_name": "d6/d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+      "created_at": "2026-06-30T16:57:57Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon",
+      "original_name": "submitted-evidence-02-plaintiff-d6ef8a8fd4dc.txt",
+      "source_url": "https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/",
+      "source_description": "White House release; extracted page text from web retrieval.",
+      "retrieval_timestamp": "2026-06-30T17:00:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_f1a176053ed8_rules",
+      "sha256": "f1a176053ed8d60a76c8a80970398f1fcf53836b2fe66347f80e7c33afbb95ca",
+      "size_bytes": 1569,
+      "mime_type": "text/plain",
+      "storage_name": "f1/f1a176053ed8d60a76c8a80970398f1fcf53836b2fe66347f80e7c33afbb95ca",
+      "created_at": "2026-06-30T16:49:43Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "rules.txt",
+      "original_name": "rules.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    }
+  ],
+  "council": [
+    {
+      "member_id": "C1",
+      "model": "openrouter://poolside/laguna-xs.2",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "poolside/laguna-xs.2",
+        "provider": {
+          "only": [
+            "poolside/fp8"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "fp8"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "poolside/fp8",
+          "endpoint_variant_id": "2e268985e53d444e5aee71c4",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "poolside/laguna-xs.2-20260421",
+            "endpoint_model_id": "poolside/laguna-xs.2",
+            "hugging_face_id": "poolside/Laguna-XS.2",
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "poolside/laguna-xs.2",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "fp8"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "poolside/laguna-xs.2-20260421",
+              "clusters": [
+                5,
+                1,
+                5,
+                5
+              ],
+              "context_length": 262144,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Poolside | poolside/laguna-xs.2-20260421",
+              "endpoint_tag": "poolside/fp8",
+              "endpoint_variant_id": "2e268985e53d444e5aee71c4",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "poolside/Laguna-XS.2",
+              "latency_last_30m": null,
+              "max_completion_tokens": 32768,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "poolside/laguna-xs.2",
+              "pricing_completion": "0.0000002",
+              "pricing_prompt": "0.0000001",
+              "provider_error_count": null,
+              "provider_name": "Poolside",
+              "quantization": "fp8",
+              "schema_violation_count": null,
+              "source_row": 4,
+              "supported_parameters": [
+                "include_reasoning",
+                "max_tokens",
+                "reasoning",
+                "response_format",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 100,
+              "uptime_last_30m": null
+            }
+          ],
+          "openrouter_model_id": "poolside/laguna-xs.2",
+          "provider_name": "Poolside",
+          "quantization": "fp8",
+          "representative_endpoint_variant_id": "2e268985e53d444e5aee71c4",
+          "representative_source_row": 4
+        }
+      }
+    },
+    {
+      "member_id": "C2",
+      "model": "openrouter://openai/gpt-oss-120b",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "openai/gpt-oss-120b",
+        "provider": {
+          "only": [
+            "mara"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "mara",
+          "endpoint_variant_id": "432acceb9a85df06ef6a33f9",
+          "equivalence_class_size": 2,
+          "equivalence_key": {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "endpoint_model_id": "openai/gpt-oss-120b",
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                1,
+                2,
+                0,
+                6
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Mara | openai/gpt-oss-120b",
+              "endpoint_tag": "mara",
+              "endpoint_variant_id": "432acceb9a85df06ef6a33f9",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 1351.5,
+                "p75": 2578,
+                "p90": 5446.5,
+                "p99": 10669.900000000005
+              },
+              "max_completion_tokens": 131072,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.00000075",
+              "pricing_prompt": "0.00000015",
+              "provider_error_count": null,
+              "provider_name": "Mara",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 10,
+              "supported_parameters": [
+                "include_reasoning",
+                "logprobs",
+                "max_tokens",
+                "reasoning",
+                "response_format",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_logprobs",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 83.28101748511905,
+              "uptime_last_30m": 82.5109649122807
+            },
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                1,
+                2,
+                0,
+                4
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Phala | openai/gpt-oss-120b",
+              "endpoint_tag": "phala",
+              "endpoint_variant_id": "867c343b734c3ab98a28cea7",
+              "filter_deliberation_score": 0.9722222222222222,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 3438,
+                "p75": 6811.5,
+                "p90": 9731,
+                "p99": 13551.999999999989
+              },
+              "max_completion_tokens": 131072,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.0000006",
+              "pricing_prompt": "0.00000015",
+              "provider_error_count": null,
+              "provider_name": "Phala",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 15,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "logprobs",
+                "max_tokens",
+                "min_p",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_logprobs",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 83.8603939154237,
+              "uptime_last_30m": 90.94138543516874
+            }
+          ],
+          "openrouter_model_id": "openai/gpt-oss-120b",
+          "provider_name": "Mara",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "432acceb9a85df06ef6a33f9",
+          "representative_source_row": 10
+        }
+      }
+    },
+    {
+      "member_id": "C3",
+      "model": "openrouter://relace/relace-search",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "relace/relace-search",
+        "provider": {
+          "only": [
+            "relace/bf16"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "bf16"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "relace/bf16",
+          "endpoint_variant_id": "d099efa1928a65f706e3793e",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "relace/relace-search-20251208",
+            "endpoint_model_id": "relace/relace-search",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "relace/relace-search",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "bf16"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "relace/relace-search-20251208",
+              "clusters": [
+                4,
+                0,
+                4,
+                9
+              ],
+              "context_length": 256000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Relace | relace/relace-search-20251208",
+              "endpoint_tag": "relace/bf16",
+              "endpoint_variant_id": "d099efa1928a65f706e3793e",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": null,
+              "latency_last_30m": {
+                "p50": 743,
+                "p75": 952,
+                "p90": 1332.8000000000002,
+                "p99": 2295.639999999999
+              },
+              "max_completion_tokens": 128000,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "relace/relace-search",
+              "pricing_completion": "0.000003",
+              "pricing_prompt": "0.000001",
+              "provider_error_count": null,
+              "provider_name": "Relace",
+              "quantization": "bf16",
+              "schema_violation_count": null,
+              "source_row": 28,
+              "supported_parameters": [
+                "max_tokens",
+                "response_format",
+                "seed",
+                "stop",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 100,
+              "uptime_last_30m": null
+            }
+          ],
+          "openrouter_model_id": "relace/relace-search",
+          "provider_name": "Relace",
+          "quantization": "bf16",
+          "representative_endpoint_variant_id": "d099efa1928a65f706e3793e",
+          "representative_source_row": 28
+        }
+      }
+    },
+    {
+      "member_id": "C4",
+      "model": "openrouter://qwen/qwen3-coder-plus",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "qwen/qwen3-coder-plus",
+        "provider": {
+          "only": [
+            "alibaba"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "alibaba",
+          "endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "qwen/qwen3-coder-plus",
+            "endpoint_model_id": "qwen/qwen3-coder-plus",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "qwen/qwen3-coder-plus",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "qwen/qwen3-coder-plus",
+              "clusters": [
+                3,
+                0,
+                4,
+                3
+              ],
+              "context_length": 1000000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Alibaba | qwen/qwen3-coder-plus",
+              "endpoint_tag": "alibaba",
+              "endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+              "filter_deliberation_score": 0.9166666666666666,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "",
+              "latency_last_30m": {
+                "p50": 1294.5,
+                "p75": 1710,
+                "p90": 2368.900000000001,
+                "p99": 4135.479999999999
+              },
+              "max_completion_tokens": 65536,
+              "max_prompt_tokens": 997952,
+              "openrouter_model_id": "qwen/qwen3-coder-plus",
+              "pricing_completion": "0.00000325",
+              "pricing_prompt": "0.00000065",
+              "provider_error_count": null,
+              "provider_name": "Alibaba",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 22,
+              "supported_parameters": [
+                "max_tokens",
+                "presence_penalty",
+                "response_format",
+                "seed",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 100,
+              "uptime_last_30m": null
+            }
+          ],
+          "openrouter_model_id": "qwen/qwen3-coder-plus",
+          "provider_name": "Alibaba",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+          "representative_source_row": 22
+        }
+      }
+    },
+    {
+      "member_id": "C5",
+      "model": "openrouter://openai/gpt-4o-mini",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "openai/gpt-4o-mini",
+        "provider": {
+          "only": [
+            "openai"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "openai",
+          "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "openai/gpt-4o-mini",
+            "endpoint_model_id": "openai/gpt-4o-mini",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "file",
+              "image",
+              "text"
+            ],
+            "openrouter_model_id": "openai/gpt-4o-mini",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "openai/gpt-4o-mini",
+              "clusters": [
+                3,
+                1,
+                6,
+                9
+              ],
+              "context_length": 128000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "OpenAI | openai/gpt-4o-mini",
+              "endpoint_tag": "openai",
+              "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+              "filter_deliberation_score": 0.9444444444444443,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": null,
+              "latency_last_30m": {
+                "p50": 509,
+                "p75": 772,
+                "p90": 1258,
+                "p99": 4127.800000000003
+              },
+              "max_completion_tokens": 16384,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-4o-mini",
+              "pricing_completion": "0.0000006",
+              "pricing_prompt": "0.00000015",
+              "provider_error_count": null,
+              "provider_name": "OpenAI",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 17,
+              "supported_parameters": [
+                "frequency_penalty",
+                "logit_bias",
+                "logprobs",
+                "max_tokens",
+                "presence_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_logprobs",
+                "top_p",
+                "web_search_options"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 99.91886470048567,
+              "uptime_last_30m": 99.91261300624772
+            }
+          ],
+          "openrouter_model_id": "openai/gpt-4o-mini",
+          "provider_name": "OpenAI",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+          "representative_source_row": 17
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": "2026-06-30T16:49:43.797Z",
+      "turn": 0,
+      "role": "system",
+      "phase": "openings",
+      "type": "council_member_replaced",
+      "payload": {
+        "cause": "responses request canceled during backoff: context deadline exceeded",
+        "member_id": "C3",
+        "replacement_model": "openrouter://relace/relace-search",
+        "replacement_persona_filename": "personas/generic.md",
+        "unavailable_model": "openrouter://nvidia/nemotron-3-super-120b-a12b",
+        "unavailable_persona_filename": "personas/generic.md"
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:49:43.797Z",
+      "turn": 0,
+      "role": "system",
+      "phase": "openings",
+      "type": "council_member_replaced",
+      "payload": {
+        "cause": "responses request canceled during backoff: context deadline exceeded",
+        "member_id": "C4",
+        "replacement_model": "openrouter://qwen/qwen3-coder-plus",
+        "replacement_persona_filename": "personas/generic.md",
+        "unavailable_model": "openrouter://nvidia/nemotron-3-super-120b-a12b",
+        "unavailable_persona_filename": "personas/generic.md"
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:49:43.797Z",
+      "turn": 0,
+      "role": "system",
+      "phase": "openings",
+      "type": "council_member_replaced",
+      "payload": {
+        "cause": "responses request failed: POST \"https://openrouter.ai/api/v1/responses\": 404 Not Found {\"message\":\"No endpoints found for anthropic/claude-opus-4.6-fast.\",\"code\":404}",
+        "member_id": "C5",
+        "replacement_model": "openrouter://openai/gpt-4o-mini",
+        "replacement_persona_filename": "personas/generic.md",
+        "unavailable_model": "openrouter://anthropic/claude-opus-4.6-fast",
+        "unavailable_persona_filename": "personas/generic.md"
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:49:43.797Z",
+      "turn": 0,
+      "role": "system",
+      "phase": "openings",
+      "type": "run_initialized",
+      "payload": {
+        "attorneys": [
+          {
+            "role": "plaintiff",
+            "interface": "lawyerapi"
+          },
+          {
+            "role": "defendant",
+            "interface": "lawyerapi"
+          }
+        ],
+        "complaint": {
+          "Proposition": "By June 15, 2025 11:59 PM ET, Iran and the United States agreed to a permanent peace deal."
+        },
+        "council": [
+          {
+            "member_id": "C1",
+            "model": "openrouter://poolside/laguna-xs.2",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "poolside/laguna-xs.2",
+              "provider": {
+                "only": [
+                  "poolside/fp8"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "fp8"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "poolside/fp8",
+                "endpoint_variant_id": "2e268985e53d444e5aee71c4",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "poolside/laguna-xs.2-20260421",
+                  "endpoint_model_id": "poolside/laguna-xs.2",
+                  "hugging_face_id": "poolside/Laguna-XS.2",
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "poolside/laguna-xs.2",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "fp8"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "poolside/laguna-xs.2-20260421",
+                    "clusters": [
+                      5,
+                      1,
+                      5,
+                      5
+                    ],
+                    "context_length": 262144,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Poolside | poolside/laguna-xs.2-20260421",
+                    "endpoint_tag": "poolside/fp8",
+                    "endpoint_variant_id": "2e268985e53d444e5aee71c4",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "poolside/Laguna-XS.2",
+                    "latency_last_30m": null,
+                    "max_completion_tokens": 32768,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "poolside/laguna-xs.2",
+                    "pricing_completion": "0.0000002",
+                    "pricing_prompt": "0.0000001",
+                    "provider_error_count": null,
+                    "provider_name": "Poolside",
+                    "quantization": "fp8",
+                    "schema_violation_count": null,
+                    "source_row": 4,
+                    "supported_parameters": [
+                      "include_reasoning",
+                      "max_tokens",
+                      "reasoning",
+                      "response_format",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 100,
+                    "uptime_last_30m": null
+                  }
+                ],
+                "openrouter_model_id": "poolside/laguna-xs.2",
+                "provider_name": "Poolside",
+                "quantization": "fp8",
+                "representative_endpoint_variant_id": "2e268985e53d444e5aee71c4",
+                "representative_source_row": 4
+              }
+            }
+          },
+          {
+            "member_id": "C2",
+            "model": "openrouter://openai/gpt-oss-120b",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "openai/gpt-oss-120b",
+              "provider": {
+                "only": [
+                  "mara"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "mara",
+                "endpoint_variant_id": "432acceb9a85df06ef6a33f9",
+                "equivalence_class_size": 2,
+                "equivalence_key": {
+                  "canonical_slug": "openai/gpt-oss-120b",
+                  "endpoint_model_id": "openai/gpt-oss-120b",
+                  "hugging_face_id": "openai/gpt-oss-120b",
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "openai/gpt-oss-120b",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      1,
+                      2,
+                      0,
+                      6
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Mara | openai/gpt-oss-120b",
+                    "endpoint_tag": "mara",
+                    "endpoint_variant_id": "432acceb9a85df06ef6a33f9",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 1351.5,
+                      "p75": 2578,
+                      "p90": 5446.5,
+                      "p99": 10669.900000000005
+                    },
+                    "max_completion_tokens": 131072,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.00000075",
+                    "pricing_prompt": "0.00000015",
+                    "provider_error_count": null,
+                    "provider_name": "Mara",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 10,
+                    "supported_parameters": [
+                      "include_reasoning",
+                      "logprobs",
+                      "max_tokens",
+                      "reasoning",
+                      "response_format",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_logprobs",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 83.28101748511905,
+                    "uptime_last_30m": 82.5109649122807
+                  },
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      1,
+                      2,
+                      0,
+                      4
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Phala | openai/gpt-oss-120b",
+                    "endpoint_tag": "phala",
+                    "endpoint_variant_id": "867c343b734c3ab98a28cea7",
+                    "filter_deliberation_score": 0.9722222222222222,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 3438,
+                      "p75": 6811.5,
+                      "p90": 9731,
+                      "p99": 13551.999999999989
+                    },
+                    "max_completion_tokens": 131072,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.0000006",
+                    "pricing_prompt": "0.00000015",
+                    "provider_error_count": null,
+                    "provider_name": "Phala",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 15,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "logprobs",
+                      "max_tokens",
+                      "min_p",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_logprobs",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 83.8603939154237,
+                    "uptime_last_30m": 90.94138543516874
+                  }
+                ],
+                "openrouter_model_id": "openai/gpt-oss-120b",
+                "provider_name": "Mara",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "432acceb9a85df06ef6a33f9",
+                "representative_source_row": 10
+              }
+            }
+          },
+          {
+            "member_id": "C3",
+            "model": "openrouter://relace/relace-search",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "relace/relace-search",
+              "provider": {
+                "only": [
+                  "relace/bf16"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "bf16"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "relace/bf16",
+                "endpoint_variant_id": "d099efa1928a65f706e3793e",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "relace/relace-search-20251208",
+                  "endpoint_model_id": "relace/relace-search",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "relace/relace-search",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "bf16"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "relace/relace-search-20251208",
+                    "clusters": [
+                      4,
+                      0,
+                      4,
+                      9
+                    ],
+                    "context_length": 256000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Relace | relace/relace-search-20251208",
+                    "endpoint_tag": "relace/bf16",
+                    "endpoint_variant_id": "d099efa1928a65f706e3793e",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": null,
+                    "latency_last_30m": {
+                      "p50": 743,
+                      "p75": 952,
+                      "p90": 1332.8000000000002,
+                      "p99": 2295.639999999999
+                    },
+                    "max_completion_tokens": 128000,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "relace/relace-search",
+                    "pricing_completion": "0.000003",
+                    "pricing_prompt": "0.000001",
+                    "provider_error_count": null,
+                    "provider_name": "Relace",
+                    "quantization": "bf16",
+                    "schema_violation_count": null,
+                    "source_row": 28,
+                    "supported_parameters": [
+                      "max_tokens",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 100,
+                    "uptime_last_30m": null
+                  }
+                ],
+                "openrouter_model_id": "relace/relace-search",
+                "provider_name": "Relace",
+                "quantization": "bf16",
+                "representative_endpoint_variant_id": "d099efa1928a65f706e3793e",
+                "representative_source_row": 28
+              }
+            }
+          },
+          {
+            "member_id": "C4",
+            "model": "openrouter://qwen/qwen3-coder-plus",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "qwen/qwen3-coder-plus",
+              "provider": {
+                "only": [
+                  "alibaba"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "alibaba",
+                "endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "qwen/qwen3-coder-plus",
+                  "endpoint_model_id": "qwen/qwen3-coder-plus",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "qwen/qwen3-coder-plus",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "qwen/qwen3-coder-plus",
+                    "clusters": [
+                      3,
+                      0,
+                      4,
+                      3
+                    ],
+                    "context_length": 1000000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Alibaba | qwen/qwen3-coder-plus",
+                    "endpoint_tag": "alibaba",
+                    "endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+                    "filter_deliberation_score": 0.9166666666666666,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "",
+                    "latency_last_30m": {
+                      "p50": 1294.5,
+                      "p75": 1710,
+                      "p90": 2368.900000000001,
+                      "p99": 4135.479999999999
+                    },
+                    "max_completion_tokens": 65536,
+                    "max_prompt_tokens": 997952,
+                    "openrouter_model_id": "qwen/qwen3-coder-plus",
+                    "pricing_completion": "0.00000325",
+                    "pricing_prompt": "0.00000065",
+                    "provider_error_count": null,
+                    "provider_name": "Alibaba",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 22,
+                    "supported_parameters": [
+                      "max_tokens",
+                      "presence_penalty",
+                      "response_format",
+                      "seed",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 100,
+                    "uptime_last_30m": null
+                  }
+                ],
+                "openrouter_model_id": "qwen/qwen3-coder-plus",
+                "provider_name": "Alibaba",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+                "representative_source_row": 22
+              }
+            }
+          },
+          {
+            "member_id": "C5",
+            "model": "openrouter://openai/gpt-4o-mini",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "openai/gpt-4o-mini",
+              "provider": {
+                "only": [
+                  "openai"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "openai",
+                "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "openai/gpt-4o-mini",
+                  "endpoint_model_id": "openai/gpt-4o-mini",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "file",
+                    "image",
+                    "text"
+                  ],
+                  "openrouter_model_id": "openai/gpt-4o-mini",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "openai/gpt-4o-mini",
+                    "clusters": [
+                      3,
+                      1,
+                      6,
+                      9
+                    ],
+                    "context_length": 128000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "OpenAI | openai/gpt-4o-mini",
+                    "endpoint_tag": "openai",
+                    "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+                    "filter_deliberation_score": 0.9444444444444443,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": null,
+                    "latency_last_30m": {
+                      "p50": 509,
+                      "p75": 772,
+                      "p90": 1258,
+                      "p99": 4127.800000000003
+                    },
+                    "max_completion_tokens": 16384,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-4o-mini",
+                    "pricing_completion": "0.0000006",
+                    "pricing_prompt": "0.00000015",
+                    "provider_error_count": null,
+                    "provider_name": "OpenAI",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 17,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "logit_bias",
+                      "logprobs",
+                      "max_tokens",
+                      "presence_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_logprobs",
+                      "top_p",
+                      "web_search_options"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 99.91886470048567,
+                    "uptime_last_30m": 99.91261300624772
+                  }
+                ],
+                "openrouter_model_id": "openai/gpt-4o-mini",
+                "provider_name": "OpenAI",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+                "representative_source_row": 17
+              }
+            }
+          }
+        ],
+        "council_backend": "councilapi",
+        "council_preflight_replacements": [
+          {
+            "MemberID": "C3",
+            "UnavailableModel": "openrouter://nvidia/nemotron-3-super-120b-a12b",
+            "UnavailablePersonaFile": "personas/generic.md",
+            "ReplacementModel": "openrouter://relace/relace-search",
+            "ReplacementPersonaFile": "personas/generic.md",
+            "Cause": "responses request canceled during backoff: context deadline exceeded"
+          },
+          {
+            "MemberID": "C4",
+            "UnavailableModel": "openrouter://nvidia/nemotron-3-super-120b-a12b",
+            "UnavailablePersonaFile": "personas/generic.md",
+            "ReplacementModel": "openrouter://qwen/qwen3-coder-plus",
+            "ReplacementPersonaFile": "personas/generic.md",
+            "Cause": "responses request canceled during backoff: context deadline exceeded"
+          },
+          {
+            "MemberID": "C5",
+            "UnavailableModel": "openrouter://anthropic/claude-opus-4.6-fast",
+            "UnavailablePersonaFile": "personas/generic.md",
+            "ReplacementModel": "openrouter://openai/gpt-4o-mini",
+            "ReplacementPersonaFile": "personas/generic.md",
+            "Cause": "responses request failed: POST \"https://openrouter.ai/api/v1/responses\": 404 Not Found {\"message\":\"No endpoints found for anthropic/claude-opus-4.6-fast.\",\"code\":404}"
+          }
+        ],
+        "evidence_standard": "Preponderance of the evidence."
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:52:14.670Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1569,
+        "evidence_id": "ev_f1a176053ed8_rules",
+        "length": 1569,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:54:00.994Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "record_opening_statement",
+        "opportunity_id": "openings:plaintiff",
+        "payload": {
+          "text": "Council members, the plaintiff’s burden is defined by the case-packet rules, and those rules make this a narrow factual inquiry rather than a general debate about diplomacy.\n\nThe proposition is demonstrated if, by June 15, 2025 at 11:59 PM Eastern Time, the United States and Iran had agreed to a permanent peace deal. The admitted rules file tells us what that means. A qualifying deal must explicitly state that military hostilities between the United States and Iran have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. The rules also tell us what does not count: a temporary extension, a ceasefire without a definitive lasting end, mere negotiations, progress statements, or non-final announcements.\n\nThe plaintiff’s theory is therefore straightforward. This case turns on whether the record can show a definitive bilateral commitment by the cutoff, not whether later events were calm, messy, or politically contested. Under the rules, the strongest proof would be either a written agreement signed or formally adopted by both sides, or clear public confirmation from both governments that a qualifying agreement had been definitively established. A treaty label is not required if the proof otherwise satisfies that standard. The words, timing, and source of the confirmation matter most.\n\nAt the opening stage, the current admitted record contains only the rules file. That file is important because it supplies the legal test, but it does not itself prove the historical fact of an agreement. For that reason, the plaintiff will not ask the council to infer the proposition from hope, market chatter, or general diplomatic movement. The plaintiff expects the decisive evidence to be official U.S. and Iranian government statements, any adopted text or instrument, and reliable reporting only insofar as it helps confirm what the governments themselves said and when they said it.\n\nThe plaintiff also recognizes the adverse questions. If the evidence shows only suspended nuclear talks, temporary ceasefire language, unilateral statements, post-cutoff developments, or a promise to keep negotiating, that would not satisfy the rules. If one government clearly denied that a qualifying agreement had been reached by the deadline, that would carry real weight. If a later agreement was necessary because no permanent peace deal existed earlier, the timing problem would have to be confronted directly.\n\nBut the rules set a preponderance standard, not a formalistic trap. If the admitted evidence establishes that both governments clearly confirmed, by the deadline, a definitive agreement to permanently end U.S.-Iran military hostilities, then the proposition is demonstrated even if implementation details, nuclear issues, or political objections remained unsettled. The plaintiff’s case will focus on that precise question: whether the source record proves mutual, timely, permanent commitment rather than temporary de-escalation or ongoing negotiation."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:54:30.621Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1569,
+        "evidence_id": "ev_f1a176053ed8_rules",
+        "length": 1569,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:56:10.240Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "record_opening_statement",
+        "opportunity_id": "openings:defendant",
+        "payload": {
+          "text": "Council members, the defense agrees with one point in plaintiff’s opening: this case is narrow. The proposition is not whether diplomacy with Iran was desirable, whether talks occurred, whether tensions later eased, or whether someone announced progress. The admitted case-packet rules require something much more specific by June 15, 2025 at 11:59 PM Eastern: a permanent peace deal between Iran and the United States.\n\nThe only evidence now in the record is the rules file, `ev_f1a176053ed8_rules`. That file proves the governing test and nothing more. It says a qualifying deal must explicitly state that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. It also excludes the very categories most likely to be confused with proof here: temporary extensions, ceasefires without a definitive lasting end, negotiations, progress statements, and non-final announcements.\n\nThat distinction will decide the case. Plaintiff must do more than show contact between diplomats, nuclear discussions, optimism from one side, mediation by a third country, or later attempts to stabilize the relationship. Plaintiff must establish either a signed or formally adopted written agreement meeting the rules, or clear public confirmation by both governments that such a qualifying agreement had definitively been established before the cutoff.\n\nThe defense theory is straightforward: unless plaintiff can produce that bilateral, timely, permanent commitment, the proposition is not demonstrated. A unilateral U.S. statement would not be enough. A unilateral Iranian statement would not be enough. A planned meeting, a draft, an exchange through mediators, or a promise to continue talking would not be enough. A ceasefire or pause would not be enough unless it definitively ended U.S.-Iran military hostilities on a lasting basis. And any post-cutoff development would not cure the timing problem; if a later agreement was still needed, that tends to show the required agreement did not already exist by June 15, 2025.\n\nThe current record contains no written peace instrument, no adopted bilateral text, and no public confirmation from both governments. That absence matters at the opening stage because the rules make official U.S. and Iranian government information the primary resolution source. In later evidence phases, the defense expects the key proof to be official statements, dated government releases, and reliable reporting only insofar as it confirms what each government actually said and when. The most important adverse checks will be the full source chain for any claimed agreement: who spoke, whether they had authority, whether the other government matched the statement, whether the language was permanent rather than temporary, and whether it was made before the deadline.\n\nSo the defense asks the council to keep the burden centered. The rules do not allow a finding for plaintiff based on diplomatic smoke, market language, or after-the-fact framing. They require a definitive, bilateral, timely permanent peace deal. On this record, that historical fact has not been shown, and unless plaintiff supplies admissible evidence closing each of those gaps, the proper resolution is not demonstrated."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:57:52.803Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+        "mime_type": "text/plain",
+        "relevance": "Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.",
+        "retrieval_timestamp": "2026-06-30T17:00:00Z",
+        "sha256": "7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+        "size_bytes": 2889,
+        "source_description": "Official website of the President of the Islamic Republic of Iran; extracted page text from web retrieval.",
+        "source_url": "https://president.ir/en/159792",
+        "title": "Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity"
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:57:57.989Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+        "mime_type": "text/plain",
+        "relevance": "Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.",
+        "retrieval_timestamp": "2026-06-30T17:00:00Z",
+        "sha256": "d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+        "size_bytes": 2751,
+        "source_description": "White House release; extracted page text from web retrieval.",
+        "source_url": "https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/",
+        "title": "White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon"
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:58:03.143Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+        "mime_type": "text/plain",
+        "relevance": "Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.",
+        "retrieval_timestamp": "2026-06-30T17:00:00Z",
+        "sha256": "75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+        "size_bytes": 2022,
+        "source_description": "White House fact sheet; extracted page text from web retrieval.",
+        "source_url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/",
+        "title": "White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June"
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:58:08.304Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+        "mime_type": "text/plain",
+        "relevance": "Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.",
+        "retrieval_timestamp": "2026-06-30T17:00:00Z",
+        "sha256": "0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+        "size_bytes": 2314,
+        "source_description": "Al Jazeera English article; extracted relevant page text from web retrieval.",
+        "source_url": "https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal",
+        "title": "Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks"
+      }
+    },
+    {
+      "timestamp": "2026-06-30T16:59:40.295Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_argument",
+        "opportunity_id": "arguments:plaintiff",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_f1a176053ed8_rules",
+              "label": "PX-1: Case-packet rules defining qualifying permanent peace deal"
+            },
+            {
+              "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+              "label": "PX-2: Official Iranian President June 14 statement"
+            },
+            {
+              "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+              "label": "PX-3: White House June 17 Iran statements release"
+            },
+            {
+              "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+              "label": "PX-4: White House later June-deal characterization"
+            },
+            {
+              "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+              "label": "PX-5: June 14 contemporaneous reporting on cancelled talks"
+            }
+          ],
+          "technical_reports": [
+            {
+              "summary": "Searched official U.S. and Iranian government sources and credible contemporaneous reporting around June 13-17, 2025. Source targets were a written peace instrument, matching government confirmations by the June 15 cutoff, or adverse cancellation/refusal material. Submitted accepted captures from president.ir, WhiteHouse.gov, and Al Jazeera. No signed/formally adopted permanent peace agreement, official Iranian confirmation, or official U.S. confirmation of a qualifying permanent peace deal by the cutoff was located.",
+              "title": "Plaintiff Source Search Ledger"
+            }
+          ],
+          "text": "Council members, after investigation and evidence submission, the plaintiff’s best legal theory remains clear, but the submitted record does not presently carry the plaintiff’s burden.\n\nThe governing rule is PX-1. A qualifying peace deal had to exist by June 15, 2025 at 11:59 PM ET, and it had to explicitly indicate that U.S.-Iran military hostilities had ended or would permanently cease, or use equivalent language showing a lasting end. PX-1 allows proof by a signed/formally adopted written agreement or by clear public confirmation from both governments. It excludes negotiations, progress statements, temporary arrangements, and non-definitive announcements.\n\nThat rule leaves a possible plaintiff path: if the United States and Iran had each publicly confirmed by the cutoff that a definitive permanent peace agreement existed, the proposition could be demonstrated even without treaty formalities. But the evidence I was able to preserve and submit does not show that.\n\nPX-2 is an official Iranian presidential statement dated June 14, 2025. It is close in time and from a strong official Iranian source. It shows the opposite of Iranian confirmation of a permanent peace deal: President Pezeshkian described U.S. coordination with Israel during indirect Tehran-Washington negotiations as evidence of U.S. dishonesty and untrustworthiness. That proves there were indirect negotiations and regional peace rhetoric, but it does not prove Iran had agreed to a permanent peace deal with the United States.\n\nPX-3 is an official White House release dated June 17, 2025 collecting President Trump’s statements on Iran. Its June 14 entry says, in substance, that there cannot be peace if Iran has a nuclear weapon. Other entries demand that Iran stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those statements may show a U.S. desired end state and negotiating conditions. They do not show that the United States confirmed a definitive permanent peace deal by June 15, and they do not supply matching Iranian confirmation.\n\nPX-4 is later, but it is an official U.S. characterization of the June 2025 sequence. The White House stated that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. Because it is later and self-characterizing, it should not be treated as the only account of June 2025. Still, as an official U.S. source, it is materially adverse to the proposition: it describes refusal to reach a deal, not agreement to permanent peace.\n\nPX-5 is contemporaneous reporting from June 14, 2025. It reports that Iran regarded further nuclear talks with the United States as meaningless amid Israeli attacks, quotes an Iranian foreign-ministry spokesperson through semi-official Tasnim, and notes that a sixth round of U.S.-Iran nuclear talks had been set for June 15 in Oman. This is secondary reporting rather than a primary government page, so it carries less weight than PX-2 or PX-3. But it is consistent with them: the relationship was in conflict and negotiation, not in a confirmed permanent peace.\n\nThe provenance and custody picture is straightforward. PX-2, PX-3, and PX-4 are captured extracts from official government websites and therefore have strong source provenance for what those governments publicly said. PX-5 is a credible contemporaneous secondary report with an identified source chain, useful to corroborate the status of talks but not a substitute for a signed agreement or official bilateral confirmation. AAR accepted each capture and assigned an evidence_id and hash.\n\nWhat remains missing is decisive. There is no written U.S.-Iran peace instrument in the record. There is no official Iranian statement by the cutoff clearly confirming that a qualifying permanent peace agreement had been definitively established. There is no official U.S. statement by the cutoff clearly confirming the same. The admitted evidence shows talks, demands, distrust, and conflict. Under PX-1, that is not enough.\n\nThe plaintiff’s opening correctly identified what would have been sufficient: bilateral, timely, definitive confirmation of a lasting end to U.S.-Iran military hostilities. The merits record now shows that those links are absent. On this evidentiary record, the council should not find the proposition demonstrated merely because negotiations existed or peace was discussed. The plaintiff’s candid position is that the submitted evidence does not prove by a preponderance that Iran and the United States agreed to a permanent peace deal by the June 15, 2025 deadline."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:00:20.330Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 2022,
+        "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+        "length": 2022,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:00:20.385Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 2751,
+        "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+        "length": 2751,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:00:20.434Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 2314,
+        "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+        "length": 2314,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:00:20.486Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 2889,
+        "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+        "length": 2889,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:01:38.154Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_argument",
+        "opportunity_id": "arguments:defendant",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_f1a176053ed8_rules",
+              "label": "DX-1: Case-packet rules defining qualifying permanent peace deal"
+            },
+            {
+              "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+              "label": "DX-2: Official Iranian President June 14 statement showing distrust and ongoing hostilities"
+            },
+            {
+              "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+              "label": "DX-3: White House June 17 release listing U.S. Iran conditions, not a confirmed peace deal"
+            },
+            {
+              "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+              "label": "DX-4: White House later characterization that Iran refused to reach a deal in June"
+            },
+            {
+              "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+              "label": "DX-5: June 14 reporting that U.S.-Iran nuclear talks were unresolved and effectively cancelled"
+            }
+          ],
+          "technical_reports": [
+            {
+              "summary": "Defense inspected the current record, metadata, and full text of plaintiff's four submitted sources plus the rules. No additional defense evidence was submitted because the visible evidence is sufficient: official Iranian and U.S. sources show distrust, demands, and refusal rather than a signed/adopted agreement or matching public confirmations, and plaintiff's own search ledger reports no qualifying agreement or confirmation was located.",
+              "title": "Defense evidence sufficiency audit"
+            }
+          ],
+          "text": "Council members, the merits record now resolves the case for the defense. Plaintiff’s own argument states the key fact plainly: after investigation and evidence submission, “the submitted record does not presently carry the plaintiff’s burden.” The defense agrees, and the record shows why.\n\nDX-1, the rules file, supplies the governing test. A qualifying agreement must explicitly indicate that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent lasting-end language. Negotiations, progress statements, temporary arrangements, and non-definitive announcements do not count. The agreement is established only by a signed or formally adopted written agreement meeting that test, or by clear public confirmation from both governments that such an agreement has definitively been established.\n\nNo evidence in the record satisfies either path.\n\nDX-2 is strong official Iranian-source evidence because it comes from the official website of Iran’s President and is dated June 14, 2025, one day before the cutoff. But its substance defeats the proposition. President Pezeshkian described continuing aggression, said the United States and Western countries supported Israel, warned of a more severe Iranian response if aggression continued, and said U.S. coordination with Israel during indirect Tehran-Washington negotiations showed U.S. dishonesty and untrustworthiness. That proves there were indirect talks and an official Iranian accusation of bad faith. It does not prove Iran publicly confirmed a permanent peace deal with the United States. It proves the opposite atmosphere: conflict, distrust, and unresolved negotiations.\n\nDX-3 is official U.S. evidence from the White House. It likewise does not contain a U.S. confirmation of a bilateral permanent peace deal. Its June 14 entry says that peace is impossible if Iran has a nuclear weapon. Other entries repeat conditions and demands: Iran cannot have a nuclear weapon, and any deal would require Iran to stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those are negotiating positions and desired end states. Under DX-1, they are not a definitive announcement that a qualifying permanent peace agreement had been reached, and they do not supply matching Iranian confirmation.\n\nDX-4 is later in time, so the council should use it carefully. But it is still an official U.S. government characterization of the relevant June sequence, and it is materially adverse to plaintiff’s proposition. It says that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. “Refused to reach a deal” is not “agreed to a permanent peace deal.” Even if the council gives this later statement reduced weight, it points away from the proposition and is consistent with the contemporaneous record.\n\nDX-5 is credible contemporaneous secondary reporting, not a primary government record. Its weight is therefore corroborative rather than decisive. But it confirms the same picture. On June 14, 2025, the article reported that Iran regarded dialogue with the United States as meaningless amid Israeli attacks, quoted Iran’s foreign-ministry spokesperson through semi-official Tasnim to that effect, and noted that a sixth round of U.S.-Iran nuclear talks was still scheduled for Sunday in Oman. Pending or collapsing nuclear talks are not a permanent peace deal. A scheduled future round is especially hard to reconcile with a claim that both governments had already definitively established a lasting end to U.S.-Iran military hostilities.\n\nThe provenance picture strengthens the defense. DX-2, DX-3, and DX-4 are official government-source captures accepted by AAR with evidence IDs and hashes, so they are strong evidence of what those governments publicly said. DX-5 is less authoritative but contemporaneous and consistent with the official materials. There is no chain-of-custody problem that helps plaintiff: the problem is not unreliable adverse evidence, but the absence of affirmative qualifying evidence.\n\nThe missing links are decisive. The record contains no signed U.S.-Iran peace instrument. It contains no formally adopted bilateral text. It contains no official Iranian confirmation by the cutoff that a qualifying permanent peace agreement had been definitively established. It contains no official U.S. confirmation by the cutoff of the same proposition. Plaintiff’s own source-search ledger says those materials were not located.\n\nPreponderance does not mean speculation from diplomatic motion. The rules required a specific bilateral, timely, permanent commitment. The admitted evidence shows negotiations, conditions, hostility, distrust, and later refusal. It does not show a permanent peace deal by June 15, 2025 at 11:59 PM ET. The council should resolve the proposition as not demonstrated."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:02:38.948Z",
+      "turn": 5,
+      "role": "plaintiff",
+      "phase": "rebuttals",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "pass_phase_opportunity",
+        "opportunity_id": "rebuttals:plaintiff",
+        "payload": {
+          "text": "Plaintiff passes rebuttal. Defendant introduced no new evidence and identified no material issue beyond the plaintiff's already stated evidentiary gap."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:03:32.544Z",
+      "turn": 6,
+      "role": "defendant",
+      "phase": "surrebuttals",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "pass_phase_opportunity",
+        "opportunity_id": "surrebuttals:defendant",
+        "payload": {}
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:04:40.973Z",
+      "turn": 7,
+      "role": "plaintiff",
+      "phase": "closings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "deliver_closing_statement",
+        "opportunity_id": "closings:plaintiff",
+        "payload": {
+          "text": "Council members, the record is now complete enough to decide the proposition, and the decisive point is the absence of qualifying proof.\n\nPX-1 sets the rule. By June 15, 2025 at 11:59 PM ET, there had to be either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, showing a definitive permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nThe record does not contain the required agreement or confirmations.\n\nPX-2 is official Iranian evidence from June 14, 2025. It is important because of its timing and provenance, but it does not confirm peace. It shows Iran accusing the United States of dishonesty and untrustworthiness during indirect negotiations and describing continuing aggression and potential response. That is not a permanent peace deal.\n\nPX-3 is official U.S. evidence. It shows President Trump’s public position that Iran could not have a nuclear weapon and that peace depended on that condition. That may show negotiating objectives; it does not show the United States announcing that a qualifying bilateral permanent peace agreement had been reached by the cutoff, and it certainly does not supply matching Iranian confirmation.\n\nPX-4 is later official U.S. characterization, so it should be weighed with that timing in mind. But it is still adverse: the White House described June as a period in which Iran refused to reach a deal before U.S. military action. That is inconsistent with the proposition.\n\nPX-5 is secondary reporting, but contemporaneous and corroborative. It reports that Iran regarded talks as meaningless and that a further round of talks was still scheduled. That is evidence of unresolved or collapsing negotiation, not a completed permanent peace agreement.\n\nThe source provenance is not the problem. The official sources are strong evidence of what each government was saying. The problem is substance: those sources do not say what PX-1 requires. The missing links are decisive. There is no adopted text. There is no official Iranian confirmation of a permanent U.S.-Iran peace deal by the deadline. There is no official U.S. confirmation of the same. The record instead shows conflict, conditions, distrust, and failed or unresolved talks.\n\nThe plaintiff’s theory was legally possible: bilateral public confirmation could have sufficed. But the evidence submitted does not establish that theory by a preponderance. On this record, the proposition should be resolved as not demonstrated."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:05:48.005Z",
+      "turn": 8,
+      "role": "defendant",
+      "phase": "closings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "deliver_closing_statement",
+        "opportunity_id": "closings:defendant",
+        "payload": {
+          "text": "Council members, this case ends where the rules and both parties’ merits presentations now point: the proposition is not demonstrated.\n\nThe governing rule is exacting but not complicated. By June 15, 2025 at 11:59 PM ET, the record needed to show either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, establishing a permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nPlaintiff’s closing correctly identifies the decisive point: “the absence of qualifying proof.” That is not a small evidentiary gap. It is the central element of the proposition. Without a qualifying agreement or matching government confirmations, there is no basis to find that Iran and the United States agreed to a permanent peace deal by the deadline.\n\nThe admitted evidence is consistent and one-sided on that question. The rules file tells the council what must be proven. The Iranian President’s June 14 statement is official and close in time, but it shows accusation, distrust, continuing aggression, and threatened response; it does not show Iranian confirmation of a permanent peace deal with the United States. The White House June 17 release shows U.S. conditions and demands about Iran’s nuclear program; it does not announce that a bilateral permanent peace agreement already existed by June 15, and it does not supply Iranian confirmation. The later White House fact sheet says Iran refused to reach a deal in June, which points away from the proposition. The Al Jazeera report is secondary but contemporaneous, and it confirms unresolved or collapsing nuclear talks, not completed permanent peace.\n\nThe strongest theoretical point for plaintiff is that a treaty was not required. Clear public confirmation from both governments could have been enough. But that only matters if the confirmations exist. They do not. The record contains no adopted text, no official Iranian confirmation, and no official U.S. confirmation of a qualifying permanent peace deal by the cutoff. Plaintiff’s own search ledger and closing acknowledge those missing links.\n\nSo the council need not choose between competing speculative narratives. The official and contemporaneous record shows negotiations, conditions, distrust, and conflict. It does not show a definitive bilateral commitment to permanently end U.S.-Iran military hostilities by June 15, 2025. Under the preponderance standard, the absence of the required proof is decisive.\n\nThe proper resolution is not demonstrated."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:06:07.284Z",
+      "turn": 9,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C1",
+        "model": "openrouter://poolside/laguna-xs.2",
+        "payload": {
+          "member_id": "C1",
+          "rationale": "The admitted record contains no written peace agreement, no Iranian confirmation of a permanent peace deal by June 15, and no US confirmation of such a deal. The evidence shows negotiations, distrust, ongoing hostilities, and a later Iranian refusal to reach a deal - inconsistent with the required bilateral, timely, permanent commitment.",
+          "vote": "not_demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:06:32.292Z",
+      "turn": 10,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C2",
+        "model": "openrouter://openai/gpt-oss-120b",
+        "payload": {
+          "member_id": "C2",
+          "rationale": "The evidence shows no signed agreement or bilateral public confirmation of a permanent peace deal by the June 15, 2025 deadline; official Iranian and U.S. statements indicate ongoing conflict and no such commitment. Consequently, the proposition is not demonstrated.",
+          "vote": "not_demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:06:42.816Z",
+      "turn": 11,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "opportunity_failed",
+      "payload": {
+        "member_id": "C3",
+        "message": "Council member C3 agent process exited before completing opportunity deliberation:1:C3.",
+        "model": "openrouter://relace/relace-search",
+        "opportunity_id": "deliberation:1:C3",
+        "phase": "deliberation",
+        "process_name": "pi-C3",
+        "reason": "agent_exited",
+        "role": "council",
+        "type": "opportunity_failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:06:42.816Z",
+      "turn": 11,
+      "role": "system",
+      "phase": "deliberation",
+      "type": "council_member_removed",
+      "payload": {
+        "cause": "Council member C3 agent process exited before completing opportunity deliberation:1:C3.",
+        "failure_reason": "agent_exited",
+        "member_id": "C3",
+        "status": "failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:07:00.055Z",
+      "turn": 12,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C4",
+        "model": "openrouter://qwen/qwen3-coder-plus",
+        "payload": {
+          "member_id": "C4",
+          "rationale": "The admitted record lacks any evidence of a bilateral permanent peace agreement between Iran and the US by June 15, 2025. Instead, the evidence shows Iran accused the US of dishonesty on June 14, both sides were focused on nuclear conditions rather than peace agreements, and later official sources confirmed Iran had refused to reach a deal.",
+          "vote": "not_demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-30T17:07:19.975Z",
+      "turn": 13,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C5",
+        "model": "openrouter://openai/gpt-4o-mini",
+        "payload": {
+          "member_id": "C5",
+          "rationale": "The admitted record lacks any evidence of a bilateral permanent peace agreement between Iran and the US by June 15, 2025. Instead, it shows ongoing distrust, conflict, and a refusal to reach a deal by Iran, inconsistent with a definitive commitment to peace.",
+          "vote": "not_demonstrated"
+        }
+      }
+    }
+  ],
+  "final_state": {
+    "case": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, after investigation and evidence submission, the plaintiff’s best legal theory remains clear, but the submitted record does not presently carry the plaintiff’s burden.\n\nThe governing rule is PX-1. A qualifying peace deal had to exist by June 15, 2025 at 11:59 PM ET, and it had to explicitly indicate that U.S.-Iran military hostilities had ended or would permanently cease, or use equivalent language showing a lasting end. PX-1 allows proof by a signed/formally adopted written agreement or by clear public confirmation from both governments. It excludes negotiations, progress statements, temporary arrangements, and non-definitive announcements.\n\nThat rule leaves a possible plaintiff path: if the United States and Iran had each publicly confirmed by the cutoff that a definitive permanent peace agreement existed, the proposition could be demonstrated even without treaty formalities. But the evidence I was able to preserve and submit does not show that.\n\nPX-2 is an official Iranian presidential statement dated June 14, 2025. It is close in time and from a strong official Iranian source. It shows the opposite of Iranian confirmation of a permanent peace deal: President Pezeshkian described U.S. coordination with Israel during indirect Tehran-Washington negotiations as evidence of U.S. dishonesty and untrustworthiness. That proves there were indirect negotiations and regional peace rhetoric, but it does not prove Iran had agreed to a permanent peace deal with the United States.\n\nPX-3 is an official White House release dated June 17, 2025 collecting President Trump’s statements on Iran. Its June 14 entry says, in substance, that there cannot be peace if Iran has a nuclear weapon. Other entries demand that Iran stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those statements may show a U.S. desired end state and negotiating conditions. They do not show that the United States confirmed a definitive permanent peace deal by June 15, and they do not supply matching Iranian confirmation.\n\nPX-4 is later, but it is an official U.S. characterization of the June 2025 sequence. The White House stated that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. Because it is later and self-characterizing, it should not be treated as the only account of June 2025. Still, as an official U.S. source, it is materially adverse to the proposition: it describes refusal to reach a deal, not agreement to permanent peace.\n\nPX-5 is contemporaneous reporting from June 14, 2025. It reports that Iran regarded further nuclear talks with the United States as meaningless amid Israeli attacks, quotes an Iranian foreign-ministry spokesperson through semi-official Tasnim, and notes that a sixth round of U.S.-Iran nuclear talks had been set for June 15 in Oman. This is secondary reporting rather than a primary government page, so it carries less weight than PX-2 or PX-3. But it is consistent with them: the relationship was in conflict and negotiation, not in a confirmed permanent peace.\n\nThe provenance and custody picture is straightforward. PX-2, PX-3, and PX-4 are captured extracts from official government websites and therefore have strong source provenance for what those governments publicly said. PX-5 is a credible contemporaneous secondary report with an identified source chain, useful to corroborate the status of talks but not a substitute for a signed agreement or official bilateral confirmation. AAR accepted each capture and assigned an evidence_id and hash.\n\nWhat remains missing is decisive. There is no written U.S.-Iran peace instrument in the record. There is no official Iranian statement by the cutoff clearly confirming that a qualifying permanent peace agreement had been definitively established. There is no official U.S. statement by the cutoff clearly confirming the same. The admitted evidence shows talks, demands, distrust, and conflict. Under PX-1, that is not enough.\n\nThe plaintiff’s opening correctly identified what would have been sufficient: bilateral, timely, definitive confirmation of a lasting end to U.S.-Iran military hostilities. The merits record now shows that those links are absent. On this evidentiary record, the council should not find the proposition demonstrated merely because negotiations existed or peace was discussed. The plaintiff’s candid position is that the submitted evidence does not prove by a preponderance that Iran and the United States agreed to a permanent peace deal by the June 15, 2025 deadline."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, the merits record now resolves the case for the defense. Plaintiff’s own argument states the key fact plainly: after investigation and evidence submission, “the submitted record does not presently carry the plaintiff’s burden.” The defense agrees, and the record shows why.\n\nDX-1, the rules file, supplies the governing test. A qualifying agreement must explicitly indicate that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent lasting-end language. Negotiations, progress statements, temporary arrangements, and non-definitive announcements do not count. The agreement is established only by a signed or formally adopted written agreement meeting that test, or by clear public confirmation from both governments that such an agreement has definitively been established.\n\nNo evidence in the record satisfies either path.\n\nDX-2 is strong official Iranian-source evidence because it comes from the official website of Iran’s President and is dated June 14, 2025, one day before the cutoff. But its substance defeats the proposition. President Pezeshkian described continuing aggression, said the United States and Western countries supported Israel, warned of a more severe Iranian response if aggression continued, and said U.S. coordination with Israel during indirect Tehran-Washington negotiations showed U.S. dishonesty and untrustworthiness. That proves there were indirect talks and an official Iranian accusation of bad faith. It does not prove Iran publicly confirmed a permanent peace deal with the United States. It proves the opposite atmosphere: conflict, distrust, and unresolved negotiations.\n\nDX-3 is official U.S. evidence from the White House. It likewise does not contain a U.S. confirmation of a bilateral permanent peace deal. Its June 14 entry says that peace is impossible if Iran has a nuclear weapon. Other entries repeat conditions and demands: Iran cannot have a nuclear weapon, and any deal would require Iran to stop sponsoring terror, halt proxy wars, and permanently and verifiably cease pursuit of nuclear weapons. Those are negotiating positions and desired end states. Under DX-1, they are not a definitive announcement that a qualifying permanent peace agreement had been reached, and they do not supply matching Iranian confirmation.\n\nDX-4 is later in time, so the council should use it carefully. But it is still an official U.S. government characterization of the relevant June sequence, and it is materially adverse to plaintiff’s proposition. It says that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. “Refused to reach a deal” is not “agreed to a permanent peace deal.” Even if the council gives this later statement reduced weight, it points away from the proposition and is consistent with the contemporaneous record.\n\nDX-5 is credible contemporaneous secondary reporting, not a primary government record. Its weight is therefore corroborative rather than decisive. But it confirms the same picture. On June 14, 2025, the article reported that Iran regarded dialogue with the United States as meaningless amid Israeli attacks, quoted Iran’s foreign-ministry spokesperson through semi-official Tasnim to that effect, and noted that a sixth round of U.S.-Iran nuclear talks was still scheduled for Sunday in Oman. Pending or collapsing nuclear talks are not a permanent peace deal. A scheduled future round is especially hard to reconcile with a claim that both governments had already definitively established a lasting end to U.S.-Iran military hostilities.\n\nThe provenance picture strengthens the defense. DX-2, DX-3, and DX-4 are official government-source captures accepted by AAR with evidence IDs and hashes, so they are strong evidence of what those governments publicly said. DX-5 is less authoritative but contemporaneous and consistent with the official materials. There is no chain-of-custody problem that helps plaintiff: the problem is not unreliable adverse evidence, but the absence of affirmative qualifying evidence.\n\nThe missing links are decisive. The record contains no signed U.S.-Iran peace instrument. It contains no formally adopted bilateral text. It contains no official Iranian confirmation by the cutoff that a qualifying permanent peace agreement had been definitively established. It contains no official U.S. confirmation by the cutoff of the same proposition. Plaintiff’s own source-search ledger says those materials were not located.\n\nPreponderance does not mean speculation from diplomatic motion. The rules required a specific bilateral, timely, permanent commitment. The admitted evidence shows negotiations, conditions, hostility, distrust, and later refusal. It does not show a permanent peace deal by June 15, 2025 at 11:59 PM ET. The council should resolve the proposition as not demonstrated."
+        }
+      ],
+      "caption": "Claimant v. Respondent",
+      "case_id": "arb-ex13-20260630164857",
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the record is now complete enough to decide the proposition, and the decisive point is the absence of qualifying proof.\n\nPX-1 sets the rule. By June 15, 2025 at 11:59 PM ET, there had to be either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, showing a definitive permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nThe record does not contain the required agreement or confirmations.\n\nPX-2 is official Iranian evidence from June 14, 2025. It is important because of its timing and provenance, but it does not confirm peace. It shows Iran accusing the United States of dishonesty and untrustworthiness during indirect negotiations and describing continuing aggression and potential response. That is not a permanent peace deal.\n\nPX-3 is official U.S. evidence. It shows President Trump’s public position that Iran could not have a nuclear weapon and that peace depended on that condition. That may show negotiating objectives; it does not show the United States announcing that a qualifying bilateral permanent peace agreement had been reached by the cutoff, and it certainly does not supply matching Iranian confirmation.\n\nPX-4 is later official U.S. characterization, so it should be weighed with that timing in mind. But it is still adverse: the White House described June as a period in which Iran refused to reach a deal before U.S. military action. That is inconsistent with the proposition.\n\nPX-5 is secondary reporting, but contemporaneous and corroborative. It reports that Iran regarded talks as meaningless and that a further round of talks was still scheduled. That is evidence of unresolved or collapsing negotiation, not a completed permanent peace agreement.\n\nThe source provenance is not the problem. The official sources are strong evidence of what each government was saying. The problem is substance: those sources do not say what PX-1 requires. The missing links are decisive. There is no adopted text. There is no official Iranian confirmation of a permanent U.S.-Iran peace deal by the deadline. There is no official U.S. confirmation of the same. The record instead shows conflict, conditions, distrust, and failed or unresolved talks.\n\nThe plaintiff’s theory was legally possible: bilateral public confirmation could have sufficed. But the evidence submitted does not establish that theory by a preponderance. On this record, the proposition should be resolved as not demonstrated."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, this case ends where the rules and both parties’ merits presentations now point: the proposition is not demonstrated.\n\nThe governing rule is exacting but not complicated. By June 15, 2025 at 11:59 PM ET, the record needed to show either a signed or formally adopted U.S.-Iran written agreement, or clear public confirmation from both governments, establishing a permanent end to U.S.-Iran military hostilities. Negotiations, progress statements, temporary arrangements, and non-final announcements do not count.\n\nPlaintiff’s closing correctly identifies the decisive point: “the absence of qualifying proof.” That is not a small evidentiary gap. It is the central element of the proposition. Without a qualifying agreement or matching government confirmations, there is no basis to find that Iran and the United States agreed to a permanent peace deal by the deadline.\n\nThe admitted evidence is consistent and one-sided on that question. The rules file tells the council what must be proven. The Iranian President’s June 14 statement is official and close in time, but it shows accusation, distrust, continuing aggression, and threatened response; it does not show Iranian confirmation of a permanent peace deal with the United States. The White House June 17 release shows U.S. conditions and demands about Iran’s nuclear program; it does not announce that a bilateral permanent peace agreement already existed by June 15, and it does not supply Iranian confirmation. The later White House fact sheet says Iran refused to reach a deal in June, which points away from the proposition. The Al Jazeera report is secondary but contemporaneous, and it confirms unresolved or collapsing nuclear talks, not completed permanent peace.\n\nThe strongest theoretical point for plaintiff is that a treaty was not required. Clear public confirmation from both governments could have been enough. But that only matters if the confirmations exist. They do not. The record contains no adopted text, no official Iranian confirmation, and no official U.S. confirmation of a qualifying permanent peace deal by the cutoff. Plaintiff’s own search ledger and closing acknowledge those missing links.\n\nSo the council need not choose between competing speculative narratives. The official and contemporaneous record shows negotiations, conditions, distrust, and conflict. It does not show a definitive bilateral commitment to permanently end U.S.-Iran military hostilities by June 15, 2025. Under the preponderance standard, the absence of the required proof is decisive.\n\nThe proper resolution is not demonstrated."
+        }
+      ],
+      "council_members": [
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C1",
+          "model": "openrouter://poolside/laguna-xs.2",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C2",
+          "model": "openrouter://openai/gpt-oss-120b",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "Council member C3 agent process exited before completing opportunity deliberation:1:C3.",
+          "failure_opportunity_id": "deliberation:1:C3",
+          "failure_reason": "agent_exited",
+          "member_id": "C3",
+          "model": "openrouter://relace/relace-search",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C4",
+          "model": "openrouter://qwen/qwen3-coder-plus",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C5",
+          "model": "openrouter://openai/gpt-4o-mini",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        }
+      ],
+      "council_votes": [
+        {
+          "member_id": "C1",
+          "rationale": "The admitted record contains no written peace agreement, no Iranian confirmation of a permanent peace deal by June 15, and no US confirmation of such a deal. The evidence shows negotiations, distrust, ongoing hostilities, and a later Iranian refusal to reach a deal - inconsistent with the required bilateral, timely, permanent commitment.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C2",
+          "rationale": "The evidence shows no signed agreement or bilateral public confirmation of a permanent peace deal by the June 15, 2025 deadline; official Iranian and U.S. statements indicate ongoing conflict and no such commitment. Consequently, the proposition is not demonstrated.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C4",
+          "rationale": "The admitted record lacks any evidence of a bilateral permanent peace agreement between Iran and the US by June 15, 2025. Instead, the evidence shows Iran accused the US of dishonesty on June 14, both sides were focused on nuclear conditions rather than peace agreements, and later official sources confirmed Iran had refused to reach a deal.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C5",
+          "rationale": "The admitted record lacks any evidence of a bilateral permanent peace agreement between Iran and the US by June 15, 2025. Instead, it shows ongoing distrust, conflict, and a refusal to reach a deal by Iran, inconsistent with a definitive commitment to peace.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        }
+      ],
+      "deliberation_round": 1,
+      "failure": null,
+      "offered_evidence": [
+        {
+          "evidence_id": "ev_f1a176053ed8_rules",
+          "label": "PX-1: Case-packet rules defining qualifying permanent peace deal",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "label": "PX-2: Official Iranian President June 14 statement",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "label": "PX-3: White House June 17 Iran statements release",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "label": "PX-4: White House later June-deal characterization",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "label": "PX-5: June 14 contemporaneous reporting on cancelled talks",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_f1a176053ed8_rules",
+          "label": "DX-1: Case-packet rules defining qualifying permanent peace deal",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "label": "DX-2: Official Iranian President June 14 statement showing distrust and ongoing hostilities",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "label": "DX-3: White House June 17 release listing U.S. Iran conditions, not a confirmed peace deal",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "label": "DX-4: White House later characterization that Iran refused to reach a deal in June",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "label": "DX-5: June 14 reporting that U.S.-Iran nuclear talks were unresolved and effectively cancelled",
+          "phase": "arguments",
+          "role": "defendant"
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, the plaintiff’s burden is defined by the case-packet rules, and those rules make this a narrow factual inquiry rather than a general debate about diplomacy.\n\nThe proposition is demonstrated if, by June 15, 2025 at 11:59 PM Eastern Time, the United States and Iran had agreed to a permanent peace deal. The admitted rules file tells us what that means. A qualifying deal must explicitly state that military hostilities between the United States and Iran have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. The rules also tell us what does not count: a temporary extension, a ceasefire without a definitive lasting end, mere negotiations, progress statements, or non-final announcements.\n\nThe plaintiff’s theory is therefore straightforward. This case turns on whether the record can show a definitive bilateral commitment by the cutoff, not whether later events were calm, messy, or politically contested. Under the rules, the strongest proof would be either a written agreement signed or formally adopted by both sides, or clear public confirmation from both governments that a qualifying agreement had been definitively established. A treaty label is not required if the proof otherwise satisfies that standard. The words, timing, and source of the confirmation matter most.\n\nAt the opening stage, the current admitted record contains only the rules file. That file is important because it supplies the legal test, but it does not itself prove the historical fact of an agreement. For that reason, the plaintiff will not ask the council to infer the proposition from hope, market chatter, or general diplomatic movement. The plaintiff expects the decisive evidence to be official U.S. and Iranian government statements, any adopted text or instrument, and reliable reporting only insofar as it helps confirm what the governments themselves said and when they said it.\n\nThe plaintiff also recognizes the adverse questions. If the evidence shows only suspended nuclear talks, temporary ceasefire language, unilateral statements, post-cutoff developments, or a promise to keep negotiating, that would not satisfy the rules. If one government clearly denied that a qualifying agreement had been reached by the deadline, that would carry real weight. If a later agreement was necessary because no permanent peace deal existed earlier, the timing problem would have to be confronted directly.\n\nBut the rules set a preponderance standard, not a formalistic trap. If the admitted evidence establishes that both governments clearly confirmed, by the deadline, a definitive agreement to permanently end U.S.-Iran military hostilities, then the proposition is demonstrated even if implementation details, nuclear issues, or political objections remained unsettled. The plaintiff’s case will focus on that precise question: whether the source record proves mutual, timely, permanent commitment rather than temporary de-escalation or ongoing negotiation."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defense agrees with one point in plaintiff’s opening: this case is narrow. The proposition is not whether diplomacy with Iran was desirable, whether talks occurred, whether tensions later eased, or whether someone announced progress. The admitted case-packet rules require something much more specific by June 15, 2025 at 11:59 PM Eastern: a permanent peace deal between Iran and the United States.\n\nThe only evidence now in the record is the rules file, `ev_f1a176053ed8_rules`. That file proves the governing test and nothing more. It says a qualifying deal must explicitly state that U.S.-Iran military hostilities have ended or will permanently cease, or use equivalent language clearly signaling a lasting end to those hostilities. It also excludes the very categories most likely to be confused with proof here: temporary extensions, ceasefires without a definitive lasting end, negotiations, progress statements, and non-final announcements.\n\nThat distinction will decide the case. Plaintiff must do more than show contact between diplomats, nuclear discussions, optimism from one side, mediation by a third country, or later attempts to stabilize the relationship. Plaintiff must establish either a signed or formally adopted written agreement meeting the rules, or clear public confirmation by both governments that such a qualifying agreement had definitively been established before the cutoff.\n\nThe defense theory is straightforward: unless plaintiff can produce that bilateral, timely, permanent commitment, the proposition is not demonstrated. A unilateral U.S. statement would not be enough. A unilateral Iranian statement would not be enough. A planned meeting, a draft, an exchange through mediators, or a promise to continue talking would not be enough. A ceasefire or pause would not be enough unless it definitively ended U.S.-Iran military hostilities on a lasting basis. And any post-cutoff development would not cure the timing problem; if a later agreement was still needed, that tends to show the required agreement did not already exist by June 15, 2025.\n\nThe current record contains no written peace instrument, no adopted bilateral text, and no public confirmation from both governments. That absence matters at the opening stage because the rules make official U.S. and Iranian government information the primary resolution source. In later evidence phases, the defense expects the key proof to be official statements, dated government releases, and reliable reporting only insofar as it confirms what each government actually said and when. The most important adverse checks will be the full source chain for any claimed agreement: who spoke, whether they had authority, whether the other government matched the statement, whether the language was permanent rather than temporary, and whether it was made before the deadline.\n\nSo the defense asks the council to keep the burden centered. The rules do not allow a finding for plaintiff based on diplomatic smoke, market language, or after-the-fact framing. They require a definitive, bilateral, timely permanent peace deal. On this record, that historical fact has not been shown, and unless plaintiff supplies admissible evidence closing each of those gaps, the proper resolution is not demonstrated."
+        }
+      ],
+      "phase": "closed",
+      "proposition": "By June 15, 2025 11:59 PM ET, Iran and the United States agreed to a permanent peace deal.",
+      "rebuttals": [],
+      "resolution": "not_demonstrated",
+      "status": "closed",
+      "submitted_evidence": [
+        {
+          "evidence_id": "ev_7f6e26b31ff3_submitted-evidence-01-plaintiff-7f6e26b31ff3",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Official Iranian government statement on June 14, 2025, one day before the cutoff, addressing Iran-US talks, US trustworthiness, and ongoing hostilities; material to whether Iran publicly confirmed a permanent peace deal by the deadline.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "7f6e26b31ff3e26d1465dbf75aa1f2732eb7d6f5f9725cd4437f7f148d4d6b6f",
+          "size_bytes": 2889,
+          "source_description": "Official website of the President of the Islamic Republic of Iran; extracted page text from web retrieval.",
+          "source_url": "https://president.ir/en/159792",
+          "title": "Official Iranian President website: June 14, 2025 Pezeshkian statement on Iran-US talks and US insincerity"
+        },
+        {
+          "evidence_id": "ev_d6ef8a8fd4dc_submitted-evidence-02-plaintiff-d6ef8a8fd4dc",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Official U.S. government release two days after the cutoff listing President Trump's Iran statements, including June 14-17 entries, material to whether the United States had confirmed a permanent peace deal by June 15, 2025.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724",
+          "size_bytes": 2751,
+          "source_description": "White House release; extracted page text from web retrieval.",
+          "source_url": "https://www.whitehouse.gov/releases/2025/06/president-trump-has-always-been-clear-iran-cannot-have-a-nuclear-weapon/",
+          "title": "White House release: June 17, 2025 Trump statements that Iran cannot have nuclear weapon"
+        },
+        {
+          "evidence_id": "ev_75f22524b70e_submitted-evidence-03-plaintiff-75f22524b70e",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Later official U.S. government characterization of June 2025 events, directly bearing on whether the U.S. position was that Iran had refused to reach a deal rather than agreed to permanent peace by the cutoff.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "75f22524b70e48b6e0c7411de9b525197ca3501edd37e9a0646432f4fe887520",
+          "size_bytes": 2022,
+          "source_description": "White House fact sheet; extracted page text from web retrieval.",
+          "source_url": "https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/",
+          "title": "White House fact sheet: February 6, 2026 statement that Iran refused to reach a deal in June"
+        },
+        {
+          "evidence_id": "ev_0606fd0d81a7_submitted-evidence-04-plaintiff-0606fd0d81a7",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Contemporaneous reporting on the status of U.S.-Iran talks immediately before the June 15, 2025 cutoff, including quoted Iranian foreign-ministry position and the scheduled sixth round in Oman.",
+          "retrieval_timestamp": "2026-06-30T17:00:00Z",
+          "role": "plaintiff",
+          "sha256": "0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a",
+          "size_bytes": 2314,
+          "source_description": "Al Jazeera English article; extracted relevant page text from web retrieval.",
+          "source_url": "https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal",
+          "title": "Al Jazeera report: June 14, 2025 Iran cancels next US nuclear talks amid Israeli attacks"
+        }
+      ],
+      "surrebuttals": [],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "Searched official U.S. and Iranian government sources and credible contemporaneous reporting around June 13-17, 2025. Source targets were a written peace instrument, matching government confirmations by the June 15 cutoff, or adverse cancellation/refusal material. Submitted accepted captures from president.ir, WhiteHouse.gov, and Al Jazeera. No signed/formally adopted permanent peace agreement, official Iranian confirmation, or official U.S. confirmation of a qualifying permanent peace deal by the cutoff was located.",
+          "title": "Plaintiff Source Search Ledger"
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "summary": "Defense inspected the current record, metadata, and full text of plaintiff's four submitted sources plus the rules. No additional defense evidence was submitted because the visible evidence is sufficient: official Iranian and U.S. sources show distrust, demands, and refusal rather than a signed/adopted agreement or matching public confirmations, and plaintiff's own search ledger reports no qualifying agreement or confirmation was located.",
+          "title": "Defense evidence sufficiency audit"
+        }
+      ]
+    },
+    "forum_name": "Agent Arbitration",
+    "policy": {
+      "council_size": 5,
+      "evidence_standard": "Preponderance of the evidence.",
+      "max_argument_chars": 6000,
+      "max_closing_chars": 5000,
+      "max_deliberation_rounds": 3,
+      "max_exhibit_bytes": 131072,
+      "max_exhibits_per_filing": 9,
+      "max_exhibits_per_side": 12,
+      "max_opening_chars": 5000,
+      "max_rebuttal_chars": 4000,
+      "max_report_summary_bytes": 8192,
+      "max_report_title_bytes": 256,
+      "max_reports_per_filing": 3,
+      "max_reports_per_side": 4,
+      "max_submitted_evidence_bytes": 67108864,
+      "max_submitted_evidence_per_side": 8,
+      "max_surrebuttal_chars": 4000,
+      "required_votes_for_decision": 3
+    },
+    "schema_version": "v1",
+    "state_version": 18
+  },
+  "final_reason": "not_demonstrated"
+}

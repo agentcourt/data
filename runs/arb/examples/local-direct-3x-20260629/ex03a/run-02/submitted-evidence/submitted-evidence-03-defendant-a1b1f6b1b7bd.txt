@@ -1,0 +1,37 @@
+Source: GovInfo, Compilation of Presidential Documents, DCPD202501162
+URL retrieved: https://www.govinfo.gov/content/pkg/DCPD-202501162/html/DCPD-202501162.htm
+Retrieval time: 2026-06-29T22:00:00Z
+Local captured HTML size/hash: 51,571 bytes; SHA-256 eadbceeecf3e94f5bd423bcb8e8511165fdc7265dd8c1e025870c2e8f34dfd99
+
+Material captured text from official GovInfo HTML/web.open:
+
+Administration of Donald J. Trump, 2025
+
+Title: Remarks in an Exchange With Reporters Prior to the 2026 Fédération Internationale des Associations de Football (FIFA) World Cup Draw
+Date: December 5, 2025
+
+Opening note: [The President's remarks were joined in progress.]
+
+Excerpt - The President's Interest in Soccer (web.open lines 196-203):
+Q. Should there be a special final: American—[inaudible]?
+The President. No, but I got to meet Ronaldo the other day, came to the White House. He was fantastic. He's a handsome guy and a great guy. And my son Barron and him—and they had a big conversation. And my son loves soccer—"football," as you would say. But Ronaldo is great. He's a great guy. He's got the whole package. He's a great player.
+Thank you very much. Thank you. [Inaudible]
+
+Excerpt - The President's Interest in Soccer (web.open lines 322-329):
+Q. Did you ever play soccer—or football?
+The President. Believe it or not, I did. I did, and I loved it. I had a—I was okay. I wouldn't say—I was not Ronaldo or Messi. I was a little bit short of them. [Laughter] But——
+Mr. Infantino. Just a little bit.
+The President. But they have a little more speed. But no, I was fine. But I loved playing soccer.
+
+Timing/context note (web.open lines 461-462):
+NOTE: The President spoke at 11:13 a.m. at the John F. Kennedy Center for the Performing Arts. In his remarks, he referred to Trey Yingst, chief foreign correspondent, Fox News Channel; Cristiano Ronaldo, forward for Saudi Pro League club Al-Nass and Portugal's national soccer team; and Lionel Messi, forward for Major League Soccer club Inter Miami and Argentina's national team. A reporter referred to New York State Attorney General Letitia James.
+The transcript was released by the Office of Communications on December 8, 2025, with a corrected transcript released on January 2, 2026. Portions of these remarks could not be verified because the audio was incomplete.
+
+Document category/location/name/subject metadata (web.open lines 463-468):
+Categories: Interviews With the News Media: Exchanges with reporters, Washington, DC.
+Locations: Washington, DC.
+Names include: Cristiano Ronaldo and Lionel Messi.
+Subjects include: Federation Internationale de Football Association (FIFA) World Cup; John F. Kennedy Center for the Performing Arts; News media, Presidential interviews; Soccer.
+DCPD Number: DCPD202501162.
+
+Capture limits: This item is a focused text capture of the material official transcript title, Ronaldo excerpts, timing/correction note, and metadata. It is not a full video or audio artifact. The official transcript itself notes some portions could not be verified because the audio was incomplete.

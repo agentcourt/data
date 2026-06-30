@@ -1,0 +1,10 @@
+Source: Radio Free Europe/Radio Liberty live blog, 'Maritime Traffic In Hormuz Strait Slows Sharply', item 'Airspace Closed Over Western Iran'. URL: https://www.rferl.org/a/iran-war-us-hormuz-oil-blockade-gulf-israel/33640284/lbl0lbi456071.html. Retrieved during AAR investigation 2026-06-30.
+
+Relevant captured text:
+- Timestamp shown on page: 10:03 23.5.2026.
+- Heading: 'Airspace Closed Over Western Iran'.
+- 'Iran’s Civil Aviation Organization has announced temporary restrictions on the western part of the country’s airspace.'
+- 'The move comes amid heightened tensions, with reports that the US is considering renewed military action against Iran while diplomatic efforts continue.'
+- 'According to the latest Notice to Air Missions (NOTAM), all passenger flights over western Iran face severe restrictions.'
+- 'Currently, only eight airports are permitted to operate, including Tehran’s Mehrabad and Imam Khomeini airports, as well as Isfahan and Yazd airports in central Iran.'
+- 'At these operational airports, flights are restricted to daylight hours (sunrise to sunset), and airlines must obtain a new permit from the Civil Aviation Organization for each individual flight.'

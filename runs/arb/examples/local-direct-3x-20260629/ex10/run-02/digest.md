@@ -1,0 +1,240 @@
+# Arbitration Digest
+
+## Result
+
+Resolution: `demonstrated`
+
+Final phase: `closed`
+
+## Complaint
+
+### Proposition
+
+Before January 1, 2027 at 00:00 PST, Polymarket launched an official fungible token: a fungible token officially released by Polymarket and publicly communicated through official Polymarket channels, excluding NFT launches, promotional offerings, tokenized point systems, and token launches in collaboration with other projects or communities.
+
+### Standard of Evidence
+
+Preponderance of the evidence.
+
+## Council
+
+- C1: openrouter://qwen/qwen3-30b-a3b-instruct-2507 (personas/generic.md)
+- C2: openrouter://qwen/qwen3-next-80b-a3b-thinking (personas/generic.md)
+- C3: openrouter://qwen/qwen3.5-plus-02-15 (personas/generic.md)
+- C4: openrouter://openai/gpt-oss-120b (personas/generic.md)
+- C5: openrouter://openai/gpt-oss-120b (personas/generic.md)
+
+## Filings
+
+### Openings
+
+[plaintiff] Council members, this case turns on a narrow but important point: the proposition does not ask whether Polymarket launched a speculative governance coin, an NFT, a points program, or an externally listed community token. It asks whether, before January 1, 2027 at 00:00 PST, Polymarket launched an official fungible token: one officially released by Polymarket and publicly communicated through official Polymarket channels.
+
+The current record already identifies the token that satisfies that definition: Polymarket USD, or pUSD. The preserved market/rule text in ev_9f790b70e7f8_market-page gives the elements: fungibility, official Polymarket release, public communication through official channels, and exclusion of NFTs, promotions, points, and collaboration/community launches. The packet evidence then maps those elements to official Polymarket material.
+
+First, fungibility. The primary-evidence packet, ev_2c067be8800a_primary-evidence, reports Polymarket's own pUSD concept page describing pUSD as the collateral token used for all trading on Polymarket, a standard ERC-20 token on Polygon, backed by USDC, transferable, and using 6 decimals. Those are not characteristics of an NFT, a mere promotional offer, or a non-transferable points balance. They are characteristics of a fungible token.
+
+Second, official release by Polymarket. The same packet and the official-source record, ev_ce624e6c59c1_official-source-record, identify Polymarket documentation and a Polymarket contracts page that calls the contracts page the source of truth for platform contract addresses and lists pUSD as the CollateralToken proxy at 0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB. A third-party explorer page is noted as corroboration of on-chain existence, but the stronger attribution evidence is Polymarket's own documentation and contract listing.
+
+Third, public communication and timing. The packet states that Polymarket's official changelog announced a coordinated upgrade including a new collateral token, pUSD, with go-live planned for April 28, 2026, and that an April 28 entry said CLOB V2 was live in production. The migration-guide summary says Polymarket shipped new Exchange contracts, a rewritten CLOB backend, and a new collateral token, Polymarket USD or pUSD, and says CLOB V2 was live as of April 28, 2026. If credited, that is well before the January 1, 2027 deadline.
+
+The defense will likely try to win this case by relabeling pUSD as only a technical collateral token introduced during a backend migration. That description does not defeat the proposition. The rule does not require the token to be marketed as an investment, listed on external exchanges, or separated from Polymarket's trading infrastructure. A token can be collateral infrastructure and still be an official fungible token. Indeed, the record's strongest facts are precisely that Polymarket named it Polymarket USD, documented it publicly, tied it to its official contracts, and made it the token layer for platform trading.
+
+We should also be candid about the present record's limits. ev_38c7491e77a8_unresolved-record-gaps notes that the packet lacks the real Polymarket market URL or market identifier; lacks a pre-run official market-page/API capture for the prediction-market question itself; and lacks server-dated headers, immutable archive captures, and exact page publication histories for the Polymarket documentation. Those are provenance and timing gaps that affect weight. They do not erase the official-source record already before the council. In later evidentiary phases, the decisive additions should be faithful captures of the official pUSD, contracts, changelog, and migration pages, plus on-chain/token-explorer material and, if available, archival or source-history proof of publication timing.
+
+On the current record, the plaintiff's theory is straightforward: pUSD is a standard ERC-20, publicly described by Polymarket as Polymarket USD, officially tied to Polymarket's contracts, and launched as part of the April 2026 CLOB V2 production rollout. None of the listed exclusions fits it. Under a preponderance standard, once the official-source chain is credited, the proposition is more likely true than false.
+
+[defendant] Council members, the plaintiff's opening shows why this case is not as simple as pointing to the phrase "ERC-20." The proposition is not merely whether a Polymarket-related contract exists on Polygon, or whether a platform collateral asset can be transferred. It is whether Polymarket launched an official fungible token, publicly communicated through official Polymarket channels, within the meaning of this market's rule.
+
+The current record is important, but it is also thin in exactly the places that matter. The packet identifies pUSD as a new collateral token associated with Polymarket's CLOB V2 migration. For purposes of opening, the defense need not deny that the packet describes pUSD as a standard ERC-20, backed by USDC, transferable, and listed in Polymarket contract documentation. Those facts, if later proved with full source captures, may show a fungible collateral instrument used in Polymarket's trading infrastructure.
+
+But the plaintiff still must prove the separate proposition element: an official token launch. The record's own gap file says the main defense issue is whether an adjudicator should distinguish an "official token launch" from a "technical collateral token introduced as part of CLOB V2." That distinction is not wordplay. The condition expressly excludes several things that might look token-like but are not the kind of official Polymarket token launch being asked about. A platform can replace collateral plumbing, deploy contracts, and publish migration instructions without thereby launching the official Polymarket token that market participants were asking about.
+
+The admitted evidence also carries provenance and custody limits. The official-source record says the relevant Polymarket documentation was captured after the arbitration run, based on attorney-discovered material. The unresolved-gaps file states that the packet lacks the real Polymarket market URL or market identifier, lacks a pre-run official market-page or API capture for this prediction question, and lacks server-dated headers, immutable archive captures, and exact publication histories for the documentation pages. Those are not cosmetic defects. Timing, public communication, and the meaning of "launch" are central elements, and the current record supplies summaries of pages rather than the strongest dated primary artifacts.
+
+The plaintiff will argue that collateral infrastructure can still be an official fungible token. That is the best plaintiff theory, and the defense will meet it directly. But the better reading is that pUSD, as described in the packet, is a USDC-backed settlement and collateral mechanism for all trading on Polymarket, introduced in a coordinated exchange upgrade. The record does not yet show a public token launch in the ordinary market-resolution sense; it shows a migration guide, a contracts list, and an on-chain collateral address.
+
+The decisive proof in later phases should therefore be concrete: complete official Polymarket captures, reliable publication dates or archive records, the full contracts and pUSD pages, any help or changelog articles, on-chain details, and any official Polymarket communications that distinguish pUSD collateral from a public token launch or governance/community token. If that evidence shows only a backend collateral migration, the proposition should fail. If plaintiff can prove with dated primary sources that Polymarket itself publicly launched pUSD as the official fungible token contemplated by this market, then plaintiff may meet its burden.
+
+On the present opening record, the defense position is straightforward: pUSD may be fungible, and it may be official platform collateral, but the record does not yet carry plaintiff over the separate burden of proving an official Polymarket token launch under this condition. The council should keep the elements distinct and should give real weight to the packet's acknowledged source-chain and timing gaps.
+
+### Arguments
+
+[plaintiff] Council members, plaintiff now offers the official Polymarket source materials that the opening identified. Taken together, they satisfy each element by a preponderance.
+
+The condition asks whether Polymarket launched an official fungible token before January 1, 2027. It does not require a governance token, an investment token, an external exchange listing, or a token called POLY. The record definition controls: fungible; officially released by Polymarket; publicly communicated through official Polymarket channels; not an NFT, promotional offering, points system, or collaboration/community token.
+
+Fungibility is proved by Polymarket's own pUSD page. PX-5, ev_f34b5612c619_submitted-evidence-01-plaintiff-f34b5612c619, states that pUSD means Polymarket USD, is the collateral token used for all trading on Polymarket, is a standard ERC-20 token on Polygon, is backed by USDC, has 6 decimals, and is transferable. A standard ERC-20, transferable, six-decimal token is fungible. This is not an NFT and not a points ledger.
+
+Official Polymarket release and attribution are proved by Polymarket's contracts page. PX-6, ev_eb5be3872a12_submitted-evidence-02-plaintiff-eb5be3872a12, states that the contracts page is the single source of truth for contract addresses used across the platform and lists pUSD as a Polymarket collateral contract, including the CollateralToken proxy at 0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB. That is not a third-party community project being loosely associated with Polymarket; it is Polymarket's own official documentation tying the token to platform contracts.
+
+Public communication and timing are proved twice over. PX-7, ev_04730ea1807f_submitted-evidence-03-plaintiff-04730ea1807f, is the official Polymarket changelog. The Apr. 17, 2026 entry says Polymarket was shipping a coordinated upgrade with new Exchange contracts, a rewritten CLOB backend, and a new collateral token, pUSD; it also says pUSD replaces USDC.e as the collateral token and is a standard ERC-20 on Polygon backed by USDC. The Apr. 28, 2026 entry says CLOB V2 is live on production and points users to the migration guide for pUSD changes. PX-8, ev_0979024ce767_submitted-evidence-04-plaintiff-0979024ce767, is that migration guide. It says Polymarket shipped a coordinated upgrade with a new collateral token, Polymarket USD or pUSD; CLOB V2 was live as of Apr. 28, 2026; and pUSD replaces USDC.e as the collateral token. April 2026 is comfortably before the January 1, 2027 deadline.
+
+The defense's best point is semantic: pUSD is collateral infrastructure, not the kind of token launch the market supposedly meant. But the condition's text does not say “governance token,” “tradable-on-external-exchanges token,” or “speculative token.” It says official fungible token. Polymarket's own words are decisive: “new collateral token,” “Polymarket USD,” “standard ERC-20,” “transferable,” “used for all trading,” and publicly documented in its changelog, migration guide, pUSD page, and contracts page. A collateral token is still a token. A token launched as settlement infrastructure is still launched if Polymarket ships it, gives users wrapping paths, makes the UI handle it, and announces the production cutover.
+
+Nor do the exclusions help the defense. The evidence does not describe an NFT launch. It does not describe a promotional offering or rewards campaign. It does not describe tokenized points. It does not describe a collaboration/community token. The adverse fact that PX-5 says there are no current plans to list pUSD on external exchanges actually narrows the issue: pUSD is a platform collateral token, not an externally hyped community coin. That fact may distinguish pUSD from POLY, but it does not disqualify it under this condition.
+
+Plaintiff acknowledges the remaining source-chain limits. PX-4, ev_38c7491e77a8_unresolved-record-gaps, correctly notes that the original packet lacked the market URL/id, pre-run market API capture, immutable archive snapshots, server-dated headers, and exact publication histories. Those limits affect weight, especially for historical page timing. But plaintiff has now supplied current official Polymarket page captures, and the changelog/migration text itself contains the dated April 2026 announcement and go-live entries. There is no contrary official Polymarket source in the record saying pUSD was unofficial, non-fungible, merely promotional, only points, an NFT, or a collaboration token.
+
+Under a preponderance standard, the official-source chain is enough. Polymarket publicly communicated through its official documentation that it shipped Polymarket USD/pUSD, a standard ERC-20 collateral token on Polygon, as part of the Apr. 28, 2026 production CLOB V2 rollout. That is more likely than not an official fungible token launch before the deadline. The proposition should be found true.
+
+[defendant] Council members, the plaintiff has improved the record, but the improved record proves the defense point: pUSD was an exchange-collateral migration inside CLOB V2, not the official Polymarket token launch this market asks about.
+
+The defense does not contest the easy parts. The record now supports that pUSD is a standard ERC-20, transferable, six-decimal, USDC-backed token on Polygon. It also supports that Polymarket documentation lists pUSD collateral contract addresses. If the proposition were only, "Did Polymarket deploy and use a fungible collateral wrapper?" plaintiff would have a strong case.
+
+But the proposition asks whether Polymarket launched an official fungible token. The word "launched" and the exclusions matter. This market was not asking whether Polymarket changed settlement plumbing, migrated collateral, or required integrators to update SDKs. It asked about an official token launch by Polymarket, while excluding token-like events that do not count. Plaintiff therefore must prove more than token characteristics; plaintiff must prove that the April 2026 pUSD event falls within the market-resolution meaning of an official token launch.
+
+The best record evidence describes the event differently. The pUSD page, PX-5, says: "Day to day, nothing changes" and describes pUSD as "the technical settlement layer underneath" the same experience. It says pUSD is a standard ERC-20 wrapper representing a USDC claim, designed to function within Polymarket, with no current plans for external exchange listing. That is strong proof of fungibility, but also strong proof of an internal collateral layer rather than a public token launch.
+
+The migration guide, PX-8, is likewise an integration guide: new exchange contracts, rewritten CLOB backend, pUSD after USDC.e, UI-handled wrapping for website users, manual wrap() calls for API-only users, one hour of downtime, and legacy V1 SDKs no longer supported. The changelog, PX-7, frames the same event as "CLOB V2" and lists pUSD alongside order-struct changes, fee handling, builder attribution, and EIP-712 versioning. These are engineering and collateral-migration facts. They do not by themselves answer the semantic question that the case-packet gap file identifies: whether this is an "official token launch" or a "technical collateral token introduced as part of CLOB V2."
+
+Defendant's added official Help Center evidence, DX-1, confirms that user-facing framing. Polymarket called the article "Polymarket Exchange Upgrade: April 28, 2026." It told ordinary users that for most people nothing changes, balances carry over, and they only approve conversion of their balance and upgraded contracts. Under the pUSD section, Polymarket says it is migrating from USDC.e to pUSD as the collateral token and that "day to day, nothing changes" because pUSD is the technical layer underneath. That is not how Polymarket presents a standalone official token launch; it is how it presents a platform upgrade.
+
+Plaintiff says the condition does not require a governance token or outside listing. True, but that does not make every ERC-20 contract used by Polymarket an official token launch. The rule's exclusions show that the council must classify the event, not just check whether an asset is token-shaped. A USDC-backed wrapper automatically handled by the UI, used to settle trades, and expressly described as the same user experience is better classified as collateral infrastructure.
+
+The provenance problems also remain. Plaintiff's current docs are useful, but each capture is a focused rendered-text extraction made on June 30, 2026, not an immutable archive or server-dated publication-history capture. The case-packet gap file still states that the real Polymarket market URL/id is absent, the pre-run market page/API capture is absent, and server-dated headers, archive captures, and exact page-change histories were not preserved. Because public communication and timing are elements, these gaps reduce the weight of plaintiff's timing theory even though the text currently recites April 2026 dates.
+
+The defense's position is not that pUSD is unofficial, non-fungible, or fake. It is that the record proves the wrong proposition. More likely than not, Polymarket rolled out a technical collateral wrapper and settlement layer as part of CLOB V2. On a preponderance standard, plaintiff has not shown that this infrastructure migration should resolve as an official Polymarket token launch under the market condition. The proposition should be found not proved.
+
+### Rebuttals
+
+[plaintiff] Council members, the defense's new exhibit does not weaken plaintiff's case. It confirms it.
+
+Defendant's DX-1, ev_57084a7a538c_submitted-evidence-05-defendant-57084a7a538c, is an official Polymarket Help Center article. Its title is “Polymarket Exchange Upgrade: April 28, 2026.” It says that on April 28, 2026 Polymarket was rolling out a coordinated upgrade of the exchange stack: new smart contracts, a rewritten order book, and “a new collateral token.” That is official, public, user-facing Polymarket communication before the deadline.
+
+DX-1 then has a section headed “A new collateral token: Polymarket USD (pUSD).” It says Polymarket is migrating from USDC.e to Polymarket USD, pUSD, as the collateral token. It says pUSD is a standard ERC-20 token on Polygon, backed 1:1 by USDC, with backing enforced onchain by the smart contract. Its FAQ asks, “What is pUSD?” and answers that pUSD is the new collateral token for Polymarket, a regular ERC-20 on Polygon, backed 1:1 by USDC, convertible back to USDC.
+
+Those are the proposition's elements in defendant's own exhibit: token; fungible ERC-20; Polymarket USD; public official channel; April 28, 2026; rolled out by Polymarket. The defense emphasizes the words “technical layer underneath” and “day to day, nothing changes.” But those phrases describe user experience. They do not make the token unofficial, non-fungible, unlaunched, or excluded. In fact, DX-1 says users must approve conversion of their balances to pUSD and approve trading on upgraded contracts. That is exactly what a platform rollout of a new collateral token looks like when the frontend abstracts the mechanics.
+
+The defense's proposed rule would add exclusions that are not in the condition. The condition excludes NFTs, promotional offerings, tokenized points, and collaboration/community tokens. It does not exclude collateral tokens, settlement tokens, USDC-backed wrappers, internal platform tokens, or tokens whose ordinary users encounter them through automatic UI flows. Defendant may be right that pUSD is not POLY and not an externally listed governance coin. But the market did not require POLY, governance rights, speculation, or exchange listing. It required an official fungible token.
+
+The record now has five official Polymarket sources pointing the same way: the pUSD page, contracts page, changelog, migration guide, and defendant's Help Center article. They consistently describe pUSD as Polymarket USD, a standard ERC-20 on Polygon, a new collateral token, publicly communicated and rolled out with the April 28, 2026 CLOB V2 upgrade. The acknowledged archive and market-URL gaps remain, but no contrary official source says this was unofficial or excluded.
+
+On rebuttal, the narrow answer is this: calling pUSD collateral infrastructure does not defeat plaintiff's claim. It proves what kind of official fungible token Polymarket launched. Under the actual condition text, plaintiff has met the preponderance burden.
+
+### Surrebuttals
+
+[defendant] Council members, plaintiff's rebuttal is right about one thing: DX-1 is official Polymarket evidence, and it confirms pUSD is a new ERC-20 collateral token used in the April 28 exchange upgrade. The defense has never needed to deny that.
+
+The question is what legal and market-resolution weight follows from that fact. Plaintiff says the defense is inventing an exclusion for collateral tokens. Not so. The defense is applying the condition's affirmative words: Polymarket must have "launched an official token." The record must show not just that an ERC-20 contract exists, or that collateral moved from USDC.e to pUSD, but that the proven event is fairly classified as the official Polymarket token launch contemplated by the market.
+
+DX-1 is powerful precisely because it is user-facing. Polymarket did not present pUSD to ordinary users as a public token launch. It presented an "Exchange Upgrade": new smart contracts, rewritten order book, paused trading, open orders cleared, balances carried over, one-time approvals, and a collateral conversion handled through the platform. It told users that for most of them nothing was required and that day to day nothing changes. It described pUSD as the technical layer underneath loading funds, seeing a balance, trading, and withdrawing.
+
+Plaintiff answers that a frontend can abstract a token launch. Sometimes, yes. But here the abstraction is the point. The official evidence consistently frames pUSD as settlement infrastructure: a USDC-backed wrapper, designed to function within Polymarket, with no current external listing plan, used because the protocol settles trading activity in native USDC. That is not merely "the type" of official token Polymarket launched; it is evidence that what launched was a collateral mechanism inside CLOB V2.
+
+The council should also keep the burden in view. Plaintiff has affirmative burden by preponderance. Ambiguity over whether this event counts as a market-resolution "official token launch" is not a tie for plaintiff. The case-packet gap file itself flags this exact semantic distinction and the source-chain limits. Plaintiff's rebuttal adds no new contrary official source saying Polymarket treated pUSD as its official token launch rather than as collateral migration.
+
+So the narrow surrebuttal answer is: DX-1 confirms the defense classification. It proves an official exchange upgrade with a new collateral layer. It does not prove that Polymarket launched the official fungible token within the meaning of the proposition. The proposition remains not proved.
+
+### Closings
+
+[plaintiff] Council members, the final dispute is not factual. It is classification.
+
+The defense now concedes the core facts that matter: pUSD is a new ERC-20 collateral token used in the April 28, 2026 Polymarket exchange upgrade. That concession, combined with the record evidence, is enough under the condition actually before you.
+
+Start with the rule. PX-1 asks whether Polymarket launched an official fungible token before January 1, 2027, publicly communicated through official Polymarket channels. It then lists exclusions: NFTs, promotional offerings, tokenized points, and collaboration/community tokens. The rule does not exclude collateral tokens. It does not require governance rights, external exchange listing, speculation, a standalone marketing campaign, or a token named POLY.
+
+The record proves fungibility. PX-5, the official pUSD page, says pUSD is Polymarket USD, the collateral token used for all trading on Polymarket, a standard ERC-20 token on Polygon, backed by USDC, transferable, and using 6 decimals. DX-1, the defendant-submitted official Help Center article, says the same thing in user-facing terms: pUSD is a standard ERC-20 on Polygon, backed 1:1 by USDC, convertible back to USDC. A standard transferable ERC-20 token is fungible.
+
+The record proves official Polymarket release. PX-6, the official contracts page, says it is the single source of truth for contract addresses used across the platform and lists pUSD as the CollateralToken proxy. PX-8, the migration guide, says Polymarket shipped a coordinated upgrade with a new collateral token, Polymarket USD or pUSD. This is not a community token or third-party launch. It is Polymarket's own platform documentation, contract list, migration guide, and Help Center.
+
+The record proves public communication and timing. PX-7, the official changelog, says on April 17, 2026 that Polymarket was shipping new Exchange contracts, a rewritten CLOB backend, and a new collateral token, pUSD; then says on April 28 that CLOB V2 was live. PX-8 says CLOB V2 was live as of April 28, 2026. DX-1 tells ordinary users that on April 28 Polymarket was rolling out new smart contracts, a rewritten order book, and a new collateral token, and that users would approve conversion of their balances to pUSD. That is public communication through official channels before the deadline.
+
+The defense's only remaining move is to say: yes, all that happened, but it should be called infrastructure rather than a token launch. That asks you to add words to the condition. A token can be a settlement layer. A token can be collateral. A token can be automatically handled by a frontend. A token can be boring to users and still be launched. In fact, DX-1's “day to day, nothing changes” language explains user experience; it does not erase the same article's statement that Polymarket rolled out a new collateral token and required approval to convert balances to pUSD.
+
+Nor do the record gaps change the outcome. Plaintiff has acknowledged the absence of immutable archive captures, server-header publication history, and the exact market URL/id. Those gaps reduce perfect historical provenance, but they do not outweigh five official Polymarket sources all saying the same thing with April 2026 dates. There is no contrary official source saying pUSD was unofficial, non-fungible, merely points, promotional, an NFT, or a collaboration token.
+
+On a preponderance standard, the question is what is more likely than not. It is more likely than not that before January 1, 2027, Polymarket launched pUSD: Polymarket USD, a standard ERC-20 collateral token on Polygon, officially documented by Polymarket, tied to official Polymarket contracts, publicly announced in the changelog, migration guide, and Help Center, and rolled out with the April 28, 2026 production upgrade.
+
+The proposition should be found true.
+
+[defendant] Council members, the final question is not whether pUSD has token features. It does. The final question is whether plaintiff proved the proposition that Polymarket launched an official fungible token, as opposed to proving a CLOB V2 collateral migration.
+
+The record gives plaintiff strong evidence on existence and mechanics. pUSD is an ERC-20 on Polygon. It is backed by USDC. It is transferable. Polymarket documentation lists pUSD collateral contracts. The April 2026 materials say Polymarket moved collateral from USDC.e to pUSD as part of an exchange upgrade. The defense has not asked you to ignore those facts.
+
+But those facts still do not answer the classification question. The proposition's word "launched" must mean something more than "used an ERC-20 wrapper somewhere in platform infrastructure." Otherwise every official contract-token used inside Polymarket's settlement stack would become an official token launch. The condition instead asks for an official Polymarket token launch, while excluding events that may be token-like but do not count. That requires the council to classify the event proved by the record.
+
+The event proved by the record is an exchange upgrade. Plaintiff's own documents say so. The changelog is about CLOB V2, new exchange contracts, order-struct changes, fee changes, builder attribution, and pUSD replacing USDC.e as collateral. The migration guide is for upgrading integrations: UI-handled wrapping for website users, wrap() calls for API users, legacy SDKs no longer supported, a production cutover, and about an hour of paused trading. DX-1, the official Help Center article, is even clearer for ordinary users: "Polymarket Exchange Upgrade," balances carry over, for most users nothing, approve conversion and upgraded contracts, day to day nothing changes, pUSD is the technical layer underneath.
+
+Those words matter because they come from Polymarket itself. Polymarket did not present this as a public launch of the official Polymarket token. It presented a USDC-backed collateral wrapper designed to function within Polymarket, with no current external listing plan, automatically abstracted through the platform for ordinary users. That is powerful evidence of a technical settlement layer. It is weaker evidence of the market-resolution event plaintiff needs.
+
+Plaintiff's best response is that the rule does not expressly exclude collateral tokens. True. But plaintiff bears the affirmative burden. The absence of a collateral-token exclusion does not prove that every collateral migration is an official token launch. The record must make plaintiff's classification more likely than the defense's. Here, the official framing, user-facing messaging, and migration mechanics all point to infrastructure, not a standalone token launch.
+
+The source-chain limits reinforce caution. The record still lacks the actual market URL or identifier, a pre-run market/API capture, immutable archives, server headers, and exact publication history. Those gaps are not enough by themselves to erase the official sources. But when the decisive issue is the meaning and classification of the event, they counsel against stretching a collateral-migration record beyond what it actually proves.
+
+So the defense closing is narrow. pUSD is real. pUSD is fungible. pUSD is official Polymarket collateral. But plaintiff had to prove that Polymarket launched an official fungible token within the meaning of this proposition. The better reading of this record is that Polymarket upgraded its exchange stack and replaced its collateral layer. On a preponderance standard, the proposition has not been proved.
+
+## Exhibits
+
+[plaintiff arguments] PX-1 Market rule text and resolution elements: market-page.txt
+[plaintiff arguments] PX-2 Initial primary-evidence packet summary: primary-evidence.txt
+[plaintiff arguments] PX-3 Official-source record and source map: official-source-record.txt
+[plaintiff arguments] PX-4 Known record gaps and limitations: unresolved-record-gaps.txt
+[plaintiff arguments] PX-5 Official Polymarket pUSD page capture: submitted-evidence-01-plaintiff-f34b5612c619.txt
+[plaintiff arguments] PX-6 Official Polymarket contracts page capture: submitted-evidence-02-plaintiff-eb5be3872a12.txt
+[plaintiff arguments] PX-7 Official Polymarket changelog capture: submitted-evidence-03-plaintiff-04730ea1807f.txt
+[plaintiff arguments] PX-8 Official Polymarket CLOB V2 migration guide capture: submitted-evidence-04-plaintiff-0979024ce767.txt
+[defendant arguments] DX-1 Official Help Center exchange-upgrade article: pUSD as collateral technical layer: submitted-evidence-05-defendant-57084a7a538c.txt
+[defendant arguments] DX-2 Plaintiff pUSD page capture: technical settlement layer and no external listing plan: submitted-evidence-01-plaintiff-f34b5612c619.txt
+[defendant arguments] DX-3 Plaintiff migration guide capture: CLOB V2 collateral migration and UI wrapping: submitted-evidence-04-plaintiff-0979024ce767.txt
+[defendant arguments] DX-4 Plaintiff changelog capture: CLOB V2 upgrade framing: submitted-evidence-03-plaintiff-04730ea1807f.txt
+[defendant arguments] DX-5 Packet gap file: semantic issue and source-chain limitations: unresolved-record-gaps.txt
+[plaintiff rebuttals] PX-R1 Defendant-submitted official Help Center article confirming pUSD rollout: submitted-evidence-05-defendant-57084a7a538c.txt
+
+## Submitted Evidence
+
+[plaintiff arguments] Official Polymarket documentation: Polymarket USD (pUSD) page text capture (ev_f34b5612c619_submitted-evidence-01-plaintiff-f34b5612c619)
+Source: https://docs.polymarket.com/concepts/pusd
+SHA-256: `f34b5612c619b1d1256b8ae0a0b9e8e72693d7acbf13b5fef443f3da7e1ecce0`
+Bytes: 1869
+Relevance: Primary official Polymarket source proving pUSD is Polymarket USD, a standard ERC-20 token on Polygon, backed by USDC, transferable, 6 decimals, and used for all trading on Polymarket.
+
+[plaintiff arguments] Official Polymarket documentation: Contracts page pUSD CollateralToken capture (ev_eb5be3872a12_submitted-evidence-02-plaintiff-eb5be3872a12)
+Source: https://docs.polymarket.com/resources/contracts
+SHA-256: `eb5be3872a125885b17725f14ddf350e7371e7848988afe711c3ea3b385f92c5`
+Bytes: 1300
+Relevance: Primary official Polymarket source attributing pUSD contract addresses to Polymarket and identifying the contracts page as source of truth for platform addresses.
+
+[plaintiff arguments] Official Polymarket changelog: April 2026 CLOB V2 and pUSD entries capture (ev_04730ea1807f_submitted-evidence-03-plaintiff-04730ea1807f)
+Source: https://docs.polymarket.com/changelog
+SHA-256: `04730ea1807facef2cf09f7a0fc21c1ef3ffe2ec1d36a30c829d878047fb6289`
+Bytes: 2818
+Relevance: Primary official Polymarket source showing public communication and timing: pUSD announced April 17, 2026, CLOB V2 live April 28, 2026, and pUSD replacing USDC.e as collateral.
+
+[plaintiff arguments] Official Polymarket migration guide: CLOB V2 and pUSD capture (ev_0979024ce767_submitted-evidence-04-plaintiff-0979024ce767)
+Source: https://docs.polymarket.com/v2-migration
+SHA-256: `0979024ce76774627c9fbfd9440bcecec8445eef16d97e9c4b1d66cb4bb8fb79`
+Bytes: 2602
+Relevance: Primary official Polymarket source proving Polymarket shipped a new collateral token named Polymarket USD/pUSD, CLOB V2 live April 28, 2026, and pUSD standard ERC-20 replacing USDC.e.
+
+[defendant arguments] Official Polymarket Help Center: Exchange upgrade article framing pUSD as collateral technical layer (ev_57084a7a538c_submitted-evidence-05-defendant-57084a7a538c)
+Source: https://help.polymarket.com/en/articles/14762452-polymarket-exchange-upgrade-april-28-2026
+SHA-256: `57084a7a538cfc05aecec1637f18a3d7c33a6120cc118df8fafb328e80c4c5b9`
+Bytes: 3195
+Relevance: Official user-facing Polymarket source describing the April 28, 2026 exchange upgrade, pUSD as the new collateral token, and pUSD as the technical layer underneath ordinary trading, supporting defense distinction between collateral migration and public token launch.
+
+## Technical Reports
+
+[plaintiff] Plaintiff source-chain and adverse-check report
+Plaintiff inspected the initial record, read all packet files, refreshed the record after openings, and submitted four focused official Polymarket documentation captures from docs.polymarket.com: pUSD concept page, contracts page, changelog, and CLOB V2 migration guide. Native searches for Polymarket pUSD/token-launch/collateral sources found secondary reports generally confirming pUSD as a collateral token or stablecoin and one adverse framing that pUSD is collateral-only, not POLY or externally tradeable. Plaintiff did not submit secondary sources because official Polymarket pages are stronger primary evidence. Remaining gaps: no immutable archive or server-header publication history, no exact Polymarket market URL/id, and no pre-run market API capture.
+
+[defendant] Defendant source review and adverse-check ledger
+Defendant inspected the current record after plaintiff arguments, read all four newly submitted Polymarket captures, and searched for official user-facing Polymarket material about the April 28, 2026 pUSD rollout. The most probative additional source found was the official Help Center exchange-upgrade article, submitted as DX-1. Secondary reporting was not submitted because official Polymarket materials were stronger and the key defense point is classification, not factual denial. Material gaps remain: no market URL/id, no pre-run market/API capture, no immutable archive or server-header publication history, and no exact page-change history.
+
+[plaintiff] Targeted rebuttal check of DX-1
+Plaintiff read defendant's official Help Center exhibit in full. The article confirms an April 28, 2026 Polymarket exchange upgrade with new smart contracts, rewritten order book, and a new collateral token; identifies that token as Polymarket USD/pUSD; states pUSD is a standard ERC-20 on Polygon backed 1:1 by USDC; and says users approve conversion of balances to pUSD and upgraded contracts. Plaintiff relies on this existing record evidence and submits no new rebuttal evidence.
+
+## Council Votes
+
+### Round 1
+
+Tally: 3 demonstrated
+
+[C2] demonstrated
+Polymarket's official documentation consistently identifies pUSD as 'a new collateral token' and 'Polymarket USD' - a fungible ERC-20 token officially released by Polymarket and communicated through its public channels. The rule excludes only NFTs, promotional offerings, tokenized points, and collaboration tokens, which pUSD does not qualify as. The evidence demonstrates the proposition by a preponderance.
+
+[C3] demonstrated
+The admitted record proves by preponderance that Polymarket launched pUSD, a standard ERC-20 fungible token, officially released and publicly communicated through official Polymarket channels (changelog, migration guide, contracts page, Help Center) on April 28, 2026—well before the January 1, 2027 deadline. The defense's distinction between collateral infrastructure and token launch is not supported by the proposition text, which does not exclude collateral tokens and is satisfied by official documentation describing pUSD as a new token that was shipped and rolled out.
+
+[C4] demonstrated
+The record shows Polymarket publicly announced and deployed pUSD, a standard ERC‑20 fungible token, as official collateral on April 28 2026, satisfying all proposition elements before the deadline.

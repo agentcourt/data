@@ -1,0 +1,467 @@
+Role: council member
+Member ID: C4
+Deliberation round: 1
+Proposition: For the market "What will Trump say during the FIFA World Cup Draw?", the strike "Ronaldo" should resolve Yes because Trump's pre-event remarks at the venue immediately before the formal program count as occurring during the draw.
+Standard of evidence: Preponderance of the evidence.
+Persona:
+You are a careful juror and council member.
+
+Evaluate the record faithfully. Decide only from the evidence, the stated rules, and the applicable burden of proof. Do not favor either side, fill gaps with speculation, or ignore uncertainty.
+
+Give weight to reliable sources, direct evidence, consistent reasoning, and clear admissions. Discount unsupported claims, rhetorical force, irrelevant facts, and conclusions that exceed the record.
+
+When the evidence supports one answer, state it plainly. When the evidence is incomplete or balanced, say so. Be concise, honest, and exact.
+
+Record:
+Openings:
+[plaintiff] Council members, this case turns on a narrow but decisive boundary question. The market asked: "What will Trump say during the FIFA World Cup Draw?" The strike was "Ronaldo." The challenged resolution was No; the requested resolution is Yes. The question is not simply whether a later, formal on-stage draw transcript contains the word. The question is whether Trump's public remarks at the venue immediately before the formal program count as occurring during the draw event for this market.
+
+The starting record already shows why that distinction matters. The market-question file identifies the core dispute as whether the phrase "during the FIFA World Cup Draw" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself. The pre-event-remarks file attributes to Trump two public venue remarks containing the strike: "I got to meet Ronaldo the other day" and "Ronaldo is great." The formal-draw-program file supplies the main contrary point: the draft complaint states that the formal draw-program transcript does not appear to contain "Ronaldo."
+
+Plaintiff's theory is straightforward. A market framed for ordinary users around what Trump would say "during the FIFA World Cup Draw" should not be narrowed automatically to a single formal transcript if the relevant remarks were public, at the draw venue, and immediately before the formal program as part of the same event setting. If the evidence establishes that sequence, and if no market rule expressly limits resolution to the formal on-stage transcript, then the preponderance favors Yes: Trump said the strike in remarks that were sufficiently part of the draw event.
+
+The defense will likely argue that "during the draw" means only the formal program and that the formal transcript's apparent silence ends the matter. That argument has force only if the market rules or reliable source record impose that narrow boundary. The current record does not yet establish such a rule. It instead frames a live interpretive dispute and gives both sides' starting points: alleged Ronaldo statements in immediately preceding public venue remarks, and an apparent absence from the formal program transcript.
+
+There are provenance limits the council should keep in mind. The three packet files are admissible starting material, but two of them expressly say they are not full upstream transcripts. They prove the shape of the dispute and the draft complaint's attributed lines and contrary formal-transcript point; they do not by themselves prove the complete market rules, the full video or transcript, official timing, or the whole source chain. In later evidence phases, the decisive proof should be the market page or rules, a full transcript or video/audio capture of the pre-event remarks, timing or program evidence tying those remarks to the draw event, and any adverse formal transcript or rule that would exclude pre-program remarks.
+
+On this opening record, the case should be evaluated as a preponderance question about event scope. If the later record confirms the attributed Ronaldo remarks and shows that the market did not exclude public venue remarks immediately preceding the formal draw program, then the strike should resolve Yes.
+
+[defendant] Council members, the defense position is that the challenged No resolution should not be disturbed on this opening record. Plaintiff must prove more than the bare fact that the word “Ronaldo” was allegedly spoken somewhere near the event. The proposition requires a second and decisive step: that public remarks immediately before the formal program count as remarks made “during the FIFA World Cup Draw” for this market.
+
+The admitted packet is narrow. The market-question file frames the exact boundary dispute: whether “during the FIFA World Cup Draw” includes Trump’s public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself. That file proves there is a boundary dispute; it does not resolve it for plaintiff.
+
+The formal-draw-program file is the strongest record point for the defense at this stage. It states that the draft complaint says the formal draw-program transcript does not appear to contain the word “Ronaldo.” It also carefully says it is not the full formal transcript. Even with that limitation, the only packet evidence addressing the formal program points away from Yes: the relevant word apparently is absent from the formal draw program.
+
+The pre-event-remarks file is plaintiff’s starting point, but it carries its own limits. It says the draft complaint attributes two Ronaldo lines to Trump’s public remarks at the venue immediately before the formal program. It does not claim to be the upstream transcript, a video, an audio recording, an official caption file, the market page, or the governing market rules. It therefore may identify a lead to investigate later, but it does not by itself establish custody, completeness, exact timing, speaker context, or market scope.
+
+That distinction matters because the ordinary meaning of “during the FIFA World Cup Draw” naturally points to the draw program, not every adjacent media interaction at the venue. Plaintiff’s theory asks the council to expand the event boundary from the formal draw to a pre-program press exchange. That expansion may be possible only if the market rules, source criteria, or reliable source record support it. None of that is yet in the admitted record.
+
+The defense expects the decisive proof to be concrete and source-based: the market’s rules or resolution criteria, the full formal draw transcript or recording, the full pre-event recording or transcript, and timing evidence showing exactly when the alleged remarks occurred relative to the formal program. If those materials show that the market limited resolution to the formal on-stage program, or if the only reliable formal transcript omits the strike, No should stand. If plaintiff cannot supply a complete source chain for the alleged pre-event remarks and a rule-based reason those remarks count, plaintiff has not met the preponderance standard.
+
+So the opening defense theory is simple: the record currently proves an allegation and an interpretive dispute, not a qualifying Yes event. The burden belongs to plaintiff. Until admitted primary evidence ties the alleged Ronaldo remarks to the market’s actual temporal and source boundaries, the council should treat the formal-program absence and the provenance gaps as reasons to uphold the challenged No resolution.
+
+Arguments:
+[plaintiff] Council members, plaintiff has now carried the preponderance burden on the merits.
+
+The admitted record proves three points. First, the market was the Trump/FIFA World Cup Draw mention market, the strike was "Ronaldo," and the dispute is whether remarks at the venue immediately before the formal program count as remarks during the draw. That is the case-packet market-question file. Second, the formal-program side is limited: the packet says the formal draw-program transcript does not appear to contain the word, but it also says that file is not the full formal transcript. Third, the pre-event packet attributes Ronaldo lines to Trump's public remarks immediately before the formal program.
+
+The new transcript evidence resolves the central factual issue. PX-1, the Senate Democratic Caucus transcript capture, is titled as Trump's remarks to reporters at the FIFA World Cup Drawing on 12.5.25. It states that Trump walked the red carpet for 18 minutes before the FIFA event, that the transcript was assembled from identified media sources, and that portions remain inaudible. Within that source, Trump says: "Got to meet Ronaldo the other day" and "Ronaldo is great." A second captured passage has Trump say: "Ronaldo's great" and "I met Ronaldo the other day at the White House." That is not a single ambiguous fragment. It is repeated use of the strike in the reporter/red-carpet remarks tied by the source title and timing note to the FIFA World Cup Drawing.
+
+PX-2, AP's event-context capture, corroborates the setting. AP describes the 2026 World Cup draw at the Kennedy Center as an event involving Trump and FIFA President Gianni Infantino, with the draw spectacle setting matchups. This does not prove the transcript by itself, but it does show that Trump's presence and public remarks occurred in the context of the same FIFA World Cup draw event, not a detached private conversation.
+
+PX-3, the Bernard Bulletin ledger, is secondary and should be weighed accordingly, but it is useful because it identifies the exact Kalshi market and the adverse resolution. It reports that for the 12-5-25 market, strike "Ronaldo," Trump said the strike to the press on the red carpet before the programme, that this was livestreamed, and that the result was N under Version/Timeframe. That is adverse on the result, but favorable on the facts: even the dispute ledger frames the problem as a rule-boundary question, not as a failure to say the word.
+
+The defense's strongest argument is the formal-program transcript absence. Plaintiff accepts that if the market had said "during the formal on-stage draw-program transcript only," No would be easy. But that is not the proposition. The market phrase is "during the FIFA World Cup Draw." The record contains no admitted Kalshi rule limiting this market to the formal on-stage transcript and excluding the public red-carpet segment at the venue immediately before the program. Without that limiting rule, ordinary event language should include public remarks made at the draw venue as part of the same event arrival/red-carpet sequence.
+
+The provenance limits do not defeat plaintiff's burden. PX-1 is not the raw video file and it discloses audio gaps, so it is not perfect. But it names the event, identifies the red-carpet timing, describes the media-source assembly, and records two separate Ronaldo passages. The original pre-event packet independently pointed to the same kind of remarks. PX-3 also identifies the red-carpet/livestream basis. The defense has no admitted contrary transcript showing Trump did not say Ronaldo in those remarks; its evidence is only that the later formal program apparently lacks the word.
+
+That leaves interpretation. On a preponderance standard, the better reading is that public, livestreamed red-carpet remarks at the Kennedy Center, immediately before the formal FIFA World Cup Draw program, were part of what an ordinary market participant would understand as the draw event unless the rules expressly carved them out. The admitted evidence proves Trump said the strike in that setting. The challenged No resolution should be reversed, and "Ronaldo" should resolve Yes.
+
+[defendant] Council members, plaintiff’s new evidence narrows the dispute, but it does not carry the proposition. The defense does not need to pretend the word “Ronaldo” was never spoken in any nearby remarks. The better merits point is that plaintiff still has not proven that pre-program red-carpet reporter remarks qualify as remarks “during the FIFA World Cup Draw” under this market’s actual resolution boundaries.
+
+Start with the most important plaintiff exhibit, ev_6ed0ce37445b. It is useful, but not in the way plaintiff needs. The captured Senate transcript says Trump “walked the red carpet for 18 minutes before the FIFA event.” It further says the press pool was engaged for only about three minutes, that the video/audio were pieced together from several media sources, and that portions remain inaudible. The captured passages do include Ronaldo. But the same exhibit places those passages on the red carpet before the FIFA event and discloses a reconstructed, incomplete source chain rather than an official market-resolution transcript or raw video.
+
+That is a scope problem, not just a provenance quibble. The proposition is not “Did Trump say Ronaldo on December 5 somewhere at the Kennedy Center?” It is whether those pre-event remarks count as occurring during the draw. Plaintiff’s own transcript capture uses the temporal line the defense relies on: before the FIFA event. The case-packet formal-program evidence, ev_7de1d3f2c404, says the formal draw-program transcript does not appear to contain “Ronaldo.” So if “during the FIFA World Cup Draw” means the formal draw program, the record points to No.
+
+The AP context exhibit, ev_87077c188322, does not bridge that gap. It places Trump and Infantino at the Kennedy Center draw and describes the draw spectacle. That corroborates the venue and general event setting. It does not say red-carpet press remarks are part of the draw program, does not supply Kalshi rules, and does not contradict the formal-program absence.
+
+The Bernard Bulletin ledger, ev_5d340a46bd86, is secondary and should be weighed cautiously, but it is adverse to plaintiff on the decisive point. It reports the exact strike, says the alleged evidence was that Trump said the strike to the press on the red carpet “prior to the start of the programme,” lists the applicable rule categories as “Version, Timeframe,” and reports the result as N. That is not an official Kalshi rule file, but it is the only admitted source that directly ties the exact dispute to rule categories and the actual challenged outcome. It supports the defense’s reading that this was not a simple “word was said, therefore Yes” case; it was resolved No because of timeframe/version boundaries.
+
+Plaintiff argues there is no admitted rule expressly excluding the red carpet. But absence of an admitted official rule is plaintiff’s problem, not defendant’s. Plaintiff asks the council to reverse a challenged No resolution. On a preponderance standard, plaintiff must provide the rule-based link from pre-program reporter remarks to the market’s qualifying timeframe. The record has no official Kalshi market page, no official resolution rationale, no complete rule text, and no full formal transcript. The defense attempted targeted searches for the exact market and Kalshi rule metadata; the accessible Kalshi page and public API searches did not yield a clean official market-rule capture. That gap should not be filled by broad ordinary-language speculation.
+
+The record now proves, at most, that Trump likely said Ronaldo in a reconstructed red-carpet press exchange shortly before the formal program. It also proves that the formal draw-program transcript apparently lacks the strike, that plaintiff’s transcript source places the exchange before the FIFA event, and that the secondary dispute ledger reports a No result under Version/Timeframe rules. Those facts favor upholding the challenged resolution. The council should reject the proposition and resolve that “Ronaldo” should remain No.
+
+Rebuttals:
+[plaintiff] Council members, the defense now concedes the key factual point: Trump likely said "Ronaldo" in the red-carpet reporter exchange. Its case depends almost entirely on converting "before the formal program" into "outside the FIFA World Cup Draw." That is the disputed conclusion, not an established rule.
+
+The proposition presented to this council is precisely whether Trump's pre-event remarks at the venue immediately before the formal program count as occurring during the draw. So it is not enough for defendant to repeat that the remarks were before the formal on-stage program. Plaintiff has never denied that timing. The question is whether those public, event-adjacent, venue remarks are within the market's event phrase absent a rule excluding them.
+
+PX-1 should be read as a whole. Yes, its note says Trump walked the red carpet before the FIFA event and that the source has audio gaps. But the same source is titled as Trump speaking to reporters at the FIFA World Cup Drawing, and it captures two separate Ronaldo passages. PX-2 places Trump at the Kennedy Center draw spectacle. Those sources support a common-sense event boundary: a red-carpet press exchange immediately before the on-stage program, at the same venue and tied to the same draw, is part of the public draw event for purposes of a broad mention market unless the market rules say otherwise.
+
+Defendant treats PX-3 as if it were the missing official rule. It is not. PX-3 is a secondary dispute ledger. It reports the adverse result and labels the issue "Version, Timeframe," but it does not provide rule text saying red-carpet remarks are excluded. It also confirms plaintiff's factual theory: the exact market was the Ronaldo strike, the evidence was Trump saying the strike to press on the red carpet before the programme, and it was livestreamed. The nearby examples in the same capture show that event-boundary questions are contextual, not automatically resolved by the moment a formal speech or program segment begins.
+
+Finally, defendant's failure to find official Kalshi rule metadata is not affirmative evidence of a narrow rule. The admitted record has the market title, the issue framing, the transcript of the words, and event context. What it lacks is any admitted market text limiting resolution to the formal on-stage transcript. On this record, the formal-program absence proves only that Ronaldo was apparently not said in that narrower segment. It does not defeat a Yes resolution under the broader market phrase.
+
+Preponderance does not require perfect source custody or a raw video when the material facts are corroborated and effectively undisputed. It requires the more likely answer. The more likely answer is that Trump said the strike in public, livestreamed remarks at the World Cup Draw venue immediately before the formal program, and no admitted rule excludes that part of the event. The strike should resolve Yes.
+
+Surrebuttals:
+[defendant] Council members, plaintiff’s rebuttal usefully exposes the remaining issue: not whether Trump uttered the word, but who bears the risk of an unresolved market-boundary record.
+
+Plaintiff says the defense is merely relabeling “before the formal program” as “outside the draw.” But the admitted evidence does more than use defense-friendly labels. PX-1 says Trump walked the red carpet “before the FIFA event.” PX-3 says the alleged evidence was a red-carpet remark “prior to the start of the programme,” and reports the actual result as N under “Version, Timeframe.” The formal-program packet says Ronaldo does not appear in the formal draw-program transcript. Those are not neutral facts awaiting a broad default rule; they are the only admitted timing and result facts, and they point to No.
+
+Plaintiff’s “unless excluded” theory also reverses the burden. The proposition asks the council to overturn the challenged No resolution. Plaintiff therefore must prove that pre-event press remarks counted under the market’s qualifying timeframe. The absence of an admitted official exclusion is not proof of inclusion. It is a missing link in plaintiff’s case, especially where the secondary dispute ledger identifies timeframe/version as the very reason this market was contested and reports N.
+
+AP’s event-context exhibit does not solve that missing link. It confirms the Kennedy Center draw setting, but it does not say a red-carpet press exchange was part of the formal draw program or part of Kalshi’s resolution source. A person can be at a venue for an event and still speak before the event’s qualifying timeframe begins.
+
+So even accepting plaintiff’s strongest factual point, the record remains insufficient for Yes. It proves Ronaldo in a pre-event red-carpet exchange, not Ronaldo during the market’s qualifying draw timeframe. Under preponderance, the challenged No resolution should stand.
+
+Closings:
+[plaintiff] Council members, the record now answers the case.
+
+The proposition asks whether the Ronaldo strike should resolve Yes because Trump's public remarks at the venue immediately before the formal program count as occurring during the FIFA World Cup Draw. That framing matters. This is not a case where plaintiff must pretend the formal program transcript itself contains the word. The formal-program packet says it apparently does not. Plaintiff wins only if the broader event boundary is the right one.
+
+On the facts, the record is strong enough. PX-1 captures a transcript titled as Trump speaking to reporters at the FIFA World Cup Drawing. It states that he walked the red carpet before the FIFA event, and it records him saying Ronaldo in two separate passages, including "Ronaldo is great" and "Ronaldo's great." PX-2 places Trump at the Kennedy Center World Cup draw spectacle. PX-3, although secondary and adverse as to reported result, confirms the exact market dispute and says the evidence was Trump saying the strike to press on the red carpet before the programme, livestreamed. Defendant no longer seriously contests that Ronaldo was said.
+
+The defense therefore rests on scope. Its best point is that the remarks were before the formal program and that the formal program apparently lacks the strike. But that proves only the narrow-formal-program case. It does not prove the market phrase "during the FIFA World Cup Draw" excluded red-carpet remarks at the same venue immediately before the program. No admitted official rule says that. Defendant's own search ledger found no clean official rule capture. PX-3's labels, "Version" and "Timeframe," are not rule text; the reported N result is the challenged outcome, not binding proof that the outcome was correct.
+
+Plaintiff has been candid about the limits. PX-1 is a transcript capture rather than raw video, and it discloses audio gaps. PX-3 is secondary commentary. The official Kalshi page is missing. Those gaps matter, but they do not erase what the admitted record does show: repeated Ronaldo remarks, a public red-carpet setting tied to the FIFA World Cup Drawing, and no admitted exclusion narrowing the market to the formal on-stage transcript.
+
+Under preponderance, the more likely and fairer reading is that public, livestreamed remarks at the draw venue immediately before the formal program were part of the draw event for this broad mention market. If a market wants only the formal transcript, it can say so. This one asked what Trump would say during the FIFA World Cup Draw. The record shows he said Ronaldo in the event setting. The strike should resolve Yes.
+
+[defendant] Council members, the defense closing begins with what the record actually proves and what it does not.
+
+The record likely proves that Trump said “Ronaldo” in a red-carpet reporter exchange. But the proposition is narrower and harder: the strike should resolve Yes because those pre-event remarks count as occurring during the FIFA World Cup Draw. Plaintiff had to prove that qualifying link by a preponderance. It did not.
+
+The decisive admitted facts point the other way. The formal-program packet says the formal draw-program transcript does not appear to contain “Ronaldo.” PX-1, plaintiff’s transcript capture, says Trump walked the red carpet “before the FIFA event,” that the press pool was engaged only briefly, and that the capture was pieced together from multiple media sources with inaudible portions. PX-3 says the alleged evidence was a red-carpet remark “prior to the start of the programme,” identifies the rule categories as “Version, Timeframe,” and reports the result as N. PX-2 supplies Kennedy Center event context, but no rule, no resolution source, and no statement that pre-program press remarks were part of the qualifying draw program.
+
+Plaintiff’s best answer is that no admitted official rule expressly excludes the red carpet. But this case is not a blank-slate drafting exercise. Plaintiff asks the council to reverse the challenged No result. The absence of official Kalshi rule text is a missing link in plaintiff’s proof, not a reason to presume Yes. If the record had an official rule saying venue-arrival remarks counted, plaintiff would have a strong case. The record has the opposite kind of clues: before the FIFA event, prior to the programme, Version/Timeframe, result N, and no Ronaldo in the formal program.
+
+Plaintiff also says a broad mention market should include the whole public event setting. That is plausible rhetoric, but the standard is preponderance on this record. A venue-adjacent press exchange can be related to an event without falling inside the market’s qualifying timeframe. The admitted evidence never supplies the rule-based bridge from related setting to covered “during” period.
+
+So the fair synthesis is this: Trump likely said the word, but plaintiff proved only a pre-event red-carpet utterance. It did not prove that the utterance occurred during the market’s qualifying FIFA World Cup Draw timeframe. The challenged No resolution should stand, and the council should reject the proposition.
+
+Exhibits:
+[plaintiff] PX-1 Senate transcript capture of Trump reporter remarks at FIFA World Cup Drawing
+Source: Senate Democratic Caucus, "TRANSCRIPT: President Trump Speaks to Reporters at the FIFA World Cup Drawing, 12.5.25".
+URL: https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-to-reporters-at-the-fifa-world-cup-drawing-12525
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+Title: "TRANSCRIPT: President Trump Speaks to Reporters at the FIFA World Cup Drawing, 12.5.25"
+
+The page contains a video link. The transcript note states: "Donald Trump walked the red carpet for 18 minutes before the FIFA event. The press pool was only engaged for about three minutes. The video and audio here have been pieced together from TV Azteca, Telemundo, SBT Media and El Destape, among other sources. Portions remain inaudible, as noted."
+
+Relevant passage 1:
+Question: We'll be doing special final American --
+
+Trump: Got to meet Ronaldo the other day into the White House. He was fantastic. He was a handsome guy and a great guy and his son Barron met him and they had a big conversation. My son loves soccer and football, as you know. But Ronaldo is great. He's a great guy. He's got the whole package. He's a great player. Thank you very much.
+
+Question: Thanks.
+
+Note: [Audio gap due to distance and lack of available alternative sources]
+
+Relevant passage 2:
+Trump: Messi? Oh, he's great. And Ronaldo's great. I, I met Ronaldo the other day at the White House and he was fantastic. My son, Barron, and they talked about soccer and, or football, depending on your definition. But, uh, Ronaldo was here, and he's a fantastic guy. Thank you.
+
+Question: [Inaudible]
+
+Trump: Yeah.
+
+Question: [Laughs]
+
+Trump: We're gonna do well. USA's good.
+
+Question: Thank you very much.
+
+Note: [Audio gap due to distance and lack of available alternative sources]
+
+Capture limitations: This is a transcript page rather than the underlying video file. The page itself discloses audio gaps and that the audio/video were assembled from several media sources.
+
+[plaintiff] PX-2 AP News World Cup draw event and venue context
+Source: AP News, "Music, comedy and a whole lot of Trump. And then finally, an actual World Cup draw".
+URL: https://apnews.com/article/world-cup-draw-donald-trump-fifa-gretzky-b7b8bc3301c7055eabd959edf03ed94f
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+The article states that President Donald Trump was awarded the new FIFA peace prize on Friday at the 2026 World Cup draw, describing it as part of the spectacle that set matchups for the quadrennial soccer tournament.
+
+AP photo captions place President Donald Trump with FIFA President Gianni Infantino at the draw for the 2026 soccer World Cup at the Kennedy Center in Washington on Friday, Dec. 5, 2025. The same article captions a screen showing the final bracket at the end of the draw at the Kennedy Center, and describes performers and draw participants during the draw.
+
+Capture limitations: This AP article provides event and venue context, not a transcript of the red-carpet remarks and not the Kalshi market rules.
+
+[plaintiff] PX-3 Bernard Bulletin Kalshi dispute ledger entry
+Source: Bernard Bulletin, "Kalshi Mention Market Dispute Bible".
+URL: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+Entry dated 12-5-25: "What will Trump say during the FIFA World Cup Draw?"
+Strike: "Ronaldo"
+Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.
+Rules: Version, Timeframe
+Result: N
+Last trade: Y $.10
+
+Nearby captured context on market-boundary examples:
+- A 1-14-26 entry for a UN briefing says a president concluded a speech, the event and stream continued, she called on other speakers, and the strike counted; rule category listed as Event; result Y.
+- A 12-5-25 entry for Gianni Infantino during the World Cup Draw says the term occurred in a prerecorded clip played during the event and the rules did not exclude prerecorded material; result Y.
+- A 11-22-25 Trump/Fox entry notes a clarification that previous recordings would count; rule categories Previous Recordings and Timeframe; result Y.
+
+Capture limitations: Bernard Bulletin is secondary/commentary, not the official Kalshi market page or official resolution file. It is useful for identifying the exact market, reported result, rule categories, and comparable boundary disputes, but not conclusive by itself.
+
+[plaintiff] PX-4 Case packet market question and boundary dispute
+Market title: What will Trump say during the FIFA World Cup Draw?
+
+Strike: Ronaldo
+
+Challenged resolution: No
+
+Requested resolution: Yes
+
+Core dispute: whether the market phrase "during the FIFA World Cup Draw" includes Trump's public remarks at the venue immediately before the formal draw program began, or only the formal on-stage program itself.
+
+
+[plaintiff] PX-5 Case packet attributed pre-event Ronaldo remarks
+The draft complaint attributes these two quoted lines to Trump's public remarks at the venue immediately before the formal program:
+
+- "I got to meet Ronaldo the other day."
+- "Ronaldo is great."
+
+This file provides the starting point in the example record on the pre-event remarks issue.  It does not claim to be the full upstream transcript.
+
+
+[plaintiff] PX-6 Case packet formal-program transcript limitation
+The draft complaint states that the formal draw-program transcript does not appear to contain the word "Ronaldo."
+
+This file provides the starting point in the example record on the formal-program side of the dispute.  It does not claim to be the full formal-program transcript.
+
+
+[defendant] DX-1 Senate transcript capture showing Ronaldo passages but placing red-carpet remarks before the FIFA event with source-chain limitations
+Source: Senate Democratic Caucus, "TRANSCRIPT: President Trump Speaks to Reporters at the FIFA World Cup Drawing, 12.5.25".
+URL: https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-to-reporters-at-the-fifa-world-cup-drawing-12525
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+Title: "TRANSCRIPT: President Trump Speaks to Reporters at the FIFA World Cup Drawing, 12.5.25"
+
+The page contains a video link. The transcript note states: "Donald Trump walked the red carpet for 18 minutes before the FIFA event. The press pool was only engaged for about three minutes. The video and audio here have been pieced together from TV Azteca, Telemundo, SBT Media and El Destape, among other sources. Portions remain inaudible, as noted."
+
+Relevant passage 1:
+Question: We'll be doing special final American --
+
+Trump: Got to meet Ronaldo the other day into the White House. He was fantastic. He was a handsome guy and a great guy and his son Barron met him and they had a big conversation. My son loves soccer and football, as you know. But Ronaldo is great. He's a great guy. He's got the whole package. He's a great player. Thank you very much.
+
+Question: Thanks.
+
+Note: [Audio gap due to distance and lack of available alternative sources]
+
+Relevant passage 2:
+Trump: Messi? Oh, he's great. And Ronaldo's great. I, I met Ronaldo the other day at the White House and he was fantastic. My son, Barron, and they talked about soccer and, or football, depending on your definition. But, uh, Ronaldo was here, and he's a fantastic guy. Thank you.
+
+Question: [Inaudible]
+
+Trump: Yeah.
+
+Question: [Laughs]
+
+Trump: We're gonna do well. USA's good.
+
+Question: Thank you very much.
+
+Note: [Audio gap due to distance and lack of available alternative sources]
+
+Capture limitations: This is a transcript page rather than the underlying video file. The page itself discloses audio gaps and that the audio/video were assembled from several media sources.
+
+[defendant] DX-2 Case-packet formal-program transcript point: Ronaldo apparently absent from formal draw program
+The draft complaint states that the formal draw-program transcript does not appear to contain the word "Ronaldo."
+
+This file provides the starting point in the example record on the formal-program side of the dispute.  It does not claim to be the full formal-program transcript.
+
+
+[defendant] DX-3 Bernard Bulletin exact dispute entry reporting red-carpet remarks prior to programme, Version/Timeframe rules, and result N
+Source: Bernard Bulletin, "Kalshi Mention Market Dispute Bible".
+URL: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+Entry dated 12-5-25: "What will Trump say during the FIFA World Cup Draw?"
+Strike: "Ronaldo"
+Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.
+Rules: Version, Timeframe
+Result: N
+Last trade: Y $.10
+
+Nearby captured context on market-boundary examples:
+- A 1-14-26 entry for a UN briefing says a president concluded a speech, the event and stream continued, she called on other speakers, and the strike counted; rule category listed as Event; result Y.
+- A 12-5-25 entry for Gianni Infantino during the World Cup Draw says the term occurred in a prerecorded clip played during the event and the rules did not exclude prerecorded material; result Y.
+- A 11-22-25 Trump/Fox entry notes a clarification that previous recordings would count; rule categories Previous Recordings and Timeframe; result Y.
+
+Capture limitations: Bernard Bulletin is secondary/commentary, not the official Kalshi market page or official resolution file. It is useful for identifying the exact market, reported result, rule categories, and comparable boundary disputes, but not conclusive by itself.
+
+[defendant] DX-4 AP context evidence limited to venue/event setting, not market rules or red-carpet transcript
+Source: AP News, "Music, comedy and a whole lot of Trump. And then finally, an actual World Cup draw".
+URL: https://apnews.com/article/world-cup-draw-donald-trump-fifa-gretzky-b7b8bc3301c7055eabd959edf03ed94f
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+The article states that President Donald Trump was awarded the new FIFA peace prize on Friday at the 2026 World Cup draw, describing it as part of the spectacle that set matchups for the quadrennial soccer tournament.
+
+AP photo captions place President Donald Trump with FIFA President Gianni Infantino at the draw for the 2026 soccer World Cup at the Kennedy Center in Washington on Friday, Dec. 5, 2025. The same article captions a screen showing the final bracket at the end of the draw at the Kennedy Center, and describes performers and draw participants during the draw.
+
+Capture limitations: This AP article provides event and venue context, not a transcript of the red-carpet remarks and not the Kalshi market rules.
+
+[plaintiff] PX-R1 Senate transcript timing and Ronaldo passages
+Source: Senate Democratic Caucus, "TRANSCRIPT: President Trump Speaks to Reporters at the FIFA World Cup Drawing, 12.5.25".
+URL: https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-to-reporters-at-the-fifa-world-cup-drawing-12525
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+Title: "TRANSCRIPT: President Trump Speaks to Reporters at the FIFA World Cup Drawing, 12.5.25"
+
+The page contains a video link. The transcript note states: "Donald Trump walked the red carpet for 18 minutes before the FIFA event. The press pool was only engaged for about three minutes. The video and audio here have been pieced together from TV Azteca, Telemundo, SBT Media and El Destape, among other sources. Portions remain inaudible, as noted."
+
+Relevant passage 1:
+Question: We'll be doing special final American --
+
+Trump: Got to meet Ronaldo the other day into the White House. He was fantastic. He was a handsome guy and a great guy and his son Barron met him and they had a big conversation. My son loves soccer and football, as you know. But Ronaldo is great. He's a great guy. He's got the whole package. He's a great player. Thank you very much.
+
+Question: Thanks.
+
+Note: [Audio gap due to distance and lack of available alternative sources]
+
+Relevant passage 2:
+Trump: Messi? Oh, he's great. And Ronaldo's great. I, I met Ronaldo the other day at the White House and he was fantastic. My son, Barron, and they talked about soccer and, or football, depending on your definition. But, uh, Ronaldo was here, and he's a fantastic guy. Thank you.
+
+Question: [Inaudible]
+
+Trump: Yeah.
+
+Question: [Laughs]
+
+Trump: We're gonna do well. USA's good.
+
+Question: Thank you very much.
+
+Note: [Audio gap due to distance and lack of available alternative sources]
+
+Capture limitations: This is a transcript page rather than the underlying video file. The page itself discloses audio gaps and that the audio/video were assembled from several media sources.
+
+[plaintiff] PX-R2 Bernard ledger confirming exact dispute and livestreamed red-carpet evidence
+Source: Bernard Bulletin, "Kalshi Mention Market Dispute Bible".
+URL: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+Entry dated 12-5-25: "What will Trump say during the FIFA World Cup Draw?"
+Strike: "Ronaldo"
+Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.
+Rules: Version, Timeframe
+Result: N
+Last trade: Y $.10
+
+Nearby captured context on market-boundary examples:
+- A 1-14-26 entry for a UN briefing says a president concluded a speech, the event and stream continued, she called on other speakers, and the strike counted; rule category listed as Event; result Y.
+- A 12-5-25 entry for Gianni Infantino during the World Cup Draw says the term occurred in a prerecorded clip played during the event and the rules did not exclude prerecorded material; result Y.
+- A 11-22-25 Trump/Fox entry notes a clarification that previous recordings would count; rule categories Previous Recordings and Timeframe; result Y.
+
+Capture limitations: Bernard Bulletin is secondary/commentary, not the official Kalshi market page or official resolution file. It is useful for identifying the exact market, reported result, rule categories, and comparable boundary disputes, but not conclusive by itself.
+
+[plaintiff] PX-R3 AP draw event and Kennedy Center context
+Source: AP News, "Music, comedy and a whole lot of Trump. And then finally, an actual World Cup draw".
+URL: https://apnews.com/article/world-cup-draw-donald-trump-fifa-gretzky-b7b8bc3301c7055eabd959edf03ed94f
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+The article states that President Donald Trump was awarded the new FIFA peace prize on Friday at the 2026 World Cup draw, describing it as part of the spectacle that set matchups for the quadrennial soccer tournament.
+
+AP photo captions place President Donald Trump with FIFA President Gianni Infantino at the draw for the 2026 soccer World Cup at the Kennedy Center in Washington on Friday, Dec. 5, 2025. The same article captions a screen showing the final bracket at the end of the draw at the Kennedy Center, and describes performers and draw participants during the draw.
+
+Capture limitations: This AP article provides event and venue context, not a transcript of the red-carpet remarks and not the Kalshi market rules.
+
+[defendant] DX-S1 Transcript timing: red carpet before the FIFA event
+Source: Senate Democratic Caucus, "TRANSCRIPT: President Trump Speaks to Reporters at the FIFA World Cup Drawing, 12.5.25".
+URL: https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-to-reporters-at-the-fifa-world-cup-drawing-12525
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+Title: "TRANSCRIPT: President Trump Speaks to Reporters at the FIFA World Cup Drawing, 12.5.25"
+
+The page contains a video link. The transcript note states: "Donald Trump walked the red carpet for 18 minutes before the FIFA event. The press pool was only engaged for about three minutes. The video and audio here have been pieced together from TV Azteca, Telemundo, SBT Media and El Destape, among other sources. Portions remain inaudible, as noted."
+
+Relevant passage 1:
+Question: We'll be doing special final American --
+
+Trump: Got to meet Ronaldo the other day into the White House. He was fantastic. He was a handsome guy and a great guy and his son Barron met him and they had a big conversation. My son loves soccer and football, as you know. But Ronaldo is great. He's a great guy. He's got the whole package. He's a great player. Thank you very much.
+
+Question: Thanks.
+
+Note: [Audio gap due to distance and lack of available alternative sources]
+
+Relevant passage 2:
+Trump: Messi? Oh, he's great. And Ronaldo's great. I, I met Ronaldo the other day at the White House and he was fantastic. My son, Barron, and they talked about soccer and, or football, depending on your definition. But, uh, Ronaldo was here, and he's a fantastic guy. Thank you.
+
+Question: [Inaudible]
+
+Trump: Yeah.
+
+Question: [Laughs]
+
+Trump: We're gonna do well. USA's good.
+
+Question: Thank you very much.
+
+Note: [Audio gap due to distance and lack of available alternative sources]
+
+Capture limitations: This is a transcript page rather than the underlying video file. The page itself discloses audio gaps and that the audio/video were assembled from several media sources.
+
+[defendant] DX-S2 Ledger: prior to programme, Version/Timeframe, result N
+Source: Bernard Bulletin, "Kalshi Mention Market Dispute Bible".
+URL: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible
+Retrieved: 2026-06-29T19:11:25Z
+
+Captured relevant page text:
+
+Entry dated 12-5-25: "What will Trump say during the FIFA World Cup Draw?"
+Strike: "Ronaldo"
+Evidence: Trump said the strike to the press on the red carpet prior to the start of the programme. This was livestreamed.
+Rules: Version, Timeframe
+Result: N
+Last trade: Y $.10
+
+Nearby captured context on market-boundary examples:
+- A 1-14-26 entry for a UN briefing says a president concluded a speech, the event and stream continued, she called on other speakers, and the strike counted; rule category listed as Event; result Y.
+- A 12-5-25 entry for Gianni Infantino during the World Cup Draw says the term occurred in a prerecorded clip played during the event and the rules did not exclude prerecorded material; result Y.
+- A 11-22-25 Trump/Fox entry notes a clarification that previous recordings would count; rule categories Previous Recordings and Timeframe; result Y.
+
+Capture limitations: Bernard Bulletin is secondary/commentary, not the official Kalshi market page or official resolution file. It is useful for identifying the exact market, reported result, rule categories, and comparable boundary disputes, but not conclusive by itself.
+
+[defendant] DX-S3 Formal program transcript apparently lacks Ronaldo
+The draft complaint states that the formal draw-program transcript does not appear to contain the word "Ronaldo."
+
+This file provides the starting point in the example record on the formal-program side of the dispute.  It does not claim to be the full formal-program transcript.
+
+
+Submitted evidence:
+[plaintiff arguments] Senate Democratic Caucus transcript: Trump speaks to reporters at FIFA World Cup Drawing, 12.5.25 (ev_6ed0ce37445b_submitted-evidence-01-plaintiff-6ed0ce37445b)
+Source: https://www.democrats.senate.gov/newsroom/trump-transcripts/transcript-president-trump-speaks-to-reporters-at-the-fifa-world-cup-drawing-12525
+SHA-256: `6ed0ce37445b2b8b211c450085d438ed9fd3f56af1882c50569329656e597c2b`
+Bytes: 1990
+Relevance: Primary/faithful transcript source for the disputed Ronaldo remarks and timing context before the FIFA event.
+
+[plaintiff arguments] AP News: World Cup draw event context at Kennedy Center (ev_87077c188322_submitted-evidence-02-plaintiff-87077c188322)
+Source: https://apnews.com/article/world-cup-draw-donald-trump-fifa-gretzky-b7b8bc3301c7055eabd959edf03ed94f
+SHA-256: `87077c1883229f9ca8ac7b7543ce1dd3d578cc3d029b77790f9f6980ce5eef31`
+Bytes: 996
+Relevance: Corroborates that the FIFA World Cup draw was an event at the Kennedy Center involving Trump, and gives event context for whether associated venue remarks were part of the draw setting.
+
+[plaintiff arguments] Bernard Bulletin dispute ledger entry for Kalshi Trump FIFA World Cup Draw Ronaldo market (ev_5d340a46bd86_submitted-evidence-03-plaintiff-5d340a46bd86)
+Source: https://bernardbulletin.substack.com/p/kalshi-mention-market-dispute-bible
+SHA-256: `5d340a46bd86cf4775320f7cf85eb74ee31f951f0eeabaebe196824e2e8918fc`
+Bytes: 1352
+Relevance: Secondary source identifying the exact Kalshi market dispute, reported evidence, rules categories, result, and last trade; useful for market-boundary/adverse context.
+
+Technical reports:
+[plaintiff] Plaintiff source-search ledger
+Searched exact market title plus Ronaldo; exact phrases including "Ronaldo is great" and "Got to meet Ronaldo"; and source targets identified by the upstream packet notes, including transcript, market-page, and dispute-ledger sources. Submitted three accepted captures: Senate transcript for remarks and timing, AP News for event setting, and Bernard Bulletin for exact Kalshi dispute/adverse result context. Could not capture the official Kalshi market rules or raw video in this phase; therefore the argument does not claim an admitted rule beyond the market wording in the case packet and the submitted secondary ledger.
+
+[defendant] Defendant source-search ledger
+Checked the updated AAR evidence list and read all three new plaintiff evidence files. Searched for official Kalshi rule/market material using exact market title, Ronaldo, FIFA World Cup Draw, and Version/Timeframe terms. Opened an accessible Kalshi page surfaced by search; it exposed generic page content and no official market rules. Queried the public Kalshi markets API with broad and exact title searches; results returned unrelated active World Cup sports markets rather than the past mention-market rule record. No new defense source was submitted because no reliable official market-rule source was captured. The remaining material gap is the official Kalshi market page/rules/resolution rationale.
+
+Call submit_council_vote with vote=demonstrated or vote=not_demonstrated.
+Keep the rationale brief: no more than three sentences.
+
+Council API instructions:
+You are a council member. Decide the proposition from the admitted record.
+You may examine admitted evidence through read-only tools when exact bytes, metadata, or exhibit contents matter.
+Do not search the web, introduce new facts, create new evidence, or upload evidence.
+When ready, call submit_council_vote exactly once with vote=demonstrated or vote=not_demonstrated and a concise rationale.

@@ -1,0 +1,15 @@
+Official Iran AIS/AIM source check, retrieved 2026-06-30.
+
+Source 1: https://ais.airport.ir/ (AIS - Home)
+Accessible page text says: "Welcome to the Iran Aeronautical Information Management (AIM) Website" and describes Iran AIM as "under the authority of I.R CAA" and "the service provider of aeronautical data and information for the safe, regular, and efficient conduct of air navigation within Tehran FIR." It also states that key elements include "AIP, AIP AMDT, AIP SUP, AIC, and a list of valid NOTAM according to the applicable ICAO regulations." The navigation includes "List of valid NOTAM(A and B Series)" and "Airspace Safety and Security Warning" links.
+
+Source 2: https://ais.airport.ir/85 (AIS - List of valid NOTAM(A and B Series))
+Accessible page text shows: "List of valid NOTAM"; "Last Updated 6/29/26 2:43 PM"; "2 Documents"; documents named "SUMMARY_A_29 JUN 2026.pdf" and "SUMMARY_B_29 JUN 2026.pdf." The accessible HTML does not list A1010/26 directly.
+
+Source 3: https://ais.airport.ir/134 (AIS - A1102/26)
+Accessible page text shows current official safety warning A1102/26: "A1102/26 NOTAMN"; "Q)OIIX/QAFXX/E/000/999/"; "A)OIIX B)2606020647 C)2607021000EST"; "AIRSPACE SAFETY AND SECURITY WARNING ISSUED BY IRAN CAA"; warning of hazardous situation over high seas and elevated risks including misidentification of civil aircraft, sudden airspace restrictions or rerouting, GNSS/GPS interference, increased military interceptions, short notice air route closures, and instructions for Iranian operators to exercise extreme caution. This page is a June 2026 warning, not the alleged May 22-25 A1010/26 closure.
+
+Source 4: https://ais.airport.ir/127 (AIS - A1003/26)
+Accessible page text shows A1003/26 NOTAMR A0625/26, Q)OIIX/QGAAU/I/NBO/A/000/175/, A)OIAW B)2605200458 C)2608182030EST, concerning GPS unreliability within Ahwaz CTR. This is not the alleged A1010/26 closure.
+
+Search-result check: available web search queries `site:ais.airport.ir A1010/26`, `site:ais.airport.ir/ "A1010/26" "OIIX"`, and `site:airport.ir "A1010/26" "OIIX"` returned no results. This negative result is only a source-chain/capture limitation and does not establish that an expired May 2026 NOTAM never existed.

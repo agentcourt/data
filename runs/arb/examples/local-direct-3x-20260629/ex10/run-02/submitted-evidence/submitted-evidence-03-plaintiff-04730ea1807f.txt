@@ -1,0 +1,46 @@
+Source URL: https://docs.polymarket.com/changelog
+Retrieved: 2026-06-30T08:09:35Z
+Source: Official Polymarket Documentation (docs.polymarket.com)
+
+Relevant captured page text:
+
+# Polymarket Changelog
+
+Welcome to the Polymarket Changelog. Here you will find any important changes to Polymarket, including but not limited to CLOB, API, UI and Mobile Applications.
+
+Apr 28, 2026
+
+CLOB V2 is live on production
+
+Polymarket’s CLOB V2 upgrade is live on https://clob.polymarket.com.
+- Production URL unchanged: V2 now runs on the standard CLOB host. New integrations should use https://clob.polymarket.com.
+- No V1 compatibility: Legacy V1 SDKs and V1-signed orders are no longer supported on production.
+- Open orders wiped: Resting orders from before the cutover did not migrate and must be re-created with V2 signing.
+- Migration guide: See Migrating to CLOB V2 for the SDK, raw order signing, pUSD, and builder attribution changes.
+
+Apr 17, 2026
+
+CLOB V2: upgrades go live April 28 at ~11:00 UTC, with ~1 hour of downtime
+
+Polymarket is shipping a coordinated upgrade: new Exchange contracts, a rewritten CLOB backend, and a new collateral token (pUSD). Exchange upgrades go live April 28, 2026 at ~11:00 UTC with ~1 hour of downtime. All integrations must migrate to the V2 SDK before the cutover — there will be no backward compatibility after go-live. Full walkthrough: Migrating to CLOB V2.
+
+Follow Discord, Telegram, and status.polymarket.com for the exact start time. Historical pre-cutover note: before go-live, integrations could test against https://clob-v2.polymarket.com. As of April 28, V2 runs on https://clob.polymarket.com.
+
+What’s changing
+- New Exchange contracts (CTF Exchange V2 + Neg Risk CTF Exchange V2)
+- pUSD replaces USDC.e as the collateral token (standard ERC-20 on Polygon, backed by USDC, backing enforced onchain)
+- Order struct: nonce, feeRateBps, taker removed — timestamp (ms), metadata, builder added
+- Fees are now set at match time — no more feeRateBps on orders
+- Builder attribution is native via builderCode on orders (no more builder-signing-sdk)
+- EIP-712 Exchange domain version bumps from "1" to "2" (ClobAuth stays at "1")
+
+What you need to do
+- Install the V2 SDK and remove the legacy clob-client / py-clob-client packages
+- Update constructor from positional args to options object; rename chainId to chain
+- Remove feeRateBps, nonce, and taker from your order creation code
+- If you sign orders without the SDK, update the verifyingContract and the signed Order fields
+- Plan for all open orders to be wiped at cutover
+
+During the window: Trading will be paused for ~1 hour on April 28 starting around 11:00 UTC.
+
+Capture note: This is a focused text extraction of the visible rendered official documentation page, not a server-dated publication-history capture.

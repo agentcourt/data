@@ -1,0 +1,18 @@
+Retrieval/extraction notes: curl -L -A 'Mozilla/5.0' fetched the Forbes page. Grep over the HTML/Next.js payload for Clavicular/pregnant/market description terms returned the following relevant page text fragments and metadata.
+
+Source metadata:
+- Title: "Polymarket's $16M Clavicular Bet Sparks Oracle Dispute" / "'Inmates Taking The Asylum'--Polymarket's $16M Clavicular Bet"
+- Author: Boaz Sobrado
+- Publisher: Forbes Digital Assets
+- Published/modified: 2026-04-30T17:55:56-04:00
+- URL: https://www.forbes.com/sites/digital-assets/2026/04/30/inmates-taking-the-asylum-polymarkets-16m-clavicular-bet/
+- Structured metadata description: "Polymarket's $16M Clavicular pregnancy bet is testing UMA's oracle as top traders call the resolution layer 'a disinformation engine taken over by rogue traders.'"
+- Page metadata says isAccessibleForFree: False.
+
+Extracted relevant fragments from article payload:
+- The disputed market, linked as "Clavicular pregnancy in 2026?", had done $16.46 million in lifetime volume on Polymarket, including roughly $4.5 million in the past 24 hours, and Yes shares traded at 97 cents.
+- Fragment: "gotten a girl pregnant. The market's own rules state that 'pregnancy announcements that are not credible, for example jokes, will not suffice.' Other traders posting through the dispute, including @holy_mos..."
+- Fragment: "market description and the platform clarification say No. The price says Yes. The oracle, after two dispute rounds, has not closed the gap."
+- Fragment: "Clavicular pregnancy at 99.7 cents," @JexTrade posted late on April 29. "Is UMA gonna rug the whales on this next vote?"
+
+Limitations: The extraction captured snippets from Forbes's rendered/serialized article payload, not a full clean article body. It supports source-chain targeting and shows Forbes's characterization, but it does not itself preserve the original Clavicular stream, VOD, or transcript.

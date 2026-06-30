@@ -1,0 +1,13 @@
+Source: Official White House video page.
+URL: https://www.whitehouse.gov/videos/president-trump-attends-the-fifa-world-cup-drawing/
+Retrieval timestamp: 2026-06-29T21:18:00Z.
+Local capture: /aar-codex/sources/whitehouse-video.html
+Local capture size: 239565 bytes.
+Local capture sha256: 0ad07b7fcb36510043a0634436628c05e934a20407a49881ee9cf1c6625be6c1.
+
+Rendered page text extract:
+Title: President Trump Attends the FIFA World Cup Drawing
+Date: December 5, 2025
+Explore More Videos section includes: FIFA World Cup 2026 Draw at The Kennedy Center, dated December 6, 2025; FIFA World Cup Drawing Announced to Take Place at The Kennedy Center, dated August 23, 2025; FIFA World Cup Trophy: "FOR WINNERS", dated August 22, 2025; President Trump on the 2026 FIFA World Cup, dated May 6, 2025.
+
+Limitations: The captured page text identifies an official White House video page and date, but the web extraction did not provide a full embedded video transcript or downloadable media file. It is submitted for official publication/event context, not as the primary proof of the exact Ronaldo utterance. The primary transcript proof is the submitted GovInfo transcript extract.

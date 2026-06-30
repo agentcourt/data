@@ -1,0 +1,11 @@
+Source: Ukrainska Pravda. Title in page metadata: Ukrainian ombudsman says 1,000-for-1,000 prisoner exchange stalled because of Russia's stance. Author: Tetyana Oliynyk. Published: 2026-05-12T23:43:00+03:00. URL: https://www.pravda.com.ua/eng/news/2026/05/12/8034416/
+
+Extracted facts from metadata and JSON-LD articleBody:
+- Dmytro Lubinets, Ukraine's Parliamentary Commissioner for Human Rights, said Ukraine had submitted lists for the planned prisoner exchange and that Russia was delaying the process.
+- The article quotes Lubinets as saying that even when an agreement is reached with Russia, Ukraine can never be 100% sure Russia will honor it, but work and negotiations continued every day.
+- Background section reports that on 8 May, U.S. President Donald Trump announced a three-day ceasefire in the war between Ukraine and Russia.
+- Background section reports that President Volodymyr Zelenskyy said a 1,000-for-1,000 prisoner swap would take place on 9 May and confirmed the U.S. president's announcement regarding a ceasefire with Russia on 9-11 May.
+- Background section reports that Ukraine officially granted Russia permission to hold its Victory Day parade as part of the ceasefire arrangements.
+- Background section reports that Russia also agreed to support Trump's ceasefire initiative for 9-11 May and the prisoner exchange.
+
+Source-chain notes: This is Ukrainian media reporting, not the direct presidential decree or direct Zelenskyy social post. It is useful as Ukraine-side corroboration and for adverse context: post-period implementation of the prisoner swap was disputed, and Ukraine expressed skepticism about Russian performance.

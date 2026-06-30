@@ -1,0 +1,2337 @@
+{
+  "case_id": "arb-ex04-20260629223747",
+  "run_id": "run-arb-ex04-20260629223747",
+  "started_at": "2026-06-29T22:37:47Z",
+  "finished_at": "2026-06-29T22:58:37Z",
+  "status": "ok",
+  "phase": "closed",
+  "resolution": "demonstrated",
+  "complaint": {
+    "Proposition": "Israel invaded Syria in 2024.  In particular, Israel commenced a\nmilitary offensive intended to establish control over any portion of\nSyria between September 12, 2024 and December 31, 2024, 11:59 PM\nET. For the purposes of this market, the Golan Heights count as\nIsraeli territory.  The authorities for this proposition are official\nconfirmation by Syria, Israel, the United Nations, or any permanent\nmember of the UN Security Council, however a consensus of credible\nreporting will also be used."
+  },
+  "evidence_standard": "Preponderance of the evidence.",
+  "council_backend": "councilapi",
+  "attorneys": [
+    {
+      "role": "plaintiff",
+      "interface": "lawyerapi"
+    },
+    {
+      "role": "defendant",
+      "interface": "lawyerapi"
+    }
+  ],
+  "case_files": [
+    {
+      "evidence_id": "ev_54607018b65c_market-rules",
+      "name": "market-rules.md",
+      "mime_type": "text/markdown",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_87a2be06b06f_submitted-evidence-01-plaintiff-87a2be06b06f",
+      "name": "submitted-evidence-01-plaintiff-87a2be06b06f.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_96725428f566_submitted-evidence-02-plaintiff-96725428f566",
+      "name": "submitted-evidence-02-plaintiff-96725428f566.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_26cf1a5ab33e_submitted-evidence-03-plaintiff-26cf1a5ab33e",
+      "name": "submitted-evidence-03-plaintiff-26cf1a5ab33e.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_2aa6c6bb7f84_submitted-evidence-04-plaintiff-2aa6c6bb7f84",
+      "name": "submitted-evidence-04-plaintiff-2aa6c6bb7f84.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+      "name": "submitted-evidence-05-defendant-9ac4fbc4020a.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    }
+  ],
+  "submitted_evidence": [
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_87a2be06b06f_submitted-evidence-01-plaintiff-87a2be06b06f",
+      "name": "submitted-evidence-01-plaintiff-87a2be06b06f.txt",
+      "title": "PMO Dec. 17, 2024 Mount Hermon statement, accessible mirror excerpt",
+      "source_url": "https://www.globalsecurity.org/wmd/library/news/syria/2024/syria-241217-israel-pm01.htm",
+      "source_description": "Accessible GlobalSecurity.org mirror identifying source as Israel Prime Minister's Office, Events and Speeches, 37th Government, 17.12.2024; official gov.il source was also located at https://www.gov.il/en/pages/event-hermon171224 but direct curl was Cloudflare-blocked.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-29T22:45:00Z",
+      "relevance": "Official-source content for Netanyahu's Dec. 17, 2024 Mount Hermon visit and IDF continued deployment decision; supports control-intent element.",
+      "sha256": "87a2be06b06fc76710dd9336bdc0cfce985794060222985d955feb28dfe34ec4",
+      "size_bytes": 1971
+    },
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_96725428f566_submitted-evidence-02-plaintiff-96725428f566",
+      "name": "submitted-evidence-02-plaintiff-96725428f566.txt",
+      "title": "Times of Israel Dec. 9, 2024 IDF deployment in Syria excerpt",
+      "source_url": "https://www.timesofisrael.com/idf-troops-will-stay-in-syria-buffer-zone-and-strategic-mount-hermon-as-long-as-needed/",
+      "source_description": "Times of Israel article by Emanuel Fabian, published 9 December 2024, opened and captured via web tool lines 104-184.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-29T22:45:30Z",
+      "relevance": "Credible reporting corroborating Israeli forces captured Syrian side of Mount Hermon/buffer zone, date, location, and Israeli official explanations including takeover language.",
+      "sha256": "96725428f566b964f4a1aa288143db8e6502368786eb808a7e9602803209751e",
+      "size_bytes": 2732
+    },
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_26cf1a5ab33e_submitted-evidence-03-plaintiff-26cf1a5ab33e",
+      "name": "submitted-evidence-03-plaintiff-26cf1a5ab33e.txt",
+      "title": "UNDOF mandate and 1974 Israel-Syria disengagement framework excerpt",
+      "source_url": "https://undof.unmissions.org/en/undof-mandate",
+      "source_description": "UN Disengagement Observer Force mandate page located by web search; direct curl returned CloudFront 403, so captured search/open text and corroborating UN Peacekeeping/Peacemaker snippets are preserved.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-29T22:46:00Z",
+      "relevance": "UN framework showing the Israel-Syria ceasefire/disengagement area is supervised under the 1974 agreement, supporting that the buffer zone is between Israel and Syria rather than ordinary Israeli territory.",
+      "sha256": "26cf1a5ab33eda16e89f5fe06727f7b5782509288b64c270c0cc818fdbceb3d9",
+      "size_bytes": 1396
+    },
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_2aa6c6bb7f84_submitted-evidence-04-plaintiff-2aa6c6bb7f84",
+      "name": "submitted-evidence-04-plaintiff-2aa6c6bb7f84.txt",
+      "title": "Associated Press Dec. 17, 2024 Syria buffer zone report excerpt",
+      "source_url": "https://apnews.com/article/syria-war-assad-israel-news-17-december-2024-4d7f0b35e08d5e853c776193272fb2d6",
+      "source_description": "Associated Press article located through web search; relevant text captured from search/open result for Dec. 17, 2024 report.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-29T22:48:00Z",
+      "relevance": "Independent credible reporting corroborating Netanyahu's statement, Israeli seizure of a buffer zone inside Syria, and Mount Hermon location inside Syria about 10 km from Israeli-held Golan Heights.",
+      "sha256": "2aa6c6bb7f84ce5cac11fb97a9beb4088bd9846ca54ce8b2ba032704020f986f",
+      "size_bytes": 1517
+    },
+    {
+      "phase": "arguments",
+      "role": "defendant",
+      "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+      "name": "submitted-evidence-05-defendant-9ac4fbc4020a.txt",
+      "title": "CRS Syria report excerpt on Israel's limited temporary UNDOF-zone measures",
+      "source_url": "https://www.everycrsreport.com/reports/RL33487.html",
+      "source_description": "EveryCRSReport republication of Congressional Research Service report RL33487, Syria: Transition and U.S. Policy, updated February 26, 2026; relevant lines 389-396 captured via web open/find. CRS summarizes Israeli entry into UNDOF buffer zone and Israel's letter to the United Nations characterizing the deployment as limited and temporary.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-29T23:00:00Z",
+      "relevance": "Supports defendant's argument that official/CRS-described Israeli position framed the deployment as limited, temporary, and security-driven rather than an offensive intended to establish territorial control, while also preserving adverse context about entry into the UNDOF zone.",
+      "sha256": "9ac4fbc4020a58d247ab9ec04d1432dd6053323afceefc005f8b6b81b5193867",
+      "size_bytes": 2781
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev_26cf1a5ab33e_submitted-evidence-03-plaintiff-26cf1a5ab33e",
+      "sha256": "26cf1a5ab33eda16e89f5fe06727f7b5782509288b64c270c0cc818fdbceb3d9",
+      "size_bytes": 1396,
+      "mime_type": "text/plain",
+      "storage_name": "26/26cf1a5ab33eda16e89f5fe06727f7b5782509288b64c270c0cc818fdbceb3d9",
+      "created_at": "2026-06-29T22:47:02Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "UNDOF mandate and 1974 Israel-Syria disengagement framework excerpt",
+      "original_name": "submitted-evidence-03-plaintiff-26cf1a5ab33e.txt",
+      "source_url": "https://undof.unmissions.org/en/undof-mandate",
+      "source_description": "UN Disengagement Observer Force mandate page located by web search; direct curl returned CloudFront 403, so captured search/open text and corroborating UN Peacekeeping/Peacemaker snippets are preserved.",
+      "retrieval_timestamp": "2026-06-29T22:46:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "UN framework showing the Israel-Syria ceasefire/disengagement area is supervised under the 1974 agreement, supporting that the buffer zone is between Israel and Syria rather than ordinary Israeli territory.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_2aa6c6bb7f84_submitted-evidence-04-plaintiff-2aa6c6bb7f84",
+      "sha256": "2aa6c6bb7f84ce5cac11fb97a9beb4088bd9846ca54ce8b2ba032704020f986f",
+      "size_bytes": 1517,
+      "mime_type": "text/plain",
+      "storage_name": "2a/2aa6c6bb7f84ce5cac11fb97a9beb4088bd9846ca54ce8b2ba032704020f986f",
+      "created_at": "2026-06-29T22:47:33Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Associated Press Dec. 17, 2024 Syria buffer zone report excerpt",
+      "original_name": "submitted-evidence-04-plaintiff-2aa6c6bb7f84.txt",
+      "source_url": "https://apnews.com/article/syria-war-assad-israel-news-17-december-2024-4d7f0b35e08d5e853c776193272fb2d6",
+      "source_description": "Associated Press article located through web search; relevant text captured from search/open result for Dec. 17, 2024 report.",
+      "retrieval_timestamp": "2026-06-29T22:48:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Independent credible reporting corroborating Netanyahu's statement, Israeli seizure of a buffer zone inside Syria, and Mount Hermon location inside Syria about 10 km from Israeli-held Golan Heights.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_54607018b65c_market-rules",
+      "sha256": "54607018b65c81f4921890ad041c7d94def6c581d10571fdc1c8100c80c5a1e6",
+      "size_bytes": 1650,
+      "mime_type": "text/markdown",
+      "storage_name": "54/54607018b65c81f4921890ad041c7d94def6c581d10571fdc1c8100c80c5a1e6",
+      "created_at": "2026-06-29T22:37:56Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "market-rules.md",
+      "original_name": "market-rules.md",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_87a2be06b06f_submitted-evidence-01-plaintiff-87a2be06b06f",
+      "sha256": "87a2be06b06fc76710dd9336bdc0cfce985794060222985d955feb28dfe34ec4",
+      "size_bytes": 1971,
+      "mime_type": "text/plain",
+      "storage_name": "87/87a2be06b06fc76710dd9336bdc0cfce985794060222985d955feb28dfe34ec4",
+      "created_at": "2026-06-29T22:46:22Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "PMO Dec. 17, 2024 Mount Hermon statement, accessible mirror excerpt",
+      "original_name": "submitted-evidence-01-plaintiff-87a2be06b06f.txt",
+      "source_url": "https://www.globalsecurity.org/wmd/library/news/syria/2024/syria-241217-israel-pm01.htm",
+      "source_description": "Accessible GlobalSecurity.org mirror identifying source as Israel Prime Minister's Office, Events and Speeches, 37th Government, 17.12.2024; official gov.il source was also located at https://www.gov.il/en/pages/event-hermon171224 but direct curl was Cloudflare-blocked.",
+      "retrieval_timestamp": "2026-06-29T22:45:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Official-source content for Netanyahu's Dec. 17, 2024 Mount Hermon visit and IDF continued deployment decision; supports control-intent element.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_96725428f566_submitted-evidence-02-plaintiff-96725428f566",
+      "sha256": "96725428f566b964f4a1aa288143db8e6502368786eb808a7e9602803209751e",
+      "size_bytes": 2732,
+      "mime_type": "text/plain",
+      "storage_name": "96/96725428f566b964f4a1aa288143db8e6502368786eb808a7e9602803209751e",
+      "created_at": "2026-06-29T22:46:45Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Times of Israel Dec. 9, 2024 IDF deployment in Syria excerpt",
+      "original_name": "submitted-evidence-02-plaintiff-96725428f566.txt",
+      "source_url": "https://www.timesofisrael.com/idf-troops-will-stay-in-syria-buffer-zone-and-strategic-mount-hermon-as-long-as-needed/",
+      "source_description": "Times of Israel article by Emanuel Fabian, published 9 December 2024, opened and captured via web tool lines 104-184.",
+      "retrieval_timestamp": "2026-06-29T22:45:30Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Credible reporting corroborating Israeli forces captured Syrian side of Mount Hermon/buffer zone, date, location, and Israeli official explanations including takeover language.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+      "sha256": "9ac4fbc4020a58d247ab9ec04d1432dd6053323afceefc005f8b6b81b5193867",
+      "size_bytes": 2781,
+      "mime_type": "text/plain",
+      "storage_name": "9a/9ac4fbc4020a58d247ab9ec04d1432dd6053323afceefc005f8b6b81b5193867",
+      "created_at": "2026-06-29T22:50:44Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "CRS Syria report excerpt on Israel's limited temporary UNDOF-zone measures",
+      "original_name": "submitted-evidence-05-defendant-9ac4fbc4020a.txt",
+      "source_url": "https://www.everycrsreport.com/reports/RL33487.html",
+      "source_description": "EveryCRSReport republication of Congressional Research Service report RL33487, Syria: Transition and U.S. Policy, updated February 26, 2026; relevant lines 389-396 captured via web open/find. CRS summarizes Israeli entry into UNDOF buffer zone and Israel's letter to the United Nations characterizing the deployment as limited and temporary.",
+      "retrieval_timestamp": "2026-06-29T23:00:00Z",
+      "submitted_by_role": "defendant",
+      "submitted_phase": "arguments",
+      "relevance": "Supports defendant's argument that official/CRS-described Israeli position framed the deployment as limited, temporary, and security-driven rather than an offensive intended to establish territorial control, while also preserving adverse context about entry into the UNDOF zone.",
+      "text_readable": true
+    }
+  ],
+  "council": [
+    {
+      "member_id": "C1",
+      "model": "openrouter://mistralai/mistral-medium-3-5",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "mistralai/mistral-medium-3-5",
+        "provider": {
+          "only": [
+            "mistral"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "mistral",
+          "endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+            "endpoint_model_id": "mistralai/mistral-medium-3-5",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "file",
+              "image",
+              "text"
+            ],
+            "openrouter_model_id": "mistralai/mistral-medium-3-5",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+              "clusters": [
+                3,
+                0,
+                3,
+                0
+              ],
+              "context_length": 262144,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Mistral | mistralai/mistral-medium-3.5-20260430",
+              "endpoint_tag": "mistral",
+              "endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": null,
+              "latency_last_30m": {
+                "p50": 273,
+                "p75": 346,
+                "p90": 587.0999999999995,
+                "p99": 2828
+              },
+              "max_completion_tokens": null,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "mistralai/mistral-medium-3-5",
+              "pricing_completion": "0.0000075",
+              "pricing_prompt": "0.0000015",
+              "provider_error_count": null,
+              "provider_name": "Mistral",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 14,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 99.97317902331413,
+              "uptime_last_30m": 100
+            }
+          ],
+          "openrouter_model_id": "mistralai/mistral-medium-3-5",
+          "provider_name": "Mistral",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+          "representative_source_row": 14
+        }
+      }
+    },
+    {
+      "member_id": "C2",
+      "model": "openrouter://qwen/qwen3.5-plus-02-15",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "qwen/qwen3.5-plus-02-15",
+        "provider": {
+          "only": [
+            "alibaba"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "alibaba",
+          "endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "qwen/qwen3.5-plus-20260216",
+            "endpoint_model_id": "qwen/qwen3.5-plus-02-15",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "image",
+              "text",
+              "video"
+            ],
+            "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "qwen/qwen3.5-plus-20260216",
+              "clusters": [
+                3,
+                0,
+                5,
+                8
+              ],
+              "context_length": 1000000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Alibaba | qwen/qwen3.5-plus-20260216",
+              "endpoint_tag": "alibaba",
+              "endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "",
+              "latency_last_30m": {
+                "p50": 1787,
+                "p75": 3306.75,
+                "p90": 4667.2,
+                "p99": 36247.61000000025
+              },
+              "max_completion_tokens": 65536,
+              "max_prompt_tokens": 983616,
+              "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+              "pricing_completion": "0.00000156",
+              "pricing_prompt": "0.00000026",
+              "provider_error_count": null,
+              "provider_name": "Alibaba",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 27,
+              "supported_parameters": [
+                "include_reasoning",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "response_format",
+                "seed",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 100,
+              "uptime_last_30m": 100
+            }
+          ],
+          "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+          "provider_name": "Alibaba",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+          "representative_source_row": 27
+        }
+      }
+    },
+    {
+      "member_id": "C3",
+      "model": "openrouter://relace/relace-search",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "relace/relace-search",
+        "provider": {
+          "only": [
+            "relace/bf16"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "bf16"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "relace/bf16",
+          "endpoint_variant_id": "d099efa1928a65f706e3793e",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "relace/relace-search-20251208",
+            "endpoint_model_id": "relace/relace-search",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "relace/relace-search",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "bf16"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "relace/relace-search-20251208",
+              "clusters": [
+                4,
+                0,
+                4,
+                9
+              ],
+              "context_length": 256000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Relace | relace/relace-search-20251208",
+              "endpoint_tag": "relace/bf16",
+              "endpoint_variant_id": "d099efa1928a65f706e3793e",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": null,
+              "latency_last_30m": {
+                "p50": 743,
+                "p75": 952,
+                "p90": 1332.8000000000002,
+                "p99": 2295.639999999999
+              },
+              "max_completion_tokens": 128000,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "relace/relace-search",
+              "pricing_completion": "0.000003",
+              "pricing_prompt": "0.000001",
+              "provider_error_count": null,
+              "provider_name": "Relace",
+              "quantization": "bf16",
+              "schema_violation_count": null,
+              "source_row": 28,
+              "supported_parameters": [
+                "max_tokens",
+                "response_format",
+                "seed",
+                "stop",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 100,
+              "uptime_last_30m": null
+            }
+          ],
+          "openrouter_model_id": "relace/relace-search",
+          "provider_name": "Relace",
+          "quantization": "bf16",
+          "representative_endpoint_variant_id": "d099efa1928a65f706e3793e",
+          "representative_source_row": 28
+        }
+      }
+    },
+    {
+      "member_id": "C4",
+      "model": "openrouter://openai/gpt-oss-120b",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "openai/gpt-oss-120b",
+        "provider": {
+          "only": [
+            "wandb/fp4"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "fp4"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "wandb/fp4",
+          "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+          "equivalence_class_size": 4,
+          "equivalence_key": {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "endpoint_model_id": "openai/gpt-oss-120b",
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "fp4"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                5,
+                2,
+                7,
+                6
+              ],
+              "context_length": 128072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "BaseTen | openai/gpt-oss-120b",
+              "endpoint_tag": "baseten/fp4",
+              "endpoint_variant_id": "5b8fd962e720704511d858ef",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 337,
+                "p75": 507.75,
+                "p90": 870,
+                "p99": 2469.339999999993
+              },
+              "max_completion_tokens": 128072,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.0000005",
+              "pricing_prompt": "0.0000001",
+              "provider_error_count": null,
+              "provider_name": "BaseTen",
+              "quantization": "fp4",
+              "schema_violation_count": null,
+              "source_row": 11,
+              "supported_parameters": [
+                "include_reasoning",
+                "max_tokens",
+                "reasoning",
+                "response_format",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 99.99066484942402,
+              "uptime_last_30m": 100
+            },
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                1,
+                2,
+                0,
+                0
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Novita | openai/gpt-oss-120b",
+              "endpoint_tag": "novita/fp4",
+              "endpoint_variant_id": "91f0716b29daa0efa735024a",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 680,
+                "p75": 843,
+                "p90": 1115,
+                "p99": 25671.150000000307
+              },
+              "max_completion_tokens": 32768,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.00000025",
+              "pricing_prompt": "0.00000005",
+              "provider_error_count": null,
+              "provider_name": "Novita",
+              "quantization": "fp4",
+              "schema_violation_count": null,
+              "source_row": 19,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "logprobs",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_logprobs",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 98.46333610739835,
+              "uptime_last_30m": 99.80074010816966
+            },
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                1,
+                2,
+                0,
+                6
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Nebius | openai/gpt-oss-120b",
+              "endpoint_tag": "nebius/fp4",
+              "endpoint_variant_id": "9a61c3f69299805820171815",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 337,
+                "p75": 536,
+                "p90": 1034,
+                "p99": 4111.260000000002
+              },
+              "max_completion_tokens": null,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.0000006",
+              "pricing_prompt": "0.00000015",
+              "provider_error_count": null,
+              "provider_name": "Nebius",
+              "quantization": "fp4",
+              "schema_violation_count": null,
+              "source_row": 21,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 96.44624358589685,
+              "uptime_last_30m": 100
+            },
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                5,
+                2,
+                0,
+                6
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "WandB | openai/gpt-oss-120b",
+              "endpoint_tag": "wandb/fp4",
+              "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 356,
+                "p75": 518,
+                "p90": 1059.800000000001,
+                "p99": 6987.450000000001
+              },
+              "max_completion_tokens": 131072,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.00000014",
+              "pricing_prompt": "0.00000004",
+              "provider_error_count": null,
+              "provider_name": "WandB",
+              "quantization": "fp4",
+              "schema_violation_count": null,
+              "source_row": 29,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "logprobs",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_logprobs",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 94.75717062587358,
+              "uptime_last_30m": 99.58315769753173
+            }
+          ],
+          "openrouter_model_id": "openai/gpt-oss-120b",
+          "provider_name": "WandB",
+          "quantization": "fp4",
+          "representative_endpoint_variant_id": "d5742e9c2e50f2724df63028",
+          "representative_source_row": 29
+        }
+      }
+    },
+    {
+      "member_id": "C5",
+      "model": "openrouter://x-ai/grok-4.20-multi-agent",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "x-ai/grok-4.20-multi-agent",
+        "provider": {
+          "only": [
+            "xai"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "xai",
+          "endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
+            "endpoint_model_id": "x-ai/grok-4.20-multi-agent",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "file",
+              "image",
+              "text"
+            ],
+            "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
+              "clusters": [
+                6,
+                2,
+                5,
+                4
+              ],
+              "context_length": 2000000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "xAI | x-ai/grok-4.20-multi-agent-20260309",
+              "endpoint_tag": "xai",
+              "endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "",
+              "latency_last_30m": {
+                "p50": 27274,
+                "p75": 31651,
+                "p90": 34890,
+                "p99": 41217.87999999997
+              },
+              "max_completion_tokens": null,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+              "pricing_completion": "0.0000025",
+              "pricing_prompt": "0.00000125",
+              "provider_error_count": null,
+              "provider_name": "xAI",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 32,
+              "supported_parameters": [
+                "include_reasoning",
+                "logprobs",
+                "max_tokens",
+                "reasoning",
+                "response_format",
+                "seed",
+                "structured_outputs",
+                "temperature",
+                "top_logprobs",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 100,
+              "uptime_last_30m": 100
+            }
+          ],
+          "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+          "provider_name": "xAI",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+          "representative_source_row": 32
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": "2026-06-29T22:37:56.617Z",
+      "turn": 0,
+      "role": "system",
+      "phase": "openings",
+      "type": "run_initialized",
+      "payload": {
+        "attorneys": [
+          {
+            "role": "plaintiff",
+            "interface": "lawyerapi"
+          },
+          {
+            "role": "defendant",
+            "interface": "lawyerapi"
+          }
+        ],
+        "complaint": {
+          "Proposition": "Israel invaded Syria in 2024.  In particular, Israel commenced a\nmilitary offensive intended to establish control over any portion of\nSyria between September 12, 2024 and December 31, 2024, 11:59 PM\nET. For the purposes of this market, the Golan Heights count as\nIsraeli territory.  The authorities for this proposition are official\nconfirmation by Syria, Israel, the United Nations, or any permanent\nmember of the UN Security Council, however a consensus of credible\nreporting will also be used."
+        },
+        "council": [
+          {
+            "member_id": "C1",
+            "model": "openrouter://mistralai/mistral-medium-3-5",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "mistralai/mistral-medium-3-5",
+              "provider": {
+                "only": [
+                  "mistral"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "mistral",
+                "endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+                  "endpoint_model_id": "mistralai/mistral-medium-3-5",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "file",
+                    "image",
+                    "text"
+                  ],
+                  "openrouter_model_id": "mistralai/mistral-medium-3-5",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+                    "clusters": [
+                      3,
+                      0,
+                      3,
+                      0
+                    ],
+                    "context_length": 262144,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Mistral | mistralai/mistral-medium-3.5-20260430",
+                    "endpoint_tag": "mistral",
+                    "endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": null,
+                    "latency_last_30m": {
+                      "p50": 273,
+                      "p75": 346,
+                      "p90": 587.0999999999995,
+                      "p99": 2828
+                    },
+                    "max_completion_tokens": null,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "mistralai/mistral-medium-3-5",
+                    "pricing_completion": "0.0000075",
+                    "pricing_prompt": "0.0000015",
+                    "provider_error_count": null,
+                    "provider_name": "Mistral",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 14,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 99.97317902331413,
+                    "uptime_last_30m": 100
+                  }
+                ],
+                "openrouter_model_id": "mistralai/mistral-medium-3-5",
+                "provider_name": "Mistral",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+                "representative_source_row": 14
+              }
+            }
+          },
+          {
+            "member_id": "C2",
+            "model": "openrouter://qwen/qwen3.5-plus-02-15",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "qwen/qwen3.5-plus-02-15",
+              "provider": {
+                "only": [
+                  "alibaba"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "alibaba",
+                "endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "qwen/qwen3.5-plus-20260216",
+                  "endpoint_model_id": "qwen/qwen3.5-plus-02-15",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "image",
+                    "text",
+                    "video"
+                  ],
+                  "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "qwen/qwen3.5-plus-20260216",
+                    "clusters": [
+                      3,
+                      0,
+                      5,
+                      8
+                    ],
+                    "context_length": 1000000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Alibaba | qwen/qwen3.5-plus-20260216",
+                    "endpoint_tag": "alibaba",
+                    "endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "",
+                    "latency_last_30m": {
+                      "p50": 1787,
+                      "p75": 3306.75,
+                      "p90": 4667.2,
+                      "p99": 36247.61000000025
+                    },
+                    "max_completion_tokens": 65536,
+                    "max_prompt_tokens": 983616,
+                    "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+                    "pricing_completion": "0.00000156",
+                    "pricing_prompt": "0.00000026",
+                    "provider_error_count": null,
+                    "provider_name": "Alibaba",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 27,
+                    "supported_parameters": [
+                      "include_reasoning",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "response_format",
+                      "seed",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 100,
+                    "uptime_last_30m": 100
+                  }
+                ],
+                "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+                "provider_name": "Alibaba",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+                "representative_source_row": 27
+              }
+            }
+          },
+          {
+            "member_id": "C3",
+            "model": "openrouter://relace/relace-search",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "relace/relace-search",
+              "provider": {
+                "only": [
+                  "relace/bf16"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "bf16"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "relace/bf16",
+                "endpoint_variant_id": "d099efa1928a65f706e3793e",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "relace/relace-search-20251208",
+                  "endpoint_model_id": "relace/relace-search",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "relace/relace-search",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "bf16"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "relace/relace-search-20251208",
+                    "clusters": [
+                      4,
+                      0,
+                      4,
+                      9
+                    ],
+                    "context_length": 256000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Relace | relace/relace-search-20251208",
+                    "endpoint_tag": "relace/bf16",
+                    "endpoint_variant_id": "d099efa1928a65f706e3793e",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": null,
+                    "latency_last_30m": {
+                      "p50": 743,
+                      "p75": 952,
+                      "p90": 1332.8000000000002,
+                      "p99": 2295.639999999999
+                    },
+                    "max_completion_tokens": 128000,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "relace/relace-search",
+                    "pricing_completion": "0.000003",
+                    "pricing_prompt": "0.000001",
+                    "provider_error_count": null,
+                    "provider_name": "Relace",
+                    "quantization": "bf16",
+                    "schema_violation_count": null,
+                    "source_row": 28,
+                    "supported_parameters": [
+                      "max_tokens",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 100,
+                    "uptime_last_30m": null
+                  }
+                ],
+                "openrouter_model_id": "relace/relace-search",
+                "provider_name": "Relace",
+                "quantization": "bf16",
+                "representative_endpoint_variant_id": "d099efa1928a65f706e3793e",
+                "representative_source_row": 28
+              }
+            }
+          },
+          {
+            "member_id": "C4",
+            "model": "openrouter://openai/gpt-oss-120b",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "openai/gpt-oss-120b",
+              "provider": {
+                "only": [
+                  "wandb/fp4"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "fp4"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "wandb/fp4",
+                "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+                "equivalence_class_size": 4,
+                "equivalence_key": {
+                  "canonical_slug": "openai/gpt-oss-120b",
+                  "endpoint_model_id": "openai/gpt-oss-120b",
+                  "hugging_face_id": "openai/gpt-oss-120b",
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "openai/gpt-oss-120b",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "fp4"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      5,
+                      2,
+                      7,
+                      6
+                    ],
+                    "context_length": 128072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "BaseTen | openai/gpt-oss-120b",
+                    "endpoint_tag": "baseten/fp4",
+                    "endpoint_variant_id": "5b8fd962e720704511d858ef",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 337,
+                      "p75": 507.75,
+                      "p90": 870,
+                      "p99": 2469.339999999993
+                    },
+                    "max_completion_tokens": 128072,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.0000005",
+                    "pricing_prompt": "0.0000001",
+                    "provider_error_count": null,
+                    "provider_name": "BaseTen",
+                    "quantization": "fp4",
+                    "schema_violation_count": null,
+                    "source_row": 11,
+                    "supported_parameters": [
+                      "include_reasoning",
+                      "max_tokens",
+                      "reasoning",
+                      "response_format",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 99.99066484942402,
+                    "uptime_last_30m": 100
+                  },
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      1,
+                      2,
+                      0,
+                      0
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Novita | openai/gpt-oss-120b",
+                    "endpoint_tag": "novita/fp4",
+                    "endpoint_variant_id": "91f0716b29daa0efa735024a",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 680,
+                      "p75": 843,
+                      "p90": 1115,
+                      "p99": 25671.150000000307
+                    },
+                    "max_completion_tokens": 32768,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.00000025",
+                    "pricing_prompt": "0.00000005",
+                    "provider_error_count": null,
+                    "provider_name": "Novita",
+                    "quantization": "fp4",
+                    "schema_violation_count": null,
+                    "source_row": 19,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "logprobs",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_logprobs",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 98.46333610739835,
+                    "uptime_last_30m": 99.80074010816966
+                  },
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      1,
+                      2,
+                      0,
+                      6
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Nebius | openai/gpt-oss-120b",
+                    "endpoint_tag": "nebius/fp4",
+                    "endpoint_variant_id": "9a61c3f69299805820171815",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 337,
+                      "p75": 536,
+                      "p90": 1034,
+                      "p99": 4111.260000000002
+                    },
+                    "max_completion_tokens": null,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.0000006",
+                    "pricing_prompt": "0.00000015",
+                    "provider_error_count": null,
+                    "provider_name": "Nebius",
+                    "quantization": "fp4",
+                    "schema_violation_count": null,
+                    "source_row": 21,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 96.44624358589685,
+                    "uptime_last_30m": 100
+                  },
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      5,
+                      2,
+                      0,
+                      6
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "WandB | openai/gpt-oss-120b",
+                    "endpoint_tag": "wandb/fp4",
+                    "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 356,
+                      "p75": 518,
+                      "p90": 1059.800000000001,
+                      "p99": 6987.450000000001
+                    },
+                    "max_completion_tokens": 131072,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.00000014",
+                    "pricing_prompt": "0.00000004",
+                    "provider_error_count": null,
+                    "provider_name": "WandB",
+                    "quantization": "fp4",
+                    "schema_violation_count": null,
+                    "source_row": 29,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "logprobs",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_logprobs",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 94.75717062587358,
+                    "uptime_last_30m": 99.58315769753173
+                  }
+                ],
+                "openrouter_model_id": "openai/gpt-oss-120b",
+                "provider_name": "WandB",
+                "quantization": "fp4",
+                "representative_endpoint_variant_id": "d5742e9c2e50f2724df63028",
+                "representative_source_row": 29
+              }
+            }
+          },
+          {
+            "member_id": "C5",
+            "model": "openrouter://x-ai/grok-4.20-multi-agent",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "x-ai/grok-4.20-multi-agent",
+              "provider": {
+                "only": [
+                  "xai"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "xai",
+                "endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
+                  "endpoint_model_id": "x-ai/grok-4.20-multi-agent",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "file",
+                    "image",
+                    "text"
+                  ],
+                  "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
+                    "clusters": [
+                      6,
+                      2,
+                      5,
+                      4
+                    ],
+                    "context_length": 2000000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "xAI | x-ai/grok-4.20-multi-agent-20260309",
+                    "endpoint_tag": "xai",
+                    "endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "",
+                    "latency_last_30m": {
+                      "p50": 27274,
+                      "p75": 31651,
+                      "p90": 34890,
+                      "p99": 41217.87999999997
+                    },
+                    "max_completion_tokens": null,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+                    "pricing_completion": "0.0000025",
+                    "pricing_prompt": "0.00000125",
+                    "provider_error_count": null,
+                    "provider_name": "xAI",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 32,
+                    "supported_parameters": [
+                      "include_reasoning",
+                      "logprobs",
+                      "max_tokens",
+                      "reasoning",
+                      "response_format",
+                      "seed",
+                      "structured_outputs",
+                      "temperature",
+                      "top_logprobs",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 100,
+                    "uptime_last_30m": 100
+                  }
+                ],
+                "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+                "provider_name": "xAI",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+                "representative_source_row": 32
+              }
+            }
+          }
+        ],
+        "council_backend": "councilapi",
+        "council_preflight_replacements": [],
+        "evidence_standard": "Preponderance of the evidence."
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:40:27.594Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1650,
+        "evidence_id": "ev_54607018b65c_market-rules",
+        "length": 1650,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:42:27.600Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "record_opening_statement",
+        "opportunity_id": "openings:plaintiff",
+        "payload": {
+          "text": "Council members, this case is not about whether Israel annexed Syria, occupied all of Syria, or began a conventional war with Damascus. The market rule asks a narrower question: within the stated 2024 window, did Israel commence a military offensive intended to establish control over any portion of Syria? On a preponderance standard, the answer should be Yes if the evidence shows Israeli forces moved into Syrian territory, took or held positions there, and did so with an announced purpose to control those positions until Israel's security conditions were met.\n\nThe present record is limited but important. The case-packet rules, admitted as ev_54607018b65c_market-rules, define the operative test and preserve Polymarket's disputed Yes rationale. That packet says the Yes rationale rested on two linked points: first, credible reporting had already placed Israeli forces on the Syrian peak of Mount Hermon on December 8, 2024; second, on December 17, Prime Minister Netanyahu visited the Syrian side of Mount Hermon and announced that Israeli forces would remain on the peak until another arrangement guaranteed Israel's security. The packet further notes that the Syrian peak of Mount Hermon is not part of the Golan Heights. If supported by the underlying sources, those facts fit the rule: an armed entry into Syrian territory, followed by continued military presence and a stated intent to remain until a new security arrangement, is control over a portion of Syria.\n\nThe real dispute will likely be over characterization, not geography alone. The respondent may argue that Israel described the move as temporary and defensive, and therefore not an invasion or not an offensive. But the rule does not require permanence, annexation, civilian administration, or conquest of a large region. A temporary military seizure can still be an operation intended to establish control for as long as the controlling power's security conditions require. Defensive motive may explain why Israel acted; it does not negate that the action sought to take and hold positions beyond Israel's side of the line.\n\nThe decisive proof should therefore be official Israeli statements, UN/UNDOF materials on the Syria-Israel separation framework, and credible reporting that fixes the dates, location, and scope of Israeli deployment. The official-source path matters because the market rules expressly privilege official confirmation by Israel, Syria, the United Nations, or a permanent Security Council member, while also allowing a consensus of credible reporting. In the next evidentiary phase, the plaintiff expects to submit the underlying official statements and corroborating reporting rather than ask the council to rely on the packet's summary alone.\n\nFor now, the admitted packet proves the governing standard and identifies the precise theory of Yes: Israeli forces reached and held Syrian Mount Hermon during the market window, and Israel's own announced posture was to remain there until a security arrangement was found. It does not, by itself, fully prove every underlying event independent of the rationale; that is why the source chain must be completed. But it shows the dispute's center of gravity and why plaintiff's burden is realistic: the question is whether Israel established military control over any Syrian portion, and the record already points to a specific place, date range, official actor, and control-intent statement that would satisfy that test."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:43:08.281Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1650,
+        "evidence_id": "ev_54607018b65c_market-rules",
+        "length": 1650,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:44:51.891Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "record_opening_statement",
+        "opportunity_id": "openings:defendant",
+        "payload": {
+          "text": "Council members, the defendant's position begins with the market's exact words. This is not a general referendum on whether Israel acted in Syria, violated a disengagement arrangement, conducted airstrikes, or moved troops after the Assad government's collapse. The proposition resolves Yes only if Israel commenced a military offensive intended to establish control over a portion of Syria during the stated window. The Golan Heights are expressly counted as Israeli territory for this market, so location, purpose, and control intent are not side issues; they are the elements.\n\nThe current admitted record is thin. The only evidence is ev_54607018b65c_market-rules, the case-packet markdown. It proves the market question, the date range, the Golan carveout, the sources the council may use, and Polymarket's disputed Yes rationale. It does not itself authenticate the underlying Israeli statement, UN record, reporting, map, military order, geolocation, or chain of custody for the events described in the rationale. Plaintiff fairly acknowledges that the source chain must be completed. Until it is, the packet is a roadmap to a dispute, not proof that each factual element has been met.\n\nThe core dispute should be framed in three parts. First, what exact territory is at issue? The packet's rationale points to Mount Hermon and says the Syrian peak is not part of the Golan Heights. Plaintiff must prove the location actually occupied or held was outside the market's Golan carveout, and must distinguish the Golan, the 1974 area of separation or buffer zone, and any Syrian peak with reliable geography. Ambiguous references to the border, the Golan, or Mount Hermon will not be enough.\n\nSecond, what action occurred? A military presence, patrol, seizure of abandoned positions, construction of obstacles, or even a ceasefire violation is not automatically the same as commencing a military offensive. The market chose that phrase, and it requires more than showing that soldiers were somewhere controversial. The council should look for official or well-corroborated evidence of the nature, timing, scope, and purpose of any ground operation, not merely labels in commentary.\n\nThird, what intent was shown? Plaintiff's theory depends on the phrase that forces would remain until another security arrangement was found. But a temporary defensive posture pending a security arrangement can support a different inference: an emergency border-security deployment after the collapse of the neighboring regime, not an offensive intended to establish control over Syrian territory in the market sense. The defendant does not ask the council to accept that inference now as proven; we ask only that the plaintiff be held to the burden of proving the opposite with admitted evidence.\n\nThe evidence that would matter most in the next phase is predictable: official Israeli statements from the relevant dates, UN or UNDOF materials describing the area of separation and any IDF presence, reliable maps fixing the legal and geographic status of the specific peak or positions, and credible reporting only where it supplies source-level detail rather than conclusory wording. Adverse material should be considered too: if UN documents show a violation, that may prove presence or treaty breach, but it still may not prove an offensive or control intent; if Israeli statements emphasize temporary defense, that cuts against the market's required intent even if it does not erase the deployment.\n\nSo the defendant's opening is narrow but important. The current record proves the rules and a contested rationale. It does not yet prove invasion under those rules. Plaintiff must bridge the missing links with admissible source material on geography, action, and intent. If the later record shows only a temporary defensive deployment in or near a buffer zone, or leaves the non-Golan location and control intent uncertain, the proposition should resolve No."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:46:22.480Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_87a2be06b06f_submitted-evidence-01-plaintiff-87a2be06b06f",
+        "mime_type": "text/plain",
+        "relevance": "Official-source content for Netanyahu's Dec. 17, 2024 Mount Hermon visit and IDF continued deployment decision; supports control-intent element.",
+        "retrieval_timestamp": "2026-06-29T22:45:00Z",
+        "sha256": "87a2be06b06fc76710dd9336bdc0cfce985794060222985d955feb28dfe34ec4",
+        "size_bytes": 1971,
+        "source_description": "Accessible GlobalSecurity.org mirror identifying source as Israel Prime Minister's Office, Events and Speeches, 37th Government, 17.12.2024; official gov.il source was also located at https://www.gov.il/en/pages/event-hermon171224 but direct curl was Cloudflare-blocked.",
+        "source_url": "https://www.globalsecurity.org/wmd/library/news/syria/2024/syria-241217-israel-pm01.htm",
+        "title": "PMO Dec. 17, 2024 Mount Hermon statement, accessible mirror excerpt"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:46:45.463Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_96725428f566_submitted-evidence-02-plaintiff-96725428f566",
+        "mime_type": "text/plain",
+        "relevance": "Credible reporting corroborating Israeli forces captured Syrian side of Mount Hermon/buffer zone, date, location, and Israeli official explanations including takeover language.",
+        "retrieval_timestamp": "2026-06-29T22:45:30Z",
+        "sha256": "96725428f566b964f4a1aa288143db8e6502368786eb808a7e9602803209751e",
+        "size_bytes": 2732,
+        "source_description": "Times of Israel article by Emanuel Fabian, published 9 December 2024, opened and captured via web tool lines 104-184.",
+        "source_url": "https://www.timesofisrael.com/idf-troops-will-stay-in-syria-buffer-zone-and-strategic-mount-hermon-as-long-as-needed/",
+        "title": "Times of Israel Dec. 9, 2024 IDF deployment in Syria excerpt"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:47:02.635Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_26cf1a5ab33e_submitted-evidence-03-plaintiff-26cf1a5ab33e",
+        "mime_type": "text/plain",
+        "relevance": "UN framework showing the Israel-Syria ceasefire/disengagement area is supervised under the 1974 agreement, supporting that the buffer zone is between Israel and Syria rather than ordinary Israeli territory.",
+        "retrieval_timestamp": "2026-06-29T22:46:00Z",
+        "sha256": "26cf1a5ab33eda16e89f5fe06727f7b5782509288b64c270c0cc818fdbceb3d9",
+        "size_bytes": 1396,
+        "source_description": "UN Disengagement Observer Force mandate page located by web search; direct curl returned CloudFront 403, so captured search/open text and corroborating UN Peacekeeping/Peacemaker snippets are preserved.",
+        "source_url": "https://undof.unmissions.org/en/undof-mandate",
+        "title": "UNDOF mandate and 1974 Israel-Syria disengagement framework excerpt"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:47:33.766Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_2aa6c6bb7f84_submitted-evidence-04-plaintiff-2aa6c6bb7f84",
+        "mime_type": "text/plain",
+        "relevance": "Independent credible reporting corroborating Netanyahu's statement, Israeli seizure of a buffer zone inside Syria, and Mount Hermon location inside Syria about 10 km from Israeli-held Golan Heights.",
+        "retrieval_timestamp": "2026-06-29T22:48:00Z",
+        "sha256": "2aa6c6bb7f84ce5cac11fb97a9beb4088bd9846ca54ce8b2ba032704020f986f",
+        "size_bytes": 1517,
+        "source_description": "Associated Press article located through web search; relevant text captured from search/open result for Dec. 17, 2024 report.",
+        "source_url": "https://apnews.com/article/syria-war-assad-israel-news-17-december-2024-4d7f0b35e08d5e853c776193272fb2d6",
+        "title": "Associated Press Dec. 17, 2024 Syria buffer zone report excerpt"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:49:02.508Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_argument",
+        "opportunity_id": "arguments:plaintiff",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_54607018b65c_market-rules",
+              "label": "PX-1 Market rule and disputed resolution rationale"
+            },
+            {
+              "evidence_id": "ev_87a2be06b06f_submitted-evidence-01-plaintiff-87a2be06b06f",
+              "label": "PX-2 PMO Dec. 17 Mount Hermon continued-deployment statement"
+            },
+            {
+              "evidence_id": "ev_96725428f566_submitted-evidence-02-plaintiff-96725428f566",
+              "label": "PX-3 Dec. 9 report of IDF capture/deployment inside Syrian territory"
+            },
+            {
+              "evidence_id": "ev_26cf1a5ab33e_submitted-evidence-03-plaintiff-26cf1a5ab33e",
+              "label": "PX-4 UNDOF Israel-Syria disengagement framework"
+            },
+            {
+              "evidence_id": "ev_2aa6c6bb7f84_submitted-evidence-04-plaintiff-2aa6c6bb7f84",
+              "label": "PX-5 AP corroboration of Syrian buffer zone and Mount Hermon location"
+            }
+          ],
+          "technical_reports": [
+            {
+              "summary": "Plaintiff searched exact PMO phrases, gov.il event IDs, UNDOF mandate terms, and AP/Times of Israel reporting. Direct command-line retrieval of gov.il pages returned Cloudflare blocks and UNDOF returned a CloudFront 403, so plaintiff preserved an accessible PMO mirror and captured indexed UN/UNDOF excerpts with corroborating UN Peacekeeping/Peacemaker text. Times of Israel was opened directly and AP was captured from search/open text. No contrary source found that changes the key facts; the main adverse material is Israel's temporary/defensive framing, which is preserved in the submitted evidence and addressed in the argument.",
+              "title": "Source search and access ledger"
+            }
+          ],
+          "text": "Council members, the proposition is satisfied by a preponderance of the admitted record.\n\nStart with the rule. The case packet, ev_54607018b65c_market-rules, asks whether Israel commenced a military offensive intended to establish control over any portion of Syria in the window ending December 31, 2024. It does not require annexation, a declaration of war, permanent occupation, casualties, or control of a large area. It also says official confirmation by Israel or the UN, or a consensus of credible reporting, may resolve the question.\n\nThe location element is met. UNDOF evidence, ev_26cf1a5ab33e, shows that the relevant 1974 framework is a ceasefire and disengagement arrangement between Israel and Syria, with UNDOF supervising the areas of separation and limitation and observing the ceasefire line between the two countries. That matters because the later reports are not describing ordinary movement within Israel. They are describing the buffer/area-of-separation framework between Israel and Syria.\n\nThe action element is met. The Times of Israel evidence, ev_96725428f566, reports that on December 8-9, 2024 the IDF captured the Syrian side of strategic Mount Hermon and deployed to the buffer zone inside Syrian territory. It reports that the IDF's 210th Bashan Division began deploying forces to the buffer zone inside Syrian territory, including atop the Syrian side of Mount Hermon, and that this marked the first time since the 1974 agreement Israeli forces had taken up positions in the buffer zone inside Syrian territory. It also reports Defense Minister Katz ordered the IDF to complete the takeover of the buffer zone in Syria and that troops seized additional positions. That is not mere rhetoric or a stray patrol; it is an armed ground deployment to take and hold strategic positions.\n\nThe control-intent element is met. The same evidence preserves Netanyahu's statement that Israel gave the army the order to take over these positions so no hostile force would embed next to Israel's border, and that it was a temporary defensive position until a suitable arrangement was found. The official-source evidence, ev_87a2be06b06f, then shows that on December 17 Netanyahu held an assessment on the summit of Mount Hermon with defense and security chiefs, received an operational briefing, issued directives on continued IDF deployment, and said the assessment was to decide on IDF deployment in that important place until another arrangement ensured Israel's security. That is a direct statement of control: Israeli forces would remain and their deployment would be decided by Israel until Israel's security arrangement existed.\n\nIndependent corroboration confirms both geography and duration. AP evidence, ev_2aa6c6bb7f84, reports Netanyahu entered Syrian territory during a tour of the buffer zone seized by Israel after Assad's fall, said Israel would stay until a security arrangement was found, and made the comments from Mount Hermon inside Syria about 10 kilometers from the Israel-held Golan Heights. That answers defendant's geography point: the reported site was inside Syria, not simply the market-excluded Golan Heights. It also corroborates that this was a seized buffer zone and an intended continuing military presence.\n\nThe defense's best point is that Israel called the move temporary and defensive. The record supports that characterization, and plaintiff does not hide it. But it does not defeat this market. A temporary defensive takeover is still a takeover. A military force can establish control for weeks, months, or until a security arrangement is found without annexing the land. The rule asks whether Israel intended to establish control over any portion of Syria, not whether Israel intended sovereign title forever. Here, the admitted evidence uses the language of capture, takeover, deployment inside Syrian territory, seized positions, continued deployment, and staying until a security arrangement. Those are the hallmarks of military control.\n\nNor does the word \"offensive\" require a pitched battle. The admitted record describes Israeli ground forces moving into Syrian territory after Syrian soldiers abandoned positions, taking strategic ground, and fortifying or holding it to exclude hostile forces. The operation was proactive and territorial: it changed who controlled the positions. That is enough under this market's functional standard.\n\nOn provenance and weight: the official gov.il PMO page was located but direct command-line retrieval was blocked; plaintiff therefore submitted an accessible mirror that identifies the source as Israel's Prime Minister's Office and preserves the official text, and submitted AP and Times of Israel corroboration. The UNDOF direct page also had access limits, but the admitted excerpt is tied to UNDOF/UN sources and corroborates the uncontested 1974 framework. Those limitations are worth noting, but they do not create a material conflict. The evidence lines up across the case packet, an official Israeli statement as mirrored, UN framework material, and credible reporting.\n\nThe proposition should resolve Yes: between September 12 and December 31, 2024, Israel commenced a military operation that took control of at least part of Syrian territory, including the Syrian side of Mount Hermon / the Syria buffer zone, and Israeli officials said forces would remain there until Israel's security arrangement was satisfied."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:49:39.759Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1971,
+        "evidence_id": "ev_87a2be06b06f_submitted-evidence-01-plaintiff-87a2be06b06f",
+        "length": 1971,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:49:39.822Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 2732,
+        "evidence_id": "ev_96725428f566_submitted-evidence-02-plaintiff-96725428f566",
+        "length": 2732,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:49:39.875Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1396,
+        "evidence_id": "ev_26cf1a5ab33e_submitted-evidence-03-plaintiff-26cf1a5ab33e",
+        "length": 1396,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:49:40.133Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1517,
+        "evidence_id": "ev_2aa6c6bb7f84_submitted-evidence-04-plaintiff-2aa6c6bb7f84",
+        "length": 1517,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:50:44.746Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+        "mime_type": "text/plain",
+        "relevance": "Supports defendant's argument that official/CRS-described Israeli position framed the deployment as limited, temporary, and security-driven rather than an offensive intended to establish territorial control, while also preserving adverse context about entry into the UNDOF zone.",
+        "retrieval_timestamp": "2026-06-29T23:00:00Z",
+        "sha256": "9ac4fbc4020a58d247ab9ec04d1432dd6053323afceefc005f8b6b81b5193867",
+        "size_bytes": 2781,
+        "source_description": "EveryCRSReport republication of Congressional Research Service report RL33487, Syria: Transition and U.S. Policy, updated February 26, 2026; relevant lines 389-396 captured via web open/find. CRS summarizes Israeli entry into UNDOF buffer zone and Israel's letter to the United Nations characterizing the deployment as limited and temporary.",
+        "source_url": "https://www.everycrsreport.com/reports/RL33487.html",
+        "title": "CRS Syria report excerpt on Israel's limited temporary UNDOF-zone measures"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:51:57.528Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_argument",
+        "opportunity_id": "arguments:defendant",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+              "label": "DX-1 CRS report excerpt: Israel described UNDOF-zone measures as limited and temporary"
+            }
+          ],
+          "technical_reports": [
+            {
+              "summary": "Defense read all new plaintiff evidence with stat/read_evidence_range. Native checks targeted official Israeli and UN/CRS sources. Direct curl to the Dec. 8 gov.il PMO page was blocked by Cloudflare, so defense did not submit it. Defense opened EveryCRSReport's CRS RL33487 page and captured lines 389-396 because they preserve both the adverse fact of entry into the UNDOF buffer zone and the limiting Israel-to-UN characterization: limited, temporary measures, a few points, limited capacity east of Line A. The CRS excerpt was submitted as ev_9ac4fbc4020a. No additional source found in this phase eliminated the central ambiguity between temporary defensive security deployment and the market's required offensive intent to establish control.",
+              "title": "Defendant source access and adverse-check ledger"
+            }
+          ],
+          "text": "Council members, after plaintiff's evidence, the defendant does not ask you to pretend nothing happened in the UNDOF zone or on the Syrian side of Mount Hermon. The record now supports a ground deployment beyond ordinary Israeli-held Golan territory. But the market did not ask whether Israel entered a buffer zone, violated the 1974 arrangement, or held a temporary security position. It asked whether Israel commenced a military offensive intended to establish control over any portion of Syria.\n\nThat extra wording matters. Plaintiff's proof is strongest on entry and presence; it is weaker on offensive character and intent. The Times of Israel exhibit, ev_96725428f566, repeatedly preserves the limiting account: the IDF said the deployment was a defensive and temporary measure; troops were carrying out defensive operations to prevent any threat; Netanyahu said the order was to take over positions so no hostile force embedded next to Israel's border; and he called it a temporary defensive position until a suitable arrangement was found. The PMO Dec. 17 mirror, ev_87a2be06b06f, likewise says the assessment was to decide on IDF deployment until another arrangement ensured Israel's security. That is security-contingency language, not the ordinary language of an offensive to establish territorial control.\n\nThe defense evidence reinforces that distinction. CRS reports that, in a letter to the United Nations, Israel said it had taken limited and temporary measures to counter threats to its citizens, and that the IDF had deployed temporarily in a few points and in a limited capacity east of Line A. That is ev_9ac4fbc4020a. The same CRS excerpt is candidly mixed: it says Israeli forces entered the UNDOF buffer zone and notes later reporting about longer-term infrastructure and a 2025 Katz statement. But the relevant market window and the official contemporaneous characterization remain limited, temporary, and defensive.\n\nPlaintiff's argument turns the word \"control\" into a synonym for any military presence or takeover of positions. That is too broad. A force can temporarily occupy a checkpoint, patrol a demilitarized zone, or hold abandoned positions to prevent infiltration without thereby commencing a military offensive intended to establish control over territory in the market's sense. If the rule had meant any incursion, violation, or armed presence, it could have said so. Instead it used the combined phrase \"military offensive intended to establish control,\" which requires the council to weigh purpose, scope, and character, not just physical location.\n\nThe UNDOF evidence, ev_26cf1a5ab33e, proves the 1974 Israel-Syria disengagement framework and the existence of areas of separation and limitation. It does not prove the market's ultimate intent element. A violation of a disengagement agreement may be serious, but breach is not the same proposition as invasion under this market. AP's exhibit, ev_2aa6c6bb7f84, adds credible corroboration that Netanyahu was inside Syria, that Israel seized a buffer zone, and that there was international condemnation. It also uses the same security-arrangement language. The condemnation and treaty-breach context do not erase the official temporary defensive framing.\n\nProvenance also affects weight. Plaintiff's most important official-source exhibit is not a direct gov.il capture; it is a GlobalSecurity mirror of a PMO page after direct retrieval was blocked. The UNDOF exhibit similarly relies on indexed text and corroborating snippets after access limits. I do not claim those exhibits should be ignored, and I rely on their defensive language where it is against plaintiff's interest. But when the decisive question is not whether a deployment occurred but what legal-market characterization follows, the council should be careful about stretching excerpts and secondary reporting into an intent finding broader than the sources themselves.\n\nThe strongest adverse facts are the words \"captured,\" \"takeover,\" \"seized,\" and \"will stay.\" They support plaintiff's case. But on a preponderance standard, they are not enough when the same record repeatedly says temporary, defensive, limited, security-driven, and contingent on replacement arrangements after Syrian forces abandoned positions. A temporary emergency deployment may exercise local military control as a practical matter, but the market required an offensive intended to establish control. The admitted record is at least as consistent with a defensive buffer-zone hold pending security arrangements as with an invasion meeting the rule.\n\nAccordingly, the defendant submits that plaintiff has proven a controversial Israeli deployment, but not the proposition as written. The record should resolve No unless the council is prepared to treat every limited defensive seizure of positions in a demilitarized border area as a military offensive intended to establish control. The rule's narrower language should be enforced."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:52:17.687Z",
+      "turn": 5,
+      "role": "plaintiff",
+      "phase": "rebuttals",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 2781,
+        "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+        "length": 2781,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:53:14.053Z",
+      "turn": 5,
+      "role": "plaintiff",
+      "phase": "rebuttals",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_rebuttal",
+        "opportunity_id": "rebuttals:plaintiff",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+              "label": "PX-R1 Defendant CRS excerpt confirming entry and seizure of control"
+            }
+          ],
+          "technical_reports": [
+            {
+              "summary": "Plaintiff inspected defendant's CRS evidence by stat/read. The excerpt supports defendant's temporary/limited framing but also confirms Israeli forces entered the UNDOF buffer zone on December 8, 2024 and describes Netanyahu's statement as Israel's seizure of control over the UNDOF zone. No additional source submission was necessary for this rebuttal.",
+              "title": "Targeted rebuttal evidence check"
+            }
+          ],
+          "text": "Council members, defendant's argument depends on adding requirements the market did not include: permanence, non-defensive motive, and something more than a territorial military takeover. The actual rule asks whether Israel commenced a military offensive intended to establish control over any portion of Syria. It says \"any portion\" and it does not say \"permanent,\" \"annexation,\" or \"non-defensive.\"\n\nDefendant's own CRS exhibit, ev_9ac4fbc4020a, narrows the dispute in plaintiff's favor. It states that as the Assad regime collapsed on December 8, 2024, Israeli military forces entered the UNDOF buffer zone established by the 1974 Israel-Syria Disengagement Agreement. It then says Israel described its measures as limited and temporary, and that Netanyahu told the press Israel's \"seizure of control\" over the UNDOF zone was a temporary defensive position until a suitable arrangement was found. That phrase is decisive: even the defense exhibit identifies the act as a seizure of control. The adjective \"temporary\" limits duration; it does not erase control.\n\nThe defense says the record shows a security-contingency deployment, not an intent to establish control. But the contingency is exactly the control condition: Israel would take and hold the positions until a suitable arrangement, or until an arrangement ensuring Israel's security, was found. A force that enters Syrian territory, takes over positions, excludes others from those positions, and remains until its own security condition is satisfied is exercising and intending control over that portion for that period.\n\nNor does \"defensive\" answer \"offensive.\" Markets about military events normally look to what happened on the ground, not whether the actor offered a defensive legal justification. The admitted record describes a proactive Israeli ground movement into the UNDOF zone/Syrian Mount Hermon after Syrian forces abandoned posts; capture, takeover, seized positions, continued deployment, and fortification/longer-term infrastructure are all in the record. That is a military operation to change control of territory. It need not have involved heavy fighting to be an offensive for this market's purpose.\n\nDefendant is right that treaty breach alone would not prove the proposition. Plaintiff's case is not treaty breach alone. The evidence proves location inside the Israel-Syria separation framework, the Syrian side of Mount Hermon or buffer zone, entry during the market window, official Israeli statements about taking over and remaining, and credible reporting corroborating seizure and occupation. The CRS exhibit adds, rather than subtracts, that Israel's action was a seizure of control over the UNDOF zone.\n\nFinally, provenance concerns do not create a competing factual story. Defendant relies on the same PMO/CRS/press language plaintiff preserved. The accessible PMO mirror, AP, Times of Israel, UNDOF materials, market packet, and CRS excerpt all converge on the critical facts. The only disagreement is legal characterization. Under the actual market wording and preponderance standard, a limited, temporary, defensive seizure is still a military offensive intended to establish control over a portion of Syria. The answer remains Yes."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:53:44.699Z",
+      "turn": 6,
+      "role": "defendant",
+      "phase": "surrebuttals",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 2781,
+        "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+        "length": 2781,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:54:30.111Z",
+      "turn": 6,
+      "role": "defendant",
+      "phase": "surrebuttals",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_surrebuttal",
+        "opportunity_id": "surrebuttals:defendant",
+        "payload": {
+          "text": "Council members, plaintiff's rebuttal correctly identifies the hardest fact for the defense: the record uses words like \"takeover,\" \"seizure,\" and \"control.\" But plaintiff's conclusion still skips over the market's full phrase. The issue is not whether Israeli forces exercised some temporary local control after entering the UNDOF zone. The issue is whether Israel commenced a military offensive intended to establish control over Syrian territory.\n\nThe CRS exhibit does not carry plaintiff as far as they say. The sentence plaintiff highlights says Netanyahu described Israel's seizure of control over the UNDOF zone as a \"temporary defensive position until a suitable arrangement is found.\" The immediately preceding CRS language reports Israel's letter to the United Nations: \"limited and temporary measures\" to counter threats to citizens, with IDF deployed temporarily \"in a few points\" and \"in a limited capacity east of Line A.\" Those limiting words are not window dressing. They describe the nature, scope, and purpose of the act.\n\nPlaintiff says temporary control is still control. For many legal or military contexts, that can be true. But the market did not ask simply whether Israel controlled a location for some period. It required a military offensive intended to establish control. Plaintiff's reading makes the word \"offensive\" do almost no work and turns \"intended to establish control\" into any temporary tactical hold. A patrol that holds a checkpoint, a force that occupies abandoned posts to prevent infiltration, or a defensive move into a demilitarized zone could all become an \"invasion\" under that approach. That is broader than the market text.\n\nThe best reading of the whole record is narrower. The evidence shows a deployment after the Assad regime collapsed and Syrian soldiers abandoned positions; Israel's stated purpose was to prevent hostile forces embedding next to its border; the deployment was described as defensive, temporary, limited, and contingent on a suitable security arrangement. Those facts may support condemnation, treaty-breach language, or a finding of temporary occupation. They do not prove, more likely than not, the market's particular requirement of a military offensive intended to establish control.\n\nSo the defense is not adding permanence or annexation requirements. It is enforcing the words actually present: military offensive, intended, establish control. Plaintiff has shown entry and a security hold. The proposition demands more. On this record, the answer should remain No."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:55:42.865Z",
+      "turn": 7,
+      "role": "plaintiff",
+      "phase": "closings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "deliver_closing_statement",
+        "opportunity_id": "closings:plaintiff",
+        "payload": {
+          "text": "Council members, the question is not whether Israel annexed Syria, held all of Syria, or acted without a claimed security rationale. The market asks whether, in the 2024 window, Israel commenced a military offensive intended to establish control over any portion of Syria. On this record, the answer is Yes.\n\nThe rule itself is PX-1: any portion of Syria is enough, and the recognized sources include official confirmation or a consensus of credible reporting. The evidence then supplies each element.\n\nFirst, the place was Syria, not merely Israel-held Golan territory. PX-4 places the relevant zone in the 1974 Israel-Syria disengagement framework, supervised by UNDOF between Israeli and Syrian forces. PX-3 reports the IDF deployed to the buffer zone inside Syrian territory, including the Syrian side of Mount Hermon. PX-5 reports Netanyahu was on Mount Hermon inside Syria, about 10 kilometers from the Israel-held Golan Heights. Defendant's own CRS exhibit confirms Israeli military forces entered the UNDOF buffer zone established by the Israel-Syria Disengagement Agreement.\n\nSecond, the action was not just observation or rhetoric. PX-3 uses the concrete language of capture, takeover, deployment inside Syrian territory, seized positions, and completing the takeover of the buffer zone in Syria. The CRS exhibit likewise describes Israel's entry into the UNDOF buffer zone and Netanyahu's statement about Israel's seizure of control over the zone. That is the territorial change the market was concerned with.\n\nThird, intent to establish control is shown by the very condition Israel announced. PX-2 records Netanyahu on Mount Hermon with senior defense officials, receiving an operational briefing, issuing directives on continued IDF deployment, and saying the assessment was to decide the IDF deployment there until another arrangement ensured Israel's security. PX-3 preserves the earlier order to take over the positions until a suitable arrangement was found. PX-5 corroborates that Israeli forces would stay in the seized buffer zone until a security arrangement existed. A force that takes positions, stays there, and conditions withdrawal on its own security arrangement is intending to control those positions for that period.\n\nThe defense's best point is the repeated language of temporary, limited, and defensive. The record includes that language, and the council should credit it for what it proves: Israel said why it acted and said the posture was not annexation. But those words do not negate the market rule. Temporary control is still control. Defensive motive is still compatible with a military offensive when the act is a proactive armed movement into another side's territory to take and hold strategic positions. Limited scope is irrelevant where the rule says any portion.\n\nThe defense asks you to require something beyond entry, capture, seizure, takeover, continued deployment, and announced retention until a security arrangement. But the market did not require permanence, sovereignty, or large-scale war. It required a military offensive intended to establish control over a portion of Syria. The admitted evidence proves that more likely than not.\n\nProvenance does not change the outcome. There were access limits to some official web pages, but the record is not hanging on one fragile source. It converges across the market packet, the PMO text as preserved in an accessible mirror, Times of Israel reporting, AP reporting, UNDOF framework material, and the defendant's own CRS excerpt. The adverse source does not create a different factual narrative; it confirms entry and seizure of control, then argues characterization.\n\nThis case turns on applying the words actually written. Israel moved armed forces into the Syria-side UNDOF/Mount Hermon area in December 2024, took and held positions there, and announced it would remain until a security arrangement was found. Under the preponderance standard and the market's any-portion formulation, that satisfies the proposition. The council should decide Yes."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:56:44.531Z",
+      "turn": 8,
+      "role": "defendant",
+      "phase": "closings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "deliver_closing_statement",
+        "opportunity_id": "closings:defendant",
+        "payload": {
+          "text": "Council members, the defendant's closing is not that Israel stayed wholly inside ordinary Israeli-held Golan territory, or that the deployment was trivial. The admitted record shows Israeli forces entered the UNDOF/buffer-zone/Mount Hermon area in December 2024 and held positions there. The question is whether that record proves the market proposition as written: a military offensive intended to establish control over any portion of Syria.\n\nPlaintiff's case is strongest on the physical facts. The Times of Israel and AP excerpts support a Syria-side deployment. The PMO mirror supports continued deployment language. The CRS excerpt confirms entry into the UNDOF buffer zone. Those points explain why this is a close case. But close is not enough if the decisive inference is overdrawn.\n\nEvery major piece of evidence that plaintiff uses for control also carries the limiting words that defeat the market's required characterization. Times of Israel says the IDF described the deployment as defensive and temporary, with troops carrying out defensive operations to prevent threats. It quotes Netanyahu: the order was to take over positions so no hostile force would embed next to Israel's border, and it was a temporary defensive position until a suitable arrangement was found. The PMO mirror says the assessment was to decide deployment until another arrangement ensured Israel's security. The CRS excerpt reports Israel's letter to the UN describing limited and temporary measures, with forces deployed temporarily in a few points and in a limited capacity east of Line A.\n\nThose are not stray caveats. They describe the nature, scope, and intent of the act: a limited security deployment after the Assad regime collapsed and Syrian soldiers abandoned positions. The record supports treaty-breach language, condemnation, and a temporary military hold. It does not prove, more likely than not, that Israel commenced a military offensive intended to establish territorial control in the market's sense.\n\nPlaintiff's answer is that temporary control is still control. But the rule did not ask simply whether Israeli forces controlled a place for some time. It asked for a military offensive intended to establish control. Plaintiff's reading makes the word offensive nearly meaningless and treats intent as satisfied by any tactical hold pending a security arrangement. Under that reading, a limited defensive occupation of abandoned posts in a demilitarized border zone automatically becomes an invasion. The market's wording is narrower than that.\n\nNor does the phrase any portion solve plaintiff's problem. Any portion lowers the amount of territory required; it does not erase the requirement that the operation be an offensive intended to establish control. A small qualifying offensive would be enough. But a small, limited, temporary, defensive security measure is still not necessarily the qualifying event.\n\nProvenance is not the central reason to reject plaintiff's case, but it counsels care. The key official text is preserved through an accessible mirror, and the UNDOF framework through excerpts and snippets. Those sources are sufficient to show the deployment context. They are not a reason to expand the inference beyond what the words actually say.\n\nAt the end, the record is at least as consistent with Israel's contemporaneous stated posture: temporary, defensive, limited, threat-prevention deployment pending a suitable security arrangement. Plaintiff has proven entry and temporary control. It has not carried the additional burden imposed by the market's full phrase. The proposition should resolve No."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:57:25.622Z",
+      "turn": 9,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C1",
+        "model": "openrouter://mistralai/mistral-medium-3-5",
+        "payload": {
+          "member_id": "C1",
+          "rationale": "The admitted record shows Israeli forces captured and held the Syrian side of Mount Hermon/UNDOF buffer zone in December 2024 and Netanyahu stated Israel would remain until a security arrangement was found; this proactive territorial seizure with announced intent to control satisfies the market's test on a preponderance standard.",
+          "vote": "demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:58:02.606Z",
+      "turn": 10,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C2",
+        "model": "openrouter://qwen/qwen3.5-plus-02-15",
+        "payload": {
+          "member_id": "C2",
+          "rationale": "The admitted record proves by preponderance that Israeli forces entered Syrian territory (UNDOF buffer zone/Syrian Mount Hermon) in December 2024, captured and held strategic positions, and announced they would remain until a security arrangement was found. The CRS report itself describes this as Israel's \"seizure of control,\" and temporary defensive motive does not negate the market's requirement of a military offensive intended to establish control over any portion of Syria.",
+          "vote": "demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:58:12.872Z",
+      "turn": 11,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "opportunity_failed",
+      "payload": {
+        "member_id": "C3",
+        "message": "Council member C3 agent process exited before completing opportunity deliberation:1:C3.",
+        "model": "openrouter://relace/relace-search",
+        "opportunity_id": "deliberation:1:C3",
+        "phase": "deliberation",
+        "process_name": "pi-C3",
+        "reason": "agent_exited",
+        "role": "council",
+        "type": "opportunity_failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:58:12.872Z",
+      "turn": 11,
+      "role": "system",
+      "phase": "deliberation",
+      "type": "council_member_removed",
+      "payload": {
+        "cause": "Council member C3 agent process exited before completing opportunity deliberation:1:C3.",
+        "failure_reason": "agent_exited",
+        "member_id": "C3",
+        "status": "failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:58:29.428Z",
+      "turn": 12,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C4",
+        "model": "openrouter://openai/gpt-oss-120b",
+        "payload": {
+          "member_id": "C4",
+          "rationale": "Admitted evidence confirms Israeli forces entered Syrian territory, captured Mount Hermon, and officials said they would remain until a security arrangement, satisfying the required offensive control elements under the market rules.",
+          "vote": "demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:58:37.382Z",
+      "turn": 13,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "opportunity_failed",
+      "payload": {
+        "member_id": "C5",
+        "message": "Council member C5 agent process exited before completing opportunity deliberation:1:C5.",
+        "model": "openrouter://x-ai/grok-4.20-multi-agent",
+        "opportunity_id": "deliberation:1:C5",
+        "phase": "deliberation",
+        "process_name": "pi-C5",
+        "reason": "agent_exited",
+        "role": "council",
+        "type": "opportunity_failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T22:58:37.382Z",
+      "turn": 13,
+      "role": "system",
+      "phase": "deliberation",
+      "type": "council_member_removed",
+      "payload": {
+        "cause": "Council member C5 agent process exited before completing opportunity deliberation:1:C5.",
+        "failure_reason": "agent_exited",
+        "member_id": "C5",
+        "status": "failed"
+      }
+    }
+  ],
+  "final_state": {
+    "case": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, the proposition is satisfied by a preponderance of the admitted record.\n\nStart with the rule. The case packet, ev_54607018b65c_market-rules, asks whether Israel commenced a military offensive intended to establish control over any portion of Syria in the window ending December 31, 2024. It does not require annexation, a declaration of war, permanent occupation, casualties, or control of a large area. It also says official confirmation by Israel or the UN, or a consensus of credible reporting, may resolve the question.\n\nThe location element is met. UNDOF evidence, ev_26cf1a5ab33e, shows that the relevant 1974 framework is a ceasefire and disengagement arrangement between Israel and Syria, with UNDOF supervising the areas of separation and limitation and observing the ceasefire line between the two countries. That matters because the later reports are not describing ordinary movement within Israel. They are describing the buffer/area-of-separation framework between Israel and Syria.\n\nThe action element is met. The Times of Israel evidence, ev_96725428f566, reports that on December 8-9, 2024 the IDF captured the Syrian side of strategic Mount Hermon and deployed to the buffer zone inside Syrian territory. It reports that the IDF's 210th Bashan Division began deploying forces to the buffer zone inside Syrian territory, including atop the Syrian side of Mount Hermon, and that this marked the first time since the 1974 agreement Israeli forces had taken up positions in the buffer zone inside Syrian territory. It also reports Defense Minister Katz ordered the IDF to complete the takeover of the buffer zone in Syria and that troops seized additional positions. That is not mere rhetoric or a stray patrol; it is an armed ground deployment to take and hold strategic positions.\n\nThe control-intent element is met. The same evidence preserves Netanyahu's statement that Israel gave the army the order to take over these positions so no hostile force would embed next to Israel's border, and that it was a temporary defensive position until a suitable arrangement was found. The official-source evidence, ev_87a2be06b06f, then shows that on December 17 Netanyahu held an assessment on the summit of Mount Hermon with defense and security chiefs, received an operational briefing, issued directives on continued IDF deployment, and said the assessment was to decide on IDF deployment in that important place until another arrangement ensured Israel's security. That is a direct statement of control: Israeli forces would remain and their deployment would be decided by Israel until Israel's security arrangement existed.\n\nIndependent corroboration confirms both geography and duration. AP evidence, ev_2aa6c6bb7f84, reports Netanyahu entered Syrian territory during a tour of the buffer zone seized by Israel after Assad's fall, said Israel would stay until a security arrangement was found, and made the comments from Mount Hermon inside Syria about 10 kilometers from the Israel-held Golan Heights. That answers defendant's geography point: the reported site was inside Syria, not simply the market-excluded Golan Heights. It also corroborates that this was a seized buffer zone and an intended continuing military presence.\n\nThe defense's best point is that Israel called the move temporary and defensive. The record supports that characterization, and plaintiff does not hide it. But it does not defeat this market. A temporary defensive takeover is still a takeover. A military force can establish control for weeks, months, or until a security arrangement is found without annexing the land. The rule asks whether Israel intended to establish control over any portion of Syria, not whether Israel intended sovereign title forever. Here, the admitted evidence uses the language of capture, takeover, deployment inside Syrian territory, seized positions, continued deployment, and staying until a security arrangement. Those are the hallmarks of military control.\n\nNor does the word \"offensive\" require a pitched battle. The admitted record describes Israeli ground forces moving into Syrian territory after Syrian soldiers abandoned positions, taking strategic ground, and fortifying or holding it to exclude hostile forces. The operation was proactive and territorial: it changed who controlled the positions. That is enough under this market's functional standard.\n\nOn provenance and weight: the official gov.il PMO page was located but direct command-line retrieval was blocked; plaintiff therefore submitted an accessible mirror that identifies the source as Israel's Prime Minister's Office and preserves the official text, and submitted AP and Times of Israel corroboration. The UNDOF direct page also had access limits, but the admitted excerpt is tied to UNDOF/UN sources and corroborates the uncontested 1974 framework. Those limitations are worth noting, but they do not create a material conflict. The evidence lines up across the case packet, an official Israeli statement as mirrored, UN framework material, and credible reporting.\n\nThe proposition should resolve Yes: between September 12 and December 31, 2024, Israel commenced a military operation that took control of at least part of Syrian territory, including the Syrian side of Mount Hermon / the Syria buffer zone, and Israeli officials said forces would remain there until Israel's security arrangement was satisfied."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, after plaintiff's evidence, the defendant does not ask you to pretend nothing happened in the UNDOF zone or on the Syrian side of Mount Hermon. The record now supports a ground deployment beyond ordinary Israeli-held Golan territory. But the market did not ask whether Israel entered a buffer zone, violated the 1974 arrangement, or held a temporary security position. It asked whether Israel commenced a military offensive intended to establish control over any portion of Syria.\n\nThat extra wording matters. Plaintiff's proof is strongest on entry and presence; it is weaker on offensive character and intent. The Times of Israel exhibit, ev_96725428f566, repeatedly preserves the limiting account: the IDF said the deployment was a defensive and temporary measure; troops were carrying out defensive operations to prevent any threat; Netanyahu said the order was to take over positions so no hostile force embedded next to Israel's border; and he called it a temporary defensive position until a suitable arrangement was found. The PMO Dec. 17 mirror, ev_87a2be06b06f, likewise says the assessment was to decide on IDF deployment until another arrangement ensured Israel's security. That is security-contingency language, not the ordinary language of an offensive to establish territorial control.\n\nThe defense evidence reinforces that distinction. CRS reports that, in a letter to the United Nations, Israel said it had taken limited and temporary measures to counter threats to its citizens, and that the IDF had deployed temporarily in a few points and in a limited capacity east of Line A. That is ev_9ac4fbc4020a. The same CRS excerpt is candidly mixed: it says Israeli forces entered the UNDOF buffer zone and notes later reporting about longer-term infrastructure and a 2025 Katz statement. But the relevant market window and the official contemporaneous characterization remain limited, temporary, and defensive.\n\nPlaintiff's argument turns the word \"control\" into a synonym for any military presence or takeover of positions. That is too broad. A force can temporarily occupy a checkpoint, patrol a demilitarized zone, or hold abandoned positions to prevent infiltration without thereby commencing a military offensive intended to establish control over territory in the market's sense. If the rule had meant any incursion, violation, or armed presence, it could have said so. Instead it used the combined phrase \"military offensive intended to establish control,\" which requires the council to weigh purpose, scope, and character, not just physical location.\n\nThe UNDOF evidence, ev_26cf1a5ab33e, proves the 1974 Israel-Syria disengagement framework and the existence of areas of separation and limitation. It does not prove the market's ultimate intent element. A violation of a disengagement agreement may be serious, but breach is not the same proposition as invasion under this market. AP's exhibit, ev_2aa6c6bb7f84, adds credible corroboration that Netanyahu was inside Syria, that Israel seized a buffer zone, and that there was international condemnation. It also uses the same security-arrangement language. The condemnation and treaty-breach context do not erase the official temporary defensive framing.\n\nProvenance also affects weight. Plaintiff's most important official-source exhibit is not a direct gov.il capture; it is a GlobalSecurity mirror of a PMO page after direct retrieval was blocked. The UNDOF exhibit similarly relies on indexed text and corroborating snippets after access limits. I do not claim those exhibits should be ignored, and I rely on their defensive language where it is against plaintiff's interest. But when the decisive question is not whether a deployment occurred but what legal-market characterization follows, the council should be careful about stretching excerpts and secondary reporting into an intent finding broader than the sources themselves.\n\nThe strongest adverse facts are the words \"captured,\" \"takeover,\" \"seized,\" and \"will stay.\" They support plaintiff's case. But on a preponderance standard, they are not enough when the same record repeatedly says temporary, defensive, limited, security-driven, and contingent on replacement arrangements after Syrian forces abandoned positions. A temporary emergency deployment may exercise local military control as a practical matter, but the market required an offensive intended to establish control. The admitted record is at least as consistent with a defensive buffer-zone hold pending security arrangements as with an invasion meeting the rule.\n\nAccordingly, the defendant submits that plaintiff has proven a controversial Israeli deployment, but not the proposition as written. The record should resolve No unless the council is prepared to treat every limited defensive seizure of positions in a demilitarized border area as a military offensive intended to establish control. The rule's narrower language should be enforced."
+        }
+      ],
+      "caption": "Claimant v. Respondent",
+      "case_id": "arb-ex04-20260629223747",
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the question is not whether Israel annexed Syria, held all of Syria, or acted without a claimed security rationale. The market asks whether, in the 2024 window, Israel commenced a military offensive intended to establish control over any portion of Syria. On this record, the answer is Yes.\n\nThe rule itself is PX-1: any portion of Syria is enough, and the recognized sources include official confirmation or a consensus of credible reporting. The evidence then supplies each element.\n\nFirst, the place was Syria, not merely Israel-held Golan territory. PX-4 places the relevant zone in the 1974 Israel-Syria disengagement framework, supervised by UNDOF between Israeli and Syrian forces. PX-3 reports the IDF deployed to the buffer zone inside Syrian territory, including the Syrian side of Mount Hermon. PX-5 reports Netanyahu was on Mount Hermon inside Syria, about 10 kilometers from the Israel-held Golan Heights. Defendant's own CRS exhibit confirms Israeli military forces entered the UNDOF buffer zone established by the Israel-Syria Disengagement Agreement.\n\nSecond, the action was not just observation or rhetoric. PX-3 uses the concrete language of capture, takeover, deployment inside Syrian territory, seized positions, and completing the takeover of the buffer zone in Syria. The CRS exhibit likewise describes Israel's entry into the UNDOF buffer zone and Netanyahu's statement about Israel's seizure of control over the zone. That is the territorial change the market was concerned with.\n\nThird, intent to establish control is shown by the very condition Israel announced. PX-2 records Netanyahu on Mount Hermon with senior defense officials, receiving an operational briefing, issuing directives on continued IDF deployment, and saying the assessment was to decide the IDF deployment there until another arrangement ensured Israel's security. PX-3 preserves the earlier order to take over the positions until a suitable arrangement was found. PX-5 corroborates that Israeli forces would stay in the seized buffer zone until a security arrangement existed. A force that takes positions, stays there, and conditions withdrawal on its own security arrangement is intending to control those positions for that period.\n\nThe defense's best point is the repeated language of temporary, limited, and defensive. The record includes that language, and the council should credit it for what it proves: Israel said why it acted and said the posture was not annexation. But those words do not negate the market rule. Temporary control is still control. Defensive motive is still compatible with a military offensive when the act is a proactive armed movement into another side's territory to take and hold strategic positions. Limited scope is irrelevant where the rule says any portion.\n\nThe defense asks you to require something beyond entry, capture, seizure, takeover, continued deployment, and announced retention until a security arrangement. But the market did not require permanence, sovereignty, or large-scale war. It required a military offensive intended to establish control over a portion of Syria. The admitted evidence proves that more likely than not.\n\nProvenance does not change the outcome. There were access limits to some official web pages, but the record is not hanging on one fragile source. It converges across the market packet, the PMO text as preserved in an accessible mirror, Times of Israel reporting, AP reporting, UNDOF framework material, and the defendant's own CRS excerpt. The adverse source does not create a different factual narrative; it confirms entry and seizure of control, then argues characterization.\n\nThis case turns on applying the words actually written. Israel moved armed forces into the Syria-side UNDOF/Mount Hermon area in December 2024, took and held positions there, and announced it would remain until a security arrangement was found. Under the preponderance standard and the market's any-portion formulation, that satisfies the proposition. The council should decide Yes."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, the defendant's closing is not that Israel stayed wholly inside ordinary Israeli-held Golan territory, or that the deployment was trivial. The admitted record shows Israeli forces entered the UNDOF/buffer-zone/Mount Hermon area in December 2024 and held positions there. The question is whether that record proves the market proposition as written: a military offensive intended to establish control over any portion of Syria.\n\nPlaintiff's case is strongest on the physical facts. The Times of Israel and AP excerpts support a Syria-side deployment. The PMO mirror supports continued deployment language. The CRS excerpt confirms entry into the UNDOF buffer zone. Those points explain why this is a close case. But close is not enough if the decisive inference is overdrawn.\n\nEvery major piece of evidence that plaintiff uses for control also carries the limiting words that defeat the market's required characterization. Times of Israel says the IDF described the deployment as defensive and temporary, with troops carrying out defensive operations to prevent threats. It quotes Netanyahu: the order was to take over positions so no hostile force would embed next to Israel's border, and it was a temporary defensive position until a suitable arrangement was found. The PMO mirror says the assessment was to decide deployment until another arrangement ensured Israel's security. The CRS excerpt reports Israel's letter to the UN describing limited and temporary measures, with forces deployed temporarily in a few points and in a limited capacity east of Line A.\n\nThose are not stray caveats. They describe the nature, scope, and intent of the act: a limited security deployment after the Assad regime collapsed and Syrian soldiers abandoned positions. The record supports treaty-breach language, condemnation, and a temporary military hold. It does not prove, more likely than not, that Israel commenced a military offensive intended to establish territorial control in the market's sense.\n\nPlaintiff's answer is that temporary control is still control. But the rule did not ask simply whether Israeli forces controlled a place for some time. It asked for a military offensive intended to establish control. Plaintiff's reading makes the word offensive nearly meaningless and treats intent as satisfied by any tactical hold pending a security arrangement. Under that reading, a limited defensive occupation of abandoned posts in a demilitarized border zone automatically becomes an invasion. The market's wording is narrower than that.\n\nNor does the phrase any portion solve plaintiff's problem. Any portion lowers the amount of territory required; it does not erase the requirement that the operation be an offensive intended to establish control. A small qualifying offensive would be enough. But a small, limited, temporary, defensive security measure is still not necessarily the qualifying event.\n\nProvenance is not the central reason to reject plaintiff's case, but it counsels care. The key official text is preserved through an accessible mirror, and the UNDOF framework through excerpts and snippets. Those sources are sufficient to show the deployment context. They are not a reason to expand the inference beyond what the words actually say.\n\nAt the end, the record is at least as consistent with Israel's contemporaneous stated posture: temporary, defensive, limited, threat-prevention deployment pending a suitable security arrangement. Plaintiff has proven entry and temporary control. It has not carried the additional burden imposed by the market's full phrase. The proposition should resolve No."
+        }
+      ],
+      "council_members": [
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C1",
+          "model": "openrouter://mistralai/mistral-medium-3-5",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C2",
+          "model": "openrouter://qwen/qwen3.5-plus-02-15",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "Council member C3 agent process exited before completing opportunity deliberation:1:C3.",
+          "failure_opportunity_id": "deliberation:1:C3",
+          "failure_reason": "agent_exited",
+          "member_id": "C3",
+          "model": "openrouter://relace/relace-search",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C4",
+          "model": "openrouter://openai/gpt-oss-120b",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "Council member C5 agent process exited before completing opportunity deliberation:1:C5.",
+          "failure_opportunity_id": "deliberation:1:C5",
+          "failure_reason": "agent_exited",
+          "member_id": "C5",
+          "model": "openrouter://x-ai/grok-4.20-multi-agent",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        }
+      ],
+      "council_votes": [
+        {
+          "member_id": "C1",
+          "rationale": "The admitted record shows Israeli forces captured and held the Syrian side of Mount Hermon/UNDOF buffer zone in December 2024 and Netanyahu stated Israel would remain until a security arrangement was found; this proactive territorial seizure with announced intent to control satisfies the market's test on a preponderance standard.",
+          "round": 1,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C2",
+          "rationale": "The admitted record proves by preponderance that Israeli forces entered Syrian territory (UNDOF buffer zone/Syrian Mount Hermon) in December 2024, captured and held strategic positions, and announced they would remain until a security arrangement was found. The CRS report itself describes this as Israel's \"seizure of control,\" and temporary defensive motive does not negate the market's requirement of a military offensive intended to establish control over any portion of Syria.",
+          "round": 1,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C4",
+          "rationale": "Admitted evidence confirms Israeli forces entered Syrian territory, captured Mount Hermon, and officials said they would remain until a security arrangement, satisfying the required offensive control elements under the market rules.",
+          "round": 1,
+          "vote": "demonstrated"
+        }
+      ],
+      "deliberation_round": 1,
+      "failure": null,
+      "offered_evidence": [
+        {
+          "evidence_id": "ev_54607018b65c_market-rules",
+          "label": "PX-1 Market rule and disputed resolution rationale",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_87a2be06b06f_submitted-evidence-01-plaintiff-87a2be06b06f",
+          "label": "PX-2 PMO Dec. 17 Mount Hermon continued-deployment statement",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_96725428f566_submitted-evidence-02-plaintiff-96725428f566",
+          "label": "PX-3 Dec. 9 report of IDF capture/deployment inside Syrian territory",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_26cf1a5ab33e_submitted-evidence-03-plaintiff-26cf1a5ab33e",
+          "label": "PX-4 UNDOF Israel-Syria disengagement framework",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_2aa6c6bb7f84_submitted-evidence-04-plaintiff-2aa6c6bb7f84",
+          "label": "PX-5 AP corroboration of Syrian buffer zone and Mount Hermon location",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+          "label": "DX-1 CRS report excerpt: Israel described UNDOF-zone measures as limited and temporary",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+          "label": "PX-R1 Defendant CRS excerpt confirming entry and seizure of control",
+          "phase": "rebuttals",
+          "role": "plaintiff"
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, this case is not about whether Israel annexed Syria, occupied all of Syria, or began a conventional war with Damascus. The market rule asks a narrower question: within the stated 2024 window, did Israel commence a military offensive intended to establish control over any portion of Syria? On a preponderance standard, the answer should be Yes if the evidence shows Israeli forces moved into Syrian territory, took or held positions there, and did so with an announced purpose to control those positions until Israel's security conditions were met.\n\nThe present record is limited but important. The case-packet rules, admitted as ev_54607018b65c_market-rules, define the operative test and preserve Polymarket's disputed Yes rationale. That packet says the Yes rationale rested on two linked points: first, credible reporting had already placed Israeli forces on the Syrian peak of Mount Hermon on December 8, 2024; second, on December 17, Prime Minister Netanyahu visited the Syrian side of Mount Hermon and announced that Israeli forces would remain on the peak until another arrangement guaranteed Israel's security. The packet further notes that the Syrian peak of Mount Hermon is not part of the Golan Heights. If supported by the underlying sources, those facts fit the rule: an armed entry into Syrian territory, followed by continued military presence and a stated intent to remain until a new security arrangement, is control over a portion of Syria.\n\nThe real dispute will likely be over characterization, not geography alone. The respondent may argue that Israel described the move as temporary and defensive, and therefore not an invasion or not an offensive. But the rule does not require permanence, annexation, civilian administration, or conquest of a large region. A temporary military seizure can still be an operation intended to establish control for as long as the controlling power's security conditions require. Defensive motive may explain why Israel acted; it does not negate that the action sought to take and hold positions beyond Israel's side of the line.\n\nThe decisive proof should therefore be official Israeli statements, UN/UNDOF materials on the Syria-Israel separation framework, and credible reporting that fixes the dates, location, and scope of Israeli deployment. The official-source path matters because the market rules expressly privilege official confirmation by Israel, Syria, the United Nations, or a permanent Security Council member, while also allowing a consensus of credible reporting. In the next evidentiary phase, the plaintiff expects to submit the underlying official statements and corroborating reporting rather than ask the council to rely on the packet's summary alone.\n\nFor now, the admitted packet proves the governing standard and identifies the precise theory of Yes: Israeli forces reached and held Syrian Mount Hermon during the market window, and Israel's own announced posture was to remain there until a security arrangement was found. It does not, by itself, fully prove every underlying event independent of the rationale; that is why the source chain must be completed. But it shows the dispute's center of gravity and why plaintiff's burden is realistic: the question is whether Israel established military control over any Syrian portion, and the record already points to a specific place, date range, official actor, and control-intent statement that would satisfy that test."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defendant's position begins with the market's exact words. This is not a general referendum on whether Israel acted in Syria, violated a disengagement arrangement, conducted airstrikes, or moved troops after the Assad government's collapse. The proposition resolves Yes only if Israel commenced a military offensive intended to establish control over a portion of Syria during the stated window. The Golan Heights are expressly counted as Israeli territory for this market, so location, purpose, and control intent are not side issues; they are the elements.\n\nThe current admitted record is thin. The only evidence is ev_54607018b65c_market-rules, the case-packet markdown. It proves the market question, the date range, the Golan carveout, the sources the council may use, and Polymarket's disputed Yes rationale. It does not itself authenticate the underlying Israeli statement, UN record, reporting, map, military order, geolocation, or chain of custody for the events described in the rationale. Plaintiff fairly acknowledges that the source chain must be completed. Until it is, the packet is a roadmap to a dispute, not proof that each factual element has been met.\n\nThe core dispute should be framed in three parts. First, what exact territory is at issue? The packet's rationale points to Mount Hermon and says the Syrian peak is not part of the Golan Heights. Plaintiff must prove the location actually occupied or held was outside the market's Golan carveout, and must distinguish the Golan, the 1974 area of separation or buffer zone, and any Syrian peak with reliable geography. Ambiguous references to the border, the Golan, or Mount Hermon will not be enough.\n\nSecond, what action occurred? A military presence, patrol, seizure of abandoned positions, construction of obstacles, or even a ceasefire violation is not automatically the same as commencing a military offensive. The market chose that phrase, and it requires more than showing that soldiers were somewhere controversial. The council should look for official or well-corroborated evidence of the nature, timing, scope, and purpose of any ground operation, not merely labels in commentary.\n\nThird, what intent was shown? Plaintiff's theory depends on the phrase that forces would remain until another security arrangement was found. But a temporary defensive posture pending a security arrangement can support a different inference: an emergency border-security deployment after the collapse of the neighboring regime, not an offensive intended to establish control over Syrian territory in the market sense. The defendant does not ask the council to accept that inference now as proven; we ask only that the plaintiff be held to the burden of proving the opposite with admitted evidence.\n\nThe evidence that would matter most in the next phase is predictable: official Israeli statements from the relevant dates, UN or UNDOF materials describing the area of separation and any IDF presence, reliable maps fixing the legal and geographic status of the specific peak or positions, and credible reporting only where it supplies source-level detail rather than conclusory wording. Adverse material should be considered too: if UN documents show a violation, that may prove presence or treaty breach, but it still may not prove an offensive or control intent; if Israeli statements emphasize temporary defense, that cuts against the market's required intent even if it does not erase the deployment.\n\nSo the defendant's opening is narrow but important. The current record proves the rules and a contested rationale. It does not yet prove invasion under those rules. Plaintiff must bridge the missing links with admissible source material on geography, action, and intent. If the later record shows only a temporary defensive deployment in or near a buffer zone, or leaves the non-Golan location and control intent uncertain, the proposition should resolve No."
+        }
+      ],
+      "phase": "closed",
+      "proposition": "Israel invaded Syria in 2024.  In particular, Israel commenced a\nmilitary offensive intended to establish control over any portion of\nSyria between September 12, 2024 and December 31, 2024, 11:59 PM\nET. For the purposes of this market, the Golan Heights count as\nIsraeli territory.  The authorities for this proposition are official\nconfirmation by Syria, Israel, the United Nations, or any permanent\nmember of the UN Security Council, however a consensus of credible\nreporting will also be used.",
+      "rebuttals": [
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "text": "Council members, defendant's argument depends on adding requirements the market did not include: permanence, non-defensive motive, and something more than a territorial military takeover. The actual rule asks whether Israel commenced a military offensive intended to establish control over any portion of Syria. It says \"any portion\" and it does not say \"permanent,\" \"annexation,\" or \"non-defensive.\"\n\nDefendant's own CRS exhibit, ev_9ac4fbc4020a, narrows the dispute in plaintiff's favor. It states that as the Assad regime collapsed on December 8, 2024, Israeli military forces entered the UNDOF buffer zone established by the 1974 Israel-Syria Disengagement Agreement. It then says Israel described its measures as limited and temporary, and that Netanyahu told the press Israel's \"seizure of control\" over the UNDOF zone was a temporary defensive position until a suitable arrangement was found. That phrase is decisive: even the defense exhibit identifies the act as a seizure of control. The adjective \"temporary\" limits duration; it does not erase control.\n\nThe defense says the record shows a security-contingency deployment, not an intent to establish control. But the contingency is exactly the control condition: Israel would take and hold the positions until a suitable arrangement, or until an arrangement ensuring Israel's security, was found. A force that enters Syrian territory, takes over positions, excludes others from those positions, and remains until its own security condition is satisfied is exercising and intending control over that portion for that period.\n\nNor does \"defensive\" answer \"offensive.\" Markets about military events normally look to what happened on the ground, not whether the actor offered a defensive legal justification. The admitted record describes a proactive Israeli ground movement into the UNDOF zone/Syrian Mount Hermon after Syrian forces abandoned posts; capture, takeover, seized positions, continued deployment, and fortification/longer-term infrastructure are all in the record. That is a military operation to change control of territory. It need not have involved heavy fighting to be an offensive for this market's purpose.\n\nDefendant is right that treaty breach alone would not prove the proposition. Plaintiff's case is not treaty breach alone. The evidence proves location inside the Israel-Syria separation framework, the Syrian side of Mount Hermon or buffer zone, entry during the market window, official Israeli statements about taking over and remaining, and credible reporting corroborating seizure and occupation. The CRS exhibit adds, rather than subtracts, that Israel's action was a seizure of control over the UNDOF zone.\n\nFinally, provenance concerns do not create a competing factual story. Defendant relies on the same PMO/CRS/press language plaintiff preserved. The accessible PMO mirror, AP, Times of Israel, UNDOF materials, market packet, and CRS excerpt all converge on the critical facts. The only disagreement is legal characterization. Under the actual market wording and preponderance standard, a limited, temporary, defensive seizure is still a military offensive intended to establish control over a portion of Syria. The answer remains Yes."
+        }
+      ],
+      "resolution": "demonstrated",
+      "status": "closed",
+      "submitted_evidence": [
+        {
+          "evidence_id": "ev_87a2be06b06f_submitted-evidence-01-plaintiff-87a2be06b06f",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Official-source content for Netanyahu's Dec. 17, 2024 Mount Hermon visit and IDF continued deployment decision; supports control-intent element.",
+          "retrieval_timestamp": "2026-06-29T22:45:00Z",
+          "role": "plaintiff",
+          "sha256": "87a2be06b06fc76710dd9336bdc0cfce985794060222985d955feb28dfe34ec4",
+          "size_bytes": 1971,
+          "source_description": "Accessible GlobalSecurity.org mirror identifying source as Israel Prime Minister's Office, Events and Speeches, 37th Government, 17.12.2024; official gov.il source was also located at https://www.gov.il/en/pages/event-hermon171224 but direct curl was Cloudflare-blocked.",
+          "source_url": "https://www.globalsecurity.org/wmd/library/news/syria/2024/syria-241217-israel-pm01.htm",
+          "title": "PMO Dec. 17, 2024 Mount Hermon statement, accessible mirror excerpt"
+        },
+        {
+          "evidence_id": "ev_96725428f566_submitted-evidence-02-plaintiff-96725428f566",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Credible reporting corroborating Israeli forces captured Syrian side of Mount Hermon/buffer zone, date, location, and Israeli official explanations including takeover language.",
+          "retrieval_timestamp": "2026-06-29T22:45:30Z",
+          "role": "plaintiff",
+          "sha256": "96725428f566b964f4a1aa288143db8e6502368786eb808a7e9602803209751e",
+          "size_bytes": 2732,
+          "source_description": "Times of Israel article by Emanuel Fabian, published 9 December 2024, opened and captured via web tool lines 104-184.",
+          "source_url": "https://www.timesofisrael.com/idf-troops-will-stay-in-syria-buffer-zone-and-strategic-mount-hermon-as-long-as-needed/",
+          "title": "Times of Israel Dec. 9, 2024 IDF deployment in Syria excerpt"
+        },
+        {
+          "evidence_id": "ev_26cf1a5ab33e_submitted-evidence-03-plaintiff-26cf1a5ab33e",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "UN framework showing the Israel-Syria ceasefire/disengagement area is supervised under the 1974 agreement, supporting that the buffer zone is between Israel and Syria rather than ordinary Israeli territory.",
+          "retrieval_timestamp": "2026-06-29T22:46:00Z",
+          "role": "plaintiff",
+          "sha256": "26cf1a5ab33eda16e89f5fe06727f7b5782509288b64c270c0cc818fdbceb3d9",
+          "size_bytes": 1396,
+          "source_description": "UN Disengagement Observer Force mandate page located by web search; direct curl returned CloudFront 403, so captured search/open text and corroborating UN Peacekeeping/Peacemaker snippets are preserved.",
+          "source_url": "https://undof.unmissions.org/en/undof-mandate",
+          "title": "UNDOF mandate and 1974 Israel-Syria disengagement framework excerpt"
+        },
+        {
+          "evidence_id": "ev_2aa6c6bb7f84_submitted-evidence-04-plaintiff-2aa6c6bb7f84",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Independent credible reporting corroborating Netanyahu's statement, Israeli seizure of a buffer zone inside Syria, and Mount Hermon location inside Syria about 10 km from Israeli-held Golan Heights.",
+          "retrieval_timestamp": "2026-06-29T22:48:00Z",
+          "role": "plaintiff",
+          "sha256": "2aa6c6bb7f84ce5cac11fb97a9beb4088bd9846ca54ce8b2ba032704020f986f",
+          "size_bytes": 1517,
+          "source_description": "Associated Press article located through web search; relevant text captured from search/open result for Dec. 17, 2024 report.",
+          "source_url": "https://apnews.com/article/syria-war-assad-israel-news-17-december-2024-4d7f0b35e08d5e853c776193272fb2d6",
+          "title": "Associated Press Dec. 17, 2024 Syria buffer zone report excerpt"
+        },
+        {
+          "evidence_id": "ev_9ac4fbc4020a_submitted-evidence-05-defendant-9ac4fbc4020a",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Supports defendant's argument that official/CRS-described Israeli position framed the deployment as limited, temporary, and security-driven rather than an offensive intended to establish territorial control, while also preserving adverse context about entry into the UNDOF zone.",
+          "retrieval_timestamp": "2026-06-29T23:00:00Z",
+          "role": "defendant",
+          "sha256": "9ac4fbc4020a58d247ab9ec04d1432dd6053323afceefc005f8b6b81b5193867",
+          "size_bytes": 2781,
+          "source_description": "EveryCRSReport republication of Congressional Research Service report RL33487, Syria: Transition and U.S. Policy, updated February 26, 2026; relevant lines 389-396 captured via web open/find. CRS summarizes Israeli entry into UNDOF buffer zone and Israel's letter to the United Nations characterizing the deployment as limited and temporary.",
+          "source_url": "https://www.everycrsreport.com/reports/RL33487.html",
+          "title": "CRS Syria report excerpt on Israel's limited temporary UNDOF-zone measures"
+        }
+      ],
+      "surrebuttals": [
+        {
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Council members, plaintiff's rebuttal correctly identifies the hardest fact for the defense: the record uses words like \"takeover,\" \"seizure,\" and \"control.\" But plaintiff's conclusion still skips over the market's full phrase. The issue is not whether Israeli forces exercised some temporary local control after entering the UNDOF zone. The issue is whether Israel commenced a military offensive intended to establish control over Syrian territory.\n\nThe CRS exhibit does not carry plaintiff as far as they say. The sentence plaintiff highlights says Netanyahu described Israel's seizure of control over the UNDOF zone as a \"temporary defensive position until a suitable arrangement is found.\" The immediately preceding CRS language reports Israel's letter to the United Nations: \"limited and temporary measures\" to counter threats to citizens, with IDF deployed temporarily \"in a few points\" and \"in a limited capacity east of Line A.\" Those limiting words are not window dressing. They describe the nature, scope, and purpose of the act.\n\nPlaintiff says temporary control is still control. For many legal or military contexts, that can be true. But the market did not ask simply whether Israel controlled a location for some period. It required a military offensive intended to establish control. Plaintiff's reading makes the word \"offensive\" do almost no work and turns \"intended to establish control\" into any temporary tactical hold. A patrol that holds a checkpoint, a force that occupies abandoned posts to prevent infiltration, or a defensive move into a demilitarized zone could all become an \"invasion\" under that approach. That is broader than the market text.\n\nThe best reading of the whole record is narrower. The evidence shows a deployment after the Assad regime collapsed and Syrian soldiers abandoned positions; Israel's stated purpose was to prevent hostile forces embedding next to its border; the deployment was described as defensive, temporary, limited, and contingent on a suitable security arrangement. Those facts may support condemnation, treaty-breach language, or a finding of temporary occupation. They do not prove, more likely than not, the market's particular requirement of a military offensive intended to establish control.\n\nSo the defense is not adding permanence or annexation requirements. It is enforcing the words actually present: military offensive, intended, establish control. Plaintiff has shown entry and a security hold. The proposition demands more. On this record, the answer should remain No."
+        }
+      ],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "Plaintiff searched exact PMO phrases, gov.il event IDs, UNDOF mandate terms, and AP/Times of Israel reporting. Direct command-line retrieval of gov.il pages returned Cloudflare blocks and UNDOF returned a CloudFront 403, so plaintiff preserved an accessible PMO mirror and captured indexed UN/UNDOF excerpts with corroborating UN Peacekeeping/Peacemaker text. Times of Israel was opened directly and AP was captured from search/open text. No contrary source found that changes the key facts; the main adverse material is Israel's temporary/defensive framing, which is preserved in the submitted evidence and addressed in the argument.",
+          "title": "Source search and access ledger"
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "summary": "Defense read all new plaintiff evidence with stat/read_evidence_range. Native checks targeted official Israeli and UN/CRS sources. Direct curl to the Dec. 8 gov.il PMO page was blocked by Cloudflare, so defense did not submit it. Defense opened EveryCRSReport's CRS RL33487 page and captured lines 389-396 because they preserve both the adverse fact of entry into the UNDOF buffer zone and the limiting Israel-to-UN characterization: limited, temporary measures, a few points, limited capacity east of Line A. The CRS excerpt was submitted as ev_9ac4fbc4020a. No additional source found in this phase eliminated the central ambiguity between temporary defensive security deployment and the market's required offensive intent to establish control.",
+          "title": "Defendant source access and adverse-check ledger"
+        },
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "summary": "Plaintiff inspected defendant's CRS evidence by stat/read. The excerpt supports defendant's temporary/limited framing but also confirms Israeli forces entered the UNDOF buffer zone on December 8, 2024 and describes Netanyahu's statement as Israel's seizure of control over the UNDOF zone. No additional source submission was necessary for this rebuttal.",
+          "title": "Targeted rebuttal evidence check"
+        }
+      ]
+    },
+    "forum_name": "Agent Arbitration",
+    "policy": {
+      "council_size": 5,
+      "evidence_standard": "Preponderance of the evidence.",
+      "max_argument_chars": 6000,
+      "max_closing_chars": 5000,
+      "max_deliberation_rounds": 3,
+      "max_exhibit_bytes": 131072,
+      "max_exhibits_per_filing": 9,
+      "max_exhibits_per_side": 12,
+      "max_opening_chars": 5000,
+      "max_rebuttal_chars": 4000,
+      "max_report_summary_bytes": 8192,
+      "max_report_title_bytes": 256,
+      "max_reports_per_filing": 3,
+      "max_reports_per_side": 4,
+      "max_submitted_evidence_bytes": 67108864,
+      "max_submitted_evidence_per_side": 8,
+      "max_surrebuttal_chars": 4000,
+      "required_votes_for_decision": 3
+    },
+    "schema_version": "v1",
+    "state_version": 19
+  },
+  "final_reason": "demonstrated"
+}

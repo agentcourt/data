@@ -1,0 +1,12 @@
+{
+  "auto_lawyers": "both",
+  "case_id": "arb-ex03-20260629192557",
+  "council_output_limit_bytes": 134217728,
+  "error": "",
+  "failure": null,
+  "mcp_public_base_url": "",
+  "openclaw_lawyer_start_delay_seconds": 15,
+  "resolution": "not_demonstrated",
+  "run_id": "run-arb-ex03-20260629192557",
+  "status": "ok"
+}

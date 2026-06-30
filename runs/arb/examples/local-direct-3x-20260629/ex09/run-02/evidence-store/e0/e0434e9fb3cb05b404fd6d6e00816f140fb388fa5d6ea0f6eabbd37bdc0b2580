@@ -1,0 +1,28 @@
+Source: https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/polymarket-gamma-clavicular-pregnancy-20260630.json; size 7273 bytes; sha256 38264d301c3adad29fef3b6e7116dfcaa7e2302903bde1c46457831ec1a41335.
+
+Relevant extracted fields from the returned JSON:
+- Event id: 400878
+- Ticker/slug: clavicular-pregnancy-in-2026
+- Title: Clavicular pregnancy in 2026?
+- Description/rule: This market resolves Yes if Clavicular announces that he and a partner are expecting a baby through pregnancy between market creation and December 31, 2026, 11:59 PM ET; otherwise No. Only credible announcements qualify; non-credible announcements, for example jokes, do not suffice. Resolution source is statements from Clavicular or representatives, though definitive consensus of credible media reporting may be considered.
+- Event creationDate/startDate: 2026-04-20T22:47:28.569518Z / 2026-04-20T22:47:28.569523Z.
+- Event endDate: 2026-12-31T00:00:00Z.
+- UpdatedAt in fetched JSON: 2026-06-30T02:49:27.136133Z.
+- Event active true, closed true, archived false, restricted true.
+- Event volume: 13934862.960998023; openInterest: 5749723.168803; commentCount: 1124.
+
+Market object:
+- Market id: 2037907.
+- conditionId: 0x6747bae2269c348786d0c0c0f4286ac006f13f16325d4dcbab954b46de029f19.
+- questionID: 0x24b6bade3cce1deaee8a6381420b7fb88b0f409b447747471b0245061d986280.
+- outcomes: ["Yes", "No"].
+- outcomePrices: ["1", "0"].
+- closedTime: 2026-05-01 00:33:40+00; umaEndDate 2026-05-01T00:33:40Z.
+- umaResolutionStatus: resolved.
+- umaResolutionStatuses: ["proposed", "disputed", "proposed", "disputed"].
+- automaticallyResolved: true.
+- resolvedBy: 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7C.
+- lastTradePrice: 0.999; bestBid/bestAsk: 0.998 / 0.999.
+
+Event metadata context_description in current API says trader consensus locked in a 99.9% implied probability for Yes, driven by Clavicular's repeated public vows to become a father by year-end, a fertility-stack reveal, and a controversial pitch for a dating show to select a baby mama from 500 contestants. It also describes debunked rumors of an 18-year-old girlfriend's pregnancy after just 10 days and says those rumors amplified the narrative of imminent fatherhood. This API metadata supports the existence of market momentum and final Yes, but it also shows the platform context was not limited to a clean verified pregnancy announcement.

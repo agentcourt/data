@@ -1,0 +1,214 @@
+# Arbitration Digest
+
+## Result
+
+Resolution: `not_demonstrated`
+
+Final phase: `closed`
+
+## Complaint
+
+### Proposition
+
+By June 15, 2025 11:59 PM ET, Iran and the United States agreed to a permanent peace deal.
+
+### Standard of Evidence
+
+Preponderance of the evidence.
+
+## Council
+
+- C1: openrouter://openai/gpt-oss-120b (personas/generic.md)
+- C2: openrouter://relace/relace-search (personas/generic.md)
+- C3: openrouter://qwen/qwen3-30b-a3b-instruct-2507 (personas/generic.md)
+- C4: openrouter://mistralai/mistral-medium-3-5 (personas/generic.md)
+- C5: openrouter://deepseek/deepseek-v3.1-terminus (personas/generic.md)
+
+## Filings
+
+### Openings
+
+[plaintiff] Council members, the plaintiff accepts the discipline imposed by the case packet. The proposition is not proved by loose talk of diplomacy, by negotiations, by a temporary stand-down, or by a hope that fighting might stop. Under the admitted rules file, the question is narrower: by June 15, 2025 at 11:59 p.m. ET, did the United States and Iran either sign or formally adopt a written agreement, or did both governments clearly and publicly confirm that a qualifying agreement had definitively been established, with language showing a lasting end to military hostilities between them?
+
+That is the real dispute. The plaintiff's burden is preponderance, not certainty, but the burden still requires a source chain that ties both sovereigns to the same permanent peace commitment before the deadline. The existing record at opening contains only the rules file. That file proves the governing standard, the definition of a qualifying deal, the two permissible paths for establishment, and the preferred source hierarchy. It does not itself prove the historical fact of agreement. The plaintiff will therefore treat the opening as a roadmap, not as a substitute for evidence.
+
+Our theory is that this case should turn on official acts and official confirmations, not characterization. If later-admitted evidence shows a dated written instrument, communique, treaty text, multi-point agreement, or matched official confirmations from the two governments, and if that material says that U.S.-Iran military hostilities had ended or would permanently cease, then the proposition is demonstrated. The required agreement need not use magic words, but it must clearly signal a lasting cessation of military hostilities between these two states. The council should look for convergence: same parties, same arrangement, same deadline, and language of permanence rather than pause.
+
+The defense will likely press the opposite inference: that the public record around the deadline reflects talks, proposals, mediation, demands, cancellation or suspension, and later ceasefire language rather than a permanent peace deal already reached by June 15. That is a serious line of attack because the rules expressly exclude negotiations, progress statements, temporary arrangements, and announcements that fall short of definitive establishment. The plaintiff will not ask the council to count those excluded categories as a deal. Instead, we will have to show, with admitted material, that the qualifying event occurred despite whatever public uncertainty, mediation mechanics, or later commentary may exist.
+
+The decisive proof should come first from official U.S. sources, official Iranian sources, and any formal text or mediator-confirmed instrument connecting the two. Credible reporting may matter, but only as corroboration or as a route to primary material unless it creates a reliable consensus about what both governments did. Provenance and custody will therefore matter: the council should give greatest weight to materials whose origin, date, government speaker, and full context can be verified, and less weight to snippets, paraphrases, anonymous summaries, or sources that only describe bargaining positions.
+
+At this opening stage, the plaintiff can fairly say what must be proved and what would defeat us. Proof for the plaintiff would be a before-deadline instrument or bilateral confirmation that is definitive and permanent. Proof against the plaintiff would be a record showing only proposals, cancelled talks, temporary ceasefire language, unilateral statements, or confirmation after the deadline. The case should be decided on that distinction. In the evidence phases, the plaintiff will focus on the official source trail and submit the primary or best available materials before relying on them.
+
+[defendant] Council members, the defense starts with the same discipline the rules require. The proposition is not whether there were talks, pressure, optimism, a nuclear framework, or a later ceasefire. It is whether, by June 15, 2025 at 11:59 p.m. ET, Iran and the United States had agreed to a permanent peace deal as the case packet defines that term.
+
+The only admitted exhibit at this opening stage is the rules file, ev_f1a176053ed8_rules. It proves the controlling test. A qualifying agreement must explicitly indicate that military hostilities between the United States and Iran have ended or will permanently cease, or must use equivalent language clearly signaling a lasting end to those hostilities. It also sets two establishment paths: both sides sign or formally adopt a written qualifying agreement, or both governments clearly and publicly confirm that such an agreement has been definitively established. The same file excludes temporary arrangements and statements that fall short of a definitive announcement.
+
+That matters because the plaintiff's burden is not met by diplomatic atmosphere. A proposal is not an agreement. A scheduled meeting is not adoption. A statement that a deal is desired, possible, close, or being negotiated is not a definitive bilateral confirmation. A temporary pause is not a permanent peace deal. A later instrument cannot satisfy a deadline that expired on June 15, 2025. And a nuclear-program bargain would still have to do the work the rules demand: it must clearly establish a lasting end to U.S.-Iran military hostilities, not merely describe sanctions, enrichment, inspections, or bargaining positions.
+
+Our investigation at this stage has therefore focused on the source classes that would matter most once evidence admission opens: official U.S. materials, official Iranian materials, any formal written instrument, mediator records, and credible reporting that traces back to primary material. The source path matters as much as the headline. The council should ask whether an exhibit fixes the speaker, date, party authority, full context, and the same asserted agreement on both sides. Snippets, paraphrases, anonymous descriptions, and later characterizations deserve less weight unless they lead to a reliable underlying document or matched official confirmations.
+
+The defense theory is straightforward: the present record contains no historical proof that the required bilateral act occurred before the deadline. It contains only the rules. When plaintiff later submits evidence, the decisive question will be whether that evidence bridges every required link: United States plus Iran, before the deadline, written adoption or matched public confirmation, definitive establishment, and permanent cessation of military hostilities between those two states. Missing any one of those links means the proposition is not demonstrated.
+
+The plaintiff has fairly acknowledged that negotiations, progress statements, temporary arrangements, and non-definitive announcements do not count. The defense will hold them to that concession and to the case packet. If the later record shows only talks, cancelled or interrupted diplomacy, unilateral statements, temporary ceasefire language, after-the-deadline instruments, or public reporting without a primary source chain, then preponderance cannot carry the proposition.
+
+So the opening issue is narrow. The plaintiff must produce a qualifying sovereign act, not a narrative of diplomatic momentum. Until such admitted evidence exists, the rules exhibit proves the burden and the exclusions, but not the alleged peace deal. On that record, the council should approach the case with the presumption that proof of a permanent U.S.-Iran peace deal requires clear, dated, bilateral, and durable evidence, and should resolve the proposition as not demonstrated if the plaintiff cannot supply it.
+
+### Arguments
+
+[plaintiff] Council members, the plaintiff’s burden is defined by PX-1, the rules file. A qualifying result requires more than diplomacy: by June 15, 2025 at 11:59 p.m. ET, Iran and the United States had to sign or formally adopt a written qualifying agreement, or both governments had to clearly and publicly confirm that such an agreement had definitively been established. The agreement also had to signal a lasting end to U.S.-Iran military hostilities, not merely negotiations, progress, or a temporary pause.
+
+After targeted investigation and evidence submission, the plaintiff cannot responsibly say this record meets that burden. PX-2 is official U.S. material: the White House NSPM-2 capture. Its probative value is provenance, not support for the proposition. It is an official U.S. government source, but it reflects maximum-pressure policy toward Iran, including denial of nuclear weapons and missiles, disruption of IRGC resources, and sanctions/isolation measures. It does not contain any U.S. confirmation of a permanent peace deal with Iran.
+
+PX-3 is Iranian-source material from IRNA, published June 11, 2025. It is useful because it records the Iranian foreign minister’s position immediately before the deadline. But it cuts against a completed agreement: the report says an agreement with the United States was “within reach” if Iran’s enrichment rights and sanctions relief were addressed, and it describes an upcoming sixth round of indirect talks scheduled for June 15. That is negotiation and conditional possibility, not definitive bilateral establishment.
+
+PX-4 is still closer to the deadline. It is IRNA’s June 14 report that Iran had not decided whether to attend the next indirect talks with the United States. It reports the Iranian Foreign Ministry spokesperson’s view that the other side had acted in a way that effectively rendered negotiations meaningless, while noting that the June 15 round had previously been scheduled through Omani mediation. This evidence does not prove a peace deal; it shows uncertainty and a breakdown risk one day before the deadline.
+
+PX-5 is a credible secondary report from Al Jazeera, also dated June 14, preserving the cancellation context. It reports that Foreign Minister Araghchi confirmed the next Iran-U.S. nuclear talks in Oman would not go ahead; that Oman also confirmed the talks would not take place; and that a senior U.S. official confirmed the talks were no longer happening while saying the United States remained committed to talks. Because PX-5 is secondary, it carries less weight than an official instrument would, but it corroborates the same sequence: scheduled talks, cancellation, and continued desire for talks, not a permanent peace agreement already in force.
+
+The source hierarchy matters here. PX-2 is official U.S. material and PX-3/PX-4 are Iranian state-media reports of official Iranian positions. None provides the missing written agreement. None provides matched public confirmation by both governments. None says military hostilities between the United States and Iran had ended or would permanently cease. PX-5 supplies useful reporting on Iran, Oman, and a U.S. official, but even that reporting describes cancelled nuclear talks and continuing commitment to diplomacy, not definitive peace.
+
+The plaintiff’s opening identified exactly what would be needed: a dated instrument, communique, treaty text, multi-point agreement, or clear public confirmations from both governments before the deadline. The merits record now contains the opposite pattern. It shows U.S. pressure policy, Iranian conditional negotiating positions, Iranian uncertainty about attending the June 15 round, and reported cancellation of that round. Under PX-1, those categories are expressly insufficient.
+
+Accordingly, while these exhibits are the best targeted materials found and submitted, they do not establish the proposition by a preponderance of the evidence. The remaining missing links are material and dispositive: no formal adoption, no written peace deal, no matched official confirmations, no definitive establishment by both governments, and no language of permanent cessation of U.S.-Iran military hostilities by June 15, 2025 at 11:59 p.m. ET. On the present record, the proposition has not been demonstrated.
+
+[defendant] Council members, the merits record is no longer merely empty; it is affirmative evidence against the proposition. The plaintiff has also conceded the essential point: after submitting its best targeted materials, it cannot responsibly say the record meets the burden. The council should hold the plaintiff to that concession and to D-1, the rules file.
+
+D-1 defines a qualifying permanent peace deal. It is not enough that the United States and Iran discussed nuclear issues, wanted a deal, approached a possible deal, or scheduled another round of indirect talks. The proposition requires either a signed or formally adopted written agreement, or clear public confirmation by both governments that such a qualifying agreement had been definitively established. The agreement also must explicitly indicate that military hostilities between the United States and Iran have ended or will permanently cease, or use equivalent lasting-end language. Temporary or non-definitive arrangements do not qualify.
+
+Every exhibit points away from that required sovereign act. D-2, the official White House NSPM-2 capture, is valuable because it is U.S. government material before the deadline. But it states maximum-pressure policy toward Iran: denial of nuclear weapons and missiles, disruption of IRGC resources, and countering Iranian regional aggression. It does not confirm peace. It does not contain a written U.S.-Iran agreement. It does not say U.S.-Iran military hostilities had permanently ended.
+
+D-3, IRNA's June 11 report, is the plaintiff's closest timing evidence before the deadline. Its words are still fatal to the proposition. The Iranian foreign minister described an agreement as within reach if Iran's enrichment right was guaranteed and sanctions were lifted. The same report placed those remarks ahead of a sixth round of indirect talks scheduled for June 15 in Oman. That is conditional negotiation over nuclear-program issues. It is not adoption, not matched public confirmation, and not permanent military-hostilities peace.
+
+D-4 moves one day closer to the deadline and makes the gap larger. IRNA reported on June 14 that Iran had not decided whether to attend the next round of indirect talks with the United States. The spokesperson said the other side had acted in a way that effectively rendered negotiations meaningless and held the U.S. administration responsible for the consequences of Israeli action. A government that has not decided whether to attend talks has not clearly and publicly confirmed a definitive peace agreement.
+
+D-5, Al Jazeera's June 14 report, corroborates the cancellation chain. It reports that Araghchi confirmed the Oman talks would not go ahead, Oman confirmed the talks would not take place, and a senior U.S. official said the United States remained committed to talks and hoped Iran would return to the table. Because D-5 is secondary, the council should weigh it below official texts, but it is consistent with D-3 and D-4: the live issue was whether talks would continue, not whether permanent peace had already been established.
+
+The defense added two official captures to complete the source chain. D-6 is an official Iranian MFA page from June 20, after the deadline. Araghchi described Iran as having been attacked during an ongoing diplomatic process and said Iran was supposed to meet Americans on June 15 to craft a promising agreement for peaceful resolution of nuclear-program issues. That is an official Iranian account that the June 15 event was prospective and unfinished. A planned meeting to craft an agreement is not an agreement already reached.
+
+D-7 is an official White House fact sheet from February 2026. Its later U.S. characterization is also incompatible with plaintiff's proposition: it says that in June, after Iran refused to reach a deal with the United States, President Trump authorized Operation Midnight Hammer. The fact sheet does not specify June 15 as the date of refusal, so it should not be overread for that. But as official U.S. retrospective evidence, it strongly refutes any claim that the United States understood a permanent peace deal with Iran to have been completed by the relevant June 2025 period.
+
+Provenance favors the defense. The best evidence is official: D-2 and D-7 from the White House, D-3 and D-4 from Iranian state media reporting official Iranian positions, and D-6 from Iran's foreign ministry. D-5 adds credible secondary corroboration, including reported Iranian, Omani, and U.S. official context. The sources vary in custody, but they converge on the same sequence: pressure policy, conditional nuclear talks, uncertainty, cancellation, ongoing diplomacy, and later refusal-to-reach-a-deal language. None supplies the missing document or matched confirmations.
+
+What the record proves is narrower than any peace-deal narrative: before the deadline, the parties were negotiating indirectly about nuclear issues through Oman; by June 14, Iran was uncertain about attending and then the next round was reported cancelled; after the deadline, Iran described the June 15 meeting as something that was supposed to craft an agreement; and the United States later described Iran as having refused to reach a deal in June. What it does not prove is dispositive: no written peace instrument, no formal adoption by both governments, no clear public confirmation by both governments, and no permanent cessation of U.S.-Iran military hostilities by June 15, 2025 at 11:59 p.m. ET.
+
+Under a preponderance standard, the council need not find certainty about every diplomatic contact. It only needs to decide whether the qualifying proposition is more likely than not. On this record, the answer is no. The admitted evidence and plaintiff's own merits submission show negotiations, not establishment; conditions, not adoption; cancellation, not confirmation; and nuclear diplomacy, not a permanent peace deal ending military hostilities. The proposition should resolve not demonstrated.
+
+### Rebuttals
+
+(none)
+
+### Surrebuttals
+
+(none)
+
+### Closings
+
+[plaintiff] Council members, the record now answers the proposition, and it does so against demonstration.
+
+The controlling rule is strict. A qualifying permanent peace deal required either a written agreement signed or formally adopted by both the United States and Iran, or clear public confirmation from both governments that such a qualifying agreement had definitively been established. It also had to indicate that military hostilities between the United States and Iran had ended or would permanently cease. Negotiations, statements of progress, temporary arrangements, and non-definitive announcements do not count.
+
+The admitted evidence never crosses that line. The official U.S. material before the deadline is the White House maximum-pressure capture. It shows pressure policy toward Iran, not peace, not adoption, and not a U.S. confirmation of a permanent deal. The Iranian-source material from June 11 says an agreement was within reach if conditions were met and describes a sixth round of indirect talks scheduled for June 15. That is the language of possibility and negotiation, not completed agreement.
+
+The June 14 Iranian-source evidence is even more decisive. Iran had not decided whether to attend the next indirect talks, and its spokesperson said the other side had effectively rendered negotiations meaningless. Al Jazeera’s credible secondary report corroborates the same sequence: Araghchi confirmed the Sunday Oman talks would not go ahead, Oman confirmed they would not take place, and a U.S. official said the United States remained committed to talks. That is not bilateral confirmation that peace had been established. It is evidence that the contemplated talks had failed to occur.
+
+The defendant’s official additions complete the point rather than complicate it. The Iran MFA capture describes the June 15 meeting as something Iran was supposed to attend to craft an agreement during an ongoing diplomatic process. A meeting to craft an agreement is not an agreement already reached. The later White House fact sheet says that in June, after Iran refused to reach a deal with the United States, President Trump authorized military action. That later U.S. characterization should not be overread for a precise June 15 timestamp, but it is incompatible with a record finding that both governments had already confirmed a permanent peace deal by the deadline.
+
+The strongest possible contrary point is that the parties were near some nuclear-program arrangement and that officials discussed peaceful resolution. But the rules do not ask whether diplomacy was promising. They ask whether a permanent peace deal ending U.S.-Iran military hostilities was definitively established by the deadline. The record supplies no written instrument, no formal adoption, no matched official confirmations, no definitive establishment, and no permanent hostilities-cessation language.
+
+The plaintiff submitted the strongest targeted materials found, including official and state-linked sources. Those materials are reliable enough to decide the issue, but they do not prove the proposition. By a preponderance of the evidence, the record shows negotiations, conditions, cancellation, and later refusal-to-reach-a-deal language. It does not show a permanent U.S.-Iran peace deal by June 15, 2025 at 11:59 p.m. ET. The proposition should resolve not demonstrated.
+
+[defendant] Council members, the record is now ready for decision, and the result is straightforward: the proposition is not demonstrated.
+
+The governing rule is D-1. By June 15, 2025 at 11:59 p.m. ET, the plaintiff needed proof that Iran and the United States either signed or formally adopted a written qualifying agreement, or that both governments clearly and publicly confirmed that such an agreement had definitively been established. The agreement also had to indicate a lasting end to military hostilities between the United States and Iran. Negotiations, progress statements, temporary arrangements, and non-definitive announcements do not count.
+
+No evidence in the record satisfies those elements. The official U.S. pre-deadline material, D-2, is maximum-pressure policy. It addresses nuclear weapons, missiles, the IRGC, sanctions pressure, and regional aggression. It is not a peace agreement and not a public U.S. confirmation of one.
+
+The Iranian and reporting evidence near the deadline points the same way. D-3 says an agreement was within reach if enrichment and sanctions conditions were met and describes a sixth round of indirect talks scheduled for June 15. That is conditional possibility, not establishment. D-4, one day before the deadline, says Iran had not decided whether to attend the next round and that negotiations had effectively been rendered meaningless. D-5 reports the scheduled Oman talks were cancelled, with Iran, Oman, and U.S. official context. Those sources prove a live, troubled negotiating process, not a completed permanent peace deal.
+
+The defense exhibits close any remaining gap. D-6 is official Iranian material after the deadline: Araghchi said Iran was in an ongoing diplomatic process and was supposed to meet Americans on June 15 to craft a promising agreement. A meeting to craft an agreement is not an agreement already reached. D-7 is official U.S. material later characterizing June as a period in which Iran refused to reach a deal with the United States before U.S. military action. That is not a precise timestamp for every event in June, but it is incompatible with a finding that both governments had definitively confirmed a permanent peace deal by the deadline.
+
+The strongest contrary inference is that the parties may have been close to a nuclear arrangement or peaceful-resolution framework. But D-1 does not resolve on closeness, hope, or diplomatic direction. It requires a qualifying sovereign act: written adoption or matched public confirmation, and permanent cessation of U.S.-Iran military hostilities. The record supplies none of those missing links.
+
+Provenance also favors a negative finding. The best sources are official U.S. material, Iranian state or official material, and a credible secondary cancellation report. They converge on negotiations, conditions, uncertainty, cancellation, ongoing diplomacy, and later refusal-to-reach-a-deal language. They do not conflict on the decisive point: no exhibit shows a definitive, permanent U.S.-Iran peace deal by June 15, 2025 at 11:59 p.m. ET.
+
+Both sides now effectively agree the burden is not met. The council should decide the proposition on the record, not on what diplomacy might have become. By a preponderance of the evidence, Iran and the United States had not agreed to a qualifying permanent peace deal by the deadline. The proposition should resolve not demonstrated.
+
+## Exhibits
+
+[plaintiff arguments] PX-1: rules.txt
+[plaintiff arguments] PX-2: submitted-evidence-01-plaintiff-ec1077ef26bb.txt
+[plaintiff arguments] PX-3: submitted-evidence-02-plaintiff-ad54253d5a07.txt
+[plaintiff arguments] PX-4: submitted-evidence-03-plaintiff-20710444fe69.txt
+[plaintiff arguments] PX-5: submitted-evidence-04-plaintiff-e3dbc948dd66.txt
+[defendant arguments] D-1: rules.txt
+[defendant arguments] D-2: submitted-evidence-01-plaintiff-ec1077ef26bb.txt
+[defendant arguments] D-3: submitted-evidence-02-plaintiff-ad54253d5a07.txt
+[defendant arguments] D-4: submitted-evidence-03-plaintiff-20710444fe69.txt
+[defendant arguments] D-5: submitted-evidence-04-plaintiff-e3dbc948dd66.txt
+[defendant arguments] D-6: submitted-evidence-05-defendant-ba131554a9d3.txt
+[defendant arguments] D-7: submitted-evidence-06-defendant-66cd7f8ab87c.txt
+
+## Submitted Evidence
+
+[plaintiff arguments] White House NSPM-2 on Iran maximum pressure policy, February 2025 (ev_ec1077ef26bb_submitted-evidence-01-plaintiff-ec1077ef26bb)
+Source: https://www.whitehouse.gov/presidential-actions/2025/02/national-security-presidential-memorandum-nspm-2/
+SHA-256: `ec1077ef26bbe271f38b33c01aad7d2d8e553fd5a86eb4038820333e27786208`
+Bytes: 1532
+Relevance: Official U.S. government policy context before the June 15, 2025 deadline; bears on whether the United States had publicly confirmed a permanent peace deal with Iran by then.
+
+[plaintiff arguments] IRNA: Araqchi says U.S. agreement within reach if enrichment and sanctions conditions met, June 11 2025 (ev_ad54253d5a07_submitted-evidence-02-plaintiff-ad54253d5a07)
+Source: https://en.irna.ir/news/85858952/Agreement-with-U-S-within-reach-if-it-ensures-enrichment-and
+SHA-256: `ad54253d5a07cf0851210ceb1d63f391b679ffcb41130cc6eee9c36cc7d2bea5`
+Bytes: 1585
+Relevance: Iranian state-media report of Iranian foreign minister's position before the deadline; shows negotiations and conditions rather than an already established permanent peace deal.
+
+[plaintiff arguments] IRNA: Iran undecided on attending next U.S. talks, June 14 2025 (ev_20710444fe69_submitted-evidence-03-plaintiff-20710444fe69)
+Source: https://en.irna.ir/news/85862430/Iran-has-not-yet-decided-on-attending-the-next-round-of-indirect
+SHA-256: `20710444fe693b4af506bf40dc450375e0b06dc9fc752dada0099018da384e70`
+Bytes: 1421
+Relevance: Iranian state-media report one day before the deadline; indicates uncertainty and the view that negotiations had become meaningless rather than confirmation of a permanent peace deal.
+
+[plaintiff arguments] Al Jazeera: Iran cancels June 15 U.S. nuclear talks after Israeli attacks, June 14 2025 (ev_e3dbc948dd66_submitted-evidence-04-plaintiff-e3dbc948dd66)
+Source: https://www.aljazeera.com/news/2025/6/14/iran-says-nuclear-talks-with-us-meaningless-as-trump-pushes-for-a-deal
+SHA-256: `e3dbc948dd66e6fd3ddee9c50d911571945f0a10ea217d7c4c039737f1c3211e`
+Bytes: 1514
+Relevance: Credible secondary report with direct statements from Iran, Oman, and U.S. official context; bears directly on whether talks produced a deal by June 15.
+
+[defendant arguments] Iran MFA: Araghchi says June 15 meeting was to craft agreement, not completed deal (ev_ba131554a9d3_submitted-evidence-05-defendant-ba131554a9d3)
+Source: https://en.mfa.gov.ir/portal/newsview/768987
+SHA-256: `ba131554a9d31518f617829b45cfac77e4218dd6501d1d834d393524aa881d31`
+Bytes: 1536
+Relevance: Official Iranian statement after the deadline describing the June 15 U.S.-Iran meeting as intended to craft an agreement during an ongoing diplomatic process, which bears directly against a completed permanent peace deal by the deadline.
+
+[defendant arguments] White House: February 2026 fact sheet says Iran refused to reach deal in June (ev_66cd7f8ab87c_submitted-evidence-06-defendant-66cd7f8ab87c)
+Source: https://www.whitehouse.gov/fact-sheets/2026/02/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-by-the-government-of-iran/
+SHA-256: `66cd7f8ab87c610ee148aab9843d5a382fd2526f4cab2a2f73f52b65ef0d6f15`
+Bytes: 1690
+Relevance: Official U.S. government statement after the deadline describing June 2025 as a refusal to reach a deal before Operation Midnight Hammer, undermining any claim of a permanent U.S.-Iran peace deal by June 15, 2025.
+
+## Technical Reports
+
+[plaintiff] Plaintiff source-search ledger
+Searched official U.S. and Iranian source classes plus credible reporting for proof of a June 15, 2025 U.S.-Iran permanent peace deal. Queries included White House/state.gov Iran peace deal June 15 2025, IRNA/MFA June 15 U.S. Iran talks, and cancellation/suspension terms. Submitted the strongest captures found: official White House maximum-pressure policy, two IRNA reports on conditional talks and uncertainty, and Al Jazeera's cancellation report. No formal instrument, bilateral adoption, or matched official public confirmation of a permanent peace deal was located.
+
+[defendant] Defendant source-chain and gap report
+I inspected the case packet, plaintiff's new exhibits, and targeted official U.S./Iranian source leads. The admitted source chain now includes official U.S. material, Iranian state/official material, and a credible secondary cancellation report. No formal written U.S.-Iran agreement, matched official confirmation, or before-deadline permanent cessation language was found or submitted. The strongest contrary language is prospective and conditional: agreement 'within reach' or a meeting to 'craft' an agreement.
+
+## Council Votes
+
+### Round 1
+
+Tally: 4 not_demonstrated
+
+[C2] not_demonstrated
+The record contains no formal written agreement, no bilateral adoption, and no clear public confirmation from both governments that a qualifying agreement had been definitively established by June 15, 2025 at 11:59 p.m. ET. The evidence shows negotiations, conditional possibilities, uncertainty, and cancellation of talks, but not a permanent peace deal.
+
+[C3] not_demonstrated
+The admitted record contains no written agreement, formal adoption, or matched public confirmation by both governments before the deadline. Evidence shows conditional negotiations, uncertainty, cancellation, and later refusal to reach a deal—none of which meet the standard of a definitive, permanent peace agreement. By a preponderance of the evidence, the proposition is not demonstrated.
+
+[C4] not_demonstrated
+The admitted record contains no written U.S.-Iran agreement, no formal adoption, no matched official confirmations, and no definitive establishment of a permanent peace deal ending military hostilities by June 15, 2025; it instead shows conditional negotiations, uncertainty, and cancellation of the June 15 talks.
+
+[C5] not_demonstrated
+The admitted record contains no written agreement, formal adoption, or matched public confirmation by both governments before the deadline. Evidence shows conditional negotiations, uncertainty, cancellation of the June 15 talks, and later official statements describing only prospective agreement-crafting or refusal to reach a deal, not a completed permanent peace agreement.

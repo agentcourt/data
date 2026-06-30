@@ -1,0 +1,605 @@
+[
+  {
+    "member_id": "C1",
+    "model": "openrouter://openai/gpt-4o-mini",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "openai/gpt-4o-mini",
+      "provider": {
+        "only": [
+          "openai"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "openai",
+        "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+        "equivalence_class_size": 1,
+        "equivalence_key": {
+          "canonical_slug": "openai/gpt-4o-mini",
+          "endpoint_model_id": "openai/gpt-4o-mini",
+          "hugging_face_id": null,
+          "input_modalities": [
+            "file",
+            "image",
+            "text"
+          ],
+          "openrouter_model_id": "openai/gpt-4o-mini",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "unknown"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "openai/gpt-4o-mini",
+            "clusters": [
+              3,
+              1,
+              6,
+              9
+            ],
+            "context_length": 128000,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "OpenAI | openai/gpt-4o-mini",
+            "endpoint_tag": "openai",
+            "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+            "filter_deliberation_score": 0.9444444444444443,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": null,
+            "latency_last_30m": {
+              "p50": 509,
+              "p75": 772,
+              "p90": 1258,
+              "p99": 4127.800000000003
+            },
+            "max_completion_tokens": 16384,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-4o-mini",
+            "pricing_completion": "0.0000006",
+            "pricing_prompt": "0.00000015",
+            "provider_error_count": null,
+            "provider_name": "OpenAI",
+            "quantization": "unknown",
+            "schema_violation_count": null,
+            "source_row": 17,
+            "supported_parameters": [
+              "frequency_penalty",
+              "logit_bias",
+              "logprobs",
+              "max_tokens",
+              "presence_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_logprobs",
+              "top_p",
+              "web_search_options"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 99.91886470048567,
+            "uptime_last_30m": 99.91261300624772
+          }
+        ],
+        "openrouter_model_id": "openai/gpt-4o-mini",
+        "provider_name": "OpenAI",
+        "quantization": "unknown",
+        "representative_endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+        "representative_source_row": 17
+      }
+    }
+  },
+  {
+    "member_id": "C2",
+    "model": "openrouter://qwen/qwen3-30b-a3b-instruct-2507",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "qwen/qwen3-30b-a3b-instruct-2507",
+      "provider": {
+        "only": [
+          "siliconflow/fp8"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "fp8"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "siliconflow/fp8",
+        "endpoint_variant_id": "878f251cd652afe04052941e",
+        "equivalence_class_size": 2,
+        "equivalence_key": {
+          "canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
+          "endpoint_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+          "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "fp8"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
+            "clusters": [
+              4,
+              1,
+              2,
+              9
+            ],
+            "context_length": 262144,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Nebius | qwen/qwen3-30b-a3b-instruct-2507",
+            "endpoint_tag": "nebius/fp8",
+            "endpoint_variant_id": "42c46a82ca6f177e4e47abfd",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+            "latency_last_30m": {
+              "p50": 269,
+              "p75": 350,
+              "p90": 668,
+              "p99": 5141.360000000001
+            },
+            "max_completion_tokens": null,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+            "pricing_completion": "0.0000003",
+            "pricing_prompt": "0.0000001",
+            "provider_error_count": null,
+            "provider_name": "Nebius",
+            "quantization": "fp8",
+            "schema_violation_count": null,
+            "source_row": 9,
+            "supported_parameters": [
+              "frequency_penalty",
+              "max_tokens",
+              "presence_penalty",
+              "repetition_penalty",
+              "response_format",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 98.62074310572861,
+            "uptime_last_30m": 92.5001925001925
+          },
+          {
+            "canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
+            "clusters": [
+              5,
+              1,
+              2,
+              3
+            ],
+            "context_length": 262144,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "SiliconFlow | qwen/qwen3-30b-a3b-instruct-2507",
+            "endpoint_tag": "siliconflow/fp8",
+            "endpoint_variant_id": "878f251cd652afe04052941e",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+            "latency_last_30m": {
+              "p50": 1450,
+              "p75": 2086.5,
+              "p90": 3518,
+              "p99": 23442.5
+            },
+            "max_completion_tokens": 262144,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+            "pricing_completion": "0.0000003",
+            "pricing_prompt": "0.00000009",
+            "provider_error_count": null,
+            "provider_name": "SiliconFlow",
+            "quantization": "fp8",
+            "schema_violation_count": null,
+            "source_row": 16,
+            "supported_parameters": [
+              "frequency_penalty",
+              "max_tokens",
+              "response_format",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 84.2904669037513,
+            "uptime_last_30m": 96.17391304347827
+          }
+        ],
+        "openrouter_model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+        "provider_name": "SiliconFlow",
+        "quantization": "fp8",
+        "representative_endpoint_variant_id": "878f251cd652afe04052941e",
+        "representative_source_row": 16
+      }
+    }
+  },
+  {
+    "member_id": "C3",
+    "model": "openrouter://openai/gpt-oss-120b",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "openai/gpt-oss-120b",
+      "provider": {
+        "only": [
+          "mara"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "mara",
+        "endpoint_variant_id": "432acceb9a85df06ef6a33f9",
+        "equivalence_class_size": 2,
+        "equivalence_key": {
+          "canonical_slug": "openai/gpt-oss-120b",
+          "endpoint_model_id": "openai/gpt-oss-120b",
+          "hugging_face_id": "openai/gpt-oss-120b",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "openai/gpt-oss-120b",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "unknown"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              1,
+              2,
+              0,
+              6
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Mara | openai/gpt-oss-120b",
+            "endpoint_tag": "mara",
+            "endpoint_variant_id": "432acceb9a85df06ef6a33f9",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 1351.5,
+              "p75": 2578,
+              "p90": 5446.5,
+              "p99": 10669.900000000005
+            },
+            "max_completion_tokens": 131072,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.00000075",
+            "pricing_prompt": "0.00000015",
+            "provider_error_count": null,
+            "provider_name": "Mara",
+            "quantization": "unknown",
+            "schema_violation_count": null,
+            "source_row": 10,
+            "supported_parameters": [
+              "include_reasoning",
+              "logprobs",
+              "max_tokens",
+              "reasoning",
+              "response_format",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 83.28101748511905,
+            "uptime_last_30m": 82.5109649122807
+          },
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              1,
+              2,
+              0,
+              4
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Phala | openai/gpt-oss-120b",
+            "endpoint_tag": "phala",
+            "endpoint_variant_id": "867c343b734c3ab98a28cea7",
+            "filter_deliberation_score": 0.9722222222222222,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 3438,
+              "p75": 6811.5,
+              "p90": 9731,
+              "p99": 13551.999999999989
+            },
+            "max_completion_tokens": 131072,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.0000006",
+            "pricing_prompt": "0.00000015",
+            "provider_error_count": null,
+            "provider_name": "Phala",
+            "quantization": "unknown",
+            "schema_violation_count": null,
+            "source_row": 15,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logprobs",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 83.8603939154237,
+            "uptime_last_30m": 90.94138543516874
+          }
+        ],
+        "openrouter_model_id": "openai/gpt-oss-120b",
+        "provider_name": "Mara",
+        "quantization": "unknown",
+        "representative_endpoint_variant_id": "432acceb9a85df06ef6a33f9",
+        "representative_source_row": 10
+      }
+    }
+  },
+  {
+    "member_id": "C4",
+    "model": "openrouter://moonshotai/kimi-k2-thinking",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "moonshotai/kimi-k2-thinking",
+      "provider": {
+        "only": [
+          "atlas-cloud/int4"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "int4"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "atlas-cloud/int4",
+        "endpoint_variant_id": "321d30c399f1e30cd4ba4f07",
+        "equivalence_class_size": 1,
+        "equivalence_key": {
+          "canonical_slug": "moonshotai/kimi-k2-thinking-20251106",
+          "endpoint_model_id": "moonshotai/kimi-k2-thinking",
+          "hugging_face_id": "moonshotai/Kimi-K2-Thinking",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "moonshotai/kimi-k2-thinking",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "int4"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "moonshotai/kimi-k2-thinking-20251106",
+            "clusters": [
+              6,
+              0,
+              5,
+              0
+            ],
+            "context_length": 262144,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "AtlasCloud | moonshotai/kimi-k2-thinking-20251106",
+            "endpoint_tag": "atlas-cloud/int4",
+            "endpoint_variant_id": "321d30c399f1e30cd4ba4f07",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "moonshotai/Kimi-K2-Thinking",
+            "latency_last_30m": {
+              "p50": 718,
+              "p75": 1030.75,
+              "p90": 3530.7000000000007,
+              "p99": 32337.490000000325
+            },
+            "max_completion_tokens": 262144,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "moonshotai/kimi-k2-thinking",
+            "pricing_completion": "0.0000025",
+            "pricing_prompt": "0.0000006",
+            "provider_error_count": null,
+            "provider_name": "AtlasCloud",
+            "quantization": "int4",
+            "schema_violation_count": null,
+            "source_row": 6,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logit_bias",
+              "max_tokens",
+              "min_p",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 98.23232323232324,
+            "uptime_last_30m": null
+          }
+        ],
+        "openrouter_model_id": "moonshotai/kimi-k2-thinking",
+        "provider_name": "AtlasCloud",
+        "quantization": "int4",
+        "representative_endpoint_variant_id": "321d30c399f1e30cd4ba4f07",
+        "representative_source_row": 6
+      }
+    }
+  },
+  {
+    "member_id": "C5",
+    "model": "openrouter://qwen/qwen3-coder-plus",
+    "persona_file": "personas/generic.md",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "qwen/qwen3-coder-plus",
+      "provider": {
+        "only": [
+          "alibaba"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "alibaba",
+        "endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+        "equivalence_class_size": 1,
+        "equivalence_key": {
+          "canonical_slug": "qwen/qwen3-coder-plus",
+          "endpoint_model_id": "qwen/qwen3-coder-plus",
+          "hugging_face_id": null,
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "qwen/qwen3-coder-plus",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "unknown"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "qwen/qwen3-coder-plus",
+            "clusters": [
+              3,
+              0,
+              4,
+              3
+            ],
+            "context_length": 1000000,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Alibaba | qwen/qwen3-coder-plus",
+            "endpoint_tag": "alibaba",
+            "endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+            "filter_deliberation_score": 0.9166666666666666,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "",
+            "latency_last_30m": {
+              "p50": 1294.5,
+              "p75": 1710,
+              "p90": 2368.900000000001,
+              "p99": 4135.479999999999
+            },
+            "max_completion_tokens": 65536,
+            "max_prompt_tokens": 997952,
+            "openrouter_model_id": "qwen/qwen3-coder-plus",
+            "pricing_completion": "0.00000325",
+            "pricing_prompt": "0.00000065",
+            "provider_error_count": null,
+            "provider_name": "Alibaba",
+            "quantization": "unknown",
+            "schema_violation_count": null,
+            "source_row": 22,
+            "supported_parameters": [
+              "max_tokens",
+              "presence_penalty",
+              "response_format",
+              "seed",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 100,
+            "uptime_last_30m": null
+          }
+        ],
+        "openrouter_model_id": "qwen/qwen3-coder-plus",
+        "provider_name": "Alibaba",
+        "quantization": "unknown",
+        "representative_endpoint_variant_id": "9c82a354109f1ca6abfcfbee",
+        "representative_source_row": 22
+      }
+    }
+  }
+]

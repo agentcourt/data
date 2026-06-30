@@ -1,0 +1,13 @@
+Retrieval: Opened CoinDesk article URL via web tool on 2026-06-30 during defendant argument phase.
+
+Source: CoinDesk, "Polymarket Will Launch Token and Airdrop After U.S. Relaunch, CMO Says," by Helene Braun, edited by Nikhilesh De. Page date shown: Oct. 24, 2025, 4:21 p.m.
+
+Extracted page facts:
+- Headline: Polymarket Will Launch Token and Airdrop After U.S. Relaunch, CMO Says.
+- Subheadline: "There will be a token, there will be an airdrop," CMO said as the platform nears an official U.S. return via a regulated exchange.
+- Summary bullet: Polymarket will launch a token and distribute a portion of it to users through an airdrop after it formally relaunches in the United States, its chief marketing officer said.
+- Article text says Polymarket CMO Matthew Modabber said on the Degenz Live podcast: "There will be a token, there will be an airdrop." The article states the launch is not imminent and that Modabber said the company is focused first on returning to the U.S. market.
+- Further article text reports Modabber said: "Right now our core priority is launching in the U.S. and making a big splash there. After we take care of business on the U.S. app and U.S. launch there will be a focus on the token."
+- Article text states Modabber did not offer details on token mechanics or use cases, and describes the upcoming token as part of Polymarket's next phase.
+
+Analysis note: This is secondary reporting, not an official Polymarket source and not direct podcast media. It is probative only for context: in October 2025, reporting on Polymarket's own CMO treated "a token" and "an airdrop" as a future event after U.S. relaunch, which tends to distinguish the ordinary public token-launch concept from pUSD collateral infrastructure.

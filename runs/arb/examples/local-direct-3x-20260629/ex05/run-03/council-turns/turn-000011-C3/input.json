@@ -1,0 +1,1070 @@
+{
+  "schema_version": "aar.council-turn-snapshot.v0",
+  "created_at": "2026-06-30T00:52:44Z",
+  "source_output_dir": "out/local-direct-three-per-ex-only-20260629/ex05/run-03",
+  "case_id": "arb-ex05-20260630003505",
+  "run_id": "run-arb-ex05-20260630003505",
+  "member_id": "C3",
+  "turn_number": 11,
+  "opportunity": {
+    "ID": "deliberation:1:C3",
+    "Role": "council",
+    "Phase": "deliberation",
+    "MayPass": false,
+    "Objective": "council vote by C3",
+    "AllowedTools": [
+      "submit_council_vote"
+    ]
+  },
+  "seat": {
+    "member_id": "C3",
+    "model": "openrouter://openai/gpt-oss-120b",
+    "persona_file": "personas/generic.md",
+    "persona_text": "You are a careful juror and council member.\n\nEvaluate the record faithfully. Decide only from the evidence, the stated rules, and the applicable burden of proof. Do not favor either side, fill gaps with speculation, or ignore uncertainty.\n\nGive weight to reliable sources, direct evidence, consistent reasoning, and clear admissions. Discount unsupported claims, rhetorical force, irrelevant facts, and conclusions that exceed the record.\n\nWhen the evidence supports one answer, state it plainly. When the evidence is incomplete or balanced, say so. Be concise, honest, and exact.",
+    "request_spec": {
+      "endpoint": "openrouter",
+      "model": "openai/gpt-oss-120b",
+      "provider": {
+        "only": [
+          "wandb/fp4"
+        ],
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "quantizations": [
+          "fp4"
+        ]
+      },
+      "request": {},
+      "headers": {
+        "X-OpenRouter-Experimental-Metadata": "enabled"
+      },
+      "persona": "personas/generic.md",
+      "variant_metadata": {
+        "endpoint_tag": "wandb/fp4",
+        "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+        "equivalence_class_size": 4,
+        "equivalence_key": {
+          "canonical_slug": "openai/gpt-oss-120b",
+          "endpoint_model_id": "openai/gpt-oss-120b",
+          "hugging_face_id": "openai/gpt-oss-120b",
+          "input_modalities": [
+            "text"
+          ],
+          "openrouter_model_id": "openai/gpt-oss-120b",
+          "output_modalities": [
+            "text"
+          ],
+          "quantization": "fp4"
+        },
+        "equivalent_endpoints": [
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              5,
+              2,
+              7,
+              6
+            ],
+            "context_length": 128072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "BaseTen | openai/gpt-oss-120b",
+            "endpoint_tag": "baseten/fp4",
+            "endpoint_variant_id": "5b8fd962e720704511d858ef",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 337,
+              "p75": 507.75,
+              "p90": 870,
+              "p99": 2469.339999999993
+            },
+            "max_completion_tokens": 128072,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.0000005",
+            "pricing_prompt": "0.0000001",
+            "provider_error_count": null,
+            "provider_name": "BaseTen",
+            "quantization": "fp4",
+            "schema_violation_count": null,
+            "source_row": 11,
+            "supported_parameters": [
+              "include_reasoning",
+              "max_tokens",
+              "reasoning",
+              "response_format",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 99.99066484942402,
+            "uptime_last_30m": 100
+          },
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              1,
+              2,
+              0,
+              0
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Novita | openai/gpt-oss-120b",
+            "endpoint_tag": "novita/fp4",
+            "endpoint_variant_id": "91f0716b29daa0efa735024a",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 680,
+              "p75": 843,
+              "p90": 1115,
+              "p99": 25671.150000000307
+            },
+            "max_completion_tokens": 32768,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.00000025",
+            "pricing_prompt": "0.00000005",
+            "provider_error_count": null,
+            "provider_name": "Novita",
+            "quantization": "fp4",
+            "schema_violation_count": null,
+            "source_row": 19,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logprobs",
+              "max_tokens",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 98.46333610739835,
+            "uptime_last_30m": 99.80074010816966
+          },
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              1,
+              2,
+              0,
+              6
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "Nebius | openai/gpt-oss-120b",
+            "endpoint_tag": "nebius/fp4",
+            "endpoint_variant_id": "9a61c3f69299805820171815",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 337,
+              "p75": 536,
+              "p90": 1034,
+              "p99": 4111.260000000002
+            },
+            "max_completion_tokens": null,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.0000006",
+            "pricing_prompt": "0.00000015",
+            "provider_error_count": null,
+            "provider_name": "Nebius",
+            "quantization": "fp4",
+            "schema_violation_count": null,
+            "source_row": 21,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "max_tokens",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 96.44624358589685,
+            "uptime_last_30m": 100
+          },
+          {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "clusters": [
+              5,
+              2,
+              0,
+              6
+            ],
+            "context_length": 131072,
+            "context_limit_error_count": null,
+            "deliberation_score": null,
+            "endpoint_name": "WandB | openai/gpt-oss-120b",
+            "endpoint_tag": "wandb/fp4",
+            "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+            "filter_deliberation_score": 1.0,
+            "filter_provider_error_count": 0,
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "latency_last_30m": {
+              "p50": 356,
+              "p75": 518,
+              "p90": 1059.800000000001,
+              "p99": 6987.450000000001
+            },
+            "max_completion_tokens": 131072,
+            "max_prompt_tokens": null,
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "pricing_completion": "0.00000014",
+            "pricing_prompt": "0.00000004",
+            "provider_error_count": null,
+            "provider_name": "WandB",
+            "quantization": "fp4",
+            "schema_violation_count": null,
+            "source_row": 29,
+            "supported_parameters": [
+              "frequency_penalty",
+              "include_reasoning",
+              "logprobs",
+              "max_tokens",
+              "presence_penalty",
+              "reasoning",
+              "repetition_penalty",
+              "response_format",
+              "seed",
+              "stop",
+              "structured_outputs",
+              "temperature",
+              "tool_choice",
+              "tools",
+              "top_k",
+              "top_logprobs",
+              "top_p"
+            ],
+            "timeout_count": null,
+            "uptime_last_1d": 94.75717062587358,
+            "uptime_last_30m": 99.58315769753173
+          }
+        ],
+        "openrouter_model_id": "openai/gpt-oss-120b",
+        "provider_name": "WandB",
+        "quantization": "fp4",
+        "representative_endpoint_variant_id": "d5742e9c2e50f2724df63028",
+        "representative_source_row": 29
+      }
+    }
+  },
+  "policy": {
+    "council_size": 5,
+    "evidence_standard": "Preponderance of the evidence.",
+    "required_votes_for_decision": 3,
+    "max_deliberation_rounds": 3,
+    "max_opening_chars": 5000,
+    "max_argument_chars": 6000,
+    "max_rebuttal_chars": 4000,
+    "max_surrebuttal_chars": 4000,
+    "max_closing_chars": 5000,
+    "max_exhibits_per_filing": 9,
+    "max_exhibits_per_side": 12,
+    "max_exhibit_bytes": 131072,
+    "max_reports_per_filing": 3,
+    "max_reports_per_side": 4,
+    "max_report_title_bytes": 256,
+    "max_report_summary_bytes": 8192,
+    "max_submitted_evidence_per_side": 8,
+    "max_submitted_evidence_bytes": 67108864,
+    "max_direct_submitted_evidence_bytes": 131072,
+    "max_evidence_upload_bytes": 67108864,
+    "max_evidence_chunk_bytes": 65536,
+    "max_evidence_read_bytes": 65536,
+    "max_evidence_reads_per_opportunity": 32,
+    "max_evidence_read_bytes_per_opportunity": 524288
+  },
+  "runtime": {
+    "council_llm_timeout_seconds": 900,
+    "lawyer_turn_timeout_seconds": 900,
+    "max_response_bytes": 131072,
+    "invalid_attempt_limit": 3,
+    "council_max_output_tokens": 4096
+  },
+  "complaint": {
+    "Proposition": "The United States invaded Venezuela between November 3, 2025, and\nJanuary 31, 2026, 11:59 PM ET.  In particular,the United States\ncommenced a military offensive intended to establish control over any\nportion of Venezuela between November 3, 2025, and January 31, 2026,\n11:59 PM ET. Land de facto controlled by Venezuela or the United\nStates as of September 6, 2025, 12:00 PM ET, is considered to the\nsovereign territory of that country. The resolution source is a\nconsensus of credible sources."
+  },
+  "state": {
+    "case": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, the admitted record now proves the proposition by a preponderance.\n\nStart with the date and place. PX-1 is an official U.S. Department of War account of Operation Absolute Resolve. It says that on January 3, 2026, President Trump announced the capture of Nicolas Maduro after an overnight joint U.S. military extraction in Caracas, Venezuela. It quotes Trump saying U.S. armed forces conducted an \"extraordinary military operation in the capital of Venezuela\" against a \"heavily fortified military fortress in the heart of Caracas.\" PX-1 further says the mission involved U.S. joint forces, special operations forces, multiple service branches, extensive intelligence support, integrated air, ground, space, and maritime operations, more than 150 military aircraft providing cover, and a ground-based extraction force in Caracas.\n\nThat is not merely pressure, sanctions, or an offshore interdiction. It is an armed U.S. operation on Venezuelan sovereign land during the covered window. Caracas and a military fortress in its heart were plainly land de facto controlled by Venezuela as of September 6, 2025. The operation therefore occurred on Venezuelan territory for purposes of the proposition.\n\nPX-2 independently corroborates the essential sequence. PBS/AP reports the late-December escalation: tanker seizure, blockade of sanctioned oil tankers, a reported first direct operation on Venezuelan soil, and then, on January 3, a \"large-scale strike\" across Caracas, capture of Maduro and Flores, and their removal from the country. PX-2 preserves caveats about the December 30 drone strike: anonymous sourcing and no Venezuelan acknowledgement. Plaintiff does not need that item alone to carry the case. Its main value is context. The decisive corroborated point is January 3: AP/PBS and the U.S. official account converge on a large U.S. military action in Caracas culminating in capture and removal.\n\nPX-3 supplies the campaign context. CFR describes Operation Southern Spear as a formal U.S. military campaign with expanded air and naval presence, extensive assets including bombers, drones, aircraft carriers, and amphibious assault ships, more than twenty lethal strikes, a blockade, and roughly fifteen thousand U.S. personnel deployed in 2025. CFR also records the adverse framing: the administration described counternarcotics and national security goals. But CFR explains why the scale and intensity raised regime-change concerns and went beyond ordinary law-enforcement interdiction.\n\nThe defense says plaintiff must prove the United States intended to take and hold territory, not merely carry out a raid. That asks for more than the proposition requires. The proposition asks whether the United States commenced a military offensive intended to establish control over any portion of Venezuela. It does not require annexation, permanent occupation, or nationwide governance. \"Any portion\" includes the fortified military objective, the ground extraction site, and the protected air-ground corridor needed to seize and remove the targets. PX-1's own words prove that operational control was not incidental: 150 aircraft launched to cover a ground extraction force; the mission integrated air, ground, space, and maritime operations; and the target was a fortified military fortress in Caracas. A force cannot raid a fortified military objective in a foreign capital, extract the head of government, and fly him to a U.S. warship without establishing control over the relevant portion of territory long enough to dominate resistance and complete the mission.\n\nNor does the law-enforcement label defeat the proposition. PX-1 calls the mission both military and law enforcement. Mixed purpose is enough. The record shows U.S. armed forces, special operations forces, aircraft cover, ground extraction, and a fortress objective. If a country uses military force to control a site in another country so it can seize a leader and remove him, that is a military offensive even if prosecutors later file charges.\n\nThe credible-source consensus requirement is satisfied. PX-1, the official U.S. source, admits the core military facts. PX-2, an independent AP/PBS timeline, corroborates the large-scale Caracas strike, capture, and removal. PX-3, a mainstream foreign-policy source, corroborates the broader formal campaign and scale. These sources differ in emphasis and include caveats, but they do not materially conflict on the decisive facts: by January 3, 2026, the United States was conducting a military campaign that culminated in armed operations in Caracas.\n\nPlaintiff is not asking the council to find that every December action alone was an invasion. Offshore strikes and tanker seizures would be weaker standing by themselves. The admitted evidence instead shows a campaign that crossed the territorial line and then used U.S. military force inside Venezuela's capital. On this record, it is more likely than not that the United States commenced a military offensive intended to establish control over at least a portion of Venezuela within the defined period. The proposition should be found true."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, the defense does not ask you to ignore what the record now shows. The admitted evidence supports that, on January 3, 2026, U.S. forces conducted a military operation in Caracas and captured Maduro and Flores. The defense position is that those facts still do not prove the proposition's distinct requirement: a military offensive intended to establish control over a portion of Venezuela.\n\nPX-1 is plaintiff's strongest exhibit, but its own framing matters. The official U.S. account says the operation was a joint military and law-enforcement mission to capture the Maduros and bring Maduro to justice. It describes a ground extraction force, aircraft cover, intelligence support, and special operations forces. It does not say the United States intended to take, hold, govern, occupy, or otherwise establish territorial control over Caracas, Fort Tiuna, La Guaira, an airfield, or any other place. Plaintiff asks the council to infer territorial-control intent from the fact that a raid required temporary dominance. That inference is not enough.\n\nThe proposition is not satisfied by every use of military force inside another state. It requires an offensive intended to establish control over territory. A special-operations raid necessarily creates temporary tactical control: operators secure a route, suppress threats, and dominate a target long enough to leave. But that is control as an incident of capture, not control as the object of the offensive. If the proposition meant any momentary operational advantage, then every commando raid, hostage rescue, or cross-border arrest would automatically become an invasion intended to control territory. The wording requires more.\n\nPX-2 has the same limitation. It reports a large-scale strike across Caracas, capture, and removal, but it also preserves caveats about the preceding December events: Dec. 29 was not confirmed by Trump as Venezuela, and Dec. 30 rested on anonymous sources and no Venezuelan acknowledgement. The reliable Jan. 3 point proves force and extraction. It still does not identify a territorial-control objective.\n\nPX-3 helps the defense at least as much as plaintiff. CFR describes Operation Southern Spear as a campaign the United States said targeted drug trafficking. It notes expert concern that the campaign's scope may have exceeded counternarcotics and raised regime-change concerns, but concern is not proof of territorial control. More importantly, CFR quotes analysis that after Maduro was gone, repressive elements of the regime were still there and in control, and that Venezuela is hard to control territorially. That is the opposite of a record showing U.S. control over Venezuelan territory as the intended result.\n\nDX-1, the CSIS imagery analysis, directly tests plaintiff's inference. CSIS found the operation was in furtherance of a law-enforcement mission and laser-focused on capture, with minimal collateral damage. It says this was not a shock-and-awe campaign intended to bring the entire Venezuelan security apparatus to heel. U.S. forces attacked air defenses and radars to create a helicopter corridor, but many air-defense sites remained untouched. Venezuela's regular forces and headquarters were not struck. At La Guaira, damage was localized to an air-defense-related target, while main loading docks and nearby naval ships were not targeted. At La Carlota, runways, hangars, and buildings were not struck. At Higuerote, CSIS found no indication of strikes elsewhere at the airfield. This is strong evidence of a narrow capture-and-extraction operation, not an offensive whose object was territorial control.\n\nPlaintiff says “any portion” includes the target site, extraction route, and air-ground corridor. That collapses the element. A corridor created so helicopters can enter and leave is a means of movement. A secured target site is a means of capture. Neither proves the United States commenced an offensive intended to establish control over that place. The admitted record contains no order, statement, after-action account, imagery assessment, or independent consensus saying the objective was to take and hold an identifiable portion of Venezuela.\n\nThe credible-source consensus also fails on the decisive element. PX-1, PX-2, PX-3, and DX-1 converge on military force and capture. They do not converge on territorial-control intent. The official source says bring Maduro to justice. The PBS/AP timeline includes criminal charges. CFR gives campaign context and uncertainty about broader motives. CSIS says limited targets, law-enforcement purpose, and no broad effort to bring Venezuelan security forces to heel.\n\nUnder a preponderance standard, plaintiff must show the proposition is more likely true than not. The record makes one proposition likely: the United States used military force in Caracas to capture and remove Maduro and Flores. But the actual proposition adds a necessary qualifier. On the admitted evidence, it is more likely this was a narrow military-supported law-enforcement extraction with temporary tactical dominance than a military offensive intended to establish territorial control over Venezuela or any portion of it. The council should find the proposition not proven."
+        }
+      ],
+      "caption": "Claimant v. Respondent",
+      "case_id": "arb-ex05-20260630003505",
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the record now leaves a narrow legal question, not a factual mystery. The United States used military force inside Venezuela on January 3, 2026. The issue is whether that operation was intended to establish control over any portion of Venezuela. On a preponderance standard, the answer is yes.\n\nThe credible sources converge on the operational core. PX-1, the official U.S. account, says U.S. armed forces conducted an extraordinary military operation in Caracas, against a heavily fortified military fortress in the heart of the capital. It describes joint forces, special operations forces, multiple service branches, intelligence support, integrated air, ground, space, and maritime operations, more than 150 aircraft providing cover, and a ground extraction force in Caracas. PX-2 independently reports a large-scale strike across Caracas, capture of Maduro and Flores, and their removal from the country. PX-3 places that action within Operation Southern Spear, a formal military campaign with extensive air and naval assets, a blockade, lethal strikes, and a force posture far beyond ordinary policing.\n\nThe defense's own DX-1 confirms rather than erases the decisive territorial facts. CSIS says more than 200 U.S. special operations forces surged through Caracas. It identifies military activity and battle damage at Fort Tiuna Military Complex, La Carlota Air Base, La Guaira Port, and Higuerote Airport. It says U.S. forces attacked air-defense batteries and radars to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference. It says Fort Tiuna damage was tightly focused to isolate and neutralize rapid-response and regime-protection capabilities. Those are not abstractions. They are named Venezuelan places, routes, and defenses that U.S. military force controlled or neutralized so the mission could succeed.\n\nThe defense is right about one thing: this was not a broad occupation of Venezuela. It was surgical. It did not destroy the whole Venezuelan security apparatus. It did not seek to govern Caracas the next morning. But the proposition does not require any of that. It requires a military offensive intended to establish control over any portion of Venezuela. A narrow offensive still qualifies if it deliberately controls the target area, access corridor, and supporting sites inside sovereign territory.\n\nThe defense tries to divide control from objective by saying control was only a means to capture. That distinction is too thin for this proposition. The text asks whether the United States intended to establish control over a portion, not whether permanent territorial control was the final political end. If a military plan calls for suppressing air defenses, opening a helicopter corridor into Venezuela, sending more than 200 special operations forces through Caracas, striking or neutralizing multiple Venezuelan sites, and dominating a fortified military objective long enough to capture and remove the head of government, intended control over those portions is built into the plan. It is not accidental.\n\nThe law-enforcement framing also does not change the operational facts. PX-1 itself uses both military and law-enforcement language. A government can invoke criminal charges and still commence a military offensive. The proposition turns on what the United States did and intended operationally, not on whether it also planned a courtroom afterward.\n\nNor is plaintiff relying on the weaker December events as standalone proof. Tanker seizures, a blockade, and offshore strikes are context. The decisive proof is January 3: U.S. military force on Venezuelan land, in the capital, at defended sites, with air-defense suppression, a controlled helicopter corridor, a ground extraction force, and capture/removal. That satisfies the date window, the territorial element, the military-offensive element, and the \"any portion\" control element.\n\nPreponderance means more likely than not. The defense asks the council to require an explicit source saying \"the objective was territorial control.\" But intent is often proved from operations themselves. Here the official, independent, analytical, and even defense-submitted sources all point in the same direction: the United States deliberately created controlled conditions inside Venezuela to accomplish a military objective. The proposition should be found true."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, the final record proves a serious use of U.S. military force in Venezuela. It does not prove the proposition as written.\n\nThe defense has been direct about what is established. PX-1 and PX-2 support that, on January 3, 2026, U.S. forces operated in Caracas, used military capabilities, and captured and removed Maduro and Flores. DX-1 likewise accepts that more than 200 special operations forces moved through Caracas and that strikes or damage occurred at several Venezuelan sites. The question is not whether the event was dramatic, hostile, or unlawful under some broader theory. The question is whether credible sources show, by a preponderance, that the United States commenced a military offensive intended to establish control over any portion of Venezuela.\n\nPlaintiff's closing reveals the weakness in its proof. It says no occupation, annexation, governance, or broad territorial control is required. Fair enough. But it then treats every operational condition of a raid as the required territorial control: a helicopter corridor, a route, a target area, access to a fortified site. That interpretation makes the control element automatic. Every armed raid requires some degree of security, suppression, access, and movement. If that is enough, the proposition would not need the words “intended to establish control”; it would ask only whether U.S. forces used military force inside Venezuela.\n\nThe admitted sources do not support that rewrite. PX-1, the official U.S. account, describes a joint military and law-enforcement mission to capture the Maduros and bring Maduro to justice. It describes force, aircraft, special operations, and extraction. It does not describe an objective to take, hold, administer, deny, or otherwise control any Venezuelan place as such. PX-2 independently reports strike, capture, and removal, but it too points to criminal charges and does not identify territorial control as the mission object. PX-3 gives campaign context and concern about regime change, yet concern and scale are not the same as proof that this particular operation intended territorial control.\n\nDX-1 is decisive on scope. CSIS describes the operation as a military operation in furtherance of a law-enforcement mission, laser-focused on capture, not a shock-and-awe campaign to bring the Venezuelan security apparatus to heel. It notes that air-defense attacks created a helicopter corridor, but also that many air-defense sites remained untouched; regular forces and headquarters were not struck; port damage was localized; airfield damage was narrow; and existing Venezuelan structures were left largely in place. Those facts show a temporary path to a person, not an intended seizure of territory.\n\nPlaintiff says intent can be inferred from operations. Yes, but the inference must fit the whole record. The best inference from this record is that the United States intended to capture and extract Maduro and Flores, using temporary tactical dominance as a means. Plaintiff asks you to convert that means into the object of the offensive. The record gives no order, official statement, independent report, imagery analysis, or consensus source saying that control of a corridor, compound, port, airfield, or city was itself the intended end.\n\nA short operation could satisfy the proposition if the evidence showed that territorial control was the objective. This record does not. The sources converge on military force and capture. They do not converge on the proposition's necessary control element.\n\nPreponderance requires the proposition to be more likely true than not. Here, the more likely account is narrower: a military-supported law-enforcement extraction, not an invasion intended to establish control over Venezuelan territory. The council should find the proposition not proven."
+        }
+      ],
+      "council_members": [
+        {
+          "failure_message": "Council member C1 agent process exited before completing opportunity deliberation:1:C1.",
+          "failure_opportunity_id": "deliberation:1:C1",
+          "failure_reason": "agent_exited",
+          "member_id": "C1",
+          "model": "openrouter://relace/relace-search",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C2",
+          "model": "openrouter://qwen/qwen3-30b-a3b-instruct-2507",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C3",
+          "model": "openrouter://openai/gpt-oss-120b",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C4",
+          "model": "openrouter://x-ai/grok-4.20-multi-agent",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C5",
+          "model": "openrouter://mistralai/mistral-medium-3-5",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        }
+      ],
+      "council_votes": [
+        {
+          "member_id": "C2",
+          "rationale": "The admitted evidence establishes a military offensive by the United States in Caracas on January 3, 2026, involving a ground extraction force, over 150 aircraft, and control of specific sites, including Fort Tiuna and air corridors, which constituted temporary but intentional control over portions of Venezuelan territory. This satisfies the proposition's requirement of establishing control over any portion, even temporarily, for mission completion.",
+          "round": 1,
+          "vote": "demonstrated"
+        }
+      ],
+      "deliberation_round": 1,
+      "failure": null,
+      "offered_evidence": [
+        {
+          "evidence_id": "ev_e0e0fb921ec9_submitted-evidence-01-plaintiff-e0e0fb921ec9",
+          "label": "PX-1: Official U.S. account of Operation Absolute Resolve in Caracas",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_7d30fcd0d9f7_submitted-evidence-02-plaintiff-7d30fcd0d9f7",
+          "label": "PX-2: PBS/AP escalation timeline and Jan. 3 Caracas strike",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_051e811bed13_submitted-evidence-03-plaintiff-051e811bed13",
+          "label": "PX-3: CFR Operation Southern Spear campaign context",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_383c84572ac8_submitted-evidence-04-defendant-383c84572ac8",
+          "label": "DX-1: CSIS imagery analysis showing narrow capture-focused operation",
+          "phase": "arguments",
+          "role": "defendant"
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, the proposition is not decided by labels. The United States need not have declared a war or announced an occupation for this proposition to be true. The question is whether, during the defined window, credible sources show that the United States began a military offensive whose purpose included establishing control over any part of Venezuelan territory, even if that control was temporary, tactical, or limited to the area needed to accomplish the operation.\n\nAt the opening stage the record is empty. There is no admitted case packet, no submitted source, and no exhibit yet. That matters: plaintiff is not asking the council to treat an unadmitted article, URL, or search result as proof. But the empty record also clarifies what the case will turn on once evidence admission opens.\n\nPlaintiff expects the decisive proof to concern the sequence from the late-2025 military buildup and blockade through the January 2026 operation in Caracas. The core factual questions are straightforward. Did U.S. forces enter or strike Venezuelan territory during the window? Did they use military force, rather than only sanctions, diplomatic pressure, or ordinary criminal process? Did the operation require U.S. control over Venezuelan land, airspace, bases, ports, compounds, corridors, or other locations for the time needed to seize objectives and remove persons or assets? And do credible sources converge on that account?\n\nThe plaintiff theory is that the clearest qualifying event will be the January 2026 Caracas operation if the admitted evidence establishes what the public source trail appears to make central: a U.S. armed operation inside Venezuela, directed at the Venezuelan head of government, supported by broader military pressure, and carried out by controlling the target area long enough to accomplish extraction and removal. That is an offensive in ordinary terms. It is also control over a portion of Venezuela if U.S. forces dominated a compound, base, port, route, airspace, or strike zone against Venezuela's will to carry out the mission.\n\nThe preceding December events will matter as context, but plaintiff will not overclaim them. A naval buildup, threats, sanctions, tanker seizures, or strikes at sea may show pressure and intent, yet they do not by themselves prove control over Venezuelan land. A covert or drone action on Venezuelan soil may help establish that the offensive had already crossed from pressure into territorial force, but its weight will depend on source quality, attribution, and exact location. The strongest case will be built from primary or near-primary sources, dated reports, official statements, and corroborating accounts that fix the geography, sequence, actors, and purpose.\n\nPlaintiff also anticipates the main defense. The defense will say this was not an invasion but a law-enforcement extraction or counter-narcotics action; that temporary tactical dominance is not territorial control; and that some sources use uncertain language or rely on classified officials. Those are real weight questions. They are not fatal if admitted evidence shows U.S. military forces used armed force inside Venezuelan sovereign territory to seize and control an operational area for the mission. The proposition asks for an offensive intended to establish control over any portion, not annexation, permanent occupation, or full governmental replacement.\n\nWhat would defeat plaintiff's burden is equally clear: if the admitted evidence shows only offshore interdictions, threats, sanctions, or a consensual Venezuelan-assisted arrest without U.S. control of Venezuelan territory, plaintiff should lose. If credible sources materially conflict on whether U.S. forces operated inside Venezuela or whether any territorial control occurred, that conflict must be weighed under the preponderance standard. But if the record later shows a consensus that U.S. forces conducted a large-scale armed operation in Caracas during the window, controlled the relevant site or movement corridor, and removed Venezuelan leadership or other objectives by force, the proposition is more likely true than not.\n\nSo plaintiff's opening position is narrow and evidence-disciplined: this case will be proven, if at all, by admitted sources establishing the January 2026 operation and its late-2025 buildup as a military offensive into Venezuelan territory. The council should focus less on whether a source uses the word \"invasion\" and more on the operational facts: armed U.S. force, Venezuelan territory, control of a specific portion, intent, timing, and credible-source consensus."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defense opening begins with the record as it exists, not with headlines or assumptions. The current record contains the proposition and the plaintiff's opening. It contains no admitted case packet, no source document, no exhibit, and no evidence item. That does not end the case, because evidence admission comes later, but it matters for how the council should frame the burden: plaintiff must prove the qualifying facts by a consensus of credible sources, not by a plausible narrative about what may have happened.\n\nThe proposition is narrower than the word \"invasion\" in political debate. It asks whether, between November 3, 2025 and January 31, 2026, the United States commenced a military offensive intended to establish control over any portion of Venezuela. The defense expects the central dispute will not be whether the United States applied pressure to Venezuela, used force in the region, or even whether U.S. personnel later became involved in a Caracas operation. The central dispute is whether the admitted evidence proves the specific required intent and object: control over Venezuelan territory.\n\nPlaintiff's opening fairly identifies the same likely battleground: a January 2026 Caracas operation, preceded by military pressure. But even on plaintiff's own framing, many events would not satisfy the proposition. Naval deployments, sanctions, threats, offshore interdictions, seizures at sea, indictments, and diplomatic coercion are not control of Venezuelan territory. Strikes or electronic operations may show force, but still leave open the target, duration, legal character, and purpose. A raid to seize or extract a person may require temporary tactical dominance, force protection, or transit through airspace; those facts, if later proved, do not automatically become an offensive intended to establish territorial control.\n\nThat distinction will decide the case. Control of a portion of Venezuela means more than a momentary ability to move through or suppress resistance at a point. It requires evidence that the United States meant to take and hold some identifiable place, route, base, port, compound, airfield, or other portion of territory as an object of the military offensive. If later evidence shows only a tightly bounded law-enforcement or special operations mission aimed at capture, removal, or destruction of specific targets, plaintiff still must bridge the gap between operational force and territorial control.\n\nThe defense will also test source quality and consensus. The council should ask whether the same credible sources agree on the qualifying facts, or merely agree that a dramatic U.S. operation occurred. Do sources separate official statements from anonymous operational accounts? Do they fix the date and location? Do they describe Venezuelan consent, non-consent, or later cooperation? Do they identify land actually controlled, how long it was controlled, by whom, and for what purpose? Do imagery or official reports show broad occupation, or instead limited strikes and a narrow extraction? Do legal commentators' conclusions rest on international-law labels, or on the proposition's specific control requirement?\n\nThe defense does not need to prove that nothing happened. Plaintiff must prove that the thing that happened fits this proposition. If later admitted sources show an armed U.S. campaign to seize and hold Venezuelan territory, the council can weigh that evidence. But if the record shows pressure, targeted strikes, or an extraction without a territorial-control objective, the proposition is not more likely true than not.\n\nSo the defense asks the council to keep the elements separate: force is not automatically invasion; presence is not automatically control; operational control for seconds or minutes is not automatically territorial control as an intended object; and political descriptions are not a substitute for admitted proof. On the present record, plaintiff has no evidence. In the next phases, the decisive sources should be official statements and reports, independent accounts, imagery, and any primary records that identify the mission's objective, geography, duration, and custody chain. Until those sources are admitted and tested, the only sound opening position is that plaintiff has a substantial missing link to prove."
+        }
+      ],
+      "phase": "deliberation",
+      "proposition": "The United States invaded Venezuela between November 3, 2025, and\nJanuary 31, 2026, 11:59 PM ET.  In particular,the United States\ncommenced a military offensive intended to establish control over any\nportion of Venezuela between November 3, 2025, and January 31, 2026,\n11:59 PM ET. Land de facto controlled by Venezuela or the United\nStates as of September 6, 2025, 12:00 PM ET, is considered to the\nsovereign territory of that country. The resolution source is a\nconsensus of credible sources.",
+      "rebuttals": [
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "text": "Council members, the defense rebuttal turns on one move: it converts \"control over any portion\" into \"take and hold territory as the ultimate objective.\" That is not the proposition.\n\nThe proposition asks whether the United States commenced a military offensive intended to establish control over any portion of Venezuela. It does not say permanent control, occupation, annexation, governance, or control over Venezuela as a whole. The phrase \"any portion\" is doing work. If U.S. forces deliberately controlled a fortress, target area, air-defense corridor, port site, air base access point, or extraction route inside Venezuela to complete an armed operation, that is control over a portion.\n\nThe defense's own exhibit, DX-1, reinforces rather than defeats that point. CSIS says more than 200 U.S. special operations forces surged through Caracas to capture Maduro and Flores. It identifies military activity and battle damage at Fort Tiuna Military Complex, La Carlota Air Base, La Guaira Port, and Higuerote Airport. It says U.S. forces attacked air-defense batteries and radars to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference. That is not just \"momentary operational advantage\" in the abstract. It is a planned, forcible creation of U.S.-controlled access and target conditions inside Venezuela.\n\nDX-1 is strongest for defendant only against an argument plaintiff has not made: that the United States launched a broad shock-and-awe campaign to bring the entire Venezuelan security apparatus to heel. Plaintiff's case is narrower. PX-1 proves an official U.S. armed-forces operation in the capital, against a fortified military fortress in the heart of Caracas, using joint forces, special operations forces, integrated air/ground/space/maritime operations, more than 150 aircraft, and a ground extraction force. PX-2 independently reports a large-scale strike across Caracas and removal of Maduro and Flores. DX-1 adds that over 200 special operations forces surged through Caracas and that multiple Venezuelan military or transport sites were struck or affected to enable helicopter entry and target access.\n\nCalling the operation surgical does not make it non-offensive. A surgical strike is still a strike. Calling the mission law-enforcement-supported does not erase the admitted military facts. A capture mission can be the object of an offensive, and the control needed to execute it can be the intended control over a portion. The relevant question is not whether the United States meant to govern Caracas the next morning. It is whether the United States intended to establish control over some Venezuelan place or corridor long enough to execute its military objective. The record says yes.\n\nThe defense also says sources do not converge on territorial-control intent. But the convergence is operational: official U.S. admissions, AP/PBS reporting, CFR campaign context, and CSIS imagery analysis all point to U.S. military force inside Venezuela, in Caracas, against defended sites, with air-defense suppression and ground-force movement to seize and remove the target. From those facts, the preponderant inference is not a mere arrest; it is a military offensive that deliberately created control over portions of Venezuelan territory.\n\nThe defense is right that the December offshore actions alone would not be enough and that DX-1 narrows the operation's scope. Those concessions do not decide this proposition. A narrow invasion is still an invasion if it intentionally controls any portion of sovereign territory by force. On this record, January 3 satisfies that standard."
+        }
+      ],
+      "resolution": "",
+      "status": "active",
+      "submitted_evidence": [
+        {
+          "evidence_id": "ev_e0e0fb921ec9_submitted-evidence-01-plaintiff-e0e0fb921ec9",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Official U.S. source describing the January 3, 2026 military operation in Caracas, Venezuela, including location, military character, planning, special operations forces, ground extraction force, and aircraft support.",
+          "retrieval_timestamp": "2026-06-30T00:44:00Z",
+          "role": "plaintiff",
+          "sha256": "e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687",
+          "size_bytes": 3556,
+          "source_description": "U.S. Department of War / Pentagon News article by Matthew Olay, published January 3, 2026, captured as relevant text extract during AAR plaintiff merits investigation.",
+          "source_url": "https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/",
+          "title": "Official U.S. Department of War account of Operation Absolute Resolve in Caracas"
+        },
+        {
+          "evidence_id": "ev_7d30fcd0d9f7_submitted-evidence-02-plaintiff-7d30fcd0d9f7",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Independent timeline corroborating December 2025 blockade/covert strike context and January 3, 2026 large-scale U.S. strike across Caracas, capture of Maduro and Flores, and removal from Venezuela.",
+          "retrieval_timestamp": "2026-06-30T00:45:00Z",
+          "role": "plaintiff",
+          "sha256": "7d30fcd0d9f704222f94166d25b9a1221e206e971b247a0beb4c9cee7ba25372",
+          "size_bytes": 3389,
+          "source_description": "PBS NewsHour page carrying Associated Press timeline by Regina Garcia Cano and AP contributors, captured as relevant text extract during plaintiff merits investigation.",
+          "source_url": "https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-escalation-against-venezuela-leading-to-maduros-capture",
+          "title": "PBS/AP timeline of U.S. escalation leading to Maduro capture"
+        },
+        {
+          "evidence_id": "ev_051e811bed13_submitted-evidence-03-plaintiff-051e811bed13",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Credible secondary analysis describing Operation Southern Spear, the military buildup, blockade context, counternarcotics framing, and concern that the campaign went beyond counternarcotics toward regime change/control questions.",
+          "retrieval_timestamp": "2026-06-30T00:46:00Z",
+          "role": "plaintiff",
+          "sha256": "051e811bed130472bf2072ff5316764473d68daa0df391ba0a3dd5da10dc88f0",
+          "size_bytes": 4001,
+          "source_description": "Council on Foreign Relations explainer, captured as relevant text extract during plaintiff merits investigation.",
+          "source_url": "https://www.cfr.org/articles/operation-southern-spear-us-military-campaign-targeting-venezuela",
+          "title": "Council on Foreign Relations explainer on Operation Southern Spear and Venezuela"
+        },
+        {
+          "evidence_id": "ev_383c84572ac8_submitted-evidence-04-defendant-383c84572ac8",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Independent imagery-based analysis limiting the scope and objective of the January 3, 2026 operation; relevant to whether the operation was intended to establish territorial control or was narrowly focused on capture/extraction with limited target sets.",
+          "retrieval_timestamp": "2026-06-30T00:55:30Z",
+          "role": "defendant",
+          "sha256": "383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17",
+          "size_bytes": 4294,
+          "source_description": "Center for Strategic and International Studies commentary by Ryan C. Berg, Mark F. Cancian, Joseph S. Bermudez Jr., Jennifer Jun, Henry Ziemer, and Chris H. Park, published January 9, 2026; captured as relevant text extract during defendant merits investigation.",
+          "source_url": "https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe",
+          "title": "CSIS imagery analysis: surgical strike, not shock and awe"
+        }
+      ],
+      "surrebuttals": [
+        {
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Council members, plaintiff's rebuttal usefully narrows the dispute to one question: does temporary operational control needed to conduct a raid equal a military offensive intended to establish control over territory? The defense answer remains no.\n\nPlaintiff says the proposition does not require permanent control, occupation, annexation, or governance. Agreed. But the proposition still requires an offensive intended to establish control over a portion of Venezuela. Plaintiff's reading effectively deletes that intent requirement. Under plaintiff's theory, any armed force that secures a door, suppresses an air-defense battery, clears a route, or protects helicopters has “controlled a portion” and therefore invaded. That cannot be the limiting principle the proposition supplies.\n\nDX-1 does not prove plaintiff's territorial-control theory; it shows why the theory is overbroad. CSIS says air-defense batteries and radars were attacked to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference. That is a means of access and force protection. It is not evidence that the United States intended to establish control over the corridor as a territorial object. CSIS likewise says many air-defense sites remained untouched, regular forces and headquarters were not struck, port damage was localized, airport strikes were narrow, and the whole picture was a law-enforcement mission laser-focused on capture. Those details are hard to square with an intent to establish territorial control; they fit a temporary raid.\n\nPlaintiff also relies on the phrase “more than 200 U.S. special operations forces surged through Caracas.” But movement through a city is not control of the city. Even control of a target room, bunker entrance, or landing zone for the time needed to seize a person is tactical control incidental to the capture. The admitted sources repeatedly describe the objective as capture, extraction, and bringing Maduro to justice. None identifies a U.S. plan to take, hold, administer, or deny Venezuela control of any place as the object of the operation.\n\nThis distinction does not require permanent occupation. A short operation could satisfy the proposition if the evidence showed that control of a port, airfield, compound, or corridor was itself the intended object. The record does not show that. It shows a military-supported law-enforcement raid using force to reach and remove two people.\n\nPlaintiff's “any portion” argument proves too much. If accepted, it would make the control element automatic whenever a military raid succeeds. The council should instead give effect to the whole proposition: military force inside Venezuela is not enough; intended territorial control must be proven by credible-source consensus. On this record, that element remains an inference plaintiff asks the council to supply, not a fact the sources establish."
+        }
+      ],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "At phase start the record contained no evidence. Plaintiff submitted three compact text captures with provenance: an official U.S. Department of War account for primary admissions, a PBS/AP chronology for independent corroboration and sequence, and a CFR explainer for campaign context and adverse counternarcotics framing. The strongest proof is the January 3 Caracas operation; December blockade and covert-action items are used as context, not as standalone proof. Limitations: captures are relevant text extracts rather than full HTML/media; the Dec. 30 Venezuelan-soil item in PX-2 relies on anonymous sourcing and non-acknowledgement; PX-3 is secondary analysis. These limits do not defeat the core official and independent convergence on armed U.S. force in Caracas.",
+          "title": "Plaintiff source-chain and weight assessment"
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "summary": "The defense inspected the three plaintiff text extracts by metadata and byte-range read. They support force, location, and capture, but not an explicit objective to take or hold territory. The defense then submitted CSIS imagery-based analysis as DX-1 because it specifically addresses scope and objective: limited target set, helicopter corridor, many air-defense sites untouched, no broad infrastructure strikes, and a law-enforcement/capture focus. Remaining gap: no admitted source identifies an order or consensus that territorial control was the operation's intended object rather than an incidental tactical condition of extraction.",
+          "title": "Evidence and Source-Weight Analysis"
+        }
+      ]
+    },
+    "forum_name": "Agent Arbitration",
+    "policy": {
+      "council_size": 5,
+      "evidence_standard": "Preponderance of the evidence.",
+      "max_argument_chars": 6000,
+      "max_closing_chars": 5000,
+      "max_deliberation_rounds": 3,
+      "max_exhibit_bytes": 131072,
+      "max_exhibits_per_filing": 9,
+      "max_exhibits_per_side": 12,
+      "max_opening_chars": 5000,
+      "max_rebuttal_chars": 4000,
+      "max_report_summary_bytes": 8192,
+      "max_report_title_bytes": 256,
+      "max_reports_per_filing": 3,
+      "max_reports_per_side": 4,
+      "max_submitted_evidence_bytes": 67108864,
+      "max_submitted_evidence_per_side": 8,
+      "max_surrebuttal_chars": 4000,
+      "required_votes_for_decision": 3
+    },
+    "schema_version": "v1",
+    "state_version": 15
+  },
+  "prompt": "Role: council member\nMember ID: C3\nDeliberation round: 1\nProposition: The United States invaded Venezuela between November 3, 2025, and\nJanuary 31, 2026, 11:59 PM ET.  In particular,the United States\ncommenced a military offensive intended to establish control over any\nportion of Venezuela between November 3, 2025, and January 31, 2026,\n11:59 PM ET. Land de facto controlled by Venezuela or the United\nStates as of September 6, 2025, 12:00 PM ET, is considered to the\nsovereign territory of that country. The resolution source is a\nconsensus of credible sources.\nStandard of evidence: Preponderance of the evidence.\nPersona:\nYou are a careful juror and council member.\n\nEvaluate the record faithfully. Decide only from the evidence, the stated rules, and the applicable burden of proof. Do not favor either side, fill gaps with speculation, or ignore uncertainty.\n\nGive weight to reliable sources, direct evidence, consistent reasoning, and clear admissions. Discount unsupported claims, rhetorical force, irrelevant facts, and conclusions that exceed the record.\n\nWhen the evidence supports one answer, state it plainly. When the evidence is incomplete or balanced, say so. Be concise, honest, and exact.\n\nRecord:\nOpenings:\n[plaintiff] Council members, the proposition is not decided by labels. The United States need not have declared a war or announced an occupation for this proposition to be true. The question is whether, during the defined window, credible sources show that the United States began a military offensive whose purpose included establishing control over any part of Venezuelan territory, even if that control was temporary, tactical, or limited to the area needed to accomplish the operation.\n\nAt the opening stage the record is empty. There is no admitted case packet, no submitted source, and no exhibit yet. That matters: plaintiff is not asking the council to treat an unadmitted article, URL, or search result as proof. But the empty record also clarifies what the case will turn on once evidence admission opens.\n\nPlaintiff expects the decisive proof to concern the sequence from the late-2025 military buildup and blockade through the January 2026 operation in Caracas. The core factual questions are straightforward. Did U.S. forces enter or strike Venezuelan territory during the window? Did they use military force, rather than only sanctions, diplomatic pressure, or ordinary criminal process? Did the operation require U.S. control over Venezuelan land, airspace, bases, ports, compounds, corridors, or other locations for the time needed to seize objectives and remove persons or assets? And do credible sources converge on that account?\n\nThe plaintiff theory is that the clearest qualifying event will be the January 2026 Caracas operation if the admitted evidence establishes what the public source trail appears to make central: a U.S. armed operation inside Venezuela, directed at the Venezuelan head of government, supported by broader military pressure, and carried out by controlling the target area long enough to accomplish extraction and removal. That is an offensive in ordinary terms. It is also control over a portion of Venezuela if U.S. forces dominated a compound, base, port, route, airspace, or strike zone against Venezuela's will to carry out the mission.\n\nThe preceding December events will matter as context, but plaintiff will not overclaim them. A naval buildup, threats, sanctions, tanker seizures, or strikes at sea may show pressure and intent, yet they do not by themselves prove control over Venezuelan land. A covert or drone action on Venezuelan soil may help establish that the offensive had already crossed from pressure into territorial force, but its weight will depend on source quality, attribution, and exact location. The strongest case will be built from primary or near-primary sources, dated reports, official statements, and corroborating accounts that fix the geography, sequence, actors, and purpose.\n\nPlaintiff also anticipates the main defense. The defense will say this was not an invasion but a law-enforcement extraction or counter-narcotics action; that temporary tactical dominance is not territorial control; and that some sources use uncertain language or rely on classified officials. Those are real weight questions. They are not fatal if admitted evidence shows U.S. military forces used armed force inside Venezuelan sovereign territory to seize and control an operational area for the mission. The proposition asks for an offensive intended to establish control over any portion, not annexation, permanent occupation, or full governmental replacement.\n\nWhat would defeat plaintiff's burden is equally clear: if the admitted evidence shows only offshore interdictions, threats, sanctions, or a consensual Venezuelan-assisted arrest without U.S. control of Venezuelan territory, plaintiff should lose. If credible sources materially conflict on whether U.S. forces operated inside Venezuela or whether any territorial control occurred, that conflict must be weighed under the preponderance standard. But if the record later shows a consensus that U.S. forces conducted a large-scale armed operation in Caracas during the window, controlled the relevant site or movement corridor, and removed Venezuelan leadership or other objectives by force, the proposition is more likely true than not.\n\nSo plaintiff's opening position is narrow and evidence-disciplined: this case will be proven, if at all, by admitted sources establishing the January 2026 operation and its late-2025 buildup as a military offensive into Venezuelan territory. The council should focus less on whether a source uses the word \"invasion\" and more on the operational facts: armed U.S. force, Venezuelan territory, control of a specific portion, intent, timing, and credible-source consensus.\n\n[defendant] Council members, the defense opening begins with the record as it exists, not with headlines or assumptions. The current record contains the proposition and the plaintiff's opening. It contains no admitted case packet, no source document, no exhibit, and no evidence item. That does not end the case, because evidence admission comes later, but it matters for how the council should frame the burden: plaintiff must prove the qualifying facts by a consensus of credible sources, not by a plausible narrative about what may have happened.\n\nThe proposition is narrower than the word \"invasion\" in political debate. It asks whether, between November 3, 2025 and January 31, 2026, the United States commenced a military offensive intended to establish control over any portion of Venezuela. The defense expects the central dispute will not be whether the United States applied pressure to Venezuela, used force in the region, or even whether U.S. personnel later became involved in a Caracas operation. The central dispute is whether the admitted evidence proves the specific required intent and object: control over Venezuelan territory.\n\nPlaintiff's opening fairly identifies the same likely battleground: a January 2026 Caracas operation, preceded by military pressure. But even on plaintiff's own framing, many events would not satisfy the proposition. Naval deployments, sanctions, threats, offshore interdictions, seizures at sea, indictments, and diplomatic coercion are not control of Venezuelan territory. Strikes or electronic operations may show force, but still leave open the target, duration, legal character, and purpose. A raid to seize or extract a person may require temporary tactical dominance, force protection, or transit through airspace; those facts, if later proved, do not automatically become an offensive intended to establish territorial control.\n\nThat distinction will decide the case. Control of a portion of Venezuela means more than a momentary ability to move through or suppress resistance at a point. It requires evidence that the United States meant to take and hold some identifiable place, route, base, port, compound, airfield, or other portion of territory as an object of the military offensive. If later evidence shows only a tightly bounded law-enforcement or special operations mission aimed at capture, removal, or destruction of specific targets, plaintiff still must bridge the gap between operational force and territorial control.\n\nThe defense will also test source quality and consensus. The council should ask whether the same credible sources agree on the qualifying facts, or merely agree that a dramatic U.S. operation occurred. Do sources separate official statements from anonymous operational accounts? Do they fix the date and location? Do they describe Venezuelan consent, non-consent, or later cooperation? Do they identify land actually controlled, how long it was controlled, by whom, and for what purpose? Do imagery or official reports show broad occupation, or instead limited strikes and a narrow extraction? Do legal commentators' conclusions rest on international-law labels, or on the proposition's specific control requirement?\n\nThe defense does not need to prove that nothing happened. Plaintiff must prove that the thing that happened fits this proposition. If later admitted sources show an armed U.S. campaign to seize and hold Venezuelan territory, the council can weigh that evidence. But if the record shows pressure, targeted strikes, or an extraction without a territorial-control objective, the proposition is not more likely true than not.\n\nSo the defense asks the council to keep the elements separate: force is not automatically invasion; presence is not automatically control; operational control for seconds or minutes is not automatically territorial control as an intended object; and political descriptions are not a substitute for admitted proof. On the present record, plaintiff has no evidence. In the next phases, the decisive sources should be official statements and reports, independent accounts, imagery, and any primary records that identify the mission's objective, geography, duration, and custody chain. Until those sources are admitted and tested, the only sound opening position is that plaintiff has a substantial missing link to prove.\n\nArguments:\n[plaintiff] Council members, the admitted record now proves the proposition by a preponderance.\n\nStart with the date and place. PX-1 is an official U.S. Department of War account of Operation Absolute Resolve. It says that on January 3, 2026, President Trump announced the capture of Nicolas Maduro after an overnight joint U.S. military extraction in Caracas, Venezuela. It quotes Trump saying U.S. armed forces conducted an \"extraordinary military operation in the capital of Venezuela\" against a \"heavily fortified military fortress in the heart of Caracas.\" PX-1 further says the mission involved U.S. joint forces, special operations forces, multiple service branches, extensive intelligence support, integrated air, ground, space, and maritime operations, more than 150 military aircraft providing cover, and a ground-based extraction force in Caracas.\n\nThat is not merely pressure, sanctions, or an offshore interdiction. It is an armed U.S. operation on Venezuelan sovereign land during the covered window. Caracas and a military fortress in its heart were plainly land de facto controlled by Venezuela as of September 6, 2025. The operation therefore occurred on Venezuelan territory for purposes of the proposition.\n\nPX-2 independently corroborates the essential sequence. PBS/AP reports the late-December escalation: tanker seizure, blockade of sanctioned oil tankers, a reported first direct operation on Venezuelan soil, and then, on January 3, a \"large-scale strike\" across Caracas, capture of Maduro and Flores, and their removal from the country. PX-2 preserves caveats about the December 30 drone strike: anonymous sourcing and no Venezuelan acknowledgement. Plaintiff does not need that item alone to carry the case. Its main value is context. The decisive corroborated point is January 3: AP/PBS and the U.S. official account converge on a large U.S. military action in Caracas culminating in capture and removal.\n\nPX-3 supplies the campaign context. CFR describes Operation Southern Spear as a formal U.S. military campaign with expanded air and naval presence, extensive assets including bombers, drones, aircraft carriers, and amphibious assault ships, more than twenty lethal strikes, a blockade, and roughly fifteen thousand U.S. personnel deployed in 2025. CFR also records the adverse framing: the administration described counternarcotics and national security goals. But CFR explains why the scale and intensity raised regime-change concerns and went beyond ordinary law-enforcement interdiction.\n\nThe defense says plaintiff must prove the United States intended to take and hold territory, not merely carry out a raid. That asks for more than the proposition requires. The proposition asks whether the United States commenced a military offensive intended to establish control over any portion of Venezuela. It does not require annexation, permanent occupation, or nationwide governance. \"Any portion\" includes the fortified military objective, the ground extraction site, and the protected air-ground corridor needed to seize and remove the targets. PX-1's own words prove that operational control was not incidental: 150 aircraft launched to cover a ground extraction force; the mission integrated air, ground, space, and maritime operations; and the target was a fortified military fortress in Caracas. A force cannot raid a fortified military objective in a foreign capital, extract the head of government, and fly him to a U.S. warship without establishing control over the relevant portion of territory long enough to dominate resistance and complete the mission.\n\nNor does the law-enforcement label defeat the proposition. PX-1 calls the mission both military and law enforcement. Mixed purpose is enough. The record shows U.S. armed forces, special operations forces, aircraft cover, ground extraction, and a fortress objective. If a country uses military force to control a site in another country so it can seize a leader and remove him, that is a military offensive even if prosecutors later file charges.\n\nThe credible-source consensus requirement is satisfied. PX-1, the official U.S. source, admits the core military facts. PX-2, an independent AP/PBS timeline, corroborates the large-scale Caracas strike, capture, and removal. PX-3, a mainstream foreign-policy source, corroborates the broader formal campaign and scale. These sources differ in emphasis and include caveats, but they do not materially conflict on the decisive facts: by January 3, 2026, the United States was conducting a military campaign that culminated in armed operations in Caracas.\n\nPlaintiff is not asking the council to find that every December action alone was an invasion. Offshore strikes and tanker seizures would be weaker standing by themselves. The admitted evidence instead shows a campaign that crossed the territorial line and then used U.S. military force inside Venezuela's capital. On this record, it is more likely than not that the United States commenced a military offensive intended to establish control over at least a portion of Venezuela within the defined period. The proposition should be found true.\n\n[defendant] Council members, the defense does not ask you to ignore what the record now shows. The admitted evidence supports that, on January 3, 2026, U.S. forces conducted a military operation in Caracas and captured Maduro and Flores. The defense position is that those facts still do not prove the proposition's distinct requirement: a military offensive intended to establish control over a portion of Venezuela.\n\nPX-1 is plaintiff's strongest exhibit, but its own framing matters. The official U.S. account says the operation was a joint military and law-enforcement mission to capture the Maduros and bring Maduro to justice. It describes a ground extraction force, aircraft cover, intelligence support, and special operations forces. It does not say the United States intended to take, hold, govern, occupy, or otherwise establish territorial control over Caracas, Fort Tiuna, La Guaira, an airfield, or any other place. Plaintiff asks the council to infer territorial-control intent from the fact that a raid required temporary dominance. That inference is not enough.\n\nThe proposition is not satisfied by every use of military force inside another state. It requires an offensive intended to establish control over territory. A special-operations raid necessarily creates temporary tactical control: operators secure a route, suppress threats, and dominate a target long enough to leave. But that is control as an incident of capture, not control as the object of the offensive. If the proposition meant any momentary operational advantage, then every commando raid, hostage rescue, or cross-border arrest would automatically become an invasion intended to control territory. The wording requires more.\n\nPX-2 has the same limitation. It reports a large-scale strike across Caracas, capture, and removal, but it also preserves caveats about the preceding December events: Dec. 29 was not confirmed by Trump as Venezuela, and Dec. 30 rested on anonymous sources and no Venezuelan acknowledgement. The reliable Jan. 3 point proves force and extraction. It still does not identify a territorial-control objective.\n\nPX-3 helps the defense at least as much as plaintiff. CFR describes Operation Southern Spear as a campaign the United States said targeted drug trafficking. It notes expert concern that the campaign's scope may have exceeded counternarcotics and raised regime-change concerns, but concern is not proof of territorial control. More importantly, CFR quotes analysis that after Maduro was gone, repressive elements of the regime were still there and in control, and that Venezuela is hard to control territorially. That is the opposite of a record showing U.S. control over Venezuelan territory as the intended result.\n\nDX-1, the CSIS imagery analysis, directly tests plaintiff's inference. CSIS found the operation was in furtherance of a law-enforcement mission and laser-focused on capture, with minimal collateral damage. It says this was not a shock-and-awe campaign intended to bring the entire Venezuelan security apparatus to heel. U.S. forces attacked air defenses and radars to create a helicopter corridor, but many air-defense sites remained untouched. Venezuela's regular forces and headquarters were not struck. At La Guaira, damage was localized to an air-defense-related target, while main loading docks and nearby naval ships were not targeted. At La Carlota, runways, hangars, and buildings were not struck. At Higuerote, CSIS found no indication of strikes elsewhere at the airfield. This is strong evidence of a narrow capture-and-extraction operation, not an offensive whose object was territorial control.\n\nPlaintiff says “any portion” includes the target site, extraction route, and air-ground corridor. That collapses the element. A corridor created so helicopters can enter and leave is a means of movement. A secured target site is a means of capture. Neither proves the United States commenced an offensive intended to establish control over that place. The admitted record contains no order, statement, after-action account, imagery assessment, or independent consensus saying the objective was to take and hold an identifiable portion of Venezuela.\n\nThe credible-source consensus also fails on the decisive element. PX-1, PX-2, PX-3, and DX-1 converge on military force and capture. They do not converge on territorial-control intent. The official source says bring Maduro to justice. The PBS/AP timeline includes criminal charges. CFR gives campaign context and uncertainty about broader motives. CSIS says limited targets, law-enforcement purpose, and no broad effort to bring Venezuelan security forces to heel.\n\nUnder a preponderance standard, plaintiff must show the proposition is more likely true than not. The record makes one proposition likely: the United States used military force in Caracas to capture and remove Maduro and Flores. But the actual proposition adds a necessary qualifier. On the admitted evidence, it is more likely this was a narrow military-supported law-enforcement extraction with temporary tactical dominance than a military offensive intended to establish territorial control over Venezuela or any portion of it. The council should find the proposition not proven.\n\nRebuttals:\n[plaintiff] Council members, the defense rebuttal turns on one move: it converts \"control over any portion\" into \"take and hold territory as the ultimate objective.\" That is not the proposition.\n\nThe proposition asks whether the United States commenced a military offensive intended to establish control over any portion of Venezuela. It does not say permanent control, occupation, annexation, governance, or control over Venezuela as a whole. The phrase \"any portion\" is doing work. If U.S. forces deliberately controlled a fortress, target area, air-defense corridor, port site, air base access point, or extraction route inside Venezuela to complete an armed operation, that is control over a portion.\n\nThe defense's own exhibit, DX-1, reinforces rather than defeats that point. CSIS says more than 200 U.S. special operations forces surged through Caracas to capture Maduro and Flores. It identifies military activity and battle damage at Fort Tiuna Military Complex, La Carlota Air Base, La Guaira Port, and Higuerote Airport. It says U.S. forces attacked air-defense batteries and radars to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference. That is not just \"momentary operational advantage\" in the abstract. It is a planned, forcible creation of U.S.-controlled access and target conditions inside Venezuela.\n\nDX-1 is strongest for defendant only against an argument plaintiff has not made: that the United States launched a broad shock-and-awe campaign to bring the entire Venezuelan security apparatus to heel. Plaintiff's case is narrower. PX-1 proves an official U.S. armed-forces operation in the capital, against a fortified military fortress in the heart of Caracas, using joint forces, special operations forces, integrated air/ground/space/maritime operations, more than 150 aircraft, and a ground extraction force. PX-2 independently reports a large-scale strike across Caracas and removal of Maduro and Flores. DX-1 adds that over 200 special operations forces surged through Caracas and that multiple Venezuelan military or transport sites were struck or affected to enable helicopter entry and target access.\n\nCalling the operation surgical does not make it non-offensive. A surgical strike is still a strike. Calling the mission law-enforcement-supported does not erase the admitted military facts. A capture mission can be the object of an offensive, and the control needed to execute it can be the intended control over a portion. The relevant question is not whether the United States meant to govern Caracas the next morning. It is whether the United States intended to establish control over some Venezuelan place or corridor long enough to execute its military objective. The record says yes.\n\nThe defense also says sources do not converge on territorial-control intent. But the convergence is operational: official U.S. admissions, AP/PBS reporting, CFR campaign context, and CSIS imagery analysis all point to U.S. military force inside Venezuela, in Caracas, against defended sites, with air-defense suppression and ground-force movement to seize and remove the target. From those facts, the preponderant inference is not a mere arrest; it is a military offensive that deliberately created control over portions of Venezuelan territory.\n\nThe defense is right that the December offshore actions alone would not be enough and that DX-1 narrows the operation's scope. Those concessions do not decide this proposition. A narrow invasion is still an invasion if it intentionally controls any portion of sovereign territory by force. On this record, January 3 satisfies that standard.\n\nSurrebuttals:\n[defendant] Council members, plaintiff's rebuttal usefully narrows the dispute to one question: does temporary operational control needed to conduct a raid equal a military offensive intended to establish control over territory? The defense answer remains no.\n\nPlaintiff says the proposition does not require permanent control, occupation, annexation, or governance. Agreed. But the proposition still requires an offensive intended to establish control over a portion of Venezuela. Plaintiff's reading effectively deletes that intent requirement. Under plaintiff's theory, any armed force that secures a door, suppresses an air-defense battery, clears a route, or protects helicopters has “controlled a portion” and therefore invaded. That cannot be the limiting principle the proposition supplies.\n\nDX-1 does not prove plaintiff's territorial-control theory; it shows why the theory is overbroad. CSIS says air-defense batteries and radars were attacked to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference. That is a means of access and force protection. It is not evidence that the United States intended to establish control over the corridor as a territorial object. CSIS likewise says many air-defense sites remained untouched, regular forces and headquarters were not struck, port damage was localized, airport strikes were narrow, and the whole picture was a law-enforcement mission laser-focused on capture. Those details are hard to square with an intent to establish territorial control; they fit a temporary raid.\n\nPlaintiff also relies on the phrase “more than 200 U.S. special operations forces surged through Caracas.” But movement through a city is not control of the city. Even control of a target room, bunker entrance, or landing zone for the time needed to seize a person is tactical control incidental to the capture. The admitted sources repeatedly describe the objective as capture, extraction, and bringing Maduro to justice. None identifies a U.S. plan to take, hold, administer, or deny Venezuela control of any place as the object of the operation.\n\nThis distinction does not require permanent occupation. A short operation could satisfy the proposition if the evidence showed that control of a port, airfield, compound, or corridor was itself the intended object. The record does not show that. It shows a military-supported law-enforcement raid using force to reach and remove two people.\n\nPlaintiff's “any portion” argument proves too much. If accepted, it would make the control element automatic whenever a military raid succeeds. The council should instead give effect to the whole proposition: military force inside Venezuela is not enough; intended territorial control must be proven by credible-source consensus. On this record, that element remains an inference plaintiff asks the council to supply, not a fact the sources establish.\n\nClosings:\n[plaintiff] Council members, the record now leaves a narrow legal question, not a factual mystery. The United States used military force inside Venezuela on January 3, 2026. The issue is whether that operation was intended to establish control over any portion of Venezuela. On a preponderance standard, the answer is yes.\n\nThe credible sources converge on the operational core. PX-1, the official U.S. account, says U.S. armed forces conducted an extraordinary military operation in Caracas, against a heavily fortified military fortress in the heart of the capital. It describes joint forces, special operations forces, multiple service branches, intelligence support, integrated air, ground, space, and maritime operations, more than 150 aircraft providing cover, and a ground extraction force in Caracas. PX-2 independently reports a large-scale strike across Caracas, capture of Maduro and Flores, and their removal from the country. PX-3 places that action within Operation Southern Spear, a formal military campaign with extensive air and naval assets, a blockade, lethal strikes, and a force posture far beyond ordinary policing.\n\nThe defense's own DX-1 confirms rather than erases the decisive territorial facts. CSIS says more than 200 U.S. special operations forces surged through Caracas. It identifies military activity and battle damage at Fort Tiuna Military Complex, La Carlota Air Base, La Guaira Port, and Higuerote Airport. It says U.S. forces attacked air-defense batteries and radars to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference. It says Fort Tiuna damage was tightly focused to isolate and neutralize rapid-response and regime-protection capabilities. Those are not abstractions. They are named Venezuelan places, routes, and defenses that U.S. military force controlled or neutralized so the mission could succeed.\n\nThe defense is right about one thing: this was not a broad occupation of Venezuela. It was surgical. It did not destroy the whole Venezuelan security apparatus. It did not seek to govern Caracas the next morning. But the proposition does not require any of that. It requires a military offensive intended to establish control over any portion of Venezuela. A narrow offensive still qualifies if it deliberately controls the target area, access corridor, and supporting sites inside sovereign territory.\n\nThe defense tries to divide control from objective by saying control was only a means to capture. That distinction is too thin for this proposition. The text asks whether the United States intended to establish control over a portion, not whether permanent territorial control was the final political end. If a military plan calls for suppressing air defenses, opening a helicopter corridor into Venezuela, sending more than 200 special operations forces through Caracas, striking or neutralizing multiple Venezuelan sites, and dominating a fortified military objective long enough to capture and remove the head of government, intended control over those portions is built into the plan. It is not accidental.\n\nThe law-enforcement framing also does not change the operational facts. PX-1 itself uses both military and law-enforcement language. A government can invoke criminal charges and still commence a military offensive. The proposition turns on what the United States did and intended operationally, not on whether it also planned a courtroom afterward.\n\nNor is plaintiff relying on the weaker December events as standalone proof. Tanker seizures, a blockade, and offshore strikes are context. The decisive proof is January 3: U.S. military force on Venezuelan land, in the capital, at defended sites, with air-defense suppression, a controlled helicopter corridor, a ground extraction force, and capture/removal. That satisfies the date window, the territorial element, the military-offensive element, and the \"any portion\" control element.\n\nPreponderance means more likely than not. The defense asks the council to require an explicit source saying \"the objective was territorial control.\" But intent is often proved from operations themselves. Here the official, independent, analytical, and even defense-submitted sources all point in the same direction: the United States deliberately created controlled conditions inside Venezuela to accomplish a military objective. The proposition should be found true.\n\n[defendant] Council members, the final record proves a serious use of U.S. military force in Venezuela. It does not prove the proposition as written.\n\nThe defense has been direct about what is established. PX-1 and PX-2 support that, on January 3, 2026, U.S. forces operated in Caracas, used military capabilities, and captured and removed Maduro and Flores. DX-1 likewise accepts that more than 200 special operations forces moved through Caracas and that strikes or damage occurred at several Venezuelan sites. The question is not whether the event was dramatic, hostile, or unlawful under some broader theory. The question is whether credible sources show, by a preponderance, that the United States commenced a military offensive intended to establish control over any portion of Venezuela.\n\nPlaintiff's closing reveals the weakness in its proof. It says no occupation, annexation, governance, or broad territorial control is required. Fair enough. But it then treats every operational condition of a raid as the required territorial control: a helicopter corridor, a route, a target area, access to a fortified site. That interpretation makes the control element automatic. Every armed raid requires some degree of security, suppression, access, and movement. If that is enough, the proposition would not need the words “intended to establish control”; it would ask only whether U.S. forces used military force inside Venezuela.\n\nThe admitted sources do not support that rewrite. PX-1, the official U.S. account, describes a joint military and law-enforcement mission to capture the Maduros and bring Maduro to justice. It describes force, aircraft, special operations, and extraction. It does not describe an objective to take, hold, administer, deny, or otherwise control any Venezuelan place as such. PX-2 independently reports strike, capture, and removal, but it too points to criminal charges and does not identify territorial control as the mission object. PX-3 gives campaign context and concern about regime change, yet concern and scale are not the same as proof that this particular operation intended territorial control.\n\nDX-1 is decisive on scope. CSIS describes the operation as a military operation in furtherance of a law-enforcement mission, laser-focused on capture, not a shock-and-awe campaign to bring the Venezuelan security apparatus to heel. It notes that air-defense attacks created a helicopter corridor, but also that many air-defense sites remained untouched; regular forces and headquarters were not struck; port damage was localized; airfield damage was narrow; and existing Venezuelan structures were left largely in place. Those facts show a temporary path to a person, not an intended seizure of territory.\n\nPlaintiff says intent can be inferred from operations. Yes, but the inference must fit the whole record. The best inference from this record is that the United States intended to capture and extract Maduro and Flores, using temporary tactical dominance as a means. Plaintiff asks you to convert that means into the object of the offensive. The record gives no order, official statement, independent report, imagery analysis, or consensus source saying that control of a corridor, compound, port, airfield, or city was itself the intended end.\n\nA short operation could satisfy the proposition if the evidence showed that territorial control was the objective. This record does not. The sources converge on military force and capture. They do not converge on the proposition's necessary control element.\n\nPreponderance requires the proposition to be more likely true than not. Here, the more likely account is narrower: a military-supported law-enforcement extraction, not an invasion intended to establish control over Venezuelan territory. The council should find the proposition not proven.\n\nExhibits:\n[plaintiff] PX-1: Official U.S. account of Operation Absolute Resolve in Caracas\nSource: U.S. Department of War / Pentagon News\nTitle: Trump Announces U.S. Military's Capture of Maduro\nByline/date: Jan. 3, 2026 | By Matthew Olay, Pentagon News\nURL: https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/\nRetrieval timestamp: 2026-06-30T00:44:00Z\n\nRelevant extracted text:\n\nPresident Donald J. Trump today announced the capture of Venezuelan leader Nicolas Maduro, following a successful overnight joint U.S. military extraction in Venezuela's capital of Caracas.\n\nCaption/description for press conference image: President Donald J. Trump holds a press conference in Palm Beach, Fla., Jan. 3, 2026, with Secretary of State Marco Rubio, Secretary of War Pete Hegseth, second from right, and Air Force Gen. Dan Caine, chairman of the Joint Chiefs of Staff, to discuss Operation Absolute Resolve in Caracas, Venezuela.\n\n\"Last night and early today, at my direction, the United States armed forces conducted an extraordinary military operation in the capital of Venezuela. ... It was an operation against a heavily fortified military fortress in the heart of Caracas to bring outlaw dictator Nicolas Maduro to justice,\" Trump said during a midday news conference from his Mar-a-Lago residence in Palm Beach, Florida.\n\nThe president added that both Maduro and his also-captured wife, Cilia Flores de Maduro, will now face criminal court proceedings tied to a 2020 indictment from the U.S. Department of Justice on multiple federal charges, including narco-terrorism and drug trafficking.\n\nEarlier in the day, Trump posted a photo to social media showing a blindfolded and handcuffed Nicolas Maduro in custody aboard the U.S. Navy amphibious assault ship USS Iwo Jima.\n\nLabeled Operation Absolute Resolve, the joint military and law enforcement mission to capture the Maduros was the result of months of planning and rehearsal involving U.S. joint forces -- including special operations forces -- from multiple service branches. The military also networked extensively with multiple U.S. intelligence agencies, according to Air Force Gen. Dan Caine, chairman of the Joint Chiefs of Staff.\n\n\"Our interagency work began months ago and built on decades of experience [with] integrating complex air, ground, space and maritime operations. ... We watched, we waited, we prepared, we remained patient and professional. ... This was an audacious operation that only the United States could do,\" Caine said during the press conference.\n\nHe added that the mission to extract the Maduros -- in which there were no U.S. casualties -- was so precise that it involved more than 150 military aircraft from all across the Western Hemisphere launching in close coordination to provide cover for the ground-based extraction force in Caracas.\n\n\"Words can barely capture the bravery and the power and the precision of this historic operation, a massive joint military and law enforcement raid flawlessly executed by the greatest Americans our country has to offer,\" Secretary of War Pete Hegseth, who was also in attendance at Mar-a-Lago, told the media.\n\nCapture notes: This is an extracted text capture rather than full-page HTML. The page was opened through web tooling and relevant lines were preserved. This official source is strong for U.S. admissions about location, military forces, planning, air/ground/maritime integration, special operations involvement, and a ground extraction force in Caracas; it is also adverse in framing the operation partly as law enforcement and criminal-justice related.\n\n[plaintiff] PX-2: PBS/AP escalation timeline and Jan. 3 Caracas strike\nSource: PBS NewsHour / Associated Press\nTitle: A timeline of U.S. military escalation against Venezuela leading to Maduro's capture\nURL: https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-escalation-against-venezuela-leading-to-maduros-capture\nRetrieval timestamp: 2026-06-30T00:45:00Z\n\nRelevant extracted text:\n\nDec. 10: The U.S. seized an oil tanker off the coast of Venezuela after the ship left that country with about 2 million barrels of heavy crude. Attorney General Pam Bondi said the tanker was involved in \"an illicit oil shipping network supporting foreign terrorist organizations.\" Venezuela's government said the seizure was \"a blatant theft and an act of international piracy.\"\n\nDec. 16: Trump said he was ordering a blockade of all \"sanctioned oil tankers\" going into and out of Venezuela, a move that seemed designed to put a tighter chokehold on the South American country's oil-dependent economy. Trump alleged that Venezuela was using oil to fund drug trafficking, terrorism and other crimes. He pledged to continue the military buildup until Venezuela returned to the U.S. oil, land and assets, though it was unclear why Trump felt the U.S. had a claim.\n\nDec. 29: Trump told reporters that the U.S. struck a facility where boats accused of carrying drugs \"load up.\" He declined to say whether the U.S. military or the CIA carried out the strike on the dock or where it occurred. He did not confirm it happened in Venezuela.\n\nDec. 30: The CIA was behind the drone strike at a docking area believed to have been used by Venezuelan drug cartels, according to two people familiar with details of the classified operation who requested anonymity to discuss it. It was the first known direct operation on Venezuelan soil since the U.S. began strikes in September. Venezuelan officials have not acknowledged the strike.\n\nJan. 1, 2026: Maduro, in an interview on state television that aired on New Year's Day, said Venezuela was open to negotiating an agreement with the United States to combat drug trafficking. He declined to comment on the CIA-led strike and reiterated that the U.S. wanted to force a government change in Venezuela and gain access to its vast oil reserves.\n\nJan. 3: The U.S. conducted a \"large-scale strike\" across Caracas, the capital of Venezuela, captured Maduro and Flores and flew them out of the country. Attorney General Pam Bondi said Maduro and Flores had been indicted in the Southern District of New York. Maduro was accused of leading a \"a corrupt, illegitimate government that, for decades, has leveraged government power to protect and promote illegal activity, including drug trafficking.\"\n\nArticle footer/byline note visible in capture: Garcia Cano reported from Caracas, Venezuela. Related PBS links included live updates, an article titled \"What we know about a U.S. strike that captured Venezuela's Maduro,\" and \"U.S. strikes Venezuela and says leader Maduro has been captured and flown out of the country.\"\n\nCapture notes: This is a relevant text extraction, not full-page HTML. The source is useful for independent chronology and corroboration. It also contains limitations: the Dec. 29 item was not confirmed as Venezuela by Trump, the Dec. 30 item relies on anonymous sources and was not acknowledged by Venezuelan officials, and the Jan. 3 item reports law-enforcement charges as part of the operation's stated rationale.\n\n[plaintiff] PX-3: CFR Operation Southern Spear campaign context\nSource: Council on Foreign Relations\nTitle: The U.S. Military Campaign Targeting Venezuela and Nicolas Maduro: What to Know\nURL: https://www.cfr.org/articles/operation-southern-spear-us-military-campaign-targeting-venezuela\nRetrieval timestamp: 2026-06-30T00:46:00Z\n\nRelevant extracted text:\n\nCFR analysis quoted Shannon K. O'Neil: \"Maduro is gone but the repressive elements of the regime are still there and in control. It is a huge country, so it is hard to control territorially,\" and noted that armed groups including military, secret police, colectivos, and National Liberation Army militias would need to be brought to heel for U.S.-friendly leaders to gain physical control of the streets, a basic prerequisite to governing.\n\nSince early September 2025, Trump mounted an escalating pressure campaign against the Maduro regime, which U.S. officials accused of leading a drug cartel that the State Department designated a foreign terrorist organization in November. Washington significantly increased its air and naval presence in the region as part of Operation Southern Spear, a U.S. military campaign that it says targets drug trafficking in the Caribbean. It authorized more than twenty lethal strikes on alleged drug trafficking boats.\n\nThe Trump administration framed the operation as necessary to curb the flow of drugs from Latin America to the United States, but some experts said the campaign's scope and intensity went beyond counternarcotics objectives, long raising the possibility of a broader effort to force regime change in Venezuela. Other heightened U.S. pressure on Venezuela, including a naval blockade on all sanctioned oil tankers into the country, had also raised concerns about escalation and broader regional instability.\n\nSection: What is Operation Southern Spear? On November 13, Defense Secretary Pete Hegseth announced the formal launch of Operation Southern Spear, which he said was aimed at targeting \"narco-terrorist\" organizations and disrupting illegal drug trafficking in the Western Hemisphere. The Pentagon described the effort as a U.S. military \"counter-narco-terrorism campaign\" intended to safeguard U.S. national security.\n\nHegseth's announcement came shortly after the Senate voted down a bipartisan war power resolution that would have blocked the Trump administration from using military force within or against Venezuela without congressional authorization. Another vote occurred on December 17, in which the U.S. House of Representatives rejected a pair of Democrat-backed resolutions that would have reined in Trump's military campaign toward Venezuela.\n\nSection: How is the operation being carried out? Before the United States' January 3 strike and capture of Maduro, the operation, led by U.S. Southern Command and Joint Task Force Southern Spear, involved a regional buildup of extensive air and naval assets, including bombers, drones, aircraft carriers, and amphibious assault ships.\n\nThe effort was later expanded into a broader, formal military operation that the United States said was focused on interdicting drug cartels in the Caribbean and Eastern Pacific.\n\nCFR quoted Roxanna Vigil as noting that when it came to the stated goals of disrupting illegal drug trafficking and dismantling \"narco-terrorist\" networks in the Western Hemisphere, there was \"a lot of mismatch,\" because the United States was using \"a huge naval deployment against small, little drug boats.\" CFR also noted that approximately fifteen thousand U.S. military personnel reportedly had been deployed in 2025, one of the largest U.S. military buildups in the region since the Cold War.\n\nCapture notes: This is a relevant text extraction, not full-page HTML. It is secondary analysis, not primary evidence of particular strikes. It is useful for context, scale, and adverse framing: it acknowledges the U.S. counternarcotics rationale and separately notes expert concern that the campaign's scope exceeded that rationale and raised regime-change/control questions.\n\n[defendant] DX-1: CSIS imagery analysis showing narrow capture-focused operation\nSource: Center for Strategic and International Studies\nTitle: Imagery from Venezuela Shows a Surgical Strike, Not Shock and Awe\nURL: https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe\nByline: Ryan C. Berg, Mark F. Cancian, Joseph S. Bermudez Jr., Jennifer Jun, Henry Ziemer, and Chris H. Park\nPublished: January 9, 2026\nRetrieval timestamp: 2026-06-30T00:55:30Z\n\nRelevant extracted text:\n\nCSIS states that in the early morning hours of January 3, 2026, more than 200 U.S. special operations forces surged through Caracas to capture Nicolas Maduro and Cilia Flores in Operation Absolute Resolve, and that extensive intelligence collection supported a successful mission in which Maduro and his wife were captured and no U.S. personnel were killed.\n\nCSIS says its satellite imagery analysis estimated military activity and battle damage at four sites: Fort Tiuna Military Complex, La Carlota Air Base, La Guaira Port, and El Higuerote Airport.\n\nCSIS characterizes the picture from imagery as a military operation in furtherance of a law enforcement mission, laser-focused on the capture of Maduro with minimal collateral damage. It says this was not a shock-and-awe campaign intended to bring the entire Venezuelan security apparatus to heel with overwhelming force, unlike broad U.S. attacks against Iraq in 1991 and 2003 that targeted electrical, communications, and transportation infrastructure to force capitulation. CSIS states that no such targets were struck here.\n\nCSIS states that U.S. forces focused on a limited number of sites, primarily Fort Tiuna, where Maduro reportedly had several bunkers. It says air defense batteries and radars were attacked to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference, but that many air defense sites remained untouched and it was not necessary to take out the entire air defense system.\n\nCSIS states that Venezuela's regular military forces and their headquarters were also not struck. It notes that while an air defense unit was hit at La Guaira port, nearby Venezuelan navy ships were not, and none of the buildings at La Carlota Air Base, reported to be part of the Venezuelan air force headquarters, were struck.\n\nCSIS says the narrow target set may reflect a sincere desire to reduce casualties and may also reflect a deliberate signal to Venezuelan armed forces and Maduro's inner circle of limited U.S. objectives. It says the Trump administration could have decided to work through the existing Venezuelan structure and therefore did not want to destabilize or decapitate the military because it would be needed to keep order.\n\nAt Fort Tiuna, CSIS says damage was tightly focused, with no evidence of widespread strikes against barracks, training facilities, and administrative headquarters. CSIS assesses this suggests an effort to isolate and neutralize specific capabilities tied directly to rapid response and regime protection.\n\nAt La Carlota Air Base, CSIS reports two impact craters slightly north of the runway and says the relatively small footprint could indicate an effort to keep collateral-damage risk to a minimum. It says none of the runways, hangars, or buildings appear to have been struck.\n\nAt La Guaira port, CSIS says the port was struck because of an air defense unit, not because it is a military facility. It reports damage localized to a single pier with two warehouses and notes the United States did not target the main loading and unloading docks or Venezuelan naval ships docked approximately 700 meters to the west.\n\nAt Higuerote Airport, CSIS says post-operation imagery shows a destroyed truck near the terminal building with a debris fan consistent with a precision strike and no indication of strikes elsewhere at the airfield, supporting the assessment that the strike was narrowly focused rather than aimed at the airport's overall operations.\n\nCapture notes: This is a relevant text extract from the CSIS web page, not the full HTML or images. It is useful for defense because it directly addresses objective and scope through imagery analysis. It does not disprove that U.S. forces entered Venezuela or used military force; instead, it limits the inference that the mission intended broad territorial control.\n\nSubmitted evidence:\n[plaintiff arguments] Official U.S. Department of War account of Operation Absolute Resolve in Caracas (ev_e0e0fb921ec9_submitted-evidence-01-plaintiff-e0e0fb921ec9)\nSource: https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/\nSHA-256: `e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687`\nBytes: 3556\nRelevance: Official U.S. source describing the January 3, 2026 military operation in Caracas, Venezuela, including location, military character, planning, special operations forces, ground extraction force, and aircraft support.\n\n[plaintiff arguments] PBS/AP timeline of U.S. escalation leading to Maduro capture (ev_7d30fcd0d9f7_submitted-evidence-02-plaintiff-7d30fcd0d9f7)\nSource: https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-escalation-against-venezuela-leading-to-maduros-capture\nSHA-256: `7d30fcd0d9f704222f94166d25b9a1221e206e971b247a0beb4c9cee7ba25372`\nBytes: 3389\nRelevance: Independent timeline corroborating December 2025 blockade/covert strike context and January 3, 2026 large-scale U.S. strike across Caracas, capture of Maduro and Flores, and removal from Venezuela.\n\n[plaintiff arguments] Council on Foreign Relations explainer on Operation Southern Spear and Venezuela (ev_051e811bed13_submitted-evidence-03-plaintiff-051e811bed13)\nSource: https://www.cfr.org/articles/operation-southern-spear-us-military-campaign-targeting-venezuela\nSHA-256: `051e811bed130472bf2072ff5316764473d68daa0df391ba0a3dd5da10dc88f0`\nBytes: 4001\nRelevance: Credible secondary analysis describing Operation Southern Spear, the military buildup, blockade context, counternarcotics framing, and concern that the campaign went beyond counternarcotics toward regime change/control questions.\n\n[defendant arguments] CSIS imagery analysis: surgical strike, not shock and awe (ev_383c84572ac8_submitted-evidence-04-defendant-383c84572ac8)\nSource: https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe\nSHA-256: `383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17`\nBytes: 4294\nRelevance: Independent imagery-based analysis limiting the scope and objective of the January 3, 2026 operation; relevant to whether the operation was intended to establish territorial control or was narrowly focused on capture/extraction with limited target sets.\n\nTechnical reports:\n[plaintiff] Plaintiff source-chain and weight assessment\nAt phase start the record contained no evidence. Plaintiff submitted three compact text captures with provenance: an official U.S. Department of War account for primary admissions, a PBS/AP chronology for independent corroboration and sequence, and a CFR explainer for campaign context and adverse counternarcotics framing. The strongest proof is the January 3 Caracas operation; December blockade and covert-action items are used as context, not as standalone proof. Limitations: captures are relevant text extracts rather than full HTML/media; the Dec. 30 Venezuelan-soil item in PX-2 relies on anonymous sourcing and non-acknowledgement; PX-3 is secondary analysis. These limits do not defeat the core official and independent convergence on armed U.S. force in Caracas.\n\n[defendant] Evidence and Source-Weight Analysis\nThe defense inspected the three plaintiff text extracts by metadata and byte-range read. They support force, location, and capture, but not an explicit objective to take or hold territory. The defense then submitted CSIS imagery-based analysis as DX-1 because it specifically addresses scope and objective: limited target set, helicopter corridor, many air-defense sites untouched, no broad infrastructure strikes, and a law-enforcement/capture focus. Remaining gap: no admitted source identifies an order or consensus that territorial control was the operation's intended object rather than an incidental tactical condition of extraction.\n\nCall submit_council_vote with vote=demonstrated or vote=not_demonstrated.\nKeep the rationale brief: no more than three sentences.\n\nCouncil API instructions:\nYou are a council member. Decide the proposition from the admitted record.\nYou may examine admitted evidence through read-only tools when exact bytes, metadata, or exhibit contents matter.\nDo not search the web, introduce new facts, create new evidence, or upload evidence.\nWhen ready, call submit_council_vote exactly once with vote=demonstrated or vote=not_demonstrated and a concise rationale.\n",
+  "tools": [
+    {
+      "description": "Return the current visible arbitration record for this council member.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "name": "get_case",
+      "read_only": true
+    },
+    {
+      "description": "List visible immutable record evidence.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {},
+        "type": "object"
+      },
+      "name": "list_evidence",
+      "read_only": true
+    },
+    {
+      "description": "Return metadata and read limits for one visible evidence item.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "evidence_id"
+        ],
+        "type": "object"
+      },
+      "name": "stat_evidence",
+      "read_only": true
+    },
+    {
+      "description": "Read a bounded byte range from one visible evidence item as base64.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "evidence_id": {
+            "type": "string"
+          },
+          "length": {
+            "minimum": 1,
+            "type": "integer"
+          },
+          "offset": {
+            "minimum": 0,
+            "type": "integer"
+          }
+        },
+        "required": [
+          "evidence_id",
+          "offset",
+          "length"
+        ],
+        "type": "object"
+      },
+      "name": "read_evidence_range",
+      "read_only": true
+    },
+    {
+      "description": "Submit one council vote for the current deliberation opportunity.",
+      "input_schema": {
+        "additionalProperties": false,
+        "properties": {
+          "rationale": {
+            "type": "string"
+          },
+          "vote": {
+            "enum": [
+              "demonstrated",
+              "not_demonstrated"
+            ],
+            "type": "string"
+          }
+        },
+        "required": [
+          "vote",
+          "rationale"
+        ],
+        "type": "object"
+      },
+      "name": "submit_council_vote",
+      "read_only": false
+    }
+  ],
+  "limits": {
+    "attempts_max": 3,
+    "attempts_remaining": 3,
+    "max_evidence_read_bytes": 65536,
+    "max_evidence_read_bytes_per_opportunity": 524288,
+    "max_evidence_reads_per_opportunity": 32,
+    "max_response_bytes": 131072,
+    "remaining_evidence_read_bytes_for_opportunity": 524288,
+    "remaining_evidence_reads_for_opportunity": 32
+  },
+  "case_view": {
+    "evidence_standard": "Preponderance of the evidence.",
+    "member": {
+      "member_id": "C3",
+      "model": "openrouter://openai/gpt-oss-120b",
+      "persona_filename": "personas/generic.md"
+    },
+    "opportunity": {
+      "allowed_tools": [
+        "submit_council_vote"
+      ],
+      "id": "deliberation:1:C3",
+      "may_pass": false,
+      "objective": "council vote by C3",
+      "phase": "deliberation",
+      "role": "council"
+    },
+    "phase": "deliberation",
+    "proposition": "The United States invaded Venezuela between November 3, 2025, and\nJanuary 31, 2026, 11:59 PM ET.  In particular,the United States\ncommenced a military offensive intended to establish control over any\nportion of Venezuela between November 3, 2025, and January 31, 2026,\n11:59 PM ET. Land de facto controlled by Venezuela or the United\nStates as of September 6, 2025, 12:00 PM ET, is considered to the\nsovereign territory of that country. The resolution source is a\nconsensus of credible sources.",
+    "record": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, the admitted record now proves the proposition by a preponderance.\n\nStart with the date and place. PX-1 is an official U.S. Department of War account of Operation Absolute Resolve. It says that on January 3, 2026, President Trump announced the capture of Nicolas Maduro after an overnight joint U.S. military extraction in Caracas, Venezuela. It quotes Trump saying U.S. armed forces conducted an \"extraordinary military operation in the capital of Venezuela\" against a \"heavily fortified military fortress in the heart of Caracas.\" PX-1 further says the mission involved U.S. joint forces, special operations forces, multiple service branches, extensive intelligence support, integrated air, ground, space, and maritime operations, more than 150 military aircraft providing cover, and a ground-based extraction force in Caracas.\n\nThat is not merely pressure, sanctions, or an offshore interdiction. It is an armed U.S. operation on Venezuelan sovereign land during the covered window. Caracas and a military fortress in its heart were plainly land de facto controlled by Venezuela as of September 6, 2025. The operation therefore occurred on Venezuelan territory for purposes of the proposition.\n\nPX-2 independently corroborates the essential sequence. PBS/AP reports the late-December escalation: tanker seizure, blockade of sanctioned oil tankers, a reported first direct operation on Venezuelan soil, and then, on January 3, a \"large-scale strike\" across Caracas, capture of Maduro and Flores, and their removal from the country. PX-2 preserves caveats about the December 30 drone strike: anonymous sourcing and no Venezuelan acknowledgement. Plaintiff does not need that item alone to carry the case. Its main value is context. The decisive corroborated point is January 3: AP/PBS and the U.S. official account converge on a large U.S. military action in Caracas culminating in capture and removal.\n\nPX-3 supplies the campaign context. CFR describes Operation Southern Spear as a formal U.S. military campaign with expanded air and naval presence, extensive assets including bombers, drones, aircraft carriers, and amphibious assault ships, more than twenty lethal strikes, a blockade, and roughly fifteen thousand U.S. personnel deployed in 2025. CFR also records the adverse framing: the administration described counternarcotics and national security goals. But CFR explains why the scale and intensity raised regime-change concerns and went beyond ordinary law-enforcement interdiction.\n\nThe defense says plaintiff must prove the United States intended to take and hold territory, not merely carry out a raid. That asks for more than the proposition requires. The proposition asks whether the United States commenced a military offensive intended to establish control over any portion of Venezuela. It does not require annexation, permanent occupation, or nationwide governance. \"Any portion\" includes the fortified military objective, the ground extraction site, and the protected air-ground corridor needed to seize and remove the targets. PX-1's own words prove that operational control was not incidental: 150 aircraft launched to cover a ground extraction force; the mission integrated air, ground, space, and maritime operations; and the target was a fortified military fortress in Caracas. A force cannot raid a fortified military objective in a foreign capital, extract the head of government, and fly him to a U.S. warship without establishing control over the relevant portion of territory long enough to dominate resistance and complete the mission.\n\nNor does the law-enforcement label defeat the proposition. PX-1 calls the mission both military and law enforcement. Mixed purpose is enough. The record shows U.S. armed forces, special operations forces, aircraft cover, ground extraction, and a fortress objective. If a country uses military force to control a site in another country so it can seize a leader and remove him, that is a military offensive even if prosecutors later file charges.\n\nThe credible-source consensus requirement is satisfied. PX-1, the official U.S. source, admits the core military facts. PX-2, an independent AP/PBS timeline, corroborates the large-scale Caracas strike, capture, and removal. PX-3, a mainstream foreign-policy source, corroborates the broader formal campaign and scale. These sources differ in emphasis and include caveats, but they do not materially conflict on the decisive facts: by January 3, 2026, the United States was conducting a military campaign that culminated in armed operations in Caracas.\n\nPlaintiff is not asking the council to find that every December action alone was an invasion. Offshore strikes and tanker seizures would be weaker standing by themselves. The admitted evidence instead shows a campaign that crossed the territorial line and then used U.S. military force inside Venezuela's capital. On this record, it is more likely than not that the United States commenced a military offensive intended to establish control over at least a portion of Venezuela within the defined period. The proposition should be found true."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, the defense does not ask you to ignore what the record now shows. The admitted evidence supports that, on January 3, 2026, U.S. forces conducted a military operation in Caracas and captured Maduro and Flores. The defense position is that those facts still do not prove the proposition's distinct requirement: a military offensive intended to establish control over a portion of Venezuela.\n\nPX-1 is plaintiff's strongest exhibit, but its own framing matters. The official U.S. account says the operation was a joint military and law-enforcement mission to capture the Maduros and bring Maduro to justice. It describes a ground extraction force, aircraft cover, intelligence support, and special operations forces. It does not say the United States intended to take, hold, govern, occupy, or otherwise establish territorial control over Caracas, Fort Tiuna, La Guaira, an airfield, or any other place. Plaintiff asks the council to infer territorial-control intent from the fact that a raid required temporary dominance. That inference is not enough.\n\nThe proposition is not satisfied by every use of military force inside another state. It requires an offensive intended to establish control over territory. A special-operations raid necessarily creates temporary tactical control: operators secure a route, suppress threats, and dominate a target long enough to leave. But that is control as an incident of capture, not control as the object of the offensive. If the proposition meant any momentary operational advantage, then every commando raid, hostage rescue, or cross-border arrest would automatically become an invasion intended to control territory. The wording requires more.\n\nPX-2 has the same limitation. It reports a large-scale strike across Caracas, capture, and removal, but it also preserves caveats about the preceding December events: Dec. 29 was not confirmed by Trump as Venezuela, and Dec. 30 rested on anonymous sources and no Venezuelan acknowledgement. The reliable Jan. 3 point proves force and extraction. It still does not identify a territorial-control objective.\n\nPX-3 helps the defense at least as much as plaintiff. CFR describes Operation Southern Spear as a campaign the United States said targeted drug trafficking. It notes expert concern that the campaign's scope may have exceeded counternarcotics and raised regime-change concerns, but concern is not proof of territorial control. More importantly, CFR quotes analysis that after Maduro was gone, repressive elements of the regime were still there and in control, and that Venezuela is hard to control territorially. That is the opposite of a record showing U.S. control over Venezuelan territory as the intended result.\n\nDX-1, the CSIS imagery analysis, directly tests plaintiff's inference. CSIS found the operation was in furtherance of a law-enforcement mission and laser-focused on capture, with minimal collateral damage. It says this was not a shock-and-awe campaign intended to bring the entire Venezuelan security apparatus to heel. U.S. forces attacked air defenses and radars to create a helicopter corridor, but many air-defense sites remained untouched. Venezuela's regular forces and headquarters were not struck. At La Guaira, damage was localized to an air-defense-related target, while main loading docks and nearby naval ships were not targeted. At La Carlota, runways, hangars, and buildings were not struck. At Higuerote, CSIS found no indication of strikes elsewhere at the airfield. This is strong evidence of a narrow capture-and-extraction operation, not an offensive whose object was territorial control.\n\nPlaintiff says “any portion” includes the target site, extraction route, and air-ground corridor. That collapses the element. A corridor created so helicopters can enter and leave is a means of movement. A secured target site is a means of capture. Neither proves the United States commenced an offensive intended to establish control over that place. The admitted record contains no order, statement, after-action account, imagery assessment, or independent consensus saying the objective was to take and hold an identifiable portion of Venezuela.\n\nThe credible-source consensus also fails on the decisive element. PX-1, PX-2, PX-3, and DX-1 converge on military force and capture. They do not converge on territorial-control intent. The official source says bring Maduro to justice. The PBS/AP timeline includes criminal charges. CFR gives campaign context and uncertainty about broader motives. CSIS says limited targets, law-enforcement purpose, and no broad effort to bring Venezuelan security forces to heel.\n\nUnder a preponderance standard, plaintiff must show the proposition is more likely true than not. The record makes one proposition likely: the United States used military force in Caracas to capture and remove Maduro and Flores. But the actual proposition adds a necessary qualifier. On the admitted evidence, it is more likely this was a narrow military-supported law-enforcement extraction with temporary tactical dominance than a military offensive intended to establish territorial control over Venezuela or any portion of it. The council should find the proposition not proven."
+        }
+      ],
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the record now leaves a narrow legal question, not a factual mystery. The United States used military force inside Venezuela on January 3, 2026. The issue is whether that operation was intended to establish control over any portion of Venezuela. On a preponderance standard, the answer is yes.\n\nThe credible sources converge on the operational core. PX-1, the official U.S. account, says U.S. armed forces conducted an extraordinary military operation in Caracas, against a heavily fortified military fortress in the heart of the capital. It describes joint forces, special operations forces, multiple service branches, intelligence support, integrated air, ground, space, and maritime operations, more than 150 aircraft providing cover, and a ground extraction force in Caracas. PX-2 independently reports a large-scale strike across Caracas, capture of Maduro and Flores, and their removal from the country. PX-3 places that action within Operation Southern Spear, a formal military campaign with extensive air and naval assets, a blockade, lethal strikes, and a force posture far beyond ordinary policing.\n\nThe defense's own DX-1 confirms rather than erases the decisive territorial facts. CSIS says more than 200 U.S. special operations forces surged through Caracas. It identifies military activity and battle damage at Fort Tiuna Military Complex, La Carlota Air Base, La Guaira Port, and Higuerote Airport. It says U.S. forces attacked air-defense batteries and radars to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference. It says Fort Tiuna damage was tightly focused to isolate and neutralize rapid-response and regime-protection capabilities. Those are not abstractions. They are named Venezuelan places, routes, and defenses that U.S. military force controlled or neutralized so the mission could succeed.\n\nThe defense is right about one thing: this was not a broad occupation of Venezuela. It was surgical. It did not destroy the whole Venezuelan security apparatus. It did not seek to govern Caracas the next morning. But the proposition does not require any of that. It requires a military offensive intended to establish control over any portion of Venezuela. A narrow offensive still qualifies if it deliberately controls the target area, access corridor, and supporting sites inside sovereign territory.\n\nThe defense tries to divide control from objective by saying control was only a means to capture. That distinction is too thin for this proposition. The text asks whether the United States intended to establish control over a portion, not whether permanent territorial control was the final political end. If a military plan calls for suppressing air defenses, opening a helicopter corridor into Venezuela, sending more than 200 special operations forces through Caracas, striking or neutralizing multiple Venezuelan sites, and dominating a fortified military objective long enough to capture and remove the head of government, intended control over those portions is built into the plan. It is not accidental.\n\nThe law-enforcement framing also does not change the operational facts. PX-1 itself uses both military and law-enforcement language. A government can invoke criminal charges and still commence a military offensive. The proposition turns on what the United States did and intended operationally, not on whether it also planned a courtroom afterward.\n\nNor is plaintiff relying on the weaker December events as standalone proof. Tanker seizures, a blockade, and offshore strikes are context. The decisive proof is January 3: U.S. military force on Venezuelan land, in the capital, at defended sites, with air-defense suppression, a controlled helicopter corridor, a ground extraction force, and capture/removal. That satisfies the date window, the territorial element, the military-offensive element, and the \"any portion\" control element.\n\nPreponderance means more likely than not. The defense asks the council to require an explicit source saying \"the objective was territorial control.\" But intent is often proved from operations themselves. Here the official, independent, analytical, and even defense-submitted sources all point in the same direction: the United States deliberately created controlled conditions inside Venezuela to accomplish a military objective. The proposition should be found true."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, the final record proves a serious use of U.S. military force in Venezuela. It does not prove the proposition as written.\n\nThe defense has been direct about what is established. PX-1 and PX-2 support that, on January 3, 2026, U.S. forces operated in Caracas, used military capabilities, and captured and removed Maduro and Flores. DX-1 likewise accepts that more than 200 special operations forces moved through Caracas and that strikes or damage occurred at several Venezuelan sites. The question is not whether the event was dramatic, hostile, or unlawful under some broader theory. The question is whether credible sources show, by a preponderance, that the United States commenced a military offensive intended to establish control over any portion of Venezuela.\n\nPlaintiff's closing reveals the weakness in its proof. It says no occupation, annexation, governance, or broad territorial control is required. Fair enough. But it then treats every operational condition of a raid as the required territorial control: a helicopter corridor, a route, a target area, access to a fortified site. That interpretation makes the control element automatic. Every armed raid requires some degree of security, suppression, access, and movement. If that is enough, the proposition would not need the words “intended to establish control”; it would ask only whether U.S. forces used military force inside Venezuela.\n\nThe admitted sources do not support that rewrite. PX-1, the official U.S. account, describes a joint military and law-enforcement mission to capture the Maduros and bring Maduro to justice. It describes force, aircraft, special operations, and extraction. It does not describe an objective to take, hold, administer, deny, or otherwise control any Venezuelan place as such. PX-2 independently reports strike, capture, and removal, but it too points to criminal charges and does not identify territorial control as the mission object. PX-3 gives campaign context and concern about regime change, yet concern and scale are not the same as proof that this particular operation intended territorial control.\n\nDX-1 is decisive on scope. CSIS describes the operation as a military operation in furtherance of a law-enforcement mission, laser-focused on capture, not a shock-and-awe campaign to bring the Venezuelan security apparatus to heel. It notes that air-defense attacks created a helicopter corridor, but also that many air-defense sites remained untouched; regular forces and headquarters were not struck; port damage was localized; airfield damage was narrow; and existing Venezuelan structures were left largely in place. Those facts show a temporary path to a person, not an intended seizure of territory.\n\nPlaintiff says intent can be inferred from operations. Yes, but the inference must fit the whole record. The best inference from this record is that the United States intended to capture and extract Maduro and Flores, using temporary tactical dominance as a means. Plaintiff asks you to convert that means into the object of the offensive. The record gives no order, official statement, independent report, imagery analysis, or consensus source saying that control of a corridor, compound, port, airfield, or city was itself the intended end.\n\nA short operation could satisfy the proposition if the evidence showed that territorial control was the objective. This record does not. The sources converge on military force and capture. They do not converge on the proposition's necessary control element.\n\nPreponderance requires the proposition to be more likely true than not. Here, the more likely account is narrower: a military-supported law-enforcement extraction, not an invasion intended to establish control over Venezuelan territory. The council should find the proposition not proven."
+        }
+      ],
+      "evidence": [
+        {
+          "evidence_id": "ev_051e811bed13_submitted-evidence-03-plaintiff-051e811bed13",
+          "sha256": "051e811bed130472bf2072ff5316764473d68daa0df391ba0a3dd5da10dc88f0",
+          "size_bytes": 4001,
+          "mime_type": "text/plain",
+          "storage_name": "05/051e811bed130472bf2072ff5316764473d68daa0df391ba0a3dd5da10dc88f0",
+          "created_at": "2026-06-30T00:42:38Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "Council on Foreign Relations explainer on Operation Southern Spear and Venezuela",
+          "original_name": "submitted-evidence-03-plaintiff-051e811bed13.txt",
+          "source_url": "https://www.cfr.org/articles/operation-southern-spear-us-military-campaign-targeting-venezuela",
+          "source_description": "Council on Foreign Relations explainer, captured as relevant text extract during plaintiff merits investigation.",
+          "retrieval_timestamp": "2026-06-30T00:46:00Z",
+          "submitted_by_role": "plaintiff",
+          "submitted_phase": "arguments",
+          "relevance": "Credible secondary analysis describing Operation Southern Spear, the military buildup, blockade context, counternarcotics framing, and concern that the campaign went beyond counternarcotics toward regime change/control questions.",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_383c84572ac8_submitted-evidence-04-defendant-383c84572ac8",
+          "sha256": "383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17",
+          "size_bytes": 4294,
+          "mime_type": "text/plain",
+          "storage_name": "38/383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17",
+          "created_at": "2026-06-30T00:45:37Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "CSIS imagery analysis: surgical strike, not shock and awe",
+          "original_name": "submitted-evidence-04-defendant-383c84572ac8.txt",
+          "source_url": "https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe",
+          "source_description": "Center for Strategic and International Studies commentary by Ryan C. Berg, Mark F. Cancian, Joseph S. Bermudez Jr., Jennifer Jun, Henry Ziemer, and Chris H. Park, published January 9, 2026; captured as relevant text extract during defendant merits investigation.",
+          "retrieval_timestamp": "2026-06-30T00:55:30Z",
+          "submitted_by_role": "defendant",
+          "submitted_phase": "arguments",
+          "relevance": "Independent imagery-based analysis limiting the scope and objective of the January 3, 2026 operation; relevant to whether the operation was intended to establish territorial control or was narrowly focused on capture/extraction with limited target sets.",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_7d30fcd0d9f7_submitted-evidence-02-plaintiff-7d30fcd0d9f7",
+          "sha256": "7d30fcd0d9f704222f94166d25b9a1221e206e971b247a0beb4c9cee7ba25372",
+          "size_bytes": 3389,
+          "mime_type": "text/plain",
+          "storage_name": "7d/7d30fcd0d9f704222f94166d25b9a1221e206e971b247a0beb4c9cee7ba25372",
+          "created_at": "2026-06-30T00:42:13Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "PBS/AP timeline of U.S. escalation leading to Maduro capture",
+          "original_name": "submitted-evidence-02-plaintiff-7d30fcd0d9f7.txt",
+          "source_url": "https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-escalation-against-venezuela-leading-to-maduros-capture",
+          "source_description": "PBS NewsHour page carrying Associated Press timeline by Regina Garcia Cano and AP contributors, captured as relevant text extract during plaintiff merits investigation.",
+          "retrieval_timestamp": "2026-06-30T00:45:00Z",
+          "submitted_by_role": "plaintiff",
+          "submitted_phase": "arguments",
+          "relevance": "Independent timeline corroborating December 2025 blockade/covert strike context and January 3, 2026 large-scale U.S. strike across Caracas, capture of Maduro and Flores, and removal from Venezuela.",
+          "text_readable": true
+        },
+        {
+          "evidence_id": "ev_e0e0fb921ec9_submitted-evidence-01-plaintiff-e0e0fb921ec9",
+          "sha256": "e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687",
+          "size_bytes": 3556,
+          "mime_type": "text/plain",
+          "storage_name": "e0/e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687",
+          "created_at": "2026-06-30T00:41:48Z",
+          "admissibility_status": "submitted_evidence",
+          "record_visibility": "juror_visible",
+          "title": "Official U.S. Department of War account of Operation Absolute Resolve in Caracas",
+          "original_name": "submitted-evidence-01-plaintiff-e0e0fb921ec9.txt",
+          "source_url": "https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/",
+          "source_description": "U.S. Department of War / Pentagon News article by Matthew Olay, published January 3, 2026, captured as relevant text extract during AAR plaintiff merits investigation.",
+          "retrieval_timestamp": "2026-06-30T00:44:00Z",
+          "submitted_by_role": "plaintiff",
+          "submitted_phase": "arguments",
+          "relevance": "Official U.S. source describing the January 3, 2026 military operation in Caracas, Venezuela, including location, military character, planning, special operations forces, ground extraction force, and aircraft support.",
+          "text_readable": true
+        }
+      ],
+      "exhibits": [
+        {
+          "evidence_id": "ev_e0e0fb921ec9_submitted-evidence-01-plaintiff-e0e0fb921ec9",
+          "label": "PX-1: Official U.S. account of Operation Absolute Resolve in Caracas",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Source: U.S. Department of War / Pentagon News\nTitle: Trump Announces U.S. Military's Capture of Maduro\nByline/date: Jan. 3, 2026 | By Matthew Olay, Pentagon News\nURL: https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/\nRetrieval timestamp: 2026-06-30T00:44:00Z\n\nRelevant extracted text:\n\nPresident Donald J. Trump today announced the capture of Venezuelan leader Nicolas Maduro, following a successful overnight joint U.S. military extraction in Venezuela's capital of Caracas.\n\nCaption/description for press conference image: President Donald J. Trump holds a press conference in Palm Beach, Fla., Jan. 3, 2026, with Secretary of State Marco Rubio, Secretary of War Pete Hegseth, second from right, and Air Force Gen. Dan Caine, chairman of the Joint Chiefs of Staff, to discuss Operation Absolute Resolve in Caracas, Venezuela.\n\n\"Last night and early today, at my direction, the United States armed forces conducted an extraordinary military operation in the capital of Venezuela. ... It was an operation against a heavily fortified military fortress in the heart of Caracas to bring outlaw dictator Nicolas Maduro to justice,\" Trump said during a midday news conference from his Mar-a-Lago residence in Palm Beach, Florida.\n\nThe president added that both Maduro and his also-captured wife, Cilia Flores de Maduro, will now face criminal court proceedings tied to a 2020 indictment from the U.S. Department of Justice on multiple federal charges, including narco-terrorism and drug trafficking.\n\nEarlier in the day, Trump posted a photo to social media showing a blindfolded and handcuffed Nicolas Maduro in custody aboard the U.S. Navy amphibious assault ship USS Iwo Jima.\n\nLabeled Operation Absolute Resolve, the joint military and law enforcement mission to capture the Maduros was the result of months of planning and rehearsal involving U.S. joint forces -- including special operations forces -- from multiple service branches. The military also networked extensively with multiple U.S. intelligence agencies, according to Air Force Gen. Dan Caine, chairman of the Joint Chiefs of Staff.\n\n\"Our interagency work began months ago and built on decades of experience [with] integrating complex air, ground, space and maritime operations. ... We watched, we waited, we prepared, we remained patient and professional. ... This was an audacious operation that only the United States could do,\" Caine said during the press conference.\n\nHe added that the mission to extract the Maduros -- in which there were no U.S. casualties -- was so precise that it involved more than 150 military aircraft from all across the Western Hemisphere launching in close coordination to provide cover for the ground-based extraction force in Caracas.\n\n\"Words can barely capture the bravery and the power and the precision of this historic operation, a massive joint military and law enforcement raid flawlessly executed by the greatest Americans our country has to offer,\" Secretary of War Pete Hegseth, who was also in attendance at Mar-a-Lago, told the media.\n\nCapture notes: This is an extracted text capture rather than full-page HTML. The page was opened through web tooling and relevant lines were preserved. This official source is strong for U.S. admissions about location, military forces, planning, air/ground/maritime integration, special operations involvement, and a ground extraction force in Caracas; it is also adverse in framing the operation partly as law enforcement and criminal-justice related."
+        },
+        {
+          "evidence_id": "ev_7d30fcd0d9f7_submitted-evidence-02-plaintiff-7d30fcd0d9f7",
+          "label": "PX-2: PBS/AP escalation timeline and Jan. 3 Caracas strike",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Source: PBS NewsHour / Associated Press\nTitle: A timeline of U.S. military escalation against Venezuela leading to Maduro's capture\nURL: https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-escalation-against-venezuela-leading-to-maduros-capture\nRetrieval timestamp: 2026-06-30T00:45:00Z\n\nRelevant extracted text:\n\nDec. 10: The U.S. seized an oil tanker off the coast of Venezuela after the ship left that country with about 2 million barrels of heavy crude. Attorney General Pam Bondi said the tanker was involved in \"an illicit oil shipping network supporting foreign terrorist organizations.\" Venezuela's government said the seizure was \"a blatant theft and an act of international piracy.\"\n\nDec. 16: Trump said he was ordering a blockade of all \"sanctioned oil tankers\" going into and out of Venezuela, a move that seemed designed to put a tighter chokehold on the South American country's oil-dependent economy. Trump alleged that Venezuela was using oil to fund drug trafficking, terrorism and other crimes. He pledged to continue the military buildup until Venezuela returned to the U.S. oil, land and assets, though it was unclear why Trump felt the U.S. had a claim.\n\nDec. 29: Trump told reporters that the U.S. struck a facility where boats accused of carrying drugs \"load up.\" He declined to say whether the U.S. military or the CIA carried out the strike on the dock or where it occurred. He did not confirm it happened in Venezuela.\n\nDec. 30: The CIA was behind the drone strike at a docking area believed to have been used by Venezuelan drug cartels, according to two people familiar with details of the classified operation who requested anonymity to discuss it. It was the first known direct operation on Venezuelan soil since the U.S. began strikes in September. Venezuelan officials have not acknowledged the strike.\n\nJan. 1, 2026: Maduro, in an interview on state television that aired on New Year's Day, said Venezuela was open to negotiating an agreement with the United States to combat drug trafficking. He declined to comment on the CIA-led strike and reiterated that the U.S. wanted to force a government change in Venezuela and gain access to its vast oil reserves.\n\nJan. 3: The U.S. conducted a \"large-scale strike\" across Caracas, the capital of Venezuela, captured Maduro and Flores and flew them out of the country. Attorney General Pam Bondi said Maduro and Flores had been indicted in the Southern District of New York. Maduro was accused of leading a \"a corrupt, illegitimate government that, for decades, has leveraged government power to protect and promote illegal activity, including drug trafficking.\"\n\nArticle footer/byline note visible in capture: Garcia Cano reported from Caracas, Venezuela. Related PBS links included live updates, an article titled \"What we know about a U.S. strike that captured Venezuela's Maduro,\" and \"U.S. strikes Venezuela and says leader Maduro has been captured and flown out of the country.\"\n\nCapture notes: This is a relevant text extraction, not full-page HTML. The source is useful for independent chronology and corroboration. It also contains limitations: the Dec. 29 item was not confirmed as Venezuela by Trump, the Dec. 30 item relies on anonymous sources and was not acknowledged by Venezuelan officials, and the Jan. 3 item reports law-enforcement charges as part of the operation's stated rationale."
+        },
+        {
+          "evidence_id": "ev_051e811bed13_submitted-evidence-03-plaintiff-051e811bed13",
+          "label": "PX-3: CFR Operation Southern Spear campaign context",
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Source: Council on Foreign Relations\nTitle: The U.S. Military Campaign Targeting Venezuela and Nicolas Maduro: What to Know\nURL: https://www.cfr.org/articles/operation-southern-spear-us-military-campaign-targeting-venezuela\nRetrieval timestamp: 2026-06-30T00:46:00Z\n\nRelevant extracted text:\n\nCFR analysis quoted Shannon K. O'Neil: \"Maduro is gone but the repressive elements of the regime are still there and in control. It is a huge country, so it is hard to control territorially,\" and noted that armed groups including military, secret police, colectivos, and National Liberation Army militias would need to be brought to heel for U.S.-friendly leaders to gain physical control of the streets, a basic prerequisite to governing.\n\nSince early September 2025, Trump mounted an escalating pressure campaign against the Maduro regime, which U.S. officials accused of leading a drug cartel that the State Department designated a foreign terrorist organization in November. Washington significantly increased its air and naval presence in the region as part of Operation Southern Spear, a U.S. military campaign that it says targets drug trafficking in the Caribbean. It authorized more than twenty lethal strikes on alleged drug trafficking boats.\n\nThe Trump administration framed the operation as necessary to curb the flow of drugs from Latin America to the United States, but some experts said the campaign's scope and intensity went beyond counternarcotics objectives, long raising the possibility of a broader effort to force regime change in Venezuela. Other heightened U.S. pressure on Venezuela, including a naval blockade on all sanctioned oil tankers into the country, had also raised concerns about escalation and broader regional instability.\n\nSection: What is Operation Southern Spear? On November 13, Defense Secretary Pete Hegseth announced the formal launch of Operation Southern Spear, which he said was aimed at targeting \"narco-terrorist\" organizations and disrupting illegal drug trafficking in the Western Hemisphere. The Pentagon described the effort as a U.S. military \"counter-narco-terrorism campaign\" intended to safeguard U.S. national security.\n\nHegseth's announcement came shortly after the Senate voted down a bipartisan war power resolution that would have blocked the Trump administration from using military force within or against Venezuela without congressional authorization. Another vote occurred on December 17, in which the U.S. House of Representatives rejected a pair of Democrat-backed resolutions that would have reined in Trump's military campaign toward Venezuela.\n\nSection: How is the operation being carried out? Before the United States' January 3 strike and capture of Maduro, the operation, led by U.S. Southern Command and Joint Task Force Southern Spear, involved a regional buildup of extensive air and naval assets, including bombers, drones, aircraft carriers, and amphibious assault ships.\n\nThe effort was later expanded into a broader, formal military operation that the United States said was focused on interdicting drug cartels in the Caribbean and Eastern Pacific.\n\nCFR quoted Roxanna Vigil as noting that when it came to the stated goals of disrupting illegal drug trafficking and dismantling \"narco-terrorist\" networks in the Western Hemisphere, there was \"a lot of mismatch,\" because the United States was using \"a huge naval deployment against small, little drug boats.\" CFR also noted that approximately fifteen thousand U.S. military personnel reportedly had been deployed in 2025, one of the largest U.S. military buildups in the region since the Cold War.\n\nCapture notes: This is a relevant text extraction, not full-page HTML. It is secondary analysis, not primary evidence of particular strikes. It is useful for context, scale, and adverse framing: it acknowledges the U.S. counternarcotics rationale and separately notes expert concern that the campaign's scope exceeded that rationale and raised regime-change/control questions."
+        },
+        {
+          "evidence_id": "ev_383c84572ac8_submitted-evidence-04-defendant-383c84572ac8",
+          "label": "DX-1: CSIS imagery analysis showing narrow capture-focused operation",
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Source: Center for Strategic and International Studies\nTitle: Imagery from Venezuela Shows a Surgical Strike, Not Shock and Awe\nURL: https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe\nByline: Ryan C. Berg, Mark F. Cancian, Joseph S. Bermudez Jr., Jennifer Jun, Henry Ziemer, and Chris H. Park\nPublished: January 9, 2026\nRetrieval timestamp: 2026-06-30T00:55:30Z\n\nRelevant extracted text:\n\nCSIS states that in the early morning hours of January 3, 2026, more than 200 U.S. special operations forces surged through Caracas to capture Nicolas Maduro and Cilia Flores in Operation Absolute Resolve, and that extensive intelligence collection supported a successful mission in which Maduro and his wife were captured and no U.S. personnel were killed.\n\nCSIS says its satellite imagery analysis estimated military activity and battle damage at four sites: Fort Tiuna Military Complex, La Carlota Air Base, La Guaira Port, and El Higuerote Airport.\n\nCSIS characterizes the picture from imagery as a military operation in furtherance of a law enforcement mission, laser-focused on the capture of Maduro with minimal collateral damage. It says this was not a shock-and-awe campaign intended to bring the entire Venezuelan security apparatus to heel with overwhelming force, unlike broad U.S. attacks against Iraq in 1991 and 2003 that targeted electrical, communications, and transportation infrastructure to force capitulation. CSIS states that no such targets were struck here.\n\nCSIS states that U.S. forces focused on a limited number of sites, primarily Fort Tiuna, where Maduro reportedly had several bunkers. It says air defense batteries and radars were attacked to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference, but that many air defense sites remained untouched and it was not necessary to take out the entire air defense system.\n\nCSIS states that Venezuela's regular military forces and their headquarters were also not struck. It notes that while an air defense unit was hit at La Guaira port, nearby Venezuelan navy ships were not, and none of the buildings at La Carlota Air Base, reported to be part of the Venezuelan air force headquarters, were struck.\n\nCSIS says the narrow target set may reflect a sincere desire to reduce casualties and may also reflect a deliberate signal to Venezuelan armed forces and Maduro's inner circle of limited U.S. objectives. It says the Trump administration could have decided to work through the existing Venezuelan structure and therefore did not want to destabilize or decapitate the military because it would be needed to keep order.\n\nAt Fort Tiuna, CSIS says damage was tightly focused, with no evidence of widespread strikes against barracks, training facilities, and administrative headquarters. CSIS assesses this suggests an effort to isolate and neutralize specific capabilities tied directly to rapid response and regime protection.\n\nAt La Carlota Air Base, CSIS reports two impact craters slightly north of the runway and says the relatively small footprint could indicate an effort to keep collateral-damage risk to a minimum. It says none of the runways, hangars, or buildings appear to have been struck.\n\nAt La Guaira port, CSIS says the port was struck because of an air defense unit, not because it is a military facility. It reports damage localized to a single pier with two warehouses and notes the United States did not target the main loading and unloading docks or Venezuelan naval ships docked approximately 700 meters to the west.\n\nAt Higuerote Airport, CSIS says post-operation imagery shows a destroyed truck near the terminal building with a debris fan consistent with a precision strike and no indication of strikes elsewhere at the airfield, supporting the assessment that the strike was narrowly focused rather than aimed at the airport's overall operations.\n\nCapture notes: This is a relevant text extract from the CSIS web page, not the full HTML or images. It is useful for defense because it directly addresses objective and scope through imagery analysis. It does not disprove that U.S. forces entered Venezuela or used military force; instead, it limits the inference that the mission intended broad territorial control."
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, the proposition is not decided by labels. The United States need not have declared a war or announced an occupation for this proposition to be true. The question is whether, during the defined window, credible sources show that the United States began a military offensive whose purpose included establishing control over any part of Venezuelan territory, even if that control was temporary, tactical, or limited to the area needed to accomplish the operation.\n\nAt the opening stage the record is empty. There is no admitted case packet, no submitted source, and no exhibit yet. That matters: plaintiff is not asking the council to treat an unadmitted article, URL, or search result as proof. But the empty record also clarifies what the case will turn on once evidence admission opens.\n\nPlaintiff expects the decisive proof to concern the sequence from the late-2025 military buildup and blockade through the January 2026 operation in Caracas. The core factual questions are straightforward. Did U.S. forces enter or strike Venezuelan territory during the window? Did they use military force, rather than only sanctions, diplomatic pressure, or ordinary criminal process? Did the operation require U.S. control over Venezuelan land, airspace, bases, ports, compounds, corridors, or other locations for the time needed to seize objectives and remove persons or assets? And do credible sources converge on that account?\n\nThe plaintiff theory is that the clearest qualifying event will be the January 2026 Caracas operation if the admitted evidence establishes what the public source trail appears to make central: a U.S. armed operation inside Venezuela, directed at the Venezuelan head of government, supported by broader military pressure, and carried out by controlling the target area long enough to accomplish extraction and removal. That is an offensive in ordinary terms. It is also control over a portion of Venezuela if U.S. forces dominated a compound, base, port, route, airspace, or strike zone against Venezuela's will to carry out the mission.\n\nThe preceding December events will matter as context, but plaintiff will not overclaim them. A naval buildup, threats, sanctions, tanker seizures, or strikes at sea may show pressure and intent, yet they do not by themselves prove control over Venezuelan land. A covert or drone action on Venezuelan soil may help establish that the offensive had already crossed from pressure into territorial force, but its weight will depend on source quality, attribution, and exact location. The strongest case will be built from primary or near-primary sources, dated reports, official statements, and corroborating accounts that fix the geography, sequence, actors, and purpose.\n\nPlaintiff also anticipates the main defense. The defense will say this was not an invasion but a law-enforcement extraction or counter-narcotics action; that temporary tactical dominance is not territorial control; and that some sources use uncertain language or rely on classified officials. Those are real weight questions. They are not fatal if admitted evidence shows U.S. military forces used armed force inside Venezuelan sovereign territory to seize and control an operational area for the mission. The proposition asks for an offensive intended to establish control over any portion, not annexation, permanent occupation, or full governmental replacement.\n\nWhat would defeat plaintiff's burden is equally clear: if the admitted evidence shows only offshore interdictions, threats, sanctions, or a consensual Venezuelan-assisted arrest without U.S. control of Venezuelan territory, plaintiff should lose. If credible sources materially conflict on whether U.S. forces operated inside Venezuela or whether any territorial control occurred, that conflict must be weighed under the preponderance standard. But if the record later shows a consensus that U.S. forces conducted a large-scale armed operation in Caracas during the window, controlled the relevant site or movement corridor, and removed Venezuelan leadership or other objectives by force, the proposition is more likely true than not.\n\nSo plaintiff's opening position is narrow and evidence-disciplined: this case will be proven, if at all, by admitted sources establishing the January 2026 operation and its late-2025 buildup as a military offensive into Venezuelan territory. The council should focus less on whether a source uses the word \"invasion\" and more on the operational facts: armed U.S. force, Venezuelan territory, control of a specific portion, intent, timing, and credible-source consensus."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defense opening begins with the record as it exists, not with headlines or assumptions. The current record contains the proposition and the plaintiff's opening. It contains no admitted case packet, no source document, no exhibit, and no evidence item. That does not end the case, because evidence admission comes later, but it matters for how the council should frame the burden: plaintiff must prove the qualifying facts by a consensus of credible sources, not by a plausible narrative about what may have happened.\n\nThe proposition is narrower than the word \"invasion\" in political debate. It asks whether, between November 3, 2025 and January 31, 2026, the United States commenced a military offensive intended to establish control over any portion of Venezuela. The defense expects the central dispute will not be whether the United States applied pressure to Venezuela, used force in the region, or even whether U.S. personnel later became involved in a Caracas operation. The central dispute is whether the admitted evidence proves the specific required intent and object: control over Venezuelan territory.\n\nPlaintiff's opening fairly identifies the same likely battleground: a January 2026 Caracas operation, preceded by military pressure. But even on plaintiff's own framing, many events would not satisfy the proposition. Naval deployments, sanctions, threats, offshore interdictions, seizures at sea, indictments, and diplomatic coercion are not control of Venezuelan territory. Strikes or electronic operations may show force, but still leave open the target, duration, legal character, and purpose. A raid to seize or extract a person may require temporary tactical dominance, force protection, or transit through airspace; those facts, if later proved, do not automatically become an offensive intended to establish territorial control.\n\nThat distinction will decide the case. Control of a portion of Venezuela means more than a momentary ability to move through or suppress resistance at a point. It requires evidence that the United States meant to take and hold some identifiable place, route, base, port, compound, airfield, or other portion of territory as an object of the military offensive. If later evidence shows only a tightly bounded law-enforcement or special operations mission aimed at capture, removal, or destruction of specific targets, plaintiff still must bridge the gap between operational force and territorial control.\n\nThe defense will also test source quality and consensus. The council should ask whether the same credible sources agree on the qualifying facts, or merely agree that a dramatic U.S. operation occurred. Do sources separate official statements from anonymous operational accounts? Do they fix the date and location? Do they describe Venezuelan consent, non-consent, or later cooperation? Do they identify land actually controlled, how long it was controlled, by whom, and for what purpose? Do imagery or official reports show broad occupation, or instead limited strikes and a narrow extraction? Do legal commentators' conclusions rest on international-law labels, or on the proposition's specific control requirement?\n\nThe defense does not need to prove that nothing happened. Plaintiff must prove that the thing that happened fits this proposition. If later admitted sources show an armed U.S. campaign to seize and hold Venezuelan territory, the council can weigh that evidence. But if the record shows pressure, targeted strikes, or an extraction without a territorial-control objective, the proposition is not more likely true than not.\n\nSo the defense asks the council to keep the elements separate: force is not automatically invasion; presence is not automatically control; operational control for seconds or minutes is not automatically territorial control as an intended object; and political descriptions are not a substitute for admitted proof. On the present record, plaintiff has no evidence. In the next phases, the decisive sources should be official statements and reports, independent accounts, imagery, and any primary records that identify the mission's objective, geography, duration, and custody chain. Until those sources are admitted and tested, the only sound opening position is that plaintiff has a substantial missing link to prove."
+        }
+      ],
+      "prior_council_votes": [
+        {
+          "member_id": "C2",
+          "rationale": "The admitted evidence establishes a military offensive by the United States in Caracas on January 3, 2026, involving a ground extraction force, over 150 aircraft, and control of specific sites, including Fort Tiuna and air corridors, which constituted temporary but intentional control over portions of Venezuelan territory. This satisfies the proposition's requirement of establishing control over any portion, even temporarily, for mission completion.",
+          "round": 1,
+          "vote": "demonstrated"
+        }
+      ],
+      "rebuttals": [
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "text": "Council members, the defense rebuttal turns on one move: it converts \"control over any portion\" into \"take and hold territory as the ultimate objective.\" That is not the proposition.\n\nThe proposition asks whether the United States commenced a military offensive intended to establish control over any portion of Venezuela. It does not say permanent control, occupation, annexation, governance, or control over Venezuela as a whole. The phrase \"any portion\" is doing work. If U.S. forces deliberately controlled a fortress, target area, air-defense corridor, port site, air base access point, or extraction route inside Venezuela to complete an armed operation, that is control over a portion.\n\nThe defense's own exhibit, DX-1, reinforces rather than defeats that point. CSIS says more than 200 U.S. special operations forces surged through Caracas to capture Maduro and Flores. It identifies military activity and battle damage at Fort Tiuna Military Complex, La Carlota Air Base, La Guaira Port, and Higuerote Airport. It says U.S. forces attacked air-defense batteries and radars to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference. That is not just \"momentary operational advantage\" in the abstract. It is a planned, forcible creation of U.S.-controlled access and target conditions inside Venezuela.\n\nDX-1 is strongest for defendant only against an argument plaintiff has not made: that the United States launched a broad shock-and-awe campaign to bring the entire Venezuelan security apparatus to heel. Plaintiff's case is narrower. PX-1 proves an official U.S. armed-forces operation in the capital, against a fortified military fortress in the heart of Caracas, using joint forces, special operations forces, integrated air/ground/space/maritime operations, more than 150 aircraft, and a ground extraction force. PX-2 independently reports a large-scale strike across Caracas and removal of Maduro and Flores. DX-1 adds that over 200 special operations forces surged through Caracas and that multiple Venezuelan military or transport sites were struck or affected to enable helicopter entry and target access.\n\nCalling the operation surgical does not make it non-offensive. A surgical strike is still a strike. Calling the mission law-enforcement-supported does not erase the admitted military facts. A capture mission can be the object of an offensive, and the control needed to execute it can be the intended control over a portion. The relevant question is not whether the United States meant to govern Caracas the next morning. It is whether the United States intended to establish control over some Venezuelan place or corridor long enough to execute its military objective. The record says yes.\n\nThe defense also says sources do not converge on territorial-control intent. But the convergence is operational: official U.S. admissions, AP/PBS reporting, CFR campaign context, and CSIS imagery analysis all point to U.S. military force inside Venezuela, in Caracas, against defended sites, with air-defense suppression and ground-force movement to seize and remove the target. From those facts, the preponderant inference is not a mere arrest; it is a military offensive that deliberately created control over portions of Venezuelan territory.\n\nThe defense is right that the December offshore actions alone would not be enough and that DX-1 narrows the operation's scope. Those concessions do not decide this proposition. A narrow invasion is still an invasion if it intentionally controls any portion of sovereign territory by force. On this record, January 3 satisfies that standard."
+        }
+      ],
+      "submitted_evidence": [
+        {
+          "evidence_id": "ev_e0e0fb921ec9_submitted-evidence-01-plaintiff-e0e0fb921ec9",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Official U.S. source describing the January 3, 2026 military operation in Caracas, Venezuela, including location, military character, planning, special operations forces, ground extraction force, and aircraft support.",
+          "retrieval_timestamp": "2026-06-30T00:44:00Z",
+          "role": "plaintiff",
+          "sha256": "e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687",
+          "size_bytes": 3556,
+          "source_description": "U.S. Department of War / Pentagon News article by Matthew Olay, published January 3, 2026, captured as relevant text extract during AAR plaintiff merits investigation.",
+          "source_url": "https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/",
+          "title": "Official U.S. Department of War account of Operation Absolute Resolve in Caracas"
+        },
+        {
+          "evidence_id": "ev_7d30fcd0d9f7_submitted-evidence-02-plaintiff-7d30fcd0d9f7",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Independent timeline corroborating December 2025 blockade/covert strike context and January 3, 2026 large-scale U.S. strike across Caracas, capture of Maduro and Flores, and removal from Venezuela.",
+          "retrieval_timestamp": "2026-06-30T00:45:00Z",
+          "role": "plaintiff",
+          "sha256": "7d30fcd0d9f704222f94166d25b9a1221e206e971b247a0beb4c9cee7ba25372",
+          "size_bytes": 3389,
+          "source_description": "PBS NewsHour page carrying Associated Press timeline by Regina Garcia Cano and AP contributors, captured as relevant text extract during plaintiff merits investigation.",
+          "source_url": "https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-escalation-against-venezuela-leading-to-maduros-capture",
+          "title": "PBS/AP timeline of U.S. escalation leading to Maduro capture"
+        },
+        {
+          "evidence_id": "ev_051e811bed13_submitted-evidence-03-plaintiff-051e811bed13",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Credible secondary analysis describing Operation Southern Spear, the military buildup, blockade context, counternarcotics framing, and concern that the campaign went beyond counternarcotics toward regime change/control questions.",
+          "retrieval_timestamp": "2026-06-30T00:46:00Z",
+          "role": "plaintiff",
+          "sha256": "051e811bed130472bf2072ff5316764473d68daa0df391ba0a3dd5da10dc88f0",
+          "size_bytes": 4001,
+          "source_description": "Council on Foreign Relations explainer, captured as relevant text extract during plaintiff merits investigation.",
+          "source_url": "https://www.cfr.org/articles/operation-southern-spear-us-military-campaign-targeting-venezuela",
+          "title": "Council on Foreign Relations explainer on Operation Southern Spear and Venezuela"
+        },
+        {
+          "evidence_id": "ev_383c84572ac8_submitted-evidence-04-defendant-383c84572ac8",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Independent imagery-based analysis limiting the scope and objective of the January 3, 2026 operation; relevant to whether the operation was intended to establish territorial control or was narrowly focused on capture/extraction with limited target sets.",
+          "retrieval_timestamp": "2026-06-30T00:55:30Z",
+          "role": "defendant",
+          "sha256": "383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17",
+          "size_bytes": 4294,
+          "source_description": "Center for Strategic and International Studies commentary by Ryan C. Berg, Mark F. Cancian, Joseph S. Bermudez Jr., Jennifer Jun, Henry Ziemer, and Chris H. Park, published January 9, 2026; captured as relevant text extract during defendant merits investigation.",
+          "source_url": "https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe",
+          "title": "CSIS imagery analysis: surgical strike, not shock and awe"
+        }
+      ],
+      "surrebuttals": [
+        {
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Council members, plaintiff's rebuttal usefully narrows the dispute to one question: does temporary operational control needed to conduct a raid equal a military offensive intended to establish control over territory? The defense answer remains no.\n\nPlaintiff says the proposition does not require permanent control, occupation, annexation, or governance. Agreed. But the proposition still requires an offensive intended to establish control over a portion of Venezuela. Plaintiff's reading effectively deletes that intent requirement. Under plaintiff's theory, any armed force that secures a door, suppresses an air-defense battery, clears a route, or protects helicopters has “controlled a portion” and therefore invaded. That cannot be the limiting principle the proposition supplies.\n\nDX-1 does not prove plaintiff's territorial-control theory; it shows why the theory is overbroad. CSIS says air-defense batteries and radars were attacked to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference. That is a means of access and force protection. It is not evidence that the United States intended to establish control over the corridor as a territorial object. CSIS likewise says many air-defense sites remained untouched, regular forces and headquarters were not struck, port damage was localized, airport strikes were narrow, and the whole picture was a law-enforcement mission laser-focused on capture. Those details are hard to square with an intent to establish territorial control; they fit a temporary raid.\n\nPlaintiff also relies on the phrase “more than 200 U.S. special operations forces surged through Caracas.” But movement through a city is not control of the city. Even control of a target room, bunker entrance, or landing zone for the time needed to seize a person is tactical control incidental to the capture. The admitted sources repeatedly describe the objective as capture, extraction, and bringing Maduro to justice. None identifies a U.S. plan to take, hold, administer, or deny Venezuela control of any place as the object of the operation.\n\nThis distinction does not require permanent occupation. A short operation could satisfy the proposition if the evidence showed that control of a port, airfield, compound, or corridor was itself the intended object. The record does not show that. It shows a military-supported law-enforcement raid using force to reach and remove two people.\n\nPlaintiff's “any portion” argument proves too much. If accepted, it would make the control element automatic whenever a military raid succeeds. The council should instead give effect to the whole proposition: military force inside Venezuela is not enough; intended territorial control must be proven by credible-source consensus. On this record, that element remains an inference plaintiff asks the council to supply, not a fact the sources establish."
+        }
+      ],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "At phase start the record contained no evidence. Plaintiff submitted three compact text captures with provenance: an official U.S. Department of War account for primary admissions, a PBS/AP chronology for independent corroboration and sequence, and a CFR explainer for campaign context and adverse counternarcotics framing. The strongest proof is the January 3 Caracas operation; December blockade and covert-action items are used as context, not as standalone proof. Limitations: captures are relevant text extracts rather than full HTML/media; the Dec. 30 Venezuelan-soil item in PX-2 relies on anonymous sourcing and non-acknowledgement; PX-3 is secondary analysis. These limits do not defeat the core official and independent convergence on armed U.S. force in Caracas.",
+          "title": "Plaintiff source-chain and weight assessment"
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "summary": "The defense inspected the three plaintiff text extracts by metadata and byte-range read. They support force, location, and capture, but not an explicit objective to take or hold territory. The defense then submitted CSIS imagery-based analysis as DX-1 because it specifically addresses scope and objective: limited target set, helicopter corridor, many air-defense sites untouched, no broad infrastructure strikes, and a law-enforcement/capture focus. Remaining gap: no admitted source identifies an order or consensus that territorial control was the operation's intended object rather than an incidental tactical condition of extraction.",
+          "title": "Evidence and Source-Weight Analysis"
+        }
+      ]
+    }
+  },
+  "evidence": [
+    {
+      "evidence_id": "ev_051e811bed13_submitted-evidence-03-plaintiff-051e811bed13",
+      "sha256": "051e811bed130472bf2072ff5316764473d68daa0df391ba0a3dd5da10dc88f0",
+      "size_bytes": 4001,
+      "mime_type": "text/plain",
+      "storage_name": "05/051e811bed130472bf2072ff5316764473d68daa0df391ba0a3dd5da10dc88f0",
+      "created_at": "2026-06-30T00:42:38Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Council on Foreign Relations explainer on Operation Southern Spear and Venezuela",
+      "original_name": "submitted-evidence-03-plaintiff-051e811bed13.txt",
+      "source_url": "https://www.cfr.org/articles/operation-southern-spear-us-military-campaign-targeting-venezuela",
+      "source_description": "Council on Foreign Relations explainer, captured as relevant text extract during plaintiff merits investigation.",
+      "retrieval_timestamp": "2026-06-30T00:46:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Credible secondary analysis describing Operation Southern Spear, the military buildup, blockade context, counternarcotics framing, and concern that the campaign went beyond counternarcotics toward regime change/control questions.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_383c84572ac8_submitted-evidence-04-defendant-383c84572ac8",
+      "sha256": "383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17",
+      "size_bytes": 4294,
+      "mime_type": "text/plain",
+      "storage_name": "38/383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17",
+      "created_at": "2026-06-30T00:45:37Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "CSIS imagery analysis: surgical strike, not shock and awe",
+      "original_name": "submitted-evidence-04-defendant-383c84572ac8.txt",
+      "source_url": "https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe",
+      "source_description": "Center for Strategic and International Studies commentary by Ryan C. Berg, Mark F. Cancian, Joseph S. Bermudez Jr., Jennifer Jun, Henry Ziemer, and Chris H. Park, published January 9, 2026; captured as relevant text extract during defendant merits investigation.",
+      "retrieval_timestamp": "2026-06-30T00:55:30Z",
+      "submitted_by_role": "defendant",
+      "submitted_phase": "arguments",
+      "relevance": "Independent imagery-based analysis limiting the scope and objective of the January 3, 2026 operation; relevant to whether the operation was intended to establish territorial control or was narrowly focused on capture/extraction with limited target sets.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_7d30fcd0d9f7_submitted-evidence-02-plaintiff-7d30fcd0d9f7",
+      "sha256": "7d30fcd0d9f704222f94166d25b9a1221e206e971b247a0beb4c9cee7ba25372",
+      "size_bytes": 3389,
+      "mime_type": "text/plain",
+      "storage_name": "7d/7d30fcd0d9f704222f94166d25b9a1221e206e971b247a0beb4c9cee7ba25372",
+      "created_at": "2026-06-30T00:42:13Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "PBS/AP timeline of U.S. escalation leading to Maduro capture",
+      "original_name": "submitted-evidence-02-plaintiff-7d30fcd0d9f7.txt",
+      "source_url": "https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-escalation-against-venezuela-leading-to-maduros-capture",
+      "source_description": "PBS NewsHour page carrying Associated Press timeline by Regina Garcia Cano and AP contributors, captured as relevant text extract during plaintiff merits investigation.",
+      "retrieval_timestamp": "2026-06-30T00:45:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Independent timeline corroborating December 2025 blockade/covert strike context and January 3, 2026 large-scale U.S. strike across Caracas, capture of Maduro and Flores, and removal from Venezuela.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_e0e0fb921ec9_submitted-evidence-01-plaintiff-e0e0fb921ec9",
+      "sha256": "e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687",
+      "size_bytes": 3556,
+      "mime_type": "text/plain",
+      "storage_name": "e0/e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687",
+      "created_at": "2026-06-30T00:41:48Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Official U.S. Department of War account of Operation Absolute Resolve in Caracas",
+      "original_name": "submitted-evidence-01-plaintiff-e0e0fb921ec9.txt",
+      "source_url": "https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/",
+      "source_description": "U.S. Department of War / Pentagon News article by Matthew Olay, published January 3, 2026, captured as relevant text extract during AAR plaintiff merits investigation.",
+      "retrieval_timestamp": "2026-06-30T00:44:00Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Official U.S. source describing the January 3, 2026 military operation in Caracas, Venezuela, including location, military character, planning, special operations forces, ground extraction force, and aircraft support.",
+      "text_readable": true
+    }
+  ],
+  "evidence_manifest": {
+    "created_at": "2026-06-30T00:52:44Z",
+    "evidence": [
+      {
+        "evidence_id": "ev_051e811bed13_submitted-evidence-03-plaintiff-051e811bed13",
+        "sha256": "051e811bed130472bf2072ff5316764473d68daa0df391ba0a3dd5da10dc88f0",
+        "size_bytes": 4001,
+        "mime_type": "text/plain",
+        "storage_name": "05/051e811bed130472bf2072ff5316764473d68daa0df391ba0a3dd5da10dc88f0",
+        "created_at": "2026-06-30T00:42:38Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "Council on Foreign Relations explainer on Operation Southern Spear and Venezuela",
+        "original_name": "submitted-evidence-03-plaintiff-051e811bed13.txt",
+        "source_url": "https://www.cfr.org/articles/operation-southern-spear-us-military-campaign-targeting-venezuela",
+        "source_description": "Council on Foreign Relations explainer, captured as relevant text extract during plaintiff merits investigation.",
+        "retrieval_timestamp": "2026-06-30T00:46:00Z",
+        "submitted_by_role": "plaintiff",
+        "submitted_phase": "arguments",
+        "relevance": "Credible secondary analysis describing Operation Southern Spear, the military buildup, blockade context, counternarcotics framing, and concern that the campaign went beyond counternarcotics toward regime change/control questions.",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_383c84572ac8_submitted-evidence-04-defendant-383c84572ac8",
+        "sha256": "383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17",
+        "size_bytes": 4294,
+        "mime_type": "text/plain",
+        "storage_name": "38/383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17",
+        "created_at": "2026-06-30T00:45:37Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "CSIS imagery analysis: surgical strike, not shock and awe",
+        "original_name": "submitted-evidence-04-defendant-383c84572ac8.txt",
+        "source_url": "https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe",
+        "source_description": "Center for Strategic and International Studies commentary by Ryan C. Berg, Mark F. Cancian, Joseph S. Bermudez Jr., Jennifer Jun, Henry Ziemer, and Chris H. Park, published January 9, 2026; captured as relevant text extract during defendant merits investigation.",
+        "retrieval_timestamp": "2026-06-30T00:55:30Z",
+        "submitted_by_role": "defendant",
+        "submitted_phase": "arguments",
+        "relevance": "Independent imagery-based analysis limiting the scope and objective of the January 3, 2026 operation; relevant to whether the operation was intended to establish territorial control or was narrowly focused on capture/extraction with limited target sets.",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_7d30fcd0d9f7_submitted-evidence-02-plaintiff-7d30fcd0d9f7",
+        "sha256": "7d30fcd0d9f704222f94166d25b9a1221e206e971b247a0beb4c9cee7ba25372",
+        "size_bytes": 3389,
+        "mime_type": "text/plain",
+        "storage_name": "7d/7d30fcd0d9f704222f94166d25b9a1221e206e971b247a0beb4c9cee7ba25372",
+        "created_at": "2026-06-30T00:42:13Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "PBS/AP timeline of U.S. escalation leading to Maduro capture",
+        "original_name": "submitted-evidence-02-plaintiff-7d30fcd0d9f7.txt",
+        "source_url": "https://www.pbs.org/newshour/world/a-timeline-of-u-s-military-escalation-against-venezuela-leading-to-maduros-capture",
+        "source_description": "PBS NewsHour page carrying Associated Press timeline by Regina Garcia Cano and AP contributors, captured as relevant text extract during plaintiff merits investigation.",
+        "retrieval_timestamp": "2026-06-30T00:45:00Z",
+        "submitted_by_role": "plaintiff",
+        "submitted_phase": "arguments",
+        "relevance": "Independent timeline corroborating December 2025 blockade/covert strike context and January 3, 2026 large-scale U.S. strike across Caracas, capture of Maduro and Flores, and removal from Venezuela.",
+        "text_readable": true
+      },
+      {
+        "evidence_id": "ev_e0e0fb921ec9_submitted-evidence-01-plaintiff-e0e0fb921ec9",
+        "sha256": "e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687",
+        "size_bytes": 3556,
+        "mime_type": "text/plain",
+        "storage_name": "e0/e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687",
+        "created_at": "2026-06-30T00:41:48Z",
+        "admissibility_status": "submitted_evidence",
+        "record_visibility": "juror_visible",
+        "title": "Official U.S. Department of War account of Operation Absolute Resolve in Caracas",
+        "original_name": "submitted-evidence-01-plaintiff-e0e0fb921ec9.txt",
+        "source_url": "https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/",
+        "source_description": "U.S. Department of War / Pentagon News article by Matthew Olay, published January 3, 2026, captured as relevant text extract during AAR plaintiff merits investigation.",
+        "retrieval_timestamp": "2026-06-30T00:44:00Z",
+        "submitted_by_role": "plaintiff",
+        "submitted_phase": "arguments",
+        "relevance": "Official U.S. source describing the January 3, 2026 military operation in Caracas, Venezuela, including location, military character, planning, special operations forces, ground extraction force, and aircraft support.",
+        "text_readable": true
+      }
+    ],
+    "evidence_count": 4,
+    "schema_version": "aar.evidence-manifest.v0"
+  }
+}

@@ -1,0 +1,15 @@
+Source: Official White House briefings and statements page.
+Title: Statement from Secretary of State Marco Rubio.
+Publisher shown: The White House.
+Date shown: June 12, 2025.
+Source URL: https://www.whitehouse.gov/briefings-statements/2025/06/statement-from-secretary-of-state-marco-rubio/
+Retrieval: web.open on 2026-06-30; relevant lines 143-149.
+
+Relevant captured text:
+- The page title is "Statement from Secretary of State Marco Rubio."
+- The page states: "Tonight, Israel took unilateral action against Iran. We are not involved in strikes against Iran and our top priority is protecting American forces in the region."
+- It states Israel advised the U.S. that Israel believed the action was necessary for self-defense.
+- It states President Trump and the Administration had taken necessary steps to protect U.S. forces and were in contact with regional partners.
+- It states: "Let me be clear: Iran should not target U.S. interests or personnel."
+
+This official U.S. source does not state that the United States and Iran reached, signed, formally adopted, or publicly confirmed a permanent peace deal by June 15, 2025. Its substance is crisis management and force protection immediately before the deadline.

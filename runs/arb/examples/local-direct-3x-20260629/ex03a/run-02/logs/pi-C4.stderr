@@ -1,0 +1,15 @@
+npm WARN deprecated node-domexception@1.0.0: Use your platform's native DOMException instead
+npm WARN tar TAR_ENTRY_ERROR EINVAL: invalid argument, fchown
+npm WARN tar TAR_ENTRY_ERROR EINVAL: invalid argument, fchown
+npm WARN tar TAR_ENTRY_ERROR EINVAL: invalid argument, fchown
+npm WARN tar TAR_ENTRY_ERROR EINVAL: invalid argument, fchown
+npm WARN tar TAR_ENTRY_ERROR EINVAL: invalid argument, fchown
+npm WARN tar TAR_ENTRY_ERROR EINVAL: invalid argument, fchown
+npm WARN tar TAR_ENTRY_ERROR EINVAL: invalid argument, fchown
+
+added 199 packages, and audited 200 packages in 16s
+
+50 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities

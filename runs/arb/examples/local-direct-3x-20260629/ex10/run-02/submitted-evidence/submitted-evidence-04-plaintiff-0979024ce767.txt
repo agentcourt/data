@@ -1,0 +1,44 @@
+Source URL: https://docs.polymarket.com/v2-migration
+Retrieved: 2026-06-30T08:10:00Z
+Source: Official Polymarket Documentation (docs.polymarket.com)
+
+Relevant captured page text:
+
+# Migrating to CLOB V2
+
+A complete guide to upgrading your integration to Polymarket’s CLOB V2 — new contracts, new backend, new collateral token, and a simpler builder program.
+
+Polymarket has shipped a coordinated upgrade of its entire trading infrastructure: new Exchange contracts, a rewritten CLOB backend, and a new collateral token (Polymarket USD, or pUSD). This guide walks you through everything you need to migrate from CLOB V1 to CLOB V2.
+
+CLOB V2 is live as of April 28, 2026. Legacy V1 SDKs and V1-signed orders are no longer supported on production. Upgrade to the V2 SDK or update your raw order signing before submitting orders to https://clob.polymarket.com.
+
+Production URL: CLOB V2 now runs at https://clob.polymarket.com. The pre-cutover https://clob-v2.polymarket.com testing host is no longer the integration target for production clients.
+
+TL;DR
+
+Collateral: USDC.e before; pUSD after (standard ERC-20, backed by USDC).
+
+What’s changing
+
+3. New collateral token
+
+Polymarket is migrating from USDC.e to pUSD (Polymarket USD), a standard ERC-20 on Polygon backed by USDC. Backing is enforced onchain by the smart contract.
+- For users trading on polymarket.com, the frontend handles wrapping automatically with a one-time approval.
+- Power users and API-only traders wrap their USDC.e into pUSD via the Collateral Onramp contract’s wrap() function.
+
+Collateral token: USDC.e → pUSD
+
+Polymarket USD (pUSD) replaces USDC.e as the collateral token. pUSD is a standard ERC-20 on Polygon backed by USDC, with backing enforced onchain by the smart contract. The permissionless Collateral Onramp accepts USDC.e.
+- For users on polymarket.com: the UI handles wrapping automatically.
+- For API-only traders: wrap USDC.e into pUSD via the Collateral Onramp’s wrap() function. See the pUSD page for full examples and Contracts for addresses.
+
+Cutover day
+
+Go-live occurred on April 28, 2026 (~11:00 UTC). The migration involved approximately 1 hour of downtime during which trading was paused.
+
+FAQ
+
+Do I need to migrate my USDC.e to pUSD manually?
+If you’re trading through polymarket.com, no — the UI handles wrapping automatically with a one-time approval. If you’re API-only, you’ll need to call wrap() on the Collateral Onramp contract.
+
+Capture note: This is a focused text extraction of the visible rendered official documentation page, not a server-dated publication-history capture.

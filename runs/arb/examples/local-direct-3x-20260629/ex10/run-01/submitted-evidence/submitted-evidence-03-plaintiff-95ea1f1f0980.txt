@@ -1,0 +1,23 @@
+Source: https://docs.polymarket.com/changelog
+Title: Polymarket Changelog
+Retrieved: 2026-06-30T07:49:00Z
+
+Material page text extract:
+# Polymarket Changelog
+Welcome to the Polymarket Changelog. Here you will find any important changes to Polymarket, including but not limited to CLOB, API, UI and Mobile Applications.
+
+Apr 28, 2026
+CLOB V2 is live on production
+Polymarket's CLOB V2 upgrade is live on https://clob.polymarket.com.
+- Production URL unchanged: V2 now runs on the standard CLOB host. New integrations should use https://clob.polymarket.com.
+- No V1 compatibility: Legacy V1 SDKs and V1-signed orders are no longer supported on production.
+- Open orders wiped: Resting orders from before the cutover did not migrate and must be re-created with V2 signing.
+- Migration guide: See Migrating to CLOB V2 for the SDK, raw order signing, pUSD, and builder attribution changes.
+
+Apr 17, 2026
+CLOB V2: upgrades go live April 28 at ~11:00 UTC, with ~1 hour of downtime
+Polymarket is shipping a coordinated upgrade: new Exchange contracts, a rewritten CLOB backend, and a new collateral token (pUSD). Exchange upgrades go live April 28, 2026 at ~11:00 UTC with ~1 hour of downtime. All integrations must migrate to the V2 SDK before the cutover — there will be no backward compatibility after go-live.
+What’s changing
+- New Exchange contracts (CTF Exchange V2 + Neg Risk CTF Exchange V2)
+- pUSD replaces USDC.e as the collateral token (standard ERC-20 on Polygon, backed by USDC, backing enforced onchain)
+- Order struct changes, fee changes, builder attribution, and EIP-712 exchange domain version changes.

@@ -1,0 +1,7 @@
+{
+  "council_llm_timeout_seconds": 900,
+  "lawyer_turn_timeout_seconds": 900,
+  "max_response_bytes": 131072,
+  "invalid_attempt_limit": 3,
+  "council_max_output_tokens": 4096
+}

@@ -1,0 +1,11 @@
+Retrieval: curl -L https://polygonscan.com/address/0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB
+Response headers observed: HTTP/2 200; content-type: text/html; date: Tue, 30 Jun 2026 11:12:07 GMT; server: cloudflare.
+
+Page title/meta extract:
+Title: Polymarket: pUSD Token | Address: 0xC011a7E1...342E82DFB | PolygonScan
+Meta description: Contract: Verified | Token Rep: OK | Price: $0.9998 | Transactions: 669,892 | As at Jun-30-2026 11:12:07 AM (UTC)
+Open graph title: Polymarket: pUSD Token | Address: 0xC011a7E1...342E82DFB | PolygonScan
+Open graph site name: Polygon (POL) Blockchain Explorer
+Open graph URL: https://polygonscan.com/address/0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB
+
+Analysis note: This source is not an official Polymarket channel. It corroborates the public on-chain identity of the same address Polymarket's official Contracts page lists for pUSD CollateralToken (proxy), but official Polymarket docs remain the stronger source for Polymarket attribution and public communication.

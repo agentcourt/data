@@ -1,0 +1,317 @@
+Role: council member
+Member ID: C1
+Deliberation round: 1
+Proposition: Israel invaded Syria in 2024.  In particular, Israel commenced a
+military offensive intended to establish control over any portion of
+Syria between September 12, 2024 and December 31, 2024, 11:59 PM
+ET. For the purposes of this market, the Golan Heights count as
+Israeli territory.  The authorities for this proposition are official
+confirmation by Syria, Israel, the United Nations, or any permanent
+member of the UN Security Council, however a consensus of credible
+reporting will also be used.
+Standard of evidence: Preponderance of the evidence.
+Persona:
+You are a careful juror and council member.
+
+Evaluate the record faithfully. Decide only from the evidence, the stated rules, and the applicable burden of proof. Do not favor either side, fill gaps with speculation, or ignore uncertainty.
+
+Give weight to reliable sources, direct evidence, consistent reasoning, and clear admissions. Discount unsupported claims, rhetorical force, irrelevant facts, and conclusions that exceed the record.
+
+When the evidence supports one answer, state it plainly. When the evidence is incomplete or balanced, say so. Be concise, honest, and exact.
+
+Record:
+Openings:
+[plaintiff] Council members, the proposition is not whether Israel annexed all of Syria, nor whether Israeli and Syrian forces fought a conventional battle. The market asks a narrower question: between September 12 and December 31, 2024, did Israel commence a military offensive intended to establish control over any portion of Syria, with the Golan Heights counted as Israeli territory for this market?
+
+The present record is only the case packet. It gives us the governing rule, the proof standard, and the original market-resolution theory. The packet says the market resolved Yes because Israeli forces reached the Syrian side of Mount Hermon, and because Prime Minister Netanyahu later visited that Syrian side and announced Israeli forces would remain there until another security arrangement was found. That packet is important, but it is not a substitute for the underlying official and journalistic source record. It proves the rules and the stated rationale; later phases should admit the primary and corroborating materials that prove the factual sequence itself.
+
+The plaintiff's theory is straightforward. If Israeli forces crossed out of Israel-held territory into the Syrian side of Mount Hermon or the Syria-side buffer area during the window, took military positions, and held them for Israel's security until a further arrangement, that is control for purposes of this market. The rule does not require a declared war, permanent annexation, civilian administration, or a firefight with the Syrian army. A military seizure of strategic ground, followed by a stated intention to remain until Israel's security conditions are satisfied, is enough under a preponderance standard.
+
+The decisive proof should therefore focus on four facts. First, timing: the crossing and seizure must have begun during December 2024, inside the market window. Second, geography: the position must be Syrian territory for market purposes, not merely the Golan Heights, which the rules treat as Israeli territory. The Syrian side of Mount Hermon and the UN disengagement area are the central places to test. Third, conduct: the record should show armed Israeli forces entering, taking, holding, or fortifying positions. Fourth, intent: the record should show more than a transient patrol, namely a purpose to maintain control until Israel's security requirements were met.
+
+The expected defense is also clear. Israel may characterize the operation as defensive, temporary, and responsive to the fall of the Assad government and the abandonment of Syrian posts. That framing matters to weight, but it does not defeat the proposition if the evidence shows actual military control of Syrian ground. A temporary occupation can still be an invasion under this market's functional wording. Likewise, the absence of a formal annexation claim is not dispositive; the rule asks about control, not sovereignty paperwork.
+
+The plaintiff will seek to admit, when the phase permits, official Israeli statements or government-published material about the Mount Hermon visit and the decision to remain; United Nations or UNDOF material identifying Israeli military presence in the area of separation and any violation of the 1974 disengagement arrangement; any Syrian or Security Council statements confirming the crossings and positions; and credible reporting that fixes the date, location, and sequence. The defense is entitled to test whether those sources distinguish the Golan Heights from Syrian territory, whether the quoted Israeli statements are accurately captured, and whether later confirmations describe the December 2024 entry rather than later events.
+
+On the current record, the case packet makes the plaintiff's theory plausible and identifies the core proof path. The full burden will be met by showing, with admitted official confirmations and corroborating reporting, that Israeli forces entered Syrian territory during the window and held strategic positions there for security control. If that source record is admitted as expected, the council should resolve the proposition Yes.
+
+[defendant] Council members, the defense begins with the actual proposition, not the market label. The question is not whether Israel acted in or around Syria after the fall of Assad, nor whether its actions were controversial. The plaintiff must show, by a preponderance, that between September 12 and December 31, 2024, Israel commenced a military offensive intended to establish control over a portion of Syria. The rules also remove one tempting shortcut: for this market, the Golan Heights count as Israeli territory.
+
+The present record is thin. It contains the market rules and a Polymarket resolution rationale, not the underlying official statements, maps, UN records, or news reports. That packet proves what the market asked and why Polymarket said it resolved Yes. It does not, by itself, prove the source-chain facts with the precision this proposition requires.
+
+The defense theory is straightforward. A temporary, defensive deployment into a demilitarized or buffer area after the collapse of Syrian state positions is not automatically a “military offensive intended to establish control.” Those words matter. The council should require proof of more than movement, patrol, precaution, or presence. It should require proof of the relevant geography, the relevant date, the character of the operation, and the purpose behind it.
+
+The case packet identifies the plaintiff’s strongest path: the Syrian side of Mount Hermon, a December 17 Netanyahu visit, and a statement that Israeli forces would remain until another security arrangement existed. That is a serious lead, but it is also exactly where the source record must be tested. The council should ask: What exact place was occupied? Was it outside the Golan Heights as the market defines them? Was it Syrian sovereign territory, the UN area of separation, or a position whose legal and operational status is more complicated? Did Israeli forces seize and hold it as part of an offensive, or move into abandoned positions as a limited security measure? Did the official statement express an intent to establish control, or a temporary posture pending a replacement security arrangement?
+
+The plaintiff will likely seek UNDOF material, Israeli government material, Syrian or Security Council statements, and credible reporting. The defense will not ask the council to ignore those sources when admitted. But their details will decide the case. An official confirmation that IDF units were present in an area of separation is not identical to confirmation of a market-defined invasion. A report that Israel occupied a strategic position may carry weight, but it must be tied to the market window, to territory not excluded as the Golan Heights, and to an intent to establish control rather than to prevent a perceived vacuum on Israel’s frontier.
+
+Provenance and context will matter too. The best evidence should be the complete official statement, not a clipped quotation; the UN text itself, not a paraphrase; and maps or descriptions capable of distinguishing the Golan Heights, the Mount Hermon peak, the Syrian side, and the disengagement zone. The defense will also test adverse-to-plaintiff context: Israeli descriptions of the move as temporary and defensive, the timing immediately after the Syrian regime’s collapse, and whether later statements describe later conditions rather than a December 2024 commencement.
+
+So the defense opening is not that nothing happened. Something may well have happened. The defense position is that the plaintiff’s burden is narrower and more exacting than the headline “Israel invaded Syria.” On the current admitted record, the council has a rule and a rationale, but not yet the underlying proof needed to resolve the decisive elements. If later admitted evidence establishes a Syrian-territory seizure during the window, held with an intent to control, the council can weigh that. Until then, the proposition should not be treated as proven merely because the market’s rationale says it was.
+
+Arguments:
+[plaintiff] Council members, the admitted record now answers the defendant's precision objections. The proposition is satisfied by a preponderance: in December 2024, inside the market window, Israeli forces moved into Syrian territory on the Syrian side of Mount Hermon and the adjoining buffer/area-of-separation, took and held positions there, and did so for continued Israeli security control.
+
+Start with the rule. PX-0 is the market packet. It asks whether Israel commenced a military offensive intended to establish control over any portion of Syria between September 12 and December 31, 2024, and it counts the Golan Heights as Israeli territory. The packet's own rationale identifies the Syrian side of Mount Hermon as the decisive ground and distinguishes the Syrian peak from the Golan Heights. That matters because the defense cannot collapse 'Syrian side of Mount Hermon' into the market-excluded Golan.
+
+Timing is established by PX-1. AP reported in December 2024 that Israeli troops began moving into the buffer zone that Saturday, including on the Syrian side of Mount Hermon. That is within the market window. PX-1 also preserves Israel's own adverse framing: Foreign Minister Saar described the IDF as taking 'targeted and temporary control' of certain areas near the border. Even accepting the word temporary, that is an Israeli official description of control, not a mere patrol or observation from Israeli territory.
+
+Geography is established by PX-1 and PX-2. PX-1 places troops in the buffer zone including the Syrian side of Mount Hermon. PX-2 reports that Netanyahu made his December 17 comments from the summit of Mount Hermon 'inside Syria,' about 10 km from the Israel-held Golan Heights, and describes Israel's capture of a demilitarized area in Syrian territory. Those details answer the defense request for a place outside the market-counted Golan Heights.
+
+Control and intent are established several times over. PX-2 reports Netanyahu said Israeli forces would stay in the seized buffer zone until an arrangement ensured Israel's security. It also reports Defense Minister Katz instructed the military to establish a presence and fortifications in anticipation of a possible extended stay. A force that enters Syrian territory, captures or seizes strategic ground, fortifies it, and stays until its own security conditions are met is exercising control. The market does not require annexation, civilian administration, or a formal declaration of war.
+
+The official-source requirement is also satisfied. PX-3, the UN Security Council transcript, records that UNDOF said the IDF had established multiple positions in the area of separation in violation of the 1974 Disengagement Agreement. It records the Syrian representative saying Israeli forces crossed the lines of the area of separation, seized large swathes around Quneitra and Jabal Al-Shaykh, and built bases, observation posts, engineering works, and a helipad. It also records France calling on Israel to withdraw and respect Syria's sovereignty and China urging Israel to withdraw from Syrian territory. PX-4 separately confirms the UN message that what was being seen violated the 1974 disengagement agreement. These are not just press characterizations; they are official UN, Syrian, and permanent Security Council member confirmations.
+
+The defense's best point is that Israel called the operation temporary and defensive after Assad's collapse. That affects political characterization; it does not defeat the market elements. A temporary occupation can be an invasion if it establishes control. A security motive can explain why control was established; it does not mean control was absent. Indeed, PX-1's 'targeted and temporary control,' PX-2's 'stay until another arrangement,' and PX-3's multiple positions, bases, posts, and helipad all point the same way.
+
+Nor is the later date of PX-3 a problem. PX-3 is used as official confirmation of facts and continuing positions, while PX-1 and PX-2 fix the December 2024 commencement within the window. Together they form the source chain the defense asked for: credible contemporaneous reporting on when and where the movement began, an Israeli-leader statement and fortification evidence showing intent to remain, and official UN/Syrian/P5 confirmation that Israeli forces crossed into and held Syrian territory.
+
+The remaining gap is that the plaintiff has not admitted the original Israeli PMO or GPO page for Netanyahu's statement. But the standard is preponderance, not best-evidence absolutism. The record includes the market packet's rationale, AP's contemporaneous report using Government Press Office material, AP's separate timing report, and official UN/Security Council confirmation. That is more likely than not, and well beyond a speculative headline.
+
+The council should resolve Yes: Israel invaded Syria in 2024 under this market's definition.
+
+[defendant] Council members, the plaintiff has now supplied real evidence, and the defense should be candid about what it shows. The record supports that Israeli forces entered the demilitarized/buffer area in Syria, including the Syrian side of Mount Hermon, during December 2024. It also supports that Israeli officials spoke of remaining until a security arrangement existed. Those are serious facts.
+
+But the proposition is narrower than “Israeli forces were in Syrian territory” or “Israel violated the 1974 disengagement arrangement.” It asks whether Israel commenced a military offensive intended to establish control over Syria. The defense position is that the record, read as a whole, shows a temporary border-security deployment into a collapsed buffer-zone situation, not a market-defined offensive intended to establish territorial control.
+
+Start with plaintiff’s own strongest contemporaneous source, PX-1. It reports that Foreign Minister Saar described the action as “targeted and temporary control” of certain areas near the border to prevent an October 7 scenario from Syria. That language matters. It is a concession of some control, but it is also an official framing of the act as targeted, temporary, and border-protective. D-1 strengthens the same point. Reuters reported that Defense Minister Katz described a sterile defense zone to be enforced “without a permanent Israeli presence,” and that IDF spokesperson Nadav Shoshani said Israeli forces were not advancing toward Damascus, were not involved in Syria internally, were not a side in the conflict, and had no interest other than protecting Israel’s borders and citizens.
+
+That does not make the move lawful under international law. It does make it materially different from the market’s phrase “military offensive intended to establish control.” An emergency deployment into an abandoned demilitarized area after the Syrian regime’s collapse can be a violation, an occupation in a colloquial or legal sense, and still not the kind of offensive control operation this market required.
+
+PX-2 is also mixed. It records Netanyahu’s “until another arrangement” statement and Katz’s instruction to establish a presence and fortifications, which are adverse to the defense. But the condition itself is security-based and transitional: remain until another arrangement ensures security. It does not say annex, govern, absorb, or permanently control Syrian territory. D-1’s “without a permanent Israeli presence” and Shoshani’s “not advancing toward Damascus” statement are the best record evidence of the intended scope.
+
+PX-3 is official and weighty, but the council should separate what it proves from what plaintiff asks it to prove. It proves that by February 2025 UNDOF and Security Council speakers described multiple IDF positions in the area of separation and condemned the presence as a violation. It also includes Syria’s adversarial account of large territorial seizures, bases, posts, works, and a helipad. Those statements support illegality and later facts on the ground. They do not, standing alone, establish that in December 2024 Israel commenced a military offensive, as opposed to a security deployment whose duration later became disputed. Much of PX-3 is diplomatic characterization after the market window, not direct evidence of December intent at commencement.
+
+PX-4 is even narrower. It says the UN message was that the observed action violated the 1974 disengagement agreement. Again, violation is not the same as the market’s invasion definition. The proposition did not say “will Israel violate the 1974 agreement” or “will Israel enter the area of separation.” It chose a more demanding formulation: offensive plus intent to establish control.
+
+The defense also asks the council to consider source provenance. The plaintiff still lacks the original Israeli PMO/GPO statement or full video. The AP reports are credible, but they are excerpts and characterizations of official events. The UN transcript is official, but it is two months later and includes statements by interested diplomatic actors. D-1 is likewise secondary reporting, but it captures direct official and military-spokesperson statements that narrow intent. On this record, the cleanest official intent language is temporary, defensive, non-permanent, and border-security focused.
+
+The defense is not asking for an impossible standard. If the market had required any Israeli military presence in Syrian territory, plaintiff would win. If it required any violation of the separation agreement, plaintiff would win. But the text requires a military offensive intended to establish control. The admitted evidence leaves at least an equally plausible account: Israel moved into an abandoned border buffer and some adjacent points to prevent hostile forces from exploiting the vacuum, while publicly limiting its purpose to temporary security pending another arrangement.
+
+Under preponderance, the side with the more likely reading wins. The plaintiff’s reading depends on treating temporary, targeted, security control as automatically satisfying “offensive intended to establish control.” The defense reading gives meaning to “offensive” and to “intended,” and it accounts for the record’s repeated temporary/defensive qualifications. The council should resolve No, or at minimum should decline to treat this record as proving the proposition by a preponderance.
+
+Rebuttals:
+[plaintiff] Council members, the defense's argument turns on a false legal and factual distinction: that 'temporary' or 'defensive' control is not control. The market text does not require annexation, permanence, a march on Damascus, or participation in Syria's civil conflict. It asks whether Israel commenced a military offensive intended to establish control over any portion of Syria during the window.
+
+The defense's own D-1 largely proves that point. D-1 says Israel would impose a 'sterile defense zone' in southern Syria. A zone imposed by one state's military inside another state's territory is control, even if Israel says it is for defense. D-1 also says Israel was 'tighten[ing] its hold' along the Syria/Golan line. That is not the language of a fleeting patrol.
+
+Most importantly, D-1 confirms the geography and act the defense says are missing. It says Israeli troops remained in the demilitarized buffer zone in Syrian territory and in 'a few additional points' outside the separation area. It says Israeli troops moved into the demilitarized zone inside Syria, including the Syrian side of Mount Hermon overlooking Damascus, where they took over an abandoned Syrian military post. Taking over a Syrian military post on the Syrian side of Mount Hermon is not merely observing from the Golan Heights; it is military control of a point in Syria.
+
+The defense emphasizes D-1's 'without a permanent Israeli presence' and 'limited, temporary measure' language. But the proposition is not limited to permanent occupations. A temporary military seizure can satisfy an invasion/control standard. Indeed, PX-1, PX-2, and D-1 all use the defense's preferred words while confirming the same core facts: targeted control, a security zone, troops in Syrian territory, and a Mount Hermon post taken over by Israeli forces. PX-2 adds the decisive intent evidence: Netanyahu said forces would stay until another security arrangement existed, while Katz directed a presence and fortifications for a possible extended stay.
+
+D-1 also does not overcome PX-3's official confirmations. UNDOF said IDF forces established multiple positions in the area of separation. Syria said the forces crossed the lines, seized territory around Quneitra and Jabal Al-Shaykh, and built posts and a helipad. France and China called for Israeli withdrawal from the area/Syrian territory. Those official confirmations are fully consistent with D-1's concessions and inconsistent with the defense's effort to reduce the operation to non-control.
+
+The defense asks the council to give independent weight to the word 'offensive.' The record does. Israeli forces did not merely harden their side of the line. They moved into Syrian territory, took over at least a Syrian military post, created or announced a sterile defense zone there, held multiple positions, and fortified for security. That is offensive movement into territory for control, whatever Israel's asserted defensive motive.
+
+So D-1 narrows nothing essential. It supplies Israel's rationale, but the market turns on conduct and intended control. On the admitted record, the more likely reading is that Israel did exactly what the market described.
+
+Surrebuttals:
+[defendant] Council members, the plaintiff’s rebuttal fairly identifies why D-1 is mixed evidence. The defense does not deny that D-1 confirms Israeli troops in the demilitarized zone inside Syria, including the Syrian side of Mount Hermon, or that it says Israeli forces took over an abandoned Syrian military post. Those facts are adverse to the defense.
+
+But the plaintiff still skips the market’s limiting words. The proposition is not “did Israeli forces control any point in Syria for any amount of time.” It is whether Israel commenced a military offensive intended to establish control. D-1’s concessions prove presence and some operational control; they do not erase the same source’s statements about purpose and scope.
+
+D-1 says the zone would be enforced without a permanent Israeli presence. It says the objective was to prevent the establishment and organization of terror in Syria. It records the IDF spokesperson denying an advance toward Damascus, denying involvement in Syria internally, denying that Israel was a side in the conflict, and identifying Israel’s only interest as protecting its borders and citizens. It labels the move a limited, temporary measure to ensure border security. That language is not a magic defense to every allegation, but it is directly relevant to the required intent element.
+
+Plaintiff’s rebuttal would turn any temporary seizure of a post, any security zone, or any border-buffer control into an “offensive intended to establish control.” That may be a possible broad reading, but it gives little independent work to “offensive” and “intended.” The defense reading is narrower: control incident to a temporary emergency buffer-zone deployment is not the same as an offensive undertaken for the purpose of establishing control over Syrian territory.
+
+The council can and should distinguish legality from market resolution. A violation of the 1974 disengagement agreement, or even a temporary occupation in a legal sense, does not automatically answer the market’s separate definition. The admitted evidence repeatedly supplies the defense’s central qualifiers: targeted, temporary, no permanent presence, no advance toward Damascus, not a party to Syria’s internal conflict, and border-security purpose.
+
+If the council decides that temporary military control for border security is enough, the plaintiff wins. But if the council gives meaning to the full phrase “military offensive intended to establish control,” the record remains at least evenly balanced on intent. Under the preponderance standard, that is not enough for Yes.
+
+Closings:
+[plaintiff] Council members, the case now comes down to one interpretive question. The facts are no longer meaningfully in dispute.
+
+The record establishes the date. PX-1 reports Israeli troops began moving into the buffer zone in December 2024, inside the market window. D-1 likewise describes the same December move.
+
+The record establishes the place. PX-1 says the move included the Syrian side of Mount Hermon. PX-2 places Netanyahu on the summit of Mount Hermon inside Syria, about 10 kilometers from the Israel-held Golan Heights. D-1 says Israeli troops moved into the demilitarized zone inside Syria, including the Syrian side of the strategic Mount Hermon overlooking Damascus. PX-0 matters here because the market counts the Golan Heights as Israeli territory but identifies the Syrian peak of Mount Hermon as outside that carveout. The decisive ground is therefore Syria for purposes of this market.
+
+The record establishes military control. PX-1 records Israel's own framing as 'targeted and temporary control' of areas near the border. PX-2 says Israel captured the buffer zone, Netanyahu said forces would stay until a security arrangement ensured Israel's security, and Katz ordered a presence and fortifications for a possible extended stay. D-1 says Israel would impose a sterile defense zone in southern Syria, that Israeli troops remained in Syrian territory and additional points, and that they took over an abandoned Syrian military post on the Syrian side of Mount Hermon. PX-3 then supplies official confirmation: UNDOF said the IDF established multiple positions in the area of separation; Syria said Israeli forces crossed the lines, seized territory around Quneitra and Jabal Al-Shaykh, and built posts and a helipad; France and China called for withdrawal from the area or Syrian territory.
+
+The defense's contrary point is not factual denial. It concedes presence in Syria, the Syrian side of Mount Hermon, and takeover of a Syrian military post. Its argument is that temporary, defensive, non-permanent, border-security control is not an 'offensive intended to establish control.' That reading is too narrow for the market text.
+
+The market did not require annexation. It did not require permanent presence. It did not require Israeli participation in Syria's internal conflict or an advance on Damascus. It required a military offensive intended to establish control over any portion of Syria. Moving armed forces into Syrian territory, taking over a Syrian military post, announcing a sterile defense zone there, holding multiple positions, fortifying them, and staying until Israel's security conditions are satisfied is control over a portion of Syria. If Israel's stated motive was border security, that explains why control was established. It does not make the control disappear.
+
+The defense asks the council to treat 'without a permanent Israeli presence' as decisive. But a temporary occupation is still an occupation for its duration, and a temporary military seizure is still an invasion under a rule that asks only whether control was intended and established over any portion of Syria by December 31. The admitted evidence repeatedly uses words like control, capture, remain, sterile defense zone, presence, positions, fortifications, military post, and withdrawal. Those are the operative facts.
+
+There are source-chain limitations. The original Israeli PMO/GPO page was not admitted. But the burden is preponderance, and the record is stronger than a single clipped quote. It contains contemporaneous AP reporting, Reuters reporting submitted by the defense, the market packet, official UN-hosted material, and a UN Security Council transcript with UNDOF, Syrian, French, and Chinese confirmations. The plaintiff's evidence and the defense's own evidence converge on the same core event.
+
+So the choice is simple. If the market meant only permanent annexation or a march on Damascus, the defense might have a point. But that is not what it says. It asks whether Israel commenced a military offensive intended to establish control over any portion of Syria. On this record, more likely than not, Israel did exactly that in December 2024. The council should resolve Yes.
+
+[defendant] Council members, the defense closing begins where the record honestly is. The plaintiff has proved Israeli troops entered the demilitarized/buffer area inside Syria in December 2024, including the Syrian side of Mount Hermon. The record also shows a takeover of an abandoned Syrian military post, multiple positions, and Israeli statements about remaining until security arrangements existed. If the proposition were simply “did Israel enter Syrian territory” or “did Israel violate the 1974 disengagement agreement,” the defense would not have much left to say.
+
+But that is not the proposition. The market required Israel to commence a military offensive intended to establish control over a portion of Syria. Those extra words must matter. Presence is not automatically an offensive. A violation is not automatically an invasion under this market’s definition. Temporary security control of a point in a collapsed buffer zone is not automatically an intent to establish control over Syrian territory.
+
+The decisive evidence for intent is mixed. PX-1 uses the phrase “targeted and temporary control” to prevent an October 7 scenario from Syria. D-1 says the sterile defense zone would be enforced without a permanent Israeli presence. D-1 also records the IDF spokesperson denying any advance toward Damascus, denying involvement in Syria internally, denying that Israel was a side in the conflict, and stating that Israel had no interest other than protecting its borders and citizens. That is the record’s clearest evidence of Israel’s stated purpose and scope.
+
+Plaintiff says motive does not matter if control occurred. But the market itself makes intent matter. It does not ask merely whether a soldier stood on Syrian soil, whether a post was occupied, or whether a disengagement agreement was breached. It asks whether Israel undertook an offensive intended to establish control. The difference is not semantic. A temporary emergency deployment after Syrian forces abandoned positions can create operational control for security while still lacking the broader offensive-control intent the market selected.
+
+PX-3 and PX-4 do not close that gap. PX-4 confirms a UN view that the observed action violated the 1974 agreement; it does not map the market’s offensive-intent element. PX-3 is official and important, but much of it is February 2025 diplomatic characterization and Syria’s adversarial account. It confirms facts on the ground and condemnation. It is weaker on what Israel intended when the December move commenced.
+
+The plaintiff’s best argument is simple and strong: armed forces crossed into Syrian territory, took positions, and stayed until Israel’s security conditions were met. The defense’s answer is equally simple: the record repeatedly qualifies that same conduct as targeted, temporary, non-permanent, border-security action in a vacuum created by Assad’s collapse. Under a preponderance standard, those qualifiers matter because they are tied directly to the required intent.
+
+The council should not rewrite the market into a broad international-law question. It should decide the words the parties were given. On the full admitted record, plaintiff has shown presence, control, and violation. It has not more likely than not shown a military offensive intended to establish control, rather than a temporary defensive buffer-zone deployment. The proper resolution is No.
+
+Exhibits:
+[plaintiff] PX-0 Market rules and resolution rationale
+This example is based on the disputed Polymarket resolution of this market:
+
+https://polymarket.com/event/will-israel-invade-syria-in-2024
+
+Market question:
+
+> Will Israel invade Syria in 2024?
+
+Market guidelines:
+
+> This market will resolve to "Yes" if Israel commences a military
+> offensive intended to establish control over any portion of Syria
+> between September 12, 2024 and December 31, 2024, 11:59 PM
+> ET. Otherwise, this market will resolve to "No".
+>
+> For the purposes of this market, the Golan Heights count as Israeli
+> territory.
+>
+> The resolution source for this market will be will be official
+> confirmation by Syria, Israel, the United Nations, or any permanent
+> member of the UN Security Council, however a consensus of credible
+> reporting will also be used.
+
+Polymarket resolved the market to "Yes" based on this rationale:
+
+> This market should resolve to "Yes". On December 17, Israeli Prime
+> Minister Netanyahu visited the Syrian side of Mount Hermon and
+> announced that Israeli forces would remain on the peak "until
+> another arrangement is found that guarantees Israel's security."
+> Although credible reporting previously confirmed that Israeli forces
+> had reached the peak on December 8, this announcement confirms the
+> intent to "establish control" satisfying the criteria for an
+> "invasion" as described in this market's rules. The Golan Heights is
+> a plateau which includes the southwestern foothills of Mount Hermon,
+> and its northern border defined by the slopes of Mount Hermon. The
+> Syrian peak of Mount Hermon is the southern tip of the Anti-Lebanon
+> mountains and is not part of the Golan Heights.
+
+
+[plaintiff] PX-1 AP Dec. 2024 buffer-zone and Syrian Mount Hermon report
+Source: Associated Press, 'As Israel advances on a Syrian buffer zone, it sees peril and opportunity', URL https://www.ap.org/news-highlights/spotlights/2024/as-israel-advances-on-a-syrian-buffer-zone-it-sees-peril-and-opportunity/, retrieved 2026-06-29.
+
+Relevant captured text from web result/page:
+- 'Israel has sent troops into the buffer zone, including on the Syrian side of snow-dusted Mount Hermon, which is divided between the Golan Heights, Lebanon, and Syria.'
+- 'Only the United States recognizes Israel's control of the Golan Heights.'
+- 'Israeli troops began moving into the buffer zone Saturday.'
+- Israeli Foreign Minister Gideon Saar described the action: '(The Israeli military) took targeted and temporary control of certain areas near the border to prevent an Oct. 7 scenario from Syria.'
+- The article explains that Prime Minister Netanyahu said Assad's fall created dangers and that Israel would occupy the summit of Mount Hermon, within the buffer zone on the Syria-Lebanon border.
+
+Custody note: This is a credible secondary source, not an official admission. Its significance is that it supplies the date sequence and captures Israel's own public framing ('targeted and temporary control') that still concedes control of areas near the border.
+
+[plaintiff] PX-2 AP Dec. 17 Netanyahu/Mount Hermon inside Syria report
+Source: Associated Press, 'Netanyahu says Israeli troops will occupy a buffer zone inside Syria for the foreseeable future', URL https://apnews.com/article/syria-war-assad-israel-news-17-december-2024-4d7f0b35e08d5e853c776193272fb2d6, retrieved 2026-06-29.
+
+Relevant captured text:
+- 'Prime Minister Benjamin Netanyahu said Tuesday that Israeli forces will stay in a buffer zone on the Syrian border, seized after the ouster of Syria's President Bashar Assad, until another arrangement is in place "that ensures Israel's security."'
+- 'Israeli Prime Minister Benjamin Netanyahu entered Syrian territory on Tuesday during a security tour of the buffer zone seized by Israel in the days since the fall of Syrian President Bashar Assad. Netanyahu said Israel would stay in the buffer zone "until another arrangement is found that will ensure Israel's security."'
+- Caption text identifies: 'Israel's Prime Minister Benjamin Netanyahu ... visits Israeli forces in a buffer zone inside Syria, Tuesday, Dec. 17, 2024. (Israel Government Press Office via AP)'
+- Body text: 'Netanyahu made the comments from the summit of Mount Hermon — the highest peak in the area — inside Syria, about 10 kilometers (6 miles) from the border with the Israel-held Golan Heights.'
+- Body text: 'Israel seized a swath of southern Syria along the border with the Israeli-annexed Golan Heights days after Assad was ousted by rebels last week.'
+- Body text: 'Israel's capture of the buffer zone, a roughly 400-square-kilometer (155-square-mile) demilitarized area in Syrian territory, has sparked condemnation, with critics accusing Israel of violating a 1974 ceasefire and possibly exploiting the chaos in Syria in the wake of Assad's ouster to make a land grab.'
+- Body text quotes Netanyahu: 'We will stay ... until another arrangement is found that ensures Israel's security.'
+- Body text says Defense Minister Katz instructed the Israeli military 'to quickly establish a presence, including fortifications, in anticipation of what could be an extended stay in the area.'
+- Body text: 'A U.N. spokesman said Tuesday that the advance of Israeli troops, however long it lasts, violates the deal that set up the buffer zone.'
+- Body text quotes the spokesman: 'That agreement needs to be respected, and occupation is occupation, whether it lasts a week, a month or a year, it remains occupation.'
+
+[plaintiff] PX-3 UN Security Council S/PV.9857 official confirmations
+Source: United Nations Digital Library, Security Council, eightieth year, 9857th meeting, S/PV.9857, 12 February 2025, PDF URL https://digitallibrary.un.org/record/4076069/files/S_PV.9857-EN.pdf, retrieved 2026-06-29.
+
+Relevant captured text:
+- Lines 166-170/page 3: 'The United Nations Disengagement Observer Force says that the Israel Defense Forces have established multiple positions in the area of separation, in violation of the 1974 Disengagement of Forces Agreement. Such facts on the ground are not easily reversed. I appeal to the Council to hold Israel to its commitment that this is a temporary presence and stress that Israel must withdraw. The United Nations is engaging Israel and the caretaker authorities to that end.'
+- Lines 612-617/page 12: 'The A3+ strongly condemns the Israeli incursions into Syrian territory and its presence in the demilitarized buffer zone in violation of the 1974 Disengagement of Forces Agreement.'
+- Lines 864-868/page 16: 'Israel's continued military actions and its declared intent to maintain an indefinite presence in the areas of separation are blatant violations of the 1974 Disengagement of Forces Agreement. Those illegal actions must be condemned, and Syria's territorial integrity must be upheld, including through Israeli withdrawal from the areas of separation and from the occupied Golan Heights.'
+- Lines 978-980/page 19: France 'calls on Israel to withdraw from the area and to respect Syria's sovereignty and territorial integrity, as well as the 1974 Disengagement of Forces Agreement, which is binding on both Israel and Syria.'
+- Lines 1026-1027/page 20: China 'urges Israel to withdraw from Syrian territory without delay.'
+- Lines 1134-1149/pages 22: Syrian Arab Republic statement: 'The Israeli occupation army has continued to infringe on Syria's sovereignty, unity and territorial integrity... Its forces have illegally crossed the lines of the area of separation without justification or provocation. They have conducted incursions dozens of kilometres into Syrian territory, seized large swathes of territory estimated at hundreds of square kilometres in and around Quneitra governorate and Jabal Al-Shaykh and stretching as far as Rif Dimashq and Dara'a governorates... They have also built bases and military observation posts and undertaken engineering works, including constructing a helipad on Jabal Al-Shaykh, exposing the falsity of the Israeli occupation authorities' claims about the temporary and limited nature of their hostile and entirely unjustifiable actions against Syria.'
+
+[plaintiff] PX-4 UN remarks on 1974 disengagement violation
+Source: United Nations India page titled 'SYRIA', URL https://india.un.org/en/286171-syria, retrieved 2026-06-29.
+
+Relevant captured text, lines 100-104 of retrieved page:
+- Mr. Pedersen noted on Israel that he was not in contact with the Israelis, but 'the United Nations in New York' and peacekeepers on the Golan Heights were in daily contact with the Israelis.
+- He stated: 'the message from New York is this is the same that what we are seeing is a violation of the disengagement agreement in 1974.'
+- He said the matter would be followed closely in the hours and days ahead.
+
+Custody/weight note: This is an official UN web page, but the wording is less detailed than the Security Council transcript and does not by itself map the precise territory. It is corroborative of the UN's official view that the Israeli move violated the 1974 disengagement framework.
+
+[defendant] DX-1 Reuters/Arab News Dec. 10 temporary sterile defense zone and no permanent presence
+Source: Arab News carrying Reuters, 'Israel says it will impose sterile defense zone in southern Syria', URL https://www.arabnews.com/node/2582545/middle-east, updated 10 December 2024 23:22, Reuters, retrieved 2026-06-29.
+
+Relevant captured text:
+- The page headline states: 'Israel says it will impose sterile defense zone in southern Syria'.
+- Subheadline/bullet states: 'He denied that forces had penetrated Syrian territory significantly beyond the zone.'
+- Lines 188-190: 'Israel has ordered its forces to create a "sterile defense zone" in southern Syria that would be enforced without a permanent Israeli presence as it tightens its hold along the line between Syria and the Israeli-occupied Golan Heights, Defense Minister Israel Katz said on Tuesday. He gave no details but said the zone, would "prevent the establishment and organization of terror in Syria." "We will not allow this, we will not allow threats to the state of Israel," he said in a statement following a visit to a naval base in the northern Israeli port of Haifa.'
+- Lines 191-194: 'Earlier, a military spokesperson said Israeli troops remained in the demilitarized buffer zone in Syrian territory created after the 1973 Arab-Israeli war as well as "a few additional points" outside the separation area. But he denied that forces had penetrated Syrian territory significantly beyond the zone, after Syrian sources said the incursion had extended to within 25 km (15 miles) of the capital Damascus. "IDF forces are not advancing toward Damascus. This is not something we are doing or pursuing in any way," Lt. Col. Nadav Shoshani, the military spokesperson, told a briefing with reporters. "We are not involved in what’s happening in Syria internally, we are not a side in this conflict and we do not have any interest other than protecting our borders and the security of our citizens," Shoshani said.'
+- Lines 199-202 label this section 'LIMITED, TEMPORARY MEASURE' and state: 'Israeli troops then moved into the demilitarised zone inside Syria, including the Syrian side of the strategic Mount Hermon that overlooks Damascus, where it took over an abandoned Syrian military post. Israel, which has just agreed to a ceasefire in Lebanon following weeks of fighting the Iranian-backed Hezbollah movement, calls the incursion a temporary measure to ensure border security.'
+- Lines 203-204 add uncertainty/adverse context: 'But it remained unclear how far beyond the designated buffer zone its troops had stopped. Three security sources said on Tuesday the Israelis had advanced beyond the demilitarised zone.'
+
+Custody/weight note: This is credible Reuters reporting reproduced by Arab News, not a direct official transcript. It preserves Israeli official and military-spokesperson framing favorable to the defense, while also acknowledging adverse facts: presence inside Syrian demilitarized zone, Syrian side of Mount Hermon, and reports of movement beyond the zone.
+
+[plaintiff] PX-R1 Defense Reuters/Arab News source confirming Syrian-zone control facts
+Source: Arab News carrying Reuters, 'Israel says it will impose sterile defense zone in southern Syria', URL https://www.arabnews.com/node/2582545/middle-east, updated 10 December 2024 23:22, Reuters, retrieved 2026-06-29.
+
+Relevant captured text:
+- The page headline states: 'Israel says it will impose sterile defense zone in southern Syria'.
+- Subheadline/bullet states: 'He denied that forces had penetrated Syrian territory significantly beyond the zone.'
+- Lines 188-190: 'Israel has ordered its forces to create a "sterile defense zone" in southern Syria that would be enforced without a permanent Israeli presence as it tightens its hold along the line between Syria and the Israeli-occupied Golan Heights, Defense Minister Israel Katz said on Tuesday. He gave no details but said the zone, would "prevent the establishment and organization of terror in Syria." "We will not allow this, we will not allow threats to the state of Israel," he said in a statement following a visit to a naval base in the northern Israeli port of Haifa.'
+- Lines 191-194: 'Earlier, a military spokesperson said Israeli troops remained in the demilitarized buffer zone in Syrian territory created after the 1973 Arab-Israeli war as well as "a few additional points" outside the separation area. But he denied that forces had penetrated Syrian territory significantly beyond the zone, after Syrian sources said the incursion had extended to within 25 km (15 miles) of the capital Damascus. "IDF forces are not advancing toward Damascus. This is not something we are doing or pursuing in any way," Lt. Col. Nadav Shoshani, the military spokesperson, told a briefing with reporters. "We are not involved in what’s happening in Syria internally, we are not a side in this conflict and we do not have any interest other than protecting our borders and the security of our citizens," Shoshani said.'
+- Lines 199-202 label this section 'LIMITED, TEMPORARY MEASURE' and state: 'Israeli troops then moved into the demilitarised zone inside Syria, including the Syrian side of the strategic Mount Hermon that overlooks Damascus, where it took over an abandoned Syrian military post. Israel, which has just agreed to a ceasefire in Lebanon following weeks of fighting the Iranian-backed Hezbollah movement, calls the incursion a temporary measure to ensure border security.'
+- Lines 203-204 add uncertainty/adverse context: 'But it remained unclear how far beyond the designated buffer zone its troops had stopped. Three security sources said on Tuesday the Israelis had advanced beyond the demilitarised zone.'
+
+Custody/weight note: This is credible Reuters reporting reproduced by Arab News, not a direct official transcript. It preserves Israeli official and military-spokesperson framing favorable to the defense, while also acknowledging adverse facts: presence inside Syrian demilitarized zone, Syrian side of Mount Hermon, and reports of movement beyond the zone.
+
+Submitted evidence:
+[plaintiff arguments] AP report: Netanyahu says Israeli troops will occupy buffer zone inside Syria for foreseeable future (ev_c87bdd160b3a_submitted-evidence-01-plaintiff-c87bdd160b3a)
+Source: https://apnews.com/article/syria-war-assad-israel-news-17-december-2024-4d7f0b35e08d5e853c776193272fb2d6
+SHA-256: `c87bdd160b3ae6bedc68a46c29b16e84fe3624e540051a5dbaa1450a55f748b2`
+Bytes: 2373
+Relevance: Corroborates December 17, 2024 Israeli presence on the summit of Mount Hermon inside Syria, describes the seized buffer zone, quotes Netanyahu's intent to stay until a security arrangement, and records UN spokesman's view that the advance violates the buffer-zone agreement.
+
+[plaintiff arguments] UN Security Council transcript S/PV.9857 excerpts on Israeli forces in Syrian separation area (ev_e049416d3ae0_submitted-evidence-02-plaintiff-e049416d3ae0)
+Source: https://digitallibrary.un.org/record/4076069/files/S_PV.9857-EN.pdf
+SHA-256: `e049416d3ae0682a6a618fd8af9eecc47e9672fd7afa120d0fb90f04d7fb487f`
+Bytes: 2561
+Relevance: Official UN and Security Council record confirming IDF positions in the area of separation, violation of the 1974 Disengagement Agreement, and Syrian/P5 descriptions of Israeli crossings and territorial seizure after December 8, 2024.
+
+[plaintiff arguments] AP spotlight: Israel advances on Syrian buffer zone, Dec. 2024 (ev_b0349334e954_submitted-evidence-03-plaintiff-b0349334e954)
+Source: https://www.ap.org/news-highlights/spotlights/2024/as-israel-advances-on-a-syrian-buffer-zone-it-sees-peril-and-opportunity/
+SHA-256: `b0349334e95498a698f7ee92d43c310a4d73469be1429a668722b486c5bc5b0f`
+Bytes: 1268
+Relevance: Corroborates commencement timing immediately after Assad's fall, Israeli movement into the buffer zone, Syrian side of Mount Hermon geography, and Israel's 'targeted and temporary control' framing.
+
+[plaintiff arguments] UN Syria remarks: UN says Israel action violated 1974 disengagement agreement (ev_9e078b6c01cd_submitted-evidence-04-plaintiff-9e078b6c01cd)
+Source: https://india.un.org/en/286171-syria
+SHA-256: `9e078b6c01cd2b35b441f10ab64ce7ed0df0fcb5d43c0912e98aaa774a5a3faa`
+Bytes: 866
+Relevance: Official UN-hosted statement that UN message from New York was that the observed Israeli action was a violation of the 1974 disengagement agreement; corroborates UN official confirmation/adverse context.
+
+[defendant arguments] Reuters/Arab News: Israel says sterile defense zone in southern Syria would have no permanent Israeli presence (ev_cf16e8709259_submitted-evidence-05-defendant-cf16e8709259)
+Source: https://www.arabnews.com/node/2582545/middle-east
+SHA-256: `cf16e87092598332ea0be39f387cdc3b4c5e8f731bbeb684275c276c1e2dfa75`
+Bytes: 2948
+Relevance: Defense-context source on Israeli intent and scope: Defense Minister Katz described a sterile defense zone without permanent Israeli presence; military spokesperson said IDF was not advancing toward Damascus and had no interest other than protecting borders and citizens, while also acknowledging presence in the demilitarized buffer zone and a few additional points.
+
+Technical reports:
+[plaintiff] Plaintiff source-chain and weight analysis
+The plaintiff searched exact Netanyahu/Mount Hermon phrases, AP reporting, UN/UNDOF and Security Council sources, and official-site leads. The admitted source chain pairs contemporaneous AP reporting for December 2024 timing and location with official UN/Syria/P5 confirmation of Israeli positions and withdrawal demands. The principal adverse context is Israel's temporary/defensive framing; the plaintiff treats that as motive and duration evidence, not as negating control. The original Israeli PMO/GPO page was not captured, so AP's GPO-sourced report and the market packet carry that part of the chain.
+
+[defendant] Defense source-chain and weight analysis
+The defense inspected all new plaintiff evidence and searched for official or credible Israeli intent/context sources. An official gov.il Sa'ar briefing page was located but Cloudflare blocked exact retrieval, so it was not submitted. The defense submitted a Reuters/Arab News article preserving official Israeli statements that the zone would lack permanent Israeli presence, that IDF was not advancing toward Damascus or taking a side in Syria's internal conflict, and that the purpose was border/citizen security. This source is mixed because it also acknowledges Israeli presence in Syrian demilitarized territory and Mount Hermon.
+
+[plaintiff] Rebuttal analysis of D-1
+D-1 was read in full from the admitted evidence bytes. It is useful to the defense for temporary/security framing, but it also confirms Israeli troops in Syrian territory, additional points outside the separation area, a sterile defense zone in southern Syria, and takeover of an abandoned Syrian military post on the Syrian side of Mount Hermon. Those concessions support market-defined control despite the non-permanent framing.
+
+Call submit_council_vote with vote=demonstrated or vote=not_demonstrated.
+Keep the rationale brief: no more than three sentences.
+
+Council API instructions:
+You are a council member. Decide the proposition from the admitted record.
+You may examine admitted evidence through read-only tools when exact bytes, metadata, or exhibit contents matter.
+Do not search the web, introduce new facts, create new evidence, or upload evidence.
+When ready, call submit_council_vote exactly once with vote=demonstrated or vote=not_demonstrated and a concise rationale.

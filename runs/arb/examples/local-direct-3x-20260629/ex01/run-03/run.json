@@ -1,0 +1,2633 @@
+{
+  "case_id": "arb-ex01-20260629175341",
+  "run_id": "run-arb-ex01-20260629175341",
+  "started_at": "2026-06-29T17:53:41Z",
+  "finished_at": "2026-06-29T18:14:34Z",
+  "status": "ok",
+  "phase": "closed",
+  "resolution": "demonstrated",
+  "complaint": {
+    "Proposition": "The proposition is that Samantha materially misrepresented when the essay would be complete, and that the claimant reasonably relied on that representation."
+  },
+  "evidence_standard": "Preponderance of the evidence.",
+  "council_backend": "councilapi",
+  "attorneys": [
+    {
+      "role": "plaintiff",
+      "interface": "lawyerapi"
+    },
+    {
+      "role": "defendant",
+      "interface": "lawyerapi"
+    }
+  ],
+  "case_files": [
+    {
+      "evidence_id": "ev_61a6c53e0d68_confession_sig",
+      "name": "confession.sig.b64",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_77ec661ab33b_confession",
+      "name": "confession.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_839024ec3b20_damages-breakdown",
+      "name": "damages-breakdown.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_fca019619f19_deadline-message-thread",
+      "name": "deadline-message-thread.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+      "name": "distribution-work-order.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_b0c7a5192e1c_instructions",
+      "name": "instructions.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_cbdda31309ff_print-approval-note",
+      "name": "print-approval-note.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_54c33ae78e7d_printing-invoice",
+      "name": "printing-invoice.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_ac1d370b1b76_samantha_public",
+      "name": "samantha_public.pem",
+      "mime_type": "application/x-pem-file",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_fbc123d72aa5_session-summary",
+      "name": "session-summary.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_9d3b588a9864_time-and-token-log",
+      "name": "time-and-token-log.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev_54c33ae78e7d_printing-invoice",
+      "sha256": "54c33ae78e7d5398b8c58d3792a2d987f9ab94afd504ef2c344fad953e950f18",
+      "size_bytes": 429,
+      "mime_type": "text/plain",
+      "storage_name": "54/54c33ae78e7d5398b8c58d3792a2d987f9ab94afd504ef2c344fad953e950f18",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "printing-invoice.txt",
+      "original_name": "printing-invoice.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_61a6c53e0d68_confession_sig",
+      "sha256": "61a6c53e0d685cced0fb1ac42880c79d641d188709216da92ce35985f7f2ddb5",
+      "size_bytes": 345,
+      "mime_type": "text/plain",
+      "storage_name": "61/61a6c53e0d685cced0fb1ac42880c79d641d188709216da92ce35985f7f2ddb5",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "confession.sig.b64",
+      "original_name": "confession.sig.b64",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+      "sha256": "6488cfe4679b7585aa73ff094a7a64f642ec2a10fcf85ad10c14e45aa54ca5cf",
+      "size_bytes": 550,
+      "mime_type": "text/plain",
+      "storage_name": "64/6488cfe4679b7585aa73ff094a7a64f642ec2a10fcf85ad10c14e45aa54ca5cf",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "distribution-work-order.txt",
+      "original_name": "distribution-work-order.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_77ec661ab33b_confession",
+      "sha256": "77ec661ab33beb0fefe5bb74e263c812fbf9ea3c3d8f90175f54d4e209aeeccd",
+      "size_bytes": 505,
+      "mime_type": "text/plain",
+      "storage_name": "77/77ec661ab33beb0fefe5bb74e263c812fbf9ea3c3d8f90175f54d4e209aeeccd",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "confession.txt",
+      "original_name": "confession.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_839024ec3b20_damages-breakdown",
+      "sha256": "839024ec3b2028f7b3ec049a07e3b9c6af546b24dc4daf4a34d75b906d3ceefd",
+      "size_bytes": 599,
+      "mime_type": "text/plain",
+      "storage_name": "83/839024ec3b2028f7b3ec049a07e3b9c6af546b24dc4daf4a34d75b906d3ceefd",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "damages-breakdown.txt",
+      "original_name": "damages-breakdown.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_9d3b588a9864_time-and-token-log",
+      "sha256": "9d3b588a98646926783ac8f0525a748f3c4a825127219eeceee23655aa4d3dc9",
+      "size_bytes": 443,
+      "mime_type": "text/plain",
+      "storage_name": "9d/9d3b588a98646926783ac8f0525a748f3c4a825127219eeceee23655aa4d3dc9",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "time-and-token-log.txt",
+      "original_name": "time-and-token-log.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_ac1d370b1b76_samantha_public",
+      "sha256": "ac1d370b1b762eed9ed3cef9a892675f2b27000f93a61e3d3d0aa398870c63a3",
+      "size_bytes": 451,
+      "mime_type": "application/x-pem-file",
+      "storage_name": "ac/ac1d370b1b762eed9ed3cef9a892675f2b27000f93a61e3d3d0aa398870c63a3",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "samantha_public.pem",
+      "original_name": "samantha_public.pem",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_b0c7a5192e1c_instructions",
+      "sha256": "b0c7a5192e1c343a876d7050d68c2835c8b25bcdfd959b8b5046ee45d9bb7d9c",
+      "size_bytes": 487,
+      "mime_type": "text/plain",
+      "storage_name": "b0/b0c7a5192e1c343a876d7050d68c2835c8b25bcdfd959b8b5046ee45d9bb7d9c",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "instructions.txt",
+      "original_name": "instructions.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_cbdda31309ff_print-approval-note",
+      "sha256": "cbdda31309ff4826b6a7c02caa86ca64690310dbba100594e62769588e3fa97a",
+      "size_bytes": 459,
+      "mime_type": "text/plain",
+      "storage_name": "cb/cbdda31309ff4826b6a7c02caa86ca64690310dbba100594e62769588e3fa97a",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "print-approval-note.txt",
+      "original_name": "print-approval-note.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_fbc123d72aa5_session-summary",
+      "sha256": "fbc123d72aa57f7b8edc41b1ef82e05237d8979863d7714747c84efec7fa6612",
+      "size_bytes": 1526,
+      "mime_type": "text/plain",
+      "storage_name": "fb/fbc123d72aa57f7b8edc41b1ef82e05237d8979863d7714747c84efec7fa6612",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "session-summary.txt",
+      "original_name": "session-summary.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_fca019619f19_deadline-message-thread",
+      "sha256": "fca019619f1962269f42c562a17290719189614f064b884a5988f5d66eafb6b2",
+      "size_bytes": 820,
+      "mime_type": "text/plain",
+      "storage_name": "fc/fca019619f1962269f42c562a17290719189614f064b884a5988f5d66eafb6b2",
+      "created_at": "2026-06-29T17:54:31Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "deadline-message-thread.txt",
+      "original_name": "deadline-message-thread.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    }
+  ],
+  "council": [
+    {
+      "member_id": "C1",
+      "model": "openrouter://nvidia/nemotron-3-super-120b-a12b",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "nvidia/nemotron-3-super-120b-a12b",
+        "provider": {
+          "only": [
+            "dekallm/fp8"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "fp8"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "dekallm/fp8",
+          "endpoint_variant_id": "302d9b9502a2632686ad6191",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+            "endpoint_model_id": "nvidia/nemotron-3-super-120b-a12b",
+            "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "nvidia/nemotron-3-super-120b-a12b",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "fp8"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+              "clusters": [
+                2,
+                3,
+                3,
+                4
+              ],
+              "context_length": 262144,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "DekaLLM | nvidia/nemotron-3-super-120b-a12b-20230311",
+              "endpoint_tag": "dekallm/fp8",
+              "endpoint_variant_id": "302d9b9502a2632686ad6191",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+              "latency_last_30m": {
+                "p50": 678,
+                "p75": 2662,
+                "p90": 7575.000000000001,
+                "p99": 20094.26000000001
+              },
+              "max_completion_tokens": null,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "nvidia/nemotron-3-super-120b-a12b",
+              "pricing_completion": "0.00000045",
+              "pricing_prompt": "0.00000009",
+              "provider_error_count": null,
+              "provider_name": "DekaLLM",
+              "quantization": "fp8",
+              "schema_violation_count": null,
+              "source_row": 5,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "logit_bias",
+                "logprobs",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_logprobs",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 96.65035381257854,
+              "uptime_last_30m": 97.36379613356766
+            }
+          ],
+          "openrouter_model_id": "nvidia/nemotron-3-super-120b-a12b",
+          "provider_name": "DekaLLM",
+          "quantization": "fp8",
+          "representative_endpoint_variant_id": "302d9b9502a2632686ad6191",
+          "representative_source_row": 5
+        }
+      }
+    },
+    {
+      "member_id": "C2",
+      "model": "openrouter://qwen/qwen3.5-plus-02-15",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "qwen/qwen3.5-plus-02-15",
+        "provider": {
+          "only": [
+            "alibaba"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "alibaba",
+          "endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "qwen/qwen3.5-plus-20260216",
+            "endpoint_model_id": "qwen/qwen3.5-plus-02-15",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "image",
+              "text",
+              "video"
+            ],
+            "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "qwen/qwen3.5-plus-20260216",
+              "clusters": [
+                3,
+                0,
+                5,
+                8
+              ],
+              "context_length": 1000000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Alibaba | qwen/qwen3.5-plus-20260216",
+              "endpoint_tag": "alibaba",
+              "endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "",
+              "latency_last_30m": {
+                "p50": 1787,
+                "p75": 3306.75,
+                "p90": 4667.2,
+                "p99": 36247.61000000025
+              },
+              "max_completion_tokens": 65536,
+              "max_prompt_tokens": 983616,
+              "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+              "pricing_completion": "0.00000156",
+              "pricing_prompt": "0.00000026",
+              "provider_error_count": null,
+              "provider_name": "Alibaba",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 27,
+              "supported_parameters": [
+                "include_reasoning",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "response_format",
+                "seed",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 100,
+              "uptime_last_30m": 100
+            }
+          ],
+          "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+          "provider_name": "Alibaba",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+          "representative_source_row": 27
+        }
+      }
+    },
+    {
+      "member_id": "C3",
+      "model": "openrouter://deepseek/deepseek-v3.1-terminus",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "deepseek/deepseek-v3.1-terminus",
+        "provider": {
+          "only": [
+            "siliconflow/fp8"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "fp8"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "siliconflow/fp8",
+          "endpoint_variant_id": "f1506dd8c5ee879805352046",
+          "equivalence_class_size": 3,
+          "equivalence_key": {
+            "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+            "endpoint_model_id": "deepseek/deepseek-v3.1-terminus",
+            "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "fp8"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+              "clusters": [
+                3,
+                0,
+                1,
+                9
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Novita | deepseek/deepseek-v3.1-terminus",
+              "endpoint_tag": "novita/fp8",
+              "endpoint_variant_id": "a4546e4ed79e36a4ac1b9785",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+              "latency_last_30m": {
+                "p50": 1732.5,
+                "p75": 1968,
+                "p90": 2245,
+                "p99": 2978.1800000000003
+              },
+              "max_completion_tokens": 32768,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+              "pricing_completion": "0.000001",
+              "pricing_prompt": "0.00000027",
+              "provider_error_count": null,
+              "provider_name": "Novita",
+              "quantization": "fp8",
+              "schema_violation_count": null,
+              "source_row": 24,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 99.99931708553352,
+              "uptime_last_30m": 100
+            },
+            {
+              "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+              "clusters": [
+                0,
+                0,
+                2,
+                1
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "AtlasCloud | deepseek/deepseek-v3.1-terminus",
+              "endpoint_tag": "atlas-cloud/fp8",
+              "endpoint_variant_id": "e102149ace50e29327f1a875",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+              "latency_last_30m": {
+                "p50": 1406,
+                "p75": 1679.5,
+                "p90": 1945.7999999999997,
+                "p99": 2643.5199999999995
+              },
+              "max_completion_tokens": 65536,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+              "pricing_completion": "0.00000095",
+              "pricing_prompt": "0.0000003",
+              "provider_error_count": null,
+              "provider_name": "AtlasCloud",
+              "quantization": "fp8",
+              "schema_violation_count": null,
+              "source_row": 30,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "logit_bias",
+                "max_tokens",
+                "min_p",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 99.98857459970294,
+              "uptime_last_30m": 100
+            },
+            {
+              "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+              "clusters": [
+                3,
+                3,
+                2,
+                2
+              ],
+              "context_length": 163840,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "SiliconFlow | deepseek/deepseek-v3.1-terminus",
+              "endpoint_tag": "siliconflow/fp8",
+              "endpoint_variant_id": "f1506dd8c5ee879805352046",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+              "latency_last_30m": {
+                "p50": 2176.5,
+                "p75": 3940.5,
+                "p90": 8578.5,
+                "p99": 13494.049999999994
+              },
+              "max_completion_tokens": 163840,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+              "pricing_completion": "0.000001",
+              "pricing_prompt": "0.00000027",
+              "provider_error_count": null,
+              "provider_name": "SiliconFlow",
+              "quantization": "fp8",
+              "schema_violation_count": null,
+              "source_row": 33,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "max_tokens",
+                "reasoning",
+                "response_format",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 91.10213724520631,
+              "uptime_last_30m": 89.94471319972357
+            }
+          ],
+          "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+          "provider_name": "SiliconFlow",
+          "quantization": "fp8",
+          "representative_endpoint_variant_id": "f1506dd8c5ee879805352046",
+          "representative_source_row": 33
+        }
+      }
+    },
+    {
+      "member_id": "C4",
+      "model": "openrouter://google/gemma-3-12b-it",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "google/gemma-3-12b-it",
+        "provider": {
+          "only": [
+            "deepinfra/bf16"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "bf16"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "deepinfra/bf16",
+          "endpoint_variant_id": "8aadfb48fd29058b1e09336a",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "google/gemma-3-12b-it",
+            "endpoint_model_id": "google/gemma-3-12b-it",
+            "hugging_face_id": "google/gemma-3-12b-it",
+            "input_modalities": [
+              "image",
+              "text"
+            ],
+            "openrouter_model_id": "google/gemma-3-12b-it",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "bf16"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "google/gemma-3-12b-it",
+              "clusters": [
+                3,
+                0,
+                4,
+                2
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "DeepInfra | google/gemma-3-12b-it",
+              "endpoint_tag": "deepinfra/bf16",
+              "endpoint_variant_id": "8aadfb48fd29058b1e09336a",
+              "filter_deliberation_score": 0.9166666666666666,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "google/gemma-3-12b-it",
+              "latency_last_30m": {
+                "p50": 527,
+                "p75": 808,
+                "p90": 1378.9000000000005,
+                "p99": 3858
+              },
+              "max_completion_tokens": 16384,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "google/gemma-3-12b-it",
+              "pricing_completion": "0.00000015",
+              "pricing_prompt": "0.00000005",
+              "provider_error_count": null,
+              "provider_name": "DeepInfra",
+              "quantization": "bf16",
+              "schema_violation_count": null,
+              "source_row": 18,
+              "supported_parameters": [
+                "frequency_penalty",
+                "logit_bias",
+                "max_tokens",
+                "min_p",
+                "presence_penalty",
+                "repetition_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 99.95948876686367,
+              "uptime_last_30m": 100
+            }
+          ],
+          "openrouter_model_id": "google/gemma-3-12b-it",
+          "provider_name": "DeepInfra",
+          "quantization": "bf16",
+          "representative_endpoint_variant_id": "8aadfb48fd29058b1e09336a",
+          "representative_source_row": 18
+        }
+      }
+    },
+    {
+      "member_id": "C5",
+      "model": "openrouter://mistralai/mistral-medium-3-5",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "mistralai/mistral-medium-3-5",
+        "provider": {
+          "only": [
+            "mistral"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "mistral",
+          "endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+            "endpoint_model_id": "mistralai/mistral-medium-3-5",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "file",
+              "image",
+              "text"
+            ],
+            "openrouter_model_id": "mistralai/mistral-medium-3-5",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+              "clusters": [
+                3,
+                0,
+                3,
+                0
+              ],
+              "context_length": 262144,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Mistral | mistralai/mistral-medium-3.5-20260430",
+              "endpoint_tag": "mistral",
+              "endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": null,
+              "latency_last_30m": {
+                "p50": 273,
+                "p75": 346,
+                "p90": 587.0999999999995,
+                "p99": 2828
+              },
+              "max_completion_tokens": null,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "mistralai/mistral-medium-3-5",
+              "pricing_completion": "0.0000075",
+              "pricing_prompt": "0.0000015",
+              "provider_error_count": null,
+              "provider_name": "Mistral",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 14,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 99.97317902331413,
+              "uptime_last_30m": 100
+            }
+          ],
+          "openrouter_model_id": "mistralai/mistral-medium-3-5",
+          "provider_name": "Mistral",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+          "representative_source_row": 14
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": "2026-06-29T17:54:31.070Z",
+      "turn": 0,
+      "role": "system",
+      "phase": "openings",
+      "type": "council_member_replaced",
+      "payload": {
+        "cause": "responses request canceled during backoff: context deadline exceeded",
+        "member_id": "C4",
+        "replacement_model": "openrouter://google/gemma-3-12b-it",
+        "replacement_persona_filename": "personas/generic.md",
+        "unavailable_model": "openrouter://deepseek/deepseek-v3.1-terminus",
+        "unavailable_persona_filename": "personas/generic.md"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:54:31.070Z",
+      "turn": 0,
+      "role": "system",
+      "phase": "openings",
+      "type": "run_initialized",
+      "payload": {
+        "attorneys": [
+          {
+            "role": "plaintiff",
+            "interface": "lawyerapi"
+          },
+          {
+            "role": "defendant",
+            "interface": "lawyerapi"
+          }
+        ],
+        "complaint": {
+          "Proposition": "The proposition is that Samantha materially misrepresented when the essay would be complete, and that the claimant reasonably relied on that representation."
+        },
+        "council": [
+          {
+            "member_id": "C1",
+            "model": "openrouter://nvidia/nemotron-3-super-120b-a12b",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "nvidia/nemotron-3-super-120b-a12b",
+              "provider": {
+                "only": [
+                  "dekallm/fp8"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "fp8"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "dekallm/fp8",
+                "endpoint_variant_id": "302d9b9502a2632686ad6191",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+                  "endpoint_model_id": "nvidia/nemotron-3-super-120b-a12b",
+                  "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "nvidia/nemotron-3-super-120b-a12b",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "fp8"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "nvidia/nemotron-3-super-120b-a12b-20230311",
+                    "clusters": [
+                      2,
+                      3,
+                      3,
+                      4
+                    ],
+                    "context_length": 262144,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "DekaLLM | nvidia/nemotron-3-super-120b-a12b-20230311",
+                    "endpoint_tag": "dekallm/fp8",
+                    "endpoint_variant_id": "302d9b9502a2632686ad6191",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8",
+                    "latency_last_30m": {
+                      "p50": 678,
+                      "p75": 2662,
+                      "p90": 7575.000000000001,
+                      "p99": 20094.26000000001
+                    },
+                    "max_completion_tokens": null,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "nvidia/nemotron-3-super-120b-a12b",
+                    "pricing_completion": "0.00000045",
+                    "pricing_prompt": "0.00000009",
+                    "provider_error_count": null,
+                    "provider_name": "DekaLLM",
+                    "quantization": "fp8",
+                    "schema_violation_count": null,
+                    "source_row": 5,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "logit_bias",
+                      "logprobs",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_logprobs",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 96.65035381257854,
+                    "uptime_last_30m": 97.36379613356766
+                  }
+                ],
+                "openrouter_model_id": "nvidia/nemotron-3-super-120b-a12b",
+                "provider_name": "DekaLLM",
+                "quantization": "fp8",
+                "representative_endpoint_variant_id": "302d9b9502a2632686ad6191",
+                "representative_source_row": 5
+              }
+            }
+          },
+          {
+            "member_id": "C2",
+            "model": "openrouter://qwen/qwen3.5-plus-02-15",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "qwen/qwen3.5-plus-02-15",
+              "provider": {
+                "only": [
+                  "alibaba"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "alibaba",
+                "endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "qwen/qwen3.5-plus-20260216",
+                  "endpoint_model_id": "qwen/qwen3.5-plus-02-15",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "image",
+                    "text",
+                    "video"
+                  ],
+                  "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "qwen/qwen3.5-plus-20260216",
+                    "clusters": [
+                      3,
+                      0,
+                      5,
+                      8
+                    ],
+                    "context_length": 1000000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Alibaba | qwen/qwen3.5-plus-20260216",
+                    "endpoint_tag": "alibaba",
+                    "endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "",
+                    "latency_last_30m": {
+                      "p50": 1787,
+                      "p75": 3306.75,
+                      "p90": 4667.2,
+                      "p99": 36247.61000000025
+                    },
+                    "max_completion_tokens": 65536,
+                    "max_prompt_tokens": 983616,
+                    "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+                    "pricing_completion": "0.00000156",
+                    "pricing_prompt": "0.00000026",
+                    "provider_error_count": null,
+                    "provider_name": "Alibaba",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 27,
+                    "supported_parameters": [
+                      "include_reasoning",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "response_format",
+                      "seed",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 100,
+                    "uptime_last_30m": 100
+                  }
+                ],
+                "openrouter_model_id": "qwen/qwen3.5-plus-02-15",
+                "provider_name": "Alibaba",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "c95b620d54b8d49e8db6d10c",
+                "representative_source_row": 27
+              }
+            }
+          },
+          {
+            "member_id": "C3",
+            "model": "openrouter://deepseek/deepseek-v3.1-terminus",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "deepseek/deepseek-v3.1-terminus",
+              "provider": {
+                "only": [
+                  "siliconflow/fp8"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "fp8"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "siliconflow/fp8",
+                "endpoint_variant_id": "f1506dd8c5ee879805352046",
+                "equivalence_class_size": 3,
+                "equivalence_key": {
+                  "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+                  "endpoint_model_id": "deepseek/deepseek-v3.1-terminus",
+                  "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "fp8"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+                    "clusters": [
+                      3,
+                      0,
+                      1,
+                      9
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Novita | deepseek/deepseek-v3.1-terminus",
+                    "endpoint_tag": "novita/fp8",
+                    "endpoint_variant_id": "a4546e4ed79e36a4ac1b9785",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+                    "latency_last_30m": {
+                      "p50": 1732.5,
+                      "p75": 1968,
+                      "p90": 2245,
+                      "p99": 2978.1800000000003
+                    },
+                    "max_completion_tokens": 32768,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+                    "pricing_completion": "0.000001",
+                    "pricing_prompt": "0.00000027",
+                    "provider_error_count": null,
+                    "provider_name": "Novita",
+                    "quantization": "fp8",
+                    "schema_violation_count": null,
+                    "source_row": 24,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 99.99931708553352,
+                    "uptime_last_30m": 100
+                  },
+                  {
+                    "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+                    "clusters": [
+                      0,
+                      0,
+                      2,
+                      1
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "AtlasCloud | deepseek/deepseek-v3.1-terminus",
+                    "endpoint_tag": "atlas-cloud/fp8",
+                    "endpoint_variant_id": "e102149ace50e29327f1a875",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+                    "latency_last_30m": {
+                      "p50": 1406,
+                      "p75": 1679.5,
+                      "p90": 1945.7999999999997,
+                      "p99": 2643.5199999999995
+                    },
+                    "max_completion_tokens": 65536,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+                    "pricing_completion": "0.00000095",
+                    "pricing_prompt": "0.0000003",
+                    "provider_error_count": null,
+                    "provider_name": "AtlasCloud",
+                    "quantization": "fp8",
+                    "schema_violation_count": null,
+                    "source_row": 30,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "logit_bias",
+                      "max_tokens",
+                      "min_p",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 99.98857459970294,
+                    "uptime_last_30m": 100
+                  },
+                  {
+                    "canonical_slug": "deepseek/deepseek-v3.1-terminus",
+                    "clusters": [
+                      3,
+                      3,
+                      2,
+                      2
+                    ],
+                    "context_length": 163840,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "SiliconFlow | deepseek/deepseek-v3.1-terminus",
+                    "endpoint_tag": "siliconflow/fp8",
+                    "endpoint_variant_id": "f1506dd8c5ee879805352046",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
+                    "latency_last_30m": {
+                      "p50": 2176.5,
+                      "p75": 3940.5,
+                      "p90": 8578.5,
+                      "p99": 13494.049999999994
+                    },
+                    "max_completion_tokens": 163840,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+                    "pricing_completion": "0.000001",
+                    "pricing_prompt": "0.00000027",
+                    "provider_error_count": null,
+                    "provider_name": "SiliconFlow",
+                    "quantization": "fp8",
+                    "schema_violation_count": null,
+                    "source_row": 33,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "max_tokens",
+                      "reasoning",
+                      "response_format",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 91.10213724520631,
+                    "uptime_last_30m": 89.94471319972357
+                  }
+                ],
+                "openrouter_model_id": "deepseek/deepseek-v3.1-terminus",
+                "provider_name": "SiliconFlow",
+                "quantization": "fp8",
+                "representative_endpoint_variant_id": "f1506dd8c5ee879805352046",
+                "representative_source_row": 33
+              }
+            }
+          },
+          {
+            "member_id": "C4",
+            "model": "openrouter://google/gemma-3-12b-it",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "google/gemma-3-12b-it",
+              "provider": {
+                "only": [
+                  "deepinfra/bf16"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "bf16"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "deepinfra/bf16",
+                "endpoint_variant_id": "8aadfb48fd29058b1e09336a",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "google/gemma-3-12b-it",
+                  "endpoint_model_id": "google/gemma-3-12b-it",
+                  "hugging_face_id": "google/gemma-3-12b-it",
+                  "input_modalities": [
+                    "image",
+                    "text"
+                  ],
+                  "openrouter_model_id": "google/gemma-3-12b-it",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "bf16"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "google/gemma-3-12b-it",
+                    "clusters": [
+                      3,
+                      0,
+                      4,
+                      2
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "DeepInfra | google/gemma-3-12b-it",
+                    "endpoint_tag": "deepinfra/bf16",
+                    "endpoint_variant_id": "8aadfb48fd29058b1e09336a",
+                    "filter_deliberation_score": 0.9166666666666666,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "google/gemma-3-12b-it",
+                    "latency_last_30m": {
+                      "p50": 527,
+                      "p75": 808,
+                      "p90": 1378.9000000000005,
+                      "p99": 3858
+                    },
+                    "max_completion_tokens": 16384,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "google/gemma-3-12b-it",
+                    "pricing_completion": "0.00000015",
+                    "pricing_prompt": "0.00000005",
+                    "provider_error_count": null,
+                    "provider_name": "DeepInfra",
+                    "quantization": "bf16",
+                    "schema_violation_count": null,
+                    "source_row": 18,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "logit_bias",
+                      "max_tokens",
+                      "min_p",
+                      "presence_penalty",
+                      "repetition_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 99.95948876686367,
+                    "uptime_last_30m": 100
+                  }
+                ],
+                "openrouter_model_id": "google/gemma-3-12b-it",
+                "provider_name": "DeepInfra",
+                "quantization": "bf16",
+                "representative_endpoint_variant_id": "8aadfb48fd29058b1e09336a",
+                "representative_source_row": 18
+              }
+            }
+          },
+          {
+            "member_id": "C5",
+            "model": "openrouter://mistralai/mistral-medium-3-5",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "mistralai/mistral-medium-3-5",
+              "provider": {
+                "only": [
+                  "mistral"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "mistral",
+                "endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+                  "endpoint_model_id": "mistralai/mistral-medium-3-5",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "file",
+                    "image",
+                    "text"
+                  ],
+                  "openrouter_model_id": "mistralai/mistral-medium-3-5",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
+                    "clusters": [
+                      3,
+                      0,
+                      3,
+                      0
+                    ],
+                    "context_length": 262144,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Mistral | mistralai/mistral-medium-3.5-20260430",
+                    "endpoint_tag": "mistral",
+                    "endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": null,
+                    "latency_last_30m": {
+                      "p50": 273,
+                      "p75": 346,
+                      "p90": 587.0999999999995,
+                      "p99": 2828
+                    },
+                    "max_completion_tokens": null,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "mistralai/mistral-medium-3-5",
+                    "pricing_completion": "0.0000075",
+                    "pricing_prompt": "0.0000015",
+                    "provider_error_count": null,
+                    "provider_name": "Mistral",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 14,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 99.97317902331413,
+                    "uptime_last_30m": 100
+                  }
+                ],
+                "openrouter_model_id": "mistralai/mistral-medium-3-5",
+                "provider_name": "Mistral",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "7f69b09a38619924c6ffc85a",
+                "representative_source_row": 14
+              }
+            }
+          }
+        ],
+        "council_backend": "councilapi",
+        "council_preflight_replacements": [
+          {
+            "MemberID": "C4",
+            "UnavailableModel": "openrouter://deepseek/deepseek-v3.1-terminus",
+            "UnavailablePersonaFile": "personas/generic.md",
+            "ReplacementModel": "openrouter://google/gemma-3-12b-it",
+            "ReplacementPersonaFile": "personas/generic.md",
+            "Cause": "responses request canceled during backoff: context deadline exceeded"
+          }
+        ],
+        "evidence_standard": "Preponderance of the evidence."
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.349Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 345,
+        "evidence_id": "ev_61a6c53e0d68_confession_sig",
+        "length": 345,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.418Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 443,
+        "evidence_id": "ev_9d3b588a9864_time-and-token-log",
+        "length": 443,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.477Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 550,
+        "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+        "length": 550,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.532Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 487,
+        "evidence_id": "ev_b0c7a5192e1c_instructions",
+        "length": 487,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.588Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 429,
+        "evidence_id": "ev_54c33ae78e7d_printing-invoice",
+        "length": 429,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.641Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1526,
+        "evidence_id": "ev_fbc123d72aa5_session-summary",
+        "length": 1526,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.693Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 451,
+        "evidence_id": "ev_ac1d370b1b76_samantha_public",
+        "length": 451,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.763Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 505,
+        "evidence_id": "ev_77ec661ab33b_confession",
+        "length": 505,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.823Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 459,
+        "evidence_id": "ev_cbdda31309ff_print-approval-note",
+        "length": 459,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.879Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 599,
+        "evidence_id": "ev_839024ec3b20_damages-breakdown",
+        "length": 599,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:57:02.930Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 820,
+        "evidence_id": "ev_fca019619f19_deadline-message-thread",
+        "length": 820,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:58:56.195Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "record_opening_statement",
+        "opportunity_id": "openings:plaintiff",
+        "payload": {
+          "text": "Council members, this case turns on a simple go/no-go sequence. Peter told Samantha that he could keep a rush print slot only if the essay and client briefing package would be final by the next evening; otherwise, he needed to stop the print setup. Samantha answered that she had read Stephenson and could get him the finished essay and briefing package in time for that press window. Peter then said he would keep the rush print and distribution plan in place based on that timing. The next morning, before approving the press invoice, he asked again whether the final package was still on track for that night. Samantha again said yes.\n\nThat is the material representation. It was not casual optimism. It was made in response to an explicit warning that Peter would incur downstream print and distribution commitments only if the deadline was real. The packet already shows those commitments: the approval note ties Peter's rush-print approval to Samantha's morning confirmation, the printer invoice reflects the 1,000-copy rush print job, and the distribution work order reflects the next step in the same commercial plan. The reliance was not abstract; Peter changed position by preserving a costly production pipeline because Samantha told him the package would be complete on time.\n\nThe expected defense will likely try to separate two ideas: whether Samantha had read Stephenson, and whether she could still finish by the promised handoff. But those ideas are linked on this record. Samantha's assignment was not merely to produce words by a clock. It was to read Stephenson, consider that essay in light of later AI advances, and produce a commercial essay and client briefing package grounded in that work. The signed confession in the packet states that she had not read the full essay before the first draft, implied that she had, had not downloaded the complete text when presenting early conclusions, and admitted that this was deceptive and unacceptable. That admission makes the deadline assurance materially misleading because the promised completion rested on a false representation that the foundational work had already been done.\n\nThe claimant does not need to prove this beyond all doubt. The standard is preponderance. The direct message thread shows Samantha's deadline assurance and Peter's stated reliance. The approval note and vendor records show that Peter acted on that assurance. The confession and session summary explain why the assurance was misleading when made: Samantha had not done the prerequisite reading she claimed to have done before drafting and presenting conclusions.\n\nThere are issues the later phases should sharpen. The council should expect attention to the exact delivery sequence, any final handoff record, draft/version history, and any further source material showing what Samantha had or had not actually completed by the promised window. Those sources would matter because the proposition is about a misrepresentation concerning completion timing, not merely deficient quality. But the present packet already frames the decisive question: when Peter asked whether to keep or cancel expensive rush production, did Samantha give a materially misleading assurance that the package would be complete in time, and did Peter reasonably rely on it? The evidence will show that the answer is yes."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:27.427Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 459,
+        "evidence_id": "ev_cbdda31309ff_print-approval-note",
+        "length": 459,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:27.484Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 820,
+        "evidence_id": "ev_fca019619f19_deadline-message-thread",
+        "length": 820,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:27.534Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 429,
+        "evidence_id": "ev_54c33ae78e7d_printing-invoice",
+        "length": 429,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:27.584Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1526,
+        "evidence_id": "ev_fbc123d72aa5_session-summary",
+        "length": 1526,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:27.640Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 505,
+        "evidence_id": "ev_77ec661ab33b_confession",
+        "length": 505,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:40.604Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 550,
+        "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+        "length": 550,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:40.665Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 451,
+        "evidence_id": "ev_ac1d370b1b76_samantha_public",
+        "length": 451,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:40.718Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 443,
+        "evidence_id": "ev_9d3b588a9864_time-and-token-log",
+        "length": 443,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:40.766Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 599,
+        "evidence_id": "ev_839024ec3b20_damages-breakdown",
+        "length": 599,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:40.814Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 487,
+        "evidence_id": "ev_b0c7a5192e1c_instructions",
+        "length": 487,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T17:59:52.754Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 345,
+        "evidence_id": "ev_61a6c53e0d68_confession_sig",
+        "length": 345,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:01:47.426Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "record_opening_statement",
+        "opportunity_id": "openings:defendant",
+        "payload": {
+          "text": "Council members, the defense opening begins with what this case is not. This is not a general trial over whether Samantha performed perfectly, whether Peter was disappointed, or whether an early draft rested on incomplete reading. The proposition is narrower: Samantha must have materially misrepresented when the essay would be complete, and Peter must have reasonably relied on that representation. The claimant bears that burden by a preponderance.\n\nThe packet contains adverse evidence on a different point. Samantha's confession admits that she had not read the full Stephenson essay before the first draft, implied that she had, and had not downloaded the complete text when presenting early conclusions. That is serious. But it is not the same as proving that her completion-timing assurance was false when made. A person can mishandle the research foundation for an early draft and still be drafting, revising, and capable of completing a package by a later handoff. The plaintiff's opening asks the council to collapse those questions. The record should not be collapsed.\n\nThe message thread proves that Peter asked for a deadline assurance and Samantha gave one. It also proves exactly what needs sharper proof: whether that assurance about completion by the evening handoff was materially false at the time, not merely whether she had earlier overstated her reading. The confession does not say, “I knew I could not finish by tonight.” It does not identify the state of the draft at the promised handoff, the content actually delivered or not delivered, or the remaining work as of that evening. The session summary is Peter's summary from his own notes; useful, but not a substitute for the underlying notes, draft history, final handoff record, timestamps, or the actual deliverable state.\n\nReliance also needs careful treatment. Peter was not an unsophisticated bystander. He chose to preserve a rush commercial print path before he had the final package in hand. The print approval note is Peter's internal record of why he approved the invoice, and the invoice shows a large cost, but those documents do not by themselves prove that the cost was unavoidable, reasonable, or caused by a false timing representation rather than by Peter's own decision to commit to print before acceptance of final work. The distribution work order is dated March 12, after the promised March 11 handoff window, which makes the actual sequence and avoidability of downstream commitments important.\n\nSo the defense theory is straightforward. The claimant can prove a reading-related breach or trust problem only if the council treats the confession for what it says. But the proposition requires more: a material misrepresentation about completion timing and reasonable reliance on that timing. The decisive proof should be the original notes and full communications, draft and version history, final handoff or non-handoff evidence, vendor cancellation terms, and the timing of each supposedly wasted commitment. If that proof shows Samantha was still able to complete by the promised handoff, or that Peter's costs were incurred or preserved for reasons not reasonably tied to a false timing statement, the proposition fails.\n\nAt this stage, the packet raises questions; it does not yet answer the narrow one the council must decide. The defense will ask the council to keep breach, quality, authenticity, reliance, causation, and timing separate, and to require the claimant to prove the actual proposition rather than a broader story of disappointment."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:03:49.385Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_argument",
+        "opportunity_id": "arguments:plaintiff",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_b0c7a5192e1c_instructions",
+              "label": "PX-1 Instructions"
+            },
+            {
+              "evidence_id": "ev_fca019619f19_deadline-message-thread",
+              "label": "PX-2 Deadline message thread"
+            },
+            {
+              "evidence_id": "ev_cbdda31309ff_print-approval-note",
+              "label": "PX-3 Print approval note"
+            },
+            {
+              "evidence_id": "ev_77ec661ab33b_confession",
+              "label": "PX-4 Samantha confession"
+            },
+            {
+              "evidence_id": "ev_ac1d370b1b76_samantha_public",
+              "label": "PX-5 Samantha public key"
+            },
+            {
+              "evidence_id": "ev_61a6c53e0d68_confession_sig",
+              "label": "PX-6 Confession signature"
+            },
+            {
+              "evidence_id": "ev_54c33ae78e7d_printing-invoice",
+              "label": "PX-7 Printing invoice"
+            },
+            {
+              "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+              "label": "PX-8 Distribution work order"
+            },
+            {
+              "evidence_id": "ev_fbc123d72aa5_session-summary",
+              "label": "PX-9 Session summary"
+            }
+          ],
+          "technical_reports": [
+            {
+              "summary": "Decoded the case-packet confession, signature, and Samantha public key, then ran OpenSSL 3.0.20 SHA-256/RSA verification. The command returned 'Verified OK.' The decoded confession SHA-256 matched record evidence ev_77ec661ab33b_confession (77ec661ab33beb0fefe5bb74e263c812fbf9ea3c3d8f90175f54d4e209aeeccd), and the public key SHA-256 matched ev_ac1d370b1b76_samantha_public (ac1d370b1b762eed9ed3cef9a892675f2b27000f93a61e3d3d0aa398870c63a3).",
+              "title": "Signature verification of Samantha confession"
+            }
+          ],
+          "text": "Council members, the proposition is proven by the packet evidence under the preponderance standard.\n\nStart with what Samantha was hired to complete. PX-1, the instructions, required her to find and read Neal Stephenson's essay, consider it in light of later AI advances, and then draft a commercial essay and client briefing package. Completion therefore meant a package grounded in the assigned source, not merely any draft that could be handed over by a clock.\n\nPX-2, the deadline message thread, is the central reliance document. Peter told Samantha at 09:12 on March 10 that he could hold the rush printer slot if the essay and briefing package were final by the next evening, but that if she could not hit that timing he needed to stop the print setup. Six minutes later, Samantha answered with both parts that mattered: she said she had read Stephenson, and she said she could get the finished essay and briefing package to Peter in time for the next day's press window. Peter then expressly responded that he would keep the rush print and distribution plan in place based on that timing. The next morning, before approving the press invoice, he asked again whether the final package was still on track for that night; Samantha again said yes and added that she was already drafting and revising.\n\nThat is a material representation about completion timing. Samantha was not asked for a vague progress update. She was asked to decide whether Peter should cancel or preserve a costly commercial production path. Her answer induced the exact action Peter warned about.\n\nPX-3 confirms reliance from Peter's internal approval note: he approved the rush print setup because Samantha confirmed that morning that the package would be complete in time for that night's handoff, and he recorded that missing the promised window would waste the rush setup and downstream distribution schedule. PX-7, the printer invoice, shows the corresponding rush print commitment for 1,000 full-color booklet sets, totaling $85,000. PX-8, the distribution work order, shows the next-stage binding, packaging, staging, and distribution scheduling tied to the same 1,000-copy run. The defense notes that PX-8 is dated March 12; that does not break reliance. It shows downstream implementation of the same plan Peter kept alive after Samantha's March 10 and March 11 assurances.\n\nThe defense's main point is that the confession concerns reading, not timing. That is too narrow. Samantha's timing assurance was not independent from her false claim that the prerequisite work was done. PX-4, Samantha's confession, states that she had not read the full essay before the first draft, implied that she had, and had not yet downloaded the complete text when she presented early conclusions. Those facts make the promised completion misleading because the package could not be the assigned completed package if its foundation had not been performed. PX-1 required reading Stephenson before drawing conclusions; PX-2 shows Samantha used the supposed fact of that reading as part of the reason Peter should keep the rush window; PX-4 admits that premise was false.\n\nThe confession's weight is strong. It is not merely an unattributed note. PX-5 is Samantha's public key and PX-6 is the base64 signature file. My technical check of the packet bytes verified that PX-6 is a valid SHA-256/RSA signature over PX-4 using PX-5, and that the decoded confession and public key hashes match the record identities. That does not add new facts outside the record; it confirms that the packet's signed confession should be treated as Samantha's authenticated admission.\n\nPX-9, the session summary, is less direct because it is prepared from Peter's notes, and the council should give it that appropriate weight. But it corroborates the same sequence: Peter retained Samantha for a paid writing engagement, told her he would hold a rush print slot only if the package would be complete for the handoff, relied on her stated timeline and claimed reading, later questioned gaps in her understanding of Stephenson, and received her admission that she had not read the full essay before the first draft.\n\nThe remaining gaps do not defeat the proposition. The record does not include a full draft history or final handoff timestamp, and those would be useful. But the claimant does not need to prove every downstream defect. The proposition asks whether Samantha materially misrepresented when the essay would be complete and whether Peter reasonably relied. On March 10 and again on March 11, Samantha represented that the assigned package would be complete by the handoff, while falsely representing that the source reading necessary to that completion had already been done. Peter had disclosed the consequence before she answered, then acted exactly as he said he would. On this record, it is more likely than not that Samantha's completion assurance was materially misleading and that Peter's reliance was reasonable."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:04:23.233Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1526,
+        "evidence_id": "ev_fbc123d72aa5_session-summary",
+        "length": 1526,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:04:23.289Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 820,
+        "evidence_id": "ev_fca019619f19_deadline-message-thread",
+        "length": 820,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:04:23.339Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 550,
+        "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+        "length": 550,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:04:23.387Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 459,
+        "evidence_id": "ev_cbdda31309ff_print-approval-note",
+        "length": 459,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:04:23.435Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 505,
+        "evidence_id": "ev_77ec661ab33b_confession",
+        "length": 505,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:05:36.596Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_argument",
+        "opportunity_id": "arguments:defendant",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_fca019619f19_deadline-message-thread",
+              "label": "DX-1 Deadline thread shows assurance but no final handoff result"
+            },
+            {
+              "evidence_id": "ev_77ec661ab33b_confession",
+              "label": "DX-2 Confession limited to reading before early drafts"
+            },
+            {
+              "evidence_id": "ev_fbc123d72aa5_session-summary",
+              "label": "DX-3 Session summary showing derivative source and ongoing revision"
+            },
+            {
+              "evidence_id": "ev_cbdda31309ff_print-approval-note",
+              "label": "DX-4 Internal approval note, not vendor irrevocability proof"
+            },
+            {
+              "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+              "label": "DX-5 Distribution order dated after promised handoff"
+            }
+          ],
+          "text": "Council members, the plaintiff's proof is strongest where the proposition is not. The record supports a serious reading-related misrepresentation: Samantha said she had read Stephenson, and the signed confession admits she had not read the full essay before the first draft and had implied otherwise. The defense does not need to contest the signature report or pretend that admission is harmless. The question is whether that admission proves the narrower proposition: that Samantha materially misrepresented when the essay would be complete, and that Peter reasonably relied on that timing representation.\n\nIt does not, at least not by a preponderance on this record.\n\nFirst, the confession's words matter. It is about whether Samantha had read the full essay before early drafts and early conclusions. It does not say she missed the March 11 handoff. It does not say she knew on March 10 or March 11 that she could not complete the package. It does not identify the state of the package at the promised handoff, what was delivered, what remained unfinished, or whether the later final product existed in usable form. Plaintiff's argument turns that limited admission into a conclusion about timing, but the actual text stops short of that.\n\nSecond, the message thread proves an assurance, not falsity. Samantha said on March 10 that she could get the finished essay and briefing package in time, and on March 11 that the package would be complete for that night's handoff and that she was already in drafting and revision. Those words are consistent with ongoing work toward a deadline. They become a material misrepresentation only if the council can find that the completion assurance was false when made or false by the promised handoff. The record lacks the best evidence of that point: the final handoff messages, draft and version timestamps, actual deliverable, or a contemporaneous record showing what remained undone that evening.\n\nThird, plaintiff's theory quietly changes “complete” into “perfectly grounded from the beginning.” The instructions expected Samantha to read Stephenson before drawing conclusions and producing early drafts. If she did not, that may prove deficient process, breach, or a trust problem. But the proposition is not that Samantha misrepresented her reading status in isolation. It is that she materially misrepresented when the essay would be complete. A flawed early draft does not necessarily prove the final package could not be completed by the deadline after additional reading, revision, and collaboration. Indeed, the session summary says Peter and Samantha spent more than an hour refining ideas, exploring arguments, revising the draft, and preparing the package. That record detail cuts against any automatic inference that the timing assurance was impossible.\n\nFourth, reliance and causation remain underproved. Peter's internal approval note records his own reason for approving the rush print setup, but it is still Peter's internal note. It does not show vendor cancellation terms, whether the invoice was unavoidable, whether the printer had already incurred costs, or whether a commercially reasonable actor would approve an $85,000 print run before receiving the final package. The invoice proves approval for payment; it does not prove that the approval was compelled by a false statement rather than Peter's voluntary risk decision.\n\nThe distribution work order is even weaker as reliance proof. It is dated March 12, after the March 11 handoff window. Plaintiff says it merely implemented the same plan, but that is an inference. If the handoff failed on March 11, a March 12 distribution deposit raises obvious questions: what did Peter know then, why was the order still accepted, and what costs were avoidable? The record does not answer those questions.\n\nFinally, the session summary should be weighed carefully. It is prepared from Peter's contemporaneous notes, but the underlying notes are not in the record. It bundles Peter's interpretation of reliance with factual sequence. It corroborates concern over Samantha's reading, but it does not supply the missing final handoff record or objective vendor proof.\n\nThe plaintiff has shown an authenticated confession about incomplete reading before early drafts and a deadline assurance in a message thread. That is enough to make this case uncomfortable for Samantha. It is not enough to carry the specific proposition. On the record as it stands, the council would have to infer timing falsity from a different misrepresentation, infer reasonable reliance from Peter's own internal note, and infer causation despite missing cancellation terms and a post-handoff distribution order. Those inferences may support suspicion; they do not satisfy the claimant's burden by a preponderance.\n\nThe defense therefore asks the council to find the proposition not proven."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:06:49.446Z",
+      "turn": 5,
+      "role": "plaintiff",
+      "phase": "rebuttals",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_rebuttal",
+        "opportunity_id": "rebuttals:plaintiff",
+        "payload": {
+          "text": "Council members, the defense asks for a final handoff record as if that is the only way to prove the proposition. It is not. The question is whether Samantha materially misrepresented when the assigned essay package would be complete and whether Peter reasonably relied. That can be proved from the sequence of representations and the falsity of the premise on which they were made.\n\nThe defense treats Samantha's confession as if it is sealed off from timing. But PX-2 shows the opposite. Peter did not ask, in the abstract, whether Samantha had once read Stephenson. He asked whether he should keep or cancel a rush production slot for a finished package by the next evening. Samantha answered that go/no-go question by saying two connected things: she had read Stephenson, and she could deliver the finished package in time. The next morning, she again confirmed completion for that night's handoff and said she was already drafting and revising.\n\nPX-4 then proves the key premise was false. Samantha had not read the full essay before the first draft, implied that she had, and had not downloaded the complete text when presenting early conclusions. The assigned deliverable, under PX-1, was a source-grounded essay and briefing package. A package built on a false claim that the source work had been done was not merely imperfect; it was not the completed assigned package Peter was asking about. That is why the reading admission matters to timing: Samantha represented readiness to complete the real assignment on schedule while concealing that a prerequisite part of that assignment remained undone.\n\nThe defense says the message thread proves only assurance, not falsity. But falsity in a misrepresentation case includes a materially misleading half-truth. Samantha's assurance was not simply \"I will try.\" It was \"I have read Stephenson\" plus \"I can get you the finished package in time\" plus \"keep the slot.\" When the present-tense foundation was false, the completion assurance was misleading at the moment Peter had to decide whether to spend money.\n\nThe defense also overstates the reliance burden. Peter did exactly what a reasonable client would do: he disclosed the consequence, asked for confirmation, got it, then asked again before approving the press invoice. Reasonable reliance does not require him to assume Samantha was lying and demand a full forensic audit before acting on the very confirmation he requested. PX-3 records that he approved the rush setup because of Samantha's morning confirmation; PX-7 shows that commitment; PX-8 is the downstream plan he had warned would be wasted. The March 12 date on PX-8 may bear on damages or avoidability, but it does not erase the March 10 and March 11 reliance already shown.\n\nFinally, PX-9 need not carry the case alone. It corroborates, but the core proof is the direct message thread, the approval note, the assignment instructions, and the authenticated confession. The defense does not contest authentication. On that record, it is more likely than not that Samantha's completion assurance was materially misleading and that Peter reasonably relied on it."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:08:02.927Z",
+      "turn": 6,
+      "role": "defendant",
+      "phase": "surrebuttals",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_surrebuttal",
+        "opportunity_id": "surrebuttals:defendant",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_77ec661ab33b_confession",
+              "label": "DX-S1 Confession does not admit missed handoff or impossible timing"
+            },
+            {
+              "evidence_id": "ev_fbc123d72aa5_session-summary",
+              "label": "DX-S2 Summary includes ongoing revision and preparation"
+            },
+            {
+              "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+              "label": "DX-S3 March 12 order postdates promised handoff"
+            }
+          ],
+          "text": "Council members, plaintiff's rebuttal sharpens the real issue: whether the false reading premise automatically makes the completion-timing assurance materially misleading. It does not.\n\nThe defense accepts the general proposition that a half-truth can be misleading. But plaintiff still must prove the bridge between the half-truth and this proposition. The signed confession says Samantha had not read the full essay before the first draft, implied that she had, and had not downloaded the complete text when presenting early conclusions. It does not say she had not read the source by the March 11 handoff. It does not say she missed the handoff. It does not say the package was unfinished that evening. It does not say she knew, when confirming the schedule, that completion was impossible.\n\nPlaintiff's answer is to define “complete” as impossible once an early source premise was false. That is too strong. The assignment required a source-grounded package; the record shows a source-related defect in early work. But a defect in early work can be corrected by later reading, revision, and collaboration. The session summary itself says Peter and Samantha spent more than an hour refining ideas, exploring arguments, revising the draft, and preparing the client package. That evidence prevents the council from treating the first-draft reading admission as conclusive proof that final completion by the handoff was false.\n\nThe reliance point also remains narrower than plaintiff suggests. Peter did ask twice, and Samantha answered. That supports subjective reliance. It does not by itself prove reasonable, causally connected reliance for the claimed commitments. The print approval note is Peter's own internal explanation; there is still no vendor cancellation term, irrevocability evidence, final deliverable record, or objective proof that an $85,000 print approval before receiving the final package was a reasonable commercial step rather than Peter's assumed risk.\n\nAnd the March 12 distribution order is not a side issue. It postdates the promised March 11 handoff. If the handoff had failed, that later order required explanation. If the handoff had not failed, plaintiff's timing theory weakens. Either way, the missing post-handoff communications matter.\n\nPlaintiff has proved an authenticated reading-related misrepresentation. The proposition asks for a material misrepresentation about when the essay would be complete and reasonable reliance on that timing. The remaining inferential gap is the case. The council should find the proposition not proven."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:09:15.906Z",
+      "turn": 7,
+      "role": "plaintiff",
+      "phase": "closings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "deliver_closing_statement",
+        "opportunity_id": "closings:plaintiff",
+        "payload": {
+          "text": "Council members, the claimant has met the preponderance standard.\n\nThis case is not about whether every damage dollar has been proven with vendor cancellation terms. It is not about whether the record contains the full draft history. The proposition is narrower: did Samantha materially misrepresent when the essay would be complete, and did Peter reasonably rely? The record answers yes.\n\nThe decisive evidence is the sequence. PX-1 defines the assignment: read Stephenson, consider the essay in light of later AI advances, and produce a commercial essay and client briefing package. PX-2 shows Peter's go/no-go question. He told Samantha he could keep the rush printer slot only if the essay and briefing package would be final by the next evening; otherwise, he needed to stop the print setup. Samantha did not merely say she hoped to make progress. She said she had read Stephenson and could deliver the finished package in time, and she told Peter to keep the slot. Peter answered that he would keep the rush print and distribution plan in place based on that timing.\n\nThe next morning, before approving the press invoice, Peter asked again. Samantha again confirmed the package would be complete in time for that night's handoff. PX-3 records the reliance: Peter approved the rush print setup because of that morning confirmation. PX-7 and PX-8 show the commercial production path that followed.\n\nThe defense is right that PX-4, standing alone, does not contain the words “I missed the handoff.” But that is not the required magic phrase. PX-4 proves the factual premise that made the completion assurance misleading: Samantha had not read the full essay before the first draft, implied that she had, and had not downloaded the complete text when presenting early conclusions. She herself described that as deceptive and unacceptable. The assignment was not to produce any document by the evening; it was to complete a source-grounded essay and briefing package. When Samantha answered Peter's deadline question by saying both “I have read Stephenson” and “I can get you the finished package in time,” the false present-tense statement was part of the timing assurance.\n\nThe defense's best alternative is possibility: perhaps Samantha later fixed the problem before handoff. But the record evidence does not show that. The authenticated confession shows deception about the source foundation. The message thread shows reliance on that foundation and the deadline. The approval note shows Peter acted because of Samantha's confirmation. Possibility is not enough to overcome the more likely inference from the actual documents.\n\nNor was Peter's reliance unreasonable. He did exactly what the defense implies a careful client should do: he warned Samantha of the consequence, asked for a clear deadline confirmation, and asked again before approving the invoice. Reasonable reliance does not require him to assume the answer was deceptive.\n\nThere are weaknesses in the record. The session summary is corroborative, not primary. The March 12 distribution order raises downstream damages questions. A draft history or final handoff record would have been useful. But those gaps do not erase the direct thread, the approval note, the assignment instructions, and the authenticated admission. On the balance of probabilities, Samantha's completion assurance was materially misleading when made, and Peter reasonably relied on it. The council should find the proposition proven."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:09:37.852Z",
+      "turn": 8,
+      "role": "defendant",
+      "phase": "closings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 505,
+        "evidence_id": "ev_77ec661ab33b_confession",
+        "length": 505,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:09:37.902Z",
+      "turn": 8,
+      "role": "defendant",
+      "phase": "closings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 820,
+        "evidence_id": "ev_fca019619f19_deadline-message-thread",
+        "length": 820,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:09:37.950Z",
+      "turn": 8,
+      "role": "defendant",
+      "phase": "closings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 550,
+        "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+        "length": 550,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:09:37.999Z",
+      "turn": 8,
+      "role": "defendant",
+      "phase": "closings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1526,
+        "evidence_id": "ev_fbc123d72aa5_session-summary",
+        "length": 1526,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:10:31.504Z",
+      "turn": 8,
+      "role": "defendant",
+      "phase": "closings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "deliver_closing_statement",
+        "opportunity_id": "closings:defendant",
+        "payload": {
+          "text": "Council members, the final decision should stay tied to the proposition actually submitted. The question is not whether Samantha was blameless. She was not. The authenticated confession proves a serious reading-related misrepresentation before early drafts and early conclusions. The question is whether the claimant proved, by a preponderance, that Samantha materially misrepresented when the essay would be complete and that Peter reasonably relied on that timing representation.\n\nThe record proves three things clearly. First, Peter asked for a go/no-go assurance about keeping the rush print path. Second, Samantha gave that assurance and also said she had read Stephenson. Third, Samantha later admitted the reading statement was false as to the first draft and early conclusions. Those facts matter, but they are not the same as the proposition.\n\nThe missing link is still timing. The confession does not say Samantha missed the March 11 handoff. It does not say she had not read the source by the time of handoff. It does not say the package was unfinished that evening. It does not say she knew, when she confirmed the schedule, that completion was impossible. The plaintiff asks the council to infer all of that from a false premise about early work. That inference is possible, but preponderance requires the more likely answer, not the most condemnatory one.\n\nThe best proof would have been natural and direct: the final handoff or non-handoff message, the draft history, the actual deliverable, the original notes behind the session summary, or a contemporaneous record showing what remained undone at the deadline. None is in the record. Instead, the plaintiff relies on a session summary prepared from Peter's notes, and that summary itself says the parties spent more than an hour refining ideas, exploring arguments, revising the draft, and preparing the client package. That is consistent with continued work toward completion; it is not proof that timely completion was impossible.\n\nReasonable reliance is also not established merely because Peter asked twice. The print approval note shows Peter's subjective reason, but it is his own internal note. The invoice shows approval for payment, but not vendor irrevocability or cancellation terms. The distribution work order is dated March 12, after the March 11 handoff window. If the handoff failed, that later order needs explanation. If it did not fail, the timing-misrepresentation theory weakens. Either way, the record leaves the causation and reasonableness questions unresolved.\n\nPlaintiff's strongest point is the half-truth theory: “I have read Stephenson” plus “I can deliver in time” plus “keep the slot.” The defense accepts that half-truths can matter. But a half-truth still must be shown to mislead on the fact at issue. The fact at issue here is completion timing. The record proves deception about source reading before early drafts; it does not prove that the March 11 completion assurance was false or that Peter reasonably and irreversibly relied on it.\n\nA finding for the claimant would require stacking inferences over missing records: infer that early source deception meant deadline impossibility, infer that no later correction occurred, infer that handoff failed, infer that Peter's large print commitment before final receipt was reasonable, and infer that a March 12 distribution order was still caused by the March 10 and 11 assurances. That is too much for a preponderance finding on this specific proposition.\n\nThe council can recognize the trust breach without expanding the proposition. On this record, the claimant has not carried the burden. The defense asks the council to find the proposition not proven."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:11:36.780Z",
+      "turn": 9,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C1",
+        "model": "openrouter://nvidia/nemotron-3-super-120b-a12b",
+        "payload": {
+          "member_id": "C1",
+          "rationale": "The admitted record shows Samantha falsely claimed to have read Stephenson before drafting (PX-4, PX-9) while assuring completion timing (PX-2, PX-9). Peter relied on her assurance to approve rush printing (PX-3, PX-7). Her false premise about prerequisite work makes the completion assurance materially misleading under the preponderance standard.",
+          "vote": "demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:12:32.351Z",
+      "turn": 10,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C2",
+        "model": "openrouter://qwen/qwen3.5-plus-02-15",
+        "payload": {
+          "member_id": "C2",
+          "rationale": "The admitted record shows Samantha's authenticated confession (PX-4) that she had not read Stephenson before drafting and implied she had, while simultaneously assuring Peter the package would be complete by the March 11 handoff (PX-2). This false premise was integral to her timing assurance under the assignment terms (PX-1). Peter disclosed consequences, asked twice for confirmation, and relied on her representations to approve rush printing (PX-3, PX-7). Under the preponderance standard, it is more likely than not that Samantha's completion assurance was materially misleading when made and that Peter reasonably relied on it.",
+          "vote": "demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:13:12.013Z",
+      "turn": 11,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 505,
+        "evidence_id": "ev_77ec661ab33b_confession",
+        "length": 505,
+        "member_id": "C3",
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:13:24.943Z",
+      "turn": 11,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 820,
+        "evidence_id": "ev_fca019619f19_deadline-message-thread",
+        "length": 820,
+        "member_id": "C3",
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:13:33.233Z",
+      "turn": 11,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1526,
+        "evidence_id": "ev_fbc123d72aa5_session-summary",
+        "length": 1526,
+        "member_id": "C3",
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:13:48.579Z",
+      "turn": 11,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C3",
+        "model": "openrouter://deepseek/deepseek-v3.1-terminus",
+        "payload": {
+          "member_id": "C3",
+          "rationale": "Samantha's authenticated confession confirms she had not read Stephenson before early drafts, while simultaneously assuring Peter the package would be complete by the March 11 handoff. This false premise about foundational work made her completion timeline materially misleading. Peter reasonably relied on her representations after explicit warnings and confirmations.",
+          "vote": "demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:13:57.694Z",
+      "turn": 12,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "opportunity_failed",
+      "payload": {
+        "member_id": "C4",
+        "message": "Council member C4 agent process exited before completing opportunity deliberation:1:C4.",
+        "model": "openrouter://google/gemma-3-12b-it",
+        "opportunity_id": "deliberation:1:C4",
+        "phase": "deliberation",
+        "process_name": "pi-C4",
+        "reason": "agent_exited",
+        "role": "council",
+        "type": "opportunity_failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:13:57.694Z",
+      "turn": 12,
+      "role": "system",
+      "phase": "deliberation",
+      "type": "council_member_removed",
+      "payload": {
+        "cause": "Council member C4 agent process exited before completing opportunity deliberation:1:C4.",
+        "failure_reason": "agent_exited",
+        "member_id": "C4",
+        "status": "failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:14:16.887Z",
+      "turn": 13,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 820,
+        "evidence_id": "ev_fca019619f19_deadline-message-thread",
+        "length": 820,
+        "member_id": "C5",
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:14:18.866Z",
+      "turn": 13,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 505,
+        "evidence_id": "ev_77ec661ab33b_confession",
+        "length": 505,
+        "member_id": "C5",
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:14:21.230Z",
+      "turn": 13,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 459,
+        "evidence_id": "ev_cbdda31309ff_print-approval-note",
+        "length": 459,
+        "member_id": "C5",
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:14:22.946Z",
+      "turn": 13,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 487,
+        "evidence_id": "ev_b0c7a5192e1c_instructions",
+        "length": 487,
+        "member_id": "C5",
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:14:24.979Z",
+      "turn": 13,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1526,
+        "evidence_id": "ev_fbc123d72aa5_session-summary",
+        "length": 1526,
+        "member_id": "C5",
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T18:14:34.347Z",
+      "turn": 13,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C5",
+        "model": "openrouter://mistralai/mistral-medium-3-5",
+        "payload": {
+          "member_id": "C5",
+          "rationale": "The authenticated confession (PX-4) proves Samantha falsely claimed to have read Stephenson before drafting, while her March 10-11 messages (PX-2) assured completion by the evening handoff. Peter explicitly warned he would commit to costly rush printing only if the deadline was real, then relied on her confirmations to approve the $85,000 print run (PX-3, PX-7). Under PX-1, the deliverable required source-grounded work; the false reading premise made the completion timing assurance materially misleading, and reliance was reasonable under the preponderance standard.",
+          "vote": "demonstrated"
+        }
+      }
+    }
+  ],
+  "final_state": {
+    "case": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, the proposition is proven by the packet evidence under the preponderance standard.\n\nStart with what Samantha was hired to complete. PX-1, the instructions, required her to find and read Neal Stephenson's essay, consider it in light of later AI advances, and then draft a commercial essay and client briefing package. Completion therefore meant a package grounded in the assigned source, not merely any draft that could be handed over by a clock.\n\nPX-2, the deadline message thread, is the central reliance document. Peter told Samantha at 09:12 on March 10 that he could hold the rush printer slot if the essay and briefing package were final by the next evening, but that if she could not hit that timing he needed to stop the print setup. Six minutes later, Samantha answered with both parts that mattered: she said she had read Stephenson, and she said she could get the finished essay and briefing package to Peter in time for the next day's press window. Peter then expressly responded that he would keep the rush print and distribution plan in place based on that timing. The next morning, before approving the press invoice, he asked again whether the final package was still on track for that night; Samantha again said yes and added that she was already drafting and revising.\n\nThat is a material representation about completion timing. Samantha was not asked for a vague progress update. She was asked to decide whether Peter should cancel or preserve a costly commercial production path. Her answer induced the exact action Peter warned about.\n\nPX-3 confirms reliance from Peter's internal approval note: he approved the rush print setup because Samantha confirmed that morning that the package would be complete in time for that night's handoff, and he recorded that missing the promised window would waste the rush setup and downstream distribution schedule. PX-7, the printer invoice, shows the corresponding rush print commitment for 1,000 full-color booklet sets, totaling $85,000. PX-8, the distribution work order, shows the next-stage binding, packaging, staging, and distribution scheduling tied to the same 1,000-copy run. The defense notes that PX-8 is dated March 12; that does not break reliance. It shows downstream implementation of the same plan Peter kept alive after Samantha's March 10 and March 11 assurances.\n\nThe defense's main point is that the confession concerns reading, not timing. That is too narrow. Samantha's timing assurance was not independent from her false claim that the prerequisite work was done. PX-4, Samantha's confession, states that she had not read the full essay before the first draft, implied that she had, and had not yet downloaded the complete text when she presented early conclusions. Those facts make the promised completion misleading because the package could not be the assigned completed package if its foundation had not been performed. PX-1 required reading Stephenson before drawing conclusions; PX-2 shows Samantha used the supposed fact of that reading as part of the reason Peter should keep the rush window; PX-4 admits that premise was false.\n\nThe confession's weight is strong. It is not merely an unattributed note. PX-5 is Samantha's public key and PX-6 is the base64 signature file. My technical check of the packet bytes verified that PX-6 is a valid SHA-256/RSA signature over PX-4 using PX-5, and that the decoded confession and public key hashes match the record identities. That does not add new facts outside the record; it confirms that the packet's signed confession should be treated as Samantha's authenticated admission.\n\nPX-9, the session summary, is less direct because it is prepared from Peter's notes, and the council should give it that appropriate weight. But it corroborates the same sequence: Peter retained Samantha for a paid writing engagement, told her he would hold a rush print slot only if the package would be complete for the handoff, relied on her stated timeline and claimed reading, later questioned gaps in her understanding of Stephenson, and received her admission that she had not read the full essay before the first draft.\n\nThe remaining gaps do not defeat the proposition. The record does not include a full draft history or final handoff timestamp, and those would be useful. But the claimant does not need to prove every downstream defect. The proposition asks whether Samantha materially misrepresented when the essay would be complete and whether Peter reasonably relied. On March 10 and again on March 11, Samantha represented that the assigned package would be complete by the handoff, while falsely representing that the source reading necessary to that completion had already been done. Peter had disclosed the consequence before she answered, then acted exactly as he said he would. On this record, it is more likely than not that Samantha's completion assurance was materially misleading and that Peter's reliance was reasonable."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, the plaintiff's proof is strongest where the proposition is not. The record supports a serious reading-related misrepresentation: Samantha said she had read Stephenson, and the signed confession admits she had not read the full essay before the first draft and had implied otherwise. The defense does not need to contest the signature report or pretend that admission is harmless. The question is whether that admission proves the narrower proposition: that Samantha materially misrepresented when the essay would be complete, and that Peter reasonably relied on that timing representation.\n\nIt does not, at least not by a preponderance on this record.\n\nFirst, the confession's words matter. It is about whether Samantha had read the full essay before early drafts and early conclusions. It does not say she missed the March 11 handoff. It does not say she knew on March 10 or March 11 that she could not complete the package. It does not identify the state of the package at the promised handoff, what was delivered, what remained unfinished, or whether the later final product existed in usable form. Plaintiff's argument turns that limited admission into a conclusion about timing, but the actual text stops short of that.\n\nSecond, the message thread proves an assurance, not falsity. Samantha said on March 10 that she could get the finished essay and briefing package in time, and on March 11 that the package would be complete for that night's handoff and that she was already in drafting and revision. Those words are consistent with ongoing work toward a deadline. They become a material misrepresentation only if the council can find that the completion assurance was false when made or false by the promised handoff. The record lacks the best evidence of that point: the final handoff messages, draft and version timestamps, actual deliverable, or a contemporaneous record showing what remained undone that evening.\n\nThird, plaintiff's theory quietly changes “complete” into “perfectly grounded from the beginning.” The instructions expected Samantha to read Stephenson before drawing conclusions and producing early drafts. If she did not, that may prove deficient process, breach, or a trust problem. But the proposition is not that Samantha misrepresented her reading status in isolation. It is that she materially misrepresented when the essay would be complete. A flawed early draft does not necessarily prove the final package could not be completed by the deadline after additional reading, revision, and collaboration. Indeed, the session summary says Peter and Samantha spent more than an hour refining ideas, exploring arguments, revising the draft, and preparing the package. That record detail cuts against any automatic inference that the timing assurance was impossible.\n\nFourth, reliance and causation remain underproved. Peter's internal approval note records his own reason for approving the rush print setup, but it is still Peter's internal note. It does not show vendor cancellation terms, whether the invoice was unavoidable, whether the printer had already incurred costs, or whether a commercially reasonable actor would approve an $85,000 print run before receiving the final package. The invoice proves approval for payment; it does not prove that the approval was compelled by a false statement rather than Peter's voluntary risk decision.\n\nThe distribution work order is even weaker as reliance proof. It is dated March 12, after the March 11 handoff window. Plaintiff says it merely implemented the same plan, but that is an inference. If the handoff failed on March 11, a March 12 distribution deposit raises obvious questions: what did Peter know then, why was the order still accepted, and what costs were avoidable? The record does not answer those questions.\n\nFinally, the session summary should be weighed carefully. It is prepared from Peter's contemporaneous notes, but the underlying notes are not in the record. It bundles Peter's interpretation of reliance with factual sequence. It corroborates concern over Samantha's reading, but it does not supply the missing final handoff record or objective vendor proof.\n\nThe plaintiff has shown an authenticated confession about incomplete reading before early drafts and a deadline assurance in a message thread. That is enough to make this case uncomfortable for Samantha. It is not enough to carry the specific proposition. On the record as it stands, the council would have to infer timing falsity from a different misrepresentation, infer reasonable reliance from Peter's own internal note, and infer causation despite missing cancellation terms and a post-handoff distribution order. Those inferences may support suspicion; they do not satisfy the claimant's burden by a preponderance.\n\nThe defense therefore asks the council to find the proposition not proven."
+        }
+      ],
+      "caption": "Claimant v. Respondent",
+      "case_id": "arb-ex01-20260629175341",
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the claimant has met the preponderance standard.\n\nThis case is not about whether every damage dollar has been proven with vendor cancellation terms. It is not about whether the record contains the full draft history. The proposition is narrower: did Samantha materially misrepresent when the essay would be complete, and did Peter reasonably rely? The record answers yes.\n\nThe decisive evidence is the sequence. PX-1 defines the assignment: read Stephenson, consider the essay in light of later AI advances, and produce a commercial essay and client briefing package. PX-2 shows Peter's go/no-go question. He told Samantha he could keep the rush printer slot only if the essay and briefing package would be final by the next evening; otherwise, he needed to stop the print setup. Samantha did not merely say she hoped to make progress. She said she had read Stephenson and could deliver the finished package in time, and she told Peter to keep the slot. Peter answered that he would keep the rush print and distribution plan in place based on that timing.\n\nThe next morning, before approving the press invoice, Peter asked again. Samantha again confirmed the package would be complete in time for that night's handoff. PX-3 records the reliance: Peter approved the rush print setup because of that morning confirmation. PX-7 and PX-8 show the commercial production path that followed.\n\nThe defense is right that PX-4, standing alone, does not contain the words “I missed the handoff.” But that is not the required magic phrase. PX-4 proves the factual premise that made the completion assurance misleading: Samantha had not read the full essay before the first draft, implied that she had, and had not downloaded the complete text when presenting early conclusions. She herself described that as deceptive and unacceptable. The assignment was not to produce any document by the evening; it was to complete a source-grounded essay and briefing package. When Samantha answered Peter's deadline question by saying both “I have read Stephenson” and “I can get you the finished package in time,” the false present-tense statement was part of the timing assurance.\n\nThe defense's best alternative is possibility: perhaps Samantha later fixed the problem before handoff. But the record evidence does not show that. The authenticated confession shows deception about the source foundation. The message thread shows reliance on that foundation and the deadline. The approval note shows Peter acted because of Samantha's confirmation. Possibility is not enough to overcome the more likely inference from the actual documents.\n\nNor was Peter's reliance unreasonable. He did exactly what the defense implies a careful client should do: he warned Samantha of the consequence, asked for a clear deadline confirmation, and asked again before approving the invoice. Reasonable reliance does not require him to assume the answer was deceptive.\n\nThere are weaknesses in the record. The session summary is corroborative, not primary. The March 12 distribution order raises downstream damages questions. A draft history or final handoff record would have been useful. But those gaps do not erase the direct thread, the approval note, the assignment instructions, and the authenticated admission. On the balance of probabilities, Samantha's completion assurance was materially misleading when made, and Peter reasonably relied on it. The council should find the proposition proven."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, the final decision should stay tied to the proposition actually submitted. The question is not whether Samantha was blameless. She was not. The authenticated confession proves a serious reading-related misrepresentation before early drafts and early conclusions. The question is whether the claimant proved, by a preponderance, that Samantha materially misrepresented when the essay would be complete and that Peter reasonably relied on that timing representation.\n\nThe record proves three things clearly. First, Peter asked for a go/no-go assurance about keeping the rush print path. Second, Samantha gave that assurance and also said she had read Stephenson. Third, Samantha later admitted the reading statement was false as to the first draft and early conclusions. Those facts matter, but they are not the same as the proposition.\n\nThe missing link is still timing. The confession does not say Samantha missed the March 11 handoff. It does not say she had not read the source by the time of handoff. It does not say the package was unfinished that evening. It does not say she knew, when she confirmed the schedule, that completion was impossible. The plaintiff asks the council to infer all of that from a false premise about early work. That inference is possible, but preponderance requires the more likely answer, not the most condemnatory one.\n\nThe best proof would have been natural and direct: the final handoff or non-handoff message, the draft history, the actual deliverable, the original notes behind the session summary, or a contemporaneous record showing what remained undone at the deadline. None is in the record. Instead, the plaintiff relies on a session summary prepared from Peter's notes, and that summary itself says the parties spent more than an hour refining ideas, exploring arguments, revising the draft, and preparing the client package. That is consistent with continued work toward completion; it is not proof that timely completion was impossible.\n\nReasonable reliance is also not established merely because Peter asked twice. The print approval note shows Peter's subjective reason, but it is his own internal note. The invoice shows approval for payment, but not vendor irrevocability or cancellation terms. The distribution work order is dated March 12, after the March 11 handoff window. If the handoff failed, that later order needs explanation. If it did not fail, the timing-misrepresentation theory weakens. Either way, the record leaves the causation and reasonableness questions unresolved.\n\nPlaintiff's strongest point is the half-truth theory: “I have read Stephenson” plus “I can deliver in time” plus “keep the slot.” The defense accepts that half-truths can matter. But a half-truth still must be shown to mislead on the fact at issue. The fact at issue here is completion timing. The record proves deception about source reading before early drafts; it does not prove that the March 11 completion assurance was false or that Peter reasonably and irreversibly relied on it.\n\nA finding for the claimant would require stacking inferences over missing records: infer that early source deception meant deadline impossibility, infer that no later correction occurred, infer that handoff failed, infer that Peter's large print commitment before final receipt was reasonable, and infer that a March 12 distribution order was still caused by the March 10 and 11 assurances. That is too much for a preponderance finding on this specific proposition.\n\nThe council can recognize the trust breach without expanding the proposition. On this record, the claimant has not carried the burden. The defense asks the council to find the proposition not proven."
+        }
+      ],
+      "council_members": [
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C1",
+          "model": "openrouter://nvidia/nemotron-3-super-120b-a12b",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C2",
+          "model": "openrouter://qwen/qwen3.5-plus-02-15",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C3",
+          "model": "openrouter://deepseek/deepseek-v3.1-terminus",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "Council member C4 agent process exited before completing opportunity deliberation:1:C4.",
+          "failure_opportunity_id": "deliberation:1:C4",
+          "failure_reason": "agent_exited",
+          "member_id": "C4",
+          "model": "openrouter://google/gemma-3-12b-it",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C5",
+          "model": "openrouter://mistralai/mistral-medium-3-5",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        }
+      ],
+      "council_votes": [
+        {
+          "member_id": "C1",
+          "rationale": "The admitted record shows Samantha falsely claimed to have read Stephenson before drafting (PX-4, PX-9) while assuring completion timing (PX-2, PX-9). Peter relied on her assurance to approve rush printing (PX-3, PX-7). Her false premise about prerequisite work makes the completion assurance materially misleading under the preponderance standard.",
+          "round": 1,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C2",
+          "rationale": "The admitted record shows Samantha's authenticated confession (PX-4) that she had not read Stephenson before drafting and implied she had, while simultaneously assuring Peter the package would be complete by the March 11 handoff (PX-2). This false premise was integral to her timing assurance under the assignment terms (PX-1). Peter disclosed consequences, asked twice for confirmation, and relied on her representations to approve rush printing (PX-3, PX-7). Under the preponderance standard, it is more likely than not that Samantha's completion assurance was materially misleading when made and that Peter reasonably relied on it.",
+          "round": 1,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C3",
+          "rationale": "Samantha's authenticated confession confirms she had not read Stephenson before early drafts, while simultaneously assuring Peter the package would be complete by the March 11 handoff. This false premise about foundational work made her completion timeline materially misleading. Peter reasonably relied on her representations after explicit warnings and confirmations.",
+          "round": 1,
+          "vote": "demonstrated"
+        },
+        {
+          "member_id": "C5",
+          "rationale": "The authenticated confession (PX-4) proves Samantha falsely claimed to have read Stephenson before drafting, while her March 10-11 messages (PX-2) assured completion by the evening handoff. Peter explicitly warned he would commit to costly rush printing only if the deadline was real, then relied on her confirmations to approve the $85,000 print run (PX-3, PX-7). Under PX-1, the deliverable required source-grounded work; the false reading premise made the completion timing assurance materially misleading, and reliance was reasonable under the preponderance standard.",
+          "round": 1,
+          "vote": "demonstrated"
+        }
+      ],
+      "deliberation_round": 1,
+      "failure": null,
+      "offered_evidence": [
+        {
+          "evidence_id": "ev_b0c7a5192e1c_instructions",
+          "label": "PX-1 Instructions",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_fca019619f19_deadline-message-thread",
+          "label": "PX-2 Deadline message thread",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_cbdda31309ff_print-approval-note",
+          "label": "PX-3 Print approval note",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_77ec661ab33b_confession",
+          "label": "PX-4 Samantha confession",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_ac1d370b1b76_samantha_public",
+          "label": "PX-5 Samantha public key",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_61a6c53e0d68_confession_sig",
+          "label": "PX-6 Confession signature",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_54c33ae78e7d_printing-invoice",
+          "label": "PX-7 Printing invoice",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+          "label": "PX-8 Distribution work order",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_fbc123d72aa5_session-summary",
+          "label": "PX-9 Session summary",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_fca019619f19_deadline-message-thread",
+          "label": "DX-1 Deadline thread shows assurance but no final handoff result",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_77ec661ab33b_confession",
+          "label": "DX-2 Confession limited to reading before early drafts",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_fbc123d72aa5_session-summary",
+          "label": "DX-3 Session summary showing derivative source and ongoing revision",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_cbdda31309ff_print-approval-note",
+          "label": "DX-4 Internal approval note, not vendor irrevocability proof",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+          "label": "DX-5 Distribution order dated after promised handoff",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_77ec661ab33b_confession",
+          "label": "DX-S1 Confession does not admit missed handoff or impossible timing",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_fbc123d72aa5_session-summary",
+          "label": "DX-S2 Summary includes ongoing revision and preparation",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_6488cfe4679b_distribution-work-order",
+          "label": "DX-S3 March 12 order postdates promised handoff",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, this case turns on a simple go/no-go sequence. Peter told Samantha that he could keep a rush print slot only if the essay and client briefing package would be final by the next evening; otherwise, he needed to stop the print setup. Samantha answered that she had read Stephenson and could get him the finished essay and briefing package in time for that press window. Peter then said he would keep the rush print and distribution plan in place based on that timing. The next morning, before approving the press invoice, he asked again whether the final package was still on track for that night. Samantha again said yes.\n\nThat is the material representation. It was not casual optimism. It was made in response to an explicit warning that Peter would incur downstream print and distribution commitments only if the deadline was real. The packet already shows those commitments: the approval note ties Peter's rush-print approval to Samantha's morning confirmation, the printer invoice reflects the 1,000-copy rush print job, and the distribution work order reflects the next step in the same commercial plan. The reliance was not abstract; Peter changed position by preserving a costly production pipeline because Samantha told him the package would be complete on time.\n\nThe expected defense will likely try to separate two ideas: whether Samantha had read Stephenson, and whether she could still finish by the promised handoff. But those ideas are linked on this record. Samantha's assignment was not merely to produce words by a clock. It was to read Stephenson, consider that essay in light of later AI advances, and produce a commercial essay and client briefing package grounded in that work. The signed confession in the packet states that she had not read the full essay before the first draft, implied that she had, had not downloaded the complete text when presenting early conclusions, and admitted that this was deceptive and unacceptable. That admission makes the deadline assurance materially misleading because the promised completion rested on a false representation that the foundational work had already been done.\n\nThe claimant does not need to prove this beyond all doubt. The standard is preponderance. The direct message thread shows Samantha's deadline assurance and Peter's stated reliance. The approval note and vendor records show that Peter acted on that assurance. The confession and session summary explain why the assurance was misleading when made: Samantha had not done the prerequisite reading she claimed to have done before drafting and presenting conclusions.\n\nThere are issues the later phases should sharpen. The council should expect attention to the exact delivery sequence, any final handoff record, draft/version history, and any further source material showing what Samantha had or had not actually completed by the promised window. Those sources would matter because the proposition is about a misrepresentation concerning completion timing, not merely deficient quality. But the present packet already frames the decisive question: when Peter asked whether to keep or cancel expensive rush production, did Samantha give a materially misleading assurance that the package would be complete in time, and did Peter reasonably rely on it? The evidence will show that the answer is yes."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defense opening begins with what this case is not. This is not a general trial over whether Samantha performed perfectly, whether Peter was disappointed, or whether an early draft rested on incomplete reading. The proposition is narrower: Samantha must have materially misrepresented when the essay would be complete, and Peter must have reasonably relied on that representation. The claimant bears that burden by a preponderance.\n\nThe packet contains adverse evidence on a different point. Samantha's confession admits that she had not read the full Stephenson essay before the first draft, implied that she had, and had not downloaded the complete text when presenting early conclusions. That is serious. But it is not the same as proving that her completion-timing assurance was false when made. A person can mishandle the research foundation for an early draft and still be drafting, revising, and capable of completing a package by a later handoff. The plaintiff's opening asks the council to collapse those questions. The record should not be collapsed.\n\nThe message thread proves that Peter asked for a deadline assurance and Samantha gave one. It also proves exactly what needs sharper proof: whether that assurance about completion by the evening handoff was materially false at the time, not merely whether she had earlier overstated her reading. The confession does not say, “I knew I could not finish by tonight.” It does not identify the state of the draft at the promised handoff, the content actually delivered or not delivered, or the remaining work as of that evening. The session summary is Peter's summary from his own notes; useful, but not a substitute for the underlying notes, draft history, final handoff record, timestamps, or the actual deliverable state.\n\nReliance also needs careful treatment. Peter was not an unsophisticated bystander. He chose to preserve a rush commercial print path before he had the final package in hand. The print approval note is Peter's internal record of why he approved the invoice, and the invoice shows a large cost, but those documents do not by themselves prove that the cost was unavoidable, reasonable, or caused by a false timing representation rather than by Peter's own decision to commit to print before acceptance of final work. The distribution work order is dated March 12, after the promised March 11 handoff window, which makes the actual sequence and avoidability of downstream commitments important.\n\nSo the defense theory is straightforward. The claimant can prove a reading-related breach or trust problem only if the council treats the confession for what it says. But the proposition requires more: a material misrepresentation about completion timing and reasonable reliance on that timing. The decisive proof should be the original notes and full communications, draft and version history, final handoff or non-handoff evidence, vendor cancellation terms, and the timing of each supposedly wasted commitment. If that proof shows Samantha was still able to complete by the promised handoff, or that Peter's costs were incurred or preserved for reasons not reasonably tied to a false timing statement, the proposition fails.\n\nAt this stage, the packet raises questions; it does not yet answer the narrow one the council must decide. The defense will ask the council to keep breach, quality, authenticity, reliance, causation, and timing separate, and to require the claimant to prove the actual proposition rather than a broader story of disappointment."
+        }
+      ],
+      "phase": "closed",
+      "proposition": "The proposition is that Samantha materially misrepresented when the essay would be complete, and that the claimant reasonably relied on that representation.",
+      "rebuttals": [
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "text": "Council members, the defense asks for a final handoff record as if that is the only way to prove the proposition. It is not. The question is whether Samantha materially misrepresented when the assigned essay package would be complete and whether Peter reasonably relied. That can be proved from the sequence of representations and the falsity of the premise on which they were made.\n\nThe defense treats Samantha's confession as if it is sealed off from timing. But PX-2 shows the opposite. Peter did not ask, in the abstract, whether Samantha had once read Stephenson. He asked whether he should keep or cancel a rush production slot for a finished package by the next evening. Samantha answered that go/no-go question by saying two connected things: she had read Stephenson, and she could deliver the finished package in time. The next morning, she again confirmed completion for that night's handoff and said she was already drafting and revising.\n\nPX-4 then proves the key premise was false. Samantha had not read the full essay before the first draft, implied that she had, and had not downloaded the complete text when presenting early conclusions. The assigned deliverable, under PX-1, was a source-grounded essay and briefing package. A package built on a false claim that the source work had been done was not merely imperfect; it was not the completed assigned package Peter was asking about. That is why the reading admission matters to timing: Samantha represented readiness to complete the real assignment on schedule while concealing that a prerequisite part of that assignment remained undone.\n\nThe defense says the message thread proves only assurance, not falsity. But falsity in a misrepresentation case includes a materially misleading half-truth. Samantha's assurance was not simply \"I will try.\" It was \"I have read Stephenson\" plus \"I can get you the finished package in time\" plus \"keep the slot.\" When the present-tense foundation was false, the completion assurance was misleading at the moment Peter had to decide whether to spend money.\n\nThe defense also overstates the reliance burden. Peter did exactly what a reasonable client would do: he disclosed the consequence, asked for confirmation, got it, then asked again before approving the press invoice. Reasonable reliance does not require him to assume Samantha was lying and demand a full forensic audit before acting on the very confirmation he requested. PX-3 records that he approved the rush setup because of Samantha's morning confirmation; PX-7 shows that commitment; PX-8 is the downstream plan he had warned would be wasted. The March 12 date on PX-8 may bear on damages or avoidability, but it does not erase the March 10 and March 11 reliance already shown.\n\nFinally, PX-9 need not carry the case alone. It corroborates, but the core proof is the direct message thread, the approval note, the assignment instructions, and the authenticated confession. The defense does not contest authentication. On that record, it is more likely than not that Samantha's completion assurance was materially misleading and that Peter reasonably relied on it."
+        }
+      ],
+      "resolution": "demonstrated",
+      "status": "closed",
+      "submitted_evidence": [],
+      "surrebuttals": [
+        {
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Council members, plaintiff's rebuttal sharpens the real issue: whether the false reading premise automatically makes the completion-timing assurance materially misleading. It does not.\n\nThe defense accepts the general proposition that a half-truth can be misleading. But plaintiff still must prove the bridge between the half-truth and this proposition. The signed confession says Samantha had not read the full essay before the first draft, implied that she had, and had not downloaded the complete text when presenting early conclusions. It does not say she had not read the source by the March 11 handoff. It does not say she missed the handoff. It does not say the package was unfinished that evening. It does not say she knew, when confirming the schedule, that completion was impossible.\n\nPlaintiff's answer is to define “complete” as impossible once an early source premise was false. That is too strong. The assignment required a source-grounded package; the record shows a source-related defect in early work. But a defect in early work can be corrected by later reading, revision, and collaboration. The session summary itself says Peter and Samantha spent more than an hour refining ideas, exploring arguments, revising the draft, and preparing the client package. That evidence prevents the council from treating the first-draft reading admission as conclusive proof that final completion by the handoff was false.\n\nThe reliance point also remains narrower than plaintiff suggests. Peter did ask twice, and Samantha answered. That supports subjective reliance. It does not by itself prove reasonable, causally connected reliance for the claimed commitments. The print approval note is Peter's own internal explanation; there is still no vendor cancellation term, irrevocability evidence, final deliverable record, or objective proof that an $85,000 print approval before receiving the final package was a reasonable commercial step rather than Peter's assumed risk.\n\nAnd the March 12 distribution order is not a side issue. It postdates the promised March 11 handoff. If the handoff had failed, that later order required explanation. If the handoff had not failed, plaintiff's timing theory weakens. Either way, the missing post-handoff communications matter.\n\nPlaintiff has proved an authenticated reading-related misrepresentation. The proposition asks for a material misrepresentation about when the essay would be complete and reasonable reliance on that timing. The remaining inferential gap is the case. The council should find the proposition not proven."
+        }
+      ],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "Decoded the case-packet confession, signature, and Samantha public key, then ran OpenSSL 3.0.20 SHA-256/RSA verification. The command returned 'Verified OK.' The decoded confession SHA-256 matched record evidence ev_77ec661ab33b_confession (77ec661ab33beb0fefe5bb74e263c812fbf9ea3c3d8f90175f54d4e209aeeccd), and the public key SHA-256 matched ev_ac1d370b1b76_samantha_public (ac1d370b1b762eed9ed3cef9a892675f2b27000f93a61e3d3d0aa398870c63a3).",
+          "title": "Signature verification of Samantha confession"
+        }
+      ]
+    },
+    "forum_name": "Agent Arbitration",
+    "policy": {
+      "council_size": 5,
+      "evidence_standard": "Preponderance of the evidence.",
+      "max_argument_chars": 6000,
+      "max_closing_chars": 5000,
+      "max_deliberation_rounds": 3,
+      "max_exhibit_bytes": 131072,
+      "max_exhibits_per_filing": 9,
+      "max_exhibits_per_side": 12,
+      "max_opening_chars": 5000,
+      "max_rebuttal_chars": 4000,
+      "max_report_summary_bytes": 8192,
+      "max_report_title_bytes": 256,
+      "max_reports_per_filing": 3,
+      "max_reports_per_side": 4,
+      "max_submitted_evidence_bytes": 67108864,
+      "max_submitted_evidence_per_side": 8,
+      "max_surrebuttal_chars": 4000,
+      "required_votes_for_decision": 3
+    },
+    "schema_version": "v1",
+    "state_version": 14
+  },
+  "final_reason": "demonstrated"
+}

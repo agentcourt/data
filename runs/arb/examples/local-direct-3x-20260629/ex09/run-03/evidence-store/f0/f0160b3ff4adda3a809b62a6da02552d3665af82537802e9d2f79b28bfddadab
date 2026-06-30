@@ -1,0 +1,65 @@
+# Official Polymarket/Gamma capture for Clavicular pregnancy in 2026?
+
+Retrieval timestamp: 2026-06-30T07:25:00Z
+Sources:
+- https://polymarket.com/event/clavicular-pregnancy-in-2026
+- https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+Method: web open of rendered Polymarket page; python3 urllib request to Gamma API with Mozilla user-agent.
+
+## Rendered Polymarket page text observed
+Title: Clavicular pregnancy in 2026?
+Displayed probability: >99% chance / 99.9% implied probability for Yes.
+Displayed volume: $13,934,863.
+End date: Dec 31, 2026.
+
+Rules text shown on page:
+This market will resolve to "Yes" if Clavicular announces that he and a partner are expecting a baby through pregnancy between market creation and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to "No".
+
+Only credible announcements will qualify. Pregnancy announcements that are not credible, for example jokes, will not suffice. This market will resolve based on the date of announcement, regardless of when the child is born.
+
+The resolution source will be statements from Clavicular or his representatives; however, a definitive consensus of credible media reporting may be considered.
+
+Market opened: Apr 20, 2026, 6:39 PM ET.
+Resolver shown: 0x65070BE91... (polygonscan link on rendered page).
+Resolution sequence shown on rendered page:
+- Outcome proposed: Yes
+- Disputed
+- Outcome proposed: Yes
+- Disputed
+- Final outcome: Yes
+
+Market context text shown on page:
+Trader consensus on Polymarket has locked in a 99.9% implied probability for Yes on Clavicular's pregnancy announcement in 2026, driven by Kick streamer Braden Peters' (aka Clavicular) repeated public vows to become a father by year-end, including his detailed fertility stack reveal and controversial pitch for a "dating show" to select a baby mama from 500 contestants.
+
+Recent viral backlash from his April livestream stunt--coupled with debunked rumors of an 18-year-old girlfriend's pregnancy after just 10 days, sparking emotional on-stream breakdowns--has amplified the narrative of imminent fatherhood. With $16 million in trading volume, the skin-in-the-game crowd sees his unfiltered influencer persona as a lock for some announcement before December 31.
+
+Realistic upsets remain slim but possible: a platform ban amid ongoing outrage, personal change of heart, or legal hurdles derailing his plans.
+
+## Gamma API fields observed
+API URL: https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+Response length observed: 7273 bytes.
+Event id: 400878.
+Ticker/slug: clavicular-pregnancy-in-2026.
+Title: Clavicular pregnancy in 2026?
+Description: same rules text as above.
+Event creationDate: 2026-04-20T22:47:28.569518Z.
+Event startDate: 2026-04-20T22:47:28.569523Z.
+Event endDate: 2026-12-31T00:00:00Z.
+Event active: true.
+Event closed: true.
+Event archived: false.
+Event volume: 13934862.960998023.
+Event openInterest: 5749723.168803.
+Event updatedAt: 2026-06-30T02:49:27.136133Z.
+Market id: 2037907.
+Condition ID: 0x6747bae2269c348786d0c0c0f4286ac006f13f16325d4dcbab954b46de029f19.
+Question: Clavicular pregnancy in 2026?
+Outcomes: ["Yes", "No"].
+Outcome prices: ["1", "0"].
+Market createdAt: 2026-04-20T22:28:48.129526Z.
+Market updatedAt: 2026-05-02T00:40:21.634529Z.
+Market closedTime: 2026-05-01 00:33:40+00.
+Submitted_by: 0x91430CaD2d3975766499717fA0D66A78D814E5c5.
+ResolvedBy: 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7.
+
+Limits and caveats: This is a text extraction and field summary, not a full binary archive of the page or full JSON. It preserves the decisive official fields observed during the merits phase.

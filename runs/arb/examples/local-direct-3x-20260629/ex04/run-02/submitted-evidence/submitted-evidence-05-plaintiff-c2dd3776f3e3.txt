@@ -1,0 +1,15 @@
+Title: Netanyahu visits Syrian side of Mount Hermon: Israel will remain 'until another arrangement is found'
+Source URL: https://www.ynetnews.com/article/rkhx7hybkx
+Byline in extracted page text: Itamar Eichner.
+
+Relevant extracted text:
+
+Netanyahu visits Syrian side of Mount Hermon: Israel will remain 'until another arrangement is found'
+
+Prime minister visits site taken over by IDF with heads of the defense establishment; 'We are here at a crossroads to decide on Israel's preparedness in this important place'
+
+Prime Minister Benjamin Netanyahu said during his visit to the Syrian side of Mount Hermon on Tuesday that Israel and Israeli troops will remain at the site "until another arrangement is found that guarantees Israel’s security." Netanyahu made the statement alongside the heads of the defense establishment. "The events in Syria are happening at a dizzying pace, and their consequences could determine fates," he said.
+
+The page text also included image captions identifying "Prime Minister Benjamin Netanyahu and heads of the defense establishment visit the Syrian side of the Hermon" and crediting Ma'ayan Toaf/GPO.
+
+Capture note: page fetched successfully by Python urllib on 2026-06-29; full HTML saved privately at /aar-codex/ynet_hermon.html and text extracted privately at /aar-codex/ynet_hermon.txt.

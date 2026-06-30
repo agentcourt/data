@@ -1,0 +1,3 @@
+openai request retryable error attempt=1/4 code=n/a cause=context deadline exceeded retry_in=0s
+openai request retryable error attempt=2/4 code=n/a cause=context deadline exceeded retry_in=5s
+caseapi listening on http://127.0.0.1:35461

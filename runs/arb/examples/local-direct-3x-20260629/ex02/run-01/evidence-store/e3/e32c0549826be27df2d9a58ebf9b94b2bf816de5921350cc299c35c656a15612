@@ -1,0 +1,24 @@
+# Kalshi official capture - Trump Mention B / FIFA World Cup Draw
+Retrieved: 2026-06-29T18:29:00Z
+
+Source 1: https://external-api.kalshi.com/trade-api/v2/series/KXTRUMPMENTIONB
+Series ticker: KXTRUMPMENTIONB
+Series title: Trump Mention B
+Category: Mentions
+Contract terms URL: https://kalshi-public-docs.s3.amazonaws.com/contract_terms/MENTION.pdf
+Product certification URL: https://kalshi-public-docs.s3.us-east-1.amazonaws.com/regulatory/product-certifications/MENTION.pdf
+Settlement sources listed by the official API: ABC, Fox News, MSNBC, The Wall Street Journal, Semafor, The Information, CBS, Axios, CNN, Reuters, The New York Times, The Washington Post, the Associated Press, Politico.
+Additional prohibitions: employees of Source Agencies and persons with material non-public information on the Underlying are prohibited from trading.
+
+Source 2: https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06
+Visible page title: What will Trump say during the FIFA World Cup Draw?
+Visible event/ticker metadata: Series KXTRUMPMENTIONB; Event KXTRUMPMENTIONB-25DEC06.
+Page rendered a visible sibling strike for the same event, Canada. Relevant official market rules text captured from that page:
+- "Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw."
+- "Outcome verified from The New York Times, the Associated Press, Reuters, Axios, Politico, Semafor, The Information, The Washington Post, The Wall Street Journal, ABC, CBS, CNN, Fox News, and The White House."
+- "Video of the FIFA World Cup Draw will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the FIFA World Cup Draw will be used according to the news publications listed in the contract."
+- "The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details."
+- "If this event is not opened to the press for a live televised or streamed event this market will resolve to no."
+Timeline captured from page: Market open Dec. 4, 2025 11:00pm EST; market closed after the outcome occurs; otherwise closes by Dec. 5, 2025 at 3:26pm EST.
+
+Capture limitations: The public page, as retrieved, did not render the Ronaldo strike page contents directly; it displayed the event page and a visible Canada sibling strike. A direct guessed ticker request for KXTRUMPMENTIONB-25DEC06-RONA returned a not_found JSON error. Series/event-level API searches without status returned recent records only and did not return the Dec. 2025 Ronaldo market. This capture should be weighed as official rule/source context for the same event, not a complete Ronaldo contract record.

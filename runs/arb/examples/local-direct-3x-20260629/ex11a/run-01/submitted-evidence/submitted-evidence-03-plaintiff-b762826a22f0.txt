@@ -1,0 +1,8 @@
+Source: SafeAirspace Iran page. URL: https://safeairspace.net/iran/. Retrieved during AAR investigation 2026-06-30.
+
+Relevant captured text:
+- Page heading: 'Iran' and 'Risk Level: One - Do Not Fly'.
+- 'June 2026: Iranian airspace (OIIX/Tehran FIR) has partially reopened, but very few international operators are using it, and most Europe-Asia traffic continues to route south via Egypt/Saudi or north via the Caucasus/Afghanistan.'
+- 'Major events: June 2026: Iran partially reopened the eastern part of the OIIX/Tehran FIR for overflights, while the western part remains closed.'
+- 'Major events: March 2026: OIIX/Tehran FIR closed following large-scale US and Israeli strikes on Iranian military targets and subsequent Iranian missile and drone retaliation across the Middle East.'
+- The page lists current warnings including EASA CZIB 2026-03-R13 and national NOTAMs/advisories warning against operations in Tehran FIR/OIIX.

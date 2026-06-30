@@ -1,0 +1,15 @@
+Source: https://manifold.markets/Simon74fe/will-polymarket-launch-its-official
+Title: Will Polymarket launch its official token in 2026?
+Retrieved: 2026-06-30T08:00:30Z
+
+Material visible page text extract:
+
+Will Polymarket launch its official token in 2026?
+
+Resolves YES if Polymarket launches a token (likely called $POLY) that is officially promoted by Polymarket as its official token, and the token is live and transferable on-chain before January 1, 2027.
+
+Stablecoins and other utility tokens that are not promoted as Polymarket's official token do not count. An announcement, testnet deployment, or airdrop claim page alone does not qualify, the token must actually launch and be transferable.
+
+This question is managed and resolved by Manifold.
+
+Notes: This page is not Polymarket and is not the governing source for this AAR proposition. It is preserved only as contextual evidence that similar prediction-market wording distinguishes a platform's official token from stablecoin/utility/collateral tokens unless the project promotes that asset as its official token.

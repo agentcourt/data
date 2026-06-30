@@ -1,0 +1,249 @@
+# Arbitration Digest
+
+## Result
+
+Resolution: `no_majority`
+
+Final phase: `closed`
+
+## Complaint
+
+### Proposition
+
+The event below resolves to YES.
+
+| Property   | Value                                                                                                                                                                                                                                                                               |
+|------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Event      | The United States Armed Forces conduct a military operation involving ground troops entering Venezuelan sovereign territory with the objective of seizing or holding territory, removing the sitting government, or establishing operational control of a major population center.  |
+| Source     | Official statement from the U.S. Department of Defense or the White House confirming deployment of ground forces. Secondary: UN Security Council records.                                                                                                                           |
+| Criteria   | Resolves YES if U.S. ground forces enter Venezuelan territory in a combat capacity. Targeted strikes, naval blockades, special operations raids without territorial objectives, and cyber operations resolve NO.                                                                    |
+| Edge cases | Capture of a head of state without territorial occupation: NO (separate blueprint for regime change). U.S. forces entering from a third country: YES if troops cross into Venezuelan territory. Proxy forces directed by U.S. command: NO unless U.S. personnel physically present. |
+| Fallback   | If DoD and White House issue conflicting statements, UN Security Council records are binding. If no official statement within 72 hours of credible reports, resolution deferred 30 days.                                                                                            |
+| Expiration | January 31, 2026. Resolves NO if event has not occurred.                                                                                                                                                                                                                           |
+
+### Standard of Evidence
+
+Preponderance of the evidence.
+
+## Council
+
+- C1: openrouter://nvidia/nemotron-3-super-120b-a12b (personas/generic.md)
+- C2: openrouter://deepseek/deepseek-v3.1-terminus (personas/generic.md)
+- C3: openrouter://nvidia/nemotron-3-super-120b-a12b (personas/generic.md)
+- C4: openrouter://openai/gpt-oss-120b (personas/generic.md)
+- C5: openrouter://qwen/qwen3-coder-plus (personas/generic.md)
+
+## Filings
+
+### Openings
+
+[plaintiff] Council members, the plaintiff's case is straightforward, but the deciding line is narrow.
+
+The proposition does not ask whether every possible U.S. action against Venezuela would qualify. It asks whether, before January 31, 2026, U.S. Armed Forces entered Venezuelan sovereign territory in a combat capacity in an operation whose objective included one of three specified things: seizing or holding territory, removing the sitting government, or establishing operational control of a major population center. The required sources are official statements from the Department of Defense or the White House, with Security Council records as the fallback if official U.S. statements conflict.
+
+At opening, the visible record contains no admitted evidence and no case-packet files. That means this statement is a roadmap, not proof. The plaintiff will need to put the official source material into the record at the first phase that permits evidence submission.
+
+The plaintiff's theory is that the decisive official materials will show more than a remote strike, blockade, cyber action, proxy action, or mere threat. The proof should focus on an acknowledged U.S. military operation in Venezuela itself; the participation of U.S. personnel on the ground; the location of the operation inside Venezuelan sovereign territory, including whether it reached Caracas or another major population center; and the stated objective and effect of the mission. If official U.S. statements confirm that U.S. ground forces physically entered Venezuela in combat capacity and that the mission's objective was to remove the sitting government, the event resolves YES under the proposition's text.
+
+The defense will likely argue the express edge case: capture of a head of state without territorial occupation resolves NO. That is the real dispute. A short raid, even one using overwhelming force, is not enough if the record shows only a law-enforcement-style apprehension with no qualifying territorial, governmental, or operational-control objective. The plaintiff therefore accepts the burden of proving the difference. The case should not turn on labels such as "raid," "invasion," or "law enforcement" alone. It should turn on the specific admitted official statements and Security Council records: what forces entered, where they entered, what they did on the ground, and what objective the United States said it was pursuing.
+
+The plaintiff expects the key evidence to be official White House and Defense Department statements, any official transcript or briefing describing the operation, and the relevant United Nations Security Council meeting record if the official U.S. sources leave conflict or ambiguity. Those materials must be examined for provenance and custody: official-domain publication, date, completeness, whether a transcript is first-party or secondary, and whether later official statements corrected or narrowed earlier ones.
+
+What would satisfy the plaintiff's burden is an admitted official statement confirming U.S. ground forces crossed into Venezuela in a combat operation and connecting that operation to removal of the sitting government or control over a major population center. What would defeat the plaintiff's burden is admitted official material showing only a temporary capture raid with no territorial occupation, no governmental-removal objective within the meaning of this proposition, and no operational control of a major population center.
+
+So the plaintiff opens with a focused request: evaluate the admitted official record, not slogans. If that record shows U.S. boots on Venezuelan ground in combat capacity for the qualifying objective, the proposition resolves YES by a preponderance of the evidence.
+
+[defendant] Council members, the defense opening begins with the record as it exists, not with speculation. There is no admitted evidence and no visible case-packet file. The plaintiff has opened with a roadmap and has properly acknowledged that proof must come later. Until that proof is admitted, the proposition has not been established.
+
+The defense theory is narrow because the proposition is narrow. This case is not decided by whether the United States used force near or inside Venezuela, whether Maduro was captured, whether the operation was politically dramatic, or whether U.S. officials used strong language afterward. The event resolves YES only if the admitted official record proves that U.S. ground forces entered Venezuelan sovereign territory in combat capacity with a qualifying objective: seizing or holding territory, removing the sitting government, or establishing operational control of a major population center. The proposition then makes an important carve-out: capture of a head of state without territorial occupation resolves NO.
+
+That carve-out is likely to do real work here. A short special-operations-style entry to apprehend a person, even in Caracas and even if tactically violent, is not the same as holding territory or establishing operational control over Caracas. It also is not automatically a qualifying “removing the sitting government” operation merely because the target was a political leader or because political consequences followed. The council should require the plaintiff to connect the official source language to the specific resolution criteria, not to headlines, labels, or aftermath.
+
+The decisive evidence in the next phase should be first-party official material: the full Department of Defense or White House statement, any complete briefing transcript, and, only if those official U.S. sources conflict, the relevant Security Council record. Those materials should be tested for date, completeness, official-domain provenance, whether excerpts omit limiting language, and whether later official statements narrowed or corrected earlier descriptions. If a source says troops were present only briefly for a capture or extraction and does not say they seized or held territory, controlled a population center, or remained as an occupying force, that source cuts against YES under the event text. If a source instead expressly confirms a ground operation whose objective was territorial occupation, governmental removal in the sense required here, or operational control of a major population center, the defense will have to confront that proof.
+
+The plaintiff’s strongest path will likely be to argue that any U.S. ground entry into Caracas to capture Maduro necessarily had the objective of removing the sitting government. The defense’s answer is that the proposition did not adopt that automatic rule. It separated a head-of-state capture from territorial occupation and made that edge case NO. It also excluded special operations raids without territorial objectives. Those textual limits prevent the case from collapsing into a simple question of whether U.S. personnel crossed the border.
+
+So the defense asks the council to apply the resolution criteria in order. First, identify what admitted official evidence actually says. Second, distinguish physical entry from qualifying objective. Third, distinguish temporary tactical presence from territorial control. Fourth, treat missing links as plaintiff’s burden, not as assumptions supplied by rhetoric. On the present empty record, the plaintiff has proven nothing. When evidence is admitted, the question should remain disciplined: did official sources prove more than a temporary capture raid? If not, this proposition resolves NO.
+
+### Arguments
+
+[plaintiff] Council members, the admitted official record now satisfies the proposition by a preponderance.
+
+The central exhibit is PX-1, the official War.gov / Defense Department News article. It is a U.S. government .gov source, dated January 3, 2026, and it reports that President Trump announced Maduro's capture after a successful overnight joint U.S. military extraction in Venezuela's capital, Caracas. It quotes Trump saying that, at his direction, the United States armed forces conducted an extraordinary military operation in the capital of Venezuela, against a heavily fortified military fortress in the heart of Caracas. It further states that Operation Absolute Resolve involved U.S. joint forces, including special operations forces; that General Caine described complex air, ground, space, and maritime operations; and that more than 150 military aircraft provided cover for the ground-based extraction force in Caracas.
+
+That proves the first elements. The actor was the U.S. Armed Forces. The date was January 3, 2026, before expiration. The place was Caracas, Venezuela, plainly Venezuelan sovereign territory and a major population center. The presence was not only aerial or naval: PX-1 says there was a ground-based extraction force in Caracas, and PX-2, an official White House release, confirms the point in simpler terms: U.S. forces were on the ground in Venezuela for about two hours when they went to capture Maduro.
+
+The operation was in a combat capacity. PX-1 calls it a military operation against a heavily fortified military fortress; identifies special operations forces from multiple service branches; describes air, ground, space, and maritime integration; and says 150 aircraft launched in close coordination to cover the ground extraction force. PX-4, a White House fact sheet, again confirms that U.S. armed forces conducted an extraordinary military operation. This was not a cyber operation, proxy action, blockade, or remote strike.
+
+The harder question is the objective. The defense invokes the edge case: capture of a head of state without territorial occupation resolves NO. That carve-out matters, but this record is not limited to a freestanding apprehension. PX-1 states that, with Maduro now out of power, Trump said the United States would oversee Venezuela until a safe transition to a legitimate replacement could be identified. It records Trump's statement that the United States had a group of people running Venezuela until it could be put back on track, and that Secretary Rubio was working directly with Rodriguez, who was willing to do what the United States thought necessary. PX-1 also calls Maduro's status an ouster. Those are official Defense/War Department statements connecting the ground operation in Caracas to removal of the sitting government and transition control, not merely to custody of one individual.
+
+The proposition is phrased in alternatives. It does not require the plaintiff to prove permanent occupation if the objective was removing the sitting government. It resolves YES if U.S. ground forces entered Venezuelan territory in combat capacity for a qualifying objective. PX-1 and PX-2 together establish the physical ground entry; PX-1 establishes the governmental-removal objective and immediate U.S. oversight/running of Venezuela pending transition.
+
+The plaintiff does not hide the limiting evidence. PX-2 says there were no current U.S. forces on the ground, that the ground presence lasted about two hours, and that the operation was not an invasion or extended military operation. PX-4 characterizes the action as in support of law enforcement. Those limits reduce any argument for long-term territorial occupation, but they do not defeat YES because the plaintiff's primary theory is not that U.S. forces held Venezuela indefinitely. The theory is that U.S. ground forces entered Caracas in combat capacity for an operation whose official objective and described result included removing Maduro from power and putting Venezuela under U.S.-directed transition oversight. A two-hour combat ground operation can satisfy that element when the official source says it removed the sitting ruler and left the United States overseeing the country's transition.
+
+PX-3, the Security Council record, is secondary/fallback context. It is not needed to overcome a DoD/White House conflict because the official U.S. sources do not materially conflict on the decisive ground-entry fact: PX-1 identifies the ground-based extraction force in Caracas, and PX-2 expressly says U.S. forces were on the ground in Venezuela. The apparent tension is characterization, not occurrence: the White House calls it not an invasion and not extended; the Defense/War source calls it a military operation with a ground force and a post-operation transition-control objective. The proposition does not require the word invasion.
+
+On provenance, PX-1 is the strongest source: official U.S. government domain, Defense/War Department News, with date, byline, source URL, retrieval timestamp, hash, and text-readable capture. PX-2 and PX-4 are official White House sources and are valuable both for confirmation and for adverse limits. PX-3 is an official UN Digital Library record preserved for fallback.
+
+The preponderance standard asks which reading is more likely from the admitted official record. The better reading is YES: before January 31, 2026, U.S. ground forces entered Caracas, Venezuela, in a combat military operation, and the official Defense/War source ties that operation to Maduro being out of power and U.S. oversight of Venezuela until transition. That meets the event criteria.
+
+[defendant] Council members, the defense does not contest the facts that the admitted record actually proves. It proves a brief U.S. ground entry in Caracas. It proves a military/law-enforcement raid or extraction. It proves Maduro was captured. Those points do not end the case, because the proposition requires a qualifying objective and then expressly says that capture of a head of state without territorial occupation resolves NO.
+
+Start with the strongest plaintiff source, PX-1. It is official and weighty on occurrence: it describes a Jan. 3, 2026 operation in Caracas; a ground-based extraction force; special operations forces; and air cover. But PX-1 repeatedly frames the mission as a capture and extraction: a “joint U.S. military extraction,” a mission “to capture the Maduros,” and a ground force providing extraction. Secretary Hegseth’s description in PX-1 calls it a “joint military and law enforcement raid.” That language proves a raid, not an occupation.
+
+PX-2, the official White House Rubio release, supplies the critical limits. It says there is not a war against Venezuela. It says U.S. forces were on the ground for about two hours when they went to capture Maduro. It says the action was not an invasion and not an extended military operation. It says the United States retained options after “this raid and this capture and this arrest.” PX-4, another White House source, is consistent: “Last week, U.S. armed forces conducted an extraordinary military operation in support of law enforcement to bring outlaw dictator Maduro to justice.” And DX-1 adds the post-event White House characterization: “capture and extradition,” with Maduro “detained on U.S. soil to face long-overdue justice.”
+
+That official chain matters. A two-hour raid to capture, arrest, extradite, and prosecute a person is exactly the kind of scenario the edge case addresses. The event text did not say any capture of a sitting ruler equals YES. It said capture of a head of state without territorial occupation is NO, and it separately excluded special operations raids without territorial objectives. The plaintiff’s reading would erase both limits: every successful capture of a political leader would become “removing the sitting government,” regardless of whether the troops had a territorial objective.
+
+The plaintiff relies on PX-1’s post-capture language that Maduro was “out of power,” that the U.S. would “oversee Venezuela” until transition, and that a group of people was “running” Venezuela. That is the best YES evidence, but it is not enough by a preponderance when read with the rest of the official record. First, the quoted operational objective in PX-1 was “to bring outlaw dictator Nicolas Maduro to justice,” not to seize territory, hold Caracas, or establish military control over a population center. Second, PX-2 and PX-4 are official White House statements narrowing the operation to a short raid, capture, arrest, and law-enforcement purpose. Third, there is no admitted evidence of occupation indicators: no U.S. troops remaining in Caracas, no checkpoints, no command post, no municipal administration by U.S. forces, no rules for controlling the population, and no holding of territory. “Oversee” transition language after Maduro’s capture is diplomatic or political consequence; it is not proof that the ground troops entered with a territorial or operational-control objective.
+
+Nor does the Security Council record fill the gap. PX-3 is useful for provenance and fallback-source availability, but the submitted text preserves only identifying material and a general description that the meeting concerned Venezuela after the U.S. operation. It does not supply a binding finding that U.S. ground forces seized or held territory or controlled Caracas. And because PX-2 and PX-4 are official White House sources directly limiting the operation, the record should not treat third-party rhetoric about “invasion” as stronger than the U.S. official characterization required by the proposition.
+
+Provenance mostly favors giving the official sources weight: PX-1 is official War.gov/Defense Department News; PX-2, PX-4, and DX-1 are official White House releases. But the source captures are excerpts, not full video transcripts. Where the plaintiff asks the council to infer a sweeping governmental-removal objective from snippets about transition, the missing full transcript and the contrary White House limits reduce that inference.
+
+The proper resolution is therefore NO. The admitted record proves U.S. forces physically entered Venezuela in a combat-capable raid, but it does not prove that the operation’s objective was to seize or hold territory, establish operational control of Caracas, or remove the government in a way that escapes the proposition’s express capture-without-occupation carve-out. On this record, the event was a temporary capture/extraction/arrest operation with political aftermath. The plaintiff has not carried the qualifying-objective element by a preponderance.
+
+### Rebuttals
+
+[plaintiff] Council members, the defense has conceded almost everything except the qualifying objective. It admits the record proves a brief U.S. ground entry in Caracas, a military/law-enforcement raid or extraction, and Maduro's capture. That means the dispute is not whether U.S. ground forces entered Venezuela in combat-capable form. They did. The dispute is whether the admitted official record shows the objective went beyond a capture-without-occupation edge case.
+
+The answer remains yes because the defense reads the edge case too broadly. The proposition does not say that every operation involving capture of a head of state is NO. It says capture of a head of state without territorial occupation is NO, and separately excludes special operations raids without territorial objectives. Here, PX-1 supplies the additional facts the edge case lacks: the operation used a ground-based extraction force in Caracas, Maduro was now out of power, and Trump said the United States would oversee Venezuela until a safe transition to a legitimate replacement could be identified. PX-1 also records the United States had people running Venezuela until it could be put back on track. That is official source language about governmental removal and transition control, not just custody.
+
+The defense says the quoted objective was to bring Maduro to justice. That is one objective, not an exclusive one. The same official Defense/War article says the operation left Maduro out of power and the United States overseeing or running Venezuela pending transition. Under this proposition, a qualifying objective may be shown by the operation's stated purpose and described immediate post-operation arrangement. The council need not pretend the official source's transition-control paragraphs are irrelevant simply because the source also uses capture and law-enforcement words.
+
+The defense's own exhibit does not cure that problem. DX-1 is another White House release, but its title uses Maduro's “Ouster,” and its text says political opponents wanted Maduro “delegitimized, pressured, and removed.” It frames the event as “capture and extradition,” yes, but it does not retract PX-1's statements that Maduro was out of power and the United States would oversee or run Venezuela pending transition. If anything, DX-1 confirms that official White House messaging treated the event as both capture and removal.
+
+Nor do PX-2 and PX-4 defeat the plaintiff's theory. PX-2's two-hour figure and “not an invasion” language are strong against a long occupation theory. PX-4's law-enforcement phrasing is real limiting context. But the plaintiff does not need to prove permanent occupation or an invasion. The event resolves YES if ground forces entered in combat capacity with the objective of removing the sitting government. A short-duration ground operation in Caracas can qualify when the official U.S. source says it removed the ruler from power and put transition oversight in U.S. hands.
+
+The defense also demands occupation indicators such as checkpoints or municipal administration. Those might matter if plaintiff relied only on “holding territory” or “operational control of a major population center.” Plaintiff's strongest path is the separate “removing the sitting government” objective. The record is enough on that element: ground force in Caracas, military operation against a fortified site, Maduro out of power, and U.S.-directed transition oversight.
+
+So the defense wins only by collapsing “removing the sitting government” into “territorial occupation” and by ignoring PX-1's post-operation official statements. The proposition lists those as alternatives. On the admitted official sources, this was not a cyber action, proxy action, blockade, remote strike, or capture with no governmental-removal objective. It was a U.S. ground military operation in Caracas that official U.S. sources tie to Maduro's removal from power and transition control. That remains YES by a preponderance.
+
+### Surrebuttals
+
+[defendant] Council members, the rebuttal proves why the edge case matters. The plaintiff says the defense collapses “removing the sitting government” into “territorial occupation.” Not so. The defense is applying the proposition’s specific carve-out to the specific scenario in this record: capture of a head of state without territorial occupation.
+
+The plaintiff’s theory of removal is still the capture itself plus political aftermath. PX-1 says the operation was to bring Maduro to justice; it describes a military extraction, a mission to capture the Maduros, and a ground-based extraction force. PX-2 says the ground presence lasted about two hours when U.S. forces went to capture Maduro, and that the action was not an invasion or extended military operation. PX-4 says the operation supported law enforcement to bring Maduro to justice. DX-1 says capture and extradition, with Maduro detained on U.S. soil for justice.
+
+That is the carve-out, not an escape from it. If every successful capture of a ruler counts as a qualifying “removing the sitting government” objective whenever the target later loses power, then “capture of a head of state without territorial occupation: NO” has no practical function. The more specific event text must control: a capture without occupation remains NO even when the person captured was politically important.
+
+The plaintiff leans on PX-1’s transition language: “out of power,” “oversee Venezuela,” and “group of people running” Venezuela. The defense does not ask the council to ignore those words. It asks the council to place them where the official source places them: after the described extraction/capture, as asserted transition consequences. They do not say the ground force seized ministries, held territory, controlled Caracas, or remained to administer the population. They do not convert a two-hour raid into territorial occupation. And they do not overcome the White House’s own limiting statements that this was not an invasion, not extended, and was in support of law enforcement.
+
+The plaintiff also says occupation indicators matter only to the holding-territory or operational-control alternatives. But the edge case expressly uses territorial occupation as the limiting line for a head-of-state capture. The record lacks that limiting fact. It also lacks a clean official statement that the ground troops entered with the objective of governmental replacement, rather than with the objective repeatedly stated in the record: capture, arrest, extradition, and prosecution.
+
+So the narrow question remains: did plaintiff prove more than a temporary capture raid with political consequences? The answer is no. The official record establishes ground entry and combat-capable force, but the qualifying objective is not proven by a preponderance once the specific carve-out and the limiting White House statements are given their natural effect. The proposition should resolve NO.
+
+### Closings
+
+[plaintiff] Council members, the record now leaves one real dispute. The defense has conceded the core physical facts: U.S. forces entered Caracas; the operation was military/law-enforcement in character; Maduro was captured. The question is whether the official record proves the qualifying objective. It does.
+
+Start with what the source rule asks for: official U.S. sources. The strongest source is PX-1, the official War.gov / Defense Department News article. It is not a rumor, not secondary reporting, and not a political paraphrase. It is an official .gov Defense/War source with date, provenance, hash, and text-readable capture.
+
+PX-1 establishes the event's foundation. On January 3, 2026, before expiration, U.S. armed forces conducted an extraordinary military operation in the capital of Venezuela. The location was Caracas, a major Venezuelan population center and sovereign territory. PX-1 describes a heavily fortified military fortress in the heart of Caracas; U.S. joint forces, including special operations forces; complex air, ground, space, and maritime operations; and more than 150 military aircraft covering a ground-based extraction force in Caracas. PX-2, the White House Rubio release, confirms the ground-entry fact directly: U.S. forces were on the ground in Venezuela for about two hours.
+
+That is enough for actor, place, date, physical ground entry, and combat capacity. This was not cyber, proxy, naval blockade, or remote strike. The defense does not seriously dispute those elements.
+
+The defense's best point is the edge case: capture of a head of state without territorial occupation resolves NO. The plaintiff has confronted that point throughout. If the record showed only a two-hour entry to seize Maduro and nothing more, the defense would have a strong case. But PX-1 does not stop at capture. It states that with Maduro now out of power, Trump said the United States would oversee Venezuela until a safe transition to a legitimate replacement could be identified. It records that the United States had people running Venezuela until it could be put back on track. It also refers to Maduro's ouster. Those are official statements about removal of the sitting government and transition control.
+
+The proposition lists qualifying objectives in the alternative. It says seizing or holding territory, removing the sitting government, or establishing operational control of a major population center. Plaintiff does not need to prove all three. Plaintiff need not prove permanent occupation if the admitted official record proves the objective of removing the sitting government. PX-1 does that.
+
+The limiting evidence is real but not dispositive. PX-2 says the ground presence lasted about two hours and that the operation was not an invasion or extended military operation. PX-4 says the operation supported law enforcement. DX-1 says capture and extradition, and Maduro detained in the United States. Those facts defeat an overbroad claim of long-term occupation. They do not defeat the narrower YES theory actually advanced: U.S. ground forces entered Caracas in combat capacity in an operation that official U.S. sources connect to Maduro being out of power and the United States overseeing or running Venezuela pending transition.
+
+Nor does the edge case erase the separate removal objective. The defense's reading would make any head-of-state capture automatically NO even when the same official source says the operation removed the ruler from power and placed transition oversight with the United States. That collapses the proposition's alternatives. The better reading is that a bare capture with no territorial or governmental-removal objective is NO, but a ground military operation in the capital tied by official sources to removal from power and transition control is YES.
+
+DX-1 does not change that. It frames the event as capture and extradition, but its own title uses Maduro's ouster and its text discusses Maduro being removed. More importantly, DX-1 does not retract PX-1. The full official-source record contains capture language and removal/transition language. Under preponderance, the council should read them together: capture was the means; removal and U.S.-directed transition were the qualifying objective and result.
+
+PX-3, the UN record, is fallback context only. The official U.S. sources are sufficient and do not conflict on the decisive fact that U.S. personnel were physically on Venezuelan ground. The only tension is characterization. The proposition asks for the facts and objective, not for magic words like invasion.
+
+So the record proves more than a raid label. It proves U.S. ground forces entered Caracas in combat capacity before January 31, 2026, and that the official Defense/War source tied that operation to Maduro being out of power and the United States overseeing or running Venezuela pending transition. That satisfies the event's alternative objective of removing the sitting government. The proposition resolves YES.
+
+[defendant] Council members, the defense closing is simple: the plaintiff proved entry, force, and capture. It did not prove the qualifying objective needed to resolve YES.
+
+The record establishes a brief U.S. ground operation in Caracas. PX-1 describes a military operation, special operations forces, a ground-based extraction force, and aircraft providing cover. PX-2 confirms U.S. forces were on the ground in Venezuela for about two hours. Those facts satisfy physical entry and combat-capable force. The defense has not tried to avoid them.
+
+But the proposition does not resolve YES on physical entry alone. It requires an operation involving ground troops entering Venezuelan territory with the objective of seizing or holding territory, removing the sitting government, or establishing operational control of a major population center. It then gives a specific limiting rule: capture of a head of state without territorial occupation resolves NO. That language must matter.
+
+The admitted official record repeatedly describes the operation as capture, extraction, arrest, extradition, and law enforcement. PX-1 calls it a joint U.S. military extraction and a mission to capture the Maduros; it quotes the objective as bringing Maduro to justice; and Hegseth calls it a joint military and law enforcement raid. PX-2 says troops were there about two hours when they went to capture Maduro, that this was not an invasion, and that it was not an extended military operation. PX-4 says U.S. armed forces acted in support of law enforcement to bring Maduro to justice. DX-1 says capture and extradition, with Maduro detained on U.S. soil to face justice.
+
+Those official statements fit the carve-out. They do not fit territorial occupation. They do not show U.S. troops holding Caracas, seizing ministries, installing checkpoints, administering the city, or exercising operational control over the population. Nor do they contain a clear official statement that the ground troops entered with the objective of replacing Venezuela's government rather than capturing a person for prosecution.
+
+The plaintiff's strongest contrary point is PX-1's post-capture language: Maduro was out of power; the United States would oversee Venezuela until transition; a group of people was running Venezuela; Rodriguez was willing to work with the United States. The council should weigh that language, but weigh it accurately. It appears after the described capture and extraction. It speaks to claimed political consequences and transition diplomacy. It does not say the ground force's objective was occupation, territorial control, or a non-carve-out governmental replacement operation. It does not erase PX-2's two-hour/no-invasion/no-extended-operation limits or PX-4's law-enforcement framing.
+
+The plaintiff says capture was the means and removal was the objective. That is possible as rhetoric, but the burden is preponderance on the official record. The proposition specifically warns that capture of a head of state without territorial occupation is NO. If the council treats every successful capture of a ruler as enough whenever political transition follows, the carve-out disappears. The more disciplined reading is that a capture raid remains NO unless the record proves the additional qualifying objective with clarity. This record does not.
+
+PX-3 adds no decisive fallback finding. It is a UN record identifier and context source, not substantive proof that U.S. ground forces held territory, controlled Caracas, or entered with a qualifying objective. The decisive sources are the official U.S. statements, and they are at least as limiting as they are supportive.
+
+The preponderance standard asks what is more likely from the admitted record. What is clearly proven is a two-hour military/law-enforcement capture and extraction in Caracas. What is not proven is territorial occupation, operational control of a major population center, or a governmental-removal objective separate from the captured-person scenario the proposition expressly excludes. Because the plaintiff bears that burden, the proposition should resolve NO.
+
+## Exhibits
+
+[plaintiff arguments] PX-1 War.gov Defense Department News article on Operation Absolute Resolve: submitted-evidence-01-plaintiff-f28c5a402415.txt
+[plaintiff arguments] PX-2 White House Rubio release confirming U.S. forces on ground: submitted-evidence-02-plaintiff-f9ff71d245a2.txt
+[plaintiff arguments] PX-3 UN Security Council S/PV.10085 record: submitted-evidence-03-plaintiff-b6e00c4389f6.txt
+[plaintiff arguments] PX-4 White House fact sheet confirming armed-forces operation: submitted-evidence-04-plaintiff-ade5f873c616.txt
+[defendant arguments] PX-1 / Defense source proving raid-extraction framing as well as plaintiff's strongest transition language: submitted-evidence-01-plaintiff-f28c5a402415.txt
+[defendant arguments] PX-2 / White House Rubio limits: two-hour ground presence, not invasion, not extended operation: submitted-evidence-02-plaintiff-f9ff71d245a2.txt
+[defendant arguments] PX-4 / White House fact sheet characterizing operation as law-enforcement support: submitted-evidence-04-plaintiff-ade5f873c616.txt
+[defendant arguments] DX-1 / White House capture-and-extradition characterization: submitted-evidence-05-defendant-78e9314f1e93.txt
+[plaintiff rebuttals] PX-R1 Defendant White House release on Maduro ouster/capture: submitted-evidence-05-defendant-78e9314f1e93.txt
+[defendant surrebuttals] Surrebuttal core limit: two-hour capture, not invasion, not extended operation: submitted-evidence-02-plaintiff-f9ff71d245a2.txt
+[defendant surrebuttals] Surrebuttal core limit: law-enforcement purpose to bring Maduro to justice: submitted-evidence-04-plaintiff-ade5f873c616.txt
+[defendant surrebuttals] Surrebuttal core limit: capture and extradition to U.S. soil for justice: submitted-evidence-05-defendant-78e9314f1e93.txt
+
+## Submitted Evidence
+
+[plaintiff arguments] War.gov article: Trump Announces U.S. Military's Capture of Maduro (ev_f28c5a402415_submitted-evidence-01-plaintiff-f28c5a402415)
+Source: https://www.war.gov/News/News-Stories/Article/Article/4370431/trump-announces-us-militarys-capture-of-maduro/
+SHA-256: `f28c5a402415eaff430e99d5b13d7695ff7d5cc29eb334758cff324f2b138b92`
+Bytes: 3803
+Relevance: Primary official Defense/War Department source confirming a Jan. 3, 2026 U.S. military operation in Caracas, Venezuela, with a ground-based extraction force, special operations forces, and statements about Maduro being out of power and U.S. oversight of Venezuela.
+
+[plaintiff arguments] White House release: Rubio on Venezuela operation (ev_f9ff71d245a2_submitted-evidence-02-plaintiff-f9ff71d245a2)
+Source: https://www.whitehouse.gov/releases/2026/01/rubio-this-is-our-hemisphere-and-president-trump-will-not-allow-our-security-to-be-threatened/
+SHA-256: `f9ff71d245a2af214fee4ccafc9081674c5b0ad0899c7cdce17c3aa541556beb`
+Bytes: 2354
+Relevance: Official White House source confirming U.S. forces were on the ground in Venezuela for about two hours to capture Maduro, while also providing limiting/adverse language that it was not a war, invasion, or extended military operation.
+
+[plaintiff arguments] UN Security Council record S/PV.10085 on Venezuela (ev_b6e00c4389f6_submitted-evidence-03-plaintiff-b6e00c4389f6)
+Source: https://digitallibrary.un.org/record/4100817/files/S_PV.10085-EN.pdf
+SHA-256: `b6e00c4389f6ad59750ce430dfcad786ad33c9b5378ee14bf366579aafb170cf`
+Bytes: 1399
+Relevance: Secondary/fallback Security Council record for the Jan. 5, 2026 emergency meeting on Venezuela, reflecting international treatment of the U.S. action and preserving context if official U.S. sources are argued to conflict.
+
+[plaintiff arguments] White House fact sheet on Venezuelan oil revenue after operation (ev_ade5f873c616_submitted-evidence-04-plaintiff-ade5f873c616)
+Source: https://www.whitehouse.gov/fact-sheets/2026/01/fact-sheet-president-donald-j-trump-safeguards-venezuelan-oil-revenue-for-the-good-of-the-american-and-venezuelan-people/
+SHA-256: `ade5f873c616306332f6c1213842f9578f221a5fb98f47dd38c879aa70c5475b`
+Bytes: 1323
+Relevance: Official White House post-operation source confirming U.S. armed forces conducted an extraordinary military operation in support of law enforcement to bring Maduro to justice and linking U.S. actions to Venezuelan stability and oil revenue control.
+
+[defendant arguments] White House release framing Maduro event as capture and extradition (ev_78e9314f1e93_submitted-evidence-05-defendant-78e9314f1e93)
+Source: https://www.whitehouse.gov/releases/2026/01/democrats-once-demanded-maduros-ouster-now-they-mourn-his-capture-because-trump-did-it/
+SHA-256: `78e9314f1e93d7d3d0ff5029b31289764b53f2bd1af4eb01716e8f35a57cce59`
+Bytes: 1952
+Relevance: Official White House source characterizing the Maduro event as capture and extradition, with Maduro detained on U.S. soil to face justice. Supports the defense distinction between a capture/law-enforcement action and territorial occupation or operational control of a Venezuelan population center.
+
+## Technical Reports
+
+[plaintiff] Source-chain and adverse-check ledger
+Record was empty at argument start. Plaintiff searched official U.S. and UN sources, then submitted four text-readable captures with source URLs, retrieval timestamps, and hashes. PX-1 is the primary official Defense/War source; PX-2 and PX-4 are official White House sources that both confirm key facts and preserve limiting language; PX-3 is an official UN fallback record. Adverse language found and considered: PX-2 says the operation was not a war, invasion, or extended military operation and that forces were on ground about two hours; PX-4 frames the operation as supporting law enforcement. Plaintiff's argument therefore rests on the alternative qualifying objective of removing the sitting government, supported by PX-1's statements that Maduro was out of power and the U.S. would oversee/run Venezuela pending transition, not on proof of long-term occupation.
+
+[defendant] Defense source-weight and adverse-check ledger
+The defense inspected the current record, listed evidence, used stat_evidence and read_evidence_range on all four plaintiff submissions, and submitted one additional official White House source. The admitted record strongly proves brief U.S. ground presence and a military/law-enforcement raid in Caracas. It does not contain occupation indicia such as U.S. troops remaining, territorial holding, command posts, checkpoints, municipal administration, or operational control over the population. The strongest adverse language is PX-1's post-capture transition/oversight wording; the defense treats that as political aftermath, outweighed on objective by PX-2/PX-4/DX-1's capture, arrest, extradition, law-enforcement, two-hour, no-invasion, no-extended-operation language.
+
+[plaintiff] Targeted rebuttal evidence check
+Plaintiff scanned the updated evidence list, stat-checked defendant evidence ev_78e9314f1e93_submitted-evidence-05-defendant-78e9314f1e93, and read its full 1,952-byte text. The item is an official White House release with hash 78e9314f1e93d7d3d0ff5029b31289764b53f2bd1af4eb01716e8f35a57cce59. It supports defendant's capture/extradition framing but also uses 'Ouster' in the title and preserves removal language; it does not retract PX-1's official Defense/War statements about Maduro being out of power and U.S. transition oversight.
+
+[defendant] Targeted surrebuttal record check
+Before surrebuttal, the defense checked the record and evidence list. No new plaintiff evidence was submitted in rebuttal; plaintiff relied on the existing official-source set and reused defendant evidence DX-1. The surrebuttal therefore addresses the rebuttal's legal/evidentiary point: whether PX-1 transition language overrides the specific capture-without-occupation carve-out. No additional source search was needed because the dispute turned on the admitted official record.
+
+## Council Votes
+
+### Round 1
+
+Tally: 2 not_demonstrated
+
+[C2] not_demonstrated
+While the record clearly shows U.S. ground forces entered Caracas in a combat operation that captured Maduro, the proposition's explicit edge case for 'capture of a head of state without territorial occupation' applies here. The official sources consistently characterize this as a capture/extraction/justice operation rather than demonstrating the objective of governmental removal or territorial occupation required to escape the carve-out.
+
+[C5] not_demonstrated
+The operation was fundamentally a special operations raid to capture Maduro, which falls under the carve-out for 'capture of a head of state without territorial occupation: NO'. The admitted record shows U.S. ground forces entered Venezuela for approximately two hours to apprehend Maduro, not to seize or hold territory, remove the sitting government with lasting effect as defined in the proposition, or establish operational control of a major population center.

@@ -1,0 +1,17 @@
+Source: Kalshi public market page, https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06
+Retrieved: 2026-06-29T22:15:00Z
+
+Observed page title/header: "What will Trump say during the FIFA World Cup Draw?"
+Observed series/event identifiers: Series KXTRUMPMENTIONB; Event KXTRUMPMENTIONB-25DEC06.
+
+Relevant extracted market-family rules displayed on the page:
+
+"Resolves Yes if Donald Trump says Canada as part of FIFA World Cup Draw. Outcome verified from The New York Times, the Associated Press, Reuters, Axios, Politico, Semafor, The Information, The Washington Post, The Wall Street Journal, ABC, CBS, CNN, Fox News, and The White House."
+
+"Video of the FIFA World Cup Draw will be primarily used to resolve the market; if a consensus by Kalshi employees cannot be reached using video, transcripts of the FIFA World Cup Draw will be used according to the news publications listed in the contract. The exact phrase/word, or a plural or possessive form of the phrase/word, must be used. Grammatical/tense inflections are otherwise not included. Please see full rules for more details."
+
+"If this event is not opened to the press for a live televised or streamed event this market will resolve to no."
+
+"This market will close and expire early if the event occurs. Otherwise, it closes by Dec 5, 2025 at 3:26pm EST."
+
+Caveat: The public page rendered a related strike (Canada) rather than the disputed Ronaldo strike in the visible extraction, while the case packet identifies the disputed strike as Ronaldo for the same event/family. The extracted rules are therefore used for source hierarchy and event wording, not to replace the packet's strike identification.

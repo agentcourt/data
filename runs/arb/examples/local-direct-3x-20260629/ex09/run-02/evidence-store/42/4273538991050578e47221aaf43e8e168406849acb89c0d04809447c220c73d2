@@ -1,0 +1,14 @@
+Source: fxtwitter API capture for https://x.com/Kick_Champ/status/2047948248048902259
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/kickchamp-2047948248048902259-fxtwitter.json; size 6230 bytes; sha256 a676924c0f0ac02dc4c0ecfadbf1b76d7c30c57de8b716ae1ae6a3af944b5cda. Attached video also downloaded privately from the media URL; size about 3.9 MB; sha256 61c0afc471bf404308d6995ac2ba59ee422baee6ca9327d0ef8a101c61d25e73. The container lacked ffprobe/file/cv2/PIL/moviepy/imageio, so I did not extract transcript or frames from the video in this turn.
+
+Relevant extracted fields from fxtwitter JSON:
+- Original URL: https://x.com/Kick_Champ/status/2047948248048902259
+- Tweet id: 2047948248048902259
+- Author screen name: Kick_Champ; display name KickChamp; profile description in capture: "Most Reliable News Source"; verified organization in capture; follower count in capture 194329.
+- Created at: Sat Apr 25 07:58:06 +0000 2026.
+- Text: "Clavicular broke down in TEARS after finding out his girlfriend he met 10 days ago is PREGNANT, leaving him overwhelmed and in SHOCK after becoming a father at just 20 years old" followed by eyes emoji.
+- Engagement fields in capture: replies 3162, retweets 450, likes 19096, bookmarks 7468, quotes 892, views 15582772.
+- Attached media: video, id 2047947857685282816, duration 16.9 seconds, 1080x1080, mp4 URL https://video.twimg.com/amplify_video/2047947857685282816/vid/avc1/1080x1080/CBB_ZOMeBbFmce3n.mp4?tag=21 and thumbnail URL https://pbs.twimg.com/amplify_video_thumb/2047947857685282816/img/6gE6tClZ_KS8qp1G.jpg.
+- Community note text in capture: "A pregnancy test cannot detect a pregnancy until at least 2 weeks after you have unprotected sex." It links to a GoodRx URL via t.co.
+
+Weight note: This is not a statement from Clavicular. It is the viral social post/fan-news claim that later fact checks discussed. It supports that a widely viewed claim of a girlfriend pregnancy circulated during the period; its community note and lack of direct speaker context undermine its weight as proof of a credible Clavicular announcement.

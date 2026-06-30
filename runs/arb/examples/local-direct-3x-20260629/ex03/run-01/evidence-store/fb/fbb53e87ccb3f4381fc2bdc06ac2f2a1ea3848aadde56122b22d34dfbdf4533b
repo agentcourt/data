@@ -1,0 +1,19 @@
+Source: Roll Call / Factba.se
+URL: https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-fifa-world-cup-drawing-december-5-2025/
+Captured page title: Remarks: Donald Trump Attends the FIFA World Cup Drawing in Washington - December 5, 2025
+
+Rendered page metadata excerpt:
+Topics: Sport; Sport > Competition Discipline > Soccer; Lifestyle and Leisure > Leisure > Game.
+Entities listed: bowl; deal; Donald J. Trump; FIFA World Cup; Mark Carney; place; President; trophy; United States; way.
+Speakers listed: Gianni Infantino, Donald Trump, Mark Carney, Claudia Sheinbaum.
+Speaker statistics excerpt: Donald Trump said 25 sentences of a total of 141 sentences; Donald Trump said 274 words of a total of 1009 words; Donald Trump talked 92 seconds of a total of 484 seconds.
+
+Formal transcript excerpt at start of draw:
+Mark Carney, 00:00:00-00:00:02: Thank you, my friend.
+Gianni Infantino, 00:00:50-00:01:22: So this is the World Cup trophy. This is the official bowl for the World Cup and we are now going to do the draw, ladies and gentlemen. But before that, as is customary, there is always a question that the moderator asks the draw assistant. So I would like to start with Mr. Carney. How big a deal is it to co-host the World Cup for Canada?
+
+Formal transcript excerpt of Trump's soccer answer:
+Donald Trump, 00:03:14-00:03:32: Well, for years, Gianni, they've thought soccer or football would be so big, so fast. And I remember, I shouldn't say this because it was a long time ago, but I remember watching Pele play on a team called the Cosmos, Pele, who was fantastic, as you know. I assume one of the greats.
+
+Text-extraction/search notes:
+Local Python urllib retrieval of the page returned HTTP 200 for the source URL and extracted approximately 175,864 characters of page text with Python html.parser. Case-sensitive searches in the extracted page text returned no occurrence of "Ronaldo" and no occurrence of "Messi". The same terms were not found using the browser page find function on the rendered page.

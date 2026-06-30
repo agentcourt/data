@@ -1,0 +1,696 @@
+Role: council member
+Member ID: C2
+Deliberation round: 1
+Proposition: Between market creation on April 20, 2026, and December 31, 2026, 11:59 PM ET, Clavicular made a credible announcement that he and a partner were expecting a baby through pregnancy.
+Standard of evidence: Preponderance of the evidence.
+Persona:
+You are a careful juror and council member.
+
+Evaluate the record faithfully. Decide only from the evidence, the stated rules, and the applicable burden of proof. Do not favor either side, fill gaps with speculation, or ignore uncertainty.
+
+Give weight to reliable sources, direct evidence, consistent reasoning, and clear admissions. Discount unsupported claims, rhetorical force, irrelevant facts, and conclusions that exceed the record.
+
+When the evidence supports one answer, state it plainly. When the evidence is incomplete or balanced, say so. Be concise, honest, and exact.
+
+Record:
+Openings:
+[plaintiff] Council members, the plaintiff’s burden is preponderance: more likely than not, during the market window, Clavicular made a credible announcement that he and a partner were expecting a baby through pregnancy. The proposition does not require proof that a baby was later born, or medical proof of pregnancy. It asks whether a qualifying announcement was made and whether it was credible rather than a joke or stunt.
+
+The case packet fixes the rule. The Polymarket record says this market would resolve Yes if Clavicular announced that he and a partner were expecting a baby through pregnancy between market creation and December 31, 2026, 11:59 PM ET. It also says only credible announcements qualify; non-credible announcements, including jokes, do not. Statements from Clavicular or representatives are the resolution source, with definitive credible-media consensus also allowed. The packet further records that the market ultimately reached a final Yes state after proposed and disputed resolution sequences.
+
+That Yes resolution matters, but it is not the whole case. It proves the platform outcome under this rule; it does not, by itself, prove the underlying announcement. The plaintiff’s case turns on the source chain behind that resolution: the original stream clip or VOD, transcript, representative statement, Polymarket clarification, and UMA/proposer-disputer materials.
+
+The secondary-reporting packet shows why this is a real factual dispute. Forbes described the controversy as being over what counts as a credible pregnancy announcement from a streamer who told his audience he had gotten a girl pregnant. If the underlying source supports that description, it fits the rule: a statement by Clavicular, during the window, about an existing pregnancy with a partner. Forbes also reported contrary market-side claims that the market had been confirmed to resolve No and that rule text or platform clarification pointed the other way. That conflict is why primary material matters.
+
+The defense has fair adverse evidence in the packet. Times of India says there was no proof, no confirmed girlfriend, no medical update, no video confirming pregnancy, and no statement from Clavicular confirming it. Hindustan Times and The Express Tribune describe a different set of remarks: a proposed pregnancy or modeling contest, plus statements that he wanted children or would be a dad in the next few months. Those remarks may show intent, shock content, or a stunt; standing alone, they may not announce that he and a partner were already expecting through pregnancy.
+
+So the decisive line is narrow. If the record ultimately contains only contest talk, generalized future-parenthood comments, and viral rumor, the plaintiff’s case weakens. But if the underlying clip or credible-source chain confirms the Forbes-described statement that Clavicular told his audience he had gotten a girl pregnant, the proposition is more likely than not satisfied. The remaining question would be credibility, not biological verification beyond the announcement itself.
+
+At opening, the plaintiff acknowledges the packet’s gaps. It does not preserve the original Clavicular clip, VOD, transcript, or representative statement. It does not preserve the platform clarification referenced by Forbes. It does not include full UMA voter, proposer, or disputer records. Those gaps affect weight and define the evidence plan for later phases.
+
+The plaintiff’s theory is therefore straightforward and disciplined: the official market record resolved Yes under a rule requiring a credible announcement; Forbes reports that the live dispute centered on a Clavicular statement that he had gotten a girl pregnant; and the decisive evidence will be the source chain distinguishing that statement from weaker contest-rumor material. On a preponderance standard, a credible announcement is enough. The question is not whether later observers proved the pregnancy beyond doubt, but whether Clavicular credibly announced one.
+
+[defendant] Council members, the defense starts with the exact proposition, not the market’s after-the-fact result. Plaintiff must prove it is more likely than not that Clavicular made a credible announcement that he and a partner were expecting a baby through pregnancy during the stated window. A final Polymarket Yes state is relevant background, but it is not the underlying announcement.
+
+The current packet proves some things clearly. The market-page record preserves the rule text: an announcement by Clavicular that he and a partner are expecting a baby through pregnancy; only credible announcements qualify; jokes do not; statements from Clavicular or representatives are the resolution source, with definitive credible-media consensus also possibly considered. The packet also preserves the platform’s final Yes state after proposed and disputed resolution sequences.
+
+But the packet is equally clear about what it does not prove. The primary-evidence and official-source-record files say no original Clavicular livestream clip, VOD, transcript, or representative statement has been preserved in this record. They say the preserved platform evidence proves the contract wording and final Yes state, not that a qualifying announcement actually occurred. The unresolved-gaps file repeats that the original source material is missing, as are the platform clarification referenced by Forbes and UMA proposer, disputer, and voter records beyond Polymarket API status fields.
+
+That missing source chain matters because the available secondary reporting points in different directions. The plaintiff’s strongest packet material is the Forbes excerpt, which frames the dispute as involving a streamer who told his audience he had gotten a girl pregnant. If later admitted primary material shows that as a serious statement by Clavicular about an existing partner pregnancy, then the defense will have to confront real adverse evidence.
+
+The defense’s opening position is that the present record has not crossed that line. The same packet contains Times of India reporting that there was no proof, no confirmed girlfriend, no medical update, no confirming video, and no statement from Clavicular confirming pregnancy. Hindustan Times and The Express Tribune describe livestream remarks about wanting children, being a dad in the next few months, and a proposed “pregnancy contest” or stunt. Those are very different from a credible announcement that he and a partner were already expecting a baby through pregnancy.
+
+So the decisive dispute is not whether people talked about a pregnancy rumor, and not whether traders ultimately resolved a market Yes. The decisive dispute is whether there is a reliable source showing a qualifying announcement under the rule. The council should separate four categories: the market rule, the market resolution, secondary reports about controversy, and the missing primary announcement. Only the last category, or a truly definitive credible-media consensus grounded in it, can carry the plaintiff’s burden.
+
+Provenance and custody will be central. A clipped phrase, repost, rumor account, or article summarizing online chatter may be useful as a lead, but it does not automatically establish speaker, context, seriousness, timing, or whether the statement concerned “he and a partner” expecting a baby. For a streamer known in the packet for controversial and possibly performative content, context is not a technicality; it is the credibility question the rule itself requires.
+
+The defense expects later phases to turn on the original Kick/VOD or clip, a faithful transcript with surrounding context, any representative statement, the alleged Polymarket clarification, and UMA dispute materials showing what was actually proposed and challenged. If plaintiff produces that source chain, the council can weigh it. If the case remains at final platform status plus conflicting secondary descriptions, then plaintiff has not shown by a preponderance that Clavicular made a credible qualifying announcement.
+
+Our theory is therefore narrow: the current record proves a contested market and a final platform outcome, but it does not yet prove the fact the proposition asks the council to decide.
+
+Arguments:
+[plaintiff] Council members, plaintiff’s case is not that every rumor was true. The proposition asks whether Clavicular made a credible announcement that he and a partner were expecting a baby through pregnancy. The record now shows, by a preponderance, that the relevant public event was an announcement or claimed announcement by Clavicular, and that the market’s final Yes resolution is better understood as accepting that announcement than as mere price noise.
+
+Start with the rule and official outcome. The market-page packet and the current Gamma API extraction state the same rule: Yes if Clavicular announced that he and a partner were expecting a baby through pregnancy; only credible announcements qualify; jokes do not. The same official source records market id 2037907, the condition and question IDs, final Yes/No prices of 1/0, closed/resolved status, automatic resolution, and a proposed/disputed/proposed/disputed UMA sequence. This does not mechanically decide the factual question, but it is probative: the official market system resolved Yes after disputes under the very rule the council is applying.
+
+The underlying event is also not invented after the fact. The secondary-reporting packet says Forbes described the dispute as involving a streamer who told his audience he had gotten a girl pregnant. The newly admitted KickChamp extraction captures the viral source claim from April 25, 2026: Clavicular had found out his girlfriend of 10 days was pregnant, with attached video metadata and approximately 15.6 million views in the capture. The Domahhhh extraction is adverse on credibility, but it confirms the same source category: Clavicular “claimed/joked that he got a girl pregnant,” said she was pregnant within 10 days of meeting him, and the live market dispute was over whether that counted.
+
+That matters because the defense’s strongest point is the lack of the original VOD or transcript. Plaintiff concedes that gap. The packet itself says no original clip, VOD, transcript, representative statement, Polymarket clarification, or full UMA record has yet been preserved. I also downloaded the KickChamp attached video, but the container lacked ffprobe, file, cv2, PIL, moviepy, and imageio, so I did not submit an uninspected video or claim a transcript I could not make. That restraint should increase, not decrease, confidence in the submitted record.
+
+The adverse evidence is real. Times of India and PopRant-style fact checks say there was no proof, no confirmed girlfriend, no medical update, and no video proving actual pregnancy. The KickChamp post itself had a community note saying a pregnancy test cannot detect pregnancy until at least two weeks after unprotected sex. The current Gamma API metadata says trader consensus was driven partly by vows to become a father, a dating-show/baby-mama premise, and debunked girlfriend-pregnancy rumors. Domahhhh argues the statement was vague, perhaps a joke, and the UMA process was influenced by conflicted traders.
+
+But those objections mostly attack whether the pregnancy was true or well proven, not whether Clavicular made an announcement. The rule does not require medical verification. It requires a credible announcement. The record contains multiple independent indicators that there was an actual Clavicular-originated statement in circulation: Forbes’ description of him telling his audience he had gotten a girl pregnant; Domahhhh’s hostile description that he claimed/joked he got a girl pregnant; and the viral KickChamp post reporting the girlfriend-pregnancy claim contemporaneously with attached media. The final platform resolution then supplies institutional weight that the statement crossed the market’s credibility threshold despite dispute.
+
+Credibility is the close question. Plaintiff’s best answer is that “credible” in this rule cannot mean “later medically confirmed,” or the rule would have said so. It means not merely a plainly non-serious joke. A public statement by the subject that he got a girl pregnant is specific enough to be an announcement; ambiguity and later doubt reduce weight but do not erase the announcement. The defense can say the statement may have been a stunt. Plaintiff says the preponderance points the other way because the official market, the Forbes dispute description, the viral contemporaneous source, and even the adverse Domahhhh thread all converge on the existence of a Clavicular statement about having gotten a girl pregnant.
+
+Source-search ledger: I searched exact phrases including “gotten a girl pregnant” “Clavicular,” “got a girl pregnant” “Clavicular,” “Clavicular pregnant 10 days breakdown,” and “Clavicular girlfriend pregnant 10 days.” I followed the cited Polymarket Gamma API, KickChamp X post, and Domahhhh X thread through accessible API mirrors when X itself did not render usable text. I submitted relevant-field extractions rather than uncaptured snippets. I did not find or preserve the original Kick VOD or full transcript in this turn; that remains the principal gap.
+
+On this record, plaintiff has carried the preponderance burden. The fact to decide is not “was a baby certainly expected?” It is “did Clavicular credibly announce that he and a partner were expecting through pregnancy?” The official Yes resolution, Forbes’ account, the viral contemporaneous claim, and the adverse-but-confirming Domahhhh thread together make that more likely than not.
+
+[defendant] Council members, plaintiff’s argument turns the wrong proposition into the right-sounding one. The question is not whether there was a viral pregnancy rumor, whether Polymarket ended at Yes, or whether some bettors thought the rumor might count. The question is whether Clavicular made a credible announcement that he and a partner were expecting a baby through pregnancy. On the admitted record, plaintiff has not proved that by a preponderance.
+
+The rule is demanding in three ways. It requires an announcement by Clavicular or his representatives; it requires that he and a partner are expecting a baby through pregnancy; and it expressly excludes announcements that are not credible, including jokes. The market-page packet and Gamma extraction prove those terms and the platform’s final Yes status. They do not prove the underlying announcement. The primary-evidence and unresolved-gaps packet files say exactly that: no original VOD, clip, transcript, representative statement, Polymarket clarification, or full UMA record is preserved.
+
+Plaintiff’s new evidence does not close that gap. The KickChamp extraction is a viral X post by a fan/news account, not a statement from Clavicular. It says Clavicular learned a girlfriend he met ten days earlier was pregnant, but its own community note says a pregnancy test cannot detect pregnancy until at least two weeks after unprotected sex. The attached video was not transcribed, frame-reviewed, or admitted as interpreted content. Plaintiff fairly says it did not claim a transcript. So this exhibit proves circulation of a viral claim, not the qualifying announcement.
+
+The Domahhhh extraction is even more damaging to plaintiff’s burden. It says Clavicular “claimed/joked” that he got a girl pregnant, offered no proof, and talked about it vaguely, sometimes implying truth and sometimes joke. It says many long-time Polymarket users thought it should not count, and it describes a positive pregnancy test within ten days as next-to-impossible. That is not the language of a credible announcement; it is the language of an unresolved streamer bit, rumor, or disputed market exploit.
+
+The Gamma API extraction also cuts against plaintiff’s clean-announcement theory. Its current context_description says the Yes probability was driven by repeated vows to become a father, a fertility-stack reveal, a controversial dating-show pitch to select a baby mama from 500 contestants, and debunked rumors about an 18-year-old girlfriend’s pregnancy after ten days. Those facts show why the market became noisy. They do not show a credible statement that Clavicular and a partner were expecting a baby through pregnancy.
+
+Plaintiff argues that objections go only to whether the pregnancy was true, not whether there was an announcement. That understates the rule. The rule does not require medical proof, but it does require credibility. Credibility cannot be satisfied by a source chain that repeatedly says “claimed/joked,” “vague,” “no proof,” “debunked rumors,” and a biological timeline the admitted evidence itself flags as impossible or near-impossible. If the alleged announcement may be a joke, the rule tells the council that it may not suffice.
+
+The Forbes packet excerpt is plaintiff’s strongest piece: it reports a dispute over what counts as a credible pregnancy announcement from a streamer who told his audience he had gotten a girl pregnant. But Forbes is still secondary reporting, and the packet does not preserve the source clip behind that summary. The same secondary-reporting packet includes Times of India saying there was no proof, no confirmed girlfriend, no medical update, no confirming video, and no statement from Clavicular confirming pregnancy. Hindustan Times and The Express Tribune instead describe a pregnancy-contest or future-fatherhood stunt, not a present partner pregnancy.
+
+That conflict is why provenance decides this case. A market result can be wrong. A bettor thread can be interested. A viral X account can overstate a clip. A streamer can perform ambiguity for attention. The record needed the actual words, their surrounding context, and enough media or transcript to decide whether they were serious. Plaintiff did not produce that. Instead, plaintiff asks the council to infer credibility from the very dispute materials that explain why credibility was in doubt.
+
+My search and extraction check this phase was narrow. I downloaded the admitted KickChamp mp4 from the media URL and confirmed its hash matched plaintiff’s extraction, but the container lacks ffprobe, ffmpeg, file, strings, and common Python video/image libraries, so I did not submit a pretend transcript or frame analysis. I also checked the fxtwitter mirrors for the X posts; their relevant text is already in plaintiff’s admitted evidence. I therefore rely on the admitted record, not unsubmitted external material.
+
+Under preponderance, plaintiff needed the evidence to make a credible qualifying announcement more likely than not. The record makes something else more likely: a viral and financially consequential ambiguity around streamer comments, market incentives, and rumor amplification. Because the primary source is missing and the admitted descriptions repeatedly undermine seriousness and credibility, the council should find the proposition not proved.
+
+Rebuttals:
+[plaintiff] Council members, the defense is right about one thing: this case would be easier with the original stream clip. But the absence of that clip does not end a preponderance case when the admitted record contains multiple converging descriptions of the same underlying Clavicular-originated statement and an official Yes resolution under the same rule.
+
+The defense treats “no medical proof” and “no preserved transcript” as if they were the same defect. They are not. The proposition is about an announcement, not the ultimate truth of the pregnancy. A person can make a qualifying announcement that later proves false, mistaken, exaggerated, or unsupported. The rule’s credibility requirement filters out obvious jokes; it does not require the council to demand ultrasound-level proof or paternity certainty before recognizing that an announcement occurred.
+
+That distinction answers the community-note point. The KickChamp community note says a pregnancy test generally cannot detect pregnancy until at least two weeks after unprotected sex. That is a reason to doubt the biology of the “10 days” narrative. It is not proof that Clavicular did not announce or claim a pregnancy. The KickChamp evidence still proves a contemporaneous, viral pregnancy claim tied to an attached video, and its scale explains why credible outlets and the market focused on this event.
+
+The defense also leans heavily on Domahhhh, but that exhibit is not pure defense evidence. It is adverse on credibility, and plaintiff admitted it for that reason. Yet Domahhhh confirms the core point the defense wants to avoid: the market dispute concerned Clavicular himself having “claimed/joked that he got a girl pregnant,” saying she was pregnant within 10 days of meeting him. That is not merely a third-party rumor detached from Clavicular. It is a hostile witness description of a Clavicular statement, and it matches the Forbes packet’s account that the dispute concerned a streamer who told his audience he had gotten a girl pregnant.
+
+The defense says “claimed/joked” defeats credibility. It does not automatically do so. The rule excludes non-credible announcements such as jokes, but the very dispute here was whether this statement crossed that line. The official market record shows final Yes after proposed and disputed rounds; Forbes treated the dispute as one over what counts as a credible announcement; and even the hostile Domahhhh thread confirms the statement existed and was ambiguous enough to drive the oracle fight. Ambiguity reduces weight, but under preponderance it can still be outweighed by the official resolution and corroborating reports.
+
+Nor does the Gamma metadata defeat plaintiff. Its context says the Yes probability was driven by vows, a fertility-stack reveal, a baby-mama/dating-show pitch, and debunked girlfriend-pregnancy rumors. That shows a noisy factual environment, not an absence of announcement. The rule allowed credible media consensus and statements by Clavicular; the admitted record shows both media attention to the alleged statement and the platform’s ultimate acceptance of Yes despite the same objections the defense now repeats.
+
+Finally, defense offers no contrary primary source. There is no admitted Clavicular denial, representative denial, full clip showing the statement was plainly a joke, or platform clarification that No was correct. The fact checks say no confirmation and no proof of actual pregnancy. That is relevant, but it is not the proposition. The better reading of the whole record is that Clavicular did make a public pregnancy announcement or claim; the later fight was whether it was credible enough. On this record, with the official Yes resolution, Forbes’ description, KickChamp’s contemporaneous viral claim, and Domahhhh’s adverse confirmation of the underlying Clavicular statement, plaintiff remains over the preponderance line.
+
+Surrebuttals:
+[defendant] Council members, plaintiff’s rebuttal usefully narrows the dispute. The defense is not arguing that plaintiff needed ultrasound-level proof, paternity proof, or ultimate proof that a baby was actually expected. A false or mistaken announcement could satisfy this market if it were a credible announcement when made. The problem is that plaintiff still has not shown credibility.
+
+The rule does not merely ask whether Clavicular said words that could be clipped into a pregnancy claim. It says only credible announcements qualify and jokes do not suffice. That language matters most in exactly this kind of record: a streamer, a viral clip environment, a prediction market with large financial incentives, and admitted source descriptions that call the statement “claimed/joked,” “vague,” “no proof,” and sometimes truth, sometimes joke.
+
+Plaintiff says the community note only attacks biology. Partly true, but incomplete. The note is not being offered as medical proof against the proposition. It shows why the specific viral claim preserved in KickChamp was facially suspect: pregnancy after meeting someone ten days earlier is not just unverified; the admitted evidence itself flags the testing timeline as impossible or near-impossible. That goes directly to whether the alleged announcement was credible rather than a viral stunt or rumor.
+
+Plaintiff also treats Domahhhh as adverse confirmation. It confirms a dispute, not a qualifying announcement. The admitted extraction says Clavicular “claimed/joked,” offered no proof, spoke vaguely, and that many long-time Polymarket users thought it should not count. If plaintiff had the original clip, transcript, or context showing a serious statement, that would be the answer. Instead plaintiff asks the council to turn a hostile summary of ambiguity into proof of credibility.
+
+The same problem applies to Forbes and the final Yes result. Forbes describes the dispute over what counts; it does not preserve the underlying words. The Yes resolution proves the platform outcome; it does not prove the factual source chain, especially when the packet says the Polymarket clarification and UMA proposer, disputer, and voter records are missing. A contested market resolution cannot replace the evidence the rule designates: statements from Clavicular or representatives, or a definitive credible-media consensus.
+
+So the defense position is modest. The council need not find that pregnancy was impossible, that Clavicular never made any joke or claim, or that every Yes voter was wrong. The council only needs to apply the rule’s credibility requirement to the admitted record. That record shows rumor circulation and ambiguity, not a credible announcement that he and a partner were expecting a baby through pregnancy. Preponderance has not been met.
+
+Closings:
+[plaintiff] Council members, the case now turns on one disciplined question: is it more likely than not that Clavicular made a credible announcement that he and a partner were expecting a baby through pregnancy? The question is not whether the pregnancy was later verified. It is not whether every viral post was accurate. It is whether the record shows a qualifying announcement under the market rule.
+
+The official rule is clear, and the official outcome is probative. The market required a credible announcement by Clavicular or his representatives, while allowing definitive credible-media consensus. The market-page record and current Gamma API extraction both show the same rule, the same market, and a final Yes outcome after proposed and disputed resolution rounds. A market result can be wrong, but this was not a casual poll. It was the resolution of the exact question now before you, under the exact credibility language the defense invokes.
+
+The record also shows the underlying event was not invented merely from market prices. The secondary-reporting packet reports that Forbes framed the dispute as one over a streamer who told his audience he had gotten a girl pregnant. The Domahhhh thread, although hostile to plaintiff, confirms the same core fact: Clavicular claimed or joked that he got a girl pregnant, said she was pregnant within ten days of meeting him, and the market fight was whether that counted. The KickChamp extraction captures the contemporaneous viral public claim that Clavicular learned his girlfriend was pregnant, with attached video metadata and very large reach. These sources differ in tone and confidence, but they converge on the same nucleus: a Clavicular-originated pregnancy claim existed during the market period.
+
+The defense’s strongest point is the missing primary VOD or transcript. Plaintiff has never hidden that gap. It affects weight. But the standard is preponderance, not perfect preservation. The defense has not supplied a contrary primary clip, a Clavicular denial, a representative denial, or a preserved platform clarification showing No was correct. The record’s adverse materials say there was no medical proof, no confirmed girlfriend, and no confirmation of actual pregnancy. Those are important caveats; they are not disproof of an announcement.
+
+Credibility is the hard part. The defense says the words “claimed/joked,” “vague,” and the ten-day timeline defeat credibility. They reduce confidence, but they do not compel No. The rule excludes announcements that are not credible; it does not require certainty that the announced pregnancy was true. A controversial streamer’s public claim can be credible enough to be an announcement even if later observers doubt the biology, motives, or truth. That is especially so where the official market resolved Yes despite disputes and where both supportive and hostile sources describe a statement by Clavicular about having gotten a girl pregnant.
+
+The community note on KickChamp illustrates the distinction. It challenges the biological timeline of a pregnancy test after ten days. It does not show there was no statement, and it does not show the statement was obviously a joke when made. Likewise, Domahhhh’s criticism helps the defense on weight, but it hurts the defense on occurrence: it identifies the statement as Clavicular’s own claim or joke and confirms the dispute was whether the statement was credible enough.
+
+If the proposition required proof that a partner truly was pregnant, plaintiff would lose. If it required the original VOD, plaintiff would lose. But the proposition asks for a credible announcement. On this record, the official Yes resolution, Forbes’ account of Clavicular telling his audience he got a girl pregnant, the contemporaneous KickChamp claim, and even the adverse Domahhhh confirmation together make that more likely than not. The contrary evidence shows uncertainty and lack of medical confirmation; it does not outweigh the converging proof that a qualifying announcement or claim occurred and was accepted as credible by the market’s resolution process.
+
+Plaintiff therefore asks the council to find the proposition proved by a preponderance of the evidence.
+
+[defendant] Council members, plaintiff’s closing asks you to treat convergence on a controversy as convergence on the proposition. Those are different things.
+
+The proposition requires a credible announcement by Clavicular that he and a partner were expecting a baby through pregnancy. The admitted record proves a market rule, a final Polymarket Yes outcome, a viral social-media claim, and a live dispute about whether an ambiguous streamer statement counted. It does not prove the actual qualifying announcement.
+
+Start with what is solid. The market-page and Gamma evidence prove the rule language and final Yes state. But the packet’s primary-evidence and unresolved-gaps files say the preserved platform material does not itself prove that a qualifying announcement occurred. The original VOD, clip, transcript, representative statement, alleged platform clarification, and full UMA proposer/disputer/voter records were not preserved. That is not a small evidentiary preference. This proposition turns on the words spoken, the context, and credibility.
+
+Plaintiff’s best non-platform evidence still has the same flaw. The KickChamp extraction is not a Clavicular statement. It is a viral third-party post saying a girlfriend of ten days was pregnant, paired with a community note that the testing timeline does not work. That evidence shows reach and rumor; it does not establish speaker, context, seriousness, or credibility.
+
+The Domahhhh extraction is plaintiff’s attempt to turn adverse ambiguity into confirmation. But what it confirms is not enough. It says Clavicular “claimed/joked” he got a girl pregnant, offered no proof, spoke vaguely, sometimes truth and sometimes joke, and that many long-time Polymarket users thought it should not count. It further calls the pregnancy very unlikely and likely a viral joke. That is powerful evidence against the rule’s credibility requirement.
+
+The Gamma context also does not rescue plaintiff. It says the Yes probability was driven by repeated vows to become a father, a fertility-stack reveal, a baby-mama/dating-show premise, and debunked girlfriend-pregnancy rumors. Those are the ingredients of a noisy market narrative, not a clean statement that Clavicular and a partner were expecting a baby through pregnancy.
+
+Plaintiff is right that medical proof is not required. The defense has not argued otherwise. A false but serious announcement could qualify. But a joke, a vague bit, or a viral rumor does not. The rule itself draws that line. Plaintiff’s burden was to show the statement more likely fell on the credible-announcement side of that line. The admitted evidence repeatedly places it on the ambiguity/joke/rumor side.
+
+The final Yes resolution deserves weight, but it cannot be allowed to decide the whole case by circularity. If a disputed platform outcome automatically proved the underlying factual condition, there would be no need to examine the source chain. Here, the source chain is exactly what is missing, and the admitted materials explain why the market’s conclusion was disputed: financial incentives, missing context, biological implausibility, and streamer ambiguity.
+
+So the defense does not ask you to find that no words were ever said. The record likely shows some pregnancy-related claim or joke circulated. The question is whether plaintiff proved a credible qualifying announcement: Clavicular and a partner expecting a baby through pregnancy. On this record, with no primary statement and with the admitted descriptions themselves undermining credibility, plaintiff has not carried the preponderance burden.
+
+The council should find the proposition not proved.
+
+Exhibits:
+[plaintiff] PX-1 Market rule and final Yes state
+# Market page record
+
+Official market URL: https://polymarket.com/event/clavicular-pregnancy-in-2026
+Captured page file: source-captures/polymarket-page.txt
+Captured API file: source-captures/polymarket-gamma-event.json
+Captured market image: source-captures/polymarket-market-image.jpg
+
+## Official Polymarket page text captured by web fetch on 2026-05-14
+
+Question/title: Clavicular pregnancy in 2026?
+
+Rule text:
+
+> This market will resolve to "Yes" if Clavicular announces that he and a partner are expecting a baby through pregnancy between market creation and December 31, 2026, 11:59 PM ET. Otherwise, this market will resolve to "No".
+>
+> Only credible announcements will qualify. Pregnancy announcements that are not credible, for example jokes, will not suffice. This market will resolve based on the date of announcement, regardless of when the child is born.
+>
+> The resolution source will be statements from Clavicular or his representatives; however, a definitive consensus of credible media reporting may be considered.
+
+The rendered page capture also showed:
+
+- Outcome proposed: Yes
+- Disputed
+- Outcome proposed: Yes
+- Disputed
+- Final outcome: Yes
+
+## Gamma API fields captured on 2026-05-14
+
+Event:
+
+- event id: 400878
+- ticker/slug: clavicular-pregnancy-in-2026
+- title: Clavicular pregnancy in 2026?
+- event creationDate: 2026-04-20T22:47:28.569518Z
+- event startDate: 2026-04-20T22:47:28.569523Z
+- event endDate: 2026-12-31T00:00:00Z
+- event active: true
+- event closed: true
+- event closedTime: 2026-05-01T00:33:40Z
+- event automaticallyResolved: true
+- event volume at capture: 13,934,862.960998023
+- event openInterest at capture: 5,749,723.168803
+
+Market:
+
+- market id: 2037907
+- conditionId: 0x6747bae2269c348786d0c0c0f4286ac006f13f16325d4dcbab954b46de029f19
+- questionID: 0x24b6bade3cce1deaee8a6381420b7fb88b0f409b447747471b0245061d986280
+- market createdAt: 2026-04-20T22:28:48.129526Z
+- market startDate: 2026-04-20T22:41:29.998973Z
+- market closed: true
+- market closedTime: 2026-05-01 00:33:40+00
+- umaEndDate: 2026-05-01T00:33:40Z
+- umaResolutionStatus: resolved
+- umaResolutionStatuses: ["proposed", "disputed", "proposed", "disputed"]
+- outcomes: ["Yes", "No"]
+- outcomePrices: ["1", "0"]
+- lastTradePrice at capture: 0.999
+- bestBid/bestAsk at capture: 0.998 / 0.999
+- resolvedBy: 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7
+
+## Notes for arbitration
+
+The proposition tracks the rule text, not the platform-resolution question. The key contested terms are “announces,” “he and a partner,” “expecting a baby through pregnancy,” and “credible.” The rule excludes non-credible announcements, including jokes, and allows statements from Clavicular or representatives, with credible-media consensus as a possible secondary source.
+
+
+[plaintiff] PX-2 Secondary reporting, including Forbes and fact-check conflict
+# Secondary reporting
+
+## Forbes: Polymarket's $16M Clavicular Bet Sparks Oracle Dispute
+
+URL: https://www.forbes.com/sites/digital-assets/2026/04/30/inmates-taking-the-asylum-polymarkets-16m-clavicular-bet/
+Captured file: source-captures/forbes-clavicular-bet.txt
+
+Relevant excerpts from the readable capture:
+
+- Forbes identified the disputed market as “Clavicular pregnancy in 2026?” and reported $16.46 million in lifetime volume, roughly $4.5 million in the prior 24 hours, Yes shares at 97 cents, and UMA dispute status as of April 30.
+- Forbes summarized the dispute: “The argument is over what counts as a credible pregnancy announcement from a streamer who told his audience he had gotten a girl pregnant. The market’s own rules state that ‘pregnancy announcements that are not credible, for example jokes, will not suffice.’”
+- Forbes reported that other traders, including @holy_moses7, said the market had been “confirmed to resolve as ‘No’ two days ago,” while Yes shares rose anyway.
+- Forbes wrote: “Across the orderbook, the disagreement is binary. The market description and the platform clarification say No. The price says Yes. The oracle, after two dispute rounds, has not closed the gap.”
+- Forbes linked the Domahhhh thread at https://x.com/domahhhh/status/2049886900513657218 and described it as alleging that Polymarket's oracle had become “a disinformation engine” run by “rogue traders.”
+
+## Times of India fact check
+
+URL: https://timesofindia.indiatimes.com/world/us-streamers/fact-check-is-clavicular-really-expecting-his-first-child-after-10-days-relationship-amid-viral-pregnancy-contest-rumor/articleshow/130539375.cms
+Captured file: source-captures/timesofindia-fact-check.txt
+
+Relevant excerpts from the readable capture:
+
+- The article says the rumor claimed Clavicular was expecting his first child with a girlfriend he met 10 days earlier.
+- It says there was “no proof, no confirmed girlfriend, and no medical update.”
+- It reports that no video confirmed a pregnancy and no statement from Clavicular confirmed it.
+- It identifies a separate livestream statement: “I must have children. I must get children today. I will be a dad in the next few months, guys. I am telling you.”
+- It concludes: “Right now, the truth is that there is no confirmed pregnancy. The viral claim is false and likely came from a mix of jokes, clips taken out of context, and his own controversial content style.”
+
+## Hindustan Times
+
+URL: https://www.hindustantimes.com/world-news/us-news/claviculars-bizarre-pregnancy-contest-claim-sparks-backlash-on-social-media-i-will-be-a-dad-101776968389298.html
+Captured file: source-captures/hindustantimes-pregnancy-contest.txt
+
+Relevant excerpts from the readable capture:
+
+- Hindustan Times reported a livestream suggestion for a contest involving 500 women, structured like a beauty-pageant type contest, with the winner becoming impregnated by him.
+- It quoted Peters as saying: “I must have children. I must get children today” and “I will be a dad in the next few months, guys. I am telling you.”
+- The article treated the remarks as a controversial proposal or stunt, not as confirmation that a partner was already pregnant.
+
+## The Express Tribune
+
+URL: https://tribune.com.pk/story/2604737/claviculars-pregnancy-contest-claim-sparks-backlash-after-controversial-live-stream-comments
+Captured file: source-captures/tribune-pregnancy-contest.txt
+
+Relevant excerpts from the readable capture:
+
+- The article reported that Braden Peters, known as Clavicular, proposed a “pregnancy contest” during a livestream.
+- It reported that he said he wanted children “within the next couple months” and quoted: “I must have children. I must get children today” and “I will be a dad in the next few months, guys. I am telling you.”
+- It said Clavicular had not provided further clarification on whether the proposed contest was genuine or satirical.
+
+## Search notes
+
+A narrow X API search during packet preparation did not locate the cited Domahhhh thread text or a primary Clavicular statement. It did locate public posts discussing a “500 girl modeling competition” and a claim that he had broken down after a girlfriend was pregnant. Those posts are weak evidence unless tied back to original clips or statements.
+
+
+[plaintiff] PX-3 Primary-source leads and packet assessment
+# Primary evidence
+
+## Preserved primary/platform evidence
+
+- Polymarket market page: https://polymarket.com/event/clavicular-pregnancy-in-2026
+- Polymarket Gamma API event record: https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+- Captured files: source-captures/polymarket-page.txt; source-captures/polymarket-gamma-event.json; source-captures/polymarket-market-image.jpg
+
+The official market rule requires a credible announcement by Clavicular that he and a partner are expecting a baby through pregnancy during the specified window.
+
+## Potential primary-source leads not locally preserved
+
+- Clavicular's Kick page or VODs: https://kick.com/clavicular/videos, referenced by Hindustan Times.
+- Domahhhh's April 30 X thread about the oracle dispute: https://x.com/domahhhh/status/2049886900513657218, referenced by Forbes.
+- JexTrade's April 29 X post about a large No buy, referenced by Forbes.
+- @holy_moses7 posts claiming the market had been “confirmed to resolve as ‘No’ two days ago,” referenced by Forbes.
+- The viral Kick Champ post that Times of India says claimed Clavicular was “expecting his first child with a girlfriend he met 10 days ago.” The exact source URL was not captured.
+
+## Preliminary source assessment
+
+The preserved primary evidence proves the contract wording and the platform's final Yes state. It does not itself prove that a qualifying credible announcement occurred. The fact question remains dependent on locating and evaluating the underlying statement, clip, representative statement, or credible-media consensus.
+
+
+[plaintiff] PX-4 Current Polymarket Gamma API extraction
+Source: https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/polymarket-gamma-clavicular-pregnancy-20260630.json; size 7273 bytes; sha256 38264d301c3adad29fef3b6e7116dfcaa7e2302903bde1c46457831ec1a41335.
+
+Relevant extracted fields from the returned JSON:
+- Event id: 400878
+- Ticker/slug: clavicular-pregnancy-in-2026
+- Title: Clavicular pregnancy in 2026?
+- Description/rule: This market resolves Yes if Clavicular announces that he and a partner are expecting a baby through pregnancy between market creation and December 31, 2026, 11:59 PM ET; otherwise No. Only credible announcements qualify; non-credible announcements, for example jokes, do not suffice. Resolution source is statements from Clavicular or representatives, though definitive consensus of credible media reporting may be considered.
+- Event creationDate/startDate: 2026-04-20T22:47:28.569518Z / 2026-04-20T22:47:28.569523Z.
+- Event endDate: 2026-12-31T00:00:00Z.
+- UpdatedAt in fetched JSON: 2026-06-30T02:49:27.136133Z.
+- Event active true, closed true, archived false, restricted true.
+- Event volume: 13934862.960998023; openInterest: 5749723.168803; commentCount: 1124.
+
+Market object:
+- Market id: 2037907.
+- conditionId: 0x6747bae2269c348786d0c0c0f4286ac006f13f16325d4dcbab954b46de029f19.
+- questionID: 0x24b6bade3cce1deaee8a6381420b7fb88b0f409b447747471b0245061d986280.
+- outcomes: ["Yes", "No"].
+- outcomePrices: ["1", "0"].
+- closedTime: 2026-05-01 00:33:40+00; umaEndDate 2026-05-01T00:33:40Z.
+- umaResolutionStatus: resolved.
+- umaResolutionStatuses: ["proposed", "disputed", "proposed", "disputed"].
+- automaticallyResolved: true.
+- resolvedBy: 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7C.
+- lastTradePrice: 0.999; bestBid/bestAsk: 0.998 / 0.999.
+
+Event metadata context_description in current API says trader consensus locked in a 99.9% implied probability for Yes, driven by Clavicular's repeated public vows to become a father by year-end, a fertility-stack reveal, and a controversial pitch for a dating show to select a baby mama from 500 contestants. It also describes debunked rumors of an 18-year-old girlfriend's pregnancy after just 10 days and says those rumors amplified the narrative of imminent fatherhood. This API metadata supports the existence of market momentum and final Yes, but it also shows the platform context was not limited to a clean verified pregnancy announcement.
+
+[plaintiff] PX-5 KickChamp X mirror extraction
+Source: fxtwitter API capture for https://x.com/Kick_Champ/status/2047948248048902259
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/kickchamp-2047948248048902259-fxtwitter.json; size 6230 bytes; sha256 a676924c0f0ac02dc4c0ecfadbf1b76d7c30c57de8b716ae1ae6a3af944b5cda. Attached video also downloaded privately from the media URL; size about 3.9 MB; sha256 61c0afc471bf404308d6995ac2ba59ee422baee6ca9327d0ef8a101c61d25e73. The container lacked ffprobe/file/cv2/PIL/moviepy/imageio, so I did not extract transcript or frames from the video in this turn.
+
+Relevant extracted fields from fxtwitter JSON:
+- Original URL: https://x.com/Kick_Champ/status/2047948248048902259
+- Tweet id: 2047948248048902259
+- Author screen name: Kick_Champ; display name KickChamp; profile description in capture: "Most Reliable News Source"; verified organization in capture; follower count in capture 194329.
+- Created at: Sat Apr 25 07:58:06 +0000 2026.
+- Text: "Clavicular broke down in TEARS after finding out his girlfriend he met 10 days ago is PREGNANT, leaving him overwhelmed and in SHOCK after becoming a father at just 20 years old" followed by eyes emoji.
+- Engagement fields in capture: replies 3162, retweets 450, likes 19096, bookmarks 7468, quotes 892, views 15582772.
+- Attached media: video, id 2047947857685282816, duration 16.9 seconds, 1080x1080, mp4 URL https://video.twimg.com/amplify_video/2047947857685282816/vid/avc1/1080x1080/CBB_ZOMeBbFmce3n.mp4?tag=21 and thumbnail URL https://pbs.twimg.com/amplify_video_thumb/2047947857685282816/img/6gE6tClZ_KS8qp1G.jpg.
+- Community note text in capture: "A pregnancy test cannot detect a pregnancy until at least 2 weeks after you have unprotected sex." It links to a GoodRx URL via t.co.
+
+Weight note: This is not a statement from Clavicular. It is the viral social post/fan-news claim that later fact checks discussed. It supports that a widely viewed claim of a girlfriend pregnancy circulated during the period; its community note and lack of direct speaker context undermine its weight as proof of a credible Clavicular announcement.
+
+[plaintiff] PX-6 Domahhhh X mirror extraction
+Source: fxtwitter API capture for https://x.com/Domahhhh/status/2049886900513657218
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/domahhhh-2049886900513657218-fxtwitter.json; size 12802 bytes; sha256 ecfd96e939dc04dca0fd52dfde9d958a5036e7c1a2058e770e39ade4827d9d30.
+
+Relevant extracted fields:
+- Original URL: https://x.com/Domahhhh/status/2049886900513657218
+- Tweet id: 2049886900513657218
+- Author screen name: Domahhhh; captured profile says "Full-time political bettor since 2007"; verified individual; follower count in capture 40862.
+- Created at: Thu Apr 30 16:21:36 +0000 2026.
+- Engagement fields in capture: replies 128, retweets 52, likes 797, bookmarks 146, quotes 17, views 478463.
+- Attached media: four images with pbs.twimg.com media URLs and dimensions, apparently screenshots relevant to the thread.
+
+Relevant text extraction from the thread:
+The author criticizes UMA/Polymarket oracle governance, saying it has been taken over by traders with positions. On the Clavicular market, the thread states that Clavicular "claimed/joked that he got a girl pregnant" and said she was pregnant within 10 days of meeting him. It says he offered no proof and talked about it vaguely, sometimes implying truth and sometimes joke. It acknowledges Polymarket had a pregnancy-announcement market and says Clavicular was aware of it. The author argues a streamer whose brand is viral clips is not inherently credible, especially with vague comments, and that the rules require a credible claim. It says many long-time Polymarket users thought it should not count, notes that a positive pregnancy test within 10 days is next-to-impossible, and claims the market was going to resolve Yes because UMA Rocks influenced voting. It further says Clavicular's "announcement" was a few days earlier, but that it was very unlikely anyone was pregnant and likely a viral joke.
+
+Weight note: This is adverse to plaintiff on credibility and source-chain reliability, but it also tends to confirm that there was at least an underlying Clavicular statement characterized as "claimed/joked that he got a girl pregnant" and that the market dispute turned on whether that statement was credible enough. The author appears to be a politically/economically interested Polymarket commentator rather than a neutral primary source; use for dispute context, not as conclusive truth.
+
+[defendant] DX-1 Missing primary source and record gaps
+# Unresolved record gaps
+
+1. The packet does not contain the original Clavicular livestream clip, VOD, transcript, or representative statement that allegedly triggered the Yes proposal.
+2. The packet does not contain the Polymarket clarification Forbes refers to when it says the “platform clarification” said No.
+3. The packet does not contain UMA proposer, disputer, or voter records beyond Polymarket's API status fields.
+4. The exact meaning of “credible” is not defined beyond the rule's example excluding jokes.
+5. The Gamma API event endDate field is 2026-12-31T00:00:00Z, while the rule text says December 31, 2026, 11:59 PM ET. The arbitration proposition follows the rule text.
+6. Located secondary reporting conflicts in emphasis: Forbes describes a streamer who told his audience he had gotten a girl pregnant, while Times of India says no statement from Clavicular confirmed a pregnancy and no video confirmed it. The original source material is necessary for a closed-record conclusion.
+7. The market closed before the stated December 31, 2026 deadline. The packet records the final Yes state but does not evaluate whether early resolution was procedurally proper, because the arbitration proposition is the factual condition only.
+
+
+[defendant] DX-2 Packet assessment: platform state does not prove announcement
+# Primary evidence
+
+## Preserved primary/platform evidence
+
+- Polymarket market page: https://polymarket.com/event/clavicular-pregnancy-in-2026
+- Polymarket Gamma API event record: https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+- Captured files: source-captures/polymarket-page.txt; source-captures/polymarket-gamma-event.json; source-captures/polymarket-market-image.jpg
+
+The official market rule requires a credible announcement by Clavicular that he and a partner are expecting a baby through pregnancy during the specified window.
+
+## Potential primary-source leads not locally preserved
+
+- Clavicular's Kick page or VODs: https://kick.com/clavicular/videos, referenced by Hindustan Times.
+- Domahhhh's April 30 X thread about the oracle dispute: https://x.com/domahhhh/status/2049886900513657218, referenced by Forbes.
+- JexTrade's April 29 X post about a large No buy, referenced by Forbes.
+- @holy_moses7 posts claiming the market had been “confirmed to resolve as ‘No’ two days ago,” referenced by Forbes.
+- The viral Kick Champ post that Times of India says claimed Clavicular was “expecting his first child with a girlfriend he met 10 days ago.” The exact source URL was not captured.
+
+## Preliminary source assessment
+
+The preserved primary evidence proves the contract wording and the platform's final Yes state. It does not itself prove that a qualifying credible announcement occurred. The fact question remains dependent on locating and evaluating the underlying statement, clip, representative statement, or credible-media consensus.
+
+
+[defendant] DX-3 KickChamp viral claim and community-note problem
+Source: fxtwitter API capture for https://x.com/Kick_Champ/status/2047948248048902259
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/kickchamp-2047948248048902259-fxtwitter.json; size 6230 bytes; sha256 a676924c0f0ac02dc4c0ecfadbf1b76d7c30c57de8b716ae1ae6a3af944b5cda. Attached video also downloaded privately from the media URL; size about 3.9 MB; sha256 61c0afc471bf404308d6995ac2ba59ee422baee6ca9327d0ef8a101c61d25e73. The container lacked ffprobe/file/cv2/PIL/moviepy/imageio, so I did not extract transcript or frames from the video in this turn.
+
+Relevant extracted fields from fxtwitter JSON:
+- Original URL: https://x.com/Kick_Champ/status/2047948248048902259
+- Tweet id: 2047948248048902259
+- Author screen name: Kick_Champ; display name KickChamp; profile description in capture: "Most Reliable News Source"; verified organization in capture; follower count in capture 194329.
+- Created at: Sat Apr 25 07:58:06 +0000 2026.
+- Text: "Clavicular broke down in TEARS after finding out his girlfriend he met 10 days ago is PREGNANT, leaving him overwhelmed and in SHOCK after becoming a father at just 20 years old" followed by eyes emoji.
+- Engagement fields in capture: replies 3162, retweets 450, likes 19096, bookmarks 7468, quotes 892, views 15582772.
+- Attached media: video, id 2047947857685282816, duration 16.9 seconds, 1080x1080, mp4 URL https://video.twimg.com/amplify_video/2047947857685282816/vid/avc1/1080x1080/CBB_ZOMeBbFmce3n.mp4?tag=21 and thumbnail URL https://pbs.twimg.com/amplify_video_thumb/2047947857685282816/img/6gE6tClZ_KS8qp1G.jpg.
+- Community note text in capture: "A pregnancy test cannot detect a pregnancy until at least 2 weeks after you have unprotected sex." It links to a GoodRx URL via t.co.
+
+Weight note: This is not a statement from Clavicular. It is the viral social post/fan-news claim that later fact checks discussed. It supports that a widely viewed claim of a girlfriend pregnancy circulated during the period; its community note and lack of direct speaker context undermine its weight as proof of a credible Clavicular announcement.
+
+[defendant] DX-4 Domahhhh credibility critique and claimed/joked framing
+Source: fxtwitter API capture for https://x.com/Domahhhh/status/2049886900513657218
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/domahhhh-2049886900513657218-fxtwitter.json; size 12802 bytes; sha256 ecfd96e939dc04dca0fd52dfde9d958a5036e7c1a2058e770e39ade4827d9d30.
+
+Relevant extracted fields:
+- Original URL: https://x.com/Domahhhh/status/2049886900513657218
+- Tweet id: 2049886900513657218
+- Author screen name: Domahhhh; captured profile says "Full-time political bettor since 2007"; verified individual; follower count in capture 40862.
+- Created at: Thu Apr 30 16:21:36 +0000 2026.
+- Engagement fields in capture: replies 128, retweets 52, likes 797, bookmarks 146, quotes 17, views 478463.
+- Attached media: four images with pbs.twimg.com media URLs and dimensions, apparently screenshots relevant to the thread.
+
+Relevant text extraction from the thread:
+The author criticizes UMA/Polymarket oracle governance, saying it has been taken over by traders with positions. On the Clavicular market, the thread states that Clavicular "claimed/joked that he got a girl pregnant" and said she was pregnant within 10 days of meeting him. It says he offered no proof and talked about it vaguely, sometimes implying truth and sometimes joke. It acknowledges Polymarket had a pregnancy-announcement market and says Clavicular was aware of it. The author argues a streamer whose brand is viral clips is not inherently credible, especially with vague comments, and that the rules require a credible claim. It says many long-time Polymarket users thought it should not count, notes that a positive pregnancy test within 10 days is next-to-impossible, and claims the market was going to resolve Yes because UMA Rocks influenced voting. It further says Clavicular's "announcement" was a few days earlier, but that it was very unlikely anyone was pregnant and likely a viral joke.
+
+Weight note: This is adverse to plaintiff on credibility and source-chain reliability, but it also tends to confirm that there was at least an underlying Clavicular statement characterized as "claimed/joked that he got a girl pregnant" and that the market dispute turned on whether that statement was credible enough. The author appears to be a politically/economically interested Polymarket commentator rather than a neutral primary source; use for dispute context, not as conclusive truth.
+
+[defendant] DX-5 Gamma API context shows noisy rumor/stunt basis
+Source: https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/polymarket-gamma-clavicular-pregnancy-20260630.json; size 7273 bytes; sha256 38264d301c3adad29fef3b6e7116dfcaa7e2302903bde1c46457831ec1a41335.
+
+Relevant extracted fields from the returned JSON:
+- Event id: 400878
+- Ticker/slug: clavicular-pregnancy-in-2026
+- Title: Clavicular pregnancy in 2026?
+- Description/rule: This market resolves Yes if Clavicular announces that he and a partner are expecting a baby through pregnancy between market creation and December 31, 2026, 11:59 PM ET; otherwise No. Only credible announcements qualify; non-credible announcements, for example jokes, do not suffice. Resolution source is statements from Clavicular or representatives, though definitive consensus of credible media reporting may be considered.
+- Event creationDate/startDate: 2026-04-20T22:47:28.569518Z / 2026-04-20T22:47:28.569523Z.
+- Event endDate: 2026-12-31T00:00:00Z.
+- UpdatedAt in fetched JSON: 2026-06-30T02:49:27.136133Z.
+- Event active true, closed true, archived false, restricted true.
+- Event volume: 13934862.960998023; openInterest: 5749723.168803; commentCount: 1124.
+
+Market object:
+- Market id: 2037907.
+- conditionId: 0x6747bae2269c348786d0c0c0f4286ac006f13f16325d4dcbab954b46de029f19.
+- questionID: 0x24b6bade3cce1deaee8a6381420b7fb88b0f409b447747471b0245061d986280.
+- outcomes: ["Yes", "No"].
+- outcomePrices: ["1", "0"].
+- closedTime: 2026-05-01 00:33:40+00; umaEndDate 2026-05-01T00:33:40Z.
+- umaResolutionStatus: resolved.
+- umaResolutionStatuses: ["proposed", "disputed", "proposed", "disputed"].
+- automaticallyResolved: true.
+- resolvedBy: 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7C.
+- lastTradePrice: 0.999; bestBid/bestAsk: 0.998 / 0.999.
+
+Event metadata context_description in current API says trader consensus locked in a 99.9% implied probability for Yes, driven by Clavicular's repeated public vows to become a father by year-end, a fertility-stack reveal, and a controversial pitch for a dating show to select a baby mama from 500 contestants. It also describes debunked rumors of an 18-year-old girlfriend's pregnancy after just 10 days and says those rumors amplified the narrative of imminent fatherhood. This API metadata supports the existence of market momentum and final Yes, but it also shows the platform context was not limited to a clean verified pregnancy announcement.
+
+[plaintiff] PX-R1 Forbes and conflicting secondary reporting
+# Secondary reporting
+
+## Forbes: Polymarket's $16M Clavicular Bet Sparks Oracle Dispute
+
+URL: https://www.forbes.com/sites/digital-assets/2026/04/30/inmates-taking-the-asylum-polymarkets-16m-clavicular-bet/
+Captured file: source-captures/forbes-clavicular-bet.txt
+
+Relevant excerpts from the readable capture:
+
+- Forbes identified the disputed market as “Clavicular pregnancy in 2026?” and reported $16.46 million in lifetime volume, roughly $4.5 million in the prior 24 hours, Yes shares at 97 cents, and UMA dispute status as of April 30.
+- Forbes summarized the dispute: “The argument is over what counts as a credible pregnancy announcement from a streamer who told his audience he had gotten a girl pregnant. The market’s own rules state that ‘pregnancy announcements that are not credible, for example jokes, will not suffice.’”
+- Forbes reported that other traders, including @holy_moses7, said the market had been “confirmed to resolve as ‘No’ two days ago,” while Yes shares rose anyway.
+- Forbes wrote: “Across the orderbook, the disagreement is binary. The market description and the platform clarification say No. The price says Yes. The oracle, after two dispute rounds, has not closed the gap.”
+- Forbes linked the Domahhhh thread at https://x.com/domahhhh/status/2049886900513657218 and described it as alleging that Polymarket's oracle had become “a disinformation engine” run by “rogue traders.”
+
+## Times of India fact check
+
+URL: https://timesofindia.indiatimes.com/world/us-streamers/fact-check-is-clavicular-really-expecting-his-first-child-after-10-days-relationship-amid-viral-pregnancy-contest-rumor/articleshow/130539375.cms
+Captured file: source-captures/timesofindia-fact-check.txt
+
+Relevant excerpts from the readable capture:
+
+- The article says the rumor claimed Clavicular was expecting his first child with a girlfriend he met 10 days earlier.
+- It says there was “no proof, no confirmed girlfriend, and no medical update.”
+- It reports that no video confirmed a pregnancy and no statement from Clavicular confirmed it.
+- It identifies a separate livestream statement: “I must have children. I must get children today. I will be a dad in the next few months, guys. I am telling you.”
+- It concludes: “Right now, the truth is that there is no confirmed pregnancy. The viral claim is false and likely came from a mix of jokes, clips taken out of context, and his own controversial content style.”
+
+## Hindustan Times
+
+URL: https://www.hindustantimes.com/world-news/us-news/claviculars-bizarre-pregnancy-contest-claim-sparks-backlash-on-social-media-i-will-be-a-dad-101776968389298.html
+Captured file: source-captures/hindustantimes-pregnancy-contest.txt
+
+Relevant excerpts from the readable capture:
+
+- Hindustan Times reported a livestream suggestion for a contest involving 500 women, structured like a beauty-pageant type contest, with the winner becoming impregnated by him.
+- It quoted Peters as saying: “I must have children. I must get children today” and “I will be a dad in the next few months, guys. I am telling you.”
+- The article treated the remarks as a controversial proposal or stunt, not as confirmation that a partner was already pregnant.
+
+## The Express Tribune
+
+URL: https://tribune.com.pk/story/2604737/claviculars-pregnancy-contest-claim-sparks-backlash-after-controversial-live-stream-comments
+Captured file: source-captures/tribune-pregnancy-contest.txt
+
+Relevant excerpts from the readable capture:
+
+- The article reported that Braden Peters, known as Clavicular, proposed a “pregnancy contest” during a livestream.
+- It reported that he said he wanted children “within the next couple months” and quoted: “I must have children. I must get children today” and “I will be a dad in the next few months, guys. I am telling you.”
+- It said Clavicular had not provided further clarification on whether the proposed contest was genuine or satirical.
+
+## Search notes
+
+A narrow X API search during packet preparation did not locate the cited Domahhhh thread text or a primary Clavicular statement. It did locate public posts discussing a “500 girl modeling competition” and a claim that he had broken down after a girlfriend was pregnant. Those posts are weak evidence unless tied back to original clips or statements.
+
+
+[plaintiff] PX-R2 KickChamp contemporaneous claim and community note
+Source: fxtwitter API capture for https://x.com/Kick_Champ/status/2047948248048902259
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/kickchamp-2047948248048902259-fxtwitter.json; size 6230 bytes; sha256 a676924c0f0ac02dc4c0ecfadbf1b76d7c30c57de8b716ae1ae6a3af944b5cda. Attached video also downloaded privately from the media URL; size about 3.9 MB; sha256 61c0afc471bf404308d6995ac2ba59ee422baee6ca9327d0ef8a101c61d25e73. The container lacked ffprobe/file/cv2/PIL/moviepy/imageio, so I did not extract transcript or frames from the video in this turn.
+
+Relevant extracted fields from fxtwitter JSON:
+- Original URL: https://x.com/Kick_Champ/status/2047948248048902259
+- Tweet id: 2047948248048902259
+- Author screen name: Kick_Champ; display name KickChamp; profile description in capture: "Most Reliable News Source"; verified organization in capture; follower count in capture 194329.
+- Created at: Sat Apr 25 07:58:06 +0000 2026.
+- Text: "Clavicular broke down in TEARS after finding out his girlfriend he met 10 days ago is PREGNANT, leaving him overwhelmed and in SHOCK after becoming a father at just 20 years old" followed by eyes emoji.
+- Engagement fields in capture: replies 3162, retweets 450, likes 19096, bookmarks 7468, quotes 892, views 15582772.
+- Attached media: video, id 2047947857685282816, duration 16.9 seconds, 1080x1080, mp4 URL https://video.twimg.com/amplify_video/2047947857685282816/vid/avc1/1080x1080/CBB_ZOMeBbFmce3n.mp4?tag=21 and thumbnail URL https://pbs.twimg.com/amplify_video_thumb/2047947857685282816/img/6gE6tClZ_KS8qp1G.jpg.
+- Community note text in capture: "A pregnancy test cannot detect a pregnancy until at least 2 weeks after you have unprotected sex." It links to a GoodRx URL via t.co.
+
+Weight note: This is not a statement from Clavicular. It is the viral social post/fan-news claim that later fact checks discussed. It supports that a widely viewed claim of a girlfriend pregnancy circulated during the period; its community note and lack of direct speaker context undermine its weight as proof of a credible Clavicular announcement.
+
+[plaintiff] PX-R3 Domahhhh adverse confirmation of claimed/joked statement
+Source: fxtwitter API capture for https://x.com/Domahhhh/status/2049886900513657218
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/domahhhh-2049886900513657218-fxtwitter.json; size 12802 bytes; sha256 ecfd96e939dc04dca0fd52dfde9d958a5036e7c1a2058e770e39ade4827d9d30.
+
+Relevant extracted fields:
+- Original URL: https://x.com/Domahhhh/status/2049886900513657218
+- Tweet id: 2049886900513657218
+- Author screen name: Domahhhh; captured profile says "Full-time political bettor since 2007"; verified individual; follower count in capture 40862.
+- Created at: Thu Apr 30 16:21:36 +0000 2026.
+- Engagement fields in capture: replies 128, retweets 52, likes 797, bookmarks 146, quotes 17, views 478463.
+- Attached media: four images with pbs.twimg.com media URLs and dimensions, apparently screenshots relevant to the thread.
+
+Relevant text extraction from the thread:
+The author criticizes UMA/Polymarket oracle governance, saying it has been taken over by traders with positions. On the Clavicular market, the thread states that Clavicular "claimed/joked that he got a girl pregnant" and said she was pregnant within 10 days of meeting him. It says he offered no proof and talked about it vaguely, sometimes implying truth and sometimes joke. It acknowledges Polymarket had a pregnancy-announcement market and says Clavicular was aware of it. The author argues a streamer whose brand is viral clips is not inherently credible, especially with vague comments, and that the rules require a credible claim. It says many long-time Polymarket users thought it should not count, notes that a positive pregnancy test within 10 days is next-to-impossible, and claims the market was going to resolve Yes because UMA Rocks influenced voting. It further says Clavicular's "announcement" was a few days earlier, but that it was very unlikely anyone was pregnant and likely a viral joke.
+
+Weight note: This is adverse to plaintiff on credibility and source-chain reliability, but it also tends to confirm that there was at least an underlying Clavicular statement characterized as "claimed/joked that he got a girl pregnant" and that the market dispute turned on whether that statement was credible enough. The author appears to be a politically/economically interested Polymarket commentator rather than a neutral primary source; use for dispute context, not as conclusive truth.
+
+[plaintiff] PX-R4 Official Gamma final Yes and context
+Source: https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/polymarket-gamma-clavicular-pregnancy-20260630.json; size 7273 bytes; sha256 38264d301c3adad29fef3b6e7116dfcaa7e2302903bde1c46457831ec1a41335.
+
+Relevant extracted fields from the returned JSON:
+- Event id: 400878
+- Ticker/slug: clavicular-pregnancy-in-2026
+- Title: Clavicular pregnancy in 2026?
+- Description/rule: This market resolves Yes if Clavicular announces that he and a partner are expecting a baby through pregnancy between market creation and December 31, 2026, 11:59 PM ET; otherwise No. Only credible announcements qualify; non-credible announcements, for example jokes, do not suffice. Resolution source is statements from Clavicular or representatives, though definitive consensus of credible media reporting may be considered.
+- Event creationDate/startDate: 2026-04-20T22:47:28.569518Z / 2026-04-20T22:47:28.569523Z.
+- Event endDate: 2026-12-31T00:00:00Z.
+- UpdatedAt in fetched JSON: 2026-06-30T02:49:27.136133Z.
+- Event active true, closed true, archived false, restricted true.
+- Event volume: 13934862.960998023; openInterest: 5749723.168803; commentCount: 1124.
+
+Market object:
+- Market id: 2037907.
+- conditionId: 0x6747bae2269c348786d0c0c0f4286ac006f13f16325d4dcbab954b46de029f19.
+- questionID: 0x24b6bade3cce1deaee8a6381420b7fb88b0f409b447747471b0245061d986280.
+- outcomes: ["Yes", "No"].
+- outcomePrices: ["1", "0"].
+- closedTime: 2026-05-01 00:33:40+00; umaEndDate 2026-05-01T00:33:40Z.
+- umaResolutionStatus: resolved.
+- umaResolutionStatuses: ["proposed", "disputed", "proposed", "disputed"].
+- automaticallyResolved: true.
+- resolvedBy: 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7C.
+- lastTradePrice: 0.999; bestBid/bestAsk: 0.998 / 0.999.
+
+Event metadata context_description in current API says trader consensus locked in a 99.9% implied probability for Yes, driven by Clavicular's repeated public vows to become a father by year-end, a fertility-stack reveal, and a controversial pitch for a dating show to select a baby mama from 500 contestants. It also describes debunked rumors of an 18-year-old girlfriend's pregnancy after just 10 days and says those rumors amplified the narrative of imminent fatherhood. This API metadata supports the existence of market momentum and final Yes, but it also shows the platform context was not limited to a clean verified pregnancy announcement.
+
+[defendant] DX-S1 Remaining source-chain gaps
+# Unresolved record gaps
+
+1. The packet does not contain the original Clavicular livestream clip, VOD, transcript, or representative statement that allegedly triggered the Yes proposal.
+2. The packet does not contain the Polymarket clarification Forbes refers to when it says the “platform clarification” said No.
+3. The packet does not contain UMA proposer, disputer, or voter records beyond Polymarket's API status fields.
+4. The exact meaning of “credible” is not defined beyond the rule's example excluding jokes.
+5. The Gamma API event endDate field is 2026-12-31T00:00:00Z, while the rule text says December 31, 2026, 11:59 PM ET. The arbitration proposition follows the rule text.
+6. Located secondary reporting conflicts in emphasis: Forbes describes a streamer who told his audience he had gotten a girl pregnant, while Times of India says no statement from Clavicular confirmed a pregnancy and no video confirmed it. The original source material is necessary for a closed-record conclusion.
+7. The market closed before the stated December 31, 2026 deadline. The packet records the final Yes state but does not evaluate whether early resolution was procedurally proper, because the arbitration proposition is the factual condition only.
+
+
+[defendant] DX-S2 Viral claim and community-note limitation
+Source: fxtwitter API capture for https://x.com/Kick_Champ/status/2047948248048902259
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/kickchamp-2047948248048902259-fxtwitter.json; size 6230 bytes; sha256 a676924c0f0ac02dc4c0ecfadbf1b76d7c30c57de8b716ae1ae6a3af944b5cda. Attached video also downloaded privately from the media URL; size about 3.9 MB; sha256 61c0afc471bf404308d6995ac2ba59ee422baee6ca9327d0ef8a101c61d25e73. The container lacked ffprobe/file/cv2/PIL/moviepy/imageio, so I did not extract transcript or frames from the video in this turn.
+
+Relevant extracted fields from fxtwitter JSON:
+- Original URL: https://x.com/Kick_Champ/status/2047948248048902259
+- Tweet id: 2047948248048902259
+- Author screen name: Kick_Champ; display name KickChamp; profile description in capture: "Most Reliable News Source"; verified organization in capture; follower count in capture 194329.
+- Created at: Sat Apr 25 07:58:06 +0000 2026.
+- Text: "Clavicular broke down in TEARS after finding out his girlfriend he met 10 days ago is PREGNANT, leaving him overwhelmed and in SHOCK after becoming a father at just 20 years old" followed by eyes emoji.
+- Engagement fields in capture: replies 3162, retweets 450, likes 19096, bookmarks 7468, quotes 892, views 15582772.
+- Attached media: video, id 2047947857685282816, duration 16.9 seconds, 1080x1080, mp4 URL https://video.twimg.com/amplify_video/2047947857685282816/vid/avc1/1080x1080/CBB_ZOMeBbFmce3n.mp4?tag=21 and thumbnail URL https://pbs.twimg.com/amplify_video_thumb/2047947857685282816/img/6gE6tClZ_KS8qp1G.jpg.
+- Community note text in capture: "A pregnancy test cannot detect a pregnancy until at least 2 weeks after you have unprotected sex." It links to a GoodRx URL via t.co.
+
+Weight note: This is not a statement from Clavicular. It is the viral social post/fan-news claim that later fact checks discussed. It supports that a widely viewed claim of a girlfriend pregnancy circulated during the period; its community note and lack of direct speaker context undermine its weight as proof of a credible Clavicular announcement.
+
+[defendant] DX-S3 Claimed/joked, vague, no-proof characterization
+Source: fxtwitter API capture for https://x.com/Domahhhh/status/2049886900513657218
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/domahhhh-2049886900513657218-fxtwitter.json; size 12802 bytes; sha256 ecfd96e939dc04dca0fd52dfde9d958a5036e7c1a2058e770e39ade4827d9d30.
+
+Relevant extracted fields:
+- Original URL: https://x.com/Domahhhh/status/2049886900513657218
+- Tweet id: 2049886900513657218
+- Author screen name: Domahhhh; captured profile says "Full-time political bettor since 2007"; verified individual; follower count in capture 40862.
+- Created at: Thu Apr 30 16:21:36 +0000 2026.
+- Engagement fields in capture: replies 128, retweets 52, likes 797, bookmarks 146, quotes 17, views 478463.
+- Attached media: four images with pbs.twimg.com media URLs and dimensions, apparently screenshots relevant to the thread.
+
+Relevant text extraction from the thread:
+The author criticizes UMA/Polymarket oracle governance, saying it has been taken over by traders with positions. On the Clavicular market, the thread states that Clavicular "claimed/joked that he got a girl pregnant" and said she was pregnant within 10 days of meeting him. It says he offered no proof and talked about it vaguely, sometimes implying truth and sometimes joke. It acknowledges Polymarket had a pregnancy-announcement market and says Clavicular was aware of it. The author argues a streamer whose brand is viral clips is not inherently credible, especially with vague comments, and that the rules require a credible claim. It says many long-time Polymarket users thought it should not count, notes that a positive pregnancy test within 10 days is next-to-impossible, and claims the market was going to resolve Yes because UMA Rocks influenced voting. It further says Clavicular's "announcement" was a few days earlier, but that it was very unlikely anyone was pregnant and likely a viral joke.
+
+Weight note: This is adverse to plaintiff on credibility and source-chain reliability, but it also tends to confirm that there was at least an underlying Clavicular statement characterized as "claimed/joked that he got a girl pregnant" and that the market dispute turned on whether that statement was credible enough. The author appears to be a politically/economically interested Polymarket commentator rather than a neutral primary source; use for dispute context, not as conclusive truth.
+
+[defendant] DX-S4 Noisy Gamma context rather than clean announcement
+Source: https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+Retrieval: 2026-06-30T07:00Z by curl. Local full JSON saved privately at /aar-codex/artifacts/polymarket-gamma-clavicular-pregnancy-20260630.json; size 7273 bytes; sha256 38264d301c3adad29fef3b6e7116dfcaa7e2302903bde1c46457831ec1a41335.
+
+Relevant extracted fields from the returned JSON:
+- Event id: 400878
+- Ticker/slug: clavicular-pregnancy-in-2026
+- Title: Clavicular pregnancy in 2026?
+- Description/rule: This market resolves Yes if Clavicular announces that he and a partner are expecting a baby through pregnancy between market creation and December 31, 2026, 11:59 PM ET; otherwise No. Only credible announcements qualify; non-credible announcements, for example jokes, do not suffice. Resolution source is statements from Clavicular or representatives, though definitive consensus of credible media reporting may be considered.
+- Event creationDate/startDate: 2026-04-20T22:47:28.569518Z / 2026-04-20T22:47:28.569523Z.
+- Event endDate: 2026-12-31T00:00:00Z.
+- UpdatedAt in fetched JSON: 2026-06-30T02:49:27.136133Z.
+- Event active true, closed true, archived false, restricted true.
+- Event volume: 13934862.960998023; openInterest: 5749723.168803; commentCount: 1124.
+
+Market object:
+- Market id: 2037907.
+- conditionId: 0x6747bae2269c348786d0c0c0f4286ac006f13f16325d4dcbab954b46de029f19.
+- questionID: 0x24b6bade3cce1deaee8a6381420b7fb88b0f409b447747471b0245061d986280.
+- outcomes: ["Yes", "No"].
+- outcomePrices: ["1", "0"].
+- closedTime: 2026-05-01 00:33:40+00; umaEndDate 2026-05-01T00:33:40Z.
+- umaResolutionStatus: resolved.
+- umaResolutionStatuses: ["proposed", "disputed", "proposed", "disputed"].
+- automaticallyResolved: true.
+- resolvedBy: 0x65070BE91477460D8A7AeEb94ef92fe056C2f2A7C.
+- lastTradePrice: 0.999; bestBid/bestAsk: 0.998 / 0.999.
+
+Event metadata context_description in current API says trader consensus locked in a 99.9% implied probability for Yes, driven by Clavicular's repeated public vows to become a father by year-end, a fertility-stack reveal, and a controversial pitch for a dating show to select a baby mama from 500 contestants. It also describes debunked rumors of an 18-year-old girlfriend's pregnancy after just 10 days and says those rumors amplified the narrative of imminent fatherhood. This API metadata supports the existence of market momentum and final Yes, but it also shows the platform context was not limited to a clean verified pregnancy announcement.
+
+Submitted evidence:
+[plaintiff arguments] Polymarket Gamma API relevant-field extraction, Clavicular pregnancy market (ev_e0434e9fb3cb_submitted-evidence-01-plaintiff-e0434e9fb3cb)
+Source: https://gamma-api.polymarket.com/events?slug=clavicular-pregnancy-in-2026
+SHA-256: `e0434e9fb3cb05b404fd6d6e00816f140fb388fa5d6ea0f6eabbd37bdc0b2580`
+Bytes: 2492
+Relevance: Preserves current official market/API fields and platform context needed to weigh the market resolution against the underlying announcement requirement.
+
+[plaintiff arguments] KickChamp X post mirror extraction: viral girlfriend-pregnancy claim (ev_427353899105_submitted-evidence-02-plaintiff-427353899105)
+Source: https://x.com/Kick_Champ/status/2047948248048902259
+SHA-256: `4273538991050578e47221aaf43e8e168406849acb89c0d04809447c220c73d2`
+Bytes: 2129
+Relevance: Captures the viral social-source claim about a girlfriend pregnancy, its date, scale, attached media metadata, and community-note credibility challenge.
+
+[plaintiff arguments] Domahhhh X thread mirror extraction: Polymarket/UMA dispute and credibility critique (ev_cdef3f8da65c_submitted-evidence-03-plaintiff-cdef3f8da65c)
+Source: https://x.com/Domahhhh/status/2049886900513657218
+SHA-256: `cdef3f8da65cb9173c6548c7a83e31ddc1ce7ef179bf23d86e33b561b1a65353`
+Bytes: 2410
+Relevance: Preserves a cited thread about the exact market dispute, including adverse credibility critique and confirmation that the dispute centered on Clavicular claiming/joking he got a girl pregnant.
+
+Technical reports:
+[plaintiff] Plaintiff source-chain and search ledger
+Searched exact phrases from the packet and followed official/API and social-source leads. Fetched current Polymarket Gamma API; captured KickChamp and Domahhhh X posts via fxtwitter/vxtwitter because x.com did not render usable content. Saved local JSON hashes and submitted relevant-field extractions. Downloaded KickChamp attached mp4 but did not submit it as interpreted video because ffprobe/file/cv2/PIL/moviepy/imageio were unavailable and no transcript or frame extraction was performed. Principal unresolved gap remains the original Clavicular VOD/clip or full transcript.
+
+[defendant] Defense source-chain check
+Reviewed newly admitted plaintiff X/API extractions and downloaded the KickChamp mp4 from the admitted media URL; hash matched the plaintiff extraction. No transcript or frame analysis was offered because the container lacks ffprobe, ffmpeg, file, strings, and common Python media libraries. Fxtwitter mirrors reproduced the admitted post/thread text, so no duplicate defense evidence was submitted.
+
+[plaintiff] Plaintiff rebuttal source audit
+Reviewed defendant argument and evidence list. Defendant submitted no new source evidence; it relied on plaintiff/original evidence and a technical report confirming the same media-tool limitations. No new outside material was needed. The rebuttal targets weight: community-note and fact-check materials undermine medical proof but do not disprove that a Clavicular-originated announcement/claim occurred.
+
+Call submit_council_vote with vote=demonstrated or vote=not_demonstrated.
+Keep the rationale brief: no more than three sentences.
+
+Council API instructions:
+You are a council member. Decide the proposition from the admitted record.
+You may examine admitted evidence through read-only tools when exact bytes, metadata, or exhibit contents matter.
+Do not search the web, introduce new facts, create new evidence, or upload evidence.
+When ready, call submit_council_vote exactly once with vote=demonstrated or vote=not_demonstrated and a concise rationale.

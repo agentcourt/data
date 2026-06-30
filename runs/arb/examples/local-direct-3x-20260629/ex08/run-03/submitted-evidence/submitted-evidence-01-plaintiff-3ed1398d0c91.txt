@@ -1,0 +1,14 @@
+UNITED STATES DISTRICT COURT, SOUTHERN DISTRICT OF NEW YORK, United States of America v. Nicholas Tartaglione, Case No. 16-CR-832 (KMK), ORDER, Kenneth M. Karas, United States District Judge, dated May 6, 2026.
+
+Relevant captured text:
+- The Court received a request from the New York Times to unseal certain materials filed in the case.
+- The Times sought access to: "A suicide note purportedly authored by Jeffrey Epstein, recovered by Mr. Tartaglione, and then reportedly submitted by Mr. Tartaglione's attorneys in this case (the 'Note')."
+- The Court determined that the Times' request to unseal the alleged "suicide note purportedly authored by Jeffrey Epstein, recovered by . . . Tartaglione, and then reportedly submitted by . . . Tartaglione's attorneys in this case" should be granted.
+- The order recounts that Tartaglione was briefly cellmates with Jeffrey Epstein at the Metropolitan Correctional Center in Manhattan while awaiting trial.
+- The order notes that the Times pointed to a Department of Justice document referencing the Note, and that according to that document, the Note predated Epstein's death by over a week and predated Epstein being placed in a different cell from Tartaglione.
+- The Court concluded that the Note was a judicial document and that public access to the Note promotes accountability and public confidence in the administration of justice.
+- The Court wrote that no party identified any competing consideration that would justify sealing the Note, and agreed that Defendant's repeated public discussion of the Note's contents constituted waiver of attorney-client privilege as to the document.
+- Conclusion: "For the reasons set forth above, the Times' request is granted as to the Note. The Clerk of Court is respectfully directed to docket a copy of the material that was placed in the vault on May 20, 2021, and to unseal the original material placed in the vault on May 20, 2021. The Court reserves decision as to the remainder of the materials requested by the Times."
+- SO ORDERED. Dated: May 6, 2026, White Plains, New York. Kenneth M. Karas, United States District Judge.
+
+Limits/caveats captured: the official order granted access and used the 'purportedly authored' framing; it did not itself authenticate Epstein's handwriting, resolve chain of custody, or decide the subjective intent of the note.

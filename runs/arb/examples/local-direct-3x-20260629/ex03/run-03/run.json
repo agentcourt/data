@@ -1,0 +1,2361 @@
+{
+  "case_id": "arb-ex03-20260629205103",
+  "run_id": "run-arb-ex03-20260629205103",
+  "started_at": "2026-06-29T20:51:03Z",
+  "finished_at": "2026-06-29T21:09:36Z",
+  "status": "ok",
+  "phase": "closed",
+  "resolution": "no_majority",
+  "complaint": {
+    "Proposition": "For the Kalshi market \"What will Trump say during the FIFA World Cup Draw?\", the strike \"Ronaldo\" should resolve Yes because Trump said \"Ronaldo\" in public remarks at the World Cup Draw venue immediately before the formal program, and the market wording plus the governing mention-market terms did not clearly exclude those event-linked remarks."
+  },
+  "evidence_standard": "Preponderance of the evidence.",
+  "council_backend": "councilapi",
+  "attorneys": [
+    {
+      "role": "plaintiff",
+      "interface": "lawyerapi"
+    },
+    {
+      "role": "defendant",
+      "interface": "lawyerapi"
+    }
+  ],
+  "case_files": [
+    {
+      "evidence_id": "ev_eac0f81b7818_formal-draw-archive-note",
+      "name": "formal-draw-archive-note.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_2c7c2c8a2d76_market-page",
+      "name": "market-page.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+      "name": "pre-event-reporter-exchange.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_a373371a8c9c_presmention-terms",
+      "name": "presmention-terms.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+      "name": "submitted-evidence-01-plaintiff-c3ecd221f5a8.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+      "name": "submitted-evidence-02-plaintiff-8637490aafef.txt",
+      "mime_type": "text/plain",
+      "text_readable": true
+    }
+  ],
+  "submitted_evidence": [
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+      "name": "submitted-evidence-01-plaintiff-c3ecd221f5a8.txt",
+      "title": "Kalshi market page extraction for KXTRUMPMENTIONB-25DEC06",
+      "source_url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06",
+      "source_description": "Rendered/public Kalshi market page text opened during plaintiff merits investigation; extracted visible text relevant to market title, rules, source agencies, timing, and series/event/market identifiers.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-29T20:58:10Z",
+      "relevance": "Addresses defendant's asserted gap about full market rule wording, source hierarchy, event condition, timing, and whether the market language excludes pre-event reporter remarks.",
+      "sha256": "c3ecd221f5a875b0a76d66c410ec0dcded6cfe22283fa551b183441ad11814e5",
+      "size_bytes": 1874
+    },
+    {
+      "phase": "arguments",
+      "role": "plaintiff",
+      "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+      "name": "submitted-evidence-02-plaintiff-8637490aafef.txt",
+      "title": "Roll Call/Factba.se formal FIFA World Cup drawing transcript extraction",
+      "source_url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-fifa-world-cup-drawing-december-5-2025/",
+      "source_description": "Rendered Roll Call/Factba.se transcript page opened during plaintiff merits investigation; extracted visible metadata and relevant search results for the formal draw transcript.",
+      "mime_type": "text/plain",
+      "retrieval_timestamp": "2026-06-29T20:58:10Z",
+      "relevance": "Addresses the defense theory that only the formal draw transcript controls, and tests whether the formal attendance transcript contains the strike or competing context.",
+      "sha256": "8637490aafefe57701cc50581d4371fe0fe3bda0b10a5253c861f0536ff25973",
+      "size_bytes": 1511
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_id": "ev_2c7c2c8a2d76_market-page",
+      "sha256": "2c7c2c8a2d76ea6e459f8480fbff707e8a593fb1a7a03f5d63572c4529022f44",
+      "size_bytes": 292,
+      "mime_type": "text/plain",
+      "storage_name": "2c/2c7c2c8a2d76ea6e459f8480fbff707e8a593fb1a7a03f5d63572c4529022f44",
+      "created_at": "2026-06-29T20:51:09Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "market-page.txt",
+      "original_name": "market-page.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+      "sha256": "8637490aafefe57701cc50581d4371fe0fe3bda0b10a5253c861f0536ff25973",
+      "size_bytes": 1511,
+      "mime_type": "text/plain",
+      "storage_name": "86/8637490aafefe57701cc50581d4371fe0fe3bda0b10a5253c861f0536ff25973",
+      "created_at": "2026-06-29T20:59:03Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Roll Call/Factba.se formal FIFA World Cup drawing transcript extraction",
+      "original_name": "submitted-evidence-02-plaintiff-8637490aafef.txt",
+      "source_url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-fifa-world-cup-drawing-december-5-2025/",
+      "source_description": "Rendered Roll Call/Factba.se transcript page opened during plaintiff merits investigation; extracted visible metadata and relevant search results for the formal draw transcript.",
+      "retrieval_timestamp": "2026-06-29T20:58:10Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Addresses the defense theory that only the formal draw transcript controls, and tests whether the formal attendance transcript contains the strike or competing context.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+      "sha256": "9cd6fa5297f3341e80cb207bf43034be06277bfcda0788f9cef68c448a870841",
+      "size_bytes": 19371,
+      "mime_type": "text/plain",
+      "storage_name": "9c/9cd6fa5297f3341e80cb207bf43034be06277bfcda0788f9cef68c448a870841",
+      "created_at": "2026-06-29T20:51:09Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "pre-event-reporter-exchange.txt",
+      "original_name": "pre-event-reporter-exchange.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_a373371a8c9c_presmention-terms",
+      "sha256": "a373371a8c9c6f3ed9cc25fbbf79ac1382c032c58a2bbc835943f9f513222705",
+      "size_bytes": 20910,
+      "mime_type": "text/plain",
+      "storage_name": "a3/a373371a8c9c6f3ed9cc25fbbf79ac1382c032c58a2bbc835943f9f513222705",
+      "created_at": "2026-06-29T20:51:09Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "presmention-terms.txt",
+      "original_name": "presmention-terms.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+      "sha256": "c3ecd221f5a875b0a76d66c410ec0dcded6cfe22283fa551b183441ad11814e5",
+      "size_bytes": 1874,
+      "mime_type": "text/plain",
+      "storage_name": "c3/c3ecd221f5a875b0a76d66c410ec0dcded6cfe22283fa551b183441ad11814e5",
+      "created_at": "2026-06-29T20:58:31Z",
+      "admissibility_status": "submitted_evidence",
+      "record_visibility": "juror_visible",
+      "title": "Kalshi market page extraction for KXTRUMPMENTIONB-25DEC06",
+      "original_name": "submitted-evidence-01-plaintiff-c3ecd221f5a8.txt",
+      "source_url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06",
+      "source_description": "Rendered/public Kalshi market page text opened during plaintiff merits investigation; extracted visible text relevant to market title, rules, source agencies, timing, and series/event/market identifiers.",
+      "retrieval_timestamp": "2026-06-29T20:58:10Z",
+      "submitted_by_role": "plaintiff",
+      "submitted_phase": "arguments",
+      "relevance": "Addresses defendant's asserted gap about full market rule wording, source hierarchy, event condition, timing, and whether the market language excludes pre-event reporter remarks.",
+      "text_readable": true
+    },
+    {
+      "evidence_id": "ev_eac0f81b7818_formal-draw-archive-note",
+      "sha256": "eac0f81b781801887056b379dd27ffd9568dd807f817d1e64aa6cf98d7de73ea",
+      "size_bytes": 1060,
+      "mime_type": "text/plain",
+      "storage_name": "ea/eac0f81b781801887056b379dd27ffd9568dd807f817d1e64aa6cf98d7de73ea",
+      "created_at": "2026-06-29T20:51:09Z",
+      "admissibility_status": "case_packet",
+      "record_visibility": "juror_visible",
+      "title": "formal-draw-archive-note.txt",
+      "original_name": "formal-draw-archive-note.txt",
+      "source_description": "Initial case packet file",
+      "submitted_by_role": "system",
+      "submitted_phase": "case_packet",
+      "text_readable": true
+    }
+  ],
+  "council": [
+    {
+      "member_id": "C1",
+      "model": "openrouter://openai/gpt-oss-120b",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "openai/gpt-oss-120b",
+        "provider": {
+          "only": [
+            "wandb/fp4"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "fp4"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "wandb/fp4",
+          "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+          "equivalence_class_size": 4,
+          "equivalence_key": {
+            "canonical_slug": "openai/gpt-oss-120b",
+            "endpoint_model_id": "openai/gpt-oss-120b",
+            "hugging_face_id": "openai/gpt-oss-120b",
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "openai/gpt-oss-120b",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "fp4"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                5,
+                2,
+                7,
+                6
+              ],
+              "context_length": 128072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "BaseTen | openai/gpt-oss-120b",
+              "endpoint_tag": "baseten/fp4",
+              "endpoint_variant_id": "5b8fd962e720704511d858ef",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 337,
+                "p75": 507.75,
+                "p90": 870,
+                "p99": 2469.339999999993
+              },
+              "max_completion_tokens": 128072,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.0000005",
+              "pricing_prompt": "0.0000001",
+              "provider_error_count": null,
+              "provider_name": "BaseTen",
+              "quantization": "fp4",
+              "schema_violation_count": null,
+              "source_row": 11,
+              "supported_parameters": [
+                "include_reasoning",
+                "max_tokens",
+                "reasoning",
+                "response_format",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 99.99066484942402,
+              "uptime_last_30m": 100
+            },
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                1,
+                2,
+                0,
+                0
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Novita | openai/gpt-oss-120b",
+              "endpoint_tag": "novita/fp4",
+              "endpoint_variant_id": "91f0716b29daa0efa735024a",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 680,
+                "p75": 843,
+                "p90": 1115,
+                "p99": 25671.150000000307
+              },
+              "max_completion_tokens": 32768,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.00000025",
+              "pricing_prompt": "0.00000005",
+              "provider_error_count": null,
+              "provider_name": "Novita",
+              "quantization": "fp4",
+              "schema_violation_count": null,
+              "source_row": 19,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "logprobs",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_logprobs",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 98.46333610739835,
+              "uptime_last_30m": 99.80074010816966
+            },
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                1,
+                2,
+                0,
+                6
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Nebius | openai/gpt-oss-120b",
+              "endpoint_tag": "nebius/fp4",
+              "endpoint_variant_id": "9a61c3f69299805820171815",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 337,
+                "p75": 536,
+                "p90": 1034,
+                "p99": 4111.260000000002
+              },
+              "max_completion_tokens": null,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.0000006",
+              "pricing_prompt": "0.00000015",
+              "provider_error_count": null,
+              "provider_name": "Nebius",
+              "quantization": "fp4",
+              "schema_violation_count": null,
+              "source_row": 21,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 96.44624358589685,
+              "uptime_last_30m": 100
+            },
+            {
+              "canonical_slug": "openai/gpt-oss-120b",
+              "clusters": [
+                5,
+                2,
+                0,
+                6
+              ],
+              "context_length": 131072,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "WandB | openai/gpt-oss-120b",
+              "endpoint_tag": "wandb/fp4",
+              "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "openai/gpt-oss-120b",
+              "latency_last_30m": {
+                "p50": 356,
+                "p75": 518,
+                "p90": 1059.800000000001,
+                "p99": 6987.450000000001
+              },
+              "max_completion_tokens": 131072,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-oss-120b",
+              "pricing_completion": "0.00000014",
+              "pricing_prompt": "0.00000004",
+              "provider_error_count": null,
+              "provider_name": "WandB",
+              "quantization": "fp4",
+              "schema_violation_count": null,
+              "source_row": 29,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "logprobs",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_logprobs",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 94.75717062587358,
+              "uptime_last_30m": 99.58315769753173
+            }
+          ],
+          "openrouter_model_id": "openai/gpt-oss-120b",
+          "provider_name": "WandB",
+          "quantization": "fp4",
+          "representative_endpoint_variant_id": "d5742e9c2e50f2724df63028",
+          "representative_source_row": 29
+        }
+      }
+    },
+    {
+      "member_id": "C2",
+      "model": "openrouter://x-ai/grok-4.20-multi-agent",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "x-ai/grok-4.20-multi-agent",
+        "provider": {
+          "only": [
+            "xai"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "xai",
+          "endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
+            "endpoint_model_id": "x-ai/grok-4.20-multi-agent",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "file",
+              "image",
+              "text"
+            ],
+            "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
+              "clusters": [
+                6,
+                2,
+                5,
+                4
+              ],
+              "context_length": 2000000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "xAI | x-ai/grok-4.20-multi-agent-20260309",
+              "endpoint_tag": "xai",
+              "endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "",
+              "latency_last_30m": {
+                "p50": 27274,
+                "p75": 31651,
+                "p90": 34890,
+                "p99": 41217.87999999997
+              },
+              "max_completion_tokens": null,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+              "pricing_completion": "0.0000025",
+              "pricing_prompt": "0.00000125",
+              "provider_error_count": null,
+              "provider_name": "xAI",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 32,
+              "supported_parameters": [
+                "include_reasoning",
+                "logprobs",
+                "max_tokens",
+                "reasoning",
+                "response_format",
+                "seed",
+                "structured_outputs",
+                "temperature",
+                "top_logprobs",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 100,
+              "uptime_last_30m": 100
+            }
+          ],
+          "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+          "provider_name": "xAI",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+          "representative_source_row": 32
+        }
+      }
+    },
+    {
+      "member_id": "C3",
+      "model": "openrouter://nvidia/nemotron-3-nano-30b-a3b",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "nvidia/nemotron-3-nano-30b-a3b",
+        "provider": {
+          "only": [
+            "nebius/fp8"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "fp8"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "nebius/fp8",
+          "endpoint_variant_id": "973fa82716760e986fef9651",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "nvidia/nemotron-3-nano-30b-a3b",
+            "endpoint_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+            "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "fp8"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "nvidia/nemotron-3-nano-30b-a3b",
+              "clusters": [
+                0,
+                2,
+                3,
+                0
+              ],
+              "context_length": 262144,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Nebius | nvidia/nemotron-3-nano-30b-a3b",
+              "endpoint_tag": "nebius/fp8",
+              "endpoint_variant_id": "973fa82716760e986fef9651",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+              "latency_last_30m": {
+                "p50": 2811,
+                "p75": 10653,
+                "p90": 17549.4,
+                "p99": 61441.91999999982
+              },
+              "max_completion_tokens": null,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+              "pricing_completion": "0.00000024",
+              "pricing_prompt": "0.00000006",
+              "provider_error_count": null,
+              "provider_name": "Nebius",
+              "quantization": "fp8",
+              "schema_violation_count": null,
+              "source_row": 20,
+              "supported_parameters": [
+                "frequency_penalty",
+                "include_reasoning",
+                "max_tokens",
+                "presence_penalty",
+                "reasoning",
+                "repetition_penalty",
+                "response_format",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_k",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 82.97945471277622,
+              "uptime_last_30m": 72.33394271785497
+            }
+          ],
+          "openrouter_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+          "provider_name": "Nebius",
+          "quantization": "fp8",
+          "representative_endpoint_variant_id": "973fa82716760e986fef9651",
+          "representative_source_row": 20
+        }
+      }
+    },
+    {
+      "member_id": "C4",
+      "model": "openrouter://relace/relace-search",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "relace/relace-search",
+        "provider": {
+          "only": [
+            "relace/bf16"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true,
+          "quantizations": [
+            "bf16"
+          ]
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "relace/bf16",
+          "endpoint_variant_id": "d099efa1928a65f706e3793e",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "relace/relace-search-20251208",
+            "endpoint_model_id": "relace/relace-search",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "text"
+            ],
+            "openrouter_model_id": "relace/relace-search",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "bf16"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "relace/relace-search-20251208",
+              "clusters": [
+                4,
+                0,
+                4,
+                9
+              ],
+              "context_length": 256000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "Relace | relace/relace-search-20251208",
+              "endpoint_tag": "relace/bf16",
+              "endpoint_variant_id": "d099efa1928a65f706e3793e",
+              "filter_deliberation_score": 1.0,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": null,
+              "latency_last_30m": {
+                "p50": 743,
+                "p75": 952,
+                "p90": 1332.8000000000002,
+                "p99": 2295.639999999999
+              },
+              "max_completion_tokens": 128000,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "relace/relace-search",
+              "pricing_completion": "0.000003",
+              "pricing_prompt": "0.000001",
+              "provider_error_count": null,
+              "provider_name": "Relace",
+              "quantization": "bf16",
+              "schema_violation_count": null,
+              "source_row": 28,
+              "supported_parameters": [
+                "max_tokens",
+                "response_format",
+                "seed",
+                "stop",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_p"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 100,
+              "uptime_last_30m": null
+            }
+          ],
+          "openrouter_model_id": "relace/relace-search",
+          "provider_name": "Relace",
+          "quantization": "bf16",
+          "representative_endpoint_variant_id": "d099efa1928a65f706e3793e",
+          "representative_source_row": 28
+        }
+      }
+    },
+    {
+      "member_id": "C5",
+      "model": "openrouter://openai/gpt-4o-mini",
+      "persona_file": "personas/generic.md",
+      "request_spec": {
+        "endpoint": "openrouter",
+        "model": "openai/gpt-4o-mini",
+        "provider": {
+          "only": [
+            "openai"
+          ],
+          "allow_fallbacks": false,
+          "require_parameters": true
+        },
+        "request": {},
+        "headers": {
+          "X-OpenRouter-Experimental-Metadata": "enabled"
+        },
+        "persona": "personas/generic.md",
+        "variant_metadata": {
+          "endpoint_tag": "openai",
+          "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+          "equivalence_class_size": 1,
+          "equivalence_key": {
+            "canonical_slug": "openai/gpt-4o-mini",
+            "endpoint_model_id": "openai/gpt-4o-mini",
+            "hugging_face_id": null,
+            "input_modalities": [
+              "file",
+              "image",
+              "text"
+            ],
+            "openrouter_model_id": "openai/gpt-4o-mini",
+            "output_modalities": [
+              "text"
+            ],
+            "quantization": "unknown"
+          },
+          "equivalent_endpoints": [
+            {
+              "canonical_slug": "openai/gpt-4o-mini",
+              "clusters": [
+                3,
+                1,
+                6,
+                9
+              ],
+              "context_length": 128000,
+              "context_limit_error_count": null,
+              "deliberation_score": null,
+              "endpoint_name": "OpenAI | openai/gpt-4o-mini",
+              "endpoint_tag": "openai",
+              "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+              "filter_deliberation_score": 0.9444444444444443,
+              "filter_provider_error_count": 0,
+              "hugging_face_id": null,
+              "latency_last_30m": {
+                "p50": 509,
+                "p75": 772,
+                "p90": 1258,
+                "p99": 4127.800000000003
+              },
+              "max_completion_tokens": 16384,
+              "max_prompt_tokens": null,
+              "openrouter_model_id": "openai/gpt-4o-mini",
+              "pricing_completion": "0.0000006",
+              "pricing_prompt": "0.00000015",
+              "provider_error_count": null,
+              "provider_name": "OpenAI",
+              "quantization": "unknown",
+              "schema_violation_count": null,
+              "source_row": 17,
+              "supported_parameters": [
+                "frequency_penalty",
+                "logit_bias",
+                "logprobs",
+                "max_tokens",
+                "presence_penalty",
+                "response_format",
+                "seed",
+                "stop",
+                "structured_outputs",
+                "temperature",
+                "tool_choice",
+                "tools",
+                "top_logprobs",
+                "top_p",
+                "web_search_options"
+              ],
+              "timeout_count": null,
+              "uptime_last_1d": 99.91886470048567,
+              "uptime_last_30m": 99.91261300624772
+            }
+          ],
+          "openrouter_model_id": "openai/gpt-4o-mini",
+          "provider_name": "OpenAI",
+          "quantization": "unknown",
+          "representative_endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+          "representative_source_row": 17
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "timestamp": "2026-06-29T20:51:09.282Z",
+      "turn": 0,
+      "role": "system",
+      "phase": "openings",
+      "type": "council_member_replaced",
+      "payload": {
+        "cause": "responses request failed: POST \"https://openrouter.ai/api/v1/responses\": 404 Not Found {\"message\":\"No endpoints found for anthropic/claude-opus-4.6-fast.\",\"code\":404}",
+        "member_id": "C5",
+        "replacement_model": "openrouter://openai/gpt-4o-mini",
+        "replacement_persona_filename": "personas/generic.md",
+        "unavailable_model": "openrouter://anthropic/claude-opus-4.6-fast",
+        "unavailable_persona_filename": "personas/generic.md"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:51:09.282Z",
+      "turn": 0,
+      "role": "system",
+      "phase": "openings",
+      "type": "run_initialized",
+      "payload": {
+        "attorneys": [
+          {
+            "role": "plaintiff",
+            "interface": "lawyerapi"
+          },
+          {
+            "role": "defendant",
+            "interface": "lawyerapi"
+          }
+        ],
+        "complaint": {
+          "Proposition": "For the Kalshi market \"What will Trump say during the FIFA World Cup Draw?\", the strike \"Ronaldo\" should resolve Yes because Trump said \"Ronaldo\" in public remarks at the World Cup Draw venue immediately before the formal program, and the market wording plus the governing mention-market terms did not clearly exclude those event-linked remarks."
+        },
+        "council": [
+          {
+            "member_id": "C1",
+            "model": "openrouter://openai/gpt-oss-120b",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "openai/gpt-oss-120b",
+              "provider": {
+                "only": [
+                  "wandb/fp4"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "fp4"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "wandb/fp4",
+                "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+                "equivalence_class_size": 4,
+                "equivalence_key": {
+                  "canonical_slug": "openai/gpt-oss-120b",
+                  "endpoint_model_id": "openai/gpt-oss-120b",
+                  "hugging_face_id": "openai/gpt-oss-120b",
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "openai/gpt-oss-120b",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "fp4"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      5,
+                      2,
+                      7,
+                      6
+                    ],
+                    "context_length": 128072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "BaseTen | openai/gpt-oss-120b",
+                    "endpoint_tag": "baseten/fp4",
+                    "endpoint_variant_id": "5b8fd962e720704511d858ef",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 337,
+                      "p75": 507.75,
+                      "p90": 870,
+                      "p99": 2469.339999999993
+                    },
+                    "max_completion_tokens": 128072,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.0000005",
+                    "pricing_prompt": "0.0000001",
+                    "provider_error_count": null,
+                    "provider_name": "BaseTen",
+                    "quantization": "fp4",
+                    "schema_violation_count": null,
+                    "source_row": 11,
+                    "supported_parameters": [
+                      "include_reasoning",
+                      "max_tokens",
+                      "reasoning",
+                      "response_format",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 99.99066484942402,
+                    "uptime_last_30m": 100
+                  },
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      1,
+                      2,
+                      0,
+                      0
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Novita | openai/gpt-oss-120b",
+                    "endpoint_tag": "novita/fp4",
+                    "endpoint_variant_id": "91f0716b29daa0efa735024a",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 680,
+                      "p75": 843,
+                      "p90": 1115,
+                      "p99": 25671.150000000307
+                    },
+                    "max_completion_tokens": 32768,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.00000025",
+                    "pricing_prompt": "0.00000005",
+                    "provider_error_count": null,
+                    "provider_name": "Novita",
+                    "quantization": "fp4",
+                    "schema_violation_count": null,
+                    "source_row": 19,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "logprobs",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_logprobs",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 98.46333610739835,
+                    "uptime_last_30m": 99.80074010816966
+                  },
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      1,
+                      2,
+                      0,
+                      6
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Nebius | openai/gpt-oss-120b",
+                    "endpoint_tag": "nebius/fp4",
+                    "endpoint_variant_id": "9a61c3f69299805820171815",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 337,
+                      "p75": 536,
+                      "p90": 1034,
+                      "p99": 4111.260000000002
+                    },
+                    "max_completion_tokens": null,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.0000006",
+                    "pricing_prompt": "0.00000015",
+                    "provider_error_count": null,
+                    "provider_name": "Nebius",
+                    "quantization": "fp4",
+                    "schema_violation_count": null,
+                    "source_row": 21,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 96.44624358589685,
+                    "uptime_last_30m": 100
+                  },
+                  {
+                    "canonical_slug": "openai/gpt-oss-120b",
+                    "clusters": [
+                      5,
+                      2,
+                      0,
+                      6
+                    ],
+                    "context_length": 131072,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "WandB | openai/gpt-oss-120b",
+                    "endpoint_tag": "wandb/fp4",
+                    "endpoint_variant_id": "d5742e9c2e50f2724df63028",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "openai/gpt-oss-120b",
+                    "latency_last_30m": {
+                      "p50": 356,
+                      "p75": 518,
+                      "p90": 1059.800000000001,
+                      "p99": 6987.450000000001
+                    },
+                    "max_completion_tokens": 131072,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-oss-120b",
+                    "pricing_completion": "0.00000014",
+                    "pricing_prompt": "0.00000004",
+                    "provider_error_count": null,
+                    "provider_name": "WandB",
+                    "quantization": "fp4",
+                    "schema_violation_count": null,
+                    "source_row": 29,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "logprobs",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_logprobs",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 94.75717062587358,
+                    "uptime_last_30m": 99.58315769753173
+                  }
+                ],
+                "openrouter_model_id": "openai/gpt-oss-120b",
+                "provider_name": "WandB",
+                "quantization": "fp4",
+                "representative_endpoint_variant_id": "d5742e9c2e50f2724df63028",
+                "representative_source_row": 29
+              }
+            }
+          },
+          {
+            "member_id": "C2",
+            "model": "openrouter://x-ai/grok-4.20-multi-agent",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "x-ai/grok-4.20-multi-agent",
+              "provider": {
+                "only": [
+                  "xai"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "xai",
+                "endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
+                  "endpoint_model_id": "x-ai/grok-4.20-multi-agent",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "file",
+                    "image",
+                    "text"
+                  ],
+                  "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
+                    "clusters": [
+                      6,
+                      2,
+                      5,
+                      4
+                    ],
+                    "context_length": 2000000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "xAI | x-ai/grok-4.20-multi-agent-20260309",
+                    "endpoint_tag": "xai",
+                    "endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "",
+                    "latency_last_30m": {
+                      "p50": 27274,
+                      "p75": 31651,
+                      "p90": 34890,
+                      "p99": 41217.87999999997
+                    },
+                    "max_completion_tokens": null,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+                    "pricing_completion": "0.0000025",
+                    "pricing_prompt": "0.00000125",
+                    "provider_error_count": null,
+                    "provider_name": "xAI",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 32,
+                    "supported_parameters": [
+                      "include_reasoning",
+                      "logprobs",
+                      "max_tokens",
+                      "reasoning",
+                      "response_format",
+                      "seed",
+                      "structured_outputs",
+                      "temperature",
+                      "top_logprobs",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 100,
+                    "uptime_last_30m": 100
+                  }
+                ],
+                "openrouter_model_id": "x-ai/grok-4.20-multi-agent",
+                "provider_name": "xAI",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "e5db74ef7199f0e8d50951f2",
+                "representative_source_row": 32
+              }
+            }
+          },
+          {
+            "member_id": "C3",
+            "model": "openrouter://nvidia/nemotron-3-nano-30b-a3b",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "nvidia/nemotron-3-nano-30b-a3b",
+              "provider": {
+                "only": [
+                  "nebius/fp8"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "fp8"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "nebius/fp8",
+                "endpoint_variant_id": "973fa82716760e986fef9651",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "nvidia/nemotron-3-nano-30b-a3b",
+                  "endpoint_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+                  "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "fp8"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "nvidia/nemotron-3-nano-30b-a3b",
+                    "clusters": [
+                      0,
+                      2,
+                      3,
+                      0
+                    ],
+                    "context_length": 262144,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Nebius | nvidia/nemotron-3-nano-30b-a3b",
+                    "endpoint_tag": "nebius/fp8",
+                    "endpoint_variant_id": "973fa82716760e986fef9651",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+                    "latency_last_30m": {
+                      "p50": 2811,
+                      "p75": 10653,
+                      "p90": 17549.4,
+                      "p99": 61441.91999999982
+                    },
+                    "max_completion_tokens": null,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+                    "pricing_completion": "0.00000024",
+                    "pricing_prompt": "0.00000006",
+                    "provider_error_count": null,
+                    "provider_name": "Nebius",
+                    "quantization": "fp8",
+                    "schema_violation_count": null,
+                    "source_row": 20,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "include_reasoning",
+                      "max_tokens",
+                      "presence_penalty",
+                      "reasoning",
+                      "repetition_penalty",
+                      "response_format",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_k",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 82.97945471277622,
+                    "uptime_last_30m": 72.33394271785497
+                  }
+                ],
+                "openrouter_model_id": "nvidia/nemotron-3-nano-30b-a3b",
+                "provider_name": "Nebius",
+                "quantization": "fp8",
+                "representative_endpoint_variant_id": "973fa82716760e986fef9651",
+                "representative_source_row": 20
+              }
+            }
+          },
+          {
+            "member_id": "C4",
+            "model": "openrouter://relace/relace-search",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "relace/relace-search",
+              "provider": {
+                "only": [
+                  "relace/bf16"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true,
+                "quantizations": [
+                  "bf16"
+                ]
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "relace/bf16",
+                "endpoint_variant_id": "d099efa1928a65f706e3793e",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "relace/relace-search-20251208",
+                  "endpoint_model_id": "relace/relace-search",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "text"
+                  ],
+                  "openrouter_model_id": "relace/relace-search",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "bf16"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "relace/relace-search-20251208",
+                    "clusters": [
+                      4,
+                      0,
+                      4,
+                      9
+                    ],
+                    "context_length": 256000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "Relace | relace/relace-search-20251208",
+                    "endpoint_tag": "relace/bf16",
+                    "endpoint_variant_id": "d099efa1928a65f706e3793e",
+                    "filter_deliberation_score": 1.0,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": null,
+                    "latency_last_30m": {
+                      "p50": 743,
+                      "p75": 952,
+                      "p90": 1332.8000000000002,
+                      "p99": 2295.639999999999
+                    },
+                    "max_completion_tokens": 128000,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "relace/relace-search",
+                    "pricing_completion": "0.000003",
+                    "pricing_prompt": "0.000001",
+                    "provider_error_count": null,
+                    "provider_name": "Relace",
+                    "quantization": "bf16",
+                    "schema_violation_count": null,
+                    "source_row": 28,
+                    "supported_parameters": [
+                      "max_tokens",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_p"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 100,
+                    "uptime_last_30m": null
+                  }
+                ],
+                "openrouter_model_id": "relace/relace-search",
+                "provider_name": "Relace",
+                "quantization": "bf16",
+                "representative_endpoint_variant_id": "d099efa1928a65f706e3793e",
+                "representative_source_row": 28
+              }
+            }
+          },
+          {
+            "member_id": "C5",
+            "model": "openrouter://openai/gpt-4o-mini",
+            "persona_file": "personas/generic.md",
+            "request_spec": {
+              "endpoint": "openrouter",
+              "model": "openai/gpt-4o-mini",
+              "provider": {
+                "only": [
+                  "openai"
+                ],
+                "allow_fallbacks": false,
+                "require_parameters": true
+              },
+              "request": {},
+              "headers": {
+                "X-OpenRouter-Experimental-Metadata": "enabled"
+              },
+              "persona": "personas/generic.md",
+              "variant_metadata": {
+                "endpoint_tag": "openai",
+                "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+                "equivalence_class_size": 1,
+                "equivalence_key": {
+                  "canonical_slug": "openai/gpt-4o-mini",
+                  "endpoint_model_id": "openai/gpt-4o-mini",
+                  "hugging_face_id": null,
+                  "input_modalities": [
+                    "file",
+                    "image",
+                    "text"
+                  ],
+                  "openrouter_model_id": "openai/gpt-4o-mini",
+                  "output_modalities": [
+                    "text"
+                  ],
+                  "quantization": "unknown"
+                },
+                "equivalent_endpoints": [
+                  {
+                    "canonical_slug": "openai/gpt-4o-mini",
+                    "clusters": [
+                      3,
+                      1,
+                      6,
+                      9
+                    ],
+                    "context_length": 128000,
+                    "context_limit_error_count": null,
+                    "deliberation_score": null,
+                    "endpoint_name": "OpenAI | openai/gpt-4o-mini",
+                    "endpoint_tag": "openai",
+                    "endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+                    "filter_deliberation_score": 0.9444444444444443,
+                    "filter_provider_error_count": 0,
+                    "hugging_face_id": null,
+                    "latency_last_30m": {
+                      "p50": 509,
+                      "p75": 772,
+                      "p90": 1258,
+                      "p99": 4127.800000000003
+                    },
+                    "max_completion_tokens": 16384,
+                    "max_prompt_tokens": null,
+                    "openrouter_model_id": "openai/gpt-4o-mini",
+                    "pricing_completion": "0.0000006",
+                    "pricing_prompt": "0.00000015",
+                    "provider_error_count": null,
+                    "provider_name": "OpenAI",
+                    "quantization": "unknown",
+                    "schema_violation_count": null,
+                    "source_row": 17,
+                    "supported_parameters": [
+                      "frequency_penalty",
+                      "logit_bias",
+                      "logprobs",
+                      "max_tokens",
+                      "presence_penalty",
+                      "response_format",
+                      "seed",
+                      "stop",
+                      "structured_outputs",
+                      "temperature",
+                      "tool_choice",
+                      "tools",
+                      "top_logprobs",
+                      "top_p",
+                      "web_search_options"
+                    ],
+                    "timeout_count": null,
+                    "uptime_last_1d": 99.91886470048567,
+                    "uptime_last_30m": 99.91261300624772
+                  }
+                ],
+                "openrouter_model_id": "openai/gpt-4o-mini",
+                "provider_name": "OpenAI",
+                "quantization": "unknown",
+                "representative_endpoint_variant_id": "88545caab5a2d54d4e1b9561",
+                "representative_source_row": 17
+              }
+            }
+          }
+        ],
+        "council_backend": "councilapi",
+        "council_preflight_replacements": [
+          {
+            "MemberID": "C5",
+            "UnavailableModel": "openrouter://anthropic/claude-opus-4.6-fast",
+            "UnavailablePersonaFile": "personas/generic.md",
+            "ReplacementModel": "openrouter://openai/gpt-4o-mini",
+            "ReplacementPersonaFile": "personas/generic.md",
+            "Cause": "responses request failed: POST \"https://openrouter.ai/api/v1/responses\": 404 Not Found {\"message\":\"No endpoints found for anthropic/claude-opus-4.6-fast.\",\"code\":404}"
+          }
+        ],
+        "evidence_standard": "Preponderance of the evidence."
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:53:43.883Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1060,
+        "evidence_id": "ev_eac0f81b7818_formal-draw-archive-note",
+        "length": 1060,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:53:43.942Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 19371,
+        "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+        "length": 19371,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:53:43.997Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 20910,
+        "evidence_id": "ev_a373371a8c9c_presmention-terms",
+        "length": 20910,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:53:44.053Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 292,
+        "evidence_id": "ev_2c7c2c8a2d76_market-page",
+        "length": 292,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:55:19.124Z",
+      "turn": 1,
+      "role": "plaintiff",
+      "phase": "openings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "record_opening_statement",
+        "opportunity_id": "openings:plaintiff",
+        "payload": {
+          "text": "Council members, this case is about the boundary of the market, not about whether the word was spoken.\n\nThe market page identifies the public market title as: \"What will Trump say during the FIFA World Cup Draw?\" The contract family is PRESMENTION / NEWMENTION, the strike is \"Ronaldo,\" the challenged resolution is No, and the requested resolution is Yes. That is ev_2c7c2c8a2d76_market-page.\n\nThe case-packet transcript is titled \"Remarks in an Exchange With Reporters Prior to the 2026 Fédération Internationale des Associations de Football (FIFA) World Cup Draw,\" dated December 5, 2025. It places the remarks at the John F. Kennedy Center for the Performing Arts, repeatedly under World Cup Draw, World Cup, and soccer headings, and records the President answering public reporter questions with FIFA President Infantino present. In that exchange, Trump used the standalone word \"Ronaldo\" in direct soccer-related remarks. He said he had met Ronaldo, that Ronaldo was great, and later compared his own soccer ability by saying he was not Ronaldo or Messi. That is ev_9cd6fa5297f3_pre-event-reporter-exchange.\n\nThe governing terms matter because they do not impose the narrow exclusion Kalshi applied. The NEWMENTION terms define the payout criterion as the word being said by the covered entity during the covered time period. They also recognize that a time period may be an event or context, and they give event-based rules that preserve words stated during the portion of an event that occurs, even where the event is abbreviated, altered, or changed in venue, format, or medium. The technical details exclude behind-the-scenes content, rehearsals, sound checks, and unofficial recordings unless officially broadcast or published as part of the time period. The reporter exchange here is not offered as a rehearsal or leak; it is an admitted public transcript of Presidential remarks connected on its face to the World Cup Draw venue and event. That is ev_a373371a8c9c_presmention-terms.\n\nThe expected defense is that \"during the FIFA World Cup Draw\" means only the formal stage program and not public remarks immediately before it. But the current record does not show that the market said \"formal program only,\" \"televised draw only,\" or \"excluding pre-event remarks at the venue.\" The formal-draw archive note actually underscores the point: a separate archived formal attendance page exists, but this packet does not establish that the formal program transcript controls to the exclusion of the pre-event reporter exchange. It says only that the full formal transcript was not retrieved and that the complaint does not need to prove the formal program contained the strike if the event-linked remarks fall within the market boundary. That is ev_eac0f81b7818_formal-draw-archive-note.\n\nWe accept the record's limits. The reporter-exchange transcript says the remarks were joined in progress, and its note reports that some portions could not be verified because the audio was incomplete. Those caveats affect weight at the margins. They do not erase the recorded Ronaldo passages, and they do not establish a contrary market limitation. The formal archive note is also a gap: it does not prove the formal draw transcript includes \"Ronaldo,\" but neither does it prove exclusion.\n\nThe proposition should be decided by the ordinary preponderance standard. If the market wanted a strict formal-program-only trigger, the market wording or incorporated terms needed to say so clearly. On the record now, the better reading is that public remarks at the World Cup Draw venue, immediately before and event-linked to the draw, count under an event/context mention market. Because Trump said the distinct word \"Ronaldo\" in those remarks, the strike should resolve Yes."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:55:53.235Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 20910,
+        "evidence_id": "ev_a373371a8c9c_presmention-terms",
+        "length": 20910,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:55:53.289Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1060,
+        "evidence_id": "ev_eac0f81b7818_formal-draw-archive-note",
+        "length": 1060,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:55:53.337Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 19371,
+        "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+        "length": 19371,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:55:53.388Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 292,
+        "evidence_id": "ev_2c7c2c8a2d76_market-page",
+        "length": 292,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:57:20.211Z",
+      "turn": 2,
+      "role": "defendant",
+      "phase": "openings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "record_opening_statement",
+        "opportunity_id": "openings:defendant",
+        "payload": {
+          "text": "Council members, the defense opening is not that the packet never contains the word Ronaldo. It does. The defense is that plaintiff must prove the market resolved incorrectly, and the current record does not yet prove that a pre-event reporter exchange was within the market's resolving window: \"during the FIFA World Cup Draw.\"\n\nStart with the market page, ev_2c7c2c8a2d76_market-page. It gives the public title, the contract family, the strike, and the challenged No resolution. It does not give the full market rule page, the source hierarchy, a start time, a program boundary, or language saying that every public remark at the venue before the draw counts. That absence matters because this dispute is all about the boundary.\n\nThe reporter-exchange file, ev_9cd6fa5297f3_pre-event-reporter-exchange, is plaintiff's strongest fact evidence. It records public remarks in which Trump uses the standalone word Ronaldo. But its own title describes the remarks as an exchange with reporters \"prior to\" the 2026 FIFA World Cup Draw. The transcript also says the remarks were joined in progress, and its note says portions could not be verified because the audio was incomplete. Those caveats do not erase the Ronaldo passages, but they do affect how far the council can stretch the transcript. At most, the packet now proves that Ronaldo was said in a pre-event reporter exchange connected to the venue and subject matter. It does not prove that the exchange was part of the draw itself.\n\nThe terms, ev_a373371a8c9c_presmention-terms, cut against an automatic Yes. They require the word to be said by the covered entity during the covered time period. They allow a time period to be an event or context, but they also contemplate that the Exchange may specify what an event includes. They exclude unofficial, backstage, rehearsal, and sound-check material unless officially broadcast or published as part of the time period. And the event-alteration provisions count words during the portion of the event that occurred; they do not say that adjacent pre-program press availability becomes the event simply because it happened at the same venue and involved the same general subject.\n\nThe formal-draw archive note, ev_eac0f81b7818_formal-draw-archive-note, reinforces the missing link. It identifies a separate archive page for Trump's formal attendance remarks at the draw, but the full text was not retrieved and the file expressly does not establish whether the formal program transcript does or does not contain Ronaldo. That is not a point for plaintiff; it is a gap in plaintiff's proof. The record distinguishes the pre-event reporter exchange from the formal program and has not yet supplied the formal program evidence or a rule tying the pre-event exchange into the resolving period.\n\nSo the decisive questions are narrow: What exactly did Kalshi define as the time period for \"during the FIFA World Cup Draw\"? Did the source agency or market rules include pre-event reporter exchanges as part of that event? And what did the formal draw record show? On the present packet, plaintiff can answer only the first half of the case: the word appears in a related pre-event transcript. Plaintiff has not yet answered the legal and factual boundary question that determines resolution.\n\nUnder a preponderance standard, ambiguity alone is not enough to overturn the challenged No resolution. Unless later admitted evidence shows that the market's event window included this pre-event reporter exchange, the better reading is the ordinary one: remarks titled and recorded as prior to the FIFA World Cup Draw are not remarks during the draw. The council should approach this case from that burden-focused frame."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:58:31.831Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+        "mime_type": "text/plain",
+        "relevance": "Addresses defendant's asserted gap about full market rule wording, source hierarchy, event condition, timing, and whether the market language excludes pre-event reporter remarks.",
+        "retrieval_timestamp": "2026-06-29T20:58:10Z",
+        "sha256": "c3ecd221f5a875b0a76d66c410ec0dcded6cfe22283fa551b183441ad11814e5",
+        "size_bytes": 1874,
+        "source_description": "Rendered/public Kalshi market page text opened during plaintiff merits investigation; extracted visible text relevant to market title, rules, source agencies, timing, and series/event/market identifiers.",
+        "source_url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06",
+        "title": "Kalshi market page extraction for KXTRUMPMENTIONB-25DEC06"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T20:59:03.853Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "submitted_evidence",
+      "payload": {
+        "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+        "mime_type": "text/plain",
+        "relevance": "Addresses the defense theory that only the formal draw transcript controls, and tests whether the formal attendance transcript contains the strike or competing context.",
+        "retrieval_timestamp": "2026-06-29T20:58:10Z",
+        "sha256": "8637490aafefe57701cc50581d4371fe0fe3bda0b10a5253c861f0536ff25973",
+        "size_bytes": 1511,
+        "source_description": "Rendered Roll Call/Factba.se transcript page opened during plaintiff merits investigation; extracted visible metadata and relevant search results for the formal draw transcript.",
+        "source_url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-fifa-world-cup-drawing-december-5-2025/",
+        "title": "Roll Call/Factba.se formal FIFA World Cup drawing transcript extraction"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:00:19.078Z",
+      "turn": 3,
+      "role": "plaintiff",
+      "phase": "arguments",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_argument",
+        "opportunity_id": "arguments:plaintiff",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_2c7c2c8a2d76_market-page",
+              "label": "PX-1 Market page identifying title, strike, and challenged resolution"
+            },
+            {
+              "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+              "label": "PX-2 Public reporter-exchange transcript containing Ronaldo"
+            },
+            {
+              "evidence_id": "ev_a373371a8c9c_presmention-terms",
+              "label": "PX-3 Governing NEWMENTION terms"
+            },
+            {
+              "evidence_id": "ev_eac0f81b7818_formal-draw-archive-note",
+              "label": "PX-4 Formal-draw archive note and distinction"
+            },
+            {
+              "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+              "label": "PX-5 Kalshi series/event rule extraction"
+            },
+            {
+              "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+              "label": "PX-6 Formal Roll Call transcript extraction"
+            }
+          ],
+          "technical_reports": [
+            {
+              "summary": "Checked the live Kalshi market URL for the full event/source wording and submitted the rendered extraction as PX-5. Checked the Roll Call/Factba.se formal draw transcript URL identified in the packet note; page was accessible and page-find returned no Ronaldo or Messi match, submitted as PX-6. Earlier APP/UCSB source was opened and matched the packet transcript. No direct video was captured in this opportunity; the argument therefore relies on admitted text evidence and identifies the video/formal-program issue as an adverse gap rather than treating it as resolved.",
+              "title": "Plaintiff source-search ledger"
+            }
+          ],
+          "text": "Council members, the merits question is now cleanly framed. Plaintiff does not ask you to infer that the formal stage transcript contains Ronaldo. The Roll Call/Factba.se formal transcript extraction we submitted as PX-6 is adverse on that point: the formal page was accessible, and a page search returned no match for Ronaldo or Messi. If the contract said “only Trump’s formal stage remarks during the televised draw program,” defendant would have a strong case.\n\nBut that is not the contract language in this record. PX-1 identifies the market as “What will Trump say during the FIFA World Cup Draw?”, contract family PRESMENTION / NEWMENTION, strike Ronaldo, challenged resolution No, requested Yes. PX-5 supplies the fuller Kalshi series/event wording visible from the market URL: the strike resolves Yes if Trump says the word “as part of FIFA World Cup Draw”; video is primary, and transcripts are fallback sources if Kalshi employees cannot reach consensus from video; the source list includes major news organizations and The White House. That language is broader than defendant’s proposed “formal-program-only” rule.\n\nThe word was spoken. PX-2 is a public transcript titled “Remarks in an Exchange With Reporters Prior to the 2026 FIFA World Cup Draw,” dated December 5, 2025. It places Trump at the John F. Kennedy Center, with FIFA President Infantino, answering World Cup and soccer questions immediately before the event. In that source, Trump says Ronaldo as a distinct standalone word in soccer remarks. He says he met Ronaldo, praises him, and later says he was not Ronaldo or Messi. The strike identity is supplied by PX-1; the utterance is supplied by PX-2.\n\nThe governing mention terms support inclusion unless the market clearly excludes this setting. PX-3 defines the payout criterion as the word being said by the covered entity during the covered time period. It recognizes that a time period may be a specific event or context. Its event rules are functional, not formalistic: words during the portion of an event that occurs can count even if an event is abbreviated or altered; venue, format, or medium changes do not automatically defeat counting. Its technical exclusions are also telling. It excludes behind-the-scenes content, rehearsals, sound checks, and unofficial recordings unless officially broadcast or published as part of the time period. PX-2 is not a rehearsal, leak, or private recording. It is a public transcript of Presidential remarks at the event venue, about the event, with FIFA’s president present, and tied by its own title to the World Cup Draw.\n\nDefendant’s best point is the word “prior.” PX-2 is titled as an exchange prior to the draw, and PX-6 suggests the later formal transcript does not contain Ronaldo. That proves a distinction between the pre-program reporter exchange and the formal program. It does not prove exclusion. Kalshi’s visible rule says “as part of FIFA World Cup Draw,” not “after the first formal stage cue,” “only during the broadcast draw procedure,” or “excluding pre-event press remarks.” The event was open to press and the market’s source framework expressly looks to video and then transcripts from listed sources, including The White House. A public, officially released pre-program exchange at the draw venue is naturally part of the public World Cup Draw event in a way that backstage, rehearsal, and unofficial material are not.\n\nPX-4 is consistent with that framing. It says a separate formal archive exists and that the earlier packet could not retrieve the full formal transcript; it expressly notes that plaintiff’s theory does not require proving the formal program itself contains the strike if the event-linked remarks fall within the market boundary. We have now tested that formal source and admitted the adverse result. The case still turns on boundary language, and the boundary language does not clearly adopt defendant’s narrower limit.\n\nOn provenance and weight: PX-2 has caveats. The remarks were joined in progress, and the note says some portions could not be verified because audio was incomplete. Those caveats matter if the disputed words were in an inaudible passage. They are not. The transcript visibly records the Ronaldo passages. PX-5 also has a limitation: the rendered page showed the Canada strike, so it is offered for the series/event rule wording and source hierarchy, not to prove the Ronaldo strike. PX-1 proves the Ronaldo strike. PX-6 is adverse evidence that the formal transcript did not visibly contain Ronaldo, but that only matters if defendant’s formal-only construction is adopted.\n\nThe preponderance favors Yes. The admitted record proves the strike, the spoken word, the event connection, and governing rules broad enough to include official public remarks “as part of” the World Cup Draw. Defendant’s No resolution depends on an unstated exclusion. In a mention market, unclear event-boundary language should not silently erase a public, source-published Presidential utterance at the event venue immediately before the program. The strike Ronaldo should resolve Yes."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:00:53.133Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1874,
+        "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+        "length": 1874,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:00:53.213Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "evidence_read",
+      "payload": {
+        "byte_count": 1511,
+        "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+        "length": 1511,
+        "offset": 0
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:02:21.577Z",
+      "turn": 4,
+      "role": "defendant",
+      "phase": "arguments",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_argument",
+        "opportunity_id": "arguments:defendant",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_2c7c2c8a2d76_market-page",
+              "label": "DX-1 Strike identity and challenged No resolution"
+            },
+            {
+              "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+              "label": "DX-2 Kalshi event rules: video primary, draw transcripts fallback"
+            },
+            {
+              "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+              "label": "DX-3 Formal draw transcript extraction with no Ronaldo/Messi match"
+            },
+            {
+              "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+              "label": "DX-4 Pre-event reporter exchange containing Ronaldo but titled prior to draw"
+            },
+            {
+              "evidence_id": "ev_a373371a8c9c_presmention-terms",
+              "label": "DX-5 Mention terms requiring word during covered time period"
+            }
+          ],
+          "technical_reports": [
+            {
+              "summary": "For the merits response, defendant inspected the updated record, stat/read the two new plaintiff evidence files, and ran targeted web searches for the formal draw title, the pre-event transcript title with Ronaldo, and the Kalshi event identifier. Those searches found secondary reports and unrelated Ronaldo/Kalshi pages, but no stronger primary artifact showing the pre-event reporter exchange was included in the official FIFA World Cup Draw video or transcript source set. Defendant therefore submitted no new outside evidence and relies on the admitted Kalshi extraction, formal transcript extraction, reporter-exchange transcript, and terms.",
+              "title": "Defendant Source-Search Ledger"
+            }
+          ],
+          "text": "Council members, plaintiff now has a fuller record, and that fuller record confirms the defense point: this market resolves by the FIFA World Cup Draw source set, not by every public soccer-related exchange at the same venue.\n\nThe strike identity is not disputed. EV-1 identifies the challenged Ronaldo market. Nor do we deny that EV-2, the pre-event reporter-exchange transcript, contains standalone Ronaldo mentions. The issue is whether those words were said within the market's resolving event.\n\nPX-5, plaintiff's own Kalshi extraction, is decisive on that boundary. It does contain the phrase plaintiff emphasizes: the word must be said \"as part of FIFA World Cup Draw.\" But the same rule text immediately specifies how the event is to be resolved: \"Video of the FIFA World Cup Draw\" is primary, and if Kalshi cannot reach consensus from video, \"transcripts of the FIFA World Cup Draw\" are fallback sources. That wording does not say any White House transcript, any venue press scrum, or any FIFA-adjacent interview counts. It anchors the Underlying to the draw video and draw transcripts.\n\nPX-6 then tests that source class. It is the formal Roll Call/Factba.se page for \"Donald Trump Attends the FIFA World Cup Drawing.\" Plaintiff submitted the adverse result: visible page text returned no match for Ronaldo or Messi. PX-6 is not perfect; it is an extraction rather than a full video file. But it is the only admitted record item aimed at the formal draw transcript, and it supports the challenged No resolution. If the draw transcript has no Ronaldo, plaintiff needs a rule or source-chain bridge showing the separate pre-event exchange is nevertheless part of the draw source set.\n\nPlaintiff has not supplied that bridge. EV-2's title is not neutral: it is \"Remarks in an Exchange With Reporters Prior to\" the FIFA World Cup Draw. The transcript was joined in progress, and the note says portions could not be verified because audio was incomplete. Those caveats do not erase the visible Ronaldo passages, but they do reinforce that EV-2 is a separate public transcript with its own limits. It proves an event-adjacent official exchange. It does not prove that the exchange appears in the draw video, the draw transcript, or the contract's listed resolving publications as part of the draw.\n\nThe general mention terms do not fill the gap. EV-3 says the word must be said during the covered time period. It allows event or context periods, and it includes pre-recorded content if presented as part of the official event presentation. It also excludes backstage, rehearsal, sound-check, and unofficial material unless officially broadcast or published as part of the time period. The organizing idea is still inclusion in the covered event/time period. A transcript titled \"prior to\" the event is not transformed into the event merely because it is public, official, at the same building, and about soccer.\n\nPlaintiff leans on ambiguity: Kalshi could have said formal-program-only. But plaintiff carries the burden to overturn No by a preponderance. PX-5 does not create a broad venue rule; it narrows resolution to video and transcripts of the FIFA World Cup Draw. PX-6 shows the formal draw transcript did not visibly contain the strike. EV-2 shows Ronaldo outside that source boundary. At best for plaintiff, the record is ambiguous about whether a pre-program reporter exchange counts. Ambiguity is not a preponderance for Yes.\n\nThe provenance issues also cut against expanding the record. PX-5 rendered the Canada strike, so it is useful for series/event rules, not as a strike-specific Ronaldo page. PX-6 is an extraction, but plaintiff chose and offered it, and its adverse no-match result is the only record test of the formal draw transcript. EV-2 has official-looking provenance and a source URL, but it has incomplete-audio and joined-in-progress caveats and a title that expressly places it before the draw.\n\nThe fairest resolution is therefore the challenged one: No. The admitted record proves Trump said Ronaldo in a public pre-event exchange. It does not prove he said Ronaldo in the FIFA World Cup Draw video or transcript, or that Kalshi's \"as part of\" language included the separate pre-event exchange. On this record, plaintiff has not carried its burden."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:04:00.236Z",
+      "turn": 5,
+      "role": "plaintiff",
+      "phase": "rebuttals",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_rebuttal",
+        "opportunity_id": "rebuttals:plaintiff",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+              "label": "PX-R1 Kalshi rule wording and source hierarchy"
+            },
+            {
+              "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+              "label": "PX-R2 Official public pre-draw reporter exchange"
+            },
+            {
+              "evidence_id": "ev_a373371a8c9c_presmention-terms",
+              "label": "PX-R3 Event/context mention terms"
+            }
+          ],
+          "text": "Council members, defendant’s rebuttal-worthy point is that PX-5 refers to “Video of the FIFA World Cup Draw” and fallback “transcripts of the FIFA World Cup Draw.” Defendant treats that as a boundary rule. It is not. It is a source hierarchy: how Kalshi verifies the event. The same PX-5 sentence does not define the draw as only the formal Roll Call transcript; it says the strike resolves if Trump says the word “as part of FIFA World Cup Draw,” and then identifies video first and transcripts second as verification sources.\n\nThat distinction matters because PX-5 also lists The White House among sources. PX-2 is not “any venue press scrum” in the abstract. It is a public transcript of Presidential remarks tied by title to the FIFA World Cup Draw, at the Kennedy Center, with FIFA President Infantino present, on World Cup and soccer topics, and the packet note says it was released by the Office of Communications and corrected later. If video does not resolve consensus, the market’s own source hierarchy permits transcripts; it does not say only the formal Roll Call page may be consulted.\n\nDefendant also overuses the word “prior.” Plaintiff accepts that PX-2 is prior to the formal program and that PX-6’s formal transcript does not visibly contain Ronaldo. But “prior to the formal program” is not the same as “outside the event” when the market language is “as part of FIFA World Cup Draw.” Public arrival or pre-program remarks at the venue, about the event, with the event’s principal organizer, can be part of the public event context. If Kalshi wanted a narrower trigger, it knew how to say so: “during the formal draw broadcast,” “during the stage program,” or “excluding pre-event remarks.” That limiting language is absent.\n\nNor do the general terms help defendant. PX-3 excludes rehearsals, sound checks, backstage material, and unofficial recordings unless officially broadcast or published as part of the time period. PX-2 is not in any excluded category. It is official, public, source-published speech. PX-3’s event/context framework is exactly why the council should not import a rigid stage-only boundary from silence.\n\nFinally, the burden is preponderance, not certainty. Defendant’s case depends on converting verification language into an exclusion and converting “prior to” the formal program into “not part of” the public draw event. Plaintiff’s reading requires fewer additions: the market says “as part of FIFA World Cup Draw,” Trump made public source-published World Cup Draw remarks at the venue, and he said Ronaldo. That is more likely than not enough for Yes."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:05:15.178Z",
+      "turn": 6,
+      "role": "defendant",
+      "phase": "surrebuttals",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "submit_surrebuttal",
+        "opportunity_id": "surrebuttals:defendant",
+        "payload": {
+          "offered_evidence": [
+            {
+              "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+              "label": "DX-S1 Kalshi source hierarchy for draw video and transcripts"
+            },
+            {
+              "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+              "label": "DX-S2 Formal draw transcript extraction with no Ronaldo/Messi match"
+            },
+            {
+              "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+              "label": "DX-S3 Reporter exchange titled prior to draw"
+            },
+            {
+              "evidence_id": "ev_a373371a8c9c_presmention-terms",
+              "label": "DX-S4 Terms requiring word during covered time period"
+            }
+          ],
+          "text": "Council members, plaintiff's rebuttal says the video/transcript language is only a source hierarchy, not a boundary. Even accepting the label, it still matters. A source hierarchy tells us what sources may verify the Underlying. PX-5 does not say Kalshi verifies this market from any public Trump speech about the World Cup. It says video of the FIFA World Cup Draw is primary, and if video does not produce consensus, transcripts of the FIFA World Cup Draw are used.\n\nThat is the bridge plaintiff still lacks. The White House being listed among sources does not mean every White House transcript from the building counts. It means a White House source can verify the market when it is documenting the relevant event. PX-2 is not titled as a transcript of the FIFA World Cup Draw. It is titled as remarks in an exchange with reporters prior to the draw. Plaintiff has shown relation: same venue, same general subject, FIFA President present, public and official transcript. Relation is not the same thing as inclusion in the draw video, the draw transcript, or the official presentation.\n\nPlaintiff also argues that PX-2 is not in an excluded category under the general terms. That answers the wrong question. If a source is backstage, rehearsal, sound-check, or unofficial, it is excluded. But the converse does not follow: every non-excluded official public remark is not automatically included. EV-3 still requires the word to be said during the covered time period, and PX-5 identifies that covered event through the FIFA World Cup Draw video and draw transcripts.\n\nThe formal-source evidence remains unrebutted. PX-6 is the only admitted test of the formal draw transcript, and it found no Ronaldo or Messi in visible page text. Plaintiff accepts that. Plaintiff asks the council to treat pre-program remarks as part of the event because the market did not expressly say otherwise. But under a preponderance standard, the party challenging No must prove inclusion more likely than not. The record shows a related prior exchange with Ronaldo and a draw transcript without Ronaldo. It does not show the prior exchange was part of the market's resolving draw source.\n\nSo the issue is not whether plaintiff found a clever loophole in the word \"formal.\" The issue is whether the record proves that Kalshi's event market included this separate prior reporter exchange. It does not. The challenged No resolution should stand."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:06:20.899Z",
+      "turn": 7,
+      "role": "plaintiff",
+      "phase": "closings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "deliver_closing_statement",
+        "opportunity_id": "closings:plaintiff",
+        "payload": {
+          "text": "Council members, the case can be decided on one question: did the admitted market materials clearly exclude Trump’s public World Cup Draw-linked remarks immediately before the formal program? The record answer is no.\n\nThe facts that matter are not seriously disputed. PX-1 identifies the market, the title, and the Ronaldo strike. PX-2 records Trump saying the standalone word Ronaldo in public soccer remarks at the Kennedy Center, tied by title and context to the FIFA World Cup Draw, with FIFA President Infantino present. The Ronaldo passages are not inaudible guesses; they are visible in the transcript. PX-6 shows the formal Roll Call/Factba.se draw transcript does not visibly contain Ronaldo. Plaintiff has never hidden that adverse fact.\n\nSo this is not a word-count dispute. It is a boundary dispute.\n\nDefendant asks you to read PX-5 as if it said: only words in the formal draw video or formal draw transcript count. But PX-5 does not say that. It says the word resolves Yes if Trump says it “as part of FIFA World Cup Draw.” It then states that video is primary and transcripts are fallback sources if video does not yield consensus. That is a verification hierarchy. It is not an exclusion for official, public, event-linked remarks at the venue.\n\nThe source list in PX-5 also includes The White House. PX-2 is the kind of official public transcript that matters under that source framework: the packet note identifies an Office of Communications release and correction, and the transcript itself is of Presidential remarks connected to the World Cup Draw. Defendant says relation is not inclusion. True. But plaintiff has more than relation: same venue, same occasion, same public press access, same FIFA principal, same subject, and a market phrase broad enough to say “as part of,” not “only during the formal draw broadcast.”\n\nPX-3 is the legal reason not to import defendant’s narrow boundary. The NEWMENTION terms recognize event and context time periods and then identify exclusions: backstage content, rehearsals, sound checks, unofficial recordings, subtitles, and similar non-spoken or non-public material. PX-2 is none of those. The terms do not say that public, source-published remarks immediately before a formal program are excluded whenever a later formal transcript exists.\n\nThe strongest defense point is “prior to.” It proves that PX-2 was before the formal stage program. It does not prove that PX-2 was outside the public World Cup Draw event for a market worded “as part of FIFA World Cup Draw.” If Kalshi wanted a formal-program-only market, it had easy language available: “during the formal draw broadcast,” “during the stage program,” or “excluding pre-event press remarks.” The record contains no such language.\n\nUnder preponderance, the better reading is the one that requires fewer unstated additions. Plaintiff’s reading follows the admitted words: market title, Ronaldo strike, “as part of FIFA World Cup Draw,” event/context mention terms, and an official public transcript where Trump said Ronaldo. Defendant’s reading requires adding a formal-only exclusion that the market did not state.\n\nThe challenged No resolution should be reversed. The Ronaldo strike should resolve Yes."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:07:22.337Z",
+      "turn": 8,
+      "role": "defendant",
+      "phase": "closings",
+      "type": "attorney_action",
+      "payload": {
+        "action_type": "deliver_closing_statement",
+        "opportunity_id": "closings:defendant",
+        "payload": {
+          "text": "Council members, the decisive question is not whether Trump said Ronaldo somewhere in the admitted materials. He did. The question is whether plaintiff proved, by a preponderance, that the pre-event reporter exchange was part of the Kalshi market's resolving event: the FIFA World Cup Draw.\n\nPlaintiff has not carried that burden.\n\nThe market evidence starts with PX-1, which proves the title and Ronaldo strike. PX-5 adds the fuller event wording, and it cuts both ways. Plaintiff emphasizes \"as part of FIFA World Cup Draw.\" But PX-5 also says video of the FIFA World Cup Draw is the primary resolving source, and if video does not produce consensus, transcripts of the FIFA World Cup Draw are used. That is not a free-floating rule for any official transcript about soccer at the Kennedy Center. It points the council to the draw video and draw transcripts.\n\nThe only admitted test of that draw source is PX-6. It is the Roll Call/Factba.se formal draw transcript extraction, and plaintiff concedes it returned no visible match for Ronaldo or Messi. That matters. The actual draw transcript evidence supports No.\n\nPX-2 is different evidence. It is useful evidence, but useful for a narrower fact: Trump said Ronaldo in a public reporter exchange. Its own title says the exchange was prior to the FIFA World Cup Draw. It was joined in progress, and the note says some portions could not be verified because audio was incomplete. Those caveats do not defeat the word count inside PX-2, but they do matter when plaintiff asks the council to stretch PX-2 beyond its title and treat it as the draw itself.\n\nPlaintiff's strongest point is that PX-2 was public, official, at the venue, with FIFA President Infantino present, and about the World Cup. That proves connection. It does not prove inclusion. The record contains no admitted video showing the exchange in the draw broadcast, no draw transcript containing Ronaldo, and no market language saying pre-program press availability counts.\n\nThe general mention terms do not solve that problem. PX-3 excludes rehearsals, backstage material, sound checks, unofficial recordings, and similar items. But not being excluded is not the same as being included. The word still must be said during the covered time period or in content presented as part of the official event presentation. Plaintiff never proves that final step.\n\nUnder preponderance, the party challenging the No resolution needed to do more than show a plausible broader reading. It needed to show that Yes is more likely correct. The admitted record shows a formal draw source with no Ronaldo and a separate prior reporter exchange with Ronaldo. The missing bridge between those two facts is the whole case.\n\nBecause plaintiff has not proved that the pre-event exchange was part of the market-defined FIFA World Cup Draw, the challenged No resolution should stand."
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:08:14.988Z",
+      "turn": 9,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C1",
+        "model": "openrouter://openai/gpt-oss-120b",
+        "payload": {
+          "member_id": "C1",
+          "rationale": "The record shows Trump said \"Ronaldo\" only in a pre‑event reporter exchange, while the market rules require the word to be said \"as part of FIFA World Cup Draw\" and rely on the draw video or its transcript, which contains no Ronaldo; thus the plaintiff has not met the preponderance burden.",
+          "vote": "not_demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:08:23.423Z",
+      "turn": 10,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "opportunity_failed",
+      "payload": {
+        "member_id": "C2",
+        "message": "Council member C2 agent process exited before completing opportunity deliberation:1:C2.",
+        "model": "openrouter://x-ai/grok-4.20-multi-agent",
+        "opportunity_id": "deliberation:1:C2",
+        "phase": "deliberation",
+        "process_name": "pi-C2",
+        "reason": "agent_exited",
+        "role": "council",
+        "type": "opportunity_failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:08:23.423Z",
+      "turn": 10,
+      "role": "system",
+      "phase": "deliberation",
+      "type": "council_member_removed",
+      "payload": {
+        "cause": "Council member C2 agent process exited before completing opportunity deliberation:1:C2.",
+        "failure_reason": "agent_exited",
+        "member_id": "C2",
+        "status": "failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:09:05.043Z",
+      "turn": 11,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "council_vote",
+      "payload": {
+        "backend": "councilapi",
+        "member_id": "C3",
+        "model": "openrouter://nvidia/nemotron-3-nano-30b-a3b",
+        "payload": {
+          "member_id": "C3",
+          "rationale": "The record confirms Trump said \"Ronaldo\" in a pre‑event transcript, but it does not establish that such remarks fall within the market’s \"during the FIFA World Cup Draw\" time period, and the primary formal draw transcript contains no \"Ronaldo\". Consequently, the proposition has not been demonstrated by a preponderance.",
+          "vote": "not_demonstrated"
+        }
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:09:17.117Z",
+      "turn": 12,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "opportunity_failed",
+      "payload": {
+        "member_id": "C4",
+        "message": "Council member C4 agent process exited before completing opportunity deliberation:1:C4.",
+        "model": "openrouter://relace/relace-search",
+        "opportunity_id": "deliberation:1:C4",
+        "phase": "deliberation",
+        "process_name": "pi-C4",
+        "reason": "agent_exited",
+        "role": "council",
+        "type": "opportunity_failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:09:17.117Z",
+      "turn": 12,
+      "role": "system",
+      "phase": "deliberation",
+      "type": "council_member_removed",
+      "payload": {
+        "cause": "Council member C4 agent process exited before completing opportunity deliberation:1:C4.",
+        "failure_reason": "agent_exited",
+        "member_id": "C4",
+        "status": "failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:09:36.318Z",
+      "turn": 13,
+      "role": "council",
+      "phase": "deliberation",
+      "type": "opportunity_failed",
+      "payload": {
+        "member_id": "C5",
+        "message": "Council member C5 agent process exited before completing opportunity deliberation:1:C5.",
+        "model": "openrouter://openai/gpt-4o-mini",
+        "opportunity_id": "deliberation:1:C5",
+        "phase": "deliberation",
+        "process_name": "pi-C5",
+        "reason": "agent_exited",
+        "role": "council",
+        "type": "opportunity_failed"
+      }
+    },
+    {
+      "timestamp": "2026-06-29T21:09:36.318Z",
+      "turn": 13,
+      "role": "system",
+      "phase": "deliberation",
+      "type": "council_member_removed",
+      "payload": {
+        "cause": "Council member C5 agent process exited before completing opportunity deliberation:1:C5.",
+        "failure_reason": "agent_exited",
+        "member_id": "C5",
+        "status": "failed"
+      }
+    }
+  ],
+  "final_state": {
+    "case": {
+      "arguments": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "text": "Council members, the merits question is now cleanly framed. Plaintiff does not ask you to infer that the formal stage transcript contains Ronaldo. The Roll Call/Factba.se formal transcript extraction we submitted as PX-6 is adverse on that point: the formal page was accessible, and a page search returned no match for Ronaldo or Messi. If the contract said “only Trump’s formal stage remarks during the televised draw program,” defendant would have a strong case.\n\nBut that is not the contract language in this record. PX-1 identifies the market as “What will Trump say during the FIFA World Cup Draw?”, contract family PRESMENTION / NEWMENTION, strike Ronaldo, challenged resolution No, requested Yes. PX-5 supplies the fuller Kalshi series/event wording visible from the market URL: the strike resolves Yes if Trump says the word “as part of FIFA World Cup Draw”; video is primary, and transcripts are fallback sources if Kalshi employees cannot reach consensus from video; the source list includes major news organizations and The White House. That language is broader than defendant’s proposed “formal-program-only” rule.\n\nThe word was spoken. PX-2 is a public transcript titled “Remarks in an Exchange With Reporters Prior to the 2026 FIFA World Cup Draw,” dated December 5, 2025. It places Trump at the John F. Kennedy Center, with FIFA President Infantino, answering World Cup and soccer questions immediately before the event. In that source, Trump says Ronaldo as a distinct standalone word in soccer remarks. He says he met Ronaldo, praises him, and later says he was not Ronaldo or Messi. The strike identity is supplied by PX-1; the utterance is supplied by PX-2.\n\nThe governing mention terms support inclusion unless the market clearly excludes this setting. PX-3 defines the payout criterion as the word being said by the covered entity during the covered time period. It recognizes that a time period may be a specific event or context. Its event rules are functional, not formalistic: words during the portion of an event that occurs can count even if an event is abbreviated or altered; venue, format, or medium changes do not automatically defeat counting. Its technical exclusions are also telling. It excludes behind-the-scenes content, rehearsals, sound checks, and unofficial recordings unless officially broadcast or published as part of the time period. PX-2 is not a rehearsal, leak, or private recording. It is a public transcript of Presidential remarks at the event venue, about the event, with FIFA’s president present, and tied by its own title to the World Cup Draw.\n\nDefendant’s best point is the word “prior.” PX-2 is titled as an exchange prior to the draw, and PX-6 suggests the later formal transcript does not contain Ronaldo. That proves a distinction between the pre-program reporter exchange and the formal program. It does not prove exclusion. Kalshi’s visible rule says “as part of FIFA World Cup Draw,” not “after the first formal stage cue,” “only during the broadcast draw procedure,” or “excluding pre-event press remarks.” The event was open to press and the market’s source framework expressly looks to video and then transcripts from listed sources, including The White House. A public, officially released pre-program exchange at the draw venue is naturally part of the public World Cup Draw event in a way that backstage, rehearsal, and unofficial material are not.\n\nPX-4 is consistent with that framing. It says a separate formal archive exists and that the earlier packet could not retrieve the full formal transcript; it expressly notes that plaintiff’s theory does not require proving the formal program itself contains the strike if the event-linked remarks fall within the market boundary. We have now tested that formal source and admitted the adverse result. The case still turns on boundary language, and the boundary language does not clearly adopt defendant’s narrower limit.\n\nOn provenance and weight: PX-2 has caveats. The remarks were joined in progress, and the note says some portions could not be verified because audio was incomplete. Those caveats matter if the disputed words were in an inaudible passage. They are not. The transcript visibly records the Ronaldo passages. PX-5 also has a limitation: the rendered page showed the Canada strike, so it is offered for the series/event rule wording and source hierarchy, not to prove the Ronaldo strike. PX-1 proves the Ronaldo strike. PX-6 is adverse evidence that the formal transcript did not visibly contain Ronaldo, but that only matters if defendant’s formal-only construction is adopted.\n\nThe preponderance favors Yes. The admitted record proves the strike, the spoken word, the event connection, and governing rules broad enough to include official public remarks “as part of” the World Cup Draw. Defendant’s No resolution depends on an unstated exclusion. In a mention market, unclear event-boundary language should not silently erase a public, source-published Presidential utterance at the event venue immediately before the program. The strike Ronaldo should resolve Yes."
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "text": "Council members, plaintiff now has a fuller record, and that fuller record confirms the defense point: this market resolves by the FIFA World Cup Draw source set, not by every public soccer-related exchange at the same venue.\n\nThe strike identity is not disputed. EV-1 identifies the challenged Ronaldo market. Nor do we deny that EV-2, the pre-event reporter-exchange transcript, contains standalone Ronaldo mentions. The issue is whether those words were said within the market's resolving event.\n\nPX-5, plaintiff's own Kalshi extraction, is decisive on that boundary. It does contain the phrase plaintiff emphasizes: the word must be said \"as part of FIFA World Cup Draw.\" But the same rule text immediately specifies how the event is to be resolved: \"Video of the FIFA World Cup Draw\" is primary, and if Kalshi cannot reach consensus from video, \"transcripts of the FIFA World Cup Draw\" are fallback sources. That wording does not say any White House transcript, any venue press scrum, or any FIFA-adjacent interview counts. It anchors the Underlying to the draw video and draw transcripts.\n\nPX-6 then tests that source class. It is the formal Roll Call/Factba.se page for \"Donald Trump Attends the FIFA World Cup Drawing.\" Plaintiff submitted the adverse result: visible page text returned no match for Ronaldo or Messi. PX-6 is not perfect; it is an extraction rather than a full video file. But it is the only admitted record item aimed at the formal draw transcript, and it supports the challenged No resolution. If the draw transcript has no Ronaldo, plaintiff needs a rule or source-chain bridge showing the separate pre-event exchange is nevertheless part of the draw source set.\n\nPlaintiff has not supplied that bridge. EV-2's title is not neutral: it is \"Remarks in an Exchange With Reporters Prior to\" the FIFA World Cup Draw. The transcript was joined in progress, and the note says portions could not be verified because audio was incomplete. Those caveats do not erase the visible Ronaldo passages, but they do reinforce that EV-2 is a separate public transcript with its own limits. It proves an event-adjacent official exchange. It does not prove that the exchange appears in the draw video, the draw transcript, or the contract's listed resolving publications as part of the draw.\n\nThe general mention terms do not fill the gap. EV-3 says the word must be said during the covered time period. It allows event or context periods, and it includes pre-recorded content if presented as part of the official event presentation. It also excludes backstage, rehearsal, sound-check, and unofficial material unless officially broadcast or published as part of the time period. The organizing idea is still inclusion in the covered event/time period. A transcript titled \"prior to\" the event is not transformed into the event merely because it is public, official, at the same building, and about soccer.\n\nPlaintiff leans on ambiguity: Kalshi could have said formal-program-only. But plaintiff carries the burden to overturn No by a preponderance. PX-5 does not create a broad venue rule; it narrows resolution to video and transcripts of the FIFA World Cup Draw. PX-6 shows the formal draw transcript did not visibly contain the strike. EV-2 shows Ronaldo outside that source boundary. At best for plaintiff, the record is ambiguous about whether a pre-program reporter exchange counts. Ambiguity is not a preponderance for Yes.\n\nThe provenance issues also cut against expanding the record. PX-5 rendered the Canada strike, so it is useful for series/event rules, not as a strike-specific Ronaldo page. PX-6 is an extraction, but plaintiff chose and offered it, and its adverse no-match result is the only record test of the formal draw transcript. EV-2 has official-looking provenance and a source URL, but it has incomplete-audio and joined-in-progress caveats and a title that expressly places it before the draw.\n\nThe fairest resolution is therefore the challenged one: No. The admitted record proves Trump said Ronaldo in a public pre-event exchange. It does not prove he said Ronaldo in the FIFA World Cup Draw video or transcript, or that Kalshi's \"as part of\" language included the separate pre-event exchange. On this record, plaintiff has not carried its burden."
+        }
+      ],
+      "caption": "Claimant v. Respondent",
+      "case_id": "arb-ex03-20260629205103",
+      "closings": [
+        {
+          "phase": "closings",
+          "role": "plaintiff",
+          "text": "Council members, the case can be decided on one question: did the admitted market materials clearly exclude Trump’s public World Cup Draw-linked remarks immediately before the formal program? The record answer is no.\n\nThe facts that matter are not seriously disputed. PX-1 identifies the market, the title, and the Ronaldo strike. PX-2 records Trump saying the standalone word Ronaldo in public soccer remarks at the Kennedy Center, tied by title and context to the FIFA World Cup Draw, with FIFA President Infantino present. The Ronaldo passages are not inaudible guesses; they are visible in the transcript. PX-6 shows the formal Roll Call/Factba.se draw transcript does not visibly contain Ronaldo. Plaintiff has never hidden that adverse fact.\n\nSo this is not a word-count dispute. It is a boundary dispute.\n\nDefendant asks you to read PX-5 as if it said: only words in the formal draw video or formal draw transcript count. But PX-5 does not say that. It says the word resolves Yes if Trump says it “as part of FIFA World Cup Draw.” It then states that video is primary and transcripts are fallback sources if video does not yield consensus. That is a verification hierarchy. It is not an exclusion for official, public, event-linked remarks at the venue.\n\nThe source list in PX-5 also includes The White House. PX-2 is the kind of official public transcript that matters under that source framework: the packet note identifies an Office of Communications release and correction, and the transcript itself is of Presidential remarks connected to the World Cup Draw. Defendant says relation is not inclusion. True. But plaintiff has more than relation: same venue, same occasion, same public press access, same FIFA principal, same subject, and a market phrase broad enough to say “as part of,” not “only during the formal draw broadcast.”\n\nPX-3 is the legal reason not to import defendant’s narrow boundary. The NEWMENTION terms recognize event and context time periods and then identify exclusions: backstage content, rehearsals, sound checks, unofficial recordings, subtitles, and similar non-spoken or non-public material. PX-2 is none of those. The terms do not say that public, source-published remarks immediately before a formal program are excluded whenever a later formal transcript exists.\n\nThe strongest defense point is “prior to.” It proves that PX-2 was before the formal stage program. It does not prove that PX-2 was outside the public World Cup Draw event for a market worded “as part of FIFA World Cup Draw.” If Kalshi wanted a formal-program-only market, it had easy language available: “during the formal draw broadcast,” “during the stage program,” or “excluding pre-event press remarks.” The record contains no such language.\n\nUnder preponderance, the better reading is the one that requires fewer unstated additions. Plaintiff’s reading follows the admitted words: market title, Ronaldo strike, “as part of FIFA World Cup Draw,” event/context mention terms, and an official public transcript where Trump said Ronaldo. Defendant’s reading requires adding a formal-only exclusion that the market did not state.\n\nThe challenged No resolution should be reversed. The Ronaldo strike should resolve Yes."
+        },
+        {
+          "phase": "closings",
+          "role": "defendant",
+          "text": "Council members, the decisive question is not whether Trump said Ronaldo somewhere in the admitted materials. He did. The question is whether plaintiff proved, by a preponderance, that the pre-event reporter exchange was part of the Kalshi market's resolving event: the FIFA World Cup Draw.\n\nPlaintiff has not carried that burden.\n\nThe market evidence starts with PX-1, which proves the title and Ronaldo strike. PX-5 adds the fuller event wording, and it cuts both ways. Plaintiff emphasizes \"as part of FIFA World Cup Draw.\" But PX-5 also says video of the FIFA World Cup Draw is the primary resolving source, and if video does not produce consensus, transcripts of the FIFA World Cup Draw are used. That is not a free-floating rule for any official transcript about soccer at the Kennedy Center. It points the council to the draw video and draw transcripts.\n\nThe only admitted test of that draw source is PX-6. It is the Roll Call/Factba.se formal draw transcript extraction, and plaintiff concedes it returned no visible match for Ronaldo or Messi. That matters. The actual draw transcript evidence supports No.\n\nPX-2 is different evidence. It is useful evidence, but useful for a narrower fact: Trump said Ronaldo in a public reporter exchange. Its own title says the exchange was prior to the FIFA World Cup Draw. It was joined in progress, and the note says some portions could not be verified because audio was incomplete. Those caveats do not defeat the word count inside PX-2, but they do matter when plaintiff asks the council to stretch PX-2 beyond its title and treat it as the draw itself.\n\nPlaintiff's strongest point is that PX-2 was public, official, at the venue, with FIFA President Infantino present, and about the World Cup. That proves connection. It does not prove inclusion. The record contains no admitted video showing the exchange in the draw broadcast, no draw transcript containing Ronaldo, and no market language saying pre-program press availability counts.\n\nThe general mention terms do not solve that problem. PX-3 excludes rehearsals, backstage material, sound checks, unofficial recordings, and similar items. But not being excluded is not the same as being included. The word still must be said during the covered time period or in content presented as part of the official event presentation. Plaintiff never proves that final step.\n\nUnder preponderance, the party challenging the No resolution needed to do more than show a plausible broader reading. It needed to show that Yes is more likely correct. The admitted record shows a formal draw source with no Ronaldo and a separate prior reporter exchange with Ronaldo. The missing bridge between those two facts is the whole case.\n\nBecause plaintiff has not proved that the pre-event exchange was part of the market-defined FIFA World Cup Draw, the challenged No resolution should stand."
+        }
+      ],
+      "council_members": [
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C1",
+          "model": "openrouter://openai/gpt-oss-120b",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "Council member C2 agent process exited before completing opportunity deliberation:1:C2.",
+          "failure_opportunity_id": "deliberation:1:C2",
+          "failure_reason": "agent_exited",
+          "member_id": "C2",
+          "model": "openrouter://x-ai/grok-4.20-multi-agent",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        },
+        {
+          "failure_message": "",
+          "failure_opportunity_id": "",
+          "failure_reason": "",
+          "member_id": "C3",
+          "model": "openrouter://nvidia/nemotron-3-nano-30b-a3b",
+          "persona_filename": "personas/generic.md",
+          "status": "seated"
+        },
+        {
+          "failure_message": "Council member C4 agent process exited before completing opportunity deliberation:1:C4.",
+          "failure_opportunity_id": "deliberation:1:C4",
+          "failure_reason": "agent_exited",
+          "member_id": "C4",
+          "model": "openrouter://relace/relace-search",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        },
+        {
+          "failure_message": "Council member C5 agent process exited before completing opportunity deliberation:1:C5.",
+          "failure_opportunity_id": "deliberation:1:C5",
+          "failure_reason": "agent_exited",
+          "member_id": "C5",
+          "model": "openrouter://openai/gpt-4o-mini",
+          "persona_filename": "personas/generic.md",
+          "status": "failed"
+        }
+      ],
+      "council_votes": [
+        {
+          "member_id": "C1",
+          "rationale": "The record shows Trump said \"Ronaldo\" only in a pre‑event reporter exchange, while the market rules require the word to be said \"as part of FIFA World Cup Draw\" and rely on the draw video or its transcript, which contains no Ronaldo; thus the plaintiff has not met the preponderance burden.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        },
+        {
+          "member_id": "C3",
+          "rationale": "The record confirms Trump said \"Ronaldo\" in a pre‑event transcript, but it does not establish that such remarks fall within the market’s \"during the FIFA World Cup Draw\" time period, and the primary formal draw transcript contains no \"Ronaldo\". Consequently, the proposition has not been demonstrated by a preponderance.",
+          "round": 1,
+          "vote": "not_demonstrated"
+        }
+      ],
+      "deliberation_round": 1,
+      "failure": null,
+      "offered_evidence": [
+        {
+          "evidence_id": "ev_2c7c2c8a2d76_market-page",
+          "label": "PX-1 Market page identifying title, strike, and challenged resolution",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+          "label": "PX-2 Public reporter-exchange transcript containing Ronaldo",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_a373371a8c9c_presmention-terms",
+          "label": "PX-3 Governing NEWMENTION terms",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_eac0f81b7818_formal-draw-archive-note",
+          "label": "PX-4 Formal-draw archive note and distinction",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+          "label": "PX-5 Kalshi series/event rule extraction",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+          "label": "PX-6 Formal Roll Call transcript extraction",
+          "phase": "arguments",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_2c7c2c8a2d76_market-page",
+          "label": "DX-1 Strike identity and challenged No resolution",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+          "label": "DX-2 Kalshi event rules: video primary, draw transcripts fallback",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+          "label": "DX-3 Formal draw transcript extraction with no Ronaldo/Messi match",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+          "label": "DX-4 Pre-event reporter exchange containing Ronaldo but titled prior to draw",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_a373371a8c9c_presmention-terms",
+          "label": "DX-5 Mention terms requiring word during covered time period",
+          "phase": "arguments",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+          "label": "PX-R1 Kalshi rule wording and source hierarchy",
+          "phase": "rebuttals",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+          "label": "PX-R2 Official public pre-draw reporter exchange",
+          "phase": "rebuttals",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_a373371a8c9c_presmention-terms",
+          "label": "PX-R3 Event/context mention terms",
+          "phase": "rebuttals",
+          "role": "plaintiff"
+        },
+        {
+          "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+          "label": "DX-S1 Kalshi source hierarchy for draw video and transcripts",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+          "label": "DX-S2 Formal draw transcript extraction with no Ronaldo/Messi match",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_9cd6fa5297f3_pre-event-reporter-exchange",
+          "label": "DX-S3 Reporter exchange titled prior to draw",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        },
+        {
+          "evidence_id": "ev_a373371a8c9c_presmention-terms",
+          "label": "DX-S4 Terms requiring word during covered time period",
+          "phase": "surrebuttals",
+          "role": "defendant"
+        }
+      ],
+      "openings": [
+        {
+          "phase": "openings",
+          "role": "plaintiff",
+          "text": "Council members, this case is about the boundary of the market, not about whether the word was spoken.\n\nThe market page identifies the public market title as: \"What will Trump say during the FIFA World Cup Draw?\" The contract family is PRESMENTION / NEWMENTION, the strike is \"Ronaldo,\" the challenged resolution is No, and the requested resolution is Yes. That is ev_2c7c2c8a2d76_market-page.\n\nThe case-packet transcript is titled \"Remarks in an Exchange With Reporters Prior to the 2026 Fédération Internationale des Associations de Football (FIFA) World Cup Draw,\" dated December 5, 2025. It places the remarks at the John F. Kennedy Center for the Performing Arts, repeatedly under World Cup Draw, World Cup, and soccer headings, and records the President answering public reporter questions with FIFA President Infantino present. In that exchange, Trump used the standalone word \"Ronaldo\" in direct soccer-related remarks. He said he had met Ronaldo, that Ronaldo was great, and later compared his own soccer ability by saying he was not Ronaldo or Messi. That is ev_9cd6fa5297f3_pre-event-reporter-exchange.\n\nThe governing terms matter because they do not impose the narrow exclusion Kalshi applied. The NEWMENTION terms define the payout criterion as the word being said by the covered entity during the covered time period. They also recognize that a time period may be an event or context, and they give event-based rules that preserve words stated during the portion of an event that occurs, even where the event is abbreviated, altered, or changed in venue, format, or medium. The technical details exclude behind-the-scenes content, rehearsals, sound checks, and unofficial recordings unless officially broadcast or published as part of the time period. The reporter exchange here is not offered as a rehearsal or leak; it is an admitted public transcript of Presidential remarks connected on its face to the World Cup Draw venue and event. That is ev_a373371a8c9c_presmention-terms.\n\nThe expected defense is that \"during the FIFA World Cup Draw\" means only the formal stage program and not public remarks immediately before it. But the current record does not show that the market said \"formal program only,\" \"televised draw only,\" or \"excluding pre-event remarks at the venue.\" The formal-draw archive note actually underscores the point: a separate archived formal attendance page exists, but this packet does not establish that the formal program transcript controls to the exclusion of the pre-event reporter exchange. It says only that the full formal transcript was not retrieved and that the complaint does not need to prove the formal program contained the strike if the event-linked remarks fall within the market boundary. That is ev_eac0f81b7818_formal-draw-archive-note.\n\nWe accept the record's limits. The reporter-exchange transcript says the remarks were joined in progress, and its note reports that some portions could not be verified because the audio was incomplete. Those caveats affect weight at the margins. They do not erase the recorded Ronaldo passages, and they do not establish a contrary market limitation. The formal archive note is also a gap: it does not prove the formal draw transcript includes \"Ronaldo,\" but neither does it prove exclusion.\n\nThe proposition should be decided by the ordinary preponderance standard. If the market wanted a strict formal-program-only trigger, the market wording or incorporated terms needed to say so clearly. On the record now, the better reading is that public remarks at the World Cup Draw venue, immediately before and event-linked to the draw, count under an event/context mention market. Because Trump said the distinct word \"Ronaldo\" in those remarks, the strike should resolve Yes."
+        },
+        {
+          "phase": "openings",
+          "role": "defendant",
+          "text": "Council members, the defense opening is not that the packet never contains the word Ronaldo. It does. The defense is that plaintiff must prove the market resolved incorrectly, and the current record does not yet prove that a pre-event reporter exchange was within the market's resolving window: \"during the FIFA World Cup Draw.\"\n\nStart with the market page, ev_2c7c2c8a2d76_market-page. It gives the public title, the contract family, the strike, and the challenged No resolution. It does not give the full market rule page, the source hierarchy, a start time, a program boundary, or language saying that every public remark at the venue before the draw counts. That absence matters because this dispute is all about the boundary.\n\nThe reporter-exchange file, ev_9cd6fa5297f3_pre-event-reporter-exchange, is plaintiff's strongest fact evidence. It records public remarks in which Trump uses the standalone word Ronaldo. But its own title describes the remarks as an exchange with reporters \"prior to\" the 2026 FIFA World Cup Draw. The transcript also says the remarks were joined in progress, and its note says portions could not be verified because the audio was incomplete. Those caveats do not erase the Ronaldo passages, but they do affect how far the council can stretch the transcript. At most, the packet now proves that Ronaldo was said in a pre-event reporter exchange connected to the venue and subject matter. It does not prove that the exchange was part of the draw itself.\n\nThe terms, ev_a373371a8c9c_presmention-terms, cut against an automatic Yes. They require the word to be said by the covered entity during the covered time period. They allow a time period to be an event or context, but they also contemplate that the Exchange may specify what an event includes. They exclude unofficial, backstage, rehearsal, and sound-check material unless officially broadcast or published as part of the time period. And the event-alteration provisions count words during the portion of the event that occurred; they do not say that adjacent pre-program press availability becomes the event simply because it happened at the same venue and involved the same general subject.\n\nThe formal-draw archive note, ev_eac0f81b7818_formal-draw-archive-note, reinforces the missing link. It identifies a separate archive page for Trump's formal attendance remarks at the draw, but the full text was not retrieved and the file expressly does not establish whether the formal program transcript does or does not contain Ronaldo. That is not a point for plaintiff; it is a gap in plaintiff's proof. The record distinguishes the pre-event reporter exchange from the formal program and has not yet supplied the formal program evidence or a rule tying the pre-event exchange into the resolving period.\n\nSo the decisive questions are narrow: What exactly did Kalshi define as the time period for \"during the FIFA World Cup Draw\"? Did the source agency or market rules include pre-event reporter exchanges as part of that event? And what did the formal draw record show? On the present packet, plaintiff can answer only the first half of the case: the word appears in a related pre-event transcript. Plaintiff has not yet answered the legal and factual boundary question that determines resolution.\n\nUnder a preponderance standard, ambiguity alone is not enough to overturn the challenged No resolution. Unless later admitted evidence shows that the market's event window included this pre-event reporter exchange, the better reading is the ordinary one: remarks titled and recorded as prior to the FIFA World Cup Draw are not remarks during the draw. The council should approach this case from that burden-focused frame."
+        }
+      ],
+      "phase": "closed",
+      "proposition": "For the Kalshi market \"What will Trump say during the FIFA World Cup Draw?\", the strike \"Ronaldo\" should resolve Yes because Trump said \"Ronaldo\" in public remarks at the World Cup Draw venue immediately before the formal program, and the market wording plus the governing mention-market terms did not clearly exclude those event-linked remarks.",
+      "rebuttals": [
+        {
+          "phase": "rebuttals",
+          "role": "plaintiff",
+          "text": "Council members, defendant’s rebuttal-worthy point is that PX-5 refers to “Video of the FIFA World Cup Draw” and fallback “transcripts of the FIFA World Cup Draw.” Defendant treats that as a boundary rule. It is not. It is a source hierarchy: how Kalshi verifies the event. The same PX-5 sentence does not define the draw as only the formal Roll Call transcript; it says the strike resolves if Trump says the word “as part of FIFA World Cup Draw,” and then identifies video first and transcripts second as verification sources.\n\nThat distinction matters because PX-5 also lists The White House among sources. PX-2 is not “any venue press scrum” in the abstract. It is a public transcript of Presidential remarks tied by title to the FIFA World Cup Draw, at the Kennedy Center, with FIFA President Infantino present, on World Cup and soccer topics, and the packet note says it was released by the Office of Communications and corrected later. If video does not resolve consensus, the market’s own source hierarchy permits transcripts; it does not say only the formal Roll Call page may be consulted.\n\nDefendant also overuses the word “prior.” Plaintiff accepts that PX-2 is prior to the formal program and that PX-6’s formal transcript does not visibly contain Ronaldo. But “prior to the formal program” is not the same as “outside the event” when the market language is “as part of FIFA World Cup Draw.” Public arrival or pre-program remarks at the venue, about the event, with the event’s principal organizer, can be part of the public event context. If Kalshi wanted a narrower trigger, it knew how to say so: “during the formal draw broadcast,” “during the stage program,” or “excluding pre-event remarks.” That limiting language is absent.\n\nNor do the general terms help defendant. PX-3 excludes rehearsals, sound checks, backstage material, and unofficial recordings unless officially broadcast or published as part of the time period. PX-2 is not in any excluded category. It is official, public, source-published speech. PX-3’s event/context framework is exactly why the council should not import a rigid stage-only boundary from silence.\n\nFinally, the burden is preponderance, not certainty. Defendant’s case depends on converting verification language into an exclusion and converting “prior to” the formal program into “not part of” the public draw event. Plaintiff’s reading requires fewer additions: the market says “as part of FIFA World Cup Draw,” Trump made public source-published World Cup Draw remarks at the venue, and he said Ronaldo. That is more likely than not enough for Yes."
+        }
+      ],
+      "resolution": "no_majority",
+      "status": "closed",
+      "submitted_evidence": [
+        {
+          "evidence_id": "ev_c3ecd221f5a8_submitted-evidence-01-plaintiff-c3ecd221f5a8",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Addresses defendant's asserted gap about full market rule wording, source hierarchy, event condition, timing, and whether the market language excludes pre-event reporter remarks.",
+          "retrieval_timestamp": "2026-06-29T20:58:10Z",
+          "role": "plaintiff",
+          "sha256": "c3ecd221f5a875b0a76d66c410ec0dcded6cfe22283fa551b183441ad11814e5",
+          "size_bytes": 1874,
+          "source_description": "Rendered/public Kalshi market page text opened during plaintiff merits investigation; extracted visible text relevant to market title, rules, source agencies, timing, and series/event/market identifiers.",
+          "source_url": "https://kalshi.com/markets/kxtrumpmentionb/trump-mention-b/kxtrumpmentionb-25dec06",
+          "title": "Kalshi market page extraction for KXTRUMPMENTIONB-25DEC06"
+        },
+        {
+          "evidence_id": "ev_8637490aafef_submitted-evidence-02-plaintiff-8637490aafef",
+          "mime_type": "text/plain",
+          "phase": "arguments",
+          "relevance": "Addresses the defense theory that only the formal draw transcript controls, and tests whether the formal attendance transcript contains the strike or competing context.",
+          "retrieval_timestamp": "2026-06-29T20:58:10Z",
+          "role": "plaintiff",
+          "sha256": "8637490aafefe57701cc50581d4371fe0fe3bda0b10a5253c861f0536ff25973",
+          "size_bytes": 1511,
+          "source_description": "Rendered Roll Call/Factba.se transcript page opened during plaintiff merits investigation; extracted visible metadata and relevant search results for the formal draw transcript.",
+          "source_url": "https://rollcall.com/factbase/trump/transcript/donald-trump-remarks-fifa-world-cup-drawing-december-5-2025/",
+          "title": "Roll Call/Factba.se formal FIFA World Cup drawing transcript extraction"
+        }
+      ],
+      "surrebuttals": [
+        {
+          "phase": "surrebuttals",
+          "role": "defendant",
+          "text": "Council members, plaintiff's rebuttal says the video/transcript language is only a source hierarchy, not a boundary. Even accepting the label, it still matters. A source hierarchy tells us what sources may verify the Underlying. PX-5 does not say Kalshi verifies this market from any public Trump speech about the World Cup. It says video of the FIFA World Cup Draw is primary, and if video does not produce consensus, transcripts of the FIFA World Cup Draw are used.\n\nThat is the bridge plaintiff still lacks. The White House being listed among sources does not mean every White House transcript from the building counts. It means a White House source can verify the market when it is documenting the relevant event. PX-2 is not titled as a transcript of the FIFA World Cup Draw. It is titled as remarks in an exchange with reporters prior to the draw. Plaintiff has shown relation: same venue, same general subject, FIFA President present, public and official transcript. Relation is not the same thing as inclusion in the draw video, the draw transcript, or the official presentation.\n\nPlaintiff also argues that PX-2 is not in an excluded category under the general terms. That answers the wrong question. If a source is backstage, rehearsal, sound-check, or unofficial, it is excluded. But the converse does not follow: every non-excluded official public remark is not automatically included. EV-3 still requires the word to be said during the covered time period, and PX-5 identifies that covered event through the FIFA World Cup Draw video and draw transcripts.\n\nThe formal-source evidence remains unrebutted. PX-6 is the only admitted test of the formal draw transcript, and it found no Ronaldo or Messi in visible page text. Plaintiff accepts that. Plaintiff asks the council to treat pre-program remarks as part of the event because the market did not expressly say otherwise. But under a preponderance standard, the party challenging No must prove inclusion more likely than not. The record shows a related prior exchange with Ronaldo and a draw transcript without Ronaldo. It does not show the prior exchange was part of the market's resolving draw source.\n\nSo the issue is not whether plaintiff found a clever loophole in the word \"formal.\" The issue is whether the record proves that Kalshi's event market included this separate prior reporter exchange. It does not. The challenged No resolution should stand."
+        }
+      ],
+      "technical_reports": [
+        {
+          "phase": "arguments",
+          "role": "plaintiff",
+          "summary": "Checked the live Kalshi market URL for the full event/source wording and submitted the rendered extraction as PX-5. Checked the Roll Call/Factba.se formal draw transcript URL identified in the packet note; page was accessible and page-find returned no Ronaldo or Messi match, submitted as PX-6. Earlier APP/UCSB source was opened and matched the packet transcript. No direct video was captured in this opportunity; the argument therefore relies on admitted text evidence and identifies the video/formal-program issue as an adverse gap rather than treating it as resolved.",
+          "title": "Plaintiff source-search ledger"
+        },
+        {
+          "phase": "arguments",
+          "role": "defendant",
+          "summary": "For the merits response, defendant inspected the updated record, stat/read the two new plaintiff evidence files, and ran targeted web searches for the formal draw title, the pre-event transcript title with Ronaldo, and the Kalshi event identifier. Those searches found secondary reports and unrelated Ronaldo/Kalshi pages, but no stronger primary artifact showing the pre-event reporter exchange was included in the official FIFA World Cup Draw video or transcript source set. Defendant therefore submitted no new outside evidence and relies on the admitted Kalshi extraction, formal transcript extraction, reporter-exchange transcript, and terms.",
+          "title": "Defendant Source-Search Ledger"
+        }
+      ]
+    },
+    "forum_name": "Agent Arbitration",
+    "policy": {
+      "council_size": 5,
+      "evidence_standard": "Preponderance of the evidence.",
+      "max_argument_chars": 6000,
+      "max_closing_chars": 5000,
+      "max_deliberation_rounds": 3,
+      "max_exhibit_bytes": 131072,
+      "max_exhibits_per_filing": 9,
+      "max_exhibits_per_side": 12,
+      "max_opening_chars": 5000,
+      "max_rebuttal_chars": 4000,
+      "max_report_summary_bytes": 8192,
+      "max_report_title_bytes": 256,
+      "max_reports_per_filing": 3,
+      "max_reports_per_side": 4,
+      "max_submitted_evidence_bytes": 67108864,
+      "max_submitted_evidence_per_side": 8,
+      "max_surrebuttal_chars": 4000,
+      "required_votes_for_decision": 3
+    },
+    "schema_version": "v1",
+    "state_version": 16
+  },
+  "final_reason": "no_majority"
+}

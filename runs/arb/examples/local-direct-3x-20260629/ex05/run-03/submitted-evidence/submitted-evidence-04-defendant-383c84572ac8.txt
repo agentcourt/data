@@ -1,0 +1,30 @@
+Source: Center for Strategic and International Studies
+Title: Imagery from Venezuela Shows a Surgical Strike, Not Shock and Awe
+URL: https://www.csis.org/analysis/imagery-venezuela-shows-surgical-strike-not-shock-and-awe
+Byline: Ryan C. Berg, Mark F. Cancian, Joseph S. Bermudez Jr., Jennifer Jun, Henry Ziemer, and Chris H. Park
+Published: January 9, 2026
+Retrieval timestamp: 2026-06-30T00:55:30Z
+
+Relevant extracted text:
+
+CSIS states that in the early morning hours of January 3, 2026, more than 200 U.S. special operations forces surged through Caracas to capture Nicolas Maduro and Cilia Flores in Operation Absolute Resolve, and that extensive intelligence collection supported a successful mission in which Maduro and his wife were captured and no U.S. personnel were killed.
+
+CSIS says its satellite imagery analysis estimated military activity and battle damage at four sites: Fort Tiuna Military Complex, La Carlota Air Base, La Guaira Port, and El Higuerote Airport.
+
+CSIS characterizes the picture from imagery as a military operation in furtherance of a law enforcement mission, laser-focused on the capture of Maduro with minimal collateral damage. It says this was not a shock-and-awe campaign intended to bring the entire Venezuelan security apparatus to heel with overwhelming force, unlike broad U.S. attacks against Iraq in 1991 and 2003 that targeted electrical, communications, and transportation infrastructure to force capitulation. CSIS states that no such targets were struck here.
+
+CSIS states that U.S. forces focused on a limited number of sites, primarily Fort Tiuna, where Maduro reportedly had several bunkers. It says air defense batteries and radars were attacked to create a corridor for helicopters to enter Venezuelan territory and reach the target without interference, but that many air defense sites remained untouched and it was not necessary to take out the entire air defense system.
+
+CSIS states that Venezuela's regular military forces and their headquarters were also not struck. It notes that while an air defense unit was hit at La Guaira port, nearby Venezuelan navy ships were not, and none of the buildings at La Carlota Air Base, reported to be part of the Venezuelan air force headquarters, were struck.
+
+CSIS says the narrow target set may reflect a sincere desire to reduce casualties and may also reflect a deliberate signal to Venezuelan armed forces and Maduro's inner circle of limited U.S. objectives. It says the Trump administration could have decided to work through the existing Venezuelan structure and therefore did not want to destabilize or decapitate the military because it would be needed to keep order.
+
+At Fort Tiuna, CSIS says damage was tightly focused, with no evidence of widespread strikes against barracks, training facilities, and administrative headquarters. CSIS assesses this suggests an effort to isolate and neutralize specific capabilities tied directly to rapid response and regime protection.
+
+At La Carlota Air Base, CSIS reports two impact craters slightly north of the runway and says the relatively small footprint could indicate an effort to keep collateral-damage risk to a minimum. It says none of the runways, hangars, or buildings appear to have been struck.
+
+At La Guaira port, CSIS says the port was struck because of an air defense unit, not because it is a military facility. It reports damage localized to a single pier with two warehouses and notes the United States did not target the main loading and unloading docks or Venezuelan naval ships docked approximately 700 meters to the west.
+
+At Higuerote Airport, CSIS says post-operation imagery shows a destroyed truck near the terminal building with a debris fan consistent with a precision strike and no indication of strikes elsewhere at the airfield, supporting the assessment that the strike was narrowly focused rather than aimed at the airport's overall operations.
+
+Capture notes: This is a relevant text extract from the CSIS web page, not the full HTML or images. It is useful for defense because it directly addresses objective and scope through imagery analysis. It does not disprove that U.S. forces entered Venezuela or used military force; instead, it limits the inference that the mission intended broad territorial control.
