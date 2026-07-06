@@ -34,6 +34,8 @@ Published runs live under `runs/arb/`.  The examples batch lives at [Examples, l
 | `run-batch.sh` | Batch script retained as provenance for the examples batch. |
 | `provenance.md` | Source, policy, cleanup, and import notes for a run set. |
 
+Derived datasets live outside `runs/`.  [Attorney persona juror replays](persona-deliberations/attorney-exhaustive-20260703T180237Z/) publishes a compact JSONL table from a single-juror replay experiment against saved arbitration outputs.  That dataset supports vote and rationale comparisons by persona, saved run, and example.  It has no `run.json`, run-level checksum file, or closed-run invariant, so `manifest.json` omits it.
+
 ## Inspecting a Run
 
 Start with `digest.md` and `transcript.md` when reading a run by hand.  The digest gives the outcome, evidence list, arguments, and council result in a compact form.  The transcript preserves the sequence of lawyer filings and council votes in a form that is easier to read than the JSON records.
@@ -68,8 +70,21 @@ Failed council members are part of the data.  A failed member appears in `events
 
 The logs help diagnose council failures and model behavior.  They may also contain verbose provider output or repeated prompt material.  Review logs before using the dataset in a smaller derived publication package.
 
+## Persona Replay Data
+
+The attorney persona replay dataset lives at [Attorney persona juror replays](persona-deliberations/attorney-exhaustive-20260703T180237Z/).  The main file is `persona-runs.jsonl`, with one JSON object per planned replay.  Each row records `status`, `case_id`, `model`, `vote`, `rationale`, `persona_file`, and `out_dir`.
+
+Use the replay dataset for compact vote and rationale analysis.  Filter `status == "ok"` before computing vote rates, because the table retains one timeout row with `vote: null` and `rationale: null`.  The dataset README and analysis file describe the experiment design, row counts, outcome counts, and limitations.
+
+Example commands:
+
+```sh
+jq -r 'select(.status == "ok") | .vote' persona-deliberations/attorney-exhaustive-20260703T180237Z/persona-runs.jsonl | sort | uniq -c
+jq -c 'select(.status != "ok")' persona-deliberations/attorney-exhaustive-20260703T180237Z/persona-runs.jsonl
+```
+
 ## Verification
 
 The top-level `SHA256SUMS` file covers retained files except `README.md` files and checksum files.  Run `tools/verify.sh` from the repository root to check file integrity and basic run invariants.  The verifier requires `sha256sum` and `jq`.
 
-`manifest.json` summarizes each run.  It includes the run path, status, phase, resolution, start and finish timestamps, council policy, file count, total byte count, and the per-run checksum file hash.  The manifest is for indexing; `SHA256SUMS` and the per-run checksum files are the integrity sources.
+`manifest.json` summarizes each run.  It includes the run path, status, phase, resolution, start and finish timestamps, council policy, file count, total byte count, and the per-run checksum file hash.  The manifest is an index.  `SHA256SUMS` and the per-run checksum files are the integrity sources.

@@ -21,6 +21,7 @@ The JSON files use the field names emitted by the local AAR runner.  The event s
 | `ledger.csv` | CSV | Run-set execution ledger when retained. |
 | `batch.log` | Text | Run-set execution log when retained. |
 | `provenance.md` | Markdown | Source, policy, cleanup, and import notes for a run set. |
+| `persona-runs.jsonl` | JSONL | Compact derived table for persona juror replays. |
 
 ## `run.json`
 
@@ -74,3 +75,19 @@ The logs are diagnostic artifacts.  They may include repeated prompts, raw model
 Some run sets retain execution files at the run-set root.  `ledger.csv` records one row per attempted run, including example, attempt, output path, status, resolution, file count, byte count, start time, finish time, cleanup status, and runner notes.  `batch.log` records the batch script’s progress messages and disk checks.
 
 `run-batch.sh` is retained when it helps explain how the run set was produced.  It may contain local path references and command options, but it should not contain credential values.  `provenance.md` records source paths, generation times, council pool hashes, cleanup rules, and publication filters.
+
+## Persona Replay Files
+
+`persona-runs.jsonl` is a derived JSONL table, with one object per planned single-juror replay.  The attorney persona replay dataset uses this format at `persona-deliberations/attorney-exhaustive-20260703T180237Z/persona-runs.jsonl`.
+
+| Field | Type | Meaning |
+|---|---|---|
+| `status` | String | `ok` for completed deliberations, or `error` for a retained failed condition. |
+| `case_id` | String | Source arbitration case identifier. |
+| `model` | String | Model URI used for the replay. |
+| `vote` | String or null | `demonstrated`, `not_demonstrated`, or `null` when the replay failed. |
+| `rationale` | String or null | Council-member rationale text, or `null` when the replay failed. |
+| `persona_file` | String | Persona file path from the adjudication source tree. |
+| `out_dir` | String | Generating replay output directory, relative to `adjudication/arb`. |
+
+Rows with `status != "ok"` document planned conditions that failed.  Vote-rate analysis should filter to completed rows before grouping by case, saved run, persona, or model.

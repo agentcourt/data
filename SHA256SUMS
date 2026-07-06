@@ -1,7 +1,9 @@
 4a720ea81f1b4439291e2bca63f52d4413556d8a6ded6edcfdbf2e9cde741763  ./.gitignore
 c6aa2539a231957cadfe67a1e0fb30754b7c8937e795a20916ec50c59d126280  ./NOTICE.md
 492370fb0f9637dd4cbf97b15e39194d169885893f526da093b0855686558fcd  ./manifest.json
-09af74e7e6fa92ce484e14271cdf20072796b31885a4de801c40731a29f776eb  ./manual.md
+55159402217767ca83131edf62d83168983067d003507bed4b0e9a071ceb3093  ./manual.md
+712473b9bef5d0b0ca6cf3535b05e3a217a354de7f9d7921ccbb72f3bd5f6e8c  ./persona-deliberations/attorney-exhaustive-20260703T180237Z/analysis.md
+f35882d595995fcb0c9bc182e1b78e1980c4b667a971349c9a73c30d03481496  ./persona-deliberations/attorney-exhaustive-20260703T180237Z/persona-runs.jsonl
 8500859d290b3d3500a709884a04184718aa3436c4d17c0dae298864d796b62b  ./runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T213059Z/complaint.md
 41b4ff99f9d973e24f921c4f2eaf1498215a0ed53e44bfd7506a9804c032c7d0  ./runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T213059Z/council-turns/turn-000009-C1/input.json
 a5001a44dd36a7edc646b8615031382da008cc9a4f266ad5973aa4cbef305c5d  ./runs/arb/ex11a/newpool-11council-6majority/ex11a-newpool-11council-6majority-20260619T213059Z/council-turns/turn-000009-C1/prompt.txt
@@ -2969,5 +2971,5 @@ fcfd5f90b1b2bd6b3a7c37fc31661ffaadf8ebbd2bbd08091204a2f144b66089  ./runs/arb/exa
 f8d2073792cf03272890be0fe60eeac251820a75623e8c858ee7bac5e49ee107  ./runs/arb/examples/local-direct-3x-20260629/ledger.csv
 5c2f4ec7e05f950a75188247a248a98aa13c0ed9a9cfff081b652c565da55568  ./runs/arb/examples/local-direct-3x-20260629/provenance.md
 643c724f0b5356ed11a5102ec74819f28ad2faafac9d656d5bc677bf1fb122d0  ./runs/arb/examples/local-direct-3x-20260629/run-batch.sh
-9131f782562c31c9417fe1a104113b2483759db3621dfa607ffc6104a969f859  ./schema.md
+73302ca786fa4044d16e7634f56da3a8b6ef02023842c59fd4c902b387145673  ./schema.md
 31dc5d0da546e0446957d9c56541ad7e1b9b2edf803bfc80000fb9bff2201985  ./tools/verify.sh
