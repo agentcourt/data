@@ -1,6 +1,6 @@
 # Fixed-Persona Five-Model Juror Replays
 
-This directory publishes compact output from a fixed-persona AgentCourt juror replay experiment.  The experiment replayed one council-member deliberation against saved arbitration outputs from the local direct examples run set.  The persona was held fixed at `generic.md`, and the model config varied across five council-member model configs.
+This directory publishes compact output from a fixed-persona AgentCourt juror replay experiment.  The experiment replayed one council-member deliberation against saved arbitration outputs from [the local direct examples experiment](../local-direct-3x-20260629/).  The persona was held fixed at `generic.md`, and the model config varied across five council-member model configs.
 
 Each row in `model-runs.jsonl` corresponds to one planned terminal replay condition.  The design used 16 examples, three saved runs per example, five model configs, and five repeats for each model-run condition.  That design produced 1,200 terminal rows: 1,130 successful vote rows and 70 terminal error rows.
 

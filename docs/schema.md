@@ -4,7 +4,7 @@
 
 The dataset retains runner output rather than a normalized database export.  Several files repeat the same facts because the runner saves chronological events, final state, human-readable summaries, and raw process logs.  Analysis code should prefer the smallest file that contains the needed information.
 
-The JSON files use the field names emitted by the local AAR runner.  The event stream uses newline-delimited JSON, with one event object per line.  The Markdown files are derived human-readable views and should be treated as convenience artifacts rather than authoritative state.
+The JSON files use the field names emitted by the local AAR runner.  The event stream uses newline-delimited JSON, with one event object per line.  The Markdown files are generated human-readable views and should be treated as convenience artifacts rather than authoritative state.
 
 ## Core Files
 
@@ -16,10 +16,11 @@ The JSON files use the field names emitted by the local AAR runner.  The event s
 | `work-notes.ndjson` | NDJSON | Lawyer work notes. |
 | `transcript.md` | Markdown | Human-readable proceeding transcript. |
 | `digest.md` | Markdown | Human-readable summary. |
-| `ledger.csv` | CSV | Run-set execution ledger when retained. |
-| `batch.log` | Text | Run-set execution log when retained. |
-| `provenance.md` | Markdown | Source, policy, cleanup, and import notes for a run set. |
-| `persona-runs.jsonl` | JSONL | Compact derived table for persona juror replays. |
+| `ledger.csv` | CSV | Experiment execution ledger when retained. |
+| `batch.log` | Text | Experiment execution log when retained. |
+| `provenance.md` | Markdown | Source, policy, cleanup, and import notes for an experiment. |
+| `persona-runs.jsonl` | JSONL | Compact table for persona juror replays. |
+| `model-runs.jsonl` | JSONL | Compact terminal table for model juror replays. |
 
 ## `run.json`
 
@@ -54,7 +55,7 @@ jq -r 'select(.type=="council_vote") | [.timestamp, .payload.member_id, .payload
 
 `submitted-evidence/` stores text evidence submitted by lawyers.  `evidence-store/` stores evidence blobs by hash prefix and full hash.  `evidence-manifest.json` records evidence identifiers, hashes, byte counts, MIME types, titles, source URLs, source descriptions, retrieval timestamps, submitting roles, submitting phases, and relevance statements.
 
-The evidence files contain captured source material from third-party web pages.  The dataset preserves source URLs and retrieval timestamps so the provenance can be reviewed.  See `NOTICE.md` for publication notes.
+The evidence files contain captured source material from third-party web pages.  The dataset preserves source URLs and retrieval timestamps so the provenance can be reviewed.  See [the notice](notice.md) for publication notes.
 
 ## Council Turns
 
@@ -68,15 +69,15 @@ These files support analysis of what a council member saw during deliberation.  
 
 The logs are diagnostic artifacts.  They may include repeated prompts, raw model output, and process-level details.  They are useful for failure analysis and less convenient for primary outcome analysis than `events.ndjson`, `run.json`, and `council-turns/`.
 
-## Run-Set Files
+## Experiment Files
 
-Some run sets retain execution files at the run-set root.  `ledger.csv` records one row per attempted run, including example, attempt, output path, status, resolution, file count, byte count, start time, finish time, cleanup status, and runner notes.  `batch.log` records the batch script’s progress messages and disk checks.
+Some experiments retain execution files at the experiment root.  `ledger.csv` records one row per attempted run, including example, attempt, output path, status, resolution, file count, byte count, start time, finish time, cleanup status, and runner notes.  `batch.log` records the batch script's progress messages and disk checks.
 
-`run-batch.sh` is retained when it helps explain how the run set was produced.  It may contain local path references and command options, but it should not contain credential values.  `provenance.md` records source paths, generation times, council pool hashes, cleanup rules, and publication filters.
+`run-batch.sh` is retained when it helps explain how the experiment was produced.  It may contain local path references and command options, but it should not contain credential values.  `provenance.md` records source paths, generation times, council pool hashes, cleanup rules, and publication filters.
 
 ## Persona Replay Files
 
-`persona-runs.jsonl` is a derived JSONL table, with one object per planned single-juror replay.  The attorney persona replay dataset uses this format at `persona-deliberations/attorney-exhaustive-20260703T180237Z/persona-runs.jsonl`.
+`persona-runs.jsonl` is a JSONL table, with one object per planned single-juror replay.  The attorney persona replay experiment uses this format at `experiments/attorney-persona-juror-replay-20260703/persona-runs.jsonl`.  The fixed-persona five-model replay experiment uses the same core fields in `experiments/fixed-persona-5model-juror-replay-20260706/model-runs.jsonl`.
 
 | Field | Type | Meaning |
 |---|---|---|

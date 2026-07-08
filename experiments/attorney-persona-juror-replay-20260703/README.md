@@ -1,6 +1,6 @@
 # Attorney Persona Juror Replays
 
-This directory publishes a compact output table from an AgentCourt juror replay experiment.  The experiment replayed one council-member deliberation against saved arbitration outputs, using the same model and changing only the attorney persona text.  The source records came from the local direct examples run set published in this repository.
+This directory publishes a compact output table from an AgentCourt juror replay experiment.  The experiment replayed one council-member deliberation against saved arbitration outputs, using the same model and changing only the attorney persona text.  The source records came from [the local direct examples experiment](../local-direct-3x-20260629/) published in this repository.
 
 Each row in `persona-runs.jsonl` corresponds to one planned replay.  The table contains 4,080 rows: 4,079 completed deliberations and one retained timeout error.  This publication package includes the compact table and analysis.  The full replay work directories, logs, tool-call streams, prompts, and copied source snapshots remain in the generating workspace.
 
