@@ -28,13 +28,12 @@ Published runs live under `runs/arb/`.  The examples batch lives at [Examples, l
 | `evidence-store/` | Hash-addressed evidence blobs. |
 | `council-turns/` | Inputs and outputs for council deliberation turns. |
 | `logs/` | Process logs for OpenClaw lawyers, council members, and MCP/API activity. |
-| `SHA256SUMS` | Run-level checksum file. |
 | `ledger.csv` | Run-set execution ledger for the examples batch. |
 | `batch.log` | Run-set execution log for the examples batch. |
 | `run-batch.sh` | Batch script retained as provenance for the examples batch. |
 | `provenance.md` | Source, policy, cleanup, and import notes for a run set. |
 
-Derived datasets live outside `runs/`.  [Attorney persona juror replays](persona-deliberations/attorney-exhaustive-20260703T180237Z/) publishes a compact JSONL table from a single-juror replay experiment against saved arbitration outputs.  That dataset supports vote and rationale comparisons by persona, saved run, and example.  It has no `run.json`, run-level checksum file, or closed-run invariant, so `manifest.json` omits it.
+Derived datasets live outside `runs/`.  [Attorney persona juror replays](persona-deliberations/attorney-exhaustive-20260703T180237Z/) publishes a compact JSONL table from a single-juror replay experiment against saved arbitration outputs.  That dataset supports vote and rationale comparisons by persona, saved run, and example.
 
 ## Inspecting a Run
 
@@ -82,9 +81,3 @@ Example commands:
 jq -r 'select(.status == "ok") | .vote' persona-deliberations/attorney-exhaustive-20260703T180237Z/persona-runs.jsonl | sort | uniq -c
 jq -c 'select(.status != "ok")' persona-deliberations/attorney-exhaustive-20260703T180237Z/persona-runs.jsonl
 ```
-
-## Verification
-
-The top-level `SHA256SUMS` file covers retained files except `README.md` files and checksum files.  Run `tools/verify.sh` from the repository root to check file integrity and basic run invariants.  The verifier requires `sha256sum` and `jq`.
-
-`manifest.json` summarizes each run.  It includes the run path, status, phase, resolution, start and finish timestamps, council policy, file count, total byte count, and the per-run checksum file hash.  The manifest is an index.  `SHA256SUMS` and the per-run checksum files are the integrity sources.

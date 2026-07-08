@@ -27,8 +27,3 @@ The retained output preserves the local AAR runner layout after removing transie
 | `ex12` | 3 | 3 | 0 | 0 |
 | `ex13` | 3 | 0 | 3 | 0 |
 | **Total** | **48** | **24** | **16** | **8** |
-
-## Integrity
-
-Each run directory has a local `SHA256SUMS` file.  The repository root has the dataset manifest and top-level checksum file.  Run `tools/verify.sh` from the repository root to check file integrity and compare manifest fields with each run’s `run.json`.
-

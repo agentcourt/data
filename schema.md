@@ -16,8 +16,6 @@ The JSON files use the field names emitted by the local AAR runner.  The event s
 | `work-notes.ndjson` | NDJSON | Lawyer work notes. |
 | `transcript.md` | Markdown | Human-readable proceeding transcript. |
 | `digest.md` | Markdown | Human-readable summary. |
-| `manifest.json` | JSON | Dataset-level run index. |
-| `SHA256SUMS` | Text | File integrity verification. |
 | `ledger.csv` | CSV | Run-set execution ledger when retained. |
 | `batch.log` | Text | Run-set execution log when retained. |
 | `provenance.md` | Markdown | Source, policy, cleanup, and import notes for a run set. |
