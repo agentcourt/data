@@ -16,6 +16,7 @@ The top-level [manual](manual.md) explains how to inspect a run and verify file 
 | Dataset | Rows | Description |
 |---|---:|---|
 | [Attorney persona juror replays](persona-deliberations/attorney-exhaustive-20260703T180237Z/) | 4,080 | Single-juror replays against saved example arbitration runs, using one fixed model and 17 attorney personas. |
+| [Fixed-persona five-model juror replays](juror-model-experiments/generic-5model-tolerant-20260706T145403Z/) | 1,200 | Single-juror replays against saved example arbitration runs, using one fixed persona and five model configs. |
 
 ## Verification
 

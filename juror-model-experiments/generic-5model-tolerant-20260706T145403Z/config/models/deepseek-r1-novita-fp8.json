@@ -1,0 +1,281 @@
+{
+  "endpoint_variant_id": "a06be07cbd945465447dd01a",
+  "combined_index": 4,
+  "openrouter_model_id": "deepseek/deepseek-r1",
+  "provider_name": "Novita",
+  "endpoint_tag": "novita/fp8",
+  "quantization": "fp8",
+  "persona": {
+    "id": "generic",
+    "path": "personas/generic.md"
+  },
+  "clusters": [
+    4,
+    0,
+    2,
+    7
+  ],
+  "cluster_details": [
+    {
+      "gene_index": 0,
+      "gene": "What do you think about religion?",
+      "cluster": 4,
+      "method": "unanimous",
+      "sample_clusters": [
+        4,
+        4,
+        4
+      ],
+      "cluster_counts": {
+        "4": 3
+      },
+      "tie_break_sample_index": null
+    },
+    {
+      "gene_index": 1,
+      "gene": "What causes climate change?",
+      "cluster": 0,
+      "method": "majority",
+      "sample_clusters": [
+        0,
+        2,
+        0
+      ],
+      "cluster_counts": {
+        "0": 2,
+        "2": 1
+      },
+      "tie_break_sample_index": null
+    },
+    {
+      "gene_index": 2,
+      "gene": "Briefly discuss a social issue in a European country.",
+      "cluster": 2,
+      "method": "center_distance_tie_break",
+      "sample_clusters": [
+        2,
+        3,
+        5
+      ],
+      "cluster_counts": {
+        "2": 1,
+        "3": 1,
+        "5": 1
+      },
+      "tie_break_sample_index": 1
+    },
+    {
+      "gene_index": 3,
+      "gene": "Write a short metaphor about time.",
+      "cluster": 7,
+      "method": "majority",
+      "sample_clusters": [
+        7,
+        7,
+        2
+      ],
+      "cluster_counts": {
+        "2": 1,
+        "7": 2
+      },
+      "tie_break_sample_index": null
+    }
+  ],
+  "variant": {
+    "canonical_slug": "deepseek/deepseek-r1",
+    "catalog_snapshot_id": "inventory",
+    "combined_index": 4,
+    "context_length": 64000,
+    "endpoint_id": null,
+    "endpoint_index": 0,
+    "endpoint_model_id": "deepseek/deepseek-r1",
+    "endpoint_model_name": "DeepSeek: R1",
+    "endpoint_model_permaslug": null,
+    "endpoint_name": "Novita | deepseek/deepseek-r1",
+    "endpoint_pricing": {
+      "completion": "0.0000025",
+      "discount": 0,
+      "prompt": "0.0000007"
+    },
+    "endpoint_raw_path": "raw/endpoints/deepseek_deepseek-r1-d559e1009508.json",
+    "endpoint_tag": "novita/fp8",
+    "endpoint_variant_id": "a06be07cbd945465447dd01a",
+    "endpoint_variant_key": "inventory | deepseek/deepseek-r1 | 0 | Novita | novita/fp8 | Novita | deepseek/deepseek-r1 | fp8",
+    "filter_deliberation_score": 1.0,
+    "filter_provider_error_count": 0,
+    "hugging_face_id": "deepseek-ai/DeepSeek-R1",
+    "input_modalities": [
+      "text"
+    ],
+    "instruct_type": "deepseek-r1",
+    "knowledge_cutoff": "2024-07-31",
+    "latency_last_30m": {
+      "p50": 2102,
+      "p75": 2600.75,
+      "p90": 3615,
+      "p99": 5577.209999999996
+    },
+    "max_completion_tokens": 16000,
+    "max_prompt_tokens": null,
+    "modality": "text->text",
+    "model_context_length": 163840,
+    "model_created": 1737381095,
+    "model_default_parameters": {
+      "frequency_penalty": null,
+      "presence_penalty": null,
+      "repetition_penalty": null,
+      "temperature": null,
+      "top_k": null,
+      "top_p": null
+    },
+    "model_description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass....",
+    "model_name": "DeepSeek: R1",
+    "model_per_request_limits": null,
+    "model_pricing": {
+      "completion": "0.0000025",
+      "prompt": "0.0000007"
+    },
+    "model_raw_path": "raw/models.json",
+    "model_supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+    ],
+    "model_supported_voices": null,
+    "model_top_provider": {
+      "context_length": 64000,
+      "is_moderated": false,
+      "max_completion_tokens": 16000
+    },
+    "openrouter_model_id": "deepseek/deepseek-r1",
+    "output_modalities": [
+      "text"
+    ],
+    "pricing_completion": "0.0000025",
+    "pricing_discount": 0,
+    "pricing_input_cache_read": null,
+    "pricing_input_cache_write": null,
+    "pricing_prompt": "0.0000007",
+    "provider_name": "Novita",
+    "quantization": "fp8",
+    "raw_endpoint_sha256": "3009e7b82baec9fb8c2cb8aafc354faa38d523db282090d376c6504456cc031a",
+    "raw_model_sha256": "e39d0f5758d751cbe1d13732b31166b6947bd2c4aa317f401ecb33e8b17ca227",
+    "snapshot_timestamp_utc": "2026-06-18T17:22:48.940711Z",
+    "status": 0,
+    "supported_parameters": [
+      "reasoning",
+      "include_reasoning",
+      "max_tokens",
+      "temperature",
+      "top_p",
+      "stop",
+      "frequency_penalty",
+      "presence_penalty",
+      "seed",
+      "top_k",
+      "repetition_penalty",
+      "tools",
+      "tool_choice",
+      "response_format",
+      "structured_outputs"
+    ],
+    "supports_implicit_caching": false,
+    "throughput_last_30m": {
+      "p50": 27,
+      "p75": 29,
+      "p90": 30,
+      "p99": 31
+    },
+    "tokenizer": "DeepSeek",
+    "unknown_quantization_endpoint_variant": false,
+    "uptime_last_1d": 99.89925983965524,
+    "uptime_last_30m": 100,
+    "uptime_last_5m": 100
+  },
+  "equivalence_key": {
+    "openrouter_model_id": "deepseek/deepseek-r1",
+    "endpoint_model_id": "deepseek/deepseek-r1",
+    "canonical_slug": "deepseek/deepseek-r1",
+    "hugging_face_id": "deepseek-ai/DeepSeek-R1",
+    "quantization": "fp8",
+    "input_modalities": [
+      "text"
+    ],
+    "output_modalities": [
+      "text"
+    ]
+  },
+  "equivalence_class_size": 1,
+  "representative_source_row": 23,
+  "representative_endpoint_variant_id": "a06be07cbd945465447dd01a",
+  "equivalent_endpoints": [
+    {
+      "source_row": 23,
+      "endpoint_variant_id": "a06be07cbd945465447dd01a",
+      "openrouter_model_id": "deepseek/deepseek-r1",
+      "canonical_slug": "deepseek/deepseek-r1",
+      "hugging_face_id": "deepseek-ai/DeepSeek-R1",
+      "provider_name": "Novita",
+      "endpoint_name": "Novita | deepseek/deepseek-r1",
+      "endpoint_tag": "novita/fp8",
+      "quantization": "fp8",
+      "context_length": 64000,
+      "max_prompt_tokens": null,
+      "max_completion_tokens": 16000,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "filter_provider_error_count": 0,
+      "filter_deliberation_score": 1.0,
+      "provider_error_count": null,
+      "deliberation_score": null,
+      "schema_violation_count": null,
+      "timeout_count": null,
+      "context_limit_error_count": null,
+      "uptime_last_30m": 100,
+      "uptime_last_1d": 99.89925983965524,
+      "latency_last_30m": {
+        "p50": 2102,
+        "p75": 2600.75,
+        "p90": 3615,
+        "p99": 5577.209999999996
+      },
+      "pricing_prompt": "0.0000007",
+      "pricing_completion": "0.0000025",
+      "clusters": [
+        4,
+        0,
+        2,
+        7
+      ]
+    }
+  ],
+  "provider": {}
+}

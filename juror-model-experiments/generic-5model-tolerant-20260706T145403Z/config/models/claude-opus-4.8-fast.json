@@ -1,0 +1,15 @@
+{
+  "endpoint": "openrouter",
+  "model": "anthropic/claude-opus-4.8-fast",
+  "provider": {},
+  "provider_name": "OpenRouter routed",
+  "headers": {
+    "X-OpenRouter-Experimental-Metadata": "enabled"
+  },
+  "variant_metadata": {
+    "replacement_for": "anthropic/claude-opus-4.6-fast",
+    "replacement_reason": "OpenRouter returned no endpoints for the stale model id on 2026-07-06.",
+    "openrouter_model_id": "anthropic/claude-opus-4.8-fast",
+    "provider_policy": "no provider lock"
+  }
+}

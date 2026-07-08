@@ -1,5 +1,16 @@
 4a720ea81f1b4439291e2bca63f52d4413556d8a6ded6edcfdbf2e9cde741763  ./.gitignore
 c6aa2539a231957cadfe67a1e0fb30754b7c8937e795a20916ec50c59d126280  ./NOTICE.md
+6bdbdd5aeffdef5b175de31159c430f622836956f80466ea8549f8f95fd1c16f  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/analysis.md
+543dd89caebbe7cef4faa4d8695bd5927b0677225a06c88e96054a02767268e5  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/attempts.jsonl
+00f125aee28d7c6aacdcc0723f8b7867bcce8964df99f01dcf311a90191dda17  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/config/generic.md
+ab74ee69582f218c6f4068e2e83b7a0b35c9c2d4abc413e75c274241009158c0  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/config/models/claude-opus-4.8-fast.json
+5f1c61ffa3eadaacabf8926fd280e898012159307aaa8fa6f9d79a68df715af7  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/config/models/deepseek-r1-novita-fp8.json
+4ce086e9e0bcbe3ca00b5ee85d3a2ce684fe89f7ab3e5d54fe16854a3a54e882  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/config/models/gpt-oss-120b-wandb-fp4.json
+58afcc5dd4631a1fe3726414e2c8fbe0332845387ac916ce51bc4077575c04d8  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/config/models/mistral-medium-3.5.json
+0c87d2e4e71a4968b32e019249e3f4826c1b6a2530cadca126a551dafbb5c94c  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/config/models/qwen3-next-80b-thinking-alibaba.json
+7d133e1a45f703dd59bc700be524e1d95344746700960cb9f026f47f18d7daf5  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/failed-attempts.jsonl
+306d2d3f32f0af1e8ed5ee6c7f8ac1a7ff6f9290c5487e3ffb54e48894720a82  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/model-runs.jsonl
+7d6ceb2df7b97e6acad81e65ce3efedf5a65fd3ce387816818017ee7b954d320  ./juror-model-experiments/generic-5model-tolerant-20260706T145403Z/plan.json
 492370fb0f9637dd4cbf97b15e39194d169885893f526da093b0855686558fcd  ./manifest.json
 55159402217767ca83131edf62d83168983067d003507bed4b0e9a071ceb3093  ./manual.md
 712473b9bef5d0b0ca6cf3535b05e3a217a354de7f9d7921ccbb72f3bd5f6e8c  ./persona-deliberations/attorney-exhaustive-20260703T180237Z/analysis.md
@@ -538,6 +549,7 @@ a8165dd75554f8c431101418934d9f0c75b84f369aaef372a6bbf7557195ec03  ./runs/arb/exa
 932d430b118263681030ae78f81a4a638c2601d2e589687923841dd67dcb98fe  ./runs/arb/examples/local-direct-3x-20260629/ex01/run-03/state.json
 f7a44a7fb23bf459979d9ad7364c0b8fcd9d34ec4d26e291a798fad66da02901  ./runs/arb/examples/local-direct-3x-20260629/ex01/run-03/transcript.md
 1a47db60a8c4f43776f8f3c507c8beb0165538a90e0bc3235c2a3730e5374065  ./runs/arb/examples/local-direct-3x-20260629/ex01/run-03/work-notes.ndjson
+39a598b25cfb35f3a9b0821f8377dcdfb12422eca113b86165ec8919f25ac153  ./runs/arb/examples/local-direct-3x-20260629/ex01/summary.md
 4a0668e88765bde64fa591d39c53d47d21980ccb19b65a6e16588dcada9c31dc  ./runs/arb/examples/local-direct-3x-20260629/ex02/run-01/aar.stderr
 4e479e1ce9fb5a5366e51ca9b1b971c2e2f708dfe742b8da9ceee04475ff3678  ./runs/arb/examples/local-direct-3x-20260629/ex02/run-01/aar.stdout
 45d1eb7d7f9bfb2d44f693a8d0e2cebd5dda034d606733b27fbfae3c04faf624  ./runs/arb/examples/local-direct-3x-20260629/ex02/run-01/complaint.md
@@ -709,6 +721,7 @@ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./runs/arb/exa
 5d340a46bd86cf4775320f7cf85eb74ee31f951f0eeabaebe196824e2e8918fc  ./runs/arb/examples/local-direct-3x-20260629/ex02/run-03/submitted-evidence/submitted-evidence-03-plaintiff-5d340a46bd86.txt
 0bb89904200516f628ca00d4d84f10dc4e49d670aa7661e111654a3a5d68b6a2  ./runs/arb/examples/local-direct-3x-20260629/ex02/run-03/transcript.md
 2ecc1d404d2ccb3506c394e15d8730dbe536f7584e79684055a48277a4d1b484  ./runs/arb/examples/local-direct-3x-20260629/ex02/run-03/work-notes.ndjson
+f99bc2c28828c446aab5cb5aa06f81b4e535d851f3a349f15a130907c374e85d  ./runs/arb/examples/local-direct-3x-20260629/ex02/summary.md
 4f63a0625037094f7e6d8455f4ee9f34afcab8da0de4698aaddec7c48c8b2c15  ./runs/arb/examples/local-direct-3x-20260629/ex03/run-01/aar.stderr
 94488a9ccb9b41509691ec9c9f044146f42cae17076f80eccf95c666f303e43e  ./runs/arb/examples/local-direct-3x-20260629/ex03/run-01/aar.stdout
 8cfd945f2ad36f5626406ad5dc650d5c2cca14c0a5f20ba3ec31314c93a921b1  ./runs/arb/examples/local-direct-3x-20260629/ex03/run-01/complaint.md
@@ -853,6 +866,7 @@ c3ecd221f5a875b0a76d66c410ec0dcded6cfe22283fa551b183441ad11814e5  ./runs/arb/exa
 8637490aafefe57701cc50581d4371fe0fe3bda0b10a5253c861f0536ff25973  ./runs/arb/examples/local-direct-3x-20260629/ex03/run-03/submitted-evidence/submitted-evidence-02-plaintiff-8637490aafef.txt
 982c733d88402179de7014650e32be289b6c3a873e077f98f200dc5ddc5f8fb6  ./runs/arb/examples/local-direct-3x-20260629/ex03/run-03/transcript.md
 b9775b7c604991f72628a0f908afd95be1b4679437bae4c52801f6329df2b383  ./runs/arb/examples/local-direct-3x-20260629/ex03/run-03/work-notes.ndjson
+9882c7472c9ee8286b9bbbb73d5f0e2dd4c425f70ecb60130268efdc1a894a2a  ./runs/arb/examples/local-direct-3x-20260629/ex03/summary.md
 9d3da568a91a4457e4e86aab3006b214f3fe807c099b690a23e8491edcbbdac3  ./runs/arb/examples/local-direct-3x-20260629/ex03a/run-01/aar.stderr
 aeb8ce769e4680266129556891df3e7e74d703303aec10b9d12d33dedaccfe6e  ./runs/arb/examples/local-direct-3x-20260629/ex03a/run-01/aar.stdout
 8cfd945f2ad36f5626406ad5dc650d5c2cca14c0a5f20ba3ec31314c93a921b1  ./runs/arb/examples/local-direct-3x-20260629/ex03a/run-01/complaint.md
@@ -1027,6 +1041,7 @@ e99c8c3be4d0a81e844a6db2c29370ebdc52b77b9a638de43224d7c41d429cdc  ./runs/arb/exa
 62032bb71fb1431d26b94387e029729d1afb1489c43c59252fa3a49f6c183a8f  ./runs/arb/examples/local-direct-3x-20260629/ex03a/run-03/submitted-evidence/submitted-evidence-03-defendant-62032bb71fb1.txt
 c81ed1adfc8887a5edb8de0575196282faab1153e4b9db2f617aecbd20a001b6  ./runs/arb/examples/local-direct-3x-20260629/ex03a/run-03/transcript.md
 d2f153e93477a1a58b8f808e1b360adda6c5c9362fcd2061425dcffda0583b0d  ./runs/arb/examples/local-direct-3x-20260629/ex03a/run-03/work-notes.ndjson
+00e8abb0a86ab9f78bba93778c56bbf5a8263c9123d8596942fb13a25cc9b55b  ./runs/arb/examples/local-direct-3x-20260629/ex03a/summary.md
 ea92470815e11fa1bf5b2d0b46ce15b2f899b3b042c8e4430a2bb3518ba70f0a  ./runs/arb/examples/local-direct-3x-20260629/ex04/run-01/aar.stderr
 7e3936733bfd9189285e8b6cf686ef971bb868185cc48fd39b94e806241592cc  ./runs/arb/examples/local-direct-3x-20260629/ex04/run-01/aar.stdout
 0d8f3c9f92cfc6cdfa4d7c1a4baea09cd722f68826587821a3095f0eb161ca97  ./runs/arb/examples/local-direct-3x-20260629/ex04/run-01/complaint.md
@@ -1184,6 +1199,7 @@ b0349334e95498a698f7ee92d43c310a4d73469be1429a668722b486c5bc5b0f  ./runs/arb/exa
 cf16e87092598332ea0be39f387cdc3b4c5e8f731bbeb684275c276c1e2dfa75  ./runs/arb/examples/local-direct-3x-20260629/ex04/run-03/submitted-evidence/submitted-evidence-05-defendant-cf16e8709259.txt
 fcb366407f327dab43f7468b48de1c60ee2151973ddecce678511552a9de918c  ./runs/arb/examples/local-direct-3x-20260629/ex04/run-03/transcript.md
 54690d26c5656c546f66f4fba24b0df1f247a213e61544fe637205eb4012f3ec  ./runs/arb/examples/local-direct-3x-20260629/ex04/run-03/work-notes.ndjson
+d97b784e06eed02edcda8504bd8fc30216a82e771bd110d51e4c369ae1eb835c  ./runs/arb/examples/local-direct-3x-20260629/ex04/summary.md
 37f9b8e700790ce2eaea2dbdb3218383569bf96539684e58bdfdc67c9a0ec0e4  ./runs/arb/examples/local-direct-3x-20260629/ex05/run-01/aar.stderr
 3124e3fc8fedf3330e3b8c77934037182dd626874c729cf62d0d6d64b399d4b9  ./runs/arb/examples/local-direct-3x-20260629/ex05/run-01/aar.stdout
 f8e994ddebcfae183305321ef7c0afbe7ceae0cef37becb673e03f7528c8444d  ./runs/arb/examples/local-direct-3x-20260629/ex05/run-01/complaint.md
@@ -1362,6 +1378,7 @@ e0e0fb921ec90639876fb9c4c5697b4f6e3a0fd6a37b4b6befc970412f1f4687  ./runs/arb/exa
 383c84572ac82a3ecd9381ccdb0ec103166ccc794197e35ccc8eec69088e7f17  ./runs/arb/examples/local-direct-3x-20260629/ex05/run-03/submitted-evidence/submitted-evidence-04-defendant-383c84572ac8.txt
 a5c65b9e3056bd606a458eb733dd1571c545e1e9d7ce3d71a78474fb600cf8f5  ./runs/arb/examples/local-direct-3x-20260629/ex05/run-03/transcript.md
 5167e61ca730141eebaa9a3ae55c2946ea5992e0fb3c144169d10ff23a16a417  ./runs/arb/examples/local-direct-3x-20260629/ex05/run-03/work-notes.ndjson
+904c9f8b982d0f07b224ff808685938641a5e89b922edd102d35a98aa3054cd8  ./runs/arb/examples/local-direct-3x-20260629/ex05/summary.md
 2155b1a9d3ebd526d789aa6d8ba01e8eedfc849f5e02d50585485596493fc5a0  ./runs/arb/examples/local-direct-3x-20260629/ex06/run-01/aar.stderr
 362b65d462879abc6b7502c4c8acc1e8e4baeb8ad7866f491b2f7a315d7d3966  ./runs/arb/examples/local-direct-3x-20260629/ex06/run-01/aar.stdout
 6f4ce6a34cb7c98387b7861e1fb5ff968a60cd1530a6285c9120399593f3a9c4  ./runs/arb/examples/local-direct-3x-20260629/ex06/run-01/complaint.md
@@ -1506,6 +1523,7 @@ ade5f873c616306332f6c1213842f9578f221a5fb98f47dd38c879aa70c5475b  ./runs/arb/exa
 78e9314f1e93d7d3d0ff5029b31289764b53f2bd1af4eb01716e8f35a57cce59  ./runs/arb/examples/local-direct-3x-20260629/ex06/run-03/submitted-evidence/submitted-evidence-05-defendant-78e9314f1e93.txt
 2642fc92b5f0313a7b90f8502fb8e6c9708c88341a3fa7a0b5245f589c9331cd  ./runs/arb/examples/local-direct-3x-20260629/ex06/run-03/transcript.md
 14059103006be0f8753f37c9354666fe9de8313efa9b26fa5bbab3b67e0e0628  ./runs/arb/examples/local-direct-3x-20260629/ex06/run-03/work-notes.ndjson
+963dacd5213c50084e150a1053eca21795155567476582cce07e55c284b983c8  ./runs/arb/examples/local-direct-3x-20260629/ex06/summary.md
 0439353684e5f37ac1a84e12a44aba57ee84ae0e4f8d7ab7c7849d35b6634452  ./runs/arb/examples/local-direct-3x-20260629/ex07/run-01/aar.stderr
 7ccfee22729568118eb02da7c1eaa16c34a24cf75849398cff841ffb9a1249ce  ./runs/arb/examples/local-direct-3x-20260629/ex07/run-01/aar.stdout
 453db6dc93772893b42573157c3757f092dee5ec43e607ede5ac1425bac6a690  ./runs/arb/examples/local-direct-3x-20260629/ex07/run-01/complaint.md
@@ -1703,6 +1721,7 @@ cf6a5f80e5665e3328fdebc0af5af1a5833b8220e8843538ae51a200ab0f571c  ./runs/arb/exa
 56be60eae7401c49f3af06011d70c71f4510776a50be34e9a99efbe0b805289f  ./runs/arb/examples/local-direct-3x-20260629/ex07/run-03/submitted-evidence/submitted-evidence-06-defendant-56be60eae740.txt
 61625ee525cf7f3e967ed0cd4640c8eae9e95b4240dd4f704d74891af4e3f287  ./runs/arb/examples/local-direct-3x-20260629/ex07/run-03/transcript.md
 ce7495cc388c13e0f3653bc1e001ac91211e98c768b3ba755f7113d2a32c0993  ./runs/arb/examples/local-direct-3x-20260629/ex07/run-03/work-notes.ndjson
+1d9f8d37741171ad76fdf8b456a51c8fd770b21b2cffd07091775330290be9d3  ./runs/arb/examples/local-direct-3x-20260629/ex07/summary.md
 4497ddd37165d65ec799fdc120da89ec17c0747d28cda6c847e8f88de30b1cf0  ./runs/arb/examples/local-direct-3x-20260629/ex08/run-01/aar.stderr
 fca7993df2c2c891ee6fd59d9a6875b556a8d062937f5e810fdf2dce7dc6d31a  ./runs/arb/examples/local-direct-3x-20260629/ex08/run-01/aar.stdout
 bb2732c00226f4a32a11b393002e33be66c64df9da2c25969b2377776dfa7cfe  ./runs/arb/examples/local-direct-3x-20260629/ex08/run-01/complaint.md
@@ -1870,6 +1889,7 @@ eb7c336c85a2e6f2353bb1062b273e37c88345f2bbb6f4197a9ad87172adc948  ./runs/arb/exa
 4f315084b1b67752e7a1bdd9335d4fdb3be9134131938026864f31913da5459b  ./runs/arb/examples/local-direct-3x-20260629/ex08/run-03/submitted-evidence/submitted-evidence-05-defendant-4f315084b1b6.txt
 f0361e673268c5e0a0d7a6bab642eb4f17e30059fabb3646cf6fb61bfeb9f58b  ./runs/arb/examples/local-direct-3x-20260629/ex08/run-03/transcript.md
 45e315fe8309e943e60013e9f25ed4d6d19661d036f3cc36275c51cc9619f16a  ./runs/arb/examples/local-direct-3x-20260629/ex08/run-03/work-notes.ndjson
+b338bda653311a30b762eabc7a77a3b049e3096dad15ecbc7294910e465d033a  ./runs/arb/examples/local-direct-3x-20260629/ex08/summary.md
 a0424792cab2bee690cdde979ab1527314aa2282d52776df11e23a242fea234f  ./runs/arb/examples/local-direct-3x-20260629/ex08a/run-01/aar.stderr
 89533400a8bd54228602389ec4f3466481abd4ff152818f32d716e37c6e430dc  ./runs/arb/examples/local-direct-3x-20260629/ex08a/run-01/aar.stdout
 bb2732c00226f4a32a11b393002e33be66c64df9da2c25969b2377776dfa7cfe  ./runs/arb/examples/local-direct-3x-20260629/ex08a/run-01/complaint.md
@@ -2014,6 +2034,7 @@ a2ccbb719d1fab06be2d4b91c78b80fbaeef2c1c58aa8920fb6856caaa98bf13  ./runs/arb/exa
 07b7be066555a0766c37ccbbcf15609c676a715461493dbe8752b25128e635c9  ./runs/arb/examples/local-direct-3x-20260629/ex08a/run-03/submitted-evidence/submitted-evidence-03-defendant-07b7be066555.txt
 2e0a2a2a7ec23b4c154c3035c262e94c3266af10abc4891ec879b3b695248a34  ./runs/arb/examples/local-direct-3x-20260629/ex08a/run-03/transcript.md
 842b452c3a0cdb0bf74c33f49187aa2a548a4106cfa0742125012a08fdefe1d9  ./runs/arb/examples/local-direct-3x-20260629/ex08a/run-03/work-notes.ndjson
+d9d1e9ca503a47c35b00c4c6a100e426d246775a20afb33e9cd3ba8247f5ea44  ./runs/arb/examples/local-direct-3x-20260629/ex08a/summary.md
 9d2b57095557666f1ee480cf425fe63254b4325c17361b39ce06ae3a2e29ef02  ./runs/arb/examples/local-direct-3x-20260629/ex09/run-01/aar.stderr
 a6e3de6ac190344f89628cc8dffc8cd51ec0016e235f6d648ce1c569f674299d  ./runs/arb/examples/local-direct-3x-20260629/ex09/run-01/aar.stdout
 ee16614a869b1b568ed3204ec850f10b93278b2e0bda8d6be706f0aad6bbc904  ./runs/arb/examples/local-direct-3x-20260629/ex09/run-01/complaint.md
@@ -2169,6 +2190,7 @@ f0160b3ff4adda3a809b62a6da02552d3665af82537802e9d2f79b28bfddadab  ./runs/arb/exa
 5570c630032efbfd49996258af818149b11e4a7b94db835fa0670c91812274f5  ./runs/arb/examples/local-direct-3x-20260629/ex09/run-03/submitted-evidence/submitted-evidence-02-plaintiff-5570c630032e.txt
 16ab9db4fd9c80b70ef6960737b58fbd5095bc33300460aa962c9ef85a53484b  ./runs/arb/examples/local-direct-3x-20260629/ex09/run-03/transcript.md
 eca42990baa9c0e0d9f1ecb090d8bf85b880c6551dd7cba81a74f771adf7bbfe  ./runs/arb/examples/local-direct-3x-20260629/ex09/run-03/work-notes.ndjson
+4e9d0d65676545e0a21249a8d2993a11b30b34adbbf84cb93d26af407cb26887  ./runs/arb/examples/local-direct-3x-20260629/ex09/summary.md
 7d8c5c6f370d682afb1be4fa245d97a5589d78c7dea90d7e640de0b827d1d80c  ./runs/arb/examples/local-direct-3x-20260629/ex10/run-01/aar.stderr
 63a6cd8df96efc8f3d2bf68234e64767e9e944a64f140a7c51e7b84510ad98b3  ./runs/arb/examples/local-direct-3x-20260629/ex10/run-01/aar.stdout
 b4b362b400684f63d6c275e55890e50f5f8fc442655d5372b47f2f2830c7f196  ./runs/arb/examples/local-direct-3x-20260629/ex10/run-01/complaint.md
@@ -2344,6 +2366,7 @@ b3b269de98e48d5d5b696c9bcca2f7f28cd0788768495125fec22affdbda5648  ./runs/arb/exa
 2b6994532a435d15d94f7ec3950ec92eaaf33931f20c6070810d53618b5c36b4  ./runs/arb/examples/local-direct-3x-20260629/ex10/run-03/submitted-evidence/submitted-evidence-07-defendant-2b6994532a43.txt
 aff784ecf815015e27f15098f83f1b0753b54d346f8aea7ad3a2bb86587431cd  ./runs/arb/examples/local-direct-3x-20260629/ex10/run-03/transcript.md
 2511b05ba790091c181280e6f4ea3d1387c4405fe47f17685289bf8814437d8d  ./runs/arb/examples/local-direct-3x-20260629/ex10/run-03/work-notes.ndjson
+b76fa019efc1f4ed34b73df85215eb8efeababe52feacadd21d8448655e1c678  ./runs/arb/examples/local-direct-3x-20260629/ex10/summary.md
 4350d348a0a4a3c5ff17ceb2cc4dcae7fa47e74dd8d663c1bc4b2ea7a061c06e  ./runs/arb/examples/local-direct-3x-20260629/ex11/run-01/aar.stderr
 4f7eea4cbef6260f523477fb24bf52d6b0004f973a9c2b2a172a13c1b0d81a47  ./runs/arb/examples/local-direct-3x-20260629/ex11/run-01/aar.stdout
 8500859d290b3d3500a709884a04184718aa3436c4d17c0dae298864d796b62b  ./runs/arb/examples/local-direct-3x-20260629/ex11/run-01/complaint.md
@@ -2503,6 +2526,7 @@ a4f6006338eab394fb8a934332fd13e8645c48dda5de79c14f2ed13c8c6f8d4b  ./runs/arb/exa
 2cc823ee050e7304a59e28bef1989b58c420783f801cd1a99a59389b72f775d3  ./runs/arb/examples/local-direct-3x-20260629/ex11/run-03/submitted-evidence/submitted-evidence-05-defendant-2cc823ee050e.txt
 0d884d4b8b651c6d9f5aa8e23bb348a1fc780b3ecf6e502a36097636fe476fdf  ./runs/arb/examples/local-direct-3x-20260629/ex11/run-03/transcript.md
 82c5c0f6ebac2fa692e74900f3a8c26d080eb48f7d69b0ed5122665d261f20a8  ./runs/arb/examples/local-direct-3x-20260629/ex11/run-03/work-notes.ndjson
+0c8965db0b10efd4a332994474bd517945e47fae1c7f0b9d8449f0e43109ad56  ./runs/arb/examples/local-direct-3x-20260629/ex11/summary.md
 37c1872456492a6adf8a967ed03ae77e64cf2acac091a0b3543ca27a7a5220f4  ./runs/arb/examples/local-direct-3x-20260629/ex11a/run-01/aar.stderr
 78d0883ae5d013d808e197012988ec15a09c788eedb5be7086b732d8cbac09a6  ./runs/arb/examples/local-direct-3x-20260629/ex11a/run-01/aar.stdout
 8500859d290b3d3500a709884a04184718aa3436c4d17c0dae298864d796b62b  ./runs/arb/examples/local-direct-3x-20260629/ex11a/run-01/complaint.md
@@ -2652,6 +2676,7 @@ a2bcc63bd342a416d2670b66f850e55faa589cc6260b5b1276dae3f533aa9534  ./runs/arb/exa
 682e9dcc59479189306395e48f8103206308ca5d42b8c28cc591f3f69252d966  ./runs/arb/examples/local-direct-3x-20260629/ex11a/run-03/submitted-evidence/submitted-evidence-04-plaintiff-682e9dcc5947.txt
 b5a23db4ea5fcba1356ffbb0ceaf3e1fc7997aa0133a23c6088da21dac10a538  ./runs/arb/examples/local-direct-3x-20260629/ex11a/run-03/transcript.md
 cebfeb7d7acc52d1e2d21706964a0e35a68111a1d21e5e1902b33c0d31ff44c8  ./runs/arb/examples/local-direct-3x-20260629/ex11a/run-03/work-notes.ndjson
+31bd0e97e4ea8ac18ad573e1a2fce7f2e6c3b1164910f50ef431b0aba5e2a07e  ./runs/arb/examples/local-direct-3x-20260629/ex11a/summary.md
 35f1f04f56c6df407cfc6b1a0734b58270486b3e56d29295e9a3db7bfb48253c  ./runs/arb/examples/local-direct-3x-20260629/ex12/run-01/aar.stderr
 8db45e17dbeb318628ba5255c129fcfe6458d07f2c4ffb66bc9fae3c3d4690f7  ./runs/arb/examples/local-direct-3x-20260629/ex12/run-01/aar.stdout
 3b1249cb48edfdedd42f0f5099417851d8e14a54119ca68f2e209977598f2a04  ./runs/arb/examples/local-direct-3x-20260629/ex12/run-01/complaint.md
@@ -2813,6 +2838,7 @@ b01b937ea525a6ce55db7cf3575ba7d5b70f39ec0a4e4896cc20ceb1a3bcaf54  ./runs/arb/exa
 f736eb543e7c927519c42f6c43f328b9646ec2d9d2783a4b3e9b9e05cbd9be0e  ./runs/arb/examples/local-direct-3x-20260629/ex12/run-03/submitted-evidence/submitted-evidence-04-defendant-f736eb543e7c.txt
 607a514da04e66847f2c2446b776083a977ba652d5330a4f951a4a10bff17dec  ./runs/arb/examples/local-direct-3x-20260629/ex12/run-03/transcript.md
 d3b117b308bf7d16b7d31b6662fc2733168901198b14aa50f65303e3c8f03749  ./runs/arb/examples/local-direct-3x-20260629/ex12/run-03/work-notes.ndjson
+31a1fdfe65e87d322d09890dc45114ce65e245bc525e105147892fd68aa6dc3b  ./runs/arb/examples/local-direct-3x-20260629/ex12/summary.md
 480a2067a6dbf539486f9955491c13dd8ad487df7032b087b6eba401327ab70a  ./runs/arb/examples/local-direct-3x-20260629/ex13/run-01/aar.stderr
 3eba84c158d130d7ab386874588b7a9338d8a195bd21ba4e02f0c1a8da998d13  ./runs/arb/examples/local-direct-3x-20260629/ex13/run-01/aar.stdout
 08ef22cddfc85db1f5f453ea30df5ca739a22a45f5711eecbca76d08ec608b34  ./runs/arb/examples/local-direct-3x-20260629/ex13/run-01/complaint.md
@@ -2968,6 +2994,7 @@ d6ef8a8fd4dc38e075a73e6f9f0adcdeabf3e2c2552e717b1389ba156fe72724  ./runs/arb/exa
 0606fd0d81a781db5b748a887348cc0d34980db7d174e5bdf37153846b0ca30a  ./runs/arb/examples/local-direct-3x-20260629/ex13/run-03/submitted-evidence/submitted-evidence-04-plaintiff-0606fd0d81a7.txt
 ea8862391756d0be4fb239117dbf7142fe3555c1517d3a2e71bfd57357572255  ./runs/arb/examples/local-direct-3x-20260629/ex13/run-03/transcript.md
 fcfd5f90b1b2bd6b3a7c37fc31661ffaadf8ebbd2bbd08091204a2f144b66089  ./runs/arb/examples/local-direct-3x-20260629/ex13/run-03/work-notes.ndjson
+068c475c16e8abc7826b573c9bd9911570320a70d2ebe8cfa414b16d3d9b26f7  ./runs/arb/examples/local-direct-3x-20260629/ex13/summary.md
 f8d2073792cf03272890be0fe60eeac251820a75623e8c858ee7bac5e49ee107  ./runs/arb/examples/local-direct-3x-20260629/ledger.csv
 5c2f4ec7e05f950a75188247a248a98aa13c0ed9a9cfff081b652c565da55568  ./runs/arb/examples/local-direct-3x-20260629/provenance.md
 643c724f0b5356ed11a5102ec74819f28ad2faafac9d656d5bc677bf1fb122d0  ./runs/arb/examples/local-direct-3x-20260629/run-batch.sh

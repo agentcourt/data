@@ -1,0 +1,2642 @@
+[
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex01/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex01/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex01/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 1,
+    "source_run": "ex02/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 1,
+    "source_run": "ex02/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex02/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex03/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex03/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 1,
+    "source_run": "ex03/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 1,
+    "source_run": "ex03a/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex03a/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex03a/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex04/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 1,
+    "source_run": "ex04/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 1,
+    "source_run": "ex04/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex05/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex05/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex05/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 1,
+    "source_run": "ex06/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 1,
+    "source_run": "ex06/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex06/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex07/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex07/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 1,
+    "source_run": "ex07/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 1,
+    "source_run": "ex08/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex08/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex08/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex08a/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 1,
+    "source_run": "ex08a/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 1,
+    "source_run": "ex08a/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex09/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex09/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex09/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 1,
+    "source_run": "ex10/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 1,
+    "source_run": "ex10/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex10/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex11/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex11/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 1,
+    "source_run": "ex11/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 1,
+    "source_run": "ex11a/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex11a/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex11a/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex12/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 1,
+    "source_run": "ex12/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 1,
+    "source_run": "ex12/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 1,
+    "source_run": "ex13/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 1,
+    "source_run": "ex13/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 1,
+    "source_run": "ex13/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex01/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex01/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex01/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 2,
+    "source_run": "ex02/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 2,
+    "source_run": "ex02/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex02/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex03/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex03/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 2,
+    "source_run": "ex03/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 2,
+    "source_run": "ex03a/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex03a/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex03a/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex04/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 2,
+    "source_run": "ex04/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 2,
+    "source_run": "ex04/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex05/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex05/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex05/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 2,
+    "source_run": "ex06/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 2,
+    "source_run": "ex06/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex06/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex07/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex07/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 2,
+    "source_run": "ex07/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 2,
+    "source_run": "ex08/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex08/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex08/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex08a/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 2,
+    "source_run": "ex08a/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 2,
+    "source_run": "ex08a/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex09/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex09/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex09/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 2,
+    "source_run": "ex10/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 2,
+    "source_run": "ex10/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex10/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex11/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex11/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 2,
+    "source_run": "ex11/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 2,
+    "source_run": "ex11a/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex11a/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex11a/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex12/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 2,
+    "source_run": "ex12/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 2,
+    "source_run": "ex12/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 2,
+    "source_run": "ex13/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 2,
+    "source_run": "ex13/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 2,
+    "source_run": "ex13/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex01/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex01/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex01/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 3,
+    "source_run": "ex02/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 3,
+    "source_run": "ex02/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex02/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex03/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex03/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 3,
+    "source_run": "ex03/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 3,
+    "source_run": "ex03a/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex03a/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex03a/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex04/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 3,
+    "source_run": "ex04/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 3,
+    "source_run": "ex04/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex05/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex05/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex05/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 3,
+    "source_run": "ex06/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 3,
+    "source_run": "ex06/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex06/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex07/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex07/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 3,
+    "source_run": "ex07/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 3,
+    "source_run": "ex08/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex08/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex08/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex08a/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 3,
+    "source_run": "ex08a/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 3,
+    "source_run": "ex08a/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex09/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex09/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex09/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 3,
+    "source_run": "ex10/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 3,
+    "source_run": "ex10/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex10/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex11/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex11/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 3,
+    "source_run": "ex11/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 3,
+    "source_run": "ex11a/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex11a/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex11a/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex12/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 3,
+    "source_run": "ex12/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 3,
+    "source_run": "ex12/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 3,
+    "source_run": "ex13/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 3,
+    "source_run": "ex13/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 3,
+    "source_run": "ex13/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex01/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex01/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex01/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 4,
+    "source_run": "ex02/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 4,
+    "source_run": "ex02/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex02/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex03/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex03/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 4,
+    "source_run": "ex03/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 4,
+    "source_run": "ex03a/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex03a/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex03a/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex04/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 4,
+    "source_run": "ex04/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 4,
+    "source_run": "ex04/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex05/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex05/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex05/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 4,
+    "source_run": "ex06/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 4,
+    "source_run": "ex06/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex06/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex07/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex07/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 4,
+    "source_run": "ex07/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 4,
+    "source_run": "ex08/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex08/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex08/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex08a/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 4,
+    "source_run": "ex08a/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 4,
+    "source_run": "ex08a/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex09/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex09/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex09/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 4,
+    "source_run": "ex10/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 4,
+    "source_run": "ex10/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex10/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex11/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex11/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 4,
+    "source_run": "ex11/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 4,
+    "source_run": "ex11a/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex11a/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex11a/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex12/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 4,
+    "source_run": "ex12/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 4,
+    "source_run": "ex12/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 4,
+    "source_run": "ex13/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 4,
+    "source_run": "ex13/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 4,
+    "source_run": "ex13/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex01/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex01/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex01/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 5,
+    "source_run": "ex02/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 5,
+    "source_run": "ex02/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex02/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex03/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex03/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 5,
+    "source_run": "ex03/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 5,
+    "source_run": "ex03a/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex03a/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex03a/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex04/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 5,
+    "source_run": "ex04/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 5,
+    "source_run": "ex04/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex05/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex05/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex05/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 5,
+    "source_run": "ex06/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 5,
+    "source_run": "ex06/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex06/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex07/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex07/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 5,
+    "source_run": "ex07/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 5,
+    "source_run": "ex08/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex08/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex08/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex08a/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 5,
+    "source_run": "ex08a/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 5,
+    "source_run": "ex08a/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex09/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex09/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex09/run-03"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 5,
+    "source_run": "ex10/run-01"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 5,
+    "source_run": "ex10/run-02"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex10/run-03"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex11/run-01"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex11/run-02"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 5,
+    "source_run": "ex11/run-03"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 5,
+    "source_run": "ex11a/run-01"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex11a/run-02"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex11a/run-03"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex12/run-01"
+  },
+  {
+    "model_order": [
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5"
+    ],
+    "repeat": 5,
+    "source_run": "ex12/run-02"
+  },
+  {
+    "model_order": [
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b"
+    ],
+    "repeat": 5,
+    "source_run": "ex12/run-03"
+  },
+  {
+    "model_order": [
+      "deepseek-r1",
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast"
+    ],
+    "repeat": 5,
+    "source_run": "ex13/run-01"
+  },
+  {
+    "model_order": [
+      "qwen3-next-80b-thinking",
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1"
+    ],
+    "repeat": 5,
+    "source_run": "ex13/run-02"
+  },
+  {
+    "model_order": [
+      "mistral-medium-3.5",
+      "gpt-oss-120b",
+      "claude-opus-4.8-fast",
+      "deepseek-r1",
+      "qwen3-next-80b-thinking"
+    ],
+    "repeat": 5,
+    "source_run": "ex13/run-03"
+  }
+]
